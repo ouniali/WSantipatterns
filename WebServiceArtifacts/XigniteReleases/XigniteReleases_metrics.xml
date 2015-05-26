@@ -1,0 +1,1186 @@
+	<class>
+		<name>com.xignite.services.ReleaseSourceTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>6</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static com.xignite.services.ReleaseSourceTypes fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.ReleaseSourceTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.ReleaseSourceTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.MarketHeadline</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getReleaseId()">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public void setReference(String arg0)">1</method>
+			<method name="public void setSource(com.xignite.services.ReleaseSource arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public com.xignite.services.ReleaseSource getSource()">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public void setReleaseId(String arg0)">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public String getReference()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ReleaseSource</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.xignite.services.ReleaseSourceTypes getSourceType()">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setSourceType(com.xignite.services.ReleaseSourceTypes arg0)">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSecurityHeadline</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSecurityHeadline()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SecurityHeadlines</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>7</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSecurityHeadline getHeadlines()">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHeadlines(com.xignite.services.ArrayOfSecurityHeadline arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchMarketHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.MarketHeadlines getSearchMarketHeadlinesResult()">1</method>
+			<method name="public void setSearchMarketHeadlinesResult(com.xignite.services.MarketHeadlines arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastMarketHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.MarketHeadlines getGetLastMarketHeadlinesResult()">1</method>
+			<method name="public void setGetLastMarketHeadlinesResult(com.xignite.services.MarketHeadlines arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalMarketHeadlines</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setSource(com.xignite.services.ReleaseSourceTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.ReleaseSourceTypes getSource()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopMarketHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.MarketHeadlines getGetTopMarketHeadlinesResult()">1</method>
+			<method name="public void setGetTopMarketHeadlinesResult(com.xignite.services.MarketHeadlines arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetReleaseContent</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReleaseID(String arg0)">1</method>
+			<method name="public String getReleaseID()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteReleasesSoap</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>11</rfc>
+		<lcom>55</lcom>
+		<ca>1</ca>
+		<ce>5</ce>
+		<npm>11</npm>
+		<lcom3>2.0</lcom3>
+		<loc>11</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5636363636363636</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.MarketHeadlines getHistoricalMarketHeadlines(com.xignite.services.ReleaseSourceTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.MarketHeadlines searchMarketHeadlines(com.xignite.services.ReleaseSourceTypes, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.Release getReleaseContent(String)">1</method>
+			<method name="public abstract com.xignite.services.SecurityHeadlines getHistoricalSecurityHeadlines(String, com.xignite.services.IdentifierTypes, com.xignite.services.ReleaseSourceTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.SecurityHeadlines getTopSecurityHeadlines(String, com.xignite.services.IdentifierTypes, int)">1</method>
+			<method name="public abstract com.xignite.services.SecurityHeadlines searchSecurityHeadlines(String, com.xignite.services.IdentifierTypes, com.xignite.services.ReleaseSourceTypes, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.MarketHeadlines getTodaysMarketHeadlines()">1</method>
+			<method name="public abstract com.xignite.services.SecurityHeadlines getLastSecurityHeadlines(String, com.xignite.services.IdentifierTypes, String)">1</method>
+			<method name="public abstract com.xignite.services.SecurityHeadlines getTodaysSecurityHeadlines(String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.MarketHeadlines getTopMarketHeadlines(int)">1</method>
+			<method name="public abstract com.xignite.services.MarketHeadlines getLastMarketHeadlines(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastSecurityHeadlines</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setSinceDate(String arg0)">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public String getSinceDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTodaysSecurityHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.SecurityHeadlines getGetTodaysSecurityHeadlinesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTodaysSecurityHeadlinesResult(com.xignite.services.SecurityHeadlines arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastMarketHeadlines</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSinceDate(String arg0)">1</method>
+			<method name="public String getSinceDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Header</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setTracer(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+			<method name="public String getTracer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteReleases</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient com.xignite.services.XigniteReleasesSoap getXigniteReleasesSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public com.xignite.services.XigniteReleasesSoap getXigniteReleasesSoap()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalSecurityHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.SecurityHeadlines getGetHistoricalSecurityHeadlinesResult()">1</method>
+			<method name="public void setGetHistoricalSecurityHeadlinesResult(com.xignite.services.SecurityHeadlines arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SecurityHeadline</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getTitle()">1</method>
+			<method name="public String getReleaseId()">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public void setReference(String arg0)">1</method>
+			<method name="public void setReleaseId(String arg0)">1</method>
+			<method name="public void setSource(com.xignite.services.ReleaseSource arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public String getReference()">1</method>
+			<method name="public com.xignite.services.ReleaseSource getSource()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastSecurityHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.SecurityHeadlines getGetLastSecurityHeadlinesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetLastSecurityHeadlinesResult(com.xignite.services.SecurityHeadlines arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTodaysMarketHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.MarketHeadlines getGetTodaysMarketHeadlinesResult()">1</method>
+			<method name="public void setGetTodaysMarketHeadlinesResult(com.xignite.services.MarketHeadlines arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.MarketHeadlines</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>7</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfMarketHeadline getHeadlines()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHeadlines(com.xignite.services.ArrayOfMarketHeadline arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalSecurityHeadlines</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setSource(com.xignite.services.ReleaseSourceTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.xignite.services.ReleaseSourceTypes getSource()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.IdentifierTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>6</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static com.xignite.services.IdentifierTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.IdentifierTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.IdentifierTypes fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopSecurityHeadlines</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTodaysMarketHeadlines</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTodaysSecurityHeadlines</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfMarketHeadline</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getMarketHeadline()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Security</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getCusip()">1</method>
+			<method name="public String getCIK()">1</method>
+			<method name="public void setCIK(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getISIN()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public void setMarket(String arg0)">1</method>
+			<method name="public void setValoren(String arg0)">1</method>
+			<method name="public String getCategoryOrIndustry()">1</method>
+			<method name="public void setCusip(String arg0)">1</method>
+			<method name="public void setISIN(String arg0)">1</method>
+			<method name="public void setCategoryOrIndustry(String arg0)">1</method>
+			<method name="public String getValoren()">1</method>
+			<method name="public String getMarket()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetReleaseContentResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Release getGetReleaseContentResult()">1</method>
+			<method name="public void setGetReleaseContentResult(com.xignite.services.Release arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchSecurityHeadlines</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public com.xignite.services.ReleaseSourceTypes getSource()">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setSource(com.xignite.services.ReleaseSourceTypes arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchSecurityHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.SecurityHeadlines getSearchSecurityHeadlinesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchSecurityHeadlinesResult(com.xignite.services.SecurityHeadlines arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopMarketHeadlines</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>39</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>33</cbo>
+		<rfc>75</rfc>
+		<lcom>733</lcom>
+		<ca>0</ca>
+		<ce>33</ce>
+		<npm>38</npm>
+		<lcom3>0.9736842105263158</lcom3>
+		<loc>235</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.22105263157894736</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.923076923076923</amc>
+		<cc>
+			<method name="public com.xignite.services.GetHistoricalMarketHeadlines createGetHistoricalMarketHeadlines()">1</method>
+			<method name="public com.xignite.services.ArrayOfSecurityHeadline createArrayOfSecurityHeadline()">1</method>
+			<method name="public com.xignite.services.GetLastSecurityHeadlines createGetLastSecurityHeadlines()">1</method>
+			<method name="public com.xignite.services.Header createHeader()">1</method>
+			<method name="public com.xignite.services.MarketHeadlines createMarketHeadlines()">1</method>
+			<method name="public com.xignite.services.GetTodaysMarketHeadlinesResponse createGetTodaysMarketHeadlinesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeader(com.xignite.services.Header arg0)">1</method>
+			<method name="public com.xignite.services.SecurityHeadlines createSecurityHeadlines()">1</method>
+			<method name="public com.xignite.services.GetTopMarketHeadlinesResponse createGetTopMarketHeadlinesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRelease(com.xignite.services.Release arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSecurityHeadlines(com.xignite.services.SecurityHeadlines arg0)">1</method>
+			<method name="public com.xignite.services.GetTodaysSecurityHeadlines createGetTodaysSecurityHeadlines()">1</method>
+			<method name="public com.xignite.services.SecurityHeadline createSecurityHeadline()">1</method>
+			<method name="public com.xignite.services.GetTodaysMarketHeadlines createGetTodaysMarketHeadlines()">1</method>
+			<method name="public com.xignite.services.SearchMarketHeadlines createSearchMarketHeadlines()">1</method>
+			<method name="public com.xignite.services.GetLastMarketHeadlines createGetLastMarketHeadlines()">1</method>
+			<method name="public com.xignite.services.MarketHeadline createMarketHeadline()">1</method>
+			<method name="public com.xignite.services.GetTodaysSecurityHeadlinesResponse createGetTodaysSecurityHeadlinesResponse()">1</method>
+			<method name="public com.xignite.services.Security createSecurity()">1</method>
+			<method name="public com.xignite.services.SearchSecurityHeadlinesResponse createSearchSecurityHeadlinesResponse()">1</method>
+			<method name="public com.xignite.services.GetTopMarketHeadlines createGetTopMarketHeadlines()">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.GetTopSecurityHeadlines createGetTopSecurityHeadlines()">1</method>
+			<method name="public com.xignite.services.SearchSecurityHeadlines createSearchSecurityHeadlines()">1</method>
+			<method name="public com.xignite.services.GetLastSecurityHeadlinesResponse createGetLastSecurityHeadlinesResponse()">1</method>
+			<method name="public com.xignite.services.GetReleaseContentResponse createGetReleaseContentResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMarketHeadlines(com.xignite.services.MarketHeadlines arg0)">1</method>
+			<method name="public com.xignite.services.GetHistoricalSecurityHeadlinesResponse createGetHistoricalSecurityHeadlinesResponse()">1</method>
+			<method name="public com.xignite.services.SearchMarketHeadlinesResponse createSearchMarketHeadlinesResponse()">1</method>
+			<method name="public com.xignite.services.ReleaseSource createReleaseSource()">1</method>
+			<method name="public com.xignite.services.GetTopSecurityHeadlinesResponse createGetTopSecurityHeadlinesResponse()">1</method>
+			<method name="public com.xignite.services.GetReleaseContent createGetReleaseContent()">1</method>
+			<method name="public com.xignite.services.ArrayOfMarketHeadline createArrayOfMarketHeadline()">1</method>
+			<method name="public com.xignite.services.GetLastMarketHeadlinesResponse createGetLastMarketHeadlinesResponse()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.GetHistoricalMarketHeadlinesResponse createGetHistoricalMarketHeadlinesResponse()">1</method>
+			<method name="public com.xignite.services.GetHistoricalSecurityHeadlines createGetHistoricalSecurityHeadlines()">1</method>
+			<method name="public com.xignite.services.Release createRelease()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchMarketHeadlines</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void setSource(com.xignite.services.ReleaseSourceTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.ReleaseSourceTypes getSource()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopSecurityHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.SecurityHeadlines getGetTopSecurityHeadlinesResult()">1</method>
+			<method name="public void setGetTopSecurityHeadlinesResult(com.xignite.services.SecurityHeadlines arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Release</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setContent(String arg0)">1</method>
+			<method name="public String getReleaseId()">1</method>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public void setReleaseId(String arg0)">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public void setHeadline(com.xignite.services.SecurityHeadline arg0)">1</method>
+			<method name="public com.xignite.services.SecurityHeadline getHeadline()">1</method>
+			<method name="public String getContent()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalMarketHeadlinesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.MarketHeadlines getGetHistoricalMarketHeadlinesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetHistoricalMarketHeadlinesResult(com.xignite.services.MarketHeadlines arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>4</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>

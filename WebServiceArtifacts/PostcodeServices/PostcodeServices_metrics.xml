@@ -1,0 +1,3425 @@
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$Nearest</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7368421052631579</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public String getPostcodeDatum()">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setPostcodeDescription(String arg0)">1</method>
+			<method name="public void setPostcodeReturn(String arg0)">1</method>
+			<method name="public String getDistanceKilometres()">1</method>
+			<method name="public void setDistanceMiles(String arg0)">1</method>
+			<method name="public String getDistanceNauticalMiles()">1</method>
+			<method name="public void setDistanceNauticalMiles(String arg0)">1</method>
+			<method name="public void setDistanceKilometres(String arg0)">1</method>
+			<method name="public String getPostcodeDescription()">1</method>
+			<method name="public void setPostcodeDatum(String arg0)">1</method>
+			<method name="public String getDistanceMiles()">1</method>
+			<method name="public String getPostcodeReturn()">1</method>
+			<method name="public void setDistanceMetres(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getOrdinalPosition()">1</method>
+			<method name="public void setOrdinalPosition(String arg0)">1</method>
+			<method name="public String getDistanceMetres()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ArrayOfGeographic</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getGeographic()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.PostcodeServices</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.PostcodeServicesSoap getPostcodeServicesSoap()">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public transient com.epostcode.ws.uk.PostcodeServicesSoap getPostcodeServicesSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByOrganisationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchPremiseByOrganisationResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByOrganisationResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getListAddressPremiseOrListAddressThoroughfareOrNearest()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$AddressPremise</name>
+		<wmc>45</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>46</rfc>
+		<lcom>946</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>45</npm>
+		<lcom3>0.9772727272727273</lcom3>
+		<loc>224</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7444444444444445</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.488888888888889</amc>
+		<cc>
+			<method name="public String getPostOfficeBox()">1</method>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public void setCountyLocalAuthority(String arg0)">1</method>
+			<method name="public String getUserCategory()">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public String getStreet()">1</method>
+			<method name="public String getOrganisationDepartment()">1</method>
+			<method name="public String getBuildingName()">1</method>
+			<method name="public String getDeliveryPointSuffix()">1</method>
+			<method name="public String getNumber()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setDeliveryPointSuffix(String arg0)">1</method>
+			<method name="public void setMailsortSortcode(String arg0)">1</method>
+			<method name="public void setOrganisationDepartment(String arg0)">1</method>
+			<method name="public String getOrganisation()">1</method>
+			<method name="public void setSubBuildingName(String arg0)">1</method>
+			<method name="public String getDependentStreet()">1</method>
+			<method name="public String getCountyTraditional()">1</method>
+			<method name="public void setCountyTraditional(String arg0)">1</method>
+			<method name="public void setStreet(String arg0)">1</method>
+			<method name="public void setBuildingName(String arg0)">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public String getSubBuildingName()">1</method>
+			<method name="public void setNumber(String arg0)">1</method>
+			<method name="public void setDoubleDependentLocality(String arg0)">1</method>
+			<method name="public void setDependentLocality(String arg0)">1</method>
+			<method name="public String getDependentLocality()">1</method>
+			<method name="public void setDependentStreet(String arg0)">1</method>
+			<method name="public void setCountyFormerPostal(String arg0)">1</method>
+			<method name="public String getCountyLocalAuthority()">1</method>
+			<method name="public void setCountyAdministrative(String arg0)">1</method>
+			<method name="public String getMailsortSortcode()">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public void setOrganisation(String arg0)">1</method>
+			<method name="public String getCountyFormerPostal()">1</method>
+			<method name="public void setPostOfficeBox(String arg0)">1</method>
+			<method name="public void setPostTown(String arg0)">1</method>
+			<method name="public void setUniqueDeliveryPoint(String arg0)">1</method>
+			<method name="public String getDoubleDependentLocality()">1</method>
+			<method name="public String getCountyAdministrative()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setUserCategory(String arg0)">1</method>
+			<method name="public String getUniqueDeliveryPoint()">1</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+			<method name="public String getPostTown()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPostcodeDatasetResponse$SearchPremiseByPostcodeDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$ListAddressPremise</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setListAddress(String arg0)">1</method>
+			<method name="public String getListAddress()">1</method>
+			<method name="public void setUniqueDeliveryPoint(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUniqueDeliveryPoint()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremise</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSSearch()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSSearch(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPOBoxResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchPremiseByPOBoxResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByPOBoxResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPostcodeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByPostcodeResult()">1</method>
+			<method name="public void setSearchPremiseByPostcodeResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByOrganisation</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSOrganisation(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSTown(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSTown()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSOrganisation()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByOrganisationDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByOrganisationDatasetResponse$SearchPremiseByOrganisationDatasetResult getSearchPremiseByOrganisationDatasetResult()">1</method>
+			<method name="public void setSearchPremiseByOrganisationDatasetResult(com.epostcode.ws.uk.SearchPremiseByOrganisationDatasetResponse$SearchPremiseByOrganisationDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreet</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSSearch()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSSearch(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ServiceTest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ArrayOfAddressPremise</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAddressPremise()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GeoDataForPostcodeDatasetResponse$GeoDataForPostcodeDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByStreet</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSTown(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSTown()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public String getSNumber()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+			<method name="public void setSStreet(String arg0)">1</method>
+			<method name="public void setSNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSStreet()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPostcode</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSPostcode(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSPostcode()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByStreetDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByStreetDatasetResponse$SearchPremiseByStreetDatasetResult getSearchPremiseByStreetDatasetResult()">1</method>
+			<method name="public void setSearchPremiseByStreetDatasetResult(com.epostcode.ws.uk.SearchPremiseByStreetDatasetResponse$SearchPremiseByStreetDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPOBoxDataset</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getSPOBox()">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSTown(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSTown()">1</method>
+			<method name="public void setSPOBox(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GeoDataForPostcodeDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSPostcodes(String arg0)">1</method>
+			<method name="public String getSPostcodes()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GetPremiseAddressFromUDP</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSUniqueDeliveryPointID(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getSUniqueDeliveryPointID()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.DistanceBetweenPostcodesDataset</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getSPostcodeCheck()">1</method>
+			<method name="public void setSPostcodeDatum(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSPostcodeCheck(String arg0)">1</method>
+			<method name="public String getSPostcodeDatum()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDatasetResponse$SearchPremiseByWordMatchOnStreetDatasetResult getSearchPremiseByWordMatchOnStreetDatasetResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchPremiseByWordMatchOnStreetDatasetResult(com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDatasetResponse$SearchPremiseByWordMatchOnStreetDatasetResult arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByThouroughfareID</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getSThouroughfareID()">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSThouroughfareID(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDatasetResponse$SearchPremiseByWordMatchOnAllDatasetResult getSearchPremiseByWordMatchOnAllDatasetResult()">1</method>
+			<method name="public void setSearchPremiseByWordMatchOnAllDatasetResult(com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDatasetResponse$SearchPremiseByWordMatchOnAllDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPostcodeDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPostcodeDatasetResponse$SearchPremiseByPostcodeDatasetResult getSearchPremiseByPostcodeDatasetResult()">1</method>
+			<method name="public void setSearchPremiseByPostcodeDatasetResult(com.epostcode.ws.uk.SearchPremiseByPostcodeDatasetResponse$SearchPremiseByPostcodeDatasetResult arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.DistanceBetweenPostcodesDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.DistanceBetweenPostcodesDatasetResponse$DistanceBetweenPostcodesDatasetResult getDistanceBetweenPostcodesDatasetResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDistanceBetweenPostcodesDatasetResult(com.epostcode.ws.uk.DistanceBetweenPostcodesDatasetResponse$DistanceBetweenPostcodesDatasetResult arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSSearch()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSSearch(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSSearch()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSSearch(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchThoroughfareByPostcodeDistrictResult(com.epostcode.ws.uk.ListAddressThoroughfares arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.ListAddressThoroughfares getSearchThoroughfareByPostcodeDistrictResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.NearestDataForPostcode</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setSPostcodeDatum(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setSPostcodeDescriptions(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getSPostcodeList()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+			<method name="public void setSNumberToReturn(String arg0)">1</method>
+			<method name="public String getSNumberToReturn()">1</method>
+			<method name="public String getSPostcodeDatum()">1</method>
+			<method name="public void setSPostcodeList(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSPostcodeDescriptions()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.AddressPremises</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setList(com.epostcode.ws.uk.ArrayOfAddressPremise arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfAddressPremise getList()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GeoDataForPostcodeDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.GeoDataForPostcodeDatasetResponse$GeoDataForPostcodeDatasetResult getGeoDataForPostcodeDatasetResult()">1</method>
+			<method name="public void setGeoDataForPostcodeDatasetResult(com.epostcode.ws.uk.GeoDataForPostcodeDatasetResponse$GeoDataForPostcodeDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ListAddressPremises</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>12</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>11</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public boolean isIsError()">1</method>
+			<method name="public void setList(com.epostcode.ws.uk.ArrayOfListAddressPremise arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfListAddressPremise getList()">1</method>
+			<method name="public void setIsError(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByStreet</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSTown(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSTown()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public String getSNumber()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+			<method name="public void setSStreet(String arg0)">1</method>
+			<method name="public void setSNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSStreet()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ArrayOfNearest</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getNearest()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.Nearests</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setList(com.epostcode.ws.uk.ArrayOfNearest arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfNearest getList()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSSearch()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSSearch(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByThouroughfareIDResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchPremiseByThouroughfareIDResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByThouroughfareIDResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$Geographic</name>
+		<wmc>47</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>48</rfc>
+		<lcom>1035</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>47</npm>
+		<lcom3>0.9782608695652174</lcom3>
+		<loc>234</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7446808510638298</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4893617021276597</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public String getLatitudeDegrees()">1</method>
+			<method name="public void setLongitudeDegrees(String arg0)">1</method>
+			<method name="public void setNHSPrimaryHealthBoardCode(String arg0)">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setNHSRegionalOffice(String arg0)">1</method>
+			<method name="public String getAdministrativeCounty()">1</method>
+			<method name="public void setLocalAuthName(String arg0)">1</method>
+			<method name="public String getLongitudeDegMinSec()">1</method>
+			<method name="public void setLatitudeDegrees(String arg0)">1</method>
+			<method name="public void setNHSPrimaryHealthAuthCode(String arg0)">1</method>
+			<method name="public void setNHSStratHealthBoardName(String arg0)">1</method>
+			<method name="public String getMDetails()">1</method>
+			<method name="public void setGDetails(String arg0)">1</method>
+			<method name="public String getXCoord()">1</method>
+			<method name="public String getYCoord()">1</method>
+			<method name="public void setLongitudeDegMinSec(String arg0)">1</method>
+			<method name="public String getNHSRegionalOffice()">1</method>
+			<method name="public String getLatitudeDegMinSec()">1</method>
+			<method name="public void setNHSStratHealthBoardCode(String arg0)">1</method>
+			<method name="public String getNHSPrimaryHealthBoardName()">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public String getLocalAuthWardCode()">1</method>
+			<method name="public void setXCoord(String arg0)">1</method>
+			<method name="public void setLocalAuthWardCode(String arg0)">1</method>
+			<method name="public void setMDetails(String arg0)">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public void setNHSPrimaryHealthBoardName(String arg0)">1</method>
+			<method name="public String getNHSStratHealthBoardName()">1</method>
+			<method name="public String getNHSPrimaryHealthBoardCode()">1</method>
+			<method name="public String getLongitudeDegrees()">1</method>
+			<method name="public String getNHSStratHealthBoardCode()">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public String getNHSPrimaryHealthAuthCode()">1</method>
+			<method name="public void setGridReference(String arg0)">1</method>
+			<method name="public String getLocalAuthName()">1</method>
+			<method name="public void setLatitudeDegMinSec(String arg0)">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public void setAdministrativeCounty(String arg0)">1</method>
+			<method name="public String getLocalAuthWardName()">1</method>
+			<method name="public String getGridReference()">1</method>
+			<method name="public void setYCoord(String arg0)">1</method>
+			<method name="public String getGDetails()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLocalAuthWardName(String arg0)">1</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+			<method name="public String getCountryCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchPremiseByWordMatchOnAllResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByWordMatchOnAllResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GetPremiseAddressResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetPremiseAddressResult(com.epostcode.ws.uk.AddressPremises arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.AddressPremises getGetPremiseAddressResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ObjectFactory</name>
+		<wmc>105</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>95</cbo>
+		<rfc>203</rfc>
+		<lcom>5444</lcom>
+		<ca>0</ca>
+		<ce>95</ce>
+		<npm>104</npm>
+		<lcom3>0.9903846153846154</lcom3>
+		<loc>609</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.11965811965811966</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.723809523809524</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.GetPremiseAddressDatasetResponse$GetPremiseAddressDatasetResult createGetPremiseAddressDatasetResponseGetPremiseAddressDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByStreetDatasetResponse$SearchThoroughfareByStreetDatasetResult createSearchThoroughfareByStreetDatasetResponseSearchThoroughfareByStreetDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPostcodeResponse createSearchPremiseByPostcodeResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.GeoDataForPostcodeResponse createGeoDataForPostcodeResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfListAddressThoroughfare createArrayOfListAddressThoroughfare()">1</method>
+			<method name="public com.epostcode.ws.uk.AddressPremise createAddressPremise()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPOBoxDataset createSearchPremiseByPOBoxDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.Geographics createGeographics()">1</method>
+			<method name="public com.epostcode.ws.uk.GeoDataForPostcode createGeoDataForPostcode()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPostcodeDatasetResponse createSearchPremiseByPostcodeDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreet createSearchPremiseByWordMatchOnStreet()">1</method>
+			<method name="public com.epostcode.ws.uk.GetPremiseAddressResponse createGetPremiseAddressResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createString(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createListAddressPremises(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.NearestDataForPostcodeDatasetResponse createNearestDataForPostcodeDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.NearestDataForPostcode createNearestDataForPostcode()">1</method>
+			<method name="public com.epostcode.ws.uk.DistanceBetweenPostcodesDatasetResponse$DistanceBetweenPostcodesDatasetResult createDistanceBetweenPostcodesDatasetResponseDistanceBetweenPostcodesDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDataset createSearchPremiseByWordMatchOnLocalityDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.DistanceBetweenPostcodesResponse createDistanceBetweenPostcodesResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.GetPremiseAddressFromUDP createGetPremiseAddressFromUDP()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByOrganisation createSearchPremiseByOrganisation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddressPremises(com.epostcode.ws.uk.AddressPremises arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPOBoxResponse createSearchPremiseByPOBoxResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGeographics(com.epostcode.ws.uk.Geographics arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByStreetDataset createSearchPremiseByStreetDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetResponse createSearchPremiseByWordMatchOnStreetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictResponse createSearchThoroughfareByPostcodeDistrictResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDatasetResponse$SearchPremiseByWordMatchOnAllDatasetResult createSearchPremiseByWordMatchOnAllDatasetResponseSearchPremiseByWordMatchOnAllDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.DistanceBetweenPostcodesDataset createDistanceBetweenPostcodesDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.Geographic createGeographic()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByStreetDatasetResponse$SearchPremiseByStreetDatasetResult createSearchPremiseByStreetDatasetResponseSearchPremiseByStreetDatasetResult()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createNearests(com.epostcode.ws.uk.Nearests arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPostcode createSearchPremiseByPostcode()">1</method>
+			<method name="public com.epostcode.ws.uk.AddressPremises createAddressPremises()">1</method>
+			<method name="public com.epostcode.ws.uk.Nearest createNearest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createListAddressThoroughfares(com.epostcode.ws.uk.ListAddressThoroughfares arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDatasetResponse createSearchPremiseByThouroughfareIDDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises createListAddressPremises()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDatasetResponse$SearchPremiseByWordMatchOnPremiseDatasetResult createSearchPremiseByWordMatchOnPremiseDatasetResponseSearchPremiseByWordMatchOnPremiseDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDatasetResponse$SearchThoroughfareByPostcodeDistrictDatasetResult createSearchThoroughfareByPostcodeDistrictDatasetResponseSearchThoroughfareByPostcodeDistrictDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.ListAddressThoroughfares createListAddressThoroughfares()">1</method>
+			<method name="public com.epostcode.ws.uk.ServiceTest createServiceTest()">1</method>
+			<method name="public com.epostcode.ws.uk.PostcodeUtilities createPostcodeUtilities()">1</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfGeographic createArrayOfGeographic()">1</method>
+			<method name="public com.epostcode.ws.uk.Nearests createNearests()">1</method>
+			<method name="public com.epostcode.ws.uk.NearestDataForPostcodeDatasetResponse$NearestDataForPostcodeDatasetResult createNearestDataForPostcodeDatasetResponseNearestDataForPostcodeDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityResponse createSearchPremiseByWordMatchOnLocalityResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.DistanceBetweenPostcodes createDistanceBetweenPostcodes()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByStreet createSearchPremiseByStreet()">1</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfAddressPremise createArrayOfAddressPremise()">1</method>
+			<method name="public com.epostcode.ws.uk.GeoDataForPostcodeDataset createGeoDataForPostcodeDataset()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDataset createSearchThoroughfareByPostcodeDistrictDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPOBoxDatasetResponse createSearchPremiseByPOBoxDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.ListAddressPremise createListAddressPremise()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByStreetDatasetResponse createSearchThoroughfareByStreetDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByStreetDatasetResponse createSearchPremiseByStreetDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByStreetDataset createSearchThoroughfareByStreetDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.ServiceTestResponse createServiceTestResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocality createSearchPremiseByWordMatchOnLocality()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDataset createSearchPremiseByWordMatchOnPremiseDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDatasetResponse$SearchPremiseByWordMatchOnLocalityDatasetResult createSearchPremiseByWordMatchOnLocalityDatasetResponseSearchPremiseByWordMatchOnLocalityDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.GetPremiseAddressDataset createGetPremiseAddressDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.ListAddressThoroughfare createListAddressThoroughfare()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDataset createSearchPremiseByThouroughfareIDDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByOrganisationDatasetResponse createSearchPremiseByOrganisationDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDatasetResponse$SearchPremiseByThouroughfareIDDatasetResult createSearchPremiseByThouroughfareIDDatasetResponseSearchPremiseByThouroughfareIDDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDataset createSearchPremiseByWordMatchOnAllDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByThouroughfareIDResponse createSearchPremiseByThouroughfareIDResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByStreetResponse createSearchThoroughfareByStreetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnAll createSearchPremiseByWordMatchOnAll()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByOrganisationDatasetResponse$SearchPremiseByOrganisationDatasetResult createSearchPremiseByOrganisationDatasetResponseSearchPremiseByOrganisationDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrict createSearchThoroughfareByPostcodeDistrict()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseResponse createSearchPremiseByWordMatchOnPremiseResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.GetPremiseAddressDatasetResponse createGetPremiseAddressDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.GeoDataForPostcodeDatasetResponse createGeoDataForPostcodeDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremise createSearchPremiseByWordMatchOnPremise()">1</method>
+			<method name="public com.epostcode.ws.uk.DistanceBetweenPostcodesDatasetResponse createDistanceBetweenPostcodesDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDatasetResponse createSearchPremiseByWordMatchOnPremiseDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDatasetResponse createSearchPremiseByWordMatchOnLocalityDatasetResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPostcodeUtilities(com.epostcode.ws.uk.PostcodeUtilities arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.NearestDataForPostcodeResponse createNearestDataForPostcodeResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPostcodeDataset createSearchPremiseByPostcodeDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByOrganisationResponse createSearchPremiseByOrganisationResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDatasetResponse createSearchThoroughfareByPostcodeDistrictDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.GeoDataForPostcodeDatasetResponse$GeoDataForPostcodeDatasetResult createGeoDataForPostcodeDatasetResponseGeoDataForPostcodeDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByThouroughfareID createSearchPremiseByThouroughfareID()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllResponse createSearchPremiseByWordMatchOnAllResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddressPremise(com.epostcode.ws.uk.AddressPremise arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.NearestDataForPostcodeDataset createNearestDataForPostcodeDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDatasetResponse$SearchPremiseByWordMatchOnStreetDatasetResult createSearchPremiseByWordMatchOnStreetDatasetResponseSearchPremiseByWordMatchOnStreetDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPostcodeDatasetResponse$SearchPremiseByPostcodeDatasetResult createSearchPremiseByPostcodeDatasetResponseSearchPremiseByPostcodeDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDataset createSearchPremiseByWordMatchOnStreetDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPOBoxDatasetResponse$SearchPremiseByPOBoxDatasetResult createSearchPremiseByPOBoxDatasetResponseSearchPremiseByPOBoxDatasetResult()">1</method>
+			<method name="public com.epostcode.ws.uk.GetPremiseAddressFromUDPResponse createGetPremiseAddressFromUDPResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByStreet createSearchThoroughfareByStreet()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByStreetResponse createSearchPremiseByStreetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDatasetResponse createSearchPremiseByWordMatchOnStreetDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDatasetResponse createSearchPremiseByWordMatchOnAllDatasetResponse()">1</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfListAddressPremise createArrayOfListAddressPremise()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByOrganisationDataset createSearchPremiseByOrganisationDataset()">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPOBox createSearchPremiseByPOBox()">1</method>
+			<method name="public com.epostcode.ws.uk.GetPremiseAddress createGetPremiseAddress()">1</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfNearest createArrayOfNearest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByOrganisationDatasetResponse$SearchPremiseByOrganisationDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GetPremiseAddressDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSUniqueDeliveryPointID(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getSUniqueDeliveryPointID()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.Nearest</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7368421052631579</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public String getPostcodeDatum()">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setPostcodeDescription(String arg0)">1</method>
+			<method name="public void setPostcodeReturn(String arg0)">1</method>
+			<method name="public String getDistanceKilometres()">1</method>
+			<method name="public void setDistanceMiles(String arg0)">1</method>
+			<method name="public String getDistanceNauticalMiles()">1</method>
+			<method name="public void setDistanceNauticalMiles(String arg0)">1</method>
+			<method name="public void setDistanceKilometres(String arg0)">1</method>
+			<method name="public String getPostcodeDescription()">1</method>
+			<method name="public void setPostcodeDatum(String arg0)">1</method>
+			<method name="public String getDistanceMiles()">1</method>
+			<method name="public String getPostcodeReturn()">1</method>
+			<method name="public void setDistanceMetres(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getOrdinalPosition()">1</method>
+			<method name="public void setOrdinalPosition(String arg0)">1</method>
+			<method name="public String getDistanceMetres()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.NearestDataForPostcodeDatasetResponse$NearestDataForPostcodeDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByWordMatchOnStreetResult()">1</method>
+			<method name="public void setSearchPremiseByWordMatchOnStreetResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GeoDataForPostcode</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSPostcodes(String arg0)">1</method>
+			<method name="public String getSPostcodes()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.NearestDataForPostcodeDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setNearestDataForPostcodeDatasetResult(com.epostcode.ws.uk.NearestDataForPostcodeDatasetResponse$NearestDataForPostcodeDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.NearestDataForPostcodeDatasetResponse$NearestDataForPostcodeDatasetResult getNearestDataForPostcodeDatasetResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.DistanceBetweenPostcodesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.Nearests getDistanceBetweenPostcodesResult()">1</method>
+			<method name="public void setDistanceBetweenPostcodesResult(com.epostcode.ws.uk.Nearests arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByStreetDatasetResponse$SearchPremiseByStreetDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByStreetDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchThoroughfareByStreetDatasetResult(com.epostcode.ws.uk.SearchThoroughfareByStreetDatasetResponse$SearchThoroughfareByStreetDatasetResult arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByStreetDatasetResponse$SearchThoroughfareByStreetDatasetResult getSearchThoroughfareByStreetDatasetResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.AddressPremise</name>
+		<wmc>55</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>56</rfc>
+		<lcom>1431</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>55</npm>
+		<lcom3>0.9814814814814815</lcom3>
+		<loc>274</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49696969696969695</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4909090909090907</amc>
+		<cc>
+			<method name="public String getPostOfficeBox()">1</method>
+			<method name="public String getLatitudeDegrees()">1</method>
+			<method name="public void setLongitudeDegrees(String arg0)">1</method>
+			<method name="public String getUserCategory()">1</method>
+			<method name="public void setLatitudeDegrees(String arg0)">1</method>
+			<method name="public String getStreet()">1</method>
+			<method name="public String getNumber()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setDeliveryPointSuffix(String arg0)">1</method>
+			<method name="public void setMailsortSortcode(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void setCountyTraditional(String arg0)">1</method>
+			<method name="public void setStreet(String arg0)">1</method>
+			<method name="public void setBuildingName(String arg0)">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public String getSubBuildingName()">1</method>
+			<method name="public void setNumber(String arg0)">1</method>
+			<method name="public String getLongitudeDegrees()">1</method>
+			<method name="public String getDependentLocality()">1</method>
+			<method name="public String getFullAddress()">1</method>
+			<method name="public void setCountyFormerPostal(String arg0)">1</method>
+			<method name="public void setCountyAdministrative(String arg0)">1</method>
+			<method name="public String getMailsortSortcode()">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public void setOrganisation(String arg0)">1</method>
+			<method name="public String getCountyFormerPostal()">1</method>
+			<method name="public void setPostOfficeBox(String arg0)">1</method>
+			<method name="public void setPostTown(String arg0)">1</method>
+			<method name="public void setUniqueDeliveryPoint(String arg0)">1</method>
+			<method name="public String getDoubleDependentLocality()">1</method>
+			<method name="public String getCountyAdministrative()">1</method>
+			<method name="public void setUserCategory(String arg0)">1</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+			<method name="public String getPostTown()">1</method>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public void setCountyLocalAuthority(String arg0)">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getOrganisationDepartment()">1</method>
+			<method name="public String getBuildingName()">1</method>
+			<method name="public String getDeliveryPointSuffix()">1</method>
+			<method name="public void setOrganisationDepartment(String arg0)">1</method>
+			<method name="public String getOrganisation()">1</method>
+			<method name="public void setSubBuildingName(String arg0)">1</method>
+			<method name="public String getDependentStreet()">1</method>
+			<method name="public String getCountyTraditional()">1</method>
+			<method name="public void setFullAddress(String arg0)">1</method>
+			<method name="public void setDoubleDependentLocality(String arg0)">1</method>
+			<method name="public void setDependentLocality(String arg0)">1</method>
+			<method name="public void setDependentStreet(String arg0)">1</method>
+			<method name="public boolean isIsError()">1</method>
+			<method name="public String getCountyLocalAuthority()">1</method>
+			<method name="public void setIsError(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUniqueDeliveryPoint()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDatasetResponse$SearchPremiseByWordMatchOnAllDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ArrayOfListAddressPremise</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getListAddressPremise()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.NearestDataForPostcodeDataset</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setSPostcodeDatum(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setSPostcodeDescriptions(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getSPostcodeList()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+			<method name="public void setSNumberToReturn(String arg0)">1</method>
+			<method name="public String getSNumberToReturn()">1</method>
+			<method name="public String getSPostcodeDatum()">1</method>
+			<method name="public void setSPostcodeList(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSPostcodeDescriptions()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ListAddressPremise</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setListAddress(String arg0)">1</method>
+			<method name="public String getListAddress()">1</method>
+			<method name="public void setUniqueDeliveryPoint(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUniqueDeliveryPoint()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDatasetResponse$SearchThoroughfareByPostcodeDistrictDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.PostcodeUtilities</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.DistanceBetweenPostcodes</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getSPostcodeCheck()">1</method>
+			<method name="public void setSPostcodeDatum(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSPostcodeCheck(String arg0)">1</method>
+			<method name="public String getSPostcodeDatum()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GetPremiseAddressDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetPremiseAddressDatasetResult(com.epostcode.ws.uk.GetPremiseAddressDatasetResponse$GetPremiseAddressDatasetResult arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.GetPremiseAddressDatasetResponse$GetPremiseAddressDatasetResult getGetPremiseAddressDatasetResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDatasetResponse$SearchPremiseByWordMatchOnLocalityDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.ObjectFactory</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>16</rfc>
+		<lcom>28</lcom>
+		<ca>0</ca>
+		<ce>7</ce>
+		<npm>8</npm>
+		<lcom3>2.0</lcom3>
+		<loc>39</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.875</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$ListAddressPremise createPostcodeUtilitiesListAddressPremise()">1</method>
+			<method name="public com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$ListAddressThoroughfare createPostcodeUtilitiesListAddressThoroughfare()">1</method>
+			<method name="public com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$AddressPremise createPostcodeUtilitiesAddressPremise()">1</method>
+			<method name="public com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$Nearest createPostcodeUtilitiesNearest()">1</method>
+			<method name="public com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities createPostcodeUtilities()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$Geographic createPostcodeUtilitiesGeographic()">1</method>
+			<method name="public com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$License createPostcodeUtilitiesLicense()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByWordMatchOnPremiseResult()">1</method>
+			<method name="public void setSearchPremiseByWordMatchOnPremiseResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByStreetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByStreetResult()">1</method>
+			<method name="public void setSearchPremiseByStreetResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByStreetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchThoroughfareByStreetResult(com.epostcode.ws.uk.ListAddressThoroughfares arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.ListAddressThoroughfares getSearchThoroughfareByStreetResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GetPremiseAddressFromUDPResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.AddressPremise getGetPremiseAddressFromUDPResult()">1</method>
+			<method name="public void setGetPremiseAddressFromUDPResult(com.epostcode.ws.uk.AddressPremise arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocality</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSSearch()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSSearch(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.PostcodeServicesSoap</name>
+		<wmc>32</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>22</cbo>
+		<rfc>32</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>21</ce>
+		<npm>32</npm>
+		<lcom3>2.0</lcom3>
+		<loc>32</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByWordMatchOnLocality(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByStreet(String, String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByWordMatchOnPremise(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.Geographics geoDataForPostcode(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByWordMatchOnAll(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByWordMatchOnAllDatasetResponse$SearchPremiseByWordMatchOnAllDatasetResult searchPremiseByWordMatchOnAllDataset(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByWordMatchOnStreet(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchThoroughfareByStreetDatasetResponse$SearchThoroughfareByStreetDatasetResult searchThoroughfareByStreetDataset(String, String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.NearestDataForPostcodeDatasetResponse$NearestDataForPostcodeDatasetResult nearestDataForPostcodeDataset(String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByPOBox(String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDatasetResponse$SearchPremiseByWordMatchOnStreetDatasetResult searchPremiseByWordMatchOnStreetDataset(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.Nearests nearestDataForPostcode(String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByOrganisation(String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByStreetDatasetResponse$SearchPremiseByStreetDatasetResult searchPremiseByStreetDataset(String, String, String, String, String, String)">1</method>
+			<method name="public abstract String serviceTest(String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.DistanceBetweenPostcodesDatasetResponse$DistanceBetweenPostcodesDatasetResult distanceBetweenPostcodesDataset(String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.GeoDataForPostcodeDatasetResponse$GeoDataForPostcodeDatasetResult geoDataForPostcodeDataset(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByPostcode(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByOrganisationDatasetResponse$SearchPremiseByOrganisationDatasetResult searchPremiseByOrganisationDataset(String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByPostcodeDatasetResponse$SearchPremiseByPostcodeDatasetResult searchPremiseByPostcodeDataset(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByPOBoxDatasetResponse$SearchPremiseByPOBoxDatasetResult searchPremiseByPOBoxDataset(String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressPremises searchPremiseByThouroughfareID(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.AddressPremises getPremiseAddress(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressThoroughfares searchThoroughfareByStreet(String, String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.AddressPremise getPremiseAddressFromUDP(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.Nearests distanceBetweenPostcodes(String, String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDatasetResponse$SearchThoroughfareByPostcodeDistrictDatasetResult searchThoroughfareByPostcodeDistrictDataset(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.ListAddressThoroughfares searchThoroughfareByPostcodeDistrict(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDatasetResponse$SearchPremiseByWordMatchOnLocalityDatasetResult searchPremiseByWordMatchOnLocalityDataset(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.GetPremiseAddressDatasetResponse$GetPremiseAddressDatasetResult getPremiseAddressDataset(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDatasetResponse$SearchPremiseByWordMatchOnPremiseDatasetResult searchPremiseByWordMatchOnPremiseDataset(String, String, String, String)">1</method>
+			<method name="public abstract com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDatasetResponse$SearchPremiseByThouroughfareIDDatasetResult searchPremiseByThouroughfareIDDataset(String, String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSPostcode(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSPostcode()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByStreetDatasetResponse$SearchThoroughfareByStreetDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ServiceTestResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setServiceTestResult(String arg0)">1</method>
+			<method name="public String getServiceTestResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDatasetResponse$SearchPremiseByThouroughfareIDDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByStreetDataset</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSTown(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSTown()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public String getSNumber()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+			<method name="public void setSStreet(String arg0)">1</method>
+			<method name="public void setSNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSStreet()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.Geographics</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.ArrayOfGeographic getList()">1</method>
+			<method name="public void setList(com.epostcode.ws.uk.ArrayOfGeographic arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getSThouroughfareID()">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSThouroughfareID(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ListAddressThoroughfare</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setListAddress(String arg0)">1</method>
+			<method name="public String getListAddress()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnAll</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSSearch()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSSearch(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPOBoxDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchPremiseByPOBoxDatasetResult(com.epostcode.ws.uk.SearchPremiseByPOBoxDatasetResponse$SearchPremiseByPOBoxDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByPOBoxDatasetResponse$SearchPremiseByPOBoxDatasetResult getSearchPremiseByPOBoxDatasetResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ArrayOfListAddressThoroughfare</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getListAddressThoroughfare()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchThoroughfareByPostcodeDistrictDatasetResult(com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDatasetResponse$SearchThoroughfareByPostcodeDistrictDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrictDatasetResponse$SearchThoroughfareByPostcodeDistrictDatasetResult getSearchThoroughfareByPostcodeDistrictDatasetResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.NearestDataForPostcodeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setNearestDataForPostcodeResult(com.epostcode.ws.uk.Nearests arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.Nearests getNearestDataForPostcodeResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$License</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.74</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public String getGuid()">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenseID()">1</method>
+			<method name="public String getLicenseTypeDesc()">1</method>
+			<method name="public void setGuid(String arg0)">1</method>
+			<method name="public String getLicenseTypeName()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setLicenseTypeName(String arg0)">1</method>
+			<method name="public String getAvailable()">1</method>
+			<method name="public String getCurrentCreditsAvailable()">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public void setLicenseTypeDesc(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenseInUse(String arg0)">1</method>
+			<method name="public String getLicenseInUse()">1</method>
+			<method name="public void setExpiryDate(String arg0)">1</method>
+			<method name="public String getAllowedIpAddress()">1</method>
+			<method name="public void setCurrentCreditsAvailable(String arg0)">1</method>
+			<method name="public void setAllowedIpAddress(String arg0)">1</method>
+			<method name="public void setAvailable(String arg0)">1</method>
+			<method name="public String getExpiryDate()">1</method>
+			<method name="public void setLicenseID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPostcodeDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSPostcode(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSPostcode()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPOBoxDatasetResponse$SearchPremiseByPOBoxDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByPOBox</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getSPOBox()">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSTown(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSTown()">1</method>
+			<method name="public void setSPOBox(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.DistanceBetweenPostcodesDatasetResponse$DistanceBetweenPostcodesDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDataset</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSSearch()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public void setSSearch(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByPostcodeDistrict</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSPostcode(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSPostcode()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GetPremiseAddressDatasetResponse$GetPremiseAddressDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.Geographic</name>
+		<wmc>47</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>48</rfc>
+		<lcom>1035</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>47</npm>
+		<lcom3>0.9782608695652174</lcom3>
+		<loc>234</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7446808510638298</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4893617021276597</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public String getLatitudeDegrees()">1</method>
+			<method name="public void setLongitudeDegrees(String arg0)">1</method>
+			<method name="public void setNHSPrimaryHealthBoardCode(String arg0)">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setNHSRegionalOffice(String arg0)">1</method>
+			<method name="public String getAdministrativeCounty()">1</method>
+			<method name="public void setLocalAuthName(String arg0)">1</method>
+			<method name="public String getLongitudeDegMinSec()">1</method>
+			<method name="public void setLatitudeDegrees(String arg0)">1</method>
+			<method name="public void setNHSPrimaryHealthAuthCode(String arg0)">1</method>
+			<method name="public void setNHSStratHealthBoardName(String arg0)">1</method>
+			<method name="public String getMDetails()">1</method>
+			<method name="public void setGDetails(String arg0)">1</method>
+			<method name="public String getXCoord()">1</method>
+			<method name="public String getYCoord()">1</method>
+			<method name="public void setLongitudeDegMinSec(String arg0)">1</method>
+			<method name="public String getNHSRegionalOffice()">1</method>
+			<method name="public String getLatitudeDegMinSec()">1</method>
+			<method name="public void setNHSStratHealthBoardCode(String arg0)">1</method>
+			<method name="public String getNHSPrimaryHealthBoardName()">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public String getLocalAuthWardCode()">1</method>
+			<method name="public void setXCoord(String arg0)">1</method>
+			<method name="public void setLocalAuthWardCode(String arg0)">1</method>
+			<method name="public void setMDetails(String arg0)">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public void setNHSPrimaryHealthBoardName(String arg0)">1</method>
+			<method name="public String getNHSStratHealthBoardName()">1</method>
+			<method name="public String getNHSPrimaryHealthBoardCode()">1</method>
+			<method name="public String getLongitudeDegrees()">1</method>
+			<method name="public String getNHSStratHealthBoardCode()">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public String getNHSPrimaryHealthAuthCode()">1</method>
+			<method name="public void setGridReference(String arg0)">1</method>
+			<method name="public String getLocalAuthName()">1</method>
+			<method name="public void setLatitudeDegMinSec(String arg0)">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public void setAdministrativeCounty(String arg0)">1</method>
+			<method name="public String getLocalAuthWardName()">1</method>
+			<method name="public String getGridReference()">1</method>
+			<method name="public void setYCoord(String arg0)">1</method>
+			<method name="public String getGDetails()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLocalAuthWardName(String arg0)">1</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+			<method name="public String getCountryCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GetPremiseAddress</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSUniqueDeliveryPointID(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getSUniqueDeliveryPointID()">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchThoroughfareByStreetDataset</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSTown(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSTown()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public String getSNumber()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+			<method name="public void setSStreet(String arg0)">1</method>
+			<method name="public void setSNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSStreet()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.postcodeutilities.PostcodeUtilities$ListAddressThoroughfare</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getReturnCode()">1</method>
+			<method name="public void setReturnCode(String arg0)">1</method>
+			<method name="public void setListAddress(String arg0)">1</method>
+			<method name="public String getListAddress()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.GeoDataForPostcodeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGeoDataForPostcodeResult(com.epostcode.ws.uk.Geographics arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.Geographics getGeoDataForPostcodeResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDatasetResponse$SearchPremiseByThouroughfareIDDatasetResult getSearchPremiseByThouroughfareIDDatasetResult()">1</method>
+			<method name="public void setSearchPremiseByThouroughfareIDDatasetResult(com.epostcode.ws.uk.SearchPremiseByThouroughfareIDDatasetResponse$SearchPremiseByThouroughfareIDDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDatasetResponse$SearchPremiseByWordMatchOnPremiseDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByOrganisationDataset</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSOrganisation(String arg0)">1</method>
+			<method name="public String getAccountName()">1</method>
+			<method name="public void setSTown(String arg0)">1</method>
+			<method name="public void setLicenceID(String arg0)">1</method>
+			<method name="public String getSTown()">1</method>
+			<method name="public void setAccountName(String arg0)">1</method>
+			<method name="public String getLicenceID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSOrganisation()">1</method>
+			<method name="public String getMachineID()">1</method>
+			<method name="public void setMachineID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchPremiseByWordMatchOnLocalityDatasetResult(com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDatasetResponse$SearchPremiseByWordMatchOnLocalityDatasetResult arg0)">1</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityDatasetResponse$SearchPremiseByWordMatchOnLocalityDatasetResult getSearchPremiseByWordMatchOnLocalityDatasetResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.ListAddressThoroughfares</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setList(com.epostcode.ws.uk.ArrayOfListAddressThoroughfare arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.ArrayOfListAddressThoroughfare getList()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnLocalityResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchPremiseByWordMatchOnLocalityResult(com.epostcode.ws.uk.ListAddressPremises arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.ListAddressPremises getSearchPremiseByWordMatchOnLocalityResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDatasetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchPremiseByWordMatchOnPremiseDatasetResult(com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDatasetResponse$SearchPremiseByWordMatchOnPremiseDatasetResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.epostcode.ws.uk.SearchPremiseByWordMatchOnPremiseDatasetResponse$SearchPremiseByWordMatchOnPremiseDatasetResult getSearchPremiseByWordMatchOnPremiseDatasetResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.epostcode.ws.uk.SearchPremiseByWordMatchOnStreetDatasetResponse$SearchPremiseByWordMatchOnStreetDatasetResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

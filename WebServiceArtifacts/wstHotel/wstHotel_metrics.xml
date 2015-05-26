@@ -1,0 +1,1516 @@
+	<class>
+		<name>wst.hotel.impl.WstHotel_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public wst.hotel.impl.WstHotel getWstHotel()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public transient wst.hotel.impl.WstHotel getWstHotel(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.ObjectFactory</name>
+		<wmc>120</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>40</cbo>
+		<rfc>163</rfc>
+		<lcom>6936</lcom>
+		<ca>0</ca>
+		<ce>40</ce>
+		<npm>119</npm>
+		<lcom3>0.989254718280755</lcom3>
+		<loc>1335</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0919701213818861</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.616666666666667</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypeModDet(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypePaxTot(Integer arg0)">1</method>
+			<method name="public wst.hotel.types.PreciosRegimenType createPreciosRegimenType()">1</method>
+			<method name="public wst.hotel.types.LocalizacionMapaFolletosType createLocalizacionMapaFolletosType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypePaxMax(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOcurrenciasAtributoTypeCodAtr(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOcurrenciasRegimenTypeCodRga(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaRequestTypeCodIdi(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDireccionHotelTypePaiHot(String arg0)">1</method>
+			<method name="public wst.hotel.types.OcurrenciasRegimenType createOcurrenciasRegimenType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCaracteristicasTypeTxtCar(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2RequestTypeRefZge(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDireccionHotelTypeLocalizacionMaps(wst.hotel.types.LocalizacionMapaType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2RequestTypeRefSer(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOcurrenciasRegimenTypeDscRga(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFichaHotelRequest(wst.hotel.types.FichaHotelRequestType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2ResponseRowTypePvpMin(Float arg0)">1</method>
+			<method name="public wst.hotel.types.TiposHabitacionType createTiposHabitacionType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInfoHotelTypeImgHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDetallesCaracteristicaTypeDscDet(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaResponseRowTypeZonaGeografica(wst.hotel.types.ZonaType arg0)">1</method>
+			<method name="public wst.hotel.types.HabitacionFolletoType createHabitacionFolletoType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFichaHotelResponseTypeDatosContacto(wst.hotel.types.DatosContactoType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaRequestTypePvpHasta(Float arg0)">1</method>
+			<method name="public wst.hotel.types.DireccionHotelFolletoType createDireccionHotelFolletoType()">1</method>
+			<method name="public wst.hotel.types.DetallesCaracteristicaType createDetallesCaracteristicaType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDetallesAtributosTypeCodDetAtr(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAtributosHotelTypeDscAtr(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZonaTypeRefZge(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDetallesAtributosTypeDscDetAtr(String arg0)">1</method>
+			<method name="public wst.hotel.types.DetallesAtributosType createDetallesAtributosType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypeDscDet(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaRequestTypeRefZge(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOcurrenciasAtributoTypeDscAtr(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFichaHotelResponseTypeTipHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDatosContactoTypeTf2Hot(String arg0)">1</method>
+			<method name="public wst.hotel.types.AtributosHotelType createAtributosHotelType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZonaTypeOccZge(Integer arg0)">1</method>
+			<method name="public wst.hotel.types.DatosContactoType createDatosContactoType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2RequestTypeCodIdi(String arg0)">1</method>
+			<method name="public wst.hotel.types.HabitacionesPreciosType createHabitacionesPreciosType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2Request(wst.hotel.types.DisponibilidadEstanciaV2RequestType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaResponse(wst.hotel.types.DisponibilidadEstanciaResponseType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFichaHotelFolletosResponse(wst.hotel.types.FichaHotelFolletosResponseType arg0)">1</method>
+			<method name="public wst.hotel.types.DisponibilidadEstanciaV2ResponseType createDisponibilidadEstanciaV2ResponseType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDatosContactoTypeTlfHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2ResponseRowTypeRefSer(Integer arg0)">1</method>
+			<method name="public wst.hotel.types.DisponibilidadEstanciaResponseRowType createDisponibilidadEstanciaResponseRowType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaRequestTypeRefSer(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOcurrenciasRegimenTypeOccRga(Integer arg0)">1</method>
+			<method name="public wst.hotel.types.UbicacionType createUbicacionType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2ResponseRowTypeNomHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2ResponseRowTypeZonaGeografica(wst.hotel.types.ZonaType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypeDscCha(String arg0)">1</method>
+			<method name="public wst.hotel.types.HotelesClienteResponseType createHotelesClienteResponseType()">1</method>
+			<method name="public wst.hotel.types.OcurrenciasCategoriaType createOcurrenciasCategoriaType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaResponseRowTypeRefSer(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2RequestTypeNomHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypeChlMin(Integer arg0)">1</method>
+			<method name="public wst.hotel.types.CaracteristicasType createCaracteristicasType()">1</method>
+			<method name="public wst.hotel.types.ImagenesHotelType createImagenesHotelType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaResponseRowTypeCatHot(String arg0)">1</method>
+			<method name="public wst.hotel.types.TotalesDisponibilidadType createTotalesDisponibilidadType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public wst.hotel.types.FichaHotelFolletosResponseType createFichaHotelFolletosResponseType()">1</method>
+			<method name="public wst.hotel.types.DireccionHotelType createDireccionHotelType()">1</method>
+			<method name="public wst.hotel.types.HabitacionesType createHabitacionesType()">1</method>
+			<method name="public wst.hotel.types.FichaHotelRequestType createFichaHotelRequestType()">1</method>
+			<method name="public wst.hotel.types.FichaHotelFolletosRequestType createFichaHotelFolletosRequestType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaRequestTypeOrden(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOcurrenciasCategoriaTypeOccCat(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaRequestTypeNomHot(String arg0)">1</method>
+			<method name="public wst.hotel.types.OcurrenciasAtributoType createOcurrenciasAtributoType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOcurrenciasAtributoTypeOccAtr(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypeChlMax(Integer arg0)">1</method>
+			<method name="public wst.hotel.types.ZonaType createZonaType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDireccionHotelTypeCiuHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2RequestTypePvpDesde(Float arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaRequestTypePvpDesde(Float arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2RequestTypePvpHasta(Float arg0)">1</method>
+			<method name="public wst.hotel.types.InfoExtraType createInfoExtraType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2RequestTypeOrden(String arg0)">1</method>
+			<method name="public wst.hotel.types.FichaHotelResponseType createFichaHotelResponseType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDireccionHotelTypeEstHot(String arg0)">1</method>
+			<method name="public wst.hotel.types.DisponibilidadEstanciaRequestType createDisponibilidadEstanciaRequestType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelesClienteResponse(wst.hotel.types.HotelesClienteResponseType arg0)">1</method>
+			<method name="public wst.hotel.types.DisponibilidadEstanciaV2RequestType createDisponibilidadEstanciaV2RequestType()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypeCodGtr(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelesClienteRequest(wst.hotel.types.HotelesClienteRequestType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFichaHotelResponse(wst.hotel.types.FichaHotelResponseType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDatosContactoTypeUrlHot(String arg0)">1</method>
+			<method name="public wst.hotel.types.InfoHotelType createInfoHotelType()">1</method>
+			<method name="public wst.hotel.types.HotelesClienteRequestType createHotelesClienteRequestType()">1</method>
+			<method name="public wst.hotel.types.ListaAtributosFolletosType createListaAtributosFolletosType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZonaTypeDscZge(String arg0)">1</method>
+			<method name="public wst.hotel.types.DisponibilidadEstanciaResponseType createDisponibilidadEstanciaResponseType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypeCodCha(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFichaHotelResponseTypeDireccion(wst.hotel.types.DireccionHotelType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypePaxTotMax(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOcurrenciasCategoriaTypeCodCat(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDatosContactoTypeFaxHot(String arg0)">1</method>
+			<method name="public wst.hotel.types.HabitacionesFolletoType createHabitacionesFolletoType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaResponseRowTypeNomHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaResponseRowTypePvpMin(Float arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2Response(wst.hotel.types.DisponibilidadEstanciaV2ResponseType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInfoHotelTypeGeoLoca(wst.hotel.types.LocalizacionMapaType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDatosContactoTypeEmail(String arg0)">1</method>
+			<method name="public wst.hotel.types.LocalizacionMapaType createLocalizacionMapaType()">1</method>
+			<method name="public wst.hotel.types.AtributoFolletoType createAtributoFolletoType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTiposHabitacionTypePaxMin(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInfoHotelTypeDescHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFichaHotelResponseTypeCadHot(String arg0)">1</method>
+			<method name="public wst.hotel.types.AtributosFolletosType createAtributosFolletosType()">1</method>
+			<method name="public wst.hotel.types.ContenidoFolletoType createContenidoFolletoType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaRequest(wst.hotel.types.DisponibilidadEstanciaRequestType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDireccionHotelTypeCodPos(String arg0)">1</method>
+			<method name="public wst.hotel.types.DisponibilidadEstanciaV2ResponseRowType createDisponibilidadEstanciaV2ResponseRowType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDisponibilidadEstanciaV2ResponseRowTypeCatHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFichaHotelFolletosRequest(wst.hotel.types.FichaHotelFolletosRequestType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.AtributoFolletoType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getGratuito()">1</method>
+			<method name="public void setCodAtrib(String arg0)">1</method>
+			<method name="public String getDesAtrib()">1</method>
+			<method name="public void setDesAtrib(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCodAtrib()">1</method>
+			<method name="public void setGratuito(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DetallesAtributosType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getDscDetAtr()">1</method>
+			<method name="public void setCodDetAtr(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodDetAtr()">1</method>
+			<method name="public void setDscDetAtr(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.LocalizacionMapaFolletosType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setLatitud(String arg0)">1</method>
+			<method name="public String getLongitud()">1</method>
+			<method name="public String getLatitud()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLongitud(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.FichaHotelResponseType</name>
+		<wmc>16</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>108</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>16</npm>
+		<lcom3>0.9555555555555556</lcom3>
+		<loc>103</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4583333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.875</amc>
+		<cc>
+			<method name="public String getCatHot()">1</method>
+			<method name="public java.util.List getAtributos()">2</method>
+			<method name="public java.util.List getImgHot()">2</method>
+			<method name="public String getNomHot()">1</method>
+			<method name="public void setCadHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTipHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTipHot()">1</method>
+			<method name="public java.util.List getCaracteristicas()">2</method>
+			<method name="public void setDatosContacto(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDireccion()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDatosContacto()">1</method>
+			<method name="public void setCatHot(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNomHot(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCadHot()">1</method>
+			<method name="public void setDireccion(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DisponibilidadEstanciaV2RequestType</name>
+		<wmc>38</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>40</rfc>
+		<lcom>673</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>38</npm>
+		<lcom3>0.9815724815724817</lcom3>
+		<loc>245</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34868421052631576</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.868421052631579</amc>
+		<cc>
+			<method name="public String getFecIni()">1</method>
+			<method name="public void setPvpHasta(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getCodRga()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getOrden()">1</method>
+			<method name="public void setCodIdi(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPvpDesde()">1</method>
+			<method name="public void setNomHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getCodTiv()">2</method>
+			<method name="public String getGrpTpr()">1</method>
+			<method name="public void setOrden(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setGrpTpr(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodIdi()">1</method>
+			<method name="public void setAptArr(String arg0)">1</method>
+			<method name="public void setRefZge(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAptDep(String arg0)">1</method>
+			<method name="public void setFecFin(String arg0)">1</method>
+			<method name="public String getNumNoc()">1</method>
+			<method name="public String getAptDep()">1</method>
+			<method name="public java.util.List getCodTof()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getPvpHasta()">1</method>
+			<method name="public java.util.List getAtrHot()">2</method>
+			<method name="public java.util.List getNumCat()">2</method>
+			<method name="public void setRefSer(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getAptArr()">1</method>
+			<method name="public void setSwiRes(boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRefSer()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRefZge()">1</method>
+			<method name="public java.util.List getRefPro()">2</method>
+			<method name="public String getFecFin()">1</method>
+			<method name="public String getIdUsuario()">1</method>
+			<method name="public void setIdUsuario(String arg0)">1</method>
+			<method name="public void setPvpDesde(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getHabitaciones()">2</method>
+			<method name="public boolean isSwiRes()">1</method>
+			<method name="public void setFecIni(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomHot()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNumNoc(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.FichaHotelRequestType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setRefSer(int arg0)">1</method>
+			<method name="public String getIdUsuario()">1</method>
+			<method name="public void setIdUsuario(String arg0)">1</method>
+			<method name="public int getRefSer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodIdi(String arg0)">1</method>
+			<method name="public String getCodIdi()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DisponibilidadEstanciaResponseType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getDisponibilidadEstanciaResponseRow()">2</method>
+			<method name="public void setTotalesDisponibilidad(wst.hotel.types.TotalesDisponibilidadType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public wst.hotel.types.TotalesDisponibilidadType getTotalesDisponibilidad()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.AtributosHotelType</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public String getCodAtr()">1</method>
+			<method name="public void setDscAtr(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodAtr(String arg0)">1</method>
+			<method name="public java.util.List getDetallesAtributos()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getDscAtr()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.FichaHotelFolletosRequestType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setRefSer(String arg0)">1</method>
+			<method name="public String getIdUsuario()">1</method>
+			<method name="public void setIdUsuario(String arg0)">1</method>
+			<method name="public String getRefSer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodIdi(String arg0)">1</method>
+			<method name="public String getCodIdi()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.CaracteristicasType</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4583333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public java.util.List getDetalles()">2</method>
+			<method name="public void setDscCar(String arg0)">1</method>
+			<method name="public String getDscCar()">1</method>
+			<method name="public void setTxtCar(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodCar(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getTxtCar()">1</method>
+			<method name="public String getCodCar()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.TotalesDisponibilidadType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>7</rfc>
+		<lcom>10</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>1.0</lcom3>
+		<loc>56</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.4</amc>
+		<cc>
+			<method name="public java.util.List getZonas()">2</method>
+			<method name="public java.util.List getTotalRegimenes()">2</method>
+			<method name="public java.util.List getTotalAtributos()">2</method>
+			<method name="public java.util.List getTotalCategorias()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.OcurrenciasCategoriaType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getOccCat()">1</method>
+			<method name="public void setCodCat(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodCat()">1</method>
+			<method name="public void setOccCat(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DisponibilidadEstanciaV2ResponseRowType</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public void setRefSer(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setZonaGeografica(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRefSer()">1</method>
+			<method name="public void setInfoHotel(wst.hotel.types.InfoHotelType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPvpMin()">1</method>
+			<method name="public wst.hotel.types.InfoHotelType getInfoHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getZonaGeografica()">1</method>
+			<method name="public void setPvpMin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomHot()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCatHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getHabitacionesPrecios()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getCatHot()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.OcurrenciasRegimenType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setOccRga(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDscRga()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOccRga()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodRga()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodRga(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDscRga(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.ContenidoFolletoType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>9</rfc>
+		<lcom>17</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>50</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6428571428571429</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.571428571428571</amc>
+		<cc>
+			<method name="public String getSubtitulo()">1</method>
+			<method name="public String getTexto()">1</method>
+			<method name="public java.util.List getUrlAdjunto()">2</method>
+			<method name="public void setTexto(String arg0)">1</method>
+			<method name="public java.util.List getImagen()">2</method>
+			<method name="public void setSubtitulo(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DatosContactoType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getTf2Hot()">1</method>
+			<method name="public void setEmail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTlfHot()">1</method>
+			<method name="public void setUrlHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTlfHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setFaxHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getUrlHot()">1</method>
+			<method name="public void setTf2Hot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getFaxHot()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getEmail()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DireccionHotelFolletoType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setEstHot(String arg0)">1</method>
+			<method name="public String getCiuHot()">1</method>
+			<method name="public void setCodPos(String arg0)">1</method>
+			<method name="public String getPaiHot()">1</method>
+			<method name="public void setCiuHot(String arg0)">1</method>
+			<method name="public String getCodPos()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPaiHot(String arg0)">1</method>
+			<method name="public String getEstHot()">1</method>
+			<method name="public String getDirHot()">1</method>
+			<method name="public void setDirHot(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.AtributosFolletosType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>7</rfc>
+		<lcom>8</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.9166666666666667</lcom3>
+		<loc>40</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.4</amc>
+		<cc>
+			<method name="public String getNombreOpcion()">1</method>
+			<method name="public java.util.List getContenido()">2</method>
+			<method name="public void setNombreOpcion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getListaAtributos()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.InfoExtraType</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public String getNombreOpcion()">1</method>
+			<method name="public java.util.List getContenido()">2</method>
+			<method name="public void setNombreOpcion(String arg0)">1</method>
+			<method name="public void setDetalleOpcion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDetalleOpcion()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.ZonaType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getDscZge()">1</method>
+			<method name="public void setDscZge(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setRefZge(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOccZge()">1</method>
+			<method name="public void setOccZge(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getRefZge()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.FichaHotelFolletosResponseType</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>29</rfc>
+		<lcom>327</lcom>
+		<ca>2</ca>
+		<ce>6</ce>
+		<npm>27</npm>
+		<lcom3>0.967032967032967</lcom3>
+		<loc>150</loc>
+		<dam>1.0</dam>
+		<moa>6</moa>
+		<mfa>0.0</mfa>
+		<cam>0.18055555555555555</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.037037037037037</amc>
+		<cc>
+			<method name="public wst.hotel.types.HabitacionesFolletoType getHabitaciones()">1</method>
+			<method name="public wst.hotel.types.DatosContactoType getDatosContacto()">1</method>
+			<method name="public java.util.List getAtributos()">2</method>
+			<method name="public java.util.List getInfoExtra()">2</method>
+			<method name="public void setHabitaciones(wst.hotel.types.HabitacionesFolletoType arg0)">1</method>
+			<method name="public void setImagenPpalListado(String arg0)">1</method>
+			<method name="public String getCadHot()">1</method>
+			<method name="public wst.hotel.types.ImagenesHotelType getImagenesHotel()">1</method>
+			<method name="public void setImagenesHotel(wst.hotel.types.ImagenesHotelType arg0)">1</method>
+			<method name="public void setLocalizacionMapa(wst.hotel.types.LocalizacionMapaFolletosType arg0)">1</method>
+			<method name="public void setUbicacion(wst.hotel.types.UbicacionType arg0)">1</method>
+			<method name="public void setCatHot(String arg0)">1</method>
+			<method name="public String getImagenPpalCabecera()">1</method>
+			<method name="public void setTipHot(String arg0)">1</method>
+			<method name="public void setDireccion(wst.hotel.types.DireccionHotelFolletoType arg0)">1</method>
+			<method name="public String getCatHot()">1</method>
+			<method name="public String getImagenPpalListado()">1</method>
+			<method name="public wst.hotel.types.UbicacionType getUbicacion()">1</method>
+			<method name="public String getNomHot()">1</method>
+			<method name="public void setDatosContacto(wst.hotel.types.DatosContactoType arg0)">1</method>
+			<method name="public wst.hotel.types.LocalizacionMapaFolletosType getLocalizacionMapa()">1</method>
+			<method name="public void setCadHot(String arg0)">1</method>
+			<method name="public String getTipHot()">1</method>
+			<method name="public wst.hotel.types.DireccionHotelFolletoType getDireccion()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNomHot(String arg0)">1</method>
+			<method name="public void setImagenPpalCabecera(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.HotelesClienteRequestType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdClie()">1</method>
+			<method name="public void setIdClie(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.InfoHotelType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getDescHot()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getImgHot()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGeoLoca()">1</method>
+			<method name="public void setGeoLoca(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setImgHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDescHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DisponibilidadEstanciaV2ResponseType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getDisponibilidadEstanciaV2ResponseRow()">2</method>
+			<method name="public void setTotalesDisponibilidad(wst.hotel.types.TotalesDisponibilidadType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public wst.hotel.types.TotalesDisponibilidadType getTotalesDisponibilidad()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.PreciosRegimenType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public float getPvp()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setCadRes(String arg0)">1</method>
+			<method name="public String getCodRga()">1</method>
+			<method name="public void setCodRga(String arg0)">1</method>
+			<method name="public String getCadRes()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPvp(float arg0)">1</method>
+			<method name="public String getGrpTpr()">1</method>
+			<method name="public void setGrpTpr(String arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DetallesCaracteristicaType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCodDet(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDscDet()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDscDet(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getCodDet()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DisponibilidadEstanciaResponseRowType</name>
+		<wmc>12</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>56</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>12</npm>
+		<lcom3>0.9242424242424242</lcom3>
+		<loc>67</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7083333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.083333333333333</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getZonaGeografica()">1</method>
+			<method name="public void setPvpMin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setRefSer(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setZonaGeografica(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRefSer()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomHot()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getPvpMin()">1</method>
+			<method name="public void setCatHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getHabitacionesPrecios()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getCatHot()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.HabitacionesFolletoType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public String getNombreOpcion()">1</method>
+			<method name="public java.util.List getHabitacionFolleto()">2</method>
+			<method name="public void setNombreOpcion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DireccionHotelType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCiuHot()">1</method>
+			<method name="public void setPaiHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCiuHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getLocalizacionMaps()">1</method>
+			<method name="public void setCodPos(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaiHot()">1</method>
+			<method name="public void setLocalizacionMaps(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodPos()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getEstHot()">1</method>
+			<method name="public void setEstHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getDirHot()">1</method>
+			<method name="public void setDirHot(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.impl.WstHotel</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>10</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract wst.hotel.types.HotelesClienteResponseType hotelesCliente(wst.hotel.types.HotelesClienteRequestType)">1</method>
+			<method name="public abstract wst.hotel.types.DisponibilidadEstanciaV2ResponseType disponibilidadEstanciaV2(wst.hotel.types.DisponibilidadEstanciaV2RequestType)">1</method>
+			<method name="public abstract wst.hotel.types.FichaHotelFolletosResponseType fichaHotelFolletos(wst.hotel.types.FichaHotelFolletosRequestType)">1</method>
+			<method name="public abstract wst.hotel.types.DisponibilidadEstanciaResponseType disponibilidadEstancia(wst.hotel.types.DisponibilidadEstanciaRequestType)">1</method>
+			<method name="public abstract wst.hotel.types.FichaHotelResponseType fichaHotel(wst.hotel.types.FichaHotelRequestType)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.HabitacionesType</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public void setNumNin(int arg0)">1</method>
+			<method name="public int getNumInf()">1</method>
+			<method name="public void setNumInf(int arg0)">1</method>
+			<method name="public java.util.List getEdaNin()">2</method>
+			<method name="public int getNumAdl()">1</method>
+			<method name="public void setNumAdl(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNumNin()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.DisponibilidadEstanciaRequestType</name>
+		<wmc>38</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>40</rfc>
+		<lcom>673</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>38</npm>
+		<lcom3>0.9815724815724817</lcom3>
+		<loc>245</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34868421052631576</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.868421052631579</amc>
+		<cc>
+			<method name="public String getFecIni()">1</method>
+			<method name="public void setPvpHasta(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getCodRga()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getOrden()">1</method>
+			<method name="public void setCodIdi(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPvpDesde()">1</method>
+			<method name="public void setNomHot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getCodTiv()">2</method>
+			<method name="public String getGrpTpr()">1</method>
+			<method name="public void setOrden(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setGrpTpr(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodIdi()">1</method>
+			<method name="public void setAptArr(String arg0)">1</method>
+			<method name="public void setRefZge(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAptDep(String arg0)">1</method>
+			<method name="public void setFecFin(String arg0)">1</method>
+			<method name="public String getNumNoc()">1</method>
+			<method name="public String getAptDep()">1</method>
+			<method name="public java.util.List getCodTof()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getPvpHasta()">1</method>
+			<method name="public java.util.List getAtrHot()">2</method>
+			<method name="public java.util.List getNumCat()">2</method>
+			<method name="public void setRefSer(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getAptArr()">1</method>
+			<method name="public void setSwiRes(boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRefSer()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRefZge()">1</method>
+			<method name="public java.util.List getRefPro()">2</method>
+			<method name="public String getFecFin()">1</method>
+			<method name="public String getIdUsuario()">1</method>
+			<method name="public void setIdUsuario(String arg0)">1</method>
+			<method name="public void setPvpDesde(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getHabitaciones()">2</method>
+			<method name="public boolean isSwiRes()">1</method>
+			<method name="public void setFecIni(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomHot()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNumNoc(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.HabitacionFolletoType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public wst.hotel.types.ContenidoFolletoType getContenido()">1</method>
+			<method name="public java.util.List getFotos()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setContenido(wst.hotel.types.ContenidoFolletoType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.HabitacionesPreciosType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>5</rfc>
+		<lcom>3</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>1.0</lcom3>
+		<loc>30</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.333333333333334</amc>
+		<cc>
+			<method name="public java.util.List getTiposHabitacion()">2</method>
+			<method name="public java.util.List getPreciosRegimen()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.LocalizacionMapaType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setLatitud(String arg0)">1</method>
+			<method name="public String getLongitud()">1</method>
+			<method name="public String getLatitud()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLongitud(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.OcurrenciasAtributoType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setOccAtr(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodAtr()">1</method>
+			<method name="public void setCodAtr(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDscAtr(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getDscAtr()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOccAtr()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.UbicacionType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public String getNombreOpcion()">1</method>
+			<method name="public java.util.List getContenido()">2</method>
+			<method name="public void setNombreOpcion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.ListaAtributosFolletosType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAtributo()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.ImagenesHotelType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public String getNombreOpcion()">1</method>
+			<method name="public void setNombreOpcion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getFotosHotel()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.HotelesClienteResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRefSer()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>wst.hotel.types.TiposHabitacionType</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49333333333333335</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public void setCodGtr(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxMax()">1</method>
+			<method name="public void setDscCha(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setChlMin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDscCha()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodCha()">1</method>
+			<method name="public void setChlMax(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDscDet()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxTot()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getChlMin()">1</method>
+			<method name="public void setPaxTotMax(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setModDet(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPaxMin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getModDet()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getChlMax()">1</method>
+			<method name="public void setPaxTot(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxTotMax()">1</method>
+			<method name="public void setCodCha(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public int getNumHab()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodGtr()">1</method>
+			<method name="public void setDscDet(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxMin()">1</method>
+			<method name="public void setNumHab(int arg0)">1</method>
+			<method name="public void setPaxMax(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

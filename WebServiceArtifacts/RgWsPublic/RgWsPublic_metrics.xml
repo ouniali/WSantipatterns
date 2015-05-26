@@ -1,0 +1,379 @@
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.GenWsErrorRtBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublicFirmActRtUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRgWsPublicFirmActRtUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublicFirmActRtBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublic_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.RgWsPublic getRgWsPublicPort()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public transient gr.gsis.rgwspublic.rgwspublic.RgWsPublic getRgWsPublicPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.GenWsErrorRtUser</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public void setErrorDescr(String arg0)">1</method>
+			<method name="public String getErrorDescr()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublicFirmActRtUser</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getFirmActDescr()">1</method>
+			<method name="public void setFirmActDescr(String arg0)">1</method>
+			<method name="public void setFirmActKind(String arg0)">1</method>
+			<method name="public String getFirmActKindDescr()">1</method>
+			<method name="public void setFirmActCode(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setFirmActKindDescr(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.math.BigDecimal getFirmActCode()">1</method>
+			<method name="public String getFirmActKind()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublicInputRtUser</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getAfmCalledFor()">1</method>
+			<method name="public void setAfmCalledFor(String arg0)">1</method>
+			<method name="public String getAfmCalledBy()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAfmCalledBy(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublicInputRtBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublic</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>2</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract void rgWsPublicAfmMethod(gr.gsis.rgwspublic.rgwspublic.RgWsPublicInputRtUser, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+			<method name="public abstract String rgWsPublicVersionInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublicBasicRtUser</name>
+		<wmc>33</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.494949494949495</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public void setOnomasia(String arg0)">1</method>
+			<method name="public void setFirmFlagDescr(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStopDate()">1</method>
+			<method name="public String getPostalAddressNo()">1</method>
+			<method name="public void setStopDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setAfm(String arg0)">1</method>
+			<method name="public String getPostalZipCode()">1</method>
+			<method name="public void setPostalAreaDescription(String arg0)">1</method>
+			<method name="public String getPostalAreaDescription()">1</method>
+			<method name="public String getPostalAddress()">1</method>
+			<method name="public String getAfm()">1</method>
+			<method name="public void setDeactivationFlag(String arg0)">1</method>
+			<method name="public String getDoyDescr()">1</method>
+			<method name="public void setCommerTitle(String arg0)">1</method>
+			<method name="public String getCommerTitle()">1</method>
+			<method name="public void setPostalZipCode(String arg0)">1</method>
+			<method name="public void setDoyDescr(String arg0)">1</method>
+			<method name="public void setINiFlagDescr(String arg0)">1</method>
+			<method name="public void setRegistDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getFirmFlagDescr()">1</method>
+			<method name="public String getDeactivationFlagDescr()">1</method>
+			<method name="public String getINiFlagDescr()">1</method>
+			<method name="public void setLegalStatusDescr(String arg0)">1</method>
+			<method name="public void setDeactivationFlagDescr(String arg0)">1</method>
+			<method name="public String getLegalStatusDescr()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getRegistDate()">1</method>
+			<method name="public void setDoy(String arg0)">1</method>
+			<method name="public String getDeactivationFlag()">1</method>
+			<method name="public String getOnomasia()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDoy()">1</method>
+			<method name="public void setPostalAddressNo(String arg0)">1</method>
+			<method name="public void setPostalAddress(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.RgWsPublicBasicRtBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>gr.gsis.rgwspublic.rgwspublic.ObjectFactory</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>20</rfc>
+		<lcom>45</lcom>
+		<ca>0</ca>
+		<ce>9</ce>
+		<npm>10</npm>
+		<lcom3>2.0</lcom3>
+		<loc>49</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9</amc>
+		<cc>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.RgWsPublicBasicRtBase createRgWsPublicBasicRtBase()">1</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.RgWsPublicFirmActRtBase createRgWsPublicFirmActRtBase()">1</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.RgWsPublicInputRtUser createRgWsPublicInputRtUser()">1</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.RgWsPublicInputRtBase createRgWsPublicInputRtBase()">1</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.RgWsPublicFirmActRtUserArray createRgWsPublicFirmActRtUserArray()">1</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.GenWsErrorRtUser createGenWsErrorRtUser()">1</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.RgWsPublicBasicRtUser createRgWsPublicBasicRtUser()">1</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.RgWsPublicFirmActRtUser createRgWsPublicFirmActRtUser()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public gr.gsis.rgwspublic.rgwspublic.GenWsErrorRtBase createGenWsErrorRtBase()">1</method>
+		</cc>
+	</class>

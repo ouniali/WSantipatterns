@@ -1,0 +1,4761 @@
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderShortType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getContentId()">1</method>
+			<method name="public void setContentId(String arg0)">1</method>
+			<method name="public String getShortName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setShortName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CAProviderRSType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getContentId()">1</method>
+			<method name="public String getObxId()">1</method>
+			<method name="public String getShortName()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setShortName(String arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAProductRSType getProducts()">1</method>
+			<method name="public void setContentId(String arg0)">1</method>
+			<method name="public void setObxId(String arg0)">1</method>
+			<method name="public void setAvailability(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAAvailabilityDateRSType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAAvailabilityDateRSType getAvailability()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setProducts(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAProductRSType arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PAAvailabilityDaysRSType</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.296551724137931</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getRrpPriceChildren()">1</method>
+			<method name="public java.math.BigDecimal getRrpPriceConcessions()">1</method>
+			<method name="public java.math.BigDecimal getPriceChildren()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFinishDate()">1</method>
+			<method name="public java.math.BigDecimal getPriceGroup()">1</method>
+			<method name="public void setPriceChildren(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setCurrencyCode(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getRrpPriceAdults()">1</method>
+			<method name="public void setPrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setRrpPriceAdults(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getPriceAdults()">1</method>
+			<method name="public void setDays(int arg0)">1</method>
+			<method name="public java.math.BigDecimal getPriceConcessions()">1</method>
+			<method name="public void setPriceConcessions(java.math.BigDecimal arg0)">1</method>
+			<method name="public int getDays()">1</method>
+			<method name="public void setPriceAdults(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setRrpPrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setRrpPriceChildren(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setRrpPriceConcessions(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getCurrencyCode()">1</method>
+			<method name="public void setRrpPriceGroup(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setFinishDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public java.math.BigDecimal getPrice()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public java.math.BigDecimal getRrpPrice()">1</method>
+			<method name="public java.math.BigDecimal getRrpPriceGroup()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPriceGroup(java.math.BigDecimal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rq.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCGroupAndOrEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9333333333333333</lcom3>
+		<loc>53</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>7.333333333333333</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.SCGroupAndOrEnumType fromValue(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.SCGroupAndOrEnumType[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.SCGroupAndOrEnumType valueOf(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.cabs.v3leisure_cabs_services.SearchServiceSoap</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>10</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.v3leisure.schemas.cabs._1_0.cabs_providercalendar_rs.CABSProviderCalendarRS calendarSearch(com.v3leisure.schemas.cabs._1_0.cabs_providercalendar.CABSProviderCalendarRQ)">1</method>
+			<method name="public abstract com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rs.CABSProviderSearchRS providerSearch(com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rq.CABSProviderSearchRQ)">1</method>
+			<method name="public abstract com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.CABSProviderAvailabilityRS providerAvailability(com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rq.CABSProviderAvailabilityRQ)">1</method>
+			<method name="public abstract com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rs.CABSProviderOptInRS providerOptIn(com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rq.CABSProviderOptInRQ)">1</method>
+			<method name="public abstract com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.CABSProductAvailabilityRS productAvailability(com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rq.CABSProductAvailabilityRQ)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rq.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COEmailType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setEmailAddress(String arg0)">1</method>
+			<method name="public String getEmailAddress()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COImageType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRelativeUrl(String arg0)">1</method>
+			<method name="public String getRelativeUrl()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.AVDistributionChannelRSType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType getProviders()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CODistributionChannelRQType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rs.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rs.CABSProviderSearchRS createCABSProviderSearchRS()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createCABSProviderSearchRS(com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rs.CABSProviderSearchRS arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfOIProviderRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProvider()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PADistributionChannelRSType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProviderRSType getProviders()">1</method>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProviderRSType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRMarketingDetailsType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>1.0</lcom3>
+		<loc>43</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.0</amc>
+		<cc>
+			<method name="public java.util.List getRatingScheme()">2</method>
+			<method name="public java.util.List getIndustryCategory()">2</method>
+			<method name="public java.util.List getTargetMarket()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOTypeType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCreditCardAccepted()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PAProductRSType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24358974358974358</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setAvailability(com.v3leisure.schemas.cabs._1_0.cabs_common.PAAvailabilityDatesRSType arg0)">1</method>
+			<method name="public void setIndustryCategory(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setOfferType(com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType arg0)">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setMaximumCapacity(int arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PAAvailabilityDatesRSType getAvailability()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType getIndustryCategory()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType getOfferType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public int getMaximumCapacity()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PAProviderRSType</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49019607843137253</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getContentId()">1</method>
+			<method name="public String getObxId()">1</method>
+			<method name="public String getSupplierShortName()">1</method>
+			<method name="public String getShortName()">1</method>
+			<method name="public String getSupplierObxId()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setShortName(String arg0)">1</method>
+			<method name="public void setSupplierShortName(String arg0)">1</method>
+			<method name="public void setContentId(String arg0)">1</method>
+			<method name="public void setObxId(String arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProductGroupRSType getProductGroups()">1</method>
+			<method name="public void setProductGroups(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProductGroupRSType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSupplierObxId(String arg0)">1</method>
+			<method name="public void setSupplierId(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public String getSupplierId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COSuccessRSType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProductGroupRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProductGroup()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PAAvailabilityNightsRSType</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.296551724137931</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getRrpPriceChildren()">1</method>
+			<method name="public java.math.BigDecimal getRrpPriceConcessions()">1</method>
+			<method name="public java.math.BigDecimal getPriceChildren()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFinishDate()">1</method>
+			<method name="public java.math.BigDecimal getPriceGroup()">1</method>
+			<method name="public void setPriceChildren(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setCurrencyCode(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getRrpPriceAdults()">1</method>
+			<method name="public void setPrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setRrpPriceAdults(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getPriceAdults()">1</method>
+			<method name="public java.math.BigDecimal getPriceConcessions()">1</method>
+			<method name="public void setPriceConcessions(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setPriceAdults(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setRrpPrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setRrpPriceChildren(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setRrpPriceConcessions(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getCurrencyCode()">1</method>
+			<method name="public void setRrpPriceGroup(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setFinishDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public int getNights()">1</method>
+			<method name="public java.math.BigDecimal getPrice()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public java.math.BigDecimal getRrpPrice()">1</method>
+			<method name="public java.math.BigDecimal getRrpPriceGroup()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNights(int arg0)">1</method>
+			<method name="public void setPriceGroup(java.math.BigDecimal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rq.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rq.CABSProviderAvailabilityRQ createCABSProviderAvailabilityRQ()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCABSProviderAvailabilityRQ(com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rq.CABSProviderAvailabilityRQ arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCLengthNightsType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setMinimum(int arg0)">1</method>
+			<method name="public int getMinimum()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMaximum(int arg0)">1</method>
+			<method name="public int getMaximum()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PAProductGroupRSType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAdults(int arg0)">1</method>
+			<method name="public void setChildren(int arg0)">1</method>
+			<method name="public void setConcessions(int arg0)">1</method>
+			<method name="public int getAdults()">1</method>
+			<method name="public int getChildren()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProductRSType getProducts()">1</method>
+			<method name="public int getConcessions()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setProducts(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProductRSType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CAProductRSType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAvailability(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAAvailabilityDateRSType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAAvailabilityDateRSType getAvailability()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType getIndustryCategory()">1</method>
+			<method name="public void setIndustryCategory(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfOIDistributionChannelRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getChannel()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COResponsePagingRQType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setQueryId(String arg0)">1</method>
+			<method name="public void setRecordsPerPage(int arg0)">1</method>
+			<method name="public String getQueryId()">1</method>
+			<method name="public int getPageToReturn()">1</method>
+			<method name="public int getRecordsPerPage()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPageToReturn(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRRegionGeocodeDetailsType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getLongitude()">1</method>
+			<method name="public void setStateId(String arg0)">1</method>
+			<method name="public void setStateAbbreviation(String arg0)">1</method>
+			<method name="public String getRegion()">1</method>
+			<method name="public String getStateAbbreviation()">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public void setRegion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRegionId()">1</method>
+			<method name="public void setLatitude(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setRegionId(String arg0)">1</method>
+			<method name="public String getStateId()">1</method>
+			<method name="public void setLongitude(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getLatitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProviderRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProvider()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rs.CABSProviderSearchRS</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setStatus(com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPSDistributionChannelType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COResponsePagingRSType getPaging()">1</method>
+			<method name="public void setPaging(com.v3leisure.schemas.cabs._1_0.cabs_common.COResponsePagingRSType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType getStatus()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPSDistributionChannelType getChannels()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCIndustryCategoryGroupRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCategory(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType getCategory()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRExceptPeriodType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getExceptPeriod()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCStringRQType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setContains(String arg0)">1</method>
+			<method name="public void setEndsWith(String arg0)">1</method>
+			<method name="public Boolean isExclude()">1</method>
+			<method name="public String getExact()">1</method>
+			<method name="public void setExact(String arg0)">1</method>
+			<method name="public void setBeginsWith(String arg0)">1</method>
+			<method name="public String getContains()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setExclude(Boolean arg0)">1</method>
+			<method name="public String getEndsWith()">1</method>
+			<method name="public String getBeginsWith()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRProviderLongRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProvider()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderEnumType valueOf(String arg0)">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderEnumType[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderEnumType fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRPickupLocationType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setContact(String arg0)">1</method>
+			<method name="public String getLocation()">1</method>
+			<method name="public void setTime(String arg0)">1</method>
+			<method name="public String getContact()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTime()">1</method>
+			<method name="public void setLocation(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfSCConsumerType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getConsumer()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType fromValue(String arg0)">3</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCADistributionChannelRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getChannel()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rq.ObjectFactory</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>8</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>32</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.2</amc>
+		<cc>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rq.CABSProviderSearchRQ createCABSProviderSearchRQ()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCABSProviderSearchRQ(com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rq.CABSProviderSearchRQ arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rq.ArrayOfCODistributionChannelRQType createArrayOfCODistributionChannelRQType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.ArrayOfAVDistributionChannelRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAVDistributionChannelRSType()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COMerchantBusinessDetailType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setABN(String arg0)">1</method>
+			<method name="public String getFullName()">1</method>
+			<method name="public void setFullName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getABN()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCOptInRQType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFinishDate()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType getOptedIn()">1</method>
+			<method name="public Integer getMinimumProductCount()">1</method>
+			<method name="public void setOptedInEffective(com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType arg0)">1</method>
+			<method name="public void setMaximumProductCount(Integer arg0)">1</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType getIsBlocked()">1</method>
+			<method name="public void setOptedIn(com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType arg0)">1</method>
+			<method name="public Integer getMaximumProductCount()">1</method>
+			<method name="public void setFinishDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setMinimumProductCount(Integer arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType getOptedInEffective()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIsBlocked(com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COAddressDetailsType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getCountryIsoCode()">1</method>
+			<method name="public void setCountryIsoCode(String arg0)">1</method>
+			<method name="public void setAddress1(String arg0)">1</method>
+			<method name="public String getPostCode()">1</method>
+			<method name="public void setAddress2(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public String getAddress3()">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getAddress1()">1</method>
+			<method name="public String getAddress2()">1</method>
+			<method name="public void setAddress3(String arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setPostCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.MessageRSType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CODistributionChannelShortType getChannel()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public void setProvider(com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderShortType arg0)">1</method>
+			<method name="public void setChannel(com.v3leisure.schemas.cabs._1_0.cabs_common.CODistributionChannelShortType arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderShortType getProvider()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCIndustryCategoryRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCategory(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType getCategory()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.OIDistributionChannelRSType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfOIProviderRSType getProviders()">1</method>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfOIProviderRSType arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COBookabilityEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COBookabilityEnumType valueOf(String arg0)">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COBookabilityEnumType[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COBookabilityEnumType fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType1</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getProviderRQ()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAAvailabilityDateRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAvailabilityDate()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CAAvailabilityDateRSType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDate()">1</method>
+			<method name="public void setRrpPrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public Integer getMinimumDuration()">1</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setPrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setIsAvailable(com.v3leisure.schemas.cabs._1_0.cabs_common.CAAvailableEnumType arg0)">1</method>
+			<method name="public void setMinimumDuration(Integer arg0)">1</method>
+			<method name="public java.math.BigDecimal getPrice()">1</method>
+			<method name="public java.math.BigDecimal getRrpPrice()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CAAvailableEnumType getIsAvailable()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COPersonType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setFirstName(String arg0)">1</method>
+			<method name="public String getLastName()">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public String getFirstName()">1</method>
+			<method name="public void setLastName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProvider()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rs.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createCABSProviderOptInRS(com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rs.CABSProviderOptInRS arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rs.CABSProviderOptInRS createCABSProviderOptInRS()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COIdValueType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCBookabilityRQType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setChannelGroupId(String arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COBookabilityEnumType getBookability()">1</method>
+			<method name="public String getChannelGroupId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setBookability(com.v3leisure.schemas.cabs._1_0.cabs_common.COBookabilityEnumType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRRatingSchemeType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getScheme()">1</method>
+			<method name="public void setScheme(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRPriceDescriptionType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getMaximumPrice()">1</method>
+			<method name="public void setDisplayOrder(int arg0)">1</method>
+			<method name="public void setMaximumPrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public void setMinimumPrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public int getDisplayOrder()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.math.BigDecimal getMinimumPrice()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRProductType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getProduct()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COUrlType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COPagingQuerySortEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COPagingQuerySortEnumType fromValue(String arg0)">3</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COPagingQuerySortEnumType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COPagingQuerySortEnumType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.ObjectFactory</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>8</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>32</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.2</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createProviderAvailabilityResult(com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.CABSProviderAvailabilityRS arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.CABSProviderAvailabilityRS createCABSProviderAvailabilityRS()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.ArrayOfAVDistributionChannelRSType createArrayOfAVDistributionChannelRSType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.ObjectFactory</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>8</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>32</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.2</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createCABSProductAvailabilityRS(com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.CABSProductAvailabilityRS arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.ArrayOfPADistributionChannelRSType createArrayOfPADistributionChannelRSType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.CABSProductAvailabilityRS createCABSProductAvailabilityRS()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAProviderRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProvider()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCStatusRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusEnumType getType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setType(com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusEnumType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.ArrayOfPADistributionChannelRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPADistributionChannelRSType()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PSGeocodeRQType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public double getMinimumLatitude()">1</method>
+			<method name="public double getMaximumLongitude()">1</method>
+			<method name="public void setMinimumLatitude(double arg0)">1</method>
+			<method name="public Boolean isExclude()">1</method>
+			<method name="public void setMaximumLatitude(double arg0)">1</method>
+			<method name="public void setMaximumLongitude(double arg0)">1</method>
+			<method name="public double getMinimumLongitude()">1</method>
+			<method name="public void setMinimumLongitude(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setExclude(Boolean arg0)">1</method>
+			<method name="public double getMaximumLatitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCLengthDaysType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getFinishTime()">1</method>
+			<method name="public void setDays(Integer arg0)">1</method>
+			<method name="public String getStartTime()">1</method>
+			<method name="public Integer getDays()">1</method>
+			<method name="public void setStartTime(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFinishTime(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PSRatingSchemeRQType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getScheme()">1</method>
+			<method name="public Boolean isExclude()">1</method>
+			<method name="public Double getExact()">1</method>
+			<method name="public void setScheme(String arg0)">1</method>
+			<method name="public Double getMinimum()">1</method>
+			<method name="public void setMaximum(Double arg0)">1</method>
+			<method name="public void setMinimum(Double arg0)">1</method>
+			<method name="public void setExact(Double arg0)">1</method>
+			<method name="public Double getMaximum()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setExclude(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rs.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PAAvailabilityDatesRSType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>3</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>1.0</lcom3>
+		<loc>30</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.333333333333334</amc>
+		<cc>
+			<method name="public java.util.List getDays()">2</method>
+			<method name="public java.util.List getNights()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PSDistributionChannelType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRProviderLongRSType getProviders()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRProviderLongRSType arg0)">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setMinimum(Integer arg0)">1</method>
+			<method name="public Boolean isExclude()">1</method>
+			<method name="public Integer getMaximum()">1</method>
+			<method name="public void setMaximum(Integer arg0)">1</method>
+			<method name="public Integer getExact()">1</method>
+			<method name="public Integer getMinimum()">1</method>
+			<method name="public void setExact(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setExclude(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public boolean isInclude()">1</method>
+			<method name="public void setInclude(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CAResponseInclusionsRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public boolean isProductCalendar()">1</method>
+			<method name="public void setProductCalendar(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProductRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getProduct()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getNumber()">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public String getAreaCode()">1</method>
+			<method name="public void setNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCountryCode()">1</method>
+			<method name="public void setAreaCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCChangedRQType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFinishDate()">1</method>
+			<method name="public void setFinishDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.CABSProductAvailabilityRS</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.ArrayOfPADistributionChannelRSType arg0)">1</method>
+			<method name="public void setStatus(com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rs.ArrayOfPADistributionChannelRSType getChannels()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType getStatus()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.OICompleteQueryRQType</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRContactDetailsType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>7</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setWebSite(com.v3leisure.schemas.cabs._1_0.cabs_common.COUrlType arg0)">1</method>
+			<method name="public void setWorkPhone(com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType arg0)">1</method>
+			<method name="public void setPublicEmail(com.v3leisure.schemas.cabs._1_0.cabs_common.COEmailType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COEmailType getPublicEmail()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COAddressDetailsType getAddressDetails()">1</method>
+			<method name="public void setAddressDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.COAddressDetailsType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType getMainPhone()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType getWorkPhone()">1</method>
+			<method name="public void setMobilePhone(com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType getMobilePhone()">1</method>
+			<method name="public void setFacsimile(com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType arg0)">1</method>
+			<method name="public void setMainPhone(com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType getFacsimile()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COUrlType getWebSite()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRBusinessDetailsType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setAccountHolder(com.v3leisure.schemas.cabs._1_0.cabs_common.COPersonType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COEmailType getPrivateEmail()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPersonType getAccountHolder()">1</method>
+			<method name="public void setPrivateEmail(com.v3leisure.schemas.cabs._1_0.cabs_common.COEmailType arg0)">1</method>
+			<method name="public String getAcn()">1</method>
+			<method name="public void setTaxExempt(Boolean arg0)">1</method>
+			<method name="public void setAcn(String arg0)">1</method>
+			<method name="public Boolean isTaxExempt()">1</method>
+			<method name="public void setAbn(String arg0)">1</method>
+			<method name="public String getAbn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PSQueryRQType</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>12</cbo>
+		<rfc>35</rfc>
+		<lcom>498</lcom>
+		<ca>1</ca>
+		<ce>11</ce>
+		<npm>33</npm>
+		<lcom3>0.9724264705882353</lcom3>
+		<loc>180</loc>
+		<dam>1.0</dam>
+		<moa>14</moa>
+		<mfa>0.0</mfa>
+		<cam>0.11188811188811189</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9393939393939394</amc>
+		<cc>
+			<method name="public void setSearchCriteriaIndustryCategory(com.v3leisure.schemas.cabs._1_0.cabs_common.SCIndustryCategoryRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCIndustryCategoryGroupRQType getSearchCriteriaIndustryCategoryGroup()">1</method>
+			<method name="public Integer getPagingRecordsPerPage()">1</method>
+			<method name="public void setSearchCriteriaMinimumGuidePrice(com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType arg0)">1</method>
+			<method name="public void setSearchCriteriaMaximumCapacity(com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType getSearchCriteriaMinimumDuration()">1</method>
+			<method name="public void setSearchGroup(com.v3leisure.schemas.cabs._1_0.cabs_common.PSSearchCriteriaGroupRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCOptInRQType getSearchCriteriaOptin()">1</method>
+			<method name="public void setSearchCriteriaIncludeTestProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.SCBooleanRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCBookabilityRQType getSearchCriteriaBookability()">1</method>
+			<method name="public void setSearchCriteriaBookability(com.v3leisure.schemas.cabs._1_0.cabs_common.SCBookabilityRQType arg0)">1</method>
+			<method name="public void setSearchCriteriaIndustryCategoryGroup(com.v3leisure.schemas.cabs._1_0.cabs_common.SCIndustryCategoryGroupRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCIndustryCategoryRQType getSearchCriteriaIndustryCategory()">1</method>
+			<method name="public java.util.List getSearchCriteriaStatusType()">2</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCChangedRQType getSearchCriteriaChanged()">1</method>
+			<method name="public void setSearchCriteriaMinimumDuration(com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCProviderRQType getSearchCriteriaProviderType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSSearchCriteriaGroupRQType getSearchGroup()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCIntegrationTypeRQType getSearchCriteriaIntegrationType()">1</method>
+			<method name="public void setPagingRecordsPerPage(Integer arg0)">1</method>
+			<method name="public java.util.List getSearchCriteriaCreditCardAccepted()">2</method>
+			<method name="public void setSearchCriteriaMaximumGuidePrice(com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType getSearchCriteriaMaximumGuidePrice()">1</method>
+			<method name="public void setSearchCriteriaChanged(com.v3leisure.schemas.cabs._1_0.cabs_common.SCChangedRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCBooleanRQType getSearchCriteriaIncludeTestProviders()">1</method>
+			<method name="public void setSearchCriteriaProviderType(com.v3leisure.schemas.cabs._1_0.cabs_common.SCProviderRQType arg0)">1</method>
+			<method name="public void setSearchCriteriaIntegrationType(com.v3leisure.schemas.cabs._1_0.cabs_common.SCIntegrationTypeRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType getSearchCriteriaMinimumGuidePrice()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType getSearchCriteriaMaximumCapacity()">1</method>
+			<method name="public void setSearchCriteriaOptin(com.v3leisure.schemas.cabs._1_0.cabs_common.SCOptInRQType arg0)">1</method>
+			<method name="public void setPagingSortMethod(com.v3leisure.schemas.cabs._1_0.cabs_common.COPagingQuerySortEnumType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPagingQuerySortEnumType getPagingSortMethod()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COTypeType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CACriteriaRQType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public int getDays()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public void setDays(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rq.CABSProviderOptInRQ</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType getChannels()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OIQuerySettingsRQType getQuery()">1</method>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(com.v3leisure.schemas.cabs._1_0.cabs_common.OIQuerySettingsRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType getProviders()">1</method>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCAvailabilityRQType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>5</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24242424242424243</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setLengthNights(com.v3leisure.schemas.cabs._1_0.cabs_common.SCLengthNightsType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfSCConsumerType getConsumers()">1</method>
+			<method name="public void setCommencingWindow(com.v3leisure.schemas.cabs._1_0.cabs_common.SCDateWindowRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCDateSpecificType getCommencingSpecific()">1</method>
+			<method name="public void setConsumers(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfSCConsumerType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCDateWindowRQType getCommencingWindow()">1</method>
+			<method name="public void setCommencingSpecific(com.v3leisure.schemas.cabs._1_0.cabs_common.SCDateSpecificType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLengthDays(com.v3leisure.schemas.cabs._1_0.cabs_common.SCLengthDaysType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCLengthDaysType getLengthDays()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCLengthNightsType getLengthNights()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providercalendar.CABSProviderCalendarRQ</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType getChannels()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CAResponseInclusionsRQType getResponse()">1</method>
+			<method name="public void setQuery(com.v3leisure.schemas.cabs._1_0.cabs_common.CAQueryRQType arg0)">1</method>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CAQueryRQType getQuery()">1</method>
+			<method name="public void setResponse(com.v3leisure.schemas.cabs._1_0.cabs_common.CAResponseInclusionsRQType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType getProviders()">1</method>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.CABSProviderAvailabilityRS</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setStatus(com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.ArrayOfAVDistributionChannelRSType getChannels()">1</method>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rs.ArrayOfAVDistributionChannelRSType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType getStatus()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>6</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>180</loc>
+		<dam>0.16666666666666666</dam>
+		<moa>11</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>27.0</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType valueOf(String arg0)">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.cabs.v3leisure_cabs_services.SearchService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public com.v3leisure.cabs.v3leisure_cabs_services.SearchServiceSoap getSearchServiceSoap()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient com.v3leisure.cabs.v3leisure_cabs_services.SearchServiceSoap getSearchServiceSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rq.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rq.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createCABSProviderOptInRQ(com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rq.CABSProviderOptInRQ arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rq.CABSProviderOptInRQ createCABSProviderOptInRQ()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rq.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRSeasonType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setExceptPeriods(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRExceptPeriodType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPriceDescriptionType getPriceDescriptions()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRExceptPeriodType getExceptPeriods()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFinishDate()">1</method>
+			<method name="public void setFinishDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setPriceDescriptions(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPriceDescriptionType arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rq.CABSProductAvailabilityRQ</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType1 arg0)">1</method>
+			<method name="public void setQuery(com.v3leisure.schemas.cabs._1_0.cabs_common.AVQueryRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType1 getChannels()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType1 getProviders()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.AVQueryRQType getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType1 arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providercalendar_rs.CABSProviderCalendarRS</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCADistributionChannelRSType getChannels()">1</method>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCADistributionChannelRSType arg0)">1</method>
+			<method name="public void setStatus(com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType getStatus()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CODistributionChannelShortType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPriceDescriptionType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPriceDescription()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rs.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCDateWindowRQType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setCommencingDaysRQ(com.v3leisure.schemas.cabs._1_0.cabs_common.SCDaysOfWeekType arg0)">1</method>
+			<method name="public void setConcludingDaysRQ(com.v3leisure.schemas.cabs._1_0.cabs_common.SCDaysOfWeekType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCDaysOfWeekType getConcludingDaysRQ()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFinishDate()">1</method>
+			<method name="public void setFinishDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCDaysOfWeekType getCommencingDaysRQ()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.OITodayQueryRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setStatus(com.v3leisure.schemas.cabs._1_0.cabs_common.OIStatusEnumType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OIStatusEnumType getStatus()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRProviderLongRSType</name>
+		<wmc>69</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>15</cbo>
+		<rfc>70</rfc>
+		<lcom>2278</lcom>
+		<ca>1</ca>
+		<ce>14</ce>
+		<npm>69</npm>
+		<lcom3>0.9852941176470589</lcom3>
+		<loc>344</loc>
+		<dam>1.0</dam>
+		<moa>14</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0746376811594203</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4927536231884058</amc>
+		<cc>
+			<method name="public void setStatus(com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusEnumType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType getIntegrationType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRBookingInformationType getBookingDetails()">1</method>
+			<method name="public String getSupplierObxId()">1</method>
+			<method name="public void setIntegrationType(com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType arg0)">1</method>
+			<method name="public boolean isAllowPickupLocations()">1</method>
+			<method name="public void setMinimumGuidePriceAccomm(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getMaximumGuidePriceAet()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getModificationDate()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRContactDetailsType getContactDetails()">1</method>
+			<method name="public void setContentId(String arg0)">1</method>
+			<method name="public void setType(com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderEnumType arg0)">1</method>
+			<method name="public void setMinimumGuidePriceAet(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setSupplierObxId(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public void setMaximumGuidePriceAccomm(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setIsTest(Boolean arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COBookabilityEnumType getBookability()">1</method>
+			<method name="public void setProducts(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRProductType arg0)">1</method>
+			<method name="public String getShortName()">1</method>
+			<method name="public java.math.BigDecimal getMinimumGuidePriceAet()">1</method>
+			<method name="public void setMinimumGuidePrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getShortDescription()">1</method>
+			<method name="public void setShortName(String arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderEnumType getType()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCreationDate()">1</method>
+			<method name="public void setMaximumGuidePriceAet(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setObxId(String arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRMarketingDetailsType getMarketingDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOImageType getImages()">1</method>
+			<method name="public void setOptInDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PROptInInformationType arg0)">1</method>
+			<method name="public void setBookability(com.v3leisure.schemas.cabs._1_0.cabs_common.COBookabilityEnumType arg0)">1</method>
+			<method name="public String getObxId()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRProductType getProducts()">1</method>
+			<method name="public void setRegionGeocodeDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PRRegionGeocodeDetailsType arg0)">1</method>
+			<method name="public void setAllowPickupLocations(boolean arg0)">1</method>
+			<method name="public java.math.BigDecimal getMaximumGuidePrice()">1</method>
+			<method name="public Boolean isIsTest()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PROptInInformationType getOptInDetails()">1</method>
+			<method name="public java.math.BigDecimal getMinimumGuidePrice()">1</method>
+			<method name="public void setBusinessDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PRBusinessDetailsType arg0)">1</method>
+			<method name="public void setFullName(String arg0)">1</method>
+			<method name="public void setMarketingDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PRMarketingDetailsType arg0)">1</method>
+			<method name="public void setModificationDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setSupplierId(String arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRBusinessDetailsType getBusinessDetails()">1</method>
+			<method name="public String getSupplierId()">1</method>
+			<method name="public String getContentId()">1</method>
+			<method name="public java.math.BigDecimal getMaximumGuidePriceAccomm()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRRegionGeocodeDetailsType getRegionGeocodeDetails()">1</method>
+			<method name="public String getSupplierShortName()">1</method>
+			<method name="public void setMerchantDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PRMerchantDetailsType arg0)">1</method>
+			<method name="public void setECommerceDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOTypeType arg0)">1</method>
+			<method name="public void setMaximumGuidePrice(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setContactDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PRContactDetailsType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRMerchantDetailsType getMerchantDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOTypeType getECommerceDetails()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setSupplierShortName(String arg0)">1</method>
+			<method name="public void setShortDescription(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getMinimumGuidePriceAccomm()">1</method>
+			<method name="public String getFullName()">1</method>
+			<method name="public void setImages(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOImageType arg0)">1</method>
+			<method name="public void setBookingDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PRBookingInformationType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusEnumType getStatus()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCreationDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAProductRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getProduct()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.AVQueryRQType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setIndustryCategoryGroup(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType getIndustryCategory()">1</method>
+			<method name="public void setIndustryCategory(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchCriteria(com.v3leisure.schemas.cabs._1_0.cabs_common.SCAvailabilityRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType getIndustryCategoryGroup()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCAvailabilityRQType getSearchCriteria()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCIntegrationTypeRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType getType()">1</method>
+			<method name="public void setType(com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPSDistributionChannelType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getChannel()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOImageType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getImage()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providercalendar.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createCABSProviderCalendarRQ(com.v3leisure.schemas.cabs._1_0.cabs_providercalendar.CABSProviderCalendarRQ arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_providercalendar.CABSProviderCalendarRQ createCABSProviderCalendarRQ()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ObjectFactory</name>
+		<wmc>107</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>106</cbo>
+		<rfc>214</rfc>
+		<lcom>5671</lcom>
+		<ca>0</ca>
+		<ce>106</ce>
+		<npm>107</npm>
+		<lcom3>2.0</lcom3>
+		<loc>534</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9906542056074765</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderShortType createCOProviderShortType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOTypeType createArrayOfCOTypeType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRProductType createArrayOfPRProductType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCProviderRQType createSCProviderRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPSDistributionChannelType createArrayOfPSDistributionChannelType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCChangedRQType createSCChangedRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COSuccessRSType createCOSuccessRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.MessageRSType createMessageRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCStringRQType createSCStringRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRExceptPeriodType createPRExceptPeriodType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRExceptPeriodType createArrayOfPRExceptPeriodType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CADistributionChannelRSType createCADistributionChannelRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfMessageRSType1 createArrayOfMessageRSType1()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType createPSResponseInclusionRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRMerchantDetailsType createPRMerchantDetailsType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCOptInRQType createSCOptInRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.AVDistributionChannelRSType createAVDistributionChannelRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPriceDescriptionType createArrayOfPRPriceDescriptionType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRBookingInformationType createPRBookingInformationType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COImageType createCOImageType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType createCOStatusRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType createArrayOfCODistributionChannelRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPersonType createCOPersonType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.AVQueryRQType createAVQueryRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSRatingSchemeRQType createPSRatingSchemeRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSGeocodeRQType createPSGeocodeRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSQueryRQType createPSQueryRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PROptInInformationType createPROptInInformationType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CAQueryRQType createCAQueryRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COResponsePagingRSType createCOResponsePagingRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCIdRQType createSCIdRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCIntegrationTypeRQType createSCIntegrationTypeRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRPriceDescriptionType createPRPriceDescriptionType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCAvailabilityRQType createSCAvailabilityRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfOIDistributionChannelRSType createArrayOfOIDistributionChannelRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRBusinessDetailsType createPRBusinessDetailsType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OIDistributionChannelRSType createOIDistributionChannelRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCIndustryCategoryGroupRQType createSCIndustryCategoryGroupRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProductGroupRSType createArrayOfPAProductGroupRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRProviderLongRSType createPRProviderLongRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfMessageRSType createArrayOfMessageRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProductRSType createArrayOfPAProductRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PAProviderRSType createPAProviderRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOImageType createArrayOfCOImageType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCBooleanRQType createSCBooleanRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfOIProviderRSType createArrayOfOIProviderRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRProductType createPRProductType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CODistributionChannelRQType createCODistributionChannelRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfSCConsumerType createArrayOfSCConsumerType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OIProviderRSType createOIProviderRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CACriteriaRQType createCACriteriaRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OICompleteQueryRQType createOICompleteQueryRQType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCBookabilityRQType createSCBookabilityRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PAProductRSType createPAProductRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIdValueType createCOIdValueType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CAProviderRSType createCAProviderRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRContactDetailsType createPRContactDetailsType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRSeasonType createPRSeasonType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OIDateRangeQueryRQType createOIDateRangeQueryRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRRatingSchemeType createPRRatingSchemeType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PAProductGroupRSType createPAProductGroupRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCLengthNightsType createSCLengthNightsType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PADistributionChannelRSType createPADistributionChannelRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COMerchantBusinessDetailType createCOMerchantBusinessDetailType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRMarketingDetailsType createPRMarketingDetailsType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCDaysOfWeekType createSCDaysOfWeekType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAAvailabilityDateRSType createArrayOfCAAvailabilityDateRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPAProviderRSType createArrayOfPAProviderRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRPickupLocationType createPRPickupLocationType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COTypeType createCOTypeType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCADistributionChannelRSType createArrayOfCADistributionChannelRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAProductRSType createArrayOfCAProductRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COAddressDetailsType createCOAddressDetailsType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType1 createArrayOfCOProviderShortType1()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRSeasonType createArrayOfPRSeasonType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CODistributionChannelShortType createCODistributionChannelShortType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OITodayQueryRQType createOITodayQueryRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCMinimumMaximumExactRQType createSCMinimumMaximumExactRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType createCOPhoneDetailsType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PAAvailabilityDatesRSType createPAAvailabilityDatesRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CAResponseInclusionsRQType createCAResponseInclusionsRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OIQuerySettingsRQType createOIQuerySettingsRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRRegionGeocodeDetailsType createPRRegionGeocodeDetailsType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCDateSpecificType createSCDateSpecificType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COResponsePagingRQType createCOResponsePagingRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSSearchCriteriaGroupRQType createPSSearchCriteriaGroupRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COEmailType createCOEmailType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionsRQType createPSResponseInclusionsRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType1 createArrayOfCODistributionChannelRQType1()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRProviderLongRSType createArrayOfPRProviderLongRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRProductClassificationType createPRProductClassificationType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CAProductRSType createCAProductRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCIndustryCategoryRQType createSCIndustryCategoryRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCProductTypeRQType createSCProductTypeRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCLengthDaysType createSCLengthDaysType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAProviderRSType createArrayOfCAProviderRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType createArrayOfCOProviderShortType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCConsumerType createSCConsumerType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPickupLocationType createArrayOfPRPickupLocationType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PAAvailabilityDaysRSType createPAAvailabilityDaysRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CAAvailabilityDateRSType createCAAvailabilityDateRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COUrlType createCOUrlType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PAAvailabilityNightsRSType createPAAvailabilityNightsRSType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCStatusRQType createSCStatusRQType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSDistributionChannelType createPSDistributionChannelType()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCDateWindowRQType createSCDateWindowRQType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providercalendar.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.OIStatusEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.OIStatusEnumType[] values()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.OIStatusEnumType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.OIStatusEnumType fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.OIDateRangeQueryRQType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setStatus(com.v3leisure.schemas.cabs._1_0.cabs_common.OIStatusEnumType arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFinishDate()">1</method>
+			<method name="public void setFinishDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OIStatusEnumType getStatus()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rq.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rq.CABSProductAvailabilityRQ createCABSProductAvailabilityRQ()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCABSProductAvailabilityRQ(com.v3leisure.schemas.cabs._1_0.cabs_productavailability_rq.CABSProductAvailabilityRQ arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfMessageRSType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getError()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfMessageRSType1</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWarning()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRProductClassificationType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType getIndustryCategoryId()">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setIndustryCategoryId(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPickupLocationType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPickupLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRMerchantDetailsType</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>5</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24509803921568626</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setWebSite(com.v3leisure.schemas.cabs._1_0.cabs_common.COUrlType arg0)">1</method>
+			<method name="public void setWorkPhone(com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType arg0)">1</method>
+			<method name="public void setPublicEmail(com.v3leisure.schemas.cabs._1_0.cabs_common.COEmailType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COMerchantBusinessDetailType getBusinessDetail()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COEmailType getPublicEmail()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COAddressDetailsType getAddressDetails()">1</method>
+			<method name="public void setAddressDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.COAddressDetailsType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType getMainPhone()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType getWorkPhone()">1</method>
+			<method name="public void setMobilePhone(com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType getMobilePhone()">1</method>
+			<method name="public void setFacsimile(com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType arg0)">1</method>
+			<method name="public void setBusinessDetail(com.v3leisure.schemas.cabs._1_0.cabs_common.COMerchantBusinessDetailType arg0)">1</method>
+			<method name="public void setMainPhone(com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COPhoneDetailsType getFacsimile()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COUrlType getWebSite()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionsRQType</name>
+		<wmc>35</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>36</rfc>
+		<lcom>561</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>35</npm>
+		<lcom3>0.9705882352941176</lcom3>
+		<loc>174</loc>
+		<dam>1.0</dam>
+		<moa>17</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7428571428571429</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4857142857142858</amc>
+		<cc>
+			<method name="public void setIncludeContactDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeProductDescription(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeMerchantDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeBookingDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeImages()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeProducts()">1</method>
+			<method name="public void setIncludeProductMarketingDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeProductPickupLocations(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeBookingDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeProducts(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeProductPickupLocations()">1</method>
+			<method name="public void setIncludeShortDescription(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeContactDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeMerchantDetails()">1</method>
+			<method name="public void setIncludeImages(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeMarketingDetails()">1</method>
+			<method name="public void setIncludeDescription(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeProductImages()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeProductDescription()">1</method>
+			<method name="public void setIncludeECommerceDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeProductMarketingDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeProductRates()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeDescription()">1</method>
+			<method name="public void setIncludeMarketingDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeBusinessDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeProductRates(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeProductImages(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeBusinessDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeOptInDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeRegionGeocodeDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeECommerceDetails()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType getIncludeShortDescription()">1</method>
+			<method name="public void setIncludeOptInDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void setIncludeRegionGeocodeDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PSResponseInclusionRQType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providercalendar_rs.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_providercalendar_rs.CABSProviderCalendarRS createCABSProviderCalendarRS()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createCABSProviderCalendarRS(com.v3leisure.schemas.cabs._1_0.cabs_providercalendar_rs.CABSProviderCalendarRS arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.OIProviderRSType</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2471264367816092</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public String getObxId()">1</method>
+			<method name="public void setEffectiveLastOptedOut(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setEffectiveLastOptedIn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getSupplierObxId()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getEffectiveLastOptedIn()">1</method>
+			<method name="public void setContentId(String arg0)">1</method>
+			<method name="public void setIntegrationMode(com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType arg0)">1</method>
+			<method name="public void setIsBlocked(boolean arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType getIntegrationMode()">1</method>
+			<method name="public void setSupplierObxId(String arg0)">1</method>
+			<method name="public void setSupplierId(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getEffectiveLastOptedOut()">1</method>
+			<method name="public String getSupplierId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public String getContentId()">1</method>
+			<method name="public void setOptedInEffective(boolean arg0)">1</method>
+			<method name="public String getSupplierShortName()">1</method>
+			<method name="public String getShortName()">1</method>
+			<method name="public int getProductCount()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setShortName(String arg0)">1</method>
+			<method name="public void setSupplierShortName(String arg0)">1</method>
+			<method name="public boolean isIsBlocked()">1</method>
+			<method name="public boolean isOptedInEffective()">1</method>
+			<method name="public void setProductCount(int arg0)">1</method>
+			<method name="public void setOptedIn(boolean arg0)">1</method>
+			<method name="public boolean isOptedIn()">1</method>
+			<method name="public void setObxId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType fromValue(String arg0)">3</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COTrueFalseEitherEnumType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PSSearchCriteriaGroupRQType</name>
+		<wmc>24</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>26</rfc>
+		<lcom>272</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>24</npm>
+		<lcom3>0.9958592132505176</lcom3>
+		<loc>271</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.416666666666666</amc>
+		<cc>
+			<method name="public java.util.List getSearchCriteriaProductType()">2</method>
+			<method name="public java.util.List getSearchCriteriaProductName()">2</method>
+			<method name="public java.util.List getSearchCriteriaProductDescription()">2</method>
+			<method name="public java.util.List getSearchGroup()">2</method>
+			<method name="public java.util.List getSearchCriteriaContentId()">2</method>
+			<method name="public Boolean isExclude()">1</method>
+			<method name="public java.util.List getSearchCriteriaShortName()">2</method>
+			<method name="public void setType(com.v3leisure.schemas.cabs._1_0.cabs_common.SCGroupAndOrEnumType arg0)">1</method>
+			<method name="public java.util.List getSearchCriteriaClassification()">2</method>
+			<method name="public java.util.List getSearchCriteriaProductCode()">2</method>
+			<method name="public java.util.List getSearchCriteriaKeyword()">2</method>
+			<method name="public java.util.List getSearchCriteriaShortDescription()">2</method>
+			<method name="public java.util.List getSearchCriteriaSupplier()">2</method>
+			<method name="public java.util.List getSearchCriteriaState()">2</method>
+			<method name="public java.util.List getSearchCriteriaFullName()">2</method>
+			<method name="public java.util.List getSearchCriteriaId()">2</method>
+			<method name="public java.util.List getSearchCriteriaGeocode()">2</method>
+			<method name="public java.util.List getSearchCriteriaRatingScheme()">2</method>
+			<method name="public java.util.List getSearchCriteriaDescription()">2</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.SCGroupAndOrEnumType getType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setExclude(Boolean arg0)">1</method>
+			<method name="public java.util.List getSearchCriteriaRegion()">2</method>
+			<method name="public java.util.List getSearchCriteriaCity()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCProductTypeRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType getType()">1</method>
+			<method name="public void setType(com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCProviderRQType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setChannelGroupId(String arg0)">1</method>
+			<method name="public void setType(com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderEnumType arg0)">1</method>
+			<method name="public String getChannelGroupId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COProviderEnumType getType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providercalendar_rs.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRSeasonType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSeason()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCDateSpecificType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDate()">1</method>
+			<method name="public void setDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CADistributionChannelRSType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAProviderRSType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCAProviderRSType getProviders()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCDaysOfWeekType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setSaturday(Boolean arg0)">1</method>
+			<method name="public void setSunday(Boolean arg0)">1</method>
+			<method name="public void setFriday(Boolean arg0)">1</method>
+			<method name="public void setTuesday(Boolean arg0)">1</method>
+			<method name="public void setThursday(Boolean arg0)">1</method>
+			<method name="public void setMonday(Boolean arg0)">1</method>
+			<method name="public Boolean isFriday()">1</method>
+			<method name="public void setWednesday(Boolean arg0)">1</method>
+			<method name="public Boolean isThursday()">1</method>
+			<method name="public Boolean isSunday()">1</method>
+			<method name="public Boolean isWednesday()">1</method>
+			<method name="public Boolean isMonday()">1</method>
+			<method name="public Boolean isTuesday()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Boolean isSaturday()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COCacheEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COCacheEnumType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COCacheEnumType[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COCacheEnumType fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COResponsePagingRSType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setQueryId(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getQueryTimeoutUtc()">1</method>
+			<method name="public void setQueryTimeoutUtc(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setRecordsPerPage(int arg0)">1</method>
+			<method name="public int getPageReturned()">1</method>
+			<method name="public String getQueryId()">1</method>
+			<method name="public int getRecordsMatched()">1</method>
+			<method name="public int getRecordsPerPage()">1</method>
+			<method name="public void setRecordsMatched(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPageReturned(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusEnumType[] values()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusEnumType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusEnumType fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDistributionChannel()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRProductType</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>5</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1484848484848485</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public void setMinimumMinimumNights(Integer arg0)">1</method>
+			<method name="public String getObxId()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setMarketingDetails(com.v3leisure.schemas.cabs._1_0.cabs_common.PRProductClassificationType arg0)">1</method>
+			<method name="public boolean isTaxExempt()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.PRProductClassificationType getMarketingDetails()">1</method>
+			<method name="public void setMultiBooking(boolean arg0)">1</method>
+			<method name="public void setMaximumMinimumNights(Integer arg0)">1</method>
+			<method name="public void setSeasons(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRSeasonType arg0)">1</method>
+			<method name="public void setMaximumCapacity(int arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRSeasonType getSeasons()">1</method>
+			<method name="public void setTaxExempt(boolean arg0)">1</method>
+			<method name="public boolean isMultiBooking()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public Integer getNumberSleepingAreas()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void setPickupLocations(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPickupLocationType arg0)">1</method>
+			<method name="public Integer getMaximumMinimumNights()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public void setObxId(String arg0)">1</method>
+			<method name="public void setImages(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOImageType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType getType()">1</method>
+			<method name="public void setType(com.v3leisure.schemas.cabs._1_0.cabs_common.COAvailReqType arg0)">1</method>
+			<method name="public Integer getMinimumMinimumNights()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPickupLocationType getPickupLocations()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOImageType getImages()">1</method>
+			<method name="public int getMaximumCapacity()">1</method>
+			<method name="public void setNumberSleepingAreas(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRBookingInformationType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setConditionsOfUse(String arg0)">1</method>
+			<method name="public String getBookingTerms()">1</method>
+			<method name="public void setBookingSummaryMessage(String arg0)">1</method>
+			<method name="public String getBookingSummaryMessage()">1</method>
+			<method name="public void setBookingTerms(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getConditionsOfUse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCConsumerType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setAdults(int arg0)">1</method>
+			<method name="public void setChildren(int arg0)">1</method>
+			<method name="public void setConcessions(int arg0)">1</method>
+			<method name="public int getAdults()">1</method>
+			<method name="public int getChildren()">1</method>
+			<method name="public int getConcessions()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType[] values()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType valueOf(String arg0)">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.COIntegrationModeEnumType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideroptin_rs.CABSProviderOptInRS</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfOIDistributionChannelRSType getChannels()">1</method>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfOIDistributionChannelRSType arg0)">1</method>
+			<method name="public void setStatus(com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType getStatus()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType1</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDistributionChannelRQ()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.OIQuerySettingsRQType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OITodayQueryRQType getTodayQuery()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OICompleteQueryRQType getCompleteQuery()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.OIDateRangeQueryRQType getDateRangeQuery()">1</method>
+			<method name="public void setCompleteQuery(com.v3leisure.schemas.cabs._1_0.cabs_common.OICompleteQueryRQType arg0)">1</method>
+			<method name="public void setDateRangeQuery(com.v3leisure.schemas.cabs._1_0.cabs_common.OIDateRangeQueryRQType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTodayQuery(com.v3leisure.schemas.cabs._1_0.cabs_common.OITodayQueryRQType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.COStatusRSType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>6</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfMessageRSType getErrors()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COSuccessRSType getSuccess()">1</method>
+			<method name="public void setSuccess(com.v3leisure.schemas.cabs._1_0.cabs_common.COSuccessRSType arg0)">1</method>
+			<method name="public void setErrors(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfMessageRSType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfMessageRSType1 getWarnings()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWarnings(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfMessageRSType1 arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PRExceptPeriodType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPriceDescriptionType getPriceDescriptions()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFinishDate()">1</method>
+			<method name="public void setFinishDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setPriceDescriptions(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfPRPriceDescriptionType arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CAAvailableEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.CAAvailableEnumType[] values()">1</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.CAAvailableEnumType fromValue(String arg0)">3</method>
+			<method name="public static com.v3leisure.schemas.cabs._1_0.cabs_common.CAAvailableEnumType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCIdRQType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public Boolean isExclude()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setExclude(Boolean arg0)">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rq.ArrayOfCODistributionChannelRQType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCODistributionChannelRQType()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.CAQueryRQType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setCache(com.v3leisure.schemas.cabs._1_0.cabs_common.COCacheEnumType arg0)">1</method>
+			<method name="public void setIndustryCategoryGroup(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COCacheEnumType getCache()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.CACriteriaRQType getCriteria()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType getIndustryCategory()">1</method>
+			<method name="public void setIndustryCategory(com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryEnumType arg0)">1</method>
+			<method name="public void setCriteria(com.v3leisure.schemas.cabs._1_0.cabs_common.CACriteriaRQType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.COIndustryCategoryGroupEnumType getIndustryCategoryGroup()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.PROptInInformationType</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36764705882352944</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setOptedInEffective(boolean arg0)">1</method>
+			<method name="public void setEffectiveLastOptedOut(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setEffectiveLastOptedIn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public int getProductCount()">1</method>
+			<method name="public void setLastOptedIn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getLastOptedOut()">1</method>
+			<method name="public void setLastOptedOut(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getEffectiveLastOptedIn()">1</method>
+			<method name="public boolean isIsBlocked()">1</method>
+			<method name="public boolean isOptedInEffective()">1</method>
+			<method name="public void setProductCount(int arg0)">1</method>
+			<method name="public void setOptedIn(boolean arg0)">1</method>
+			<method name="public boolean isOptedIn()">1</method>
+			<method name="public void setIsBlocked(boolean arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getLastOptedIn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getEffectiveLastOptedOut()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_common.SCBooleanRQType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setValue(boolean arg0)">1</method>
+			<method name="public boolean isValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_provideravailability_rq.CABSProviderAvailabilityRQ</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setProviders(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType1 arg0)">1</method>
+			<method name="public void setQuery(com.v3leisure.schemas.cabs._1_0.cabs_common.AVQueryRQType arg0)">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType1 getChannels()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCOProviderShortType1 getProviders()">1</method>
+			<method name="public com.v3leisure.schemas.cabs._1_0.cabs_common.AVQueryRQType getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setChannels(com.v3leisure.schemas.cabs._1_0.cabs_common.ArrayOfCODistributionChannelRQType1 arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.v3leisure.schemas.cabs._1_0.cabs_providersearch_rq.CABSProviderSearchRQ</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPagingOrQueryOrChannels()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

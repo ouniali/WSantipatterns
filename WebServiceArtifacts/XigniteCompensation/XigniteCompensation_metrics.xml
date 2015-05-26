@@ -1,0 +1,1310 @@
+	<class>
+		<name>com.xignite.services.OfficerCompensation</name>
+		<wmc>27</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2962962962962963</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public double getRestrictedStockAwards()">1</method>
+			<method name="public void setDirectorAsReported(String arg0)">1</method>
+			<method name="public void setLongTermIncentivePlanPayouts(double arg0)">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public double getBonus()">1</method>
+			<method name="public String getDirectorAsReported()">1</method>
+			<method name="public void setSalary(double arg0)">1</method>
+			<method name="public double getOtherAnnualCompensation()">1</method>
+			<method name="public double getLongTermIncentivePlanPayouts()">1</method>
+			<method name="public void setAllOtherCompensation(double arg0)">1</method>
+			<method name="public String getDirectorStandardized()">1</method>
+			<method name="public com.xignite.services.Officer getOfficer()">1</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+			<method name="public void setDirectorStandardized(String arg0)">1</method>
+			<method name="public void setOtherAnnualCompensation(double arg0)">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public void setBonus(double arg0)">1</method>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public void setOfficer(com.xignite.services.Officer arg0)">1</method>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public double getSecurityUnderlyingOptions()">1</method>
+			<method name="public void setSecurityUnderlyingOptions(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRestrictedStockAwards(double arg0)">1</method>
+			<method name="public double getSalary()">1</method>
+			<method name="public double getAllOtherCompensation()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerOptions</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Compensation</name>
+		<wmc>31</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3709677419354839</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public double getRestrictedStockAwards()">1</method>
+			<method name="public double getTotalCompensation()">1</method>
+			<method name="public void setDirectorAsReported(String arg0)">1</method>
+			<method name="public void setLongTermIncentivePlanPayouts(double arg0)">1</method>
+			<method name="public void setOptionAwards(double arg0)">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public double getBonus()">1</method>
+			<method name="public String getDirectorAsReported()">1</method>
+			<method name="public void setSalary(double arg0)">1</method>
+			<method name="public double getOtherAnnualCompensation()">1</method>
+			<method name="public double getLongTermIncentivePlanPayouts()">1</method>
+			<method name="public double getNonEquityIncentivePlanCompensation()">1</method>
+			<method name="public void setAllOtherCompensation(double arg0)">1</method>
+			<method name="public void setNonEquityIncentivePlanCompensation(double arg0)">1</method>
+			<method name="public String getDirectorStandardized()">1</method>
+			<method name="public void setTotalCompensation(double arg0)">1</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public void setDirectorStandardized(String arg0)">1</method>
+			<method name="public double getOptionAwards()">1</method>
+			<method name="public void setOtherAnnualCompensation(double arg0)">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public void setBonus(double arg0)">1</method>
+			<method name="public double getChangeInPensionValueAndNondisqualifiedDeferredCompensationEarnings()">1</method>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public double getSecurityUnderlyingOptions()">1</method>
+			<method name="public void setSecurityUnderlyingOptions(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRestrictedStockAwards(double arg0)">1</method>
+			<method name="public double getSalary()">1</method>
+			<method name="public double getAllOtherCompensation()">1</method>
+			<method name="public void setChangeInPensionValueAndNondisqualifiedDeferredCompensationEarnings(double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastCompensation</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerCompensationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetOfficerCompensationsResult(com.xignite.services.OfficerCompensations arg0)">1</method>
+			<method name="public com.xignite.services.OfficerCompensations getGetOfficerCompensationsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastCompensationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLastCompensationsResult(com.xignite.services.ArrayOfOfficerCompensation arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfOfficerCompensation getGetLastCompensationsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerOptionsGrantedResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.OfficerOptions getGetOfficerOptionsGrantedResult()">1</method>
+			<method name="public void setGetOfficerOptionsGrantedResult(com.xignite.services.OfficerOptions arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Header</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setTracer(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+			<method name="public String getTracer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfOfficerCompensation</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getOfficerCompensation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Company</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTelephone()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setTelephone(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public String getZip()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAddress()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setZip(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCurrentOfficers</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastCompensations</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfCompensation</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCompensation()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCurrentOfficersResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfOfficer getGetCurrentOfficersResult()">1</method>
+			<method name="public void setGetCurrentOfficersResult(com.xignite.services.ArrayOfOfficer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OfficerOptions</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>5</ca>
+		<ce>4</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public void setOfficer(com.xignite.services.Officer arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfOptionExercised getOptionsExercised()">1</method>
+			<method name="public void setOptionsExercised(com.xignite.services.ArrayOfOptionExercised arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfOptionGranted getOptionsGranted()">1</method>
+			<method name="public com.xignite.services.Officer getOfficer()">1</method>
+			<method name="public void setOptionsGranted(com.xignite.services.ArrayOfOptionGranted arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfOfficer</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getOfficer()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficer</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficersByYearResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfOfficer getGetOfficersByYearResult()">1</method>
+			<method name="public void setGetOfficersByYearResult(com.xignite.services.ArrayOfOfficer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerOptionsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetOfficerOptionsResult(com.xignite.services.OfficerOptions arg0)">1</method>
+			<method name="public com.xignite.services.OfficerOptions getGetOfficerOptionsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Officer</name>
+		<wmc>23</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>6</ca>
+		<ce>2</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3695652173913043</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public String getDirectorSince()">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public void setDirectorAsReported(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public void setCompany(com.xignite.services.Company arg0)">1</method>
+			<method name="public String getSourceDate()">1</method>
+			<method name="public String getDirectorAsReported()">1</method>
+			<method name="public com.xignite.services.Company getCompany()">1</method>
+			<method name="public void setOfficerSince(String arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setAge(int arg0)">1</method>
+			<method name="public String getBiography()">1</method>
+			<method name="public int getAge()">1</method>
+			<method name="public String getDirectorStandardized()">1</method>
+			<method name="public void setDirectorSince(String arg0)">1</method>
+			<method name="public void setBiography(String arg0)">1</method>
+			<method name="public void setSourceDate(String arg0)">1</method>
+			<method name="public String getOfficerSince()">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setDirectorStandardized(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.IdentifierTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>12</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>11</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static com.xignite.services.IdentifierTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.IdentifierTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.IdentifierTypes fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OptionGranted</name>
+		<wmc>41</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>42</rfc>
+		<lcom>780</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>41</npm>
+		<lcom3>0.975</lcom3>
+		<loc>204</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3719512195121951</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4878048780487805</amc>
+		<cc>
+			<method name="public double getValueOfOptionsPotentialValue10Percent()">1</method>
+			<method name="public double getEstimatedPayoutsNonEquityIncentivePlanAwardsTarget()">1</method>
+			<method name="public void setEstimatedPayoutsNonEquityIncentivePlanAwardsMaximum(double arg0)">1</method>
+			<method name="public double getEstimatedPayoutsEquityIncentivePlanAwardsMaximum()">1</method>
+			<method name="public void setGrantDate(String arg0)">1</method>
+			<method name="public void setValueOfOptionsPotentialValue5Percent(double arg0)">1</method>
+			<method name="public void setEstimatedPayoutsNonEquityIncentivePlanAwardsTarget(double arg0)">1</method>
+			<method name="public void setGrantDatePresentValue(double arg0)">1</method>
+			<method name="public double getEstimatedPayoutsNonEquityIncentivePlanAwardsThreshold()">1</method>
+			<method name="public double getAllOtherStockAwardsNumberOfSecuritiesUnderlyIngOptions()">1</method>
+			<method name="public void setAllOtherStockAwardsNumberOfSecuritiesUnderlyIngOptions(double arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setValueOfOptionsPotentialValue10Percent(double arg0)">1</method>
+			<method name="public double getEstimatedPayoutsEquityIncentivePlanAwardsTarget()">1</method>
+			<method name="public double getGrantDatePresentValue()">1</method>
+			<method name="public double getPercentOfTotalOptionsGrantedInFiscalYear()">1</method>
+			<method name="public void setPercentOfTotalOptionsGrantedInFiscalYear(double arg0)">1</method>
+			<method name="public void setGrantDateFairValueOfStockandOptionAwards(double arg0)">1</method>
+			<method name="public String getExpirationDate()">1</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public double getGrantDateFairValueOfStockandOptionAwards()">1</method>
+			<method name="public void setAllOtherStockAwardsNumberOfSharesOrStockOrUnits(double arg0)">1</method>
+			<method name="public void setEstimatedPayoutsEquityIncentivePlanAwardsMaximum(double arg0)">1</method>
+			<method name="public int getNumberOfSecuritiesUnderlyIngOptions()">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public double getExerciseOrBasePrice()">1</method>
+			<method name="public double getEstimatedPayoutsNonEquityIncentivePlanAwardsMaximum()">1</method>
+			<method name="public double getEstimatedPayoutsEquityIncentivePlanAwardsThreshold()">1</method>
+			<method name="public double getValueOfOptionsPotentialValue5Percent()">1</method>
+			<method name="public String getSourceDate()">1</method>
+			<method name="public String getGrantDate()">1</method>
+			<method name="public void setEstimatedPayoutsEquityIncentivePlanAwardsThreshold(double arg0)">1</method>
+			<method name="public void setNumberOfSecuritiesUnderlyIngOptions(int arg0)">1</method>
+			<method name="public double getAllOtherStockAwardsNumberOfSharesOrStockOrUnits()">1</method>
+			<method name="public void setSourceDate(String arg0)">1</method>
+			<method name="public void setExpirationDate(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setEstimatedPayoutsEquityIncentivePlanAwardsTarget(double arg0)">1</method>
+			<method name="public void setEstimatedPayoutsNonEquityIncentivePlanAwardsThreshold(double arg0)">1</method>
+			<method name="public void setExerciseOrBasePrice(double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerOptionsExercisedResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.OfficerOptions getGetOfficerOptionsExercisedResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetOfficerOptionsExercisedResult(com.xignite.services.OfficerOptions arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OfficerCompensations</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public void setOfficer(com.xignite.services.Officer arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCompensation getCompensations()">1</method>
+			<method name="public com.xignite.services.Officer getOfficer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+			<method name="public void setCompensations(com.xignite.services.ArrayOfCompensation arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfOptionExercised</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getOptionExercised()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteCompensationSoap</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>10</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>7</ce>
+		<npm>10</npm>
+		<lcom3>2.0</lcom3>
+		<loc>10</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.775</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.OfficerOptions getOfficerOptions(String, String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.OfficerOptions getOfficerOptionsExercised(String, String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfOfficer getCurrentOfficers(String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfOfficer getOfficersByYear(String, com.xignite.services.IdentifierTypes, int)">1</method>
+			<method name="public abstract com.xignite.services.OfficerCompensation getLastCompensation(String, String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.OfficerCompensations getOfficerCompensations(String, String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.OfficerOptions getOfficerOptionsGranted(String, String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.Officer getOfficer(String, String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfOfficerCompensation getLastCompensations(String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfOfficer getOfficers(String, com.xignite.services.IdentifierTypes)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerOptionsExercised</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerOptionsGranted</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteCompensation</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.xignite.services.XigniteCompensationSoap getXigniteCompensationSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public com.xignite.services.XigniteCompensationSoap getXigniteCompensationSoap()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>44</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>35</cbo>
+		<rfc>82</rfc>
+		<lcom>932</lcom>
+		<ca>0</ca>
+		<ce>35</ce>
+		<npm>43</npm>
+		<lcom3>0.9767441860465116</lcom3>
+		<loc>293</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.14534883720930233</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public com.xignite.services.GetOfficer createGetOfficer()">1</method>
+			<method name="public com.xignite.services.ArrayOfOptionGranted createArrayOfOptionGranted()">1</method>
+			<method name="public com.xignite.services.OfficerOptions createOfficerOptions()">1</method>
+			<method name="public com.xignite.services.GetOfficersResponse createGetOfficersResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOfficerCompensation(com.xignite.services.OfficerCompensation arg0)">1</method>
+			<method name="public com.xignite.services.GetOfficerOptionsResponse createGetOfficerOptionsResponse()">1</method>
+			<method name="public com.xignite.services.GetOfficerCompensations createGetOfficerCompensations()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOfficer(com.xignite.services.Officer arg0)">1</method>
+			<method name="public com.xignite.services.Header createHeader()">1</method>
+			<method name="public com.xignite.services.ArrayOfOfficer createArrayOfOfficer()">1</method>
+			<method name="public com.xignite.services.GetLastCompensationsResponse createGetLastCompensationsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeader(com.xignite.services.Header arg0)">1</method>
+			<method name="public com.xignite.services.Officer createOfficer()">1</method>
+			<method name="public com.xignite.services.Compensation createCompensation()">1</method>
+			<method name="public com.xignite.services.ArrayOfOfficerCompensation createArrayOfOfficerCompensation()">1</method>
+			<method name="public com.xignite.services.OfficerCompensation createOfficerCompensation()">1</method>
+			<method name="public com.xignite.services.OptionExercised createOptionExercised()">1</method>
+			<method name="public com.xignite.services.GetLastCompensations createGetLastCompensations()">1</method>
+			<method name="public com.xignite.services.GetOfficerOptionsGranted createGetOfficerOptionsGranted()">1</method>
+			<method name="public com.xignite.services.GetOfficerResponse createGetOfficerResponse()">1</method>
+			<method name="public com.xignite.services.Company createCompany()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOfficerOptions(com.xignite.services.OfficerOptions arg0)">1</method>
+			<method name="public com.xignite.services.OfficerCompensations createOfficerCompensations()">1</method>
+			<method name="public com.xignite.services.GetLastCompensationResponse createGetLastCompensationResponse()">1</method>
+			<method name="public com.xignite.services.GetLastCompensation createGetLastCompensation()">1</method>
+			<method name="public com.xignite.services.GetOfficerOptionsExercisedResponse createGetOfficerOptionsExercisedResponse()">1</method>
+			<method name="public com.xignite.services.GetOfficers createGetOfficers()">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.ArrayOfOptionExercised createArrayOfOptionExercised()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfOfficer(com.xignite.services.ArrayOfOfficer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOfficerCompensations(com.xignite.services.OfficerCompensations arg0)">1</method>
+			<method name="public com.xignite.services.GetOfficerOptionsExercised createGetOfficerOptionsExercised()">1</method>
+			<method name="public com.xignite.services.GetCurrentOfficers createGetCurrentOfficers()">1</method>
+			<method name="public com.xignite.services.GetOfficersByYear createGetOfficersByYear()">1</method>
+			<method name="public com.xignite.services.GetOfficerOptionsGrantedResponse createGetOfficerOptionsGrantedResponse()">1</method>
+			<method name="public com.xignite.services.OptionGranted createOptionGranted()">1</method>
+			<method name="public com.xignite.services.GetOfficerCompensationsResponse createGetOfficerCompensationsResponse()">1</method>
+			<method name="public com.xignite.services.GetCurrentOfficersResponse createGetCurrentOfficersResponse()">1</method>
+			<method name="public com.xignite.services.GetOfficersByYearResponse createGetOfficersByYearResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfCompensation createArrayOfCompensation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfOfficerCompensation(com.xignite.services.ArrayOfOfficerCompensation arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.GetOfficerOptions createGetOfficerOptions()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfOptionGranted</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getOptionGranted()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficersResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfOfficer getGetOfficersResult()">1</method>
+			<method name="public void setGetOfficersResult(com.xignite.services.ArrayOfOfficer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficers</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficersByYear</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Officer getGetOfficerResult()">1</method>
+			<method name="public void setGetOfficerResult(com.xignite.services.Officer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficerCompensations</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOfficerID()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setOfficerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastCompensationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLastCompensationResult(com.xignite.services.OfficerCompensation arg0)">1</method>
+			<method name="public com.xignite.services.OfficerCompensation getGetLastCompensationResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>8</noc>
+		<cbo>10</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>9</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OptionExercised</name>
+		<wmc>19</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setValueOfUnerxercisedOptionsExercisable(double arg0)">1</method>
+			<method name="public double getValueOfUnerxercisedOptionsExercisable()">1</method>
+			<method name="public void setValueRealized(double arg0)">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public void setNumSecuritiesUnexercisedOptionsExercisable(int arg0)">1</method>
+			<method name="public double getValueRealized()">1</method>
+			<method name="public void setValueOfUnerxercisedOptionsUnexercisable(double arg0)">1</method>
+			<method name="public void setNumSecuritiesUnexercisedOptionsUnexercisable(int arg0)">1</method>
+			<method name="public double getValueOfUnerxercisedOptionsUnexercisable()">1</method>
+			<method name="public String getSourceDate()">1</method>
+			<method name="public int getSharesAcquiredOnExercise()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public int getNumSecuritiesUnexercisedOptionsUnexercisable()">1</method>
+			<method name="public void setSharesAcquiredOnExercise(int arg0)">1</method>
+			<method name="public void setSourceDate(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public int getNumSecuritiesUnexercisedOptionsExercisable()">1</method>
+		</cc>
+	</class>

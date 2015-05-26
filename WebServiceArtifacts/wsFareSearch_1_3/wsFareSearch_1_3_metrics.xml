@@ -1,0 +1,1868 @@
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.xsd.ObjectFactory</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>27</rfc>
+		<lcom>213</lcom>
+		<ca>0</ca>
+		<ce>5</ce>
+		<npm>22</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>331</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2727272727272727</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>12.521739130434783</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputInsuranceData(com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.InsuranceData arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputColaboratorFeeAmount(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputBookingCharge(com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.BookingCharge arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputOperatingBrand(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputErrorMessage(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputVatPercentage(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputCodTadmImpu(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputHeader(com.inforcyl.services.xsd.Header arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputCardTypeCharge(com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.CardTypeCharge arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputMandatoryData(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputMiniMod(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputCorrelationId(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputTotalChargesAmount(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputDescInfo(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputTravelShopFeeAmount(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputInfo(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputValidDiscount(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputCodStadmImpu(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputManagementFees(Double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchOutputProduct(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.xsd.FareSearchOutput createFareSearchOutput()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.returnchangeoutboundticketsdata.xsd.ChangeOutboundTicketsData</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getProduct()">1</method>
+			<method name="public void setProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSerieAdmon(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTicket(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getSerieAdmon()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCompany()">1</method>
+			<method name="public void setCompany(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTicket()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>inforcyl.services.faresearch._1.WsFareSearch13PortType</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.inforcyl.services.v_1_3.faresearch.output.xsd.FareSearchOutput execute(com.inforcyl.services.v_1_3.faresearch.input.xsd.FareSearchInput)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.xsd.FareData</name>
+		<wmc>14</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getDirection()">1</method>
+			<method name="public void setFareKms(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setBoardingFee(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOrigin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDirection(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDestination(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDestination()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOrigin()">1</method>
+			<method name="public void setPoints(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getTravellers()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getPoints()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getFareKms()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getBoardingFee()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.xsd.ObjectFactory</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>13</rfc>
+		<lcom>24</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.875</lcom3>
+		<loc>107</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4375</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>10.222222222222221</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createFareDataBoardingFee(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataDirection(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataPoints(Long arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataOrigin(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.xsd.FareData createFareData()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataDestination(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataFareKms(Double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.xsd.FareSearchInput</name>
+		<wmc>83</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>85</rfc>
+		<lcom>3327</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>83</npm>
+		<lcom3>0.9894678492239468</lcom3>
+		<loc>462</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7289156626506024</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.036144578313253</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getArrivalRDate()">1</method>
+			<method name="public java.util.List getEntryFare()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getAmendmentType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getChargeChannel()">1</method>
+			<method name="public java.util.List getReturnAmendingOutwardData()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getReturnArrivalTime()">1</method>
+			<method name="public java.util.List getReturnChangeOutboundTickets()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardArrivalTime()">1</method>
+			<method name="public void setOutwardTime(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getRestrictions()">2</method>
+			<method name="public void setReturnDepartureDate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDestinationCountry(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTicketCompany(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setArrivalODate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAlsaPlus(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getArrivalODate()">1</method>
+			<method name="public void setReturnOrigin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOutwardDestination(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTrafficType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAdmonToChargeTo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBorder()">1</method>
+			<method name="public void setChargeChannel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCheckOutwardOnlyFare()">1</method>
+			<method name="public void setOutwardOrigin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAdmonToChargeTo()">1</method>
+			<method name="public void setDestinationBorder(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTask(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getReturnDestination()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCurrency()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardDestination()">1</method>
+			<method name="public void setBorder(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setBrandGroup(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCardNo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCheckOutwardOnlyFare(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPromotion()">1</method>
+			<method name="public void setHeader(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setReturnArrivalTime(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getJourneyType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBrandGroup()">1</method>
+			<method name="public void setSeats(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSuplementCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCurrency(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setReturnDepartureTime(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSeats()">1</method>
+			<method name="public void setAmendmentType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardDepartureDate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardOrigin()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOperationDatabase()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTrafficType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHeader()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getJourneyDate()">1</method>
+			<method name="public void setOutwardArrivalTime(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAgency()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSaleQuery()">1</method>
+			<method name="public java.util.List getPassengerTypes()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getReturnDepartureTime()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAlsaPlus()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSaleFareType()">1</method>
+			<method name="public void setAgency(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPromotion(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCountry(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTask()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDestinationBorder()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardTime()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDestinationCountry()">1</method>
+			<method name="public void setSaleQuery(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setJourneyType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCountry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCardNo()">1</method>
+			<method name="public void setJourneyDate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOriginCountry(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setReturnDestination(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getReturnDepartureDate()">1</method>
+			<method name="public void setOperationDatabase(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOutwardDepartureDate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setArrivalRDate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getReturnOrigin()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTicketCompany()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getOriginCountry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSuplementCode()">1</method>
+			<method name="public void setSaleFareType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getPaymentTypesToBeApplied()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.faredata.xsd.ObjectFactory</name>
+		<wmc>16</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>94</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9333333333333333</lcom3>
+		<loc>219</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>11.875</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataSerialNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataTravellerDescription(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataGrossPrice(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataPassengerType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataSurcharge1(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataSurcharge(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataThirdPartyAmount(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataPromotionCode(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataNetPrice(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataDiscountType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataProducesComission(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataDiscountPercentage(Double arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.faredata.xsd.TravellerData createTravellerData()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataDiscountAmount(Double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.xsd.InputMethods</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>10</noc>
+		<cbo>11</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>11</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.CardTypeCharge</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCardFactor()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCardType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCardProduct()">1</method>
+			<method name="public void setCardType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCardAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCardProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCardFactor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCardSum(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCardAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCardSum()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.faredata.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.faredata.travellerdata.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.faredata.travellerdata.xsd.ObjectFactory</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>13</rfc>
+		<lcom>24</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.875</lcom3>
+		<loc>107</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5833333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>10.222222222222221</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createDiscountsFromOrToBorder(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDiscountsBorder(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDiscountsDiscountPercentage(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDiscountsLeg(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.faredata.travellerdata.xsd.Discounts createDiscounts()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDiscountsAcumulativeWithOtherOffers(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createDiscountsDiscountType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>inforcyl.services.faresearch._1.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.xsd.ObjectFactory</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>24</rfc>
+		<lcom>114</lcom>
+		<ca>0</ca>
+		<ce>4</ce>
+		<npm>16</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>202</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>10.235294117647058</amc>
+		<cc>
+			<method name="public com.inforcyl.services.xsd.InputMethods createInputMethods()">1</method>
+			<method name="public com.inforcyl.services.xsd.OutputMethods createOutputMethods()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthentificationClientIp(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthentificationUserDataBase(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthentificationUserLocaleLanguage(String arg0)">1</method>
+			<method name="public com.inforcyl.services.xsd.Header createHeader()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthentificationUserLocaleCountry(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeaderAuthentification(com.inforcyl.services.xsd.Authentification arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthentificationAdmon(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeaderSystemDate(String arg0)">1</method>
+			<method name="public com.inforcyl.services.xsd.Authentification createAuthentification()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthentificationUser(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createHeaderMaintenanceMessage(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthentificationPassword(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthentificationUserTimeUsing(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.xsd.ObjectFactory</name>
+		<wmc>41</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>45</rfc>
+		<lcom>744</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>40</npm>
+		<lcom3>0.975</lcom3>
+		<loc>619</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.65</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>13.170731707317072</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputTicketCompany(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputOperationDatabase(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputPromotion(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputOutwardTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputOutwardDepartureDate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputChargeChannel(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.xsd.FareSearchInput createFareSearchInput()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputReturnArrivalTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputSaleQuery(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputReturnDepartureTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputOriginCountry(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputAdmonToChargeTo(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputCurrency(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputDestinationCountry(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputDestinationBorder(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputHeader(com.inforcyl.services.xsd.Header arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputReturnDestination(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputOutwardOrigin(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputTask(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputArrivalRDate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputAmendmentType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputCountry(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputBorder(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputCheckOutwardOnlyFare(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputSeats(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputReturnOrigin(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputOutwardArrivalTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputBrandGroup(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputJourneyDate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputCardNo(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputAgency(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputArrivalODate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputSuplementCode(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputOutwardDestination(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputJourneyType(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputAlsaPlus(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputSaleFareType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputTrafficType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareSearchInputReturnDepartureDate(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.faredata.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>inforcyl.services.faresearch._1.ExecuteResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getReturn()">1</method>
+			<method name="public void setReturn(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.BookingCharge</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setBookingType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBookingSum()">1</method>
+			<method name="public void setBookingAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBookingAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBookingProduct()">1</method>
+			<method name="public void setBookingProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setBookingSum(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getBookingFactor()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBookingType()">1</method>
+			<method name="public void setBookingFactor(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.Restriction</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setOrigin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setService(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDestination(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDestination()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOrigin()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getService()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTicketCompany()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTicketCompany(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.ReturnChangeOutboundTicketsData</name>
+		<wmc>2</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getChangeOutBoundTickets()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.returnchangeoutboundticketsdata.xsd.ObjectFactory</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>11</rfc>
+		<lcom>13</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>6</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>75</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.8333333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.142857142857142</amc>
+		<cc>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.returnchangeoutboundticketsdata.xsd.ChangeOutboundTicketsData createChangeOutboundTicketsData()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChangeOutboundTicketsDataSerieAdmon(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChangeOutboundTicketsDataCompany(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChangeOutboundTicketsDataProduct(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChangeOutboundTicketsDataTicket(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>inforcyl.services.faresearch._1.Exception</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getException()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setException(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.xsd.Header</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getAuthentification()">1</method>
+			<method name="public void setAuthentification(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSystemDate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMaintenanceMessage()">1</method>
+			<method name="public void setMaintenanceMessage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSystemDate(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.Payment</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getApplicable()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaymentCode()">1</method>
+			<method name="public void setApplicable(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPaymentCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPaymentDescription(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSerialNumber(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSerialNumber()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaymentDescription()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.xsd.Authentification</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getUserLocaleCountry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getUserDataBase()">1</method>
+			<method name="public void setUserLocaleCountry(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAdmon(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getUserTimeUsing()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getUser()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAdmon()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPassword()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getClientIp()">1</method>
+			<method name="public void setUser(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setUserTimeUsing(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setUserDataBase(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setClientIp(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getUserLocaleLanguage()">1</method>
+			<method name="public void setUserLocaleLanguage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPassword(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.Types</name>
+		<wmc>8</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public void setFareName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getFareName()">1</method>
+			<method name="public void setFareType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setFareTotalPrice(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getFareType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDepartureFare()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getFareTotalPrice()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>inforcyl.services.faresearch._1.ObjectFactory</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>14</rfc>
+		<lcom>22</lcom>
+		<ca>0</ca>
+		<ce>5</ce>
+		<npm>7</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>69</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.25</amc>
+		<cc>
+			<method name="public inforcyl.services.faresearch._1.ExecuteResponse createExecuteResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createExceptionException(Object arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createExecuteResponseReturn(com.inforcyl.services.v_1_3.faresearch.output.xsd.FareSearchOutput arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createExecuteFaresearchInput(com.inforcyl.services.v_1_3.faresearch.input.xsd.FareSearchInput arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public inforcyl.services.faresearch._1.Exception createException()">1</method>
+			<method name="public inforcyl.services.faresearch._1.Execute createExecute()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.Passengers</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getPassengerType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAmount()">1</method>
+			<method name="public void setAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPassengerType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTravellerDescription(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTravellerDescription()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.Distribution</name>
+		<wmc>15</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getDistributionPriority()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDistributionSum()">1</method>
+			<method name="public void setDistributionFactor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDistributionName()">1</method>
+			<method name="public void setDistributionPriority(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDistributionType()">1</method>
+			<method name="public void setDistributionName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDistributionAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDistributionAmount()">1</method>
+			<method name="public void setDistributionProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDistributionFactor()">1</method>
+			<method name="public void setDistributionType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDistributionProduct()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDistributionSum(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.Insurances</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setInsuranceFactor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInsuranceAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTerms()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getServiceType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInsuranceFactor()">1</method>
+			<method name="public void setTerms(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setInsuranceCompany(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInsuranceCompany()">1</method>
+			<method name="public void setInsuranceAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setServiceType(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.ObjectFactory</name>
+		<wmc>43</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>52</rfc>
+		<lcom>827</lcom>
+		<ca>0</ca>
+		<ce>6</ce>
+		<npm>42</npm>
+		<lcom3>0.9739583333333334</lcom3>
+		<loc>575</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6111111111111112</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>11.627906976744185</amc>
+		<cc>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.Restriction createRestriction()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataArrivalDate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPaymentApplicable(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataDiscountType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAmendmentOutwardDataOutwardDate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAmendmentOutwardDataOutwardDestination(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAmendmentOutwardDataOurwardOrigin(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAmendmentOutwardDataOutwardService(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataTicketBrand(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataProduct(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataOrigin(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRestrictionTicketCompany(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataFlight(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.ReturnChangeOutboundTicketsData createReturnChangeOutboundTicketsData()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRestrictionService(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataDirection(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRestrictionDestination(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassengersPassengerType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataDepartureTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRestrictionOrigin(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPaymentPaymentDescription(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataHeaderTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassengersTravellerDescription(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.Payment createPayment()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataCoach(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassengersAmount(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataPax(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPaymentPaymentCode(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataDepartureDate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataDestination(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataHeaderDate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAmendmentOutwardDataOutwardBrand(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPaymentSerialNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataDiscountPercentage(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataService(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAmendmentOutwardDataOutwardTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataArrivalTime(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.FareData createFareData()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFareDataInterchangeType(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.Passengers createPassengers()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.AmendmentOutwardData createAmendmentOutwardData()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.xsd.FareSearchOutput</name>
+		<wmc>45</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>47</rfc>
+		<lcom>950</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>45</npm>
+		<lcom3>0.981060606060606</lcom3>
+		<loc>256</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.155555555555556</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getProduct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getVatPercentage()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getManagementFees()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMiniMod()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMandatoryData()">1</method>
+			<method name="public void setCodTadmImpu(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodStadmImpu(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTotalChargesAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setVatPercentage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInsuranceData()">1</method>
+			<method name="public void setColaboratorFeeAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCardTypeCharge(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHeader()">1</method>
+			<method name="public java.util.List getFeeTypes()">2</method>
+			<method name="public void setDescInfo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOperatingBrand(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBookingCharge()">1</method>
+			<method name="public void setBookingCharge(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setErrorMessage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTravelShopFeeAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodStadmImpu()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCardTypeCharge()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCorrelationId()">1</method>
+			<method name="public void setInfo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTravelShopFeeAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getDistributionTypeCharge()">2</method>
+			<method name="public void setInsuranceData(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getColaboratorFeeAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInfo()">1</method>
+			<method name="public void setValidDiscount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setMiniMod(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDescInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getErrorMessage()">1</method>
+			<method name="public void setMandatoryData(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCorrelationId(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getInsuranceDataList()">2</method>
+			<method name="public void setHeader(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setManagementFees(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOperatingBrand()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getValidDiscount()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodTadmImpu()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTotalChargesAmount()">1</method>
+			<method name="public java.util.List getPaymentTypesToBeApplied()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.Payment</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getApplicable()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaymentCode()">1</method>
+			<method name="public void setApplicable(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPaymentCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPaymentDescription(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSerialNumber(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSerialNumber()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaymentDescription()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.faredata.travellerdata.xsd.ObjectFactory</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>9</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.8</lcom3>
+		<loc>59</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.333333333333334</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createDetailsDiscountPercentage(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDetailsDiscountAmount(Double arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.faredata.travellerdata.xsd.Details createDetails()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDetailsDiscountType(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.FareData</name>
+		<wmc>38</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>40</rfc>
+		<lcom>667</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>38</npm>
+		<lcom3>0.9743954480796586</lcom3>
+		<loc>197</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7368421052631579</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.6842105263157894</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getProduct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getFlight()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getArrivalTime()">1</method>
+			<method name="public void setDestination(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDepartureTime()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHeaderDate()">1</method>
+			<method name="public void setPax(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDepartureTime(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getTravellers()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountPercentage()">1</method>
+			<method name="public void setService(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDepartureDate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPax()">1</method>
+			<method name="public void setCoach(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInterchangeType()">1</method>
+			<method name="public void setDiscountType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDirection()">1</method>
+			<method name="public void setHeaderDate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOrigin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDirection(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCoach()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDepartureDate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTicketBrand()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDestination()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOrigin()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getArrivalDate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHeaderTime()">1</method>
+			<method name="public void setTicketBrand(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDiscountPercentage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setFlight(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setArrivalDate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getService()">1</method>
+			<method name="public void setInterchangeType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setArrivalTime(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHeaderTime(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.faredata.travellerdata.xsd.Discounts</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getBorder()">1</method>
+			<method name="public void setFromOrToBorder(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getLeg()">1</method>
+			<method name="public void setBorder(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getFromOrToBorder()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAcumulativeWithOtherOffers()">1</method>
+			<method name="public void setDiscountPercentage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountPercentage()">1</method>
+			<method name="public void setDiscountType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAcumulativeWithOtherOffers(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setLeg(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.faredata.xsd.TravellerData</name>
+		<wmc>4</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setPromotionCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPromotionCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getSelectedDiscounts()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.faredata.xsd.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createTravellerDataPromotionCode(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.faredata.xsd.TravellerData createTravellerData()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.xsd.OutputMethods</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>11</noc>
+		<cbo>12</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>12</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>inforcyl.services.faresearch._1.WsFareSearch13</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public inforcyl.services.faresearch._1.WsFareSearch13PortType getWsFareSearch13HttpSoap11Endpoint()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient inforcyl.services.faresearch._1.WsFareSearch13PortType getWsFareSearch13HttpSoap11Endpoint(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.ObjectFactory</name>
+		<wmc>42</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>52</rfc>
+		<lcom>787</lcom>
+		<ca>0</ca>
+		<ce>7</ce>
+		<npm>41</npm>
+		<lcom3>0.9722455845248107</lcom3>
+		<loc>541</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6016260162601627</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>11.19047619047619</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createPaymentApplicable(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCardTypeChargeCardAmount(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDistributionDistributionProduct(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBookingChargeBookingFactor(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInsurancesServiceType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCardTypeChargeCardProduct(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDistributionDistributionType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInsuranceDataInsuranceFactor(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.Types createTypes()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDistributionDistributionName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCardTypeChargeCardType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInsuranceDataTerms(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTypesFareTotalPrice(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBookingChargeBookingType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDistributionDistributionSum(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.Payment createPayment()">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.BookingCharge createBookingCharge()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBookingChargeBookingProduct(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPaymentPaymentDescription(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.Distribution createDistribution()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCardTypeChargeCardFactor(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDistributionDistributionPriority(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInsuranceDataInsuranceAmount(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBookingChargeBookingSum(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBookingChargeBookingAmount(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTypesFareName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPaymentPaymentCode(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTypesFareType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInsurancesInsuranceAmount(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDistributionDistributionFactor(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.InsuranceData createInsuranceData()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPaymentSerialNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCardTypeChargeCardSum(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInsurancesTerms(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInsuranceDataInsuranceCompany(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.Insurances createInsurances()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInsurancesInsuranceFactor(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createInsurancesInsuranceCompany(String arg0)">1</method>
+			<method name="public com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.CardTypeCharge createCardTypeCharge()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDistributionDistributionAmount(Double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>inforcyl.services.faresearch._1.Execute</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFaresearchInput()">1</method>
+			<method name="public void setFaresearchInput(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.faredata.xsd.TravellerData</name>
+		<wmc>28</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>30</rfc>
+		<lcom>352</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>28</npm>
+		<lcom3>0.9656084656084657</lcom3>
+		<loc>147</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7321428571428571</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.75</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getSurcharge()">1</method>
+			<method name="public void setThirdPartyAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTravellerDescription(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getThirdPartyAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPassengerType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountPercentage()">1</method>
+			<method name="public void setPromotionCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSerialNumber(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.util.List getDiscountDetails()">2</method>
+			<method name="public javax.xml.bind.JAXBElement getNetPrice()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSerialNumber()">1</method>
+			<method name="public void setSurcharge(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDiscountType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setGrossPrice(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNetPrice(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSurcharge1(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setProducesComission(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTravellerDescription()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGrossPrice()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getProducesComission()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSurcharge1()">1</method>
+			<method name="public void setDiscountPercentage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPassengerType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPromotionCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDiscountAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.types.faredata.travellerdata.xsd.Details</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setDiscountPercentage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountPercentage()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDiscountAmount()">1</method>
+			<method name="public void setDiscountType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDiscountAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.faredata.travellerdata.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.returnchangeoutboundticketsdata.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.faresearch_output.xsd.InsuranceData</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setInsuranceFactor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInsuranceAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTerms()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInsuranceFactor()">1</method>
+			<method name="public void setTerms(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setInsuranceCompany(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getInsuranceCompany()">1</method>
+			<method name="public void setInsuranceAmount(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.output.xsd.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.inforcyl.services.v_1_3.faresearch.input.faresearch_input.xsd.AmendmentOutwardData</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setOurwardOrigin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOutwardDate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOutwardService(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardTime()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardDate()">1</method>
+			<method name="public void setOutwardTime(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardBrand()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardDestination()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOurwardOrigin()">1</method>
+			<method name="public void setOutwardBrand(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOutwardDestination(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getOutwardService()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

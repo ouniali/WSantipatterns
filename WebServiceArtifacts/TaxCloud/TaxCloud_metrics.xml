@@ -1,0 +1,2181 @@
+	<class>
+		<name>net.taxcloud.ArrayOfCartItem</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCartItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ReturnedRsp</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.State</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9961538461538462</lcom3>
+		<loc>592</loc>
+		<dam>0.019230769230769232</dam>
+		<moa>52</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>89.0</amc>
+		<cc>
+			<method name="public static net.taxcloud.State fromValue(String arg0)">1</method>
+			<method name="public static net.taxcloud.State[] values()">1</method>
+			<method name="public static net.taxcloud.State valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.TICGroup</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public int getGroupID()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setGroupID(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ExemptionCertificate</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>6</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCertificateID(String arg0)">1</method>
+			<method name="public net.taxcloud.ExemptionCertificateDetail getDetail()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCertificateID()">1</method>
+			<method name="public void setDetail(net.taxcloud.ExemptionCertificateDetail arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AuthorizedRsp</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.CartItem</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24242424242424243</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public int getIndex()">1</method>
+			<method name="public void setPrice(double arg0)">1</method>
+			<method name="public float getQty()">1</method>
+			<method name="public Integer getTIC()">1</method>
+			<method name="public void setItemID(String arg0)">1</method>
+			<method name="public double getPrice()">1</method>
+			<method name="public void setQty(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTIC(Integer arg0)">1</method>
+			<method name="public void setIndex(int arg0)">1</method>
+			<method name="public String getItemID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AddTransactionsRsp</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.VerifiedAddress</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setErrNumber(String arg0)">1</method>
+			<method name="public String getErrNumber()">1</method>
+			<method name="public void setErrDescription(String arg0)">1</method>
+			<method name="public String getErrDescription()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ArrayOfTIC</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getTIC()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ArrayOfExemptState</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getExemptState()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.CapturedRsp</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ObjectFactory</name>
+		<wmc>74</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>64</cbo>
+		<rfc>141</rfc>
+		<lcom>2685</lcom>
+		<ca>0</ca>
+		<ce>64</ce>
+		<npm>73</npm>
+		<lcom3>0.9863013698630136</lcom3>
+		<loc>454</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1232876712328767</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.027027027027027</amc>
+		<cc>
+			<method name="public net.taxcloud.GetExemptCertificates createGetExemptCertificates()">1</method>
+			<method name="public net.taxcloud.Transaction createTransaction()">1</method>
+			<method name="public net.taxcloud.GetExemptCertificatesResponse createGetExemptCertificatesResponse()">1</method>
+			<method name="public net.taxcloud.ArrayOfTransaction createArrayOfTransaction()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPingRsp(net.taxcloud.PingRsp arg0)">1</method>
+			<method name="public net.taxcloud.LookupRsp createLookupRsp()">1</method>
+			<method name="public net.taxcloud.PingRsp createPingRsp()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCapturedRsp(net.taxcloud.CapturedRsp arg0)">1</method>
+			<method name="public net.taxcloud.ArrayOfExemptState createArrayOfExemptState()">1</method>
+			<method name="public net.taxcloud.TIC createTIC()">1</method>
+			<method name="public net.taxcloud.GetTICGroupsResponse createGetTICGroupsResponse()">1</method>
+			<method name="public net.taxcloud.DeleteExemptCertificate createDeleteExemptCertificate()">1</method>
+			<method name="public net.taxcloud.AddExemptCertificateResponse createAddExemptCertificateResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDeleteCertificateRsp(net.taxcloud.DeleteCertificateRsp arg0)">1</method>
+			<method name="public net.taxcloud.CapturedRsp createCapturedRsp()">1</method>
+			<method name="public net.taxcloud.GetTICGroupsRsp createGetTICGroupsRsp()">1</method>
+			<method name="public net.taxcloud.ArrayOfResponseMessage createArrayOfResponseMessage()">1</method>
+			<method name="public net.taxcloud.LookupForDateResponse createLookupForDateResponse()">1</method>
+			<method name="public net.taxcloud.GetTICsResponse createGetTICsResponse()">1</method>
+			<method name="public net.taxcloud.TransactionCartItem createTransactionCartItem()">1</method>
+			<method name="public net.taxcloud.AddTransactions createAddTransactions()">1</method>
+			<method name="public net.taxcloud.GetCertificatesRsp createGetCertificatesRsp()">1</method>
+			<method name="public net.taxcloud.TICGroup createTICGroup()">1</method>
+			<method name="public net.taxcloud.ReturnedResponse createReturnedResponse()">1</method>
+			<method name="public net.taxcloud.AddTransactionsResponse createAddTransactionsResponse()">1</method>
+			<method name="public net.taxcloud.Authorized createAuthorized()">1</method>
+			<method name="public net.taxcloud.GetTICGroups createGetTICGroups()">1</method>
+			<method name="public net.taxcloud.ArrayOfExemptionCertificate createArrayOfExemptionCertificate()">1</method>
+			<method name="public net.taxcloud.GetTICsByGroup createGetTICsByGroup()">1</method>
+			<method name="public net.taxcloud.LookupForDate createLookupForDate()">1</method>
+			<method name="public net.taxcloud.ReturnedRsp createReturnedRsp()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetTICGroupsRsp(net.taxcloud.GetTICGroupsRsp arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public net.taxcloud.LookupResponse createLookupResponse()">1</method>
+			<method name="public net.taxcloud.ExemptionCertificateDetail createExemptionCertificateDetail()">1</method>
+			<method name="public net.taxcloud.AddExemptCertificate createAddExemptCertificate()">1</method>
+			<method name="public net.taxcloud.Captured createCaptured()">1</method>
+			<method name="public net.taxcloud.VerifiedAddress createVerifiedAddress()">1</method>
+			<method name="public net.taxcloud.AddCertificateRsp createAddCertificateRsp()">1</method>
+			<method name="public net.taxcloud.ExemptionCertificate createExemptionCertificate()">1</method>
+			<method name="public net.taxcloud.ArrayOfCartItem createArrayOfCartItem()">1</method>
+			<method name="public net.taxcloud.AuthorizedWithCaptureResponse createAuthorizedWithCaptureResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createVerifiedAddress(net.taxcloud.VerifiedAddress arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetTICsRsp(net.taxcloud.GetTICsRsp arg0)">1</method>
+			<method name="public net.taxcloud.ResponseBase createResponseBase()">1</method>
+			<method name="public net.taxcloud.Ping createPing()">1</method>
+			<method name="public net.taxcloud.VerifyAddress createVerifyAddress()">1</method>
+			<method name="public net.taxcloud.DeleteCertificateRsp createDeleteCertificateRsp()">1</method>
+			<method name="public net.taxcloud.GetTICs createGetTICs()">1</method>
+			<method name="public net.taxcloud.AuthorizedResponse createAuthorizedResponse()">1</method>
+			<method name="public net.taxcloud.CartItemResponse createCartItemResponse()">1</method>
+			<method name="public net.taxcloud.TaxID createTaxID()">1</method>
+			<method name="public net.taxcloud.DeleteExemptCertificateResponse createDeleteExemptCertificateResponse()">1</method>
+			<method name="public net.taxcloud.CapturedResponse createCapturedResponse()">1</method>
+			<method name="public net.taxcloud.ArrayOfTICGroup createArrayOfTICGroup()">1</method>
+			<method name="public net.taxcloud.ArrayOfCartItemResponse createArrayOfCartItemResponse()">1</method>
+			<method name="public net.taxcloud.ArrayOfTIC createArrayOfTIC()">1</method>
+			<method name="public net.taxcloud.AddTransactionsRsp createAddTransactionsRsp()">1</method>
+			<method name="public net.taxcloud.PingResponse createPingResponse()">1</method>
+			<method name="public net.taxcloud.CartItem createCartItem()">1</method>
+			<method name="public net.taxcloud.GetTICsByGroupResponse createGetTICsByGroupResponse()">1</method>
+			<method name="public net.taxcloud.GetTICsRsp createGetTICsRsp()">1</method>
+			<method name="public net.taxcloud.Returned createReturned()">1</method>
+			<method name="public net.taxcloud.Lookup createLookup()">1</method>
+			<method name="public net.taxcloud.ResponseMessage createResponseMessage()">1</method>
+			<method name="public net.taxcloud.ArrayOfTransactionCartItem createArrayOfTransactionCartItem()">1</method>
+			<method name="public net.taxcloud.AuthorizedRsp createAuthorizedRsp()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCertificatesRsp(net.taxcloud.GetCertificatesRsp arg0)">1</method>
+			<method name="public net.taxcloud.AuthorizedWithCapture createAuthorizedWithCapture()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthorizedRsp(net.taxcloud.AuthorizedRsp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public net.taxcloud.VerifyAddressResponse createVerifyAddressResponse()">1</method>
+			<method name="public net.taxcloud.ExemptState createExemptState()">1</method>
+			<method name="public net.taxcloud.Address createAddress()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AddTransactionsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public net.taxcloud.AddTransactionsRsp getAddTransactionsResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAddTransactionsResult(net.taxcloud.AddTransactionsRsp arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.TaxCloudSoap</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>17</cbo>
+		<rfc>15</rfc>
+		<lcom>105</lcom>
+		<ca>1</ca>
+		<ce>16</ce>
+		<npm>15</npm>
+		<lcom3>2.0</lcom3>
+		<loc>15</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34074074074074073</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract net.taxcloud.LookupRsp lookupForDate(String, String, String, String, net.taxcloud.ArrayOfCartItem, net.taxcloud.Address, net.taxcloud.Address, boolean, net.taxcloud.ExemptionCertificate, javax.xml.datatype.XMLGregorianCalendar)">1</method>
+			<method name="public abstract net.taxcloud.GetTICGroupsRsp getTICGroups(String, String)">1</method>
+			<method name="public abstract net.taxcloud.PingRsp ping(String, String)">1</method>
+			<method name="public abstract net.taxcloud.VerifiedAddress verifyAddress(String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract net.taxcloud.DeleteCertificateRsp deleteExemptCertificate(String, String, String)">1</method>
+			<method name="public abstract net.taxcloud.CapturedRsp captured(String, String, String)">1</method>
+			<method name="public abstract net.taxcloud.ReturnedRsp returned(String, String, String, net.taxcloud.ArrayOfCartItem, javax.xml.datatype.XMLGregorianCalendar)">1</method>
+			<method name="public abstract net.taxcloud.LookupRsp lookup(String, String, String, String, net.taxcloud.ArrayOfCartItem, net.taxcloud.Address, net.taxcloud.Address, boolean, net.taxcloud.ExemptionCertificate)">1</method>
+			<method name="public abstract net.taxcloud.AuthorizedRsp authorizedWithCapture(String, String, String, String, String, javax.xml.datatype.XMLGregorianCalendar, javax.xml.datatype.XMLGregorianCalendar)">1</method>
+			<method name="public abstract net.taxcloud.GetCertificatesRsp getExemptCertificates(String, String, String)">1</method>
+			<method name="public abstract net.taxcloud.GetTICsRsp getTICs(String, String)">1</method>
+			<method name="public abstract net.taxcloud.GetTICsRsp getTICsByGroup(String, String, int)">1</method>
+			<method name="public abstract net.taxcloud.AddCertificateRsp addExemptCertificate(String, String, String, net.taxcloud.ExemptionCertificate)">1</method>
+			<method name="public abstract net.taxcloud.AuthorizedRsp authorized(String, String, String, String, String, javax.xml.datatype.XMLGregorianCalendar)">1</method>
+			<method name="public abstract net.taxcloud.AddTransactionsRsp addTransactions(String, String, net.taxcloud.ArrayOfTransaction)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.TaxIDType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static net.taxcloud.TaxIDType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static net.taxcloud.TaxIDType valueOf(String arg0)">1</method>
+			<method name="public static net.taxcloud.TaxIDType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.Authorized</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getOrderID()">1</method>
+			<method name="public void setCustomerID(String arg0)">1</method>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public void setDateAuthorized(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getCustomerID()">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public void setCartID(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateAuthorized()">1</method>
+			<method name="public void setOrderID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+			<method name="public String getCartID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.Transaction</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2111801242236025</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public net.taxcloud.ArrayOfTransactionCartItem getCartItems()">1</method>
+			<method name="public String getOrderID()">1</method>
+			<method name="public void setDateTransaction(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateTransaction()">1</method>
+			<method name="public net.taxcloud.Address getDestination()">1</method>
+			<method name="public void setCustomerID(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateCaptured()">1</method>
+			<method name="public void setDateAuthorized(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getCustomerID()">1</method>
+			<method name="public net.taxcloud.ExemptionCertificate getExemptCert()">1</method>
+			<method name="public net.taxcloud.Address getOrigin()">1</method>
+			<method name="public void setCartID(String arg0)">1</method>
+			<method name="public boolean isDeliveredBySeller()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateAuthorized()">1</method>
+			<method name="public void setExemptCert(net.taxcloud.ExemptionCertificate arg0)">1</method>
+			<method name="public void setCartItems(net.taxcloud.ArrayOfTransactionCartItem arg0)">1</method>
+			<method name="public void setDestination(net.taxcloud.Address arg0)">1</method>
+			<method name="public void setOrderID(String arg0)">1</method>
+			<method name="public void setDeliveredBySeller(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setOrigin(net.taxcloud.Address arg0)">1</method>
+			<method name="public void setDateCaptured(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getCartID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ArrayOfTICGroup</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTICGroup()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.LookupResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLookupResult(net.taxcloud.LookupRsp arg0)">1</method>
+			<method name="public net.taxcloud.LookupRsp getLookupResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AuthorizedResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public net.taxcloud.AuthorizedRsp getAuthorizedResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAuthorizedResult(net.taxcloud.AuthorizedRsp arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetTICGroups</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.Ping</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetTICsByGroupResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public net.taxcloud.GetTICsRsp getGetTICsByGroupResult()">1</method>
+			<method name="public void setGetTICsByGroupResult(net.taxcloud.GetTICsRsp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.MessageType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static net.taxcloud.MessageType valueOf(String arg0)">1</method>
+			<method name="public static net.taxcloud.MessageType[] values()">1</method>
+			<method name="public static net.taxcloud.MessageType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.LookupForDate</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2108843537414966</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setCartItems(net.taxcloud.ArrayOfCartItem arg0)">1</method>
+			<method name="public net.taxcloud.Address getDestination()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getUseDate()">1</method>
+			<method name="public void setCustomerID(String arg0)">1</method>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public String getCustomerID()">1</method>
+			<method name="public net.taxcloud.ArrayOfCartItem getCartItems()">1</method>
+			<method name="public net.taxcloud.ExemptionCertificate getExemptCert()">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public net.taxcloud.Address getOrigin()">1</method>
+			<method name="public void setUseDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setCartID(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public boolean isDeliveredBySeller()">1</method>
+			<method name="public void setExemptCert(net.taxcloud.ExemptionCertificate arg0)">1</method>
+			<method name="public void setDestination(net.taxcloud.Address arg0)">1</method>
+			<method name="public void setDeliveredBySeller(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setOrigin(net.taxcloud.Address arg0)">1</method>
+			<method name="public String getApiLoginID()">1</method>
+			<method name="public String getCartID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetTICsByGroup</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public void setTicGroup(int arg0)">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public int getTicGroup()">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AddExemptCertificate</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public String getCustomerID()">1</method>
+			<method name="public net.taxcloud.ExemptionCertificate getExemptCert()">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void setExemptCert(net.taxcloud.ExemptionCertificate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+			<method name="public void setCustomerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.TaxCloud</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public net.taxcloud.TaxCloudSoap getTaxCloudSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient net.taxcloud.TaxCloudSoap getTaxCloudSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ExemptState</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getReasonForExemption()">1</method>
+			<method name="public net.taxcloud.State getStateAbbr()">1</method>
+			<method name="public void setStateAbbr(net.taxcloud.State arg0)">1</method>
+			<method name="public void setIdentificationNumber(String arg0)">1</method>
+			<method name="public String getIdentificationNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReasonForExemption(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.VerifyAddressResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setVerifyAddressResult(net.taxcloud.VerifiedAddress arg0)">1</method>
+			<method name="public net.taxcloud.VerifiedAddress getVerifyAddressResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ReturnedResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturnedResult(net.taxcloud.ReturnedRsp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public net.taxcloud.ReturnedRsp getReturnedResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetTICGroupsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTICGroupsResult(net.taxcloud.GetTICGroupsRsp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public net.taxcloud.GetTICGroupsRsp getGetTICGroupsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ArrayOfTransactionCartItem</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getTransactionCartItem()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AuthorizedWithCaptureResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAuthorizedWithCaptureResult(net.taxcloud.AuthorizedRsp arg0)">1</method>
+			<method name="public net.taxcloud.AuthorizedRsp getAuthorizedWithCaptureResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.TaxID</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setStateOfIssue(String arg0)">1</method>
+			<method name="public String getIDNumber()">1</method>
+			<method name="public void setIDNumber(String arg0)">1</method>
+			<method name="public String getStateOfIssue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public net.taxcloud.TaxIDType getTaxType()">1</method>
+			<method name="public void setTaxType(net.taxcloud.TaxIDType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ArrayOfCartItemResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCartItemResponse()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.DeleteExemptCertificateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDeleteExemptCertificateResult(net.taxcloud.DeleteCertificateRsp arg0)">1</method>
+			<method name="public net.taxcloud.DeleteCertificateRsp getDeleteExemptCertificateResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.Lookup</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24561403508771928</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setCartItems(net.taxcloud.ArrayOfCartItem arg0)">1</method>
+			<method name="public net.taxcloud.Address getDestination()">1</method>
+			<method name="public void setCustomerID(String arg0)">1</method>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public String getCustomerID()">1</method>
+			<method name="public net.taxcloud.ArrayOfCartItem getCartItems()">1</method>
+			<method name="public net.taxcloud.ExemptionCertificate getExemptCert()">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public net.taxcloud.Address getOrigin()">1</method>
+			<method name="public void setCartID(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public boolean isDeliveredBySeller()">1</method>
+			<method name="public void setExemptCert(net.taxcloud.ExemptionCertificate arg0)">1</method>
+			<method name="public void setDestination(net.taxcloud.Address arg0)">1</method>
+			<method name="public void setDeliveredBySeller(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setOrigin(net.taxcloud.Address arg0)">1</method>
+			<method name="public String getApiLoginID()">1</method>
+			<method name="public String getCartID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.DeleteExemptCertificate</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public void setCertificateID(String arg0)">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+			<method name="public String getCertificateID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.DeleteCertificateRsp</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ArrayOfTransaction</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTransaction()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.CartItemResponse</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCartItemIndex(int arg0)">1</method>
+			<method name="public float getTaxAmount()">1</method>
+			<method name="public void setTaxAmount(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getCartItemIndex()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ExemptionReason</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9285714285714285</lcom3>
+		<loc>204</loc>
+		<dam>0.14285714285714285</dam>
+		<moa>13</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>30.666666666666668</amc>
+		<cc>
+			<method name="public static net.taxcloud.ExemptionReason valueOf(String arg0)">1</method>
+			<method name="public static net.taxcloud.ExemptionReason[] values()">1</method>
+			<method name="public static net.taxcloud.ExemptionReason fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetExemptCertificatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public net.taxcloud.GetCertificatesRsp getGetExemptCertificatesResult()">1</method>
+			<method name="public void setGetExemptCertificatesResult(net.taxcloud.GetCertificatesRsp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.PingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPingResult(net.taxcloud.PingRsp arg0)">1</method>
+			<method name="public net.taxcloud.PingRsp getPingResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AddExemptCertificateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public net.taxcloud.AddCertificateRsp getAddExemptCertificateResult()">1</method>
+			<method name="public void setAddExemptCertificateResult(net.taxcloud.AddCertificateRsp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetTICGroupsRsp</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setTICGroups(net.taxcloud.ArrayOfTICGroup arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public net.taxcloud.ArrayOfTICGroup getTICGroups()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.LookupRsp</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>4</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public net.taxcloud.ArrayOfCartItemResponse getCartItemsResponse()">1</method>
+			<method name="public void setCartID(String arg0)">1</method>
+			<method name="public void setCartItemsResponse(net.taxcloud.ArrayOfCartItemResponse arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCartID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ArrayOfExemptionCertificate</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getExemptionCertificate()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ExemptionCertificateDetail</name>
+		<wmc>35</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>36</rfc>
+		<lcom>561</lcom>
+		<ca>2</ca>
+		<ce>5</ce>
+		<npm>35</npm>
+		<lcom3>0.9705882352941176</lcom3>
+		<loc>174</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.16507936507936508</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4857142857142858</amc>
+		<cc>
+			<method name="public String getPurchaserFirstName()">1</method>
+			<method name="public void setPurchaserTitle(String arg0)">1</method>
+			<method name="public void setExemptStates(net.taxcloud.ArrayOfExemptState arg0)">1</method>
+			<method name="public void setPurchaserExemptionReasonValue(String arg0)">1</method>
+			<method name="public net.taxcloud.State getPurchaserState()">1</method>
+			<method name="public net.taxcloud.ArrayOfExemptState getExemptStates()">1</method>
+			<method name="public void setPurchaserBusinessType(net.taxcloud.BusinessType arg0)">1</method>
+			<method name="public String getPurchaserCity()">1</method>
+			<method name="public String getPurchaserExemptionReasonValue()">1</method>
+			<method name="public void setPurchaserState(net.taxcloud.State arg0)">1</method>
+			<method name="public boolean isSinglePurchase()">1</method>
+			<method name="public String getPurchaserZip()">1</method>
+			<method name="public void setPurchaserLastName(String arg0)">1</method>
+			<method name="public void setPurchaserExemptionReason(net.taxcloud.ExemptionReason arg0)">1</method>
+			<method name="public void setSinglePurchaseOrderNumber(String arg0)">1</method>
+			<method name="public void setPurchaserFirstName(String arg0)">1</method>
+			<method name="public void setPurchaserTaxID(net.taxcloud.TaxID arg0)">1</method>
+			<method name="public String getPurchaserTitle()">1</method>
+			<method name="public net.taxcloud.ExemptionReason getPurchaserExemptionReason()">1</method>
+			<method name="public String getPurchaserLastName()">1</method>
+			<method name="public net.taxcloud.BusinessType getPurchaserBusinessType()">1</method>
+			<method name="public void setCreatedDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setPurchaserBusinessTypeOtherValue(String arg0)">1</method>
+			<method name="public String getPurchaserAddress1()">1</method>
+			<method name="public void setPurchaserAddress1(String arg0)">1</method>
+			<method name="public String getSinglePurchaseOrderNumber()">1</method>
+			<method name="public String getPurchaserAddress2()">1</method>
+			<method name="public void setPurchaserAddress2(String arg0)">1</method>
+			<method name="public void setSinglePurchase(boolean arg0)">1</method>
+			<method name="public void setPurchaserZip(String arg0)">1</method>
+			<method name="public String getPurchaserBusinessTypeOtherValue()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCreatedDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPurchaserCity(String arg0)">1</method>
+			<method name="public net.taxcloud.TaxID getPurchaserTaxID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetExemptCertificates</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public String getCustomerID()">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+			<method name="public void setCustomerID(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AddCertificateRsp</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCertificateID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCertificateID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.VerifyAddress</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getUspsUserID()">1</method>
+			<method name="public void setUspsUserID(String arg0)">1</method>
+			<method name="public void setZip5(String arg0)">1</method>
+			<method name="public void setAddress1(String arg0)">1</method>
+			<method name="public void setAddress2(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getAddress1()">1</method>
+			<method name="public String getAddress2()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setZip4(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getZip5()">1</method>
+			<method name="public String getZip4()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.Returned</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public String getOrderID()">1</method>
+			<method name="public net.taxcloud.ArrayOfCartItem getCartItems()">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void setCartItems(net.taxcloud.ArrayOfCartItem arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getReturnedDate()">1</method>
+			<method name="public void setOrderID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturnedDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getApiLoginID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AddTransactions</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void setTransactions(net.taxcloud.ArrayOfTransaction arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+			<method name="public net.taxcloud.ArrayOfTransaction getTransactions()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ArrayOfResponseMessage</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getResponseMessage()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.AuthorizedWithCapture</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getOrderID()">1</method>
+			<method name="public void setCustomerID(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateCaptured()">1</method>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public void setDateAuthorized(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getCustomerID()">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public void setCartID(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateAuthorized()">1</method>
+			<method name="public void setOrderID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDateCaptured(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getApiLoginID()">1</method>
+			<method name="public String getCartID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ResponseMessage</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public net.taxcloud.MessageType getResponseType()">1</method>
+			<method name="public void setResponseType(net.taxcloud.MessageType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.TransactionCartItem</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRate(double arg0)">1</method>
+			<method name="public double getRate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.Address</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>6</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>6</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setZip5(String arg0)">1</method>
+			<method name="public void setAddress1(String arg0)">1</method>
+			<method name="public void setAddress2(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getAddress1()">1</method>
+			<method name="public String getAddress2()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setZip4(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getZip5()">1</method>
+			<method name="public String getZip4()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.PingRsp</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.CapturedResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public net.taxcloud.CapturedRsp getCapturedResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCapturedResult(net.taxcloud.CapturedRsp arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetCertificatesRsp</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setExemptCertificates(net.taxcloud.ArrayOfExemptionCertificate arg0)">1</method>
+			<method name="public net.taxcloud.ArrayOfExemptionCertificate getExemptCertificates()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.BusinessType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9545454545454545</lcom3>
+		<loc>300</loc>
+		<dam>0.09090909090909091</dam>
+		<moa>21</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>45.333333333333336</amc>
+		<cc>
+			<method name="public static net.taxcloud.BusinessType fromValue(String arg0)">3</method>
+			<method name="public static net.taxcloud.BusinessType valueOf(String arg0)">1</method>
+			<method name="public static net.taxcloud.BusinessType[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetTICs</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.LookupForDateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public net.taxcloud.LookupRsp getLookupForDateResult()">1</method>
+			<method name="public void setLookupForDateResult(net.taxcloud.LookupRsp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.ResponseBase</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>11</noc>
+		<cbo>14</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>12</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public net.taxcloud.ArrayOfResponseMessage getMessages()">1</method>
+			<method name="public void setMessages(net.taxcloud.ArrayOfResponseMessage arg0)">1</method>
+			<method name="public net.taxcloud.MessageType getResponseType()">1</method>
+			<method name="public void setResponseType(net.taxcloud.MessageType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetTICsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public net.taxcloud.GetTICsRsp getGetTICsResult()">1</method>
+			<method name="public void setGetTICsResult(net.taxcloud.GetTICsRsp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.GetTICsRsp</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setTICs(net.taxcloud.ArrayOfTIC arg0)">1</method>
+			<method name="public net.taxcloud.ArrayOfTIC getTICs()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.Captured</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setApiLoginID(String arg0)">1</method>
+			<method name="public String getOrderID()">1</method>
+			<method name="public void setApiKey(String arg0)">1</method>
+			<method name="public String getApiKey()">1</method>
+			<method name="public void setOrderID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getApiLoginID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.taxcloud.TIC</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public int getTICID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTICID(int arg0)">1</method>
+		</cc>
+	</class>

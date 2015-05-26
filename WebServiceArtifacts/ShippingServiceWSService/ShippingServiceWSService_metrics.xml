@@ -1,0 +1,1828 @@
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ResultFaisabiliteESD</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setErrorCode(int arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public int getErrorCode()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue</name>
+		<wmc>37</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>38</rfc>
+		<lcom>630</lcom>
+		<ca>6</ca>
+		<ce>0</ce>
+		<npm>37</npm>
+		<lcom3>0.9722222222222222</lcom3>
+		<loc>184</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3716216216216216</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4864864864864864</amc>
+		<cc>
+			<method name="public String getDestinationDepot()">1</method>
+			<method name="public String getCodeDepot()">1</method>
+			<method name="public void setOSort(String arg0)">1</method>
+			<method name="public void setSignaletiqueProduit(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public void setCodeService(String arg0)">1</method>
+			<method name="public String getGroupingPriorityLabel()">1</method>
+			<method name="public String getESDNumber()">1</method>
+			<method name="public String getOSort()">1</method>
+			<method name="public String getServiceMark()">1</method>
+			<method name="public String getSignaletiqueProduit()">1</method>
+			<method name="public String getSkybillNumber()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void setPickupDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getGeoPostNumeroColis()">1</method>
+			<method name="public void setErrorCode(int arg0)">1</method>
+			<method name="public String getReservationNumber()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getPickupDate()">1</method>
+			<method name="public String getGeoPostCodeBarre()">1</method>
+			<method name="public void setServiceMark(String arg0)">1</method>
+			<method name="public void setESDNumber(String arg0)">1</method>
+			<method name="public void setSkybillNumber(String arg0)">1</method>
+			<method name="public void setCodeDepot(String arg0)">1</method>
+			<method name="public void setDestinationDepot(String arg0)">1</method>
+			<method name="public void setESDFullNumber(String arg0)">1</method>
+			<method name="public String getESDFullNumber()">1</method>
+			<method name="public String getCodeService()">1</method>
+			<method name="public void setDSort(String arg0)">1</method>
+			<method name="public void setGeoPostCodeBarre(String arg0)">1</method>
+			<method name="public void setGroupingPriorityLabel(String arg0)">1</method>
+			<method name="public int getErrorCode()">1</method>
+			<method name="public String getServiceName()">1</method>
+			<method name="public void setGeoPostNumeroColis(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDSort()">1</method>
+			<method name="public void setReservationNumber(String arg0)">1</method>
+			<method name="public void setServiceName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShipperValue</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>10</ca>
+		<ce>0</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4942528735632184</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public String getShipperCity()">1</method>
+			<method name="public void setShipperAdress2(String arg0)">1</method>
+			<method name="public void setShipperAdress1(String arg0)">1</method>
+			<method name="public String getShipperAdress2()">1</method>
+			<method name="public String getShipperEmail()">1</method>
+			<method name="public String getShipperAdress1()">1</method>
+			<method name="public void setShipperContactName(String arg0)">1</method>
+			<method name="public void setShipperPhone(String arg0)">1</method>
+			<method name="public String getShipperCountry()">1</method>
+			<method name="public String getShipperName2()">1</method>
+			<method name="public void setShipperEmail(String arg0)">1</method>
+			<method name="public String getShipperPhone()">1</method>
+			<method name="public String getShipperContactName()">1</method>
+			<method name="public String getShipperZipCode()">1</method>
+			<method name="public void setShipperPreAlert(int arg0)">1</method>
+			<method name="public void setShipperName2(String arg0)">1</method>
+			<method name="public void setShipperCountryName(String arg0)">1</method>
+			<method name="public String getShipperCountryName()">1</method>
+			<method name="public void setShipperCountry(String arg0)">1</method>
+			<method name="public String getShipperMobilePhone()">1</method>
+			<method name="public String getShipperName()">1</method>
+			<method name="public void setShipperZipCode(String arg0)">1</method>
+			<method name="public void setShipperName(String arg0)">1</method>
+			<method name="public int getShipperPreAlert()">1</method>
+			<method name="public void setShipperCivility(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setShipperCity(String arg0)">1</method>
+			<method name="public String getShipperCivility()">1</method>
+			<method name="public void setShipperMobilePhone(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.EsdValue</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>7</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>7</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getSpecificInstructions()">1</method>
+			<method name="public String getShipperServiceDirection()">1</method>
+			<method name="public void setLength(float arg0)">1</method>
+			<method name="public void setHeight(float arg0)">1</method>
+			<method name="public void setShipperCarriesCode(String arg0)">1</method>
+			<method name="public void setShipperBuildingFloor(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getRetrievalDateTime()">1</method>
+			<method name="public String getShipperCarriesCode()">1</method>
+			<method name="public float getLength()">1</method>
+			<method name="public String getShipperBuildingFloor()">1</method>
+			<method name="public float getWidth()">1</method>
+			<method name="public void setWidth(float arg0)">1</method>
+			<method name="public void setShipperServiceDirection(String arg0)">1</method>
+			<method name="public void setRetrievalDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setSpecificInstructions(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getHeight()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getClosingDateTime()">1</method>
+			<method name="public void setClosingDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.FaisabiliteESD</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setShipperValue(fr.chronopost.soap.shipping.cxf.ShipperValue arg0)">1</method>
+			<method name="public void setRetrievalDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue getShipperValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getRetrievalDateTime()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getClosingDateTime()">1</method>
+			<method name="public void setClosingDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.HeaderValue</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>9</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public int getSubAccount()">1</method>
+			<method name="public void setSubAccount(int arg0)">1</method>
+			<method name="public String getIdentWebPro()">1</method>
+			<method name="public int getAccountNumber()">1</method>
+			<method name="public String getIdEmit()">1</method>
+			<method name="public void setIdentWebPro(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAccountNumber(int arg0)">1</method>
+			<method name="public void setIdEmit(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ScheduledValue</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.AppointmentValue getAppointmentValue()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getExpirationDate()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getSellByDate()">1</method>
+			<method name="public void setExpirationDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setSellByDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setAppointmentValue(fr.chronopost.soap.shipping.cxf.AppointmentValue arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.GetReservedSkybillResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillValue getReturn()">1</method>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillValue arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.AppointmentValue</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setTimeSlotStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTimeSlotEndDate()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTimeSlotStartDate()">1</method>
+			<method name="public void setTimeSlotEndDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTimeSlotTariffLevel(String arg0)">1</method>
+			<method name="public String getTimeSlotTariffLevel()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientPCResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientPC</name>
+		<wmc>183</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>184</rfc>
+		<lcom>16471</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>183</npm>
+		<lcom3>0.9945054945054945</lcom3>
+		<loc>914</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7486338797814208</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4972677595628414</amc>
+		<cc>
+			<method name="public String getClosingDateTime()">1</method>
+			<method name="public String getShipperServiceDirection()">1</method>
+			<method name="public String getAccountNumber()">1</method>
+			<method name="public String getHeaderIdentWebPro()">1</method>
+			<method name="public String getCustomerCity()">1</method>
+			<method name="public String getHeight()">1</method>
+			<method name="public void setShipperAdress1(String arg0)">1</method>
+			<method name="public void setInsuredCurrency(String arg0)">1</method>
+			<method name="public void setRefEsdClient(String arg0)">1</method>
+			<method name="public String getCustomsValue()">1</method>
+			<method name="public String getRefEsdClient()">1</method>
+			<method name="public String getWeightUnit()">1</method>
+			<method name="public void setCustomsValue(String arg0)">1</method>
+			<method name="public String getCustomerAdress2()">1</method>
+			<method name="public String getSellByDate()">1</method>
+			<method name="public String getSubAccount()">1</method>
+			<method name="public String getPortValue()">1</method>
+			<method name="public void setShipperPhone(String arg0)">1</method>
+			<method name="public String getLength()">1</method>
+			<method name="public String getWidth()">1</method>
+			<method name="public String getRecipientPreAlert()">1</method>
+			<method name="public String getShipperPhone()">1</method>
+			<method name="public String getContent2()">1</method>
+			<method name="public String getShipperContactName()">1</method>
+			<method name="public void setCustomerName2(String arg0)">1</method>
+			<method name="public String getShipperZipCode()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public String getTimeSlotTariffLevel()">1</method>
+			<method name="public void setShipperCountryName(String arg0)">1</method>
+			<method name="public void setContent1(String arg0)">1</method>
+			<method name="public void setCodValue(String arg0)">1</method>
+			<method name="public void setRecipientEmail(String arg0)">1</method>
+			<method name="public String getWeight()">1</method>
+			<method name="public void setShipperCarriesCode(String arg0)">1</method>
+			<method name="public String getCustomerName2()">1</method>
+			<method name="public void setCustomerPhone(String arg0)">1</method>
+			<method name="public String getShipperMobilePhone()">1</method>
+			<method name="public String getCustomerMobilePhone()">1</method>
+			<method name="public String getCustomerPhone()">1</method>
+			<method name="public void setCustomerSkybillNumber(String arg0)">1</method>
+			<method name="public String getCustomerCivility()">1</method>
+			<method name="public void setRecipientCountryName(String arg0)">1</method>
+			<method name="public String getCustomerEmail()">1</method>
+			<method name="public void setShipperMobilePhone(String arg0)">1</method>
+			<method name="public void setCustomerCountry(String arg0)">1</method>
+			<method name="public String getRecipientRef()">1</method>
+			<method name="public String getCustomerCountry()">1</method>
+			<method name="public String getRecipientEmail()">1</method>
+			<method name="public String getShipperEmail()">1</method>
+			<method name="public void setWeightUnit(String arg0)">1</method>
+			<method name="public void setSellByDate(String arg0)">1</method>
+			<method name="public void setTimeSlotTariffLevel(String arg0)">1</method>
+			<method name="public void setWidth(String arg0)">1</method>
+			<method name="public String getShipperName2()">1</method>
+			<method name="public void setCustomerZipCode(String arg0)">1</method>
+			<method name="public String getCodValue()">1</method>
+			<method name="public String getPortCurrency()">1</method>
+			<method name="public String getRecipientZipCode()">1</method>
+			<method name="public void setCustomerEmail(String arg0)">1</method>
+			<method name="public String getContent1()">1</method>
+			<method name="public void setPortCurrency(String arg0)">1</method>
+			<method name="public String getContent5()">1</method>
+			<method name="public void setRecipientMobilePhone(String arg0)">1</method>
+			<method name="public String getHeaderIdEmit()">1</method>
+			<method name="public void setShipperName2(String arg0)">1</method>
+			<method name="public void setNombreDePassageMaximum(String arg0)">1</method>
+			<method name="public String getService()">1</method>
+			<method name="public void setLength(String arg0)">1</method>
+			<method name="public void setCustomerCivility(String arg0)">1</method>
+			<method name="public String getRecipientName()">1</method>
+			<method name="public String getSkybillRank()">1</method>
+			<method name="public void setContent5(String arg0)">1</method>
+			<method name="public void setCustomerAdress1(String arg0)">1</method>
+			<method name="public String getRecipientContactName()">1</method>
+			<method name="public String getRecipientName2()">1</method>
+			<method name="public void setClosingDateTime(String arg0)">1</method>
+			<method name="public void setCustomerMobilePhone(String arg0)">1</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setHeaderIdEmit(String arg0)">1</method>
+			<method name="public void setShipperZipCode(String arg0)">1</method>
+			<method name="public String getRecipientCivility()">1</method>
+			<method name="public String getBulkNumber()">1</method>
+			<method name="public String getModeRetour()">1</method>
+			<method name="public void setShipperServiceDirection(String arg0)">1</method>
+			<method name="public void setShipperCivility(String arg0)">1</method>
+			<method name="public void setSubAccount(String arg0)">1</method>
+			<method name="public void setRecipientAdress2(String arg0)">1</method>
+			<method name="public void setSpecificInstructions(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCustomerZipCode()">1</method>
+			<method name="public void setTimeSlotStartDate(String arg0)">1</method>
+			<method name="public void setPortValue(String arg0)">1</method>
+			<method name="public String getShipperCity()">1</method>
+			<method name="public void setBulkNumber(String arg0)">1</method>
+			<method name="public String getCustomerSkybillNumber()">1</method>
+			<method name="public void setCustomerPreAlert(String arg0)">1</method>
+			<method name="public String getTimeSlotStartDate()">1</method>
+			<method name="public String getShipperAdress1()">1</method>
+			<method name="public String getNombreDePassageMaximum()">1</method>
+			<method name="public void setCustomerContactName(String arg0)">1</method>
+			<method name="public void setWeight(String arg0)">1</method>
+			<method name="public void setRetrievalDateTime(String arg0)">1</method>
+			<method name="public String getShipperCountry()">1</method>
+			<method name="public String getProductCode()">1</method>
+			<method name="public void setObjectType(String arg0)">1</method>
+			<method name="public void setAccountNumber(String arg0)">1</method>
+			<method name="public String getRecipientAdress1()">1</method>
+			<method name="public String getContent4()">1</method>
+			<method name="public String getLtAImprimerParChronopost()">1</method>
+			<method name="public void setContent3(String arg0)">1</method>
+			<method name="public String getCustomerCountryName()">1</method>
+			<method name="public void setMode(String arg0)">1</method>
+			<method name="public String getShipperCountryName()">1</method>
+			<method name="public void setContent2(String arg0)">1</method>
+			<method name="public void setShipperCountry(String arg0)">1</method>
+			<method name="public String getCustomerPreAlert()">1</method>
+			<method name="public void setRecipientCity(String arg0)">1</method>
+			<method name="public void setShipHour(String arg0)">1</method>
+			<method name="public String getRecipientCountry()">1</method>
+			<method name="public String getShipHour()">1</method>
+			<method name="public String getShipperBuildingFloor()">1</method>
+			<method name="public String getInsuredCurrency()">1</method>
+			<method name="public void setInsuredValue(String arg0)">1</method>
+			<method name="public void setService(String arg0)">1</method>
+			<method name="public void setExpirationDate(String arg0)">1</method>
+			<method name="public void setSkybillRank(String arg0)">1</method>
+			<method name="public void setShipperCity(String arg0)">1</method>
+			<method name="public String getRetrievalDateTime()">1</method>
+			<method name="public void setShipperAdress2(String arg0)">1</method>
+			<method name="public void setRecipientName2(String arg0)">1</method>
+			<method name="public String getRecipientCountryName()">1</method>
+			<method name="public String getObjectType()">1</method>
+			<method name="public String getShipperAdress2()">1</method>
+			<method name="public void setRecipientContactName(String arg0)">1</method>
+			<method name="public void setProductCode(String arg0)">1</method>
+			<method name="public String getCustomerAdress1()">1</method>
+			<method name="public void setShipperContactName(String arg0)">1</method>
+			<method name="public String getTimeSlotEndDate()">1</method>
+			<method name="public String getShipperCarriesCode()">1</method>
+			<method name="public void setCustomerCountryName(String arg0)">1</method>
+			<method name="public void setCustomerCity(String arg0)">1</method>
+			<method name="public String getMode()">1</method>
+			<method name="public String getInsuredValue()">1</method>
+			<method name="public void setShipperEmail(String arg0)">1</method>
+			<method name="public void setShipperRef(String arg0)">1</method>
+			<method name="public String getRecipientAdress2()">1</method>
+			<method name="public String getRecipientMobilePhone()">1</method>
+			<method name="public String getContent3()">1</method>
+			<method name="public String getExpirationDate()">1</method>
+			<method name="public String getCustomerContactName()">1</method>
+			<method name="public String getEvtCode()">1</method>
+			<method name="public void setRecipientPreAlert(String arg0)">1</method>
+			<method name="public void setContent4(String arg0)">1</method>
+			<method name="public void setTimeSlotEndDate(String arg0)">1</method>
+			<method name="public void setRecipientCountry(String arg0)">1</method>
+			<method name="public void setLtAImprimerParChronopost(String arg0)">1</method>
+			<method name="public void setCustomerName(String arg0)">1</method>
+			<method name="public String getSpecificInstructions()">1</method>
+			<method name="public void setRecipientRef(String arg0)">1</method>
+			<method name="public void setRecipientPhone(String arg0)">1</method>
+			<method name="public void setEvtCode(String arg0)">1</method>
+			<method name="public void setCustomerAdress2(String arg0)">1</method>
+			<method name="public void setHeight(String arg0)">1</method>
+			<method name="public void setShipperBuildingFloor(String arg0)">1</method>
+			<method name="public String getCustomsCurrency()">1</method>
+			<method name="public String getShipperRef()">1</method>
+			<method name="public String getCodCurrency()">1</method>
+			<method name="public String getShipperName()">1</method>
+			<method name="public void setModeRetour(String arg0)">1</method>
+			<method name="public void setCodCurrency(String arg0)">1</method>
+			<method name="public String getCustomerName()">1</method>
+			<method name="public String getRecipientCity()">1</method>
+			<method name="public void setShipperName(String arg0)">1</method>
+			<method name="public void setRecipientCivility(String arg0)">1</method>
+			<method name="public void setShipDate(String arg0)">1</method>
+			<method name="public void setCustomsCurrency(String arg0)">1</method>
+			<method name="public void setRecipientName(String arg0)">1</method>
+			<method name="public String getShipDate()">1</method>
+			<method name="public void setRecipientZipCode(String arg0)">1</method>
+			<method name="public void setRecipientAdress1(String arg0)">1</method>
+			<method name="public String getShipperCivility()">1</method>
+			<method name="public String getRecipientPhone()">1</method>
+			<method name="public void setHeaderIdentWebPro(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ObjectFactory</name>
+		<wmc>65</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>41</cbo>
+		<rfc>109</rfc>
+		<lcom>2036</lcom>
+		<ca>0</ca>
+		<ce>41</ce>
+		<npm>64</npm>
+		<lcom3>0.984375</lcom3>
+		<loc>563</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.058423913043478264</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.323076923076923</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.Shipping createShipping()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillValue createResultGetReservedSkybillValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingWithReservationAndESDWithRefClientPCResponse(fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientPCResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingMultiParcelWithReservation(fr.chronopost.soap.shipping.cxf.ShippingMultiParcelWithReservation arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.GetReservedSkybillWithTypeResponse createGetReservedSkybillWithTypeResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReservedSkybillResponse(fr.chronopost.soap.shipping.cxf.GetReservedSkybillResponse arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingWithReservationResponse createShippingWithReservationResponse()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RefValue createRefValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillWithDimensionsValue createSkybillWithDimensionsValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultParcelValue createResultParcelValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFaisabiliteESD(fr.chronopost.soap.shipping.cxf.FaisabiliteESD arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingWithReservation(fr.chronopost.soap.shipping.cxf.ShippingWithReservation arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultExpeditionValue createResultExpeditionValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingV2(fr.chronopost.soap.shipping.cxf.ShippingV2 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingWithReservationAndESDWithRefClientResponse(fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientResponse arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillValue createSkybillValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingV2Response createShippingV2Response()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillParamsValue createSkybillParamsValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingWithReservationAndESDWithRefClient(fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClient arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingWithReservation createShippingWithReservation()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClient createShippingWithReservationAndESDWithRefClient()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.GetReservedSkybillResponse createGetReservedSkybillResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingWithReservationAndESDWithRefClientPC(fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientPC arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientPCResponse createShippingWithReservationAndESDWithRefClientPCResponse()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingV3 createShippingV3()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultReservationMultiParcelExpeditionValue createResultReservationMultiParcelExpeditionValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientPC createShippingWithReservationAndESDWithRefClientPC()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingMultiParcelWithReservation createShippingMultiParcelWithReservation()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingResponse createShippingResponse()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.CustomerValue createCustomerValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.AppointmentValue createAppointmentValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingV3Response(fr.chronopost.soap.shipping.cxf.ShippingV3Response arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingMultiParcelWithReservationResponse createShippingMultiParcelWithReservationResponse()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue createShipperValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingResponse(fr.chronopost.soap.shipping.cxf.ShippingResponse arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.HeaderValue createHeaderValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingV3(fr.chronopost.soap.shipping.cxf.ShippingV3 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShipping(fr.chronopost.soap.shipping.cxf.Shipping arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.GetReservedSkybillWithType createGetReservedSkybillWithType()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ScheduledValue createScheduledValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingWithESDOnly createShippingWithESDOnly()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultFaisabiliteESD createResultFaisabiliteESD()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.FaisabiliteESDResponse createFaisabiliteESDResponse()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.FaisabiliteESD createFaisabiliteESD()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillWithTypeValue createResultGetReservedSkybillWithTypeValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReservedSkybill(fr.chronopost.soap.shipping.cxf.GetReservedSkybill arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReservedSkybillWithTypeResponse(fr.chronopost.soap.shipping.cxf.GetReservedSkybillWithTypeResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingWithESDOnlyResponse(fr.chronopost.soap.shipping.cxf.ShippingWithESDOnlyResponse arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClientResponse createShippingWithReservationAndESDWithRefClientResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingV2Response(fr.chronopost.soap.shipping.cxf.ShippingV2Response arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingWithReservationResponse(fr.chronopost.soap.shipping.cxf.ShippingWithReservationResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReservedSkybillWithType(fr.chronopost.soap.shipping.cxf.GetReservedSkybillWithType arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdValue createEsdValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFaisabiliteESDResponse(fr.chronopost.soap.shipping.cxf.FaisabiliteESDResponse arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingWithESDOnlyResponse createShippingWithESDOnlyResponse()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingV3Response createShippingV3Response()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RecipientValue createRecipientValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingWithESDOnly(fr.chronopost.soap.shipping.cxf.ShippingWithESDOnly arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue createResultReservationExpeditionValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingMultiParcelWithReservationResponse(fr.chronopost.soap.shipping.cxf.ShippingMultiParcelWithReservationResponse arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingV2 createShippingV2()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue createEsdWithRefClientValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.GetReservedSkybill createGetReservedSkybill()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.RecipientValue</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>8</ca>
+		<ce>0</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49382716049382713</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public String getRecipientCountryName()">1</method>
+			<method name="public void setRecipientName2(String arg0)">1</method>
+			<method name="public String getRecipientEmail()">1</method>
+			<method name="public void setRecipientContactName(String arg0)">1</method>
+			<method name="public int getRecipientPreAlert()">1</method>
+			<method name="public String getRecipientZipCode()">1</method>
+			<method name="public String getRecipientAdress2()">1</method>
+			<method name="public String getRecipientMobilePhone()">1</method>
+			<method name="public String getRecipientAdress1()">1</method>
+			<method name="public void setRecipientPreAlert(int arg0)">1</method>
+			<method name="public void setRecipientMobilePhone(String arg0)">1</method>
+			<method name="public void setRecipientCountry(String arg0)">1</method>
+			<method name="public void setRecipientEmail(String arg0)">1</method>
+			<method name="public String getRecipientName()">1</method>
+			<method name="public String getRecipientContactName()">1</method>
+			<method name="public String getRecipientName2()">1</method>
+			<method name="public void setRecipientPhone(String arg0)">1</method>
+			<method name="public void setRecipientCity(String arg0)">1</method>
+			<method name="public String getRecipientCountry()">1</method>
+			<method name="public String getRecipientCity()">1</method>
+			<method name="public void setRecipientCountryName(String arg0)">1</method>
+			<method name="public void setRecipientAdress2(String arg0)">1</method>
+			<method name="public void setRecipientName(String arg0)">1</method>
+			<method name="public void setRecipientZipCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRecipientAdress1(String arg0)">1</method>
+			<method name="public String getRecipientPhone()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.GetReservedSkybillWithType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getReservationNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReservationNumber(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public int getNombreDePassageMaximum()">1</method>
+			<method name="public boolean isLtAImprimerParChronopost()">1</method>
+			<method name="public void setLtAImprimerParChronopost(boolean arg0)">1</method>
+			<method name="public void setRefEsdClient(String arg0)">1</method>
+			<method name="public String getRefEsdClient()">1</method>
+			<method name="public void setNombreDePassageMaximum(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingWithESDOnlyResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.GetReservedSkybill</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getReservationNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReservationNumber(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingServiceWS</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>17</cbo>
+		<rfc>11</rfc>
+		<lcom>55</lcom>
+		<ca>1</ca>
+		<ce>16</ce>
+		<npm>11</npm>
+		<lcom3>2.0</lcom3>
+		<loc>11</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultExpeditionValue shippingV2(fr.chronopost.soap.shipping.cxf.EsdValue, fr.chronopost.soap.shipping.cxf.HeaderValue, fr.chronopost.soap.shipping.cxf.ShipperValue, fr.chronopost.soap.shipping.cxf.CustomerValue, fr.chronopost.soap.shipping.cxf.RecipientValue, fr.chronopost.soap.shipping.cxf.RefValue, fr.chronopost.soap.shipping.cxf.SkybillValue, fr.chronopost.soap.shipping.cxf.SkybillParamsValue, String, String)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillValue getReservedSkybill(String)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultExpeditionValue shippingV3(fr.chronopost.soap.shipping.cxf.EsdValue, fr.chronopost.soap.shipping.cxf.HeaderValue, fr.chronopost.soap.shipping.cxf.ShipperValue, fr.chronopost.soap.shipping.cxf.CustomerValue, fr.chronopost.soap.shipping.cxf.RecipientValue, fr.chronopost.soap.shipping.cxf.RefValue, fr.chronopost.soap.shipping.cxf.SkybillValue, fr.chronopost.soap.shipping.cxf.SkybillParamsValue, String, String, fr.chronopost.soap.shipping.cxf.ScheduledValue)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillWithTypeValue getReservedSkybillWithType(String)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultReservationMultiParcelExpeditionValue shippingMultiParcelWithReservation(fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue, fr.chronopost.soap.shipping.cxf.HeaderValue, fr.chronopost.soap.shipping.cxf.ShipperValue, fr.chronopost.soap.shipping.cxf.CustomerValue, java.util.List, java.util.List, java.util.List, fr.chronopost.soap.shipping.cxf.SkybillParamsValue, String, String, int, String, String, fr.chronopost.soap.shipping.cxf.ScheduledValue)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue shippingWithReservationAndESDWithRefClient(fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue, fr.chronopost.soap.shipping.cxf.HeaderValue, fr.chronopost.soap.shipping.cxf.ShipperValue, fr.chronopost.soap.shipping.cxf.CustomerValue, fr.chronopost.soap.shipping.cxf.RecipientValue, fr.chronopost.soap.shipping.cxf.RefValue, fr.chronopost.soap.shipping.cxf.SkybillValue, fr.chronopost.soap.shipping.cxf.SkybillParamsValue, String, String, String, fr.chronopost.soap.shipping.cxf.ScheduledValue)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultFaisabiliteESD faisabiliteESD(fr.chronopost.soap.shipping.cxf.ShipperValue, javax.xml.datatype.XMLGregorianCalendar, javax.xml.datatype.XMLGregorianCalendar)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultExpeditionValue shipping(fr.chronopost.soap.shipping.cxf.EsdValue, fr.chronopost.soap.shipping.cxf.HeaderValue, fr.chronopost.soap.shipping.cxf.ShipperValue, fr.chronopost.soap.shipping.cxf.CustomerValue, fr.chronopost.soap.shipping.cxf.RecipientValue, fr.chronopost.soap.shipping.cxf.RefValue, fr.chronopost.soap.shipping.cxf.SkybillValue, fr.chronopost.soap.shipping.cxf.SkybillParamsValue, String)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue shippingWithESDOnly(fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue, fr.chronopost.soap.shipping.cxf.HeaderValue, fr.chronopost.soap.shipping.cxf.ShipperValue, fr.chronopost.soap.shipping.cxf.CustomerValue, fr.chronopost.soap.shipping.cxf.RecipientValue, fr.chronopost.soap.shipping.cxf.RefValue, fr.chronopost.soap.shipping.cxf.SkybillValue, fr.chronopost.soap.shipping.cxf.SkybillParamsValue, String, String, String)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue shippingWithReservation(fr.chronopost.soap.shipping.cxf.EsdValue, fr.chronopost.soap.shipping.cxf.HeaderValue, fr.chronopost.soap.shipping.cxf.ShipperValue, fr.chronopost.soap.shipping.cxf.CustomerValue, fr.chronopost.soap.shipping.cxf.RecipientValue, fr.chronopost.soap.shipping.cxf.RefValue, fr.chronopost.soap.shipping.cxf.SkybillValue, fr.chronopost.soap.shipping.cxf.SkybillParamsValue, String, String)">1</method>
+			<method name="public abstract fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue shippingWithReservationAndESDWithRefClientPC(String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.CustomerValue</name>
+		<wmc>31</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>9</ca>
+		<ce>0</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4946236559139785</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public String getPrintAsSender()">1</method>
+			<method name="public String getCustomerCity()">1</method>
+			<method name="public void setCustomerCountry(String arg0)">1</method>
+			<method name="public int getCustomerPreAlert()">1</method>
+			<method name="public String getCustomerCountry()">1</method>
+			<method name="public String getCustomerAdress1()">1</method>
+			<method name="public String getCustomerAdress2()">1</method>
+			<method name="public void setPrintAsSender(String arg0)">1</method>
+			<method name="public void setCustomerContactName(String arg0)">1</method>
+			<method name="public void setCustomerCountryName(String arg0)">1</method>
+			<method name="public void setCustomerCity(String arg0)">1</method>
+			<method name="public void setCustomerZipCode(String arg0)">1</method>
+			<method name="public void setCustomerPreAlert(int arg0)">1</method>
+			<method name="public void setCustomerEmail(String arg0)">1</method>
+			<method name="public void setCustomerName2(String arg0)">1</method>
+			<method name="public String getCustomerContactName()">1</method>
+			<method name="public String getCustomerCountryName()">1</method>
+			<method name="public void setCustomerName(String arg0)">1</method>
+			<method name="public void setCustomerCivility(String arg0)">1</method>
+			<method name="public void setCustomerAdress1(String arg0)">1</method>
+			<method name="public void setCustomerAdress2(String arg0)">1</method>
+			<method name="public void setCustomerMobilePhone(String arg0)">1</method>
+			<method name="public String getCustomerName2()">1</method>
+			<method name="public void setCustomerPhone(String arg0)">1</method>
+			<method name="public String getCustomerMobilePhone()">1</method>
+			<method name="public String getCustomerPhone()">1</method>
+			<method name="public String getCustomerName()">1</method>
+			<method name="public String getCustomerCivility()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCustomerZipCode()">1</method>
+			<method name="public String getCustomerEmail()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingWithReservationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultReservationExpeditionValue getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingV2Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultExpeditionValue getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultExpeditionValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillWithTypeValue</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorCode(int arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getSkybill()">1</method>
+			<method name="public int getErrorCode()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void setSkybill(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.SkybillParamsValue</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>9</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getMode()">1</method>
+			<method name="public String getDuplicata()">1</method>
+			<method name="public void setDuplicata(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingV2</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>8</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.14761904761904762</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdValue getEsdValue()">1</method>
+			<method name="public void setRefValue(fr.chronopost.soap.shipping.cxf.RefValue arg0)">1</method>
+			<method name="public void setSkybillValue(fr.chronopost.soap.shipping.cxf.SkybillValue arg0)">1</method>
+			<method name="public void setSkybillParamsValue(fr.chronopost.soap.shipping.cxf.SkybillParamsValue arg0)">1</method>
+			<method name="public void setShipperValue(fr.chronopost.soap.shipping.cxf.ShipperValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.CustomerValue getCustomerValue()">1</method>
+			<method name="public void setCustomerValue(fr.chronopost.soap.shipping.cxf.CustomerValue arg0)">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillValue getSkybillValue()">1</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setRecipientValue(fr.chronopost.soap.shipping.cxf.RecipientValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.HeaderValue getHeaderValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillParamsValue getSkybillParamsValue()">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public void setEsdValue(fr.chronopost.soap.shipping.cxf.EsdValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RefValue getRefValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue getShipperValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RecipientValue getRecipientValue()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHeaderValue(fr.chronopost.soap.shipping.cxf.HeaderValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ResultParcelValue</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7407407407407407</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public String getDestinationDepot()">1</method>
+			<method name="public String getCodeDepot()">1</method>
+			<method name="public void setOSort(String arg0)">1</method>
+			<method name="public void setSignaletiqueProduit(String arg0)">1</method>
+			<method name="public void setCodeService(String arg0)">1</method>
+			<method name="public String getGroupingPriorityLabel()">1</method>
+			<method name="public String getOSort()">1</method>
+			<method name="public String getServiceMark()">1</method>
+			<method name="public String getSignaletiqueProduit()">1</method>
+			<method name="public String getSkybillNumber()">1</method>
+			<method name="public String getGeoPostNumeroColis()">1</method>
+			<method name="public String getReservationNumber()">1</method>
+			<method name="public String getGeoPostCodeBarre()">1</method>
+			<method name="public void setServiceMark(String arg0)">1</method>
+			<method name="public void setSkybillNumber(String arg0)">1</method>
+			<method name="public void setCodeDepot(String arg0)">1</method>
+			<method name="public void setDestinationDepot(String arg0)">1</method>
+			<method name="public String getCodeService()">1</method>
+			<method name="public void setDSort(String arg0)">1</method>
+			<method name="public void setGeoPostCodeBarre(String arg0)">1</method>
+			<method name="public void setGroupingPriorityLabel(String arg0)">1</method>
+			<method name="public String getServiceName()">1</method>
+			<method name="public void setGeoPostNumeroColis(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDSort()">1</method>
+			<method name="public void setReservationNumber(String arg0)">1</method>
+			<method name="public void setServiceName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingV3</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>9</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>9</moa>
+		<mfa>0.0</mfa>
+		<cam>0.13438735177865613</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdValue getEsdValue()">1</method>
+			<method name="public void setRefValue(fr.chronopost.soap.shipping.cxf.RefValue arg0)">1</method>
+			<method name="public void setSkybillValue(fr.chronopost.soap.shipping.cxf.SkybillValue arg0)">1</method>
+			<method name="public void setSkybillParamsValue(fr.chronopost.soap.shipping.cxf.SkybillParamsValue arg0)">1</method>
+			<method name="public void setShipperValue(fr.chronopost.soap.shipping.cxf.ShipperValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.CustomerValue getCustomerValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ScheduledValue getScheduledValue()">1</method>
+			<method name="public void setCustomerValue(fr.chronopost.soap.shipping.cxf.CustomerValue arg0)">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillValue getSkybillValue()">1</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setRecipientValue(fr.chronopost.soap.shipping.cxf.RecipientValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.HeaderValue getHeaderValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillParamsValue getSkybillParamsValue()">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public void setEsdValue(fr.chronopost.soap.shipping.cxf.EsdValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RefValue getRefValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue getShipperValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RecipientValue getRecipientValue()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setScheduledValue(fr.chronopost.soap.shipping.cxf.ScheduledValue arg0)">1</method>
+			<method name="public void setHeaderValue(fr.chronopost.soap.shipping.cxf.HeaderValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillValue</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setErrorCode(int arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getSkybill()">1</method>
+			<method name="public int getErrorCode()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void setSkybill(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingMultiParcelWithReservationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultReservationMultiParcelExpeditionValue arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultReservationMultiParcelExpeditionValue getReturn()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.SkybillValue</name>
+		<wmc>49</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>9</cbo>
+		<rfc>50</rfc>
+		<lcom>1128</lcom>
+		<ca>9</ca>
+		<ce>0</ce>
+		<npm>49</npm>
+		<lcom3>0.9791666666666666</lcom3>
+		<loc>244</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2979591836734694</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.489795918367347</amc>
+		<cc>
+			<method name="public void setBulkNumber(String arg0)">1</method>
+			<method name="public void setInsuredCurrency(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getShipDate()">1</method>
+			<method name="public String getWeightUnit()">1</method>
+			<method name="public void setObjectType(String arg0)">1</method>
+			<method name="public String getProductCode()">1</method>
+			<method name="public void setCodValue(Float arg0)">1</method>
+			<method name="public String getContent2()">1</method>
+			<method name="public void setMasterSkybillNumber(String arg0)">1</method>
+			<method name="public String getContent4()">1</method>
+			<method name="public Float getCodValue()">1</method>
+			<method name="public void setContent3(String arg0)">1</method>
+			<method name="public void setContent1(String arg0)">1</method>
+			<method name="public Float getWeight()">1</method>
+			<method name="public void setContent2(String arg0)">1</method>
+			<method name="public Float getCustomsValue()">1</method>
+			<method name="public int getShipHour()">1</method>
+			<method name="public String getInsuredCurrency()">1</method>
+			<method name="public void setService(String arg0)">1</method>
+			<method name="public void setSkybillRank(String arg0)">1</method>
+			<method name="public String getObjectType()">1</method>
+			<method name="public void setProductCode(String arg0)">1</method>
+			<method name="public void setWeightUnit(String arg0)">1</method>
+			<method name="public String getMasterSkybillNumber()">1</method>
+			<method name="public String getPortCurrency()">1</method>
+			<method name="public String getContent1()">1</method>
+			<method name="public void setPortCurrency(String arg0)">1</method>
+			<method name="public String getContent3()">1</method>
+			<method name="public String getContent5()">1</method>
+			<method name="public String getEvtCode()">1</method>
+			<method name="public void setContent4(String arg0)">1</method>
+			<method name="public void setShipHour(int arg0)">1</method>
+			<method name="public Float getPortValue()">1</method>
+			<method name="public String getService()">1</method>
+			<method name="public void setInsuredValue(Float arg0)">1</method>
+			<method name="public void setWeight(Float arg0)">1</method>
+			<method name="public String getSkybillRank()">1</method>
+			<method name="public void setContent5(String arg0)">1</method>
+			<method name="public void setEvtCode(String arg0)">1</method>
+			<method name="public String getCustomsCurrency()">1</method>
+			<method name="public String getCodCurrency()">1</method>
+			<method name="public String getBulkNumber()">1</method>
+			<method name="public void setCodCurrency(String arg0)">1</method>
+			<method name="public void setShipDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setCustomsValue(Float arg0)">1</method>
+			<method name="public void setPortValue(Float arg0)">1</method>
+			<method name="public void setCustomsCurrency(String arg0)">1</method>
+			<method name="public Float getInsuredValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingWithReservationAndESDWithRefClient</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>1</ca>
+		<ce>9</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>9</moa>
+		<mfa>0.0</mfa>
+		<cam>0.13454545454545455</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public void setRefValue(fr.chronopost.soap.shipping.cxf.RefValue arg0)">1</method>
+			<method name="public void setSkybillValue(fr.chronopost.soap.shipping.cxf.SkybillValue arg0)">1</method>
+			<method name="public void setSkybillParamsValue(fr.chronopost.soap.shipping.cxf.SkybillParamsValue arg0)">1</method>
+			<method name="public void setShipperValue(fr.chronopost.soap.shipping.cxf.ShipperValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.CustomerValue getCustomerValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ScheduledValue getScheduledValue()">1</method>
+			<method name="public void setEsdValue(fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue arg0)">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public void setRecipientValue(fr.chronopost.soap.shipping.cxf.RecipientValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillParamsValue getSkybillParamsValue()">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RefValue getRefValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue getShipperValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RecipientValue getRecipientValue()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void setHeaderValue(fr.chronopost.soap.shipping.cxf.HeaderValue arg0)">1</method>
+			<method name="public void setCustomerValue(fr.chronopost.soap.shipping.cxf.CustomerValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillValue getSkybillValue()">1</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue getEsdValue()">1</method>
+			<method name="public void setModeRetour(String arg0)">1</method>
+			<method name="public String getModeRetour()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.HeaderValue getHeaderValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setScheduledValue(fr.chronopost.soap.shipping.cxf.ScheduledValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultExpeditionValue getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultExpeditionValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.SkybillWithDimensionsValue</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public float getLength()">1</method>
+			<method name="public void setLength(float arg0)">1</method>
+			<method name="public void setHeight(float arg0)">1</method>
+			<method name="public float getWidth()">1</method>
+			<method name="public void setWidth(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getHeight()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.FaisabiliteESDResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultFaisabiliteESD arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultFaisabiliteESD getReturn()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingWithReservation</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>8</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.14761904761904762</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdValue getEsdValue()">1</method>
+			<method name="public void setRefValue(fr.chronopost.soap.shipping.cxf.RefValue arg0)">1</method>
+			<method name="public void setSkybillValue(fr.chronopost.soap.shipping.cxf.SkybillValue arg0)">1</method>
+			<method name="public void setSkybillParamsValue(fr.chronopost.soap.shipping.cxf.SkybillParamsValue arg0)">1</method>
+			<method name="public void setShipperValue(fr.chronopost.soap.shipping.cxf.ShipperValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.CustomerValue getCustomerValue()">1</method>
+			<method name="public void setCustomerValue(fr.chronopost.soap.shipping.cxf.CustomerValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillValue getSkybillValue()">1</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setRecipientValue(fr.chronopost.soap.shipping.cxf.RecipientValue arg0)">1</method>
+			<method name="public void setModeRetour(String arg0)">1</method>
+			<method name="public String getModeRetour()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.HeaderValue getHeaderValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillParamsValue getSkybillParamsValue()">1</method>
+			<method name="public void setEsdValue(fr.chronopost.soap.shipping.cxf.EsdValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RefValue getRefValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue getShipperValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RecipientValue getRecipientValue()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHeaderValue(fr.chronopost.soap.shipping.cxf.HeaderValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.GetReservedSkybillWithTypeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillWithTypeValue arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultGetReservedSkybillWithTypeValue getReturn()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingWithESDOnly</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>8</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.14782608695652175</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public void setRefValue(fr.chronopost.soap.shipping.cxf.RefValue arg0)">1</method>
+			<method name="public void setSkybillValue(fr.chronopost.soap.shipping.cxf.SkybillValue arg0)">1</method>
+			<method name="public void setSkybillParamsValue(fr.chronopost.soap.shipping.cxf.SkybillParamsValue arg0)">1</method>
+			<method name="public void setShipperValue(fr.chronopost.soap.shipping.cxf.ShipperValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.CustomerValue getCustomerValue()">1</method>
+			<method name="public void setCustomerValue(fr.chronopost.soap.shipping.cxf.CustomerValue arg0)">1</method>
+			<method name="public void setEsdValue(fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue arg0)">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillValue getSkybillValue()">1</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue getEsdValue()">1</method>
+			<method name="public void setRecipientValue(fr.chronopost.soap.shipping.cxf.RecipientValue arg0)">1</method>
+			<method name="public void setModeRetour(String arg0)">1</method>
+			<method name="public String getModeRetour()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.HeaderValue getHeaderValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillParamsValue getSkybillParamsValue()">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RefValue getRefValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue getShipperValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RecipientValue getRecipientValue()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHeaderValue(fr.chronopost.soap.shipping.cxf.HeaderValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.Shipping</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>8</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.14736842105263157</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdValue getEsdValue()">1</method>
+			<method name="public void setRefValue(fr.chronopost.soap.shipping.cxf.RefValue arg0)">1</method>
+			<method name="public void setSkybillValue(fr.chronopost.soap.shipping.cxf.SkybillValue arg0)">1</method>
+			<method name="public void setSkybillParamsValue(fr.chronopost.soap.shipping.cxf.SkybillParamsValue arg0)">1</method>
+			<method name="public void setShipperValue(fr.chronopost.soap.shipping.cxf.ShipperValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.CustomerValue getCustomerValue()">1</method>
+			<method name="public void setCustomerValue(fr.chronopost.soap.shipping.cxf.CustomerValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillValue getSkybillValue()">1</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setRecipientValue(fr.chronopost.soap.shipping.cxf.RecipientValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.HeaderValue getHeaderValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillParamsValue getSkybillParamsValue()">1</method>
+			<method name="public void setEsdValue(fr.chronopost.soap.shipping.cxf.EsdValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RefValue getRefValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue getShipperValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.RecipientValue getRecipientValue()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHeaderValue(fr.chronopost.soap.shipping.cxf.HeaderValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ResultReservationMultiParcelExpeditionValue</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public java.util.List getResultParcelValue()">2</method>
+			<method name="public void setErrorCode(int arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getReservationNumber()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getPickupDate()">1</method>
+			<method name="public void setESDNumber(String arg0)">1</method>
+			<method name="public String getESDNumber()">1</method>
+			<method name="public void setESDFullNumber(String arg0)">1</method>
+			<method name="public String getESDFullNumber()">1</method>
+			<method name="public int getErrorCode()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPickupDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setReservationNumber(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.RefValue</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>8</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setCustomerSkybillNumber(String arg0)">1</method>
+			<method name="public void setPCardTransactionNumber(String arg0)">1</method>
+			<method name="public String getCustomerSkybillNumber()">1</method>
+			<method name="public String getPCardTransactionNumber()">1</method>
+			<method name="public String getRecipientRef()">1</method>
+			<method name="public void setRecipientRef(String arg0)">1</method>
+			<method name="public void setShipperRef(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getShipperRef()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingMultiParcelWithReservation</name>
+		<wmc>26</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>28</rfc>
+		<lcom>303</lcom>
+		<ca>1</ca>
+		<ce>6</ce>
+		<npm>26</npm>
+		<lcom3>0.9685714285714286</lcom3>
+		<loc>153</loc>
+		<dam>1.0</dam>
+		<moa>6</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1581196581196581</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.346153846153846</amc>
+		<cc>
+			<method name="public void setSkybillParamsValue(fr.chronopost.soap.shipping.cxf.SkybillParamsValue arg0)">1</method>
+			<method name="public void setShipperValue(fr.chronopost.soap.shipping.cxf.ShipperValue arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.CustomerValue getCustomerValue()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ScheduledValue getScheduledValue()">1</method>
+			<method name="public void setNumberOfParcel(int arg0)">1</method>
+			<method name="public void setEsdValue(fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue arg0)">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public String getMultiParcel()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.SkybillParamsValue getSkybillParamsValue()">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShipperValue getShipperValue()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void setHeaderValue(fr.chronopost.soap.shipping.cxf.HeaderValue arg0)">1</method>
+			<method name="public int getNumberOfParcel()">1</method>
+			<method name="public java.util.List getRefValue()">2</method>
+			<method name="public void setCustomerValue(fr.chronopost.soap.shipping.cxf.CustomerValue arg0)">1</method>
+			<method name="public void setMultiParcel(String arg0)">1</method>
+			<method name="public java.util.List getSkybillValue()">2</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.EsdWithRefClientValue getEsdValue()">1</method>
+			<method name="public void setModeRetour(String arg0)">1</method>
+			<method name="public String getModeRetour()">1</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.HeaderValue getHeaderValue()">1</method>
+			<method name="public java.util.List getRecipientValue()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setScheduledValue(fr.chronopost.soap.shipping.cxf.ScheduledValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingV3Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.chronopost.soap.shipping.cxf.ResultExpeditionValue getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(fr.chronopost.soap.shipping.cxf.ResultExpeditionValue arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ResultExpeditionValue</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setErrorCode(int arg0)">1</method>
+			<method name="public void setSkybill(byte[] arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getPickupDate()">1</method>
+			<method name="public void setESDNumber(String arg0)">1</method>
+			<method name="public void setSkybillNumber(String arg0)">1</method>
+			<method name="public String getESDNumber()">1</method>
+			<method name="public void setESDFullNumber(String arg0)">1</method>
+			<method name="public byte[] getSkybill()">1</method>
+			<method name="public String getSkybillNumber()">1</method>
+			<method name="public String getESDFullNumber()">1</method>
+			<method name="public int getErrorCode()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPickupDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.chronopost.soap.shipping.cxf.ShippingServiceWSService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public transient fr.chronopost.soap.shipping.cxf.ShippingServiceWS getShippingServiceWSPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public fr.chronopost.soap.shipping.cxf.ShippingServiceWS getShippingServiceWSPort()">1</method>
+		</cc>
+	</class>

@@ -1,0 +1,1280 @@
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByExactNameResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.apache.xml.xml_soap.Map getGetTermsByExactNameReturn()">1</method>
+			<method name="public void setGetTermsByExactNameReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermXrefsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTermXrefsReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public org.apache.xml.xml_soap.Map getGetTermXrefsReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermRelations</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getTermId()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTermId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByExactName</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setExactName(String arg0)">1</method>
+			<method name="public String getExactName()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.apache.xml.xml_soap.Vector</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetVersion</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermByIdResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGetTermByIdReturn()">1</method>
+			<method name="public void setGetTermByIdReturn(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermRelationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTermRelationsReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.apache.xml.xml_soap.Map getGetTermRelationsReturn()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetOntologyLoadDateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetOntologyLoadDateReturn(String arg0)">1</method>
+			<method name="public String getGetOntologyLoadDateReturn()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ook.web.model.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetAllTermsFromOntologyResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetAllTermsFromOntologyReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public org.apache.xml.xml_soap.Map getGetAllTermsFromOntologyReturn()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetPrefixedTermsByName</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public boolean isReverseKeyOrder()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPartialName(String arg0)">1</method>
+			<method name="public void setReverseKeyOrder(boolean arg0)">1</method>
+			<method name="public String getPartialName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.IsObsolete</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getTermId()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTermId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetPrefixedTermsByNameResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetPrefixedTermsByNameReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public org.apache.xml.xml_soap.Map getGetPrefixedTermsByNameReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermById</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getTermId()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTermId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByAnnotationDataResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getGetTermsByAnnotationDataReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetChildrenFromRoot</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public org.apache.xml.xml_soap.Vector getChildrenIds()">1</method>
+			<method name="public void setChildrenIds(org.apache.xml.xml_soap.Vector arg0)">1</method>
+			<method name="public void setRootTermId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRootTermId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ook.web.model.ObjectFactory</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>9</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.5</amc>
+		<cc>
+			<method name="public uk.ac.ebi.ook.web.model.DataHolder createDataHolder()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetChildrenFromRootResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetChildrenFromRootReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.apache.xml.xml_soap.Map getGetChildrenFromRootReturn()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByName</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public boolean isReverseKeyOrder()">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPartialName(String arg0)">1</method>
+			<method name="public void setReverseKeyOrder(boolean arg0)">1</method>
+			<method name="public String getPartialName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.apache.xml.xml_soap.MapItem</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public Object getKey()">1</method>
+			<method name="public Object getValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setKey(Object arg0)">1</method>
+			<method name="public void setValue(Object arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetOntologyNamesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.apache.xml.xml_soap.Map getGetOntologyNamesReturn()">1</method>
+			<method name="public void setGetOntologyNamesReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.IsObsoleteResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setIsObsoleteReturn(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isIsObsoleteReturn()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.apache.xml.xml_soap.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermMetadata</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getTermId()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTermId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByNameResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.apache.xml.xml_soap.Map getGetTermsByNameReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTermsByNameReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermMetadataResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.apache.xml.xml_soap.Map getGetTermMetadataReturn()">1</method>
+			<method name="public void setGetTermMetadataReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermParentsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.apache.xml.xml_soap.Map getGetTermParentsReturn()">1</method>
+			<method name="public void setGetTermParentsReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByAnnotationData</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setStrValue(String arg0)">1</method>
+			<method name="public double getFromDblValue()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getStrValue()">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void setToDblValue(double arg0)">1</method>
+			<method name="public void setFromDblValue(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAnnotationType()">1</method>
+			<method name="public void setAnnotationType(String arg0)">1</method>
+			<method name="public double getToDblValue()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetVersionResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getGetVersionReturn()">1</method>
+			<method name="public void setGetVersionReturn(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermChildrenResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.apache.xml.xml_soap.Map getGetTermChildrenReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTermChildrenReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetRootTerms</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetRootTermsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.apache.xml.xml_soap.Map getGetRootTermsReturn()">1</method>
+			<method name="public void setGetRootTermsReturn(org.apache.xml.xml_soap.Map arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ook.web.model.DataHolder</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getTermName()">1</method>
+			<method name="public void setTermName(String arg0)">1</method>
+			<method name="public String getTermId()">1</method>
+			<method name="public String getAnnotationStringValue()">1</method>
+			<method name="public void setAnnotationStringValue(String arg0)">1</method>
+			<method name="public Double getAnnotationNumberValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAnnotationNumberValue(Double arg0)">1</method>
+			<method name="public String getAnnotationType()">1</method>
+			<method name="public void setAnnotationType(String arg0)">1</method>
+			<method name="public void setTermId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermChildren</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4583333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public String getTermId()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public int getDistance()">1</method>
+			<method name="public java.util.List getRelationTypes()">2</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTermId(String arg0)">1</method>
+			<method name="public void setDistance(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetOntologyLoadDate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermXrefs</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getTermId()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTermId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.Query</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>17</rfc>
+		<lcom>136</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>17</npm>
+		<lcom3>2.0</lcom3>
+		<loc>17</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.31932773109243695</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract org.apache.xml.xml_soap.Map getTermsByExactName(String, String)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getRootTerms(String)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getChildrenFromRoot(String, String, org.apache.xml.xml_soap.Vector)">1</method>
+			<method name="public abstract String getVersion()">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getTermParents(String, String)">1</method>
+			<method name="public abstract boolean isObsolete(String, String)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getTermMetadata(String, String)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getTermsByName(String, String, boolean)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getTermXrefs(String, String)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getTermChildren(String, String, int, java.util.List)">1</method>
+			<method name="public abstract String getTermById(String, String)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getTermRelations(String, String)">1</method>
+			<method name="public abstract java.util.List getTermsByAnnotationData(String, String, String, double, double)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getAllTermsFromOntology(String)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getPrefixedTermsByName(String, boolean)">1</method>
+			<method name="public abstract org.apache.xml.xml_soap.Map getOntologyNames()">1</method>
+			<method name="public abstract String getOntologyLoadDate(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetOntologyNames</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.QueryService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.Query getOntologyQuery()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient uk.ac.ebi.ontology_lookup.ontologyquery.Query getOntologyQuery(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.apache.xml.xml_soap.Map</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>14</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>14</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.apache.xml.xml_soap.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>6</lcom>
+		<ca>0</ca>
+		<ce>3</ce>
+		<npm>4</npm>
+		<lcom3>2.0</lcom3>
+		<loc>19</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.75</amc>
+		<cc>
+			<method name="public org.apache.xml.xml_soap.Vector createVector()">1</method>
+			<method name="public org.apache.xml.xml_soap.MapItem createMapItem()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.apache.xml.xml_soap.Map createMap()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetAllTermsFromOntology</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.GetTermParents</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getTermId()">1</method>
+			<method name="public void setOntologyName(String arg0)">1</method>
+			<method name="public String getOntologyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTermId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.ontology_lookup.ontologyquery.ObjectFactory</name>
+		<wmc>35</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>34</cbo>
+		<rfc>70</rfc>
+		<lcom>595</lcom>
+		<ca>0</ca>
+		<ce>34</ce>
+		<npm>35</npm>
+		<lcom3>2.0</lcom3>
+		<loc>174</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9714285714285715</amc>
+		<cc>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetAllTermsFromOntology createGetAllTermsFromOntology()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetPrefixedTermsByName createGetPrefixedTermsByName()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermParents createGetTermParents()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetOntologyNamesResponse createGetOntologyNamesResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermMetadataResponse createGetTermMetadataResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetOntologyNames createGetOntologyNames()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetOntologyLoadDate createGetOntologyLoadDate()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetChildrenFromRoot createGetChildrenFromRoot()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermByIdResponse createGetTermByIdResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermChildrenResponse createGetTermChildrenResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.IsObsolete createIsObsolete()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByExactNameResponse createGetTermsByExactNameResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByAnnotationDataResponse createGetTermsByAnnotationDataResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetOntologyLoadDateResponse createGetOntologyLoadDateResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.IsObsoleteResponse createIsObsoleteResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermXrefs createGetTermXrefs()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermRelationsResponse createGetTermRelationsResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermChildren createGetTermChildren()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermById createGetTermById()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetChildrenFromRootResponse createGetChildrenFromRootResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetRootTerms createGetRootTerms()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetVersion createGetVersion()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermParentsResponse createGetTermParentsResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetRootTermsResponse createGetRootTermsResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermXrefsResponse createGetTermXrefsResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByNameResponse createGetTermsByNameResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByExactName createGetTermsByExactName()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetPrefixedTermsByNameResponse createGetPrefixedTermsByNameResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByAnnotationData createGetTermsByAnnotationData()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetVersionResponse createGetVersionResponse()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermRelations createGetTermRelations()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetAllTermsFromOntologyResponse createGetAllTermsFromOntologyResponse()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermMetadata createGetTermMetadata()">1</method>
+			<method name="public uk.ac.ebi.ontology_lookup.ontologyquery.GetTermsByName createGetTermsByName()">1</method>
+		</cc>
+	</class>

@@ -1,0 +1,2426 @@
+	<class>
+		<name>com.avalara.avatax.services.CancelTaxResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCancelTaxResult(com.avalara.avatax.services.CancelTaxResult arg0)">1</method>
+			<method name="public com.avalara.avatax.services.CancelTaxResult getCancelTaxResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.PingResult</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getVersion()">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.AdjustTax</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAdjustTaxRequest(com.avalara.avatax.services.AdjustTaxRequest arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.avalara.avatax.services.AdjustTaxRequest getAdjustTaxRequest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.IsAuthorizedResult</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setExpires(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getOperations()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getExpires()">1</method>
+			<method name="public void setOperations(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ServiceMode</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.ServiceMode fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.avalara.avatax.services.ServiceMode[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.avalara.avatax.services.ServiceMode valueOf(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.AdjustTaxRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setAdjustmentReason(int arg0)">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxRequest getGetTaxRequest()">1</method>
+			<method name="public void setAdjustmentDescription(String arg0)">1</method>
+			<method name="public int getAdjustmentReason()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAdjustmentDescription()">1</method>
+			<method name="public void setGetTaxRequest(com.avalara.avatax.services.GetTaxRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.IsAuthorizedResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setIsAuthorizedResult(com.avalara.avatax.services.IsAuthorizedResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.avalara.avatax.services.IsAuthorizedResult getIsAuthorizedResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxSvc</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.avalara.avatax.services.TaxSvcSoap getTaxSvcSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.avalara.avatax.services.TaxSvcSoap getTaxSvcSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.CancelCode</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.CancelCode[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.avalara.avatax.services.CancelCode valueOf(String arg0)">1</method>
+			<method name="public static com.avalara.avatax.services.CancelCode fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.Line</name>
+		<wmc>35</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>36</rfc>
+		<lcom>561</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>35</npm>
+		<lcom3>0.9705882352941176</lcom3>
+		<loc>174</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24761904761904763</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4857142857142858</amc>
+		<cc>
+			<method name="public String getOriginCode()">1</method>
+			<method name="public void setOriginCode(String arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getItemCode()">1</method>
+			<method name="public Boolean isTaxIncluded()">1</method>
+			<method name="public void setExemptionNo(String arg0)">1</method>
+			<method name="public void setDestinationCode(String arg0)">1</method>
+			<method name="public String getBusinessIdentificationNo()">1</method>
+			<method name="public void setRef1(String arg0)">1</method>
+			<method name="public void setAmount(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setRef2(String arg0)">1</method>
+			<method name="public void setTaxOverride(com.avalara.avatax.services.TaxOverride arg0)">1</method>
+			<method name="public java.math.BigDecimal getQty()">1</method>
+			<method name="public String getRef2()">1</method>
+			<method name="public void setTaxCode(String arg0)">1</method>
+			<method name="public String getRef1()">1</method>
+			<method name="public void setCustomerUsageType(String arg0)">1</method>
+			<method name="public String getCustomerUsageType()">1</method>
+			<method name="public String getDestinationCode()">1</method>
+			<method name="public boolean isDiscounted()">1</method>
+			<method name="public void setDiscounted(boolean arg0)">1</method>
+			<method name="public void setBusinessIdentificationNo(String arg0)">1</method>
+			<method name="public void setQty(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getTaxCode()">1</method>
+			<method name="public java.math.BigDecimal getAmount()">1</method>
+			<method name="public void setNo(String arg0)">1</method>
+			<method name="public void setTaxIncluded(Boolean arg0)">1</method>
+			<method name="public com.avalara.avatax.services.TaxOverride getTaxOverride()">1</method>
+			<method name="public String getNo()">1</method>
+			<method name="public void setRevAcct(String arg0)">1</method>
+			<method name="public void setItemCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRevAcct()">1</method>
+			<method name="public String getExemptionNo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.AdjustTaxResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.AdjustTaxResult getAdjustTaxResult()">1</method>
+			<method name="public void setAdjustTaxResult(com.avalara.avatax.services.AdjustTaxResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ReconcileTaxHistoryResult</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRecordCount(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getRecordCount()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ApplyPaymentResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.ApplyPaymentResult getApplyPaymentResult()">1</method>
+			<method name="public void setApplyPaymentResult(com.avalara.avatax.services.ApplyPaymentResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.SearchTaxHistoryResult</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>1</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setGetTaxResults(com.avalara.avatax.services.ArrayOfGetTaxResult arg0)">1</method>
+			<method name="public void setLastDocId(String arg0)">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfGetTaxResult getGetTaxResults()">1</method>
+			<method name="public String getLastDocCode()">1</method>
+			<method name="public String getLastDocId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLastDocCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxSummaryFetchResult$TaxSummaryReport</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Object getAny()">1</method>
+			<method name="public void setAny(Object arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.BaseResult</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>10</noc>
+		<cbo>13</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>11</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setResultCode(com.avalara.avatax.services.SeverityLevel arg0)">1</method>
+			<method name="public void setMessages(com.avalara.avatax.services.ArrayOfMessage arg0)">1</method>
+			<method name="public void setTransactionId(String arg0)">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfMessage getMessages()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTransactionId()">1</method>
+			<method name="public com.avalara.avatax.services.SeverityLevel getResultCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.Ping</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxDetail</name>
+		<wmc>37</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>38</rfc>
+		<lcom>630</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>37</npm>
+		<lcom3>0.9722222222222222</lcom3>
+		<loc>184</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24774774774774774</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4864864864864864</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getTaxable()">1</method>
+			<method name="public java.math.BigDecimal getRate()">1</method>
+			<method name="public java.math.BigDecimal getExemption()">1</method>
+			<method name="public java.math.BigDecimal getBase()">1</method>
+			<method name="public void setTaxCalculated(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getStateAssignedNo()">1</method>
+			<method name="public String getRateType()">1</method>
+			<method name="public int getTaxAuthorityType()">1</method>
+			<method name="public void setTaxable(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getRegion()">1</method>
+			<method name="public void setNonTaxable(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setTaxGroup(String arg0)">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public java.math.BigDecimal getTaxCalculated()">1</method>
+			<method name="public String getTaxName()">1</method>
+			<method name="public void setRegion(String arg0)">1</method>
+			<method name="public void setBase(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setTaxType(com.avalara.avatax.services.TaxType arg0)">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setRate(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getNonTaxable()">1</method>
+			<method name="public com.avalara.avatax.services.TaxType getTaxType()">1</method>
+			<method name="public String getTaxGroup()">1</method>
+			<method name="public void setJurisCode(String arg0)">1</method>
+			<method name="public String getJurisName()">1</method>
+			<method name="public void setTaxName(String arg0)">1</method>
+			<method name="public void setStateAssignedNo(String arg0)">1</method>
+			<method name="public void setRateType(String arg0)">1</method>
+			<method name="public void setExemption(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setJurisType(com.avalara.avatax.services.JurisdictionType arg0)">1</method>
+			<method name="public String getJurisCode()">1</method>
+			<method name="public com.avalara.avatax.services.JurisdictionType getJurisType()">1</method>
+			<method name="public java.math.BigDecimal getTax()">1</method>
+			<method name="public void setTax(java.math.BigDecimal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTaxAuthorityType(int arg0)">1</method>
+			<method name="public void setJurisName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.PostTaxResult</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ArrayOfTaxLine</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTaxLine()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.BoundaryLevel</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.avalara.avatax.services.BoundaryLevel valueOf(String arg0)">1</method>
+			<method name="public static com.avalara.avatax.services.BoundaryLevel fromValue(String arg0)">3</method>
+			<method name="public static com.avalara.avatax.services.BoundaryLevel[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.JurisdictionType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.JurisdictionType[] values()">1</method>
+			<method name="public static com.avalara.avatax.services.JurisdictionType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.avalara.avatax.services.JurisdictionType valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ReconcileTaxHistory</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.ReconcileTaxHistoryRequest getReconcileTaxHistoryRequest()">1</method>
+			<method name="public void setReconcileTaxHistoryRequest(com.avalara.avatax.services.ReconcileTaxHistoryRequest arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.CommitTaxRequest</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getCompanyCode()">1</method>
+			<method name="public com.avalara.avatax.services.DocumentType getDocType()">1</method>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setNewDocCode(String arg0)">1</method>
+			<method name="public void setDocType(com.avalara.avatax.services.DocumentType arg0)">1</method>
+			<method name="public String getNewDocCode()">1</method>
+			<method name="public void setCompanyCode(String arg0)">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void setDocCode(String arg0)">1</method>
+			<method name="public String getDocCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxSummaryFetchResult</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.TaxSummaryFetchResult$TaxSummaryReport getTaxSummaryReport()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTaxSummaryReport(com.avalara.avatax.services.TaxSummaryFetchResult$TaxSummaryReport arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.DocStatus</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.DocStatus valueOf(String arg0)">1</method>
+			<method name="public static com.avalara.avatax.services.DocStatus fromValue(String arg0)">3</method>
+			<method name="public static com.avalara.avatax.services.DocStatus[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.PostTaxRequest</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2108843537414966</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public String getCompanyCode()">1</method>
+			<method name="public com.avalara.avatax.services.DocumentType getDocType()">1</method>
+			<method name="public boolean isCommit()">1</method>
+			<method name="public void setCompanyCode(String arg0)">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDocDate()">1</method>
+			<method name="public void setDocDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public int getHashCode()">1</method>
+			<method name="public java.math.BigDecimal getTotalAmount()">1</method>
+			<method name="public void setTotalAmount(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setTotalTax(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setCommit(boolean arg0)">1</method>
+			<method name="public void setNewDocCode(String arg0)">1</method>
+			<method name="public void setHashCode(int arg0)">1</method>
+			<method name="public void setDocType(com.avalara.avatax.services.DocumentType arg0)">1</method>
+			<method name="public String getNewDocCode()">1</method>
+			<method name="public void setDocCode(String arg0)">1</method>
+			<method name="public String getDocCode()">1</method>
+			<method name="public java.math.BigDecimal getTotalTax()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ArrayOfLine</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getLine()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.AdjustTaxResult</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxLine</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1484848484848485</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getTaxable()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfTaxDetail getTaxDetails()">1</method>
+			<method name="public void setBoundaryLevel(com.avalara.avatax.services.BoundaryLevel arg0)">1</method>
+			<method name="public java.math.BigDecimal getExemption()">1</method>
+			<method name="public java.math.BigDecimal getRate()">1</method>
+			<method name="public void setTaxCalculated(java.math.BigDecimal arg0)">1</method>
+			<method name="public Boolean isTaxIncluded()">1</method>
+			<method name="public boolean isTaxability()">1</method>
+			<method name="public void setTaxable(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getDiscount()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTaxDate()">1</method>
+			<method name="public void setTaxability(boolean arg0)">1</method>
+			<method name="public java.math.BigDecimal getTaxCalculated()">1</method>
+			<method name="public void setTaxCode(String arg0)">1</method>
+			<method name="public com.avalara.avatax.services.BoundaryLevel getBoundaryLevel()">1</method>
+			<method name="public void setTaxDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public com.avalara.avatax.services.AccountingMethod getAccountingMethod()">1</method>
+			<method name="public void setRate(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setTaxDetails(com.avalara.avatax.services.ArrayOfTaxDetail arg0)">1</method>
+			<method name="public void setAccountingMethod(com.avalara.avatax.services.AccountingMethod arg0)">1</method>
+			<method name="public int getExemptCertId()">1</method>
+			<method name="public void setReportingDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getTaxCode()">1</method>
+			<method name="public void setExemption(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setDiscount(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setNo(String arg0)">1</method>
+			<method name="public void setTaxIncluded(Boolean arg0)">1</method>
+			<method name="public java.math.BigDecimal getTax()">1</method>
+			<method name="public void setExemptCertId(int arg0)">1</method>
+			<method name="public String getNo()">1</method>
+			<method name="public void setTax(java.math.BigDecimal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getReportingDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ArrayOfTaxDetail</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTaxDetail()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.DocumentType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>8</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>180</loc>
+		<dam>0.16666666666666666</dam>
+		<moa>11</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>27.0</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.DocumentType valueOf(String arg0)">1</method>
+			<method name="public static com.avalara.avatax.services.DocumentType[] values()">1</method>
+			<method name="public static com.avalara.avatax.services.DocumentType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.CommitTaxResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCommitTaxResult(com.avalara.avatax.services.CommitTaxResult arg0)">1</method>
+			<method name="public com.avalara.avatax.services.CommitTaxResult getCommitTaxResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ArrayOfGetTaxResult</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getGetTaxResult()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.AccountingMethod</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.AccountingMethod valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.avalara.avatax.services.AccountingMethod[] values()">1</method>
+			<method name="public static com.avalara.avatax.services.AccountingMethod fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.BaseAddress</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4927536231884058</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public String getLine1()">1</method>
+			<method name="public String getLine2()">1</method>
+			<method name="public String getLine3()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setLatitude(String arg0)">1</method>
+			<method name="public String getLatitude()">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public void setAddressCode(String arg0)">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public String getRegion()">1</method>
+			<method name="public String getLongitude()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public void setLine1(String arg0)">1</method>
+			<method name="public void setLongitude(String arg0)">1</method>
+			<method name="public void setTaxRegionId(int arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public int getTaxRegionId()">1</method>
+			<method name="public void setRegion(String arg0)">1</method>
+			<method name="public String getAddressCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLine2(String arg0)">1</method>
+			<method name="public void setLine3(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.GetTaxHistoryResult</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.GetTaxRequest getGetTaxRequest()">1</method>
+			<method name="public void setGetTaxResult(com.avalara.avatax.services.GetTaxResult arg0)">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxResult getGetTaxResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTaxRequest(com.avalara.avatax.services.GetTaxRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.CancelTaxRequest</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getCompanyCode()">1</method>
+			<method name="public com.avalara.avatax.services.DocumentType getDocType()">1</method>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setDocType(com.avalara.avatax.services.DocumentType arg0)">1</method>
+			<method name="public void setCompanyCode(String arg0)">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void setDocCode(String arg0)">1</method>
+			<method name="public com.avalara.avatax.services.CancelCode getCancelCode()">1</method>
+			<method name="public String getDocCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCancelCode(com.avalara.avatax.services.CancelCode arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.CancelTaxResult</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxSummaryFetchRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setMerchantCode(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getEndDate()">1</method>
+			<method name="public String getMerchantCode()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public void setEndDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ReconcileTaxHistoryRequest</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.21052631578947367</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getCompanyCode()">1</method>
+			<method name="public com.avalara.avatax.services.DocumentType getDocType()">1</method>
+			<method name="public void setLastDocId(String arg0)">1</method>
+			<method name="public void setCompanyCode(String arg0)">1</method>
+			<method name="public void setDocStatus(com.avalara.avatax.services.DocStatus arg0)">1</method>
+			<method name="public String getLastDocId()">1</method>
+			<method name="public int getPageSize()">1</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setPageSize(int arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getEndDate()">1</method>
+			<method name="public com.avalara.avatax.services.DocStatus getDocStatus()">1</method>
+			<method name="public void setDocType(com.avalara.avatax.services.DocumentType arg0)">1</method>
+			<method name="public boolean isReconciled()">1</method>
+			<method name="public String getLastDocCode()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public void setEndDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReconciled(boolean arg0)">1</method>
+			<method name="public void setLastDocCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.CancelTax</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.CancelTaxRequest getCancelTaxRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCancelTaxRequest(com.avalara.avatax.services.CancelTaxRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.GetTaxResult</name>
+		<wmc>47</wmc>
+		<dit>0</dit>
+		<noc>1</noc>
+		<cbo>11</cbo>
+		<rfc>48</rfc>
+		<lcom>1035</lcom>
+		<ca>5</ca>
+		<ce>6</ce>
+		<npm>47</npm>
+		<lcom3>0.9782608695652174</lcom3>
+		<loc>234</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.12411347517730496</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4893617021276597</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.DocumentType getDocType()">1</method>
+			<method name="public void setTotalDiscount(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTimestamp()">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void setTaxSummary(com.avalara.avatax.services.ArrayOfTaxDetail arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDocDate()">1</method>
+			<method name="public void setAdjustmentDescription(String arg0)">1</method>
+			<method name="public void setLocked(boolean arg0)">1</method>
+			<method name="public java.math.BigDecimal getTotalExemption()">1</method>
+			<method name="public int getHashCode()">1</method>
+			<method name="public void setTaxAddresses(com.avalara.avatax.services.ArrayOfTaxAddress arg0)">1</method>
+			<method name="public void setTaxLines(com.avalara.avatax.services.ArrayOfTaxLine arg0)">1</method>
+			<method name="public void setVolatileTaxRates(Boolean arg0)">1</method>
+			<method name="public String getDocId()">1</method>
+			<method name="public java.math.BigDecimal getTotalDiscount()">1</method>
+			<method name="public void setHashCode(int arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTaxDate()">1</method>
+			<method name="public void setDocType(com.avalara.avatax.services.DocumentType arg0)">1</method>
+			<method name="public java.math.BigDecimal getTotalTaxable()">1</method>
+			<method name="public void setVersion(int arg0)">1</method>
+			<method name="public void setTaxDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getAdjustmentDescription()">1</method>
+			<method name="public void setReconciled(boolean arg0)">1</method>
+			<method name="public void setTotalTaxCalculated(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setTotalExemption(java.math.BigDecimal arg0)">1</method>
+			<method name="public Boolean isVolatileTaxRates()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfTaxAddress getTaxAddresses()">1</method>
+			<method name="public void setTotalTaxable(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setAdjustmentReason(int arg0)">1</method>
+			<method name="public void setTimestamp(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public boolean isLocked()">1</method>
+			<method name="public void setDocStatus(com.avalara.avatax.services.DocStatus arg0)">1</method>
+			<method name="public java.math.BigDecimal getTotalTaxCalculated()">1</method>
+			<method name="public void setDocDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfTaxLine getTaxLines()">1</method>
+			<method name="public java.math.BigDecimal getTotalAmount()">1</method>
+			<method name="public void setTotalAmount(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setTotalTax(java.math.BigDecimal arg0)">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfTaxDetail getTaxSummary()">1</method>
+			<method name="public com.avalara.avatax.services.DocStatus getDocStatus()">1</method>
+			<method name="public int getVersion()">1</method>
+			<method name="public void setDocCode(String arg0)">1</method>
+			<method name="public boolean isReconciled()">1</method>
+			<method name="public int getAdjustmentReason()">1</method>
+			<method name="public String getDocCode()">1</method>
+			<method name="public java.math.BigDecimal getTotalTax()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxOverrideType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.TaxOverrideType[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.avalara.avatax.services.TaxOverrideType fromValue(String arg0)">3</method>
+			<method name="public static com.avalara.avatax.services.TaxOverrideType valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxOverride</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getReason()">1</method>
+			<method name="public com.avalara.avatax.services.TaxOverrideType getTaxOverrideType()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTaxDate()">1</method>
+			<method name="public void setReason(String arg0)">1</method>
+			<method name="public void setTaxAmount(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setTaxDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.math.BigDecimal getTaxAmount()">1</method>
+			<method name="public void setTaxOverrideType(com.avalara.avatax.services.TaxOverrideType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.PostTaxResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPostTaxResult(com.avalara.avatax.services.PostTaxResult arg0)">1</method>
+			<method name="public com.avalara.avatax.services.PostTaxResult getPostTaxResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ApplyPaymentResult</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.CommitTaxResult</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.GetTax</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.GetTaxRequest getGetTaxRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTaxRequest(com.avalara.avatax.services.GetTaxRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.Profile</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>35</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>10</npm>
+		<lcom3>0.8888888888888888</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9</amc>
+		<cc>
+			<method name="public void setClient(String arg0)">1</method>
+			<method name="public String getClient()">1</method>
+			<method name="public void setMachine(String arg0)">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setAdapter(String arg0)">1</method>
+			<method name="public String getMachine()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getAdapter()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.Message</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setSummary(String arg0)">1</method>
+			<method name="public void setRefersTo(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getHelpLink()">1</method>
+			<method name="public void setSeverity(com.avalara.avatax.services.SeverityLevel arg0)">1</method>
+			<method name="public String getSummary()">1</method>
+			<method name="public String getRefersTo()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public com.avalara.avatax.services.SeverityLevel getSeverity()">1</method>
+			<method name="public String getDetails()">1</method>
+			<method name="public void setDetails(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHelpLink(String arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.GetTaxHistoryResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.GetTaxHistoryResult getGetTaxHistoryResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTaxHistoryResult(com.avalara.avatax.services.GetTaxHistoryResult arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxAddress</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3706896551724138</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public void setLatitude(String arg0)">1</method>
+			<method name="public String getLatitude()">1</method>
+			<method name="public void setGeocodeType(String arg0)">1</method>
+			<method name="public void setValidateStatus(String arg0)">1</method>
+			<method name="public String getValidateStatus()">1</method>
+			<method name="public void setDistanceToBoundary(Integer arg0)">1</method>
+			<method name="public String getRegion()">1</method>
+			<method name="public String getLongitude()">1</method>
+			<method name="public Integer getDistanceToBoundary()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public int getBoundaryLevel()">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public void setLongitude(String arg0)">1</method>
+			<method name="public void setTaxRegionId(int arg0)">1</method>
+			<method name="public int getTaxRegionId()">1</method>
+			<method name="public void setBoundaryLevel(int arg0)">1</method>
+			<method name="public void setRegion(String arg0)">1</method>
+			<method name="public String getAddressCode()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public void setJurisCode(String arg0)">1</method>
+			<method name="public void setAddressCode(String arg0)">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public String getJurisCode()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public String getGeocodeType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAddress()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ArrayOfBaseAddress</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getBaseAddress()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ArrayOfMessage</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getMessage()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.CommitTax</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.CommitTaxRequest getCommitTaxRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCommitTaxRequest(com.avalara.avatax.services.CommitTaxRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.PingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.PingResult getPingResult()">1</method>
+			<method name="public void setPingResult(com.avalara.avatax.services.PingResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ApplyPaymentRequest</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getCompanyCode()">1</method>
+			<method name="public com.avalara.avatax.services.DocumentType getDocType()">1</method>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setDocType(com.avalara.avatax.services.DocumentType arg0)">1</method>
+			<method name="public void setCompanyCode(String arg0)">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void setPaymentDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setDocCode(String arg0)">1</method>
+			<method name="public String getDocCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getPaymentDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxSummaryFetch</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.TaxSummaryFetchRequest getTaxSummaryFetchRequest()">1</method>
+			<method name="public void setTaxSummaryFetchRequest(com.avalara.avatax.services.TaxSummaryFetchRequest arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.AuditMessage</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>2</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.5</amc>
+		<cc>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ApplyPayment</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setApplyPaymentRequest(com.avalara.avatax.services.ApplyPaymentRequest arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.avalara.avatax.services.ApplyPaymentRequest getApplyPaymentRequest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxSummaryFetchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setTaxSummaryFetchResult(com.avalara.avatax.services.TaxSummaryFetchResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.avalara.avatax.services.TaxSummaryFetchResult getTaxSummaryFetchResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.909090909090909</lcom3>
+		<loc>168</loc>
+		<dam>0.18181818181818182</dam>
+		<moa>10</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>25.166666666666668</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.TaxType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.avalara.avatax.services.TaxType fromValue(String arg0)">3</method>
+			<method name="public static com.avalara.avatax.services.TaxType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.DetailLevel</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.DetailLevel valueOf(String arg0)">1</method>
+			<method name="public static com.avalara.avatax.services.DetailLevel[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.avalara.avatax.services.DetailLevel fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.IsAuthorized</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getOperations()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setOperations(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.GetTaxHistory</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.GetTaxHistoryRequest getGetTaxHistoryRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTaxHistoryRequest(com.avalara.avatax.services.GetTaxHistoryRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ObjectFactory</name>
+		<wmc>65</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>61</cbo>
+		<rfc>129</rfc>
+		<lcom>2076</lcom>
+		<ca>0</ca>
+		<ce>61</ce>
+		<npm>64</npm>
+		<lcom3>0.984375</lcom3>
+		<loc>343</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34375</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.246153846153846</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.AdjustTaxResult createAdjustTaxResult()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfGetTaxResult createArrayOfGetTaxResult()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuditMessage(com.avalara.avatax.services.AuditMessage arg0)">1</method>
+			<method name="public com.avalara.avatax.services.CommitTaxResult createCommitTaxResult()">1</method>
+			<method name="public com.avalara.avatax.services.TaxDetail createTaxDetail()">1</method>
+			<method name="public com.avalara.avatax.services.IsAuthorizedResult createIsAuthorizedResult()">1</method>
+			<method name="public com.avalara.avatax.services.CancelTax createCancelTax()">1</method>
+			<method name="public com.avalara.avatax.services.PostTaxRequest createPostTaxRequest()">1</method>
+			<method name="public com.avalara.avatax.services.Ping createPing()">1</method>
+			<method name="public com.avalara.avatax.services.CancelTaxResult createCancelTaxResult()">1</method>
+			<method name="public com.avalara.avatax.services.CommitTaxResponse createCommitTaxResponse()">1</method>
+			<method name="public com.avalara.avatax.services.PingResult createPingResult()">1</method>
+			<method name="public com.avalara.avatax.services.ReconcileTaxHistory createReconcileTaxHistory()">1</method>
+			<method name="public com.avalara.avatax.services.ApplyPaymentRequest createApplyPaymentRequest()">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxHistoryResponse createGetTaxHistoryResponse()">1</method>
+			<method name="public com.avalara.avatax.services.IsAuthorized createIsAuthorized()">1</method>
+			<method name="public com.avalara.avatax.services.TaxAddress createTaxAddress()">1</method>
+			<method name="public com.avalara.avatax.services.TaxLine createTaxLine()">1</method>
+			<method name="public com.avalara.avatax.services.Profile createProfile()">1</method>
+			<method name="public com.avalara.avatax.services.TaxSummaryFetchResult$TaxSummaryReport createTaxSummaryFetchResultTaxSummaryReport()">1</method>
+			<method name="public com.avalara.avatax.services.PingResponse createPingResponse()">1</method>
+			<method name="public com.avalara.avatax.services.SearchTaxHistoryResult createSearchTaxHistoryResult()">1</method>
+			<method name="public com.avalara.avatax.services.Message createMessage()">1</method>
+			<method name="public com.avalara.avatax.services.ApplyPayment createApplyPayment()">1</method>
+			<method name="public com.avalara.avatax.services.BaseResult createBaseResult()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfTaxLine createArrayOfTaxLine()">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxHistoryRequest createGetTaxHistoryRequest()">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxHistoryResult createGetTaxHistoryResult()">1</method>
+			<method name="public com.avalara.avatax.services.ReconcileTaxHistoryResult createReconcileTaxHistoryResult()">1</method>
+			<method name="public com.avalara.avatax.services.TaxSummaryFetchResult createTaxSummaryFetchResult()">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxHistory createGetTaxHistory()">1</method>
+			<method name="public com.avalara.avatax.services.GetTax createGetTax()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.avalara.avatax.services.Line createLine()">1</method>
+			<method name="public com.avalara.avatax.services.ReconcileTaxHistoryResponse createReconcileTaxHistoryResponse()">1</method>
+			<method name="public com.avalara.avatax.services.TaxSummaryFetchRequest createTaxSummaryFetchRequest()">1</method>
+			<method name="public com.avalara.avatax.services.AdjustTaxResponse createAdjustTaxResponse()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfBaseAddress createArrayOfBaseAddress()">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxResult createGetTaxResult()">1</method>
+			<method name="public com.avalara.avatax.services.CommitTax createCommitTax()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfMessage createArrayOfMessage()">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxRequest createGetTaxRequest()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfTaxAddress createArrayOfTaxAddress()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfLine createArrayOfLine()">1</method>
+			<method name="public com.avalara.avatax.services.CancelTaxRequest createCancelTaxRequest()">1</method>
+			<method name="public com.avalara.avatax.services.TaxSummaryFetch createTaxSummaryFetch()">1</method>
+			<method name="public com.avalara.avatax.services.BaseAddress createBaseAddress()">1</method>
+			<method name="public com.avalara.avatax.services.ApplyPaymentResult createApplyPaymentResult()">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxResponse createGetTaxResponse()">1</method>
+			<method name="public com.avalara.avatax.services.AdjustTax createAdjustTax()">1</method>
+			<method name="public com.avalara.avatax.services.ReconcileTaxHistoryRequest createReconcileTaxHistoryRequest()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfTaxDetail createArrayOfTaxDetail()">1</method>
+			<method name="public com.avalara.avatax.services.CancelTaxResponse createCancelTaxResponse()">1</method>
+			<method name="public com.avalara.avatax.services.AuditMessage createAuditMessage()">1</method>
+			<method name="public com.avalara.avatax.services.CommitTaxRequest createCommitTaxRequest()">1</method>
+			<method name="public com.avalara.avatax.services.AdjustTaxRequest createAdjustTaxRequest()">1</method>
+			<method name="public com.avalara.avatax.services.PostTax createPostTax()">1</method>
+			<method name="public com.avalara.avatax.services.PostTaxResult createPostTaxResult()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProfile(com.avalara.avatax.services.Profile arg0)">1</method>
+			<method name="public com.avalara.avatax.services.PostTaxResponse createPostTaxResponse()">1</method>
+			<method name="public com.avalara.avatax.services.ApplyPaymentResponse createApplyPaymentResponse()">1</method>
+			<method name="public com.avalara.avatax.services.TaxSummaryFetchResponse createTaxSummaryFetchResponse()">1</method>
+			<method name="public com.avalara.avatax.services.TaxOverride createTaxOverride()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.avalara.avatax.services.IsAuthorizedResponse createIsAuthorizedResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.TaxSvcSoap</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>21</cbo>
+		<rfc>11</rfc>
+		<lcom>55</lcom>
+		<ca>1</ca>
+		<ce>20</ce>
+		<npm>11</npm>
+		<lcom3>2.0</lcom3>
+		<loc>11</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.18181818181818182</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.avalara.avatax.services.CancelTaxResult cancelTax(com.avalara.avatax.services.CancelTaxRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.ApplyPaymentResult applyPayment(com.avalara.avatax.services.ApplyPaymentRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.PostTaxResult postTax(com.avalara.avatax.services.PostTaxRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.TaxSummaryFetchResult taxSummaryFetch(com.avalara.avatax.services.TaxSummaryFetchRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.CommitTaxResult commitTax(com.avalara.avatax.services.CommitTaxRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.ReconcileTaxHistoryResult reconcileTaxHistory(com.avalara.avatax.services.ReconcileTaxHistoryRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.GetTaxResult getTax(com.avalara.avatax.services.GetTaxRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.GetTaxHistoryResult getTaxHistory(com.avalara.avatax.services.GetTaxHistoryRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.PingResult ping(String)">1</method>
+			<method name="public abstract com.avalara.avatax.services.AdjustTaxResult adjustTax(com.avalara.avatax.services.AdjustTaxRequest)">1</method>
+			<method name="public abstract com.avalara.avatax.services.IsAuthorizedResult isAuthorized(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.SeverityLevel</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.avalara.avatax.services.SeverityLevel[] values()">1</method>
+			<method name="public static com.avalara.avatax.services.SeverityLevel valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.avalara.avatax.services.SeverityLevel fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.GetTaxHistoryRequest</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getCompanyCode()">1</method>
+			<method name="public com.avalara.avatax.services.DocumentType getDocType()">1</method>
+			<method name="public String getDocId()">1</method>
+			<method name="public void setDocType(com.avalara.avatax.services.DocumentType arg0)">1</method>
+			<method name="public com.avalara.avatax.services.DetailLevel getDetailLevel()">1</method>
+			<method name="public void setCompanyCode(String arg0)">1</method>
+			<method name="public void setDocId(String arg0)">1</method>
+			<method name="public void setDetailLevel(com.avalara.avatax.services.DetailLevel arg0)">1</method>
+			<method name="public void setDocCode(String arg0)">1</method>
+			<method name="public String getDocCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.GetTaxResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTaxResult(com.avalara.avatax.services.GetTaxResult arg0)">1</method>
+			<method name="public com.avalara.avatax.services.GetTaxResult getGetTaxResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.GetTaxRequest</name>
+		<wmc>57</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>58</rfc>
+		<lcom>1540</lcom>
+		<ca>5</ca>
+		<ce>6</ce>
+		<npm>57</npm>
+		<lcom3>0.9821428571428571</lcom3>
+		<loc>284</loc>
+		<dam>1.0</dam>
+		<moa>6</moa>
+		<mfa>0.0</mfa>
+		<cam>0.12426900584795321</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.491228070175439</amc>
+		<cc>
+			<method name="public com.avalara.avatax.services.DocumentType getDocType()">1</method>
+			<method name="public String getOriginCode()">1</method>
+			<method name="public void setServiceMode(com.avalara.avatax.services.ServiceMode arg0)">1</method>
+			<method name="public void setCompanyCode(String arg0)">1</method>
+			<method name="public void setDetailLevel(com.avalara.avatax.services.DetailLevel arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDocDate()">1</method>
+			<method name="public void setExemptionNo(String arg0)">1</method>
+			<method name="public void setDestinationCode(String arg0)">1</method>
+			<method name="public String getBusinessIdentificationNo()">1</method>
+			<method name="public int getHashCode()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getPaymentDate()">1</method>
+			<method name="public void setCommit(boolean arg0)">1</method>
+			<method name="public void setHashCode(int arg0)">1</method>
+			<method name="public void setDocType(com.avalara.avatax.services.DocumentType arg0)">1</method>
+			<method name="public void setPurchaseOrderNo(String arg0)">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfLine getLines()">1</method>
+			<method name="public String getCustomerUsageType()">1</method>
+			<method name="public com.avalara.avatax.services.ArrayOfBaseAddress getAddresses()">1</method>
+			<method name="public com.avalara.avatax.services.DetailLevel getDetailLevel()">1</method>
+			<method name="public void setDocDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setAddresses(com.avalara.avatax.services.ArrayOfBaseAddress arg0)">1</method>
+			<method name="public String getLocationCode()">1</method>
+			<method name="public void setBatchCode(String arg0)">1</method>
+			<method name="public String getCurrencyCode()">1</method>
+			<method name="public void setDocCode(String arg0)">1</method>
+			<method name="public com.avalara.avatax.services.TaxOverride getTaxOverride()">1</method>
+			<method name="public String getDocCode()">1</method>
+			<method name="public String getPurchaseOrderNo()">1</method>
+			<method name="public void setExchangeRateEffDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setOriginCode(String arg0)">1</method>
+			<method name="public boolean isCommit()">1</method>
+			<method name="public void setLocationCode(String arg0)">1</method>
+			<method name="public void setSalespersonCode(String arg0)">1</method>
+			<method name="public void setCurrencyCode(String arg0)">1</method>
+			<method name="public String getPosLaneCode()">1</method>
+			<method name="public String getCustomerCode()">1</method>
+			<method name="public java.math.BigDecimal getDiscount()">1</method>
+			<method name="public void setTaxOverride(com.avalara.avatax.services.TaxOverride arg0)">1</method>
+			<method name="public void setPosLaneCode(String arg0)">1</method>
+			<method name="public void setCustomerUsageType(String arg0)">1</method>
+			<method name="public String getReferenceCode()">1</method>
+			<method name="public com.avalara.avatax.services.ServiceMode getServiceMode()">1</method>
+			<method name="public String getCompanyCode()">1</method>
+			<method name="public String getSalespersonCode()">1</method>
+			<method name="public void setReferenceCode(String arg0)">1</method>
+			<method name="public void setLines(com.avalara.avatax.services.ArrayOfLine arg0)">1</method>
+			<method name="public String getBatchCode()">1</method>
+			<method name="public void setPaymentDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getDestinationCode()">1</method>
+			<method name="public void setExchangeRate(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setBusinessIdentificationNo(String arg0)">1</method>
+			<method name="public void setDiscount(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setCustomerCode(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getExchangeRate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getExemptionNo()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getExchangeRateEffDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ReconcileTaxHistoryResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReconcileTaxHistoryResult(com.avalara.avatax.services.ReconcileTaxHistoryResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.avalara.avatax.services.ReconcileTaxHistoryResult getReconcileTaxHistoryResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.PostTax</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPostTaxRequest(com.avalara.avatax.services.PostTaxRequest arg0)">1</method>
+			<method name="public com.avalara.avatax.services.PostTaxRequest getPostTaxRequest()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.avalara.avatax.services.ArrayOfTaxAddress</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getTaxAddress()">2</method>
+		</cc>
+	</class>

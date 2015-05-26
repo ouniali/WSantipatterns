@@ -1,0 +1,184 @@
+	<class>
+		<name>ofac_us.OFACSearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setOFACSearchResult(ofac_us.OfacResultsS arg0)">1</method>
+			<method name="public ofac_us.OfacResultsS getOFACSearchResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ofac_us.ObjectFactory</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>13</lcom>
+		<ca>0</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.8</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.0</amc>
+		<cc>
+			<method name="static void _clinit_()">0</method>
+			<method name="public ofac_us.OFACSearch createOFACSearch()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public ofac_us.OFACSearchResponse createOFACSearchResponse()">1</method>
+			<method name="public ofac_us.OfacResultsS createOfacResultsS()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOfacResultsS(ofac_us.OfacResultsS arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ofac_us.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>ofac_us.OFACSearch</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49382716049382713</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public void setNameWord5F(String arg0)">1</method>
+			<method name="public void setAddNumF(String arg0)">1</method>
+			<method name="public String getNameWord4F()">1</method>
+			<method name="public String getAddZipF()">1</method>
+			<method name="public String getNameWord2F()">1</method>
+			<method name="public void setNameWord3F(String arg0)">1</method>
+			<method name="public void setNameWord2F(String arg0)">1</method>
+			<method name="public String getAddCountryF()">1</method>
+			<method name="public String getAddCityF()">1</method>
+			<method name="public String getAddStProvF()">1</method>
+			<method name="public void setAddStProvF(String arg0)">1</method>
+			<method name="public int getOfacIdF()">1</method>
+			<method name="public void setOfacIdF(int arg0)">1</method>
+			<method name="public String getSearchCommentsF()">1</method>
+			<method name="public String getNameWord3F()">1</method>
+			<method name="public String getNameWord5F()">1</method>
+			<method name="public String getNameWord1F()">1</method>
+			<method name="public void setAddZipF(String arg0)">1</method>
+			<method name="public void setAddStreetF(String arg0)">1</method>
+			<method name="public void setAddCountryF(String arg0)">1</method>
+			<method name="public void setNameWord4F(String arg0)">1</method>
+			<method name="public void setSearchCommentsF(String arg0)">1</method>
+			<method name="public void setNameWord1F(String arg0)">1</method>
+			<method name="public String getAddStreetF()">1</method>
+			<method name="public void setAddCityF(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAddNumF()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ofac_us.OfacSearchSoap</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract ofac_us.OfacResultsS ofacSearch(int, String, String, String, String, String, String, String, String, String, String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ofac_us.OfacResultsS</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public int getPossibleMatches()">1</method>
+			<method name="public int getSearchKey()">1</method>
+			<method name="public void setOfacId(int arg0)">1</method>
+			<method name="public void setSearchKey(int arg0)">1</method>
+			<method name="public int getOfacId()">1</method>
+			<method name="public void setPossibleMatches(int arg0)">1</method>
+			<method name="public String getSearchDate()">1</method>
+			<method name="public void setSearchDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

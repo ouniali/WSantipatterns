@@ -1,0 +1,316 @@
+	<class>
+		<name>com.unisys.webservices.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.WeatherForecast</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setCurrentTemp(String arg0)">1</method>
+			<method name="public void setDayForecast(com.unisys.webservices.ArrayOfDailyForecast arg0)">1</method>
+			<method name="public void setSunrise(String arg0)">1</method>
+			<method name="public String getZipCode()">1</method>
+			<method name="public com.unisys.webservices.ArrayOfDailyForecast getDayForecast()">1</method>
+			<method name="public String getCityShortName()">1</method>
+			<method name="public void setTime(String arg0)">1</method>
+			<method name="public String getSunset()">1</method>
+			<method name="public void setCityShortName(String arg0)">1</method>
+			<method name="public void setSunset(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setZipCode(String arg0)">1</method>
+			<method name="public String getTime()">1</method>
+			<method name="public String getSunrise()">1</method>
+			<method name="public String getCurrentTemp()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.GetWeather</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getZipCode()">1</method>
+			<method name="public void setZipCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.GetWeatherText</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getZipCode()">1</method>
+			<method name="public void setZipCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.GetWeatherResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetWeatherResult(com.unisys.webservices.WeatherForecast arg0)">1</method>
+			<method name="public com.unisys.webservices.WeatherForecast getGetWeatherResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.WeatherServicesSoap</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>2</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract String getWeatherText(String)">1</method>
+			<method name="public abstract com.unisys.webservices.WeatherForecast getWeather(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.GetWeatherTextResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetWeatherTextResult(String arg0)">1</method>
+			<method name="public String getGetWeatherTextResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.ArrayOfDailyForecast</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDailyForecast()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.DailyForecast</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setForecast(String arg0)">1</method>
+			<method name="public String getLowTemp()">1</method>
+			<method name="public void setLowTemp(String arg0)">1</method>
+			<method name="public void setHighTemp(String arg0)">1</method>
+			<method name="public String getForecast()">1</method>
+			<method name="public String getDay()">1</method>
+			<method name="public void setDay(String arg0)">1</method>
+			<method name="public void setAbbrev(String arg0)">1</method>
+			<method name="public String getHighTemp()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAbbrev()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.WeatherServices</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.unisys.webservices.WeatherServicesSoap getWeatherServicesSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.unisys.webservices.WeatherServicesSoap getWeatherServicesSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.unisys.webservices.ObjectFactory</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>21</rfc>
+		<lcom>51</lcom>
+		<ca>0</ca>
+		<ce>7</ce>
+		<npm>10</npm>
+		<lcom3>0.9</lcom3>
+		<loc>73</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.454545454545454</amc>
+		<cc>
+			<method name="public com.unisys.webservices.GetWeather createGetWeather()">1</method>
+			<method name="public com.unisys.webservices.GetWeatherText createGetWeatherText()">1</method>
+			<method name="public com.unisys.webservices.GetWeatherTextResponse createGetWeatherTextResponse()">1</method>
+			<method name="public com.unisys.webservices.ArrayOfDailyForecast createArrayOfDailyForecast()">1</method>
+			<method name="public com.unisys.webservices.GetWeatherResponse createGetWeatherResponse()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createWeatherForecast(com.unisys.webservices.WeatherForecast arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createString(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.unisys.webservices.WeatherForecast createWeatherForecast()">1</method>
+			<method name="public com.unisys.webservices.DailyForecast createDailyForecast()">1</method>
+		</cc>
+	</class>

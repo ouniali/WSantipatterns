@@ -1,0 +1,426 @@
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.ObjectFactory</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>34</rfc>
+		<lcom>192</lcom>
+		<ca>0</ca>
+		<ce>10</ce>
+		<npm>20</npm>
+		<lcom3>0.95</lcom3>
+		<loc>200</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.095238095238095</amc>
+		<cc>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.SelectItem createSelectItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQueryPmid(uk.ac.ebi.webservices.whatizit.ws.QueryPmid arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.QueryPmid createQueryPmid()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchResponse(uk.ac.ebi.webservices.whatizit.ws.SearchResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.QueryPmidResponse createQueryPmidResponse()">1</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.SearchResponse createSearchResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createContact(uk.ac.ebi.webservices.whatizit.ws.Contact arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQueryPmidResponse(uk.ac.ebi.webservices.whatizit.ws.QueryPmidResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.Search createSearch()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearch(uk.ac.ebi.webservices.whatizit.ws.Search arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createContactResponse(uk.ac.ebi.webservices.whatizit.ws.ContactResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.GetPipelinesStatusResponse createGetPipelinesStatusResponse()">1</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.WhatizitException createWhatizitException()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPipelinesStatus(uk.ac.ebi.webservices.whatizit.ws.GetPipelinesStatus arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createWhatizitException(uk.ac.ebi.webservices.whatizit.ws.WhatizitException arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.ContactResponse createContactResponse()">1</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.GetPipelinesStatus createGetPipelinesStatus()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.Contact createContact()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPipelinesStatusResponse(uk.ac.ebi.webservices.whatizit.ws.GetPipelinesStatusResponse arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.Whatizit_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public transient uk.ac.ebi.webservices.whatizit.ws.Whatizit getPipeline(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.Whatizit getPipeline()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.GetPipelinesStatusResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.GetPipelinesStatus</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.QueryPmid</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getPmid()">1</method>
+			<method name="public String getPipelineName()">1</method>
+			<method name="public void setPipelineName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPmid(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.WhatizitException_Exception</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, uk.ac.ebi.webservices.whatizit.ws.WhatizitException arg1)">0</method>
+			<method name="public void _init_(String arg0, uk.ac.ebi.webservices.whatizit.ws.WhatizitException arg1, Throwable arg2)">0</method>
+			<method name="public uk.ac.ebi.webservices.whatizit.ws.WhatizitException getFaultInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.WhatizitException</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.SelectItem</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public boolean isDisabled()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setLabel(String arg0)">1</method>
+			<method name="public String getLabel()">1</method>
+			<method name="public void setDisabled(boolean arg0)">1</method>
+			<method name="public Object getValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setValue(Object arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.Whatizit</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>4</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract String queryPmid(String, String)">1</method>
+			<method name="public abstract String contact(String, String, boolean)">1</method>
+			<method name="public abstract uk.ac.ebi.webservices.whatizit.ws.SearchResponse search(uk.ac.ebi.webservices.whatizit.ws.Search)">1</method>
+			<method name="public abstract java.util.List getPipelinesStatus()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.ContactResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.SearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.Contact</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getText()">1</method>
+			<method name="public void setText(String arg0)">1</method>
+			<method name="public boolean isConvertToHtml()">1</method>
+			<method name="public String getPipelineName()">1</method>
+			<method name="public void setPipelineName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setConvertToHtml(boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.QueryPmidResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.whatizit.ws.Search</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public int getLimit()">1</method>
+			<method name="public void setLimit(int arg0)">1</method>
+			<method name="public String getPipelineName()">1</method>
+			<method name="public void setPipelineName(String arg0)">1</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+		</cc>
+	</class>

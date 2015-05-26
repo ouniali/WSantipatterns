@@ -1,0 +1,2073 @@
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2RecherchePointRelaisResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setWSI2RecherchePointRelaisResult(fr.mondialrelay.webservice.RetWSI2RecherchePointRelais arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2RecherchePointRelais getWSI2RecherchePointRelaisResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2CreationExpeditionResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.RetWSI2CreationExpedition getWSI2CreationExpeditionResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWSI2CreationExpeditionResult(fr.mondialrelay.webservice.RetWSI2CreationExpedition arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2STATLabelResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setWSI2STATLabelResult(String arg0)">1</method>
+			<method name="public String getWSI2STATLabelResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2RechercheCP</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.ArrayOfCommune getListe()">1</method>
+			<method name="public void setListe(fr.mondialrelay.webservice.ArrayOfCommune arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2RecherchePointRelais</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public void setTaille(String arg0)">1</method>
+			<method name="public String getAction()">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public String getPoids()">1</method>
+			<method name="public void setAction(String arg0)">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setPoids(String arg0)">1</method>
+			<method name="public String getTaille()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2STATLabelsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.ArrayOfArrayOfString getWSI2STATLabelsResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWSI2STATLabelsResult(fr.mondialrelay.webservice.ArrayOfArrayOfString arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2CreationEtiquette</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setExpeditionNum(String arg0)">1</method>
+			<method name="public void setURLEtiquette(String arg0)">1</method>
+			<method name="public String getURLEtiquette()">1</method>
+			<method name="public String getExpeditionNum()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.Periode</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setDebut(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDebut()">1</method>
+			<method name="public void setFin(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getFin()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ArrayOfArrayOfString</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getArrayOfString()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.Commune</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getVille()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2GetEtiquettesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.RetWSI2GetEtiquettes getWSI2GetEtiquettesResult()">1</method>
+			<method name="public void setWSI2GetEtiquettesResult(fr.mondialrelay.webservice.RetWSI2GetEtiquettes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2RecherchePointRelaisHoraires</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public void setTaille(String arg0)">1</method>
+			<method name="public String getAction()">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public String getPoids()">1</method>
+			<method name="public void setAction(String arg0)">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setPoids(String arg0)">1</method>
+			<method name="public String getTaille()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ArrayOfString</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getString()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI3PointRelaisRecherche</name>
+		<wmc>31</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7419354838709677</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public void setLatitude(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getLatitude()">1</method>
+			<method name="public void setTypeActivite(String arg0)">1</method>
+			<method name="public void setTaille(String arg0)">1</method>
+			<method name="public String getRayonRecherche()">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public String getPoids()">1</method>
+			<method name="public void setAction(String arg0)">1</method>
+			<method name="public String getDelaiEnvoi()">1</method>
+			<method name="public String getLongitude()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setLongitude(String arg0)">1</method>
+			<method name="public String getTaille()">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void setNumPointRelais(String arg0)">1</method>
+			<method name="public String getNumPointRelais()">1</method>
+			<method name="public String getAction()">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public String getTypeActivite()">1</method>
+			<method name="public void setDelaiEnvoi(String arg0)">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setPoids(String arg0)">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public String getNACE()">1</method>
+			<method name="public void setRayonRecherche(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNACE(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ArrayOfRetWSI2SubPointRelaisAvancee</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRetWSI2SubPointRelaisAvancee()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2AdressePointRelaisResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.RetWSI2AdressePointRelais getWSI2AdressePointRelaisResult()">1</method>
+			<method name="public void setWSI2AdressePointRelaisResult(fr.mondialrelay.webservice.RetWSI2AdressePointRelais arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2DetailPointRelais</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getSecurity()">1</method>
+			<method name="public String getNum()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setNum(String arg0)">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2TracingColisDetailleResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.RetWSI2TracingColisDetaille getWSI2TracingColisDetailleResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWSI2TracingColisDetailleResult(fr.mondialrelay.webservice.RetWSI2TracingColisDetaille arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ArrayOfPeriode</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPeriode()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ArrayOfRetWSI2SubPointRelaisHoraires</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getRetWSI2SubPointRelaisHoraires()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2SubPointRelaisHoraires</name>
+		<wmc>31</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>7</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4946236559139785</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesDimanche()">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public void setHorairesDimanche(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesVendredi()">1</method>
+			<method name="public void setHorairesJeudi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesJeudi()">1</method>
+			<method name="public void setHorairesLundi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void setHorairesMercredi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setHorairesSamedi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesMardi()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesSamedi()">1</method>
+			<method name="public void setNum(String arg0)">1</method>
+			<method name="public void setHorairesVendredi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setHorairesMardi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public String getNum()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setLgAdr2(String arg0)">1</method>
+			<method name="public String getLgAdr4()">1</method>
+			<method name="public void setLgAdr1(String arg0)">1</method>
+			<method name="public String getLgAdr3()">1</method>
+			<method name="public String getLgAdr2()">1</method>
+			<method name="public String getLgAdr1()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public void setLgAdr3(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesMercredi()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLgAdr4(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesLundi()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2STATLabels</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getLangue()">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLangue(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2RecherchePointRelais</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>10</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7380952380952381</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setPR05(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public void setPR01(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public void setPR10(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public void setPR08(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public void setPR02(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public void setPR04(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR01()">1</method>
+			<method name="public void setPR03(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public void setPR07(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR05()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR04()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR10()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR03()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR02()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR09()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR08()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR07()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais getPR06()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPR09(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+			<method name="public void setPR06(fr.mondialrelay.webservice.RetWSI2SubPointRelais arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2RechercheCP</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getNbResult()">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public void setNbResult(String arg0)">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2RecherchePointRelaisAvanceeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisAvancee getWSI2RecherchePointRelaisAvanceeResult()">1</method>
+			<method name="public void setWSI2RecherchePointRelaisAvanceeResult(fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisAvancee arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2SubTracingColisDetaille</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public void setHeure(String arg0)">1</method>
+			<method name="public String getRelaisNum()">1</method>
+			<method name="public void setRelaisPays(String arg0)">1</method>
+			<method name="public void setLibelle(String arg0)">1</method>
+			<method name="public String getLibelle()">1</method>
+			<method name="public String getEmplacement()">1</method>
+			<method name="public String getHeure()">1</method>
+			<method name="public void setEmplacement(String arg0)">1</method>
+			<method name="public void setRelaisNum(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRelaisPays()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2RecherchePointRelaisHorairesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisHoraires getWSI2RecherchePointRelaisHorairesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWSI2RecherchePointRelaisHorairesResult(fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisHoraires arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2DetailPointRelais</name>
+		<wmc>41</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>42</rfc>
+		<lcom>780</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>41</npm>
+		<lcom3>0.975</lcom3>
+		<loc>204</loc>
+		<dam>1.0</dam>
+		<moa>7</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4959349593495935</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4878048780487805</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesDimanche()">1</method>
+			<method name="public void setURLPhoto(String arg0)">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public void setHorairesDimanche(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public String getInformation()">1</method>
+			<method name="public String getURLPhoto()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesVendredi()">1</method>
+			<method name="public void setHorairesJeudi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesJeudi()">1</method>
+			<method name="public String getLocalisation2()">1</method>
+			<method name="public void setHorairesLundi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public String getLocalisation1()">1</method>
+			<method name="public void setHorairesMercredi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setURLPlan(String arg0)">1</method>
+			<method name="public void setHorairesSamedi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesMardi()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesSamedi()">1</method>
+			<method name="public void setNum(String arg0)">1</method>
+			<method name="public void setHorairesVendredi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setHorairesMardi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public String getNum()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setLgAdr2(String arg0)">1</method>
+			<method name="public String getLgAdr4()">1</method>
+			<method name="public String getURLPlan()">1</method>
+			<method name="public void setLgAdr1(String arg0)">1</method>
+			<method name="public String getLgAdr3()">1</method>
+			<method name="public String getLgAdr2()">1</method>
+			<method name="public void setLocalisation2(String arg0)">1</method>
+			<method name="public void setInformation(String arg0)">1</method>
+			<method name="public String getLgAdr1()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public void setLgAdr3(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesMercredi()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLocalisation1(String arg0)">1</method>
+			<method name="public void setLgAdr4(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesLundi()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.Ret</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>11</noc>
+		<cbo>12</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>12</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSTAT(String arg0)">1</method>
+			<method name="public String getSTAT()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2AdressePointRelais</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getSecurity()">1</method>
+			<method name="public String getNum()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setNum(String arg0)">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ObjectFactory</name>
+		<wmc>54</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>53</cbo>
+		<rfc>108</rfc>
+		<lcom>1431</lcom>
+		<ca>0</ca>
+		<ce>53</ce>
+		<npm>54</npm>
+		<lcom3>2.0</lcom3>
+		<loc>269</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9814814814814814</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.WSI2STATLabel createWSI2STATLabel()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2RecherchePointRelaisAvancee createWSI2RecherchePointRelaisAvancee()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfRetWSI2SubTracingColisDetaille createArrayOfRetWSI2SubTracingColisDetaille()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelaisHoraires createRetWSI2SubPointRelaisHoraires()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2RecherchePointRelaisHoraires createWSI2RecherchePointRelaisHoraires()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfArrayOfString createArrayOfArrayOfString()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2TracingColisDetaille createWSI2TracingColisDetaille()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2RechercheCP createWSI2RechercheCP()">1</method>
+			<method name="public fr.mondialrelay.webservice.Ret createRet()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2STATLabelsResponse createWSI2STATLabelsResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2TracingColisDetailleResponse createWSI2TracingColisDetailleResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2STATLabels createWSI2STATLabels()">1</method>
+			<method name="public fr.mondialrelay.webservice.Commune createCommune()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelaisAvancee createRetWSI2SubPointRelaisAvancee()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2RecherchePointRelaisAvanceeResponse createWSI2RecherchePointRelaisAvanceeResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubPointRelais createRetWSI2SubPointRelais()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2TracingColisDetaille createRetWSI2TracingColisDetaille()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfRetWSI2SubPointRelaisAvancee createArrayOfRetWSI2SubPointRelaisAvancee()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfCommune createArrayOfCommune()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2DetailPointRelais createRetWSI2DetailPointRelais()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfPeriode createArrayOfPeriode()">1</method>
+			<method name="public fr.mondialrelay.webservice.PointRelaisDetails createPointRelaisDetails()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI3PointRelaisRecherche createWSI3PointRelaisRecherche()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2CreationExpeditionResponse createWSI2CreationExpeditionResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI3PointRelaisRechercheResponse createWSI3PointRelaisRechercheResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2GetEtiquettesResponse createWSI2GetEtiquettesResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2CreationEtiquette createWSI2CreationEtiquette()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisAvancee createRetWSI2RecherchePointRelaisAvancee()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString createArrayOfString()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2RecherchePointRelais createRetWSI2RecherchePointRelais()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2RechercheCPResponse createWSI2RechercheCPResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2AdressePointRelais createWSI2AdressePointRelais()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2STATLabelResponse createWSI2STATLabelResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2CreationExpedition createWSI2CreationExpedition()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfPointRelaisDetails createArrayOfPointRelaisDetails()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisHoraires createRetWSI2RecherchePointRelaisHoraires()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2RecherchePointRelaisResponse createWSI2RecherchePointRelaisResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2SubTracingColisDetaille createRetWSI2SubTracingColisDetaille()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2GetEtiquettes createWSI2GetEtiquettes()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2CreationExpedition createRetWSI2CreationExpedition()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2AdressePointRelais createRetWSI2AdressePointRelais()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2DetailPointRelais createWSI2DetailPointRelais()">1</method>
+			<method name="public fr.mondialrelay.webservice.Periode createPeriode()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2AdressePointRelaisResponse createWSI2AdressePointRelaisResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2RecherchePointRelais createWSI2RecherchePointRelais()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2CreationEtiquette createRetWSI2CreationEtiquette()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2GetEtiquettes createRetWSI2GetEtiquettes()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2CreationEtiquetteResponse createWSI2CreationEtiquetteResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2DetailPointRelaisResponse createWSI2DetailPointRelaisResponse()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfRetWSI2SubPointRelaisHoraires createArrayOfRetWSI2SubPointRelaisHoraires()">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI3PointRelaisRecherche createRetWSI3PointRelaisRecherche()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2RechercheCP createRetWSI2RechercheCP()">1</method>
+			<method name="public fr.mondialrelay.webservice.WSI2RecherchePointRelaisHorairesResponse createWSI2RecherchePointRelaisHorairesResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2SubPointRelaisAvancee</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7407407407407407</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public void setLatitude(String arg0)">1</method>
+			<method name="public String getLatitude()">1</method>
+			<method name="public void setTypeActivite(String arg0)">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public String getDistance()">1</method>
+			<method name="public String getLongitude()">1</method>
+			<method name="public void setLongitude(String arg0)">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void setDistance(String arg0)">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public void setNum(String arg0)">1</method>
+			<method name="public String getTypeActivite()">1</method>
+			<method name="public String getNum()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setLgAdr2(String arg0)">1</method>
+			<method name="public String getLgAdr4()">1</method>
+			<method name="public void setLgAdr1(String arg0)">1</method>
+			<method name="public String getLgAdr3()">1</method>
+			<method name="public String getLgAdr2()">1</method>
+			<method name="public String getLgAdr1()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public String getNACE()">1</method>
+			<method name="public void setLgAdr3(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLgAdr4(String arg0)">1</method>
+			<method name="public void setNACE(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2TracingColisDetaille</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setLibelle01(String arg0)">1</method>
+			<method name="public String getRelaisLibelle()">1</method>
+			<method name="public void setRelaisLibelle(String arg0)">1</method>
+			<method name="public void setLibelle02(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfRetWSI2SubTracingColisDetaille getTracing()">1</method>
+			<method name="public String getRelaisNum()">1</method>
+			<method name="public void setRelaisNum(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getLibelle01()">1</method>
+			<method name="public String getLibelle02()">1</method>
+			<method name="public void setTracing(fr.mondialrelay.webservice.ArrayOfRetWSI2SubTracingColisDetaille arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2DetailPointRelaisResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setWSI2DetailPointRelaisResult(fr.mondialrelay.webservice.RetWSI2DetailPointRelais arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2DetailPointRelais getWSI2DetailPointRelaisResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2GetEtiquettes</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getLangue()">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public void setExpeditions(String arg0)">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getExpeditions()">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLangue(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI3PointRelaisRechercheResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.RetWSI3PointRelaisRecherche getWSI3PointRelaisRechercheResult()">1</method>
+			<method name="public void setWSI3PointRelaisRechercheResult(fr.mondialrelay.webservice.RetWSI3PointRelaisRecherche arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisHoraires</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfRetWSI2SubPointRelaisHoraires getListePR()">1</method>
+			<method name="public void setListePR(fr.mondialrelay.webservice.ArrayOfRetWSI2SubPointRelaisHoraires arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2TracingColisDetaille</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getExpedition()">1</method>
+			<method name="public void setExpedition(String arg0)">1</method>
+			<method name="public String getLangue()">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLangue(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2CreationExpedition</name>
+		<wmc>93</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>94</rfc>
+		<lcom>4186</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>93</npm>
+		<lcom3>0.9891304347826086</lcom3>
+		<loc>464</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7473118279569892</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4946236559139785</amc>
+		<cc>
+			<method name="public String getNDossier()">1</method>
+			<method name="public void setLIVRel(String arg0)">1</method>
+			<method name="public String getExpeTel2()">1</method>
+			<method name="public void setExpePays(String arg0)">1</method>
+			<method name="public String getDestTel2()">1</method>
+			<method name="public void setMontage(String arg0)">1</method>
+			<method name="public void setCRTDevise(String arg0)">1</method>
+			<method name="public void setDestLangage(String arg0)">1</method>
+			<method name="public String getTAvisage()">1</method>
+			<method name="public String getPoids()">1</method>
+			<method name="public String getExpeCP()">1</method>
+			<method name="public String getNbColis()">1</method>
+			<method name="public void setDestVille(String arg0)">1</method>
+			<method name="public void setDestAd2(String arg0)">1</method>
+			<method name="public String getTRDV()">1</method>
+			<method name="public void setLongueur(String arg0)">1</method>
+			<method name="public void setExpeTel1(String arg0)">1</method>
+			<method name="public String getTaille()">1</method>
+			<method name="public String getExpValeur()">1</method>
+			<method name="public String getInstructions()">1</method>
+			<method name="public void setDestTel2(String arg0)">1</method>
+			<method name="public void setDestMail(String arg0)">1</method>
+			<method name="public void setInstructions(String arg0)">1</method>
+			<method name="public String getLIVRel()">1</method>
+			<method name="public void setDestAd4(String arg0)">1</method>
+			<method name="public String getDestVille()">1</method>
+			<method name="public String getExpeAd4()">1</method>
+			<method name="public String getExpeAd2()">1</method>
+			<method name="public String getDestLangage()">1</method>
+			<method name="public void setCRTValeur(String arg0)">1</method>
+			<method name="public String getExpeVille()">1</method>
+			<method name="public String getDestMail()">1</method>
+			<method name="public String getCOLRelPays()">1</method>
+			<method name="public String getExpeMail()">1</method>
+			<method name="public String getDestAd3()">1</method>
+			<method name="public String getDestAd1()">1</method>
+			<method name="public void setLIVRelPays(String arg0)">1</method>
+			<method name="public void setDestPays(String arg0)">1</method>
+			<method name="public void setPoids(String arg0)">1</method>
+			<method name="public void setExpeLangage(String arg0)">1</method>
+			<method name="public String getModeCol()">1</method>
+			<method name="public void setExpeCP(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getExpeTel1()">1</method>
+			<method name="public void setTaille(String arg0)">1</method>
+			<method name="public String getDestTel1()">1</method>
+			<method name="public String getMontage()">1</method>
+			<method name="public String getNClient()">1</method>
+			<method name="public void setExpValeur(String arg0)">1</method>
+			<method name="public void setTRDV(String arg0)">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setExpeTel2(String arg0)">1</method>
+			<method name="public String getTReprise()">1</method>
+			<method name="public String getAssurance()">1</method>
+			<method name="public void setExpeMail(String arg0)">1</method>
+			<method name="public void setDestAd1(String arg0)">1</method>
+			<method name="public void setDestTel1(String arg0)">1</method>
+			<method name="public String getDestCP()">1</method>
+			<method name="public void setNClient(String arg0)">1</method>
+			<method name="public String getLongueur()">1</method>
+			<method name="public void setModeCol(String arg0)">1</method>
+			<method name="public void setDestAd3(String arg0)">1</method>
+			<method name="public void setExpeVille(String arg0)">1</method>
+			<method name="public void setDestCP(String arg0)">1</method>
+			<method name="public void setNbColis(String arg0)">1</method>
+			<method name="public String getModeLiv()">1</method>
+			<method name="public String getExpDevise()">1</method>
+			<method name="public void setTReprise(String arg0)">1</method>
+			<method name="public String getExpeAd1()">1</method>
+			<method name="public String getExpePays()">1</method>
+			<method name="public String getCRTValeur()">1</method>
+			<method name="public String getExpeAd3()">1</method>
+			<method name="public void setCOLRel(String arg0)">1</method>
+			<method name="public void setExpDevise(String arg0)">1</method>
+			<method name="public void setAssurance(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public String getDestAd4()">1</method>
+			<method name="public String getDestAd2()">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public void setModeLiv(String arg0)">1</method>
+			<method name="public void setExpeAd1(String arg0)">1</method>
+			<method name="public void setExpeAd2(String arg0)">1</method>
+			<method name="public void setExpeAd3(String arg0)">1</method>
+			<method name="public String getDestPays()">1</method>
+			<method name="public String getCOLRel()">1</method>
+			<method name="public String getCRTDevise()">1</method>
+			<method name="public void setExpeAd4(String arg0)">1</method>
+			<method name="public void setCOLRelPays(String arg0)">1</method>
+			<method name="public String getLIVRelPays()">1</method>
+			<method name="public void setNDossier(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getExpeLangage()">1</method>
+			<method name="public void setTAvisage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ArrayOfPointRelaisDetails</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPointRelaisDetails()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisAvancee</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.ArrayOfRetWSI2SubPointRelaisAvancee getListePR()">1</method>
+			<method name="public void setListePR(fr.mondialrelay.webservice.ArrayOfRetWSI2SubPointRelaisAvancee arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WebServices</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public fr.mondialrelay.webservice.WebServicesSoap getWebServicesSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient fr.mondialrelay.webservice.WebServicesSoap getWebServicesSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ArrayOfRetWSI2SubTracingColisDetaille</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRetWSI2SubTracingColisDetaille()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2RechercheCPResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.mondialrelay.webservice.RetWSI2RechercheCP getWSI2RechercheCPResult()">1</method>
+			<method name="public void setWSI2RechercheCPResult(fr.mondialrelay.webservice.RetWSI2RechercheCP arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2GetEtiquettes</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getURLPDFA5()">1</method>
+			<method name="public String getURLPDFA4()">1</method>
+			<method name="public void setURLPDFA4(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setURLPDFA5(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2CreationExpedition</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49019607843137253</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getTRIAgence()">1</method>
+			<method name="public String getTRINavette()">1</method>
+			<method name="public String getExpeditionNum()">1</method>
+			<method name="public String getTRILivraisonMode()">1</method>
+			<method name="public void setTRILivraisonMode(String arg0)">1</method>
+			<method name="public void setTRITourneeCode(String arg0)">1</method>
+			<method name="public void setExpeditionNum(String arg0)">1</method>
+			<method name="public String getTRIAgenceCode()">1</method>
+			<method name="public void setTRIGroupe(String arg0)">1</method>
+			<method name="public String getTRIGroupe()">1</method>
+			<method name="public void setTRIAgence(String arg0)">1</method>
+			<method name="public void setTRINavette(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTRIAgenceCode(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getCodesBarres()">1</method>
+			<method name="public String getTRITourneeCode()">1</method>
+			<method name="public void setCodesBarres(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2CreationEtiquetteResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setWSI2CreationEtiquetteResult(fr.mondialrelay.webservice.RetWSI2CreationEtiquette arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.RetWSI2CreationEtiquette getWSI2CreationEtiquetteResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2AdressePointRelais</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setLgAdr2(String arg0)">1</method>
+			<method name="public String getLgAdr4()">1</method>
+			<method name="public void setLgAdr1(String arg0)">1</method>
+			<method name="public String getLgAdr3()">1</method>
+			<method name="public String getLgAdr2()">1</method>
+			<method name="public String getLgAdr1()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public void setLgAdr3(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLgAdr4(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2STATLabel</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getLangue()">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getSTATID()">1</method>
+			<method name="public void setSTATID(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLangue(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI2SubPointRelais</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public void setNum(String arg0)">1</method>
+			<method name="public String getNum()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setLgAdr2(String arg0)">1</method>
+			<method name="public String getLgAdr4()">1</method>
+			<method name="public void setLgAdr1(String arg0)">1</method>
+			<method name="public String getLgAdr3()">1</method>
+			<method name="public String getLgAdr2()">1</method>
+			<method name="public String getLgAdr1()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setLgAdr3(String arg0)">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLgAdr4(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WebServicesSoap</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>13</cbo>
+		<rfc>13</rfc>
+		<lcom>78</lcom>
+		<ca>1</ca>
+		<ce>12</ce>
+		<npm>13</npm>
+		<lcom3>2.0</lcom3>
+		<loc>13</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI3PointRelaisRecherche wsi3PointRelaisRecherche(String, String, String, String, String, String, String, String, String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisHoraires wsi2RecherchePointRelaisHoraires(String, String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract String wsi2STATLabel(String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2GetEtiquettes wsi2GetEtiquettes(String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2AdressePointRelais wsi2AdressePointRelais(String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2RecherchePointRelaisAvancee wsi2RecherchePointRelaisAvancee(String, String, String, String, String, String, String, String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2TracingColisDetaille wsi2TracingColisDetaille(String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.ArrayOfArrayOfString wsi2STATLabels(String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2RecherchePointRelais wsi2RecherchePointRelais(String, String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2CreationExpedition wsi2CreationExpedition(String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2RechercheCP wsi2RechercheCP(String, String, String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2CreationEtiquette wsi2CreationEtiquette(String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String)">1</method>
+			<method name="public abstract fr.mondialrelay.webservice.RetWSI2DetailPointRelais wsi2DetailPointRelais(String, String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.ArrayOfCommune</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCommune()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2RecherchePointRelaisAvancee</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7413793103448276</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public void setLatitude(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getLatitude()">1</method>
+			<method name="public void setTypeActivite(String arg0)">1</method>
+			<method name="public void setTaille(String arg0)">1</method>
+			<method name="public String getRayonRecherche()">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public String getPoids()">1</method>
+			<method name="public void setAction(String arg0)">1</method>
+			<method name="public String getDelaiEnvoi()">1</method>
+			<method name="public String getLongitude()">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setLongitude(String arg0)">1</method>
+			<method name="public String getTaille()">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public String getAction()">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public String getTypeActivite()">1</method>
+			<method name="public void setDelaiEnvoi(String arg0)">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setPoids(String arg0)">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public String getNACE()">1</method>
+			<method name="public void setRayonRecherche(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNACE(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.PointRelaisDetails</name>
+		<wmc>55</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>56</rfc>
+		<lcom>1431</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>55</npm>
+		<lcom3>0.9814814814814815</lcom3>
+		<loc>274</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37272727272727274</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4909090909090907</amc>
+		<cc>
+			<method name="public void setTypeActivite(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesDimanche()">1</method>
+			<method name="public void setURLPhoto(String arg0)">1</method>
+			<method name="public String getURLPhoto()">1</method>
+			<method name="public String getDistance()">1</method>
+			<method name="public String getLongitude()">1</method>
+			<method name="public void setHorairesJeudi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public String getPays()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesJeudi()">1</method>
+			<method name="public String getLocalisation2()">1</method>
+			<method name="public void setURLPlan(String arg0)">1</method>
+			<method name="public void setDistance(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesMardi()">1</method>
+			<method name="public void setHorairesVendredi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public String getNum()">1</method>
+			<method name="public String getURLPlan()">1</method>
+			<method name="public String getLgAdr3()">1</method>
+			<method name="public String getLgAdr1()">1</method>
+			<method name="public String getCP()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesMercredi()">1</method>
+			<method name="public void setNACE(String arg0)">1</method>
+			<method name="public void setSTAT(String arg0)">1</method>
+			<method name="public void setLatitude(String arg0)">1</method>
+			<method name="public String getLatitude()">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfPeriode getInformationsDispo()">1</method>
+			<method name="public void setVille(String arg0)">1</method>
+			<method name="public String getInformation()">1</method>
+			<method name="public void setHorairesDimanche(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesVendredi()">1</method>
+			<method name="public String getSTAT()">1</method>
+			<method name="public void setLongitude(String arg0)">1</method>
+			<method name="public void setHorairesLundi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setPays(String arg0)">1</method>
+			<method name="public String getLocalisation1()">1</method>
+			<method name="public void setHorairesMercredi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setHorairesSamedi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public void setCP(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesSamedi()">1</method>
+			<method name="public void setInformationsDispo(fr.mondialrelay.webservice.ArrayOfPeriode arg0)">1</method>
+			<method name="public void setNum(String arg0)">1</method>
+			<method name="public String getTypeActivite()">1</method>
+			<method name="public void setHorairesMardi(fr.mondialrelay.webservice.ArrayOfString arg0)">1</method>
+			<method name="public String getVille()">1</method>
+			<method name="public void setLgAdr2(String arg0)">1</method>
+			<method name="public String getLgAdr4()">1</method>
+			<method name="public void setLgAdr1(String arg0)">1</method>
+			<method name="public String getLgAdr2()">1</method>
+			<method name="public void setLocalisation2(String arg0)">1</method>
+			<method name="public void setInformation(String arg0)">1</method>
+			<method name="public String getNACE()">1</method>
+			<method name="public void setLgAdr3(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLocalisation1(String arg0)">1</method>
+			<method name="public void setLgAdr4(String arg0)">1</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfString getHorairesLundi()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.WSI2CreationEtiquette</name>
+		<wmc>95</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>96</rfc>
+		<lcom>4371</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>95</npm>
+		<lcom3>0.9893617021276596</lcom3>
+		<loc>474</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7473684210526316</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4947368421052634</amc>
+		<cc>
+			<method name="public String getNDossier()">1</method>
+			<method name="public void setLIVRel(String arg0)">1</method>
+			<method name="public String getExpeTel2()">1</method>
+			<method name="public void setExpePays(String arg0)">1</method>
+			<method name="public String getDestTel2()">1</method>
+			<method name="public void setMontage(String arg0)">1</method>
+			<method name="public void setCRTDevise(String arg0)">1</method>
+			<method name="public void setDestLangage(String arg0)">1</method>
+			<method name="public String getTAvisage()">1</method>
+			<method name="public String getPoids()">1</method>
+			<method name="public String getExpeCP()">1</method>
+			<method name="public String getNbColis()">1</method>
+			<method name="public void setTexte(String arg0)">1</method>
+			<method name="public void setDestVille(String arg0)">1</method>
+			<method name="public void setDestAd2(String arg0)">1</method>
+			<method name="public String getTRDV()">1</method>
+			<method name="public void setLongueur(String arg0)">1</method>
+			<method name="public void setExpeTel1(String arg0)">1</method>
+			<method name="public String getTaille()">1</method>
+			<method name="public String getExpValeur()">1</method>
+			<method name="public String getInstructions()">1</method>
+			<method name="public void setDestTel2(String arg0)">1</method>
+			<method name="public void setDestMail(String arg0)">1</method>
+			<method name="public void setInstructions(String arg0)">1</method>
+			<method name="public String getLIVRel()">1</method>
+			<method name="public void setDestAd4(String arg0)">1</method>
+			<method name="public String getDestVille()">1</method>
+			<method name="public String getExpeAd4()">1</method>
+			<method name="public String getExpeAd2()">1</method>
+			<method name="public String getDestLangage()">1</method>
+			<method name="public void setCRTValeur(String arg0)">1</method>
+			<method name="public String getExpeVille()">1</method>
+			<method name="public String getDestMail()">1</method>
+			<method name="public String getCOLRelPays()">1</method>
+			<method name="public String getExpeMail()">1</method>
+			<method name="public String getDestAd3()">1</method>
+			<method name="public String getDestAd1()">1</method>
+			<method name="public void setLIVRelPays(String arg0)">1</method>
+			<method name="public void setDestPays(String arg0)">1</method>
+			<method name="public void setPoids(String arg0)">1</method>
+			<method name="public void setExpeLangage(String arg0)">1</method>
+			<method name="public String getModeCol()">1</method>
+			<method name="public void setExpeCP(String arg0)">1</method>
+			<method name="public void setEnseigne(String arg0)">1</method>
+			<method name="public String getExpeTel1()">1</method>
+			<method name="public void setTaille(String arg0)">1</method>
+			<method name="public String getDestTel1()">1</method>
+			<method name="public String getMontage()">1</method>
+			<method name="public String getNClient()">1</method>
+			<method name="public void setExpValeur(String arg0)">1</method>
+			<method name="public void setTRDV(String arg0)">1</method>
+			<method name="public void setSecurity(String arg0)">1</method>
+			<method name="public void setExpeTel2(String arg0)">1</method>
+			<method name="public String getTReprise()">1</method>
+			<method name="public String getAssurance()">1</method>
+			<method name="public void setExpeMail(String arg0)">1</method>
+			<method name="public void setDestAd1(String arg0)">1</method>
+			<method name="public void setDestTel1(String arg0)">1</method>
+			<method name="public String getDestCP()">1</method>
+			<method name="public void setNClient(String arg0)">1</method>
+			<method name="public String getLongueur()">1</method>
+			<method name="public void setModeCol(String arg0)">1</method>
+			<method name="public void setDestAd3(String arg0)">1</method>
+			<method name="public void setExpeVille(String arg0)">1</method>
+			<method name="public void setDestCP(String arg0)">1</method>
+			<method name="public void setNbColis(String arg0)">1</method>
+			<method name="public String getModeLiv()">1</method>
+			<method name="public String getExpDevise()">1</method>
+			<method name="public void setTReprise(String arg0)">1</method>
+			<method name="public String getExpeAd1()">1</method>
+			<method name="public String getExpePays()">1</method>
+			<method name="public String getCRTValeur()">1</method>
+			<method name="public String getExpeAd3()">1</method>
+			<method name="public void setCOLRel(String arg0)">1</method>
+			<method name="public void setExpDevise(String arg0)">1</method>
+			<method name="public void setAssurance(String arg0)">1</method>
+			<method name="public String getTexte()">1</method>
+			<method name="public String getEnseigne()">1</method>
+			<method name="public String getDestAd4()">1</method>
+			<method name="public String getDestAd2()">1</method>
+			<method name="public String getSecurity()">1</method>
+			<method name="public void setModeLiv(String arg0)">1</method>
+			<method name="public void setExpeAd1(String arg0)">1</method>
+			<method name="public void setExpeAd2(String arg0)">1</method>
+			<method name="public void setExpeAd3(String arg0)">1</method>
+			<method name="public String getDestPays()">1</method>
+			<method name="public String getCOLRel()">1</method>
+			<method name="public String getCRTDevise()">1</method>
+			<method name="public void setExpeAd4(String arg0)">1</method>
+			<method name="public void setCOLRelPays(String arg0)">1</method>
+			<method name="public String getLIVRelPays()">1</method>
+			<method name="public void setNDossier(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getExpeLangage()">1</method>
+			<method name="public void setTAvisage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.mondialrelay.webservice.RetWSI3PointRelaisRecherche</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPointsRelais(fr.mondialrelay.webservice.ArrayOfPointRelaisDetails arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.mondialrelay.webservice.ArrayOfPointRelaisDetails getPointsRelais()">1</method>
+		</cc>
+	</class>

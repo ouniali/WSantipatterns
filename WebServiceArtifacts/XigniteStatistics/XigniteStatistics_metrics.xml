@@ -1,0 +1,2357 @@
+	<class>
+		<name>com.xignite.services.GetChartBinary</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartUrlPreset</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setPreset(String arg0)">1</method>
+			<method name="public String getPreset()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicChartCustomResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.TopicChart getGetTopicChartCustomResult()">1</method>
+			<method name="public void setGetTopicChartCustomResult(com.xignite.services.TopicChart arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetAnnualizedTopicData</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.TopicDetail</name>
+		<wmc>25</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49333333333333335</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public void setLastUpdated(String arg0)">1</method>
+			<method name="public String getRelease()">1</method>
+			<method name="public String getFrequency()">1</method>
+			<method name="public void setAdjustment(String arg0)">1</method>
+			<method name="public boolean isDiscontinued()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public String getUnits()">1</method>
+			<method name="public void setNotes(String arg0)">1</method>
+			<method name="public void setUnits(String arg0)">1</method>
+			<method name="public String getNotes()">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getEndDate()">1</method>
+			<method name="public void setRelease(String arg0)">1</method>
+			<method name="public void setFrequency(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public void setDiscontinued(boolean arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public String getAdjustment()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getLastUpdated()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfCategory</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCategory()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicChartResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.TopicChart getGetTopicChartResult()">1</method>
+			<method name="public void setGetTopicChartResult(com.xignite.services.TopicChart arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Chart</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHelp(String arg0)">1</method>
+			<method name="public String getHelp()">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartDesign</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLatestTopicData</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Header</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setTracer(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+			<method name="public String getTracer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.TopicStatistics</name>
+		<wmc>29</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4942528735632184</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public double getMean()">1</method>
+			<method name="public void setStdDevOfRollingStdDev(double arg0)">1</method>
+			<method name="public void setMean(double arg0)">1</method>
+			<method name="public void setMeanOfRollingStdDev(double arg0)">1</method>
+			<method name="public String getFrequency()">1</method>
+			<method name="public void setStdDev(double arg0)">1</method>
+			<method name="public void setGrowthLow(double arg0)">1</method>
+			<method name="public void setStdDevOfRollingMean(double arg0)">1</method>
+			<method name="public String getUnits()">1</method>
+			<method name="public double getMeanOfRollingStdDev()">1</method>
+			<method name="public double getMeanOfRollingMean()">1</method>
+			<method name="public void setUnits(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getEndDate()">1</method>
+			<method name="public double getGrowthHigh()">1</method>
+			<method name="public double getGrowthLow()">1</method>
+			<method name="public void setMeanOfRollingMean(double arg0)">1</method>
+			<method name="public void setFrequency(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public double getStdDevOfRollingStdDev()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public double getStdDevOfRollingMean()">1</method>
+			<method name="public void setGrowthHigh(double arg0)">1</method>
+			<method name="public double getStdDev()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.HorzAlign</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.xignite.services.HorzAlign valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.HorzAlign fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.HorzAlign[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PredefinedLightModel</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.909090909090909</lcom3>
+		<loc>168</loc>
+		<dam>0.18181818181818182</dam>
+		<moa>10</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>25.166666666666668</amc>
+		<cc>
+			<method name="public static com.xignite.services.PredefinedLightModel fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.PredefinedLightModel valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.PredefinedLightModel[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicBinaryChartResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.TopicChartBinary getGetTopicBinaryChartResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTopicBinaryChartResult(com.xignite.services.TopicChartBinary arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SeriesData</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public double getChange()">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void setChange(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPercentChange(double arg0)">1</method>
+			<method name="public double getPercentChange()">1</method>
+			<method name="public double getValue()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicDetails</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.TopicChart</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>5</ca>
+		<ce>2</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49019607843137253</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getImageurl()">1</method>
+			<method name="public void setFrequency(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getFrequency()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void setImageurl(String arg0)">1</method>
+			<method name="public String getUnits()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public void setUnits(String arg0)">1</method>
+			<method name="public void setDataCollection(com.xignite.services.ArrayOfSeriesData arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSeriesData getDataCollection()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicBinaryChartCustom</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setDesign(com.xignite.services.ChartDesign arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public com.xignite.services.ChartDesign getDesign()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicStatisticsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTopicStatisticsResult(com.xignite.services.TopicStatistics arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.TopicStatistics getGetTopicStatisticsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfTopic</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getTopic()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ChartDesign</name>
+		<wmc>219</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>14</cbo>
+		<rfc>220</rfc>
+		<lcom>23653</lcom>
+		<ca>7</ca>
+		<ce>7</ce>
+		<npm>219</npm>
+		<lcom3>0.9954128440366973</lcom3>
+		<loc>1094</loc>
+		<dam>1.0</dam>
+		<moa>7</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1248097412480974</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.497716894977169</amc>
+		<cc>
+			<method name="public boolean isShowOpen()">1</method>
+			<method name="public String getFontFamily()">1</method>
+			<method name="public String getWaterMark()">1</method>
+			<method name="public int getGridHorizontalWidth()">1</method>
+			<method name="public void setColorStickUp(String arg0)">1</method>
+			<method name="public void setColorFrame(String arg0)">1</method>
+			<method name="public void setHeight(double arg0)">1</method>
+			<method name="public void setFormatDate(String arg0)">1</method>
+			<method name="public void setColorHighLowLine(String arg0)">1</method>
+			<method name="public String getColorStickUp()">1</method>
+			<method name="public com.xignite.services.HorzAlign getWaterMarkHorizontalAlign()">1</method>
+			<method name="public void setColorLow(String arg0)">1</method>
+			<method name="public String getColorFrame()">1</method>
+			<method name="public void setColorVerticalGrid(String arg0)">1</method>
+			<method name="public void setColorHigh(String arg0)">1</method>
+			<method name="public String getColorTitle()">1</method>
+			<method name="public void setPointSize(float arg0)">1</method>
+			<method name="public void setColorLegendBorder(String arg0)">1</method>
+			<method name="public String getColorPriceLine()">1</method>
+			<method name="public void setWidth(double arg0)">1</method>
+			<method name="public boolean isGradeBackwall()">1</method>
+			<method name="public void setLineWidth(int arg0)">1</method>
+			<method name="public void setColorStripe(String arg0)">1</method>
+			<method name="public String getColorStickLow()">1</method>
+			<method name="public String getColorGrid()">1</method>
+			<method name="public boolean isShowVolumeBackWall()">1</method>
+			<method name="public int getFontSizeHeader()">1</method>
+			<method name="public String getColorBackWall()">1</method>
+			<method name="public String getColorVolumeBackWall()">1</method>
+			<method name="public void setVolumeTextOffset(int arg0)">1</method>
+			<method name="public void setPriceTextOffset(int arg0)">1</method>
+			<method name="public void setTextHeader(String arg0)">1</method>
+			<method name="public void setShowDownVariation(boolean arg0)">1</method>
+			<method name="public int getFontSizeAxes()">1</method>
+			<method name="public String getColorBackground()">1</method>
+			<method name="public String getColorVolumeBar()">1</method>
+			<method name="public void setDaysForQuarterDisplay(int arg0)">1</method>
+			<method name="public void setFormatPriceLine(String arg0)">1</method>
+			<method name="public int getDaysForHourDisplay()">1</method>
+			<method name="public String getColorDown()">1</method>
+			<method name="public void setLegendVerticalPosition(int arg0)">1</method>
+			<method name="public String getTextPriceLine()">1</method>
+			<method name="public boolean isShowVolume()">1</method>
+			<method name="public boolean isShowDownVariation()">1</method>
+			<method name="public void setProjection(com.xignite.services.PredefinedProjection arg0)">1</method>
+			<method name="public com.xignite.services.LinePattern getGridHorizontalStyle()">1</method>
+			<method name="public void setWaterMark(String arg0)">1</method>
+			<method name="public void setShowVolume(boolean arg0)">1</method>
+			<method name="public void setColorClose(String arg0)">1</method>
+			<method name="public void setTextLowest(String arg0)">1</method>
+			<method name="public void setShowPriceChartLabels(boolean arg0)">1</method>
+			<method name="public boolean isShowHigh()">1</method>
+			<method name="public String getColorCollection()">1</method>
+			<method name="public String getColorClose()">1</method>
+			<method name="public void setShowLegend(boolean arg0)">1</method>
+			<method name="public void setGradeBackwall(boolean arg0)">1</method>
+			<method name="public String getColorLow()">1</method>
+			<method name="public com.xignite.services.LinePattern getGridVerticalStyle()">1</method>
+			<method name="public void setGridVerticalStyle(com.xignite.services.LinePattern arg0)">1</method>
+			<method name="public String getColorVolumeBarFill()">1</method>
+			<method name="public int getLegendVerticalPosition()">1</method>
+			<method name="public void setDaysForPentaAnnualDisplay(int arg0)">1</method>
+			<method name="public int getWaterMarkTransparency()">1</method>
+			<method name="public int getPriceTextOffset()">1</method>
+			<method name="public void setGridVerticalWidth(int arg0)">1</method>
+			<method name="public boolean isShowClose()">1</method>
+			<method name="public void setTextTitle(String arg0)">1</method>
+			<method name="public String getColorConstant()">1</method>
+			<method name="public int getWaterMarkLeftMargin()">1</method>
+			<method name="public void setMarginBottom(int arg0)">1</method>
+			<method name="public void setShowOpen(boolean arg0)">1</method>
+			<method name="public void setFontSizeLegend(int arg0)">1</method>
+			<method name="public void setFontSizeTitle(int arg0)">1</method>
+			<method name="public int getDaysForPentaAnnualDisplay()">1</method>
+			<method name="public void setTextUp(String arg0)">1</method>
+			<method name="public void setTextFooter(String arg0)">1</method>
+			<method name="public String getFormatPriceLine()">1</method>
+			<method name="public void setColorFooter(String arg0)">1</method>
+			<method name="public void setWaterMarkTopMargin(int arg0)">1</method>
+			<method name="public void setDaysForAnnualDisplay(int arg0)">1</method>
+			<method name="public void setFrameType(com.xignite.services.ImageFrameType arg0)">1</method>
+			<method name="public void setColorBackWall(String arg0)">1</method>
+			<method name="public int getMarginRight()">1</method>
+			<method name="public void setColorHeader(String arg0)">1</method>
+			<method name="public void setWaterMarkLeftMargin(int arg0)">1</method>
+			<method name="public int getMarginBottom()">1</method>
+			<method name="public int getSplitPercent()">1</method>
+			<method name="public int getDaysForBiWeeklyDisplay()">1</method>
+			<method name="public int getDaysForQuarterDisplay()">1</method>
+			<method name="public void setSplitPercent(int arg0)">1</method>
+			<method name="public String getColorHigh()">1</method>
+			<method name="public void setFontSizeHeader(int arg0)">1</method>
+			<method name="public void setReload(boolean arg0)">1</method>
+			<method name="public void setTextVolumeBar(String arg0)">1</method>
+			<method name="public boolean isShowAxisLabelInLegend()">1</method>
+			<method name="public int getTickPeriods()">1</method>
+			<method name="public String getTextClose()">1</method>
+			<method name="public int getLineWidth()">1</method>
+			<method name="public void setVolumeDivider(int arg0)">1</method>
+			<method name="public void setTextPriceLine(String arg0)">1</method>
+			<method name="public void setDaysForMonthDisplay(int arg0)">1</method>
+			<method name="public String getColorLegendBorder()">1</method>
+			<method name="public void setColorFonts(String arg0)">1</method>
+			<method name="public double getHeight()">1</method>
+			<method name="public float getPointSize()">1</method>
+			<method name="public void setStackVariationLabels(boolean arg0)">1</method>
+			<method name="public int getLegendHorizontalPosition()">1</method>
+			<method name="public boolean isShowPriceChartLabels()">1</method>
+			<method name="public com.xignite.services.PredefinedLightModel getLightScheme()">1</method>
+			<method name="public void setColorGrid(String arg0)">1</method>
+			<method name="public String getColorHorizontalGrid()">1</method>
+			<method name="public void setShowLow(boolean arg0)">1</method>
+			<method name="public String getColorVerticalGrid()">1</method>
+			<method name="public void setSecure(boolean arg0)">1</method>
+			<method name="public com.xignite.services.PredefinedProjection getProjection()">1</method>
+			<method name="public String getColorPoint()">1</method>
+			<method name="public void setShowUpVariation(boolean arg0)">1</method>
+			<method name="public void setTextOpen(String arg0)">1</method>
+			<method name="public void setColorTitle(String arg0)">1</method>
+			<method name="public void setDaysForBiAnnualDisplay(int arg0)">1</method>
+			<method name="public String getFrameBorder()">1</method>
+			<method name="public boolean isReload()">1</method>
+			<method name="public int getVolumeDivider()">1</method>
+			<method name="public void setDaysForBiWeeklyDisplay(int arg0)">1</method>
+			<method name="public void setColorAxis(String arg0)">1</method>
+			<method name="public void setColorUp(String arg0)">1</method>
+			<method name="public void setLegendBox(boolean arg0)">1</method>
+			<method name="public void setColorVolumeBar(String arg0)">1</method>
+			<method name="public void setColorStickLow(String arg0)">1</method>
+			<method name="public void setFontFamily(String arg0)">1</method>
+			<method name="public void setColorHorizontalGrid(String arg0)">1</method>
+			<method name="public void setColorOpen(String arg0)">1</method>
+			<method name="public void setVariationYear(int arg0)">1</method>
+			<method name="public boolean isLegendBox()">1</method>
+			<method name="public com.xignite.services.TickPeriod getTickPrecision()">1</method>
+			<method name="public boolean isGradeBackground()">1</method>
+			<method name="public int getMarginLeft()">1</method>
+			<method name="public int getDaysForDayDisplay()">1</method>
+			<method name="public String getColorHighlight()">1</method>
+			<method name="public String getColorFonts()">1</method>
+			<method name="public void setFrameBorder(String arg0)">1</method>
+			<method name="public void setGridHorizontalWidth(int arg0)">1</method>
+			<method name="public boolean isShowLegend()">1</method>
+			<method name="public String getTextOpen()">1</method>
+			<method name="public void setGridHorizontalStyle(com.xignite.services.LinePattern arg0)">1</method>
+			<method name="public String getColorStripe()">1</method>
+			<method name="public com.xignite.services.ImageFrameType getFrameType()">1</method>
+			<method name="public int getGridVerticalWidth()">1</method>
+			<method name="public String getTextFooter()">1</method>
+			<method name="public boolean isShowUpVariation()">1</method>
+			<method name="public void setColorDown(String arg0)">1</method>
+			<method name="public int getMarginTop()">1</method>
+			<method name="public boolean isShowLow()">1</method>
+			<method name="public void setGradeBackground(boolean arg0)">1</method>
+			<method name="public void setColorPoint(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setColorConstant(String arg0)">1</method>
+			<method name="public int getDaysForBiAnnualDisplay()">1</method>
+			<method name="public void setColorCollection(String arg0)">1</method>
+			<method name="public void setTickPeriods(int arg0)">1</method>
+			<method name="public boolean isStackVariationLabels()">1</method>
+			<method name="public void setMarginRight(int arg0)">1</method>
+			<method name="public void setDaysForSemiAnnualDisplay(int arg0)">1</method>
+			<method name="public void setFormatVolume(String arg0)">1</method>
+			<method name="public String getFormatDate()">1</method>
+			<method name="public int getDaysForSemiAnnualDisplay()">1</method>
+			<method name="public String getTextUp()">1</method>
+			<method name="public void setTextClose(String arg0)">1</method>
+			<method name="public void setFontSizeFooter(int arg0)">1</method>
+			<method name="public void setWaterMarkTransparency(int arg0)">1</method>
+			<method name="public String getTextHeader()">1</method>
+			<method name="public boolean isSecure()">1</method>
+			<method name="public String getColorOpen()">1</method>
+			<method name="public void setLightScheme(com.xignite.services.PredefinedLightModel arg0)">1</method>
+			<method name="public String getColorUp()">1</method>
+			<method name="public String getFormatVolume()">1</method>
+			<method name="public String getColorHeader()">1</method>
+			<method name="public void setShowAxisLabelInLegend(boolean arg0)">1</method>
+			<method name="public void setMarginTop(int arg0)">1</method>
+			<method name="public String getTextDown()">1</method>
+			<method name="public void setColorHighlight(String arg0)">1</method>
+			<method name="public void setLegendHorizontalPosition(int arg0)">1</method>
+			<method name="public void setColorPriceLine(String arg0)">1</method>
+			<method name="public void setFontSizeAxes(int arg0)">1</method>
+			<method name="public int getDaysForMonthDisplay()">1</method>
+			<method name="public void setShowClose(boolean arg0)">1</method>
+			<method name="public void setShowVolumeBackWall(boolean arg0)">1</method>
+			<method name="public int getFontSizeTitle()">1</method>
+			<method name="public int getWaterMarkTopMargin()">1</method>
+			<method name="public String getColorLegendBackground()">1</method>
+			<method name="public String getTextTitle()">1</method>
+			<method name="public void setZoomPercent(int arg0)">1</method>
+			<method name="public int getVolumeTextOffset()">1</method>
+			<method name="public void setDaysForHourDisplay(int arg0)">1</method>
+			<method name="public int getDaysForAnnualDisplay()">1</method>
+			<method name="public void setColorVolumeBarFill(String arg0)">1</method>
+			<method name="public void setTickPrecision(com.xignite.services.TickPeriod arg0)">1</method>
+			<method name="public String getTextLowest()">1</method>
+			<method name="public double getWidth()">1</method>
+			<method name="public void setTextHighest(String arg0)">1</method>
+			<method name="public String getTextVolumeBar()">1</method>
+			<method name="public int getFontSizeFooter()">1</method>
+			<method name="public void setColorLegendBackground(String arg0)">1</method>
+			<method name="public int getVariationYear()">1</method>
+			<method name="public String getColorFooter()">1</method>
+			<method name="public void setWaterMarkHorizontalAlign(com.xignite.services.HorzAlign arg0)">1</method>
+			<method name="public void setColorVolumeBackWall(String arg0)">1</method>
+			<method name="public int getZoomPercent()">1</method>
+			<method name="public void setDaysForDayDisplay(int arg0)">1</method>
+			<method name="public String getColorHighLowLine()">1</method>
+			<method name="public void setMarginLeft(int arg0)">1</method>
+			<method name="public int getFontSizeLegend()">1</method>
+			<method name="public String getColorAxis()">1</method>
+			<method name="public void setColorBackground(String arg0)">1</method>
+			<method name="public void setDaysForWeekDisplay(int arg0)">1</method>
+			<method name="public void setTextDown(String arg0)">1</method>
+			<method name="public void setShowHigh(boolean arg0)">1</method>
+			<method name="public String getTextHighest()">1</method>
+			<method name="public int getDaysForWeekDisplay()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ChartBinary</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public byte[] getByteArray()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setByteArray(byte[] arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopics</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCategoryCode(String arg0)">1</method>
+			<method name="public String getCategoryCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartDesignResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetChartDesignResult(com.xignite.services.ChartDesign arg0)">1</method>
+			<method name="public com.xignite.services.ChartDesign getGetChartDesignResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>71</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>58</cbo>
+		<rfc>132</rfc>
+		<lcom>2463</lcom>
+		<ca>0</ca>
+		<ce>58</ce>
+		<npm>70</npm>
+		<lcom3>0.9857142857142858</lcom3>
+		<loc>472</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.09642857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.492957746478873</amc>
+		<cc>
+			<method name="public com.xignite.services.GetChartUrl createGetChartUrl()">1</method>
+			<method name="public com.xignite.services.GetTopicsResponse createGetTopicsResponse()">1</method>
+			<method name="public com.xignite.services.GetChartUrlCustom createGetChartUrlCustom()">1</method>
+			<method name="public com.xignite.services.GetTopicChart createGetTopicChart()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTopicChart(com.xignite.services.TopicChart arg0)">1</method>
+			<method name="public com.xignite.services.GetAnnualizedTopicDataResponse createGetAnnualizedTopicDataResponse()">1</method>
+			<method name="public com.xignite.services.GetTopicBinaryChartCustom createGetTopicBinaryChartCustom()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCategory(com.xignite.services.Category arg0)">1</method>
+			<method name="public com.xignite.services.GetTopicStatisticsResponse createGetTopicStatisticsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTopicData(com.xignite.services.TopicData arg0)">1</method>
+			<method name="public com.xignite.services.GetChartBinaryPresetResponse createGetChartBinaryPresetResponse()">1</method>
+			<method name="public com.xignite.services.TopicChartBinary createTopicChartBinary()">1</method>
+			<method name="public com.xignite.services.ChartDesign createChartDesign()">1</method>
+			<method name="public com.xignite.services.GetChartDesign createGetChartDesign()">1</method>
+			<method name="public com.xignite.services.GetChartBinaryCustomResponse createGetChartBinaryCustomResponse()">1</method>
+			<method name="public com.xignite.services.GetTopicData createGetTopicData()">1</method>
+			<method name="public com.xignite.services.Topic createTopic()">1</method>
+			<method name="public com.xignite.services.GetTopicDataResponse createGetTopicDataResponse()">1</method>
+			<method name="public com.xignite.services.GetCategoriesAndTopics createGetCategoriesAndTopics()">1</method>
+			<method name="public com.xignite.services.GetChartBinaryCustom createGetChartBinaryCustom()">1</method>
+			<method name="public com.xignite.services.Category createCategory()">1</method>
+			<method name="public com.xignite.services.GetTopics createGetTopics()">1</method>
+			<method name="public com.xignite.services.ArrayOfCategory createArrayOfCategory()">1</method>
+			<method name="public com.xignite.services.GetTopicStatistics createGetTopicStatistics()">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.TopicData createTopicData()">1</method>
+			<method name="public com.xignite.services.GetChartUrlPreset createGetChartUrlPreset()">1</method>
+			<method name="public com.xignite.services.GetChartUrlResponse createGetChartUrlResponse()">1</method>
+			<method name="public com.xignite.services.GetChartBinary createGetChartBinary()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfCategory(com.xignite.services.ArrayOfCategory arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChartBinary(com.xignite.services.ChartBinary arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.xignite.services.GetTopicBinaryChart createGetTopicBinaryChart()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTopicStatistics(com.xignite.services.TopicStatistics arg0)">1</method>
+			<method name="public com.xignite.services.GetTopicBinaryChartPresetResponse createGetTopicBinaryChartPresetResponse()">1</method>
+			<method name="public com.xignite.services.GetTopicChartCustomResponse createGetTopicChartCustomResponse()">1</method>
+			<method name="public com.xignite.services.GetChartUrlCustomResponse createGetChartUrlCustomResponse()">1</method>
+			<method name="public com.xignite.services.GetCategoriesResponse createGetCategoriesResponse()">1</method>
+			<method name="public com.xignite.services.GetTopicBinaryChartPreset createGetTopicBinaryChartPreset()">1</method>
+			<method name="public com.xignite.services.GetTopicChartCustom createGetTopicChartCustom()">1</method>
+			<method name="public com.xignite.services.SeriesData createSeriesData()">1</method>
+			<method name="public com.xignite.services.GetLatestTopicDataResponse createGetLatestTopicDataResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTopicChartBinary(com.xignite.services.TopicChartBinary arg0)">1</method>
+			<method name="public com.xignite.services.Header createHeader()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeader(com.xignite.services.Header arg0)">1</method>
+			<method name="public com.xignite.services.GetChartDesignResponse createGetChartDesignResponse()">1</method>
+			<method name="public com.xignite.services.GetChartBinaryPreset createGetChartBinaryPreset()">1</method>
+			<method name="public com.xignite.services.ChartBinary createChartBinary()">1</method>
+			<method name="public com.xignite.services.GetTopicBinaryChartResponse createGetTopicBinaryChartResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfTopic createArrayOfTopic()">1</method>
+			<method name="public com.xignite.services.ArrayOfSeriesData createArrayOfSeriesData()">1</method>
+			<method name="public com.xignite.services.Chart createChart()">1</method>
+			<method name="public com.xignite.services.GetTopicDetails createGetTopicDetails()">1</method>
+			<method name="public com.xignite.services.GetLatestTopicData createGetLatestTopicData()">1</method>
+			<method name="public com.xignite.services.TopicStatistics createTopicStatistics()">1</method>
+			<method name="public com.xignite.services.GetAnnualizedTopicData createGetAnnualizedTopicData()">1</method>
+			<method name="public com.xignite.services.GetTopicDetailsResponse createGetTopicDetailsResponse()">1</method>
+			<method name="public com.xignite.services.GetChartUrlPresetResponse createGetChartUrlPresetResponse()">1</method>
+			<method name="public com.xignite.services.TopicDetail createTopicDetail()">1</method>
+			<method name="public com.xignite.services.GetTopicChartPresetResponse createGetTopicChartPresetResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChartDesign(com.xignite.services.ChartDesign arg0)">1</method>
+			<method name="public com.xignite.services.GetCategoriesAndTopicsResponse createGetCategoriesAndTopicsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTopicDetail(com.xignite.services.TopicDetail arg0)">1</method>
+			<method name="public com.xignite.services.GetChartBinaryResponse createGetChartBinaryResponse()">1</method>
+			<method name="public com.xignite.services.GetCategories createGetCategories()">1</method>
+			<method name="public com.xignite.services.GetTopicChartPreset createGetTopicChartPreset()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.TopicChart createTopicChart()">1</method>
+			<method name="public com.xignite.services.GetTopicChartResponse createGetTopicChartResponse()">1</method>
+			<method name="public com.xignite.services.GetTopicBinaryChartCustomResponse createGetTopicBinaryChartCustomResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChart(com.xignite.services.Chart arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteStatistics</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.xignite.services.XigniteStatisticsSoap getXigniteStatisticsSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public com.xignite.services.XigniteStatisticsSoap getXigniteStatisticsSoap()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteStatisticsSoap</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>21</rfc>
+		<lcom>210</lcom>
+		<ca>1</ca>
+		<ce>10</ce>
+		<npm>21</npm>
+		<lcom3>2.0</lcom3>
+		<loc>21</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6547619047619048</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.TopicData getTopicData(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ChartBinary getChartBinary(String, String, String, int, int)">1</method>
+			<method name="public abstract com.xignite.services.Chart getChartUrl(String, String, String, int, int)">1</method>
+			<method name="public abstract com.xignite.services.TopicData getAnnualizedTopicData(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.TopicChartBinary getTopicBinaryChart(String, String, String, int, int, String)">1</method>
+			<method name="public abstract com.xignite.services.TopicStatistics getTopicStatistics(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ChartBinary getChartBinaryCustom(String, String, String, int, int, com.xignite.services.ChartDesign)">1</method>
+			<method name="public abstract com.xignite.services.TopicData getLatestTopicData(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfCategory getCategoriesAndTopics()">1</method>
+			<method name="public abstract com.xignite.services.TopicChartBinary getTopicBinaryChartCustom(String, String, String, int, int, com.xignite.services.ChartDesign)">1</method>
+			<method name="public abstract com.xignite.services.Chart getChartUrlPreset(String, String, String, int, int, String)">1</method>
+			<method name="public abstract com.xignite.services.ChartDesign getChartDesign()">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfCategory getCategories()">1</method>
+			<method name="public abstract com.xignite.services.Category getTopics(String)">1</method>
+			<method name="public abstract com.xignite.services.TopicChart getTopicChartPreset(String, String, String, int, int, String)">1</method>
+			<method name="public abstract com.xignite.services.Chart getChartUrlCustom(String, String, String, int, int, com.xignite.services.ChartDesign)">1</method>
+			<method name="public abstract com.xignite.services.TopicChartBinary getTopicBinaryChartPreset(String, String, String, int, int, String)">1</method>
+			<method name="public abstract com.xignite.services.TopicChart getTopicChart(String, String, String, int, int)">1</method>
+			<method name="public abstract com.xignite.services.TopicChart getTopicChartCustom(String, String, String, int, int, com.xignite.services.ChartDesign)">1</method>
+			<method name="public abstract com.xignite.services.TopicDetail getTopicDetails(String)">1</method>
+			<method name="public abstract com.xignite.services.ChartBinary getChartBinaryPreset(String, String, String, int, int, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCategoriesAndTopicsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetCategoriesAndTopicsResult(com.xignite.services.ArrayOfCategory arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCategory getGetCategoriesAndTopicsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetAnnualizedTopicDataResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetAnnualizedTopicDataResult(com.xignite.services.TopicData arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.TopicData getGetAnnualizedTopicDataResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.LinePattern</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.LinePattern[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.xignite.services.LinePattern fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.LinePattern valueOf(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.TickPeriod</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9</lcom3>
+		<loc>156</loc>
+		<dam>0.2</dam>
+		<moa>9</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>23.333333333333332</amc>
+		<cc>
+			<method name="public static com.xignite.services.TickPeriod fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.TickPeriod[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.TickPeriod valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>10</noc>
+		<cbo>12</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>11</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartBinaryCustomResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ChartBinary getGetChartBinaryCustomResult()">1</method>
+			<method name="public void setGetChartBinaryCustomResult(com.xignite.services.ChartBinary arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicBinaryChartPreset</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setPreset(String arg0)">1</method>
+			<method name="public String getPreset()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCategoriesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetCategoriesResult(com.xignite.services.ArrayOfCategory arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfCategory getGetCategoriesResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartBinaryPreset</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setPreset(String arg0)">1</method>
+			<method name="public String getPreset()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicDetailsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.TopicDetail getGetTopicDetailsResult()">1</method>
+			<method name="public void setGetTopicDetailsResult(com.xignite.services.TopicDetail arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartBinaryPresetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ChartBinary getGetChartBinaryPresetResult()">1</method>
+			<method name="public void setGetChartBinaryPresetResult(com.xignite.services.ChartBinary arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicStatistics</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicDataResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTopicDataResult(com.xignite.services.TopicData arg0)">1</method>
+			<method name="public com.xignite.services.TopicData getGetTopicDataResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicChartPresetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTopicChartPresetResult(com.xignite.services.TopicChart arg0)">1</method>
+			<method name="public com.xignite.services.TopicChart getGetTopicChartPresetResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartBinaryCustom</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setDesign(com.xignite.services.ChartDesign arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public com.xignite.services.ChartDesign getDesign()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicChart</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCategories</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartBinaryResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetChartBinaryResult(com.xignite.services.ChartBinary arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ChartBinary getGetChartBinaryResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.TopicData</name>
+		<wmc>15</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>5</ca>
+		<ce>2</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setFrequency(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getFrequency()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public String getUnits()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public void setUnits(String arg0)">1</method>
+			<method name="public void setDataCollection(com.xignite.services.ArrayOfSeriesData arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSeriesData getDataCollection()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ImageFrameType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>180</loc>
+		<dam>0.16666666666666666</dam>
+		<moa>11</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>27.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.ImageFrameType fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.ImageFrameType[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.xignite.services.ImageFrameType valueOf(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicBinaryChartCustomResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTopicBinaryChartCustomResult(com.xignite.services.TopicChartBinary arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.TopicChartBinary getGetTopicBinaryChartCustomResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.TopicChartBinary</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>5</ca>
+		<ce>2</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36764705882352944</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setFrequency(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getFrequency()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public byte[] getImage()">1</method>
+			<method name="public String getUnits()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public void setImage(byte[] arg0)">1</method>
+			<method name="public void setUnits(String arg0)">1</method>
+			<method name="public void setDataCollection(com.xignite.services.ArrayOfSeriesData arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSeriesData getDataCollection()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartUrlResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.Chart getGetChartUrlResult()">1</method>
+			<method name="public void setGetChartUrlResult(com.xignite.services.Chart arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Topic</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getUnits()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public void setUnits(String arg0)">1</method>
+			<method name="public void setDiscontinued(boolean arg0)">1</method>
+			<method name="public void setFrequency(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getFrequency()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public boolean isDiscontinued()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartUrlPresetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Chart getGetChartUrlPresetResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetChartUrlPresetResult(com.xignite.services.Chart arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicChartCustom</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setDesign(com.xignite.services.ChartDesign arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public com.xignite.services.ChartDesign getDesign()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSeriesData</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSeriesData()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicBinaryChartPresetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTopicBinaryChartPresetResult(com.xignite.services.TopicChartBinary arg0)">1</method>
+			<method name="public com.xignite.services.TopicChartBinary getGetTopicBinaryChartPresetResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartUrlCustom</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setDesign(com.xignite.services.ChartDesign arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public com.xignite.services.ChartDesign getDesign()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCategoriesAndTopics</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Category getGetTopicsResult()">1</method>
+			<method name="public void setGetTopicsResult(com.xignite.services.Category arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartUrl</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicChartPreset</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setPreset(String arg0)">1</method>
+			<method name="public String getPreset()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicBinaryChart</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public int getChartWidth()">1</method>
+			<method name="public void setChartWidth(int arg0)">1</method>
+			<method name="public void setChartHeight(int arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public int getChartHeight()">1</method>
+			<method name="public void setPreset(String arg0)">1</method>
+			<method name="public String getPreset()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartUrlCustomResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Chart getGetChartUrlCustomResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetChartUrlCustomResult(com.xignite.services.Chart arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLatestTopicDataResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLatestTopicDataResult(com.xignite.services.TopicData arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.TopicData getGetLatestTopicDataResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTopicData</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getTopicCode()">1</method>
+			<method name="public void setTopicCode(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Category</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public void setTopicCollection(com.xignite.services.ArrayOfTopic arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfTopic getTopicCollection()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PredefinedProjection</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9411764705882353</lcom3>
+		<loc>240</loc>
+		<dam>0.11764705882352941</dam>
+		<moa>16</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>36.166666666666664</amc>
+		<cc>
+			<method name="public static com.xignite.services.PredefinedProjection valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.PredefinedProjection[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.PredefinedProjection fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>

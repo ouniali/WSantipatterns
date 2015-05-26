@@ -1,0 +1,2718 @@
+	<class>
+		<name>com.xignite.services.ConvertRealTimeValue</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public double getAmount()">1</method>
+			<method name="public String getFrom()">1</method>
+			<method name="public void setTo(String arg0)">1</method>
+			<method name="public void setFrom(String arg0)">1</method>
+			<method name="public String getTo()">1</method>
+			<method name="public void setAmount(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficialRatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfHistoricalRateBidAsk getGetOfficialRatesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetOfficialRatesResult(com.xignite.services.ArrayOfHistoricalRateBidAsk arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ConvertHistoricalValueResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.RateConversion getConvertHistoricalValueResult()">1</method>
+			<method name="public void setConvertHistoricalValueResult(com.xignite.services.RateConversion arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfTick</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getTick()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.HistoricalRateBidAsk</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setAsk(double arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setBid(double arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public double getBid()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public double getAsk()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficialRates</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Currencies</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfCurrency getCurrencyList()">1</method>
+			<method name="public void setCurrencyList(com.xignite.services.ArrayOfCurrency arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetBestCrossRatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetBestCrossRatesResult(com.xignite.services.ArrayOfRate arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfRate getGetBestCrossRatesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.QuoteCurrencyItem</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getQuoteCurrency()">1</method>
+			<method name="public void setRate(double arg0)">1</method>
+			<method name="public double getRate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuoteCurrency(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLondonHistoricalRatesRange</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ForwardRate</name>
+		<wmc>15</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getBaseCurrency()">1</method>
+			<method name="public com.xignite.services.ArrayOfForwardContract getForwardRates()">1</method>
+			<method name="public void setQuoteType(String arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getQuoteType()">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public void setQuoteCurrency(String arg0)">1</method>
+			<method name="public String getQuoteCurrency()">1</method>
+			<method name="public void setTime(String arg0)">1</method>
+			<method name="public void setBaseCurrency(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setForwardRates(com.xignite.services.ArrayOfForwardContract arg0)">1</method>
+			<method name="public String getTime()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Header</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setTracer(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+			<method name="public String getTracer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalRatesRange</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public void setPeriodType(String arg0)">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public String getFixingTime()">1</method>
+			<method name="public String getPeriodType()">1</method>
+			<method name="public void setFixingTime(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.RateTableLine</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getBaseCurrency()">1</method>
+			<method name="public void setColumns(com.xignite.services.ArrayOfQuoteCurrencyItem arg0)">1</method>
+			<method name="public void setBaseCurrency(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfQuoteCurrencyItem getColumns()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Currency</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setPlural(String arg0)">1</method>
+			<method name="public boolean isActive()">1</method>
+			<method name="public boolean isDigital()">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getPlural()">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCountry getCountries()">1</method>
+			<method name="public void setDigital(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setCountries(com.xignite.services.ArrayOfCountry arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLatestCrossRate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Country</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficialHistoricalRate</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetAllRealTimeRatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetAllRealTimeRatesResult(com.xignite.services.ArrayOfRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfRate getGetAllRealTimeRatesResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfQuoteCurrencyItem</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getQuoteCurrencyItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartBars</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setPeriod(int arg0)">1</method>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public void setPrecision(String arg0)">1</method>
+			<method name="public String getEndTime()">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public int getPeriod()">1</method>
+			<method name="public void setEndTime(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public String getPrecision()">1</method>
+			<method name="public String getStartTime()">1</method>
+			<method name="public void setStartTime(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfHistoricalRateBidAsk</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getHistoricalRateBidAsk()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetForwardRate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficialRate</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.RateTable</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLines(com.xignite.services.ArrayOfRateTableLine arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfRateTableLine getLines()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetBestCrossRates</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetRealTimeRateTable</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Bar</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setHigh(double arg0)">1</method>
+			<method name="public void setAverage(double arg0)">1</method>
+			<method name="public String getEndTime()">1</method>
+			<method name="public void setOpen(double arg0)">1</method>
+			<method name="public void setLow(double arg0)">1</method>
+			<method name="public void setEndTime(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public double getAverage()">1</method>
+			<method name="public double getOpen()">1</method>
+			<method name="public void setClose(double arg0)">1</method>
+			<method name="public double getHigh()">1</method>
+			<method name="public String getStartTime()">1</method>
+			<method name="public double getClose()">1</method>
+			<method name="public void setStartTime(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public double getLow()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLatestCrossRatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLatestCrossRatesResult(com.xignite.services.ArrayOfRate arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfRate getGetLatestCrossRatesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetChartBarsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.CurrencyChartBars getGetChartBarsResult()">1</method>
+			<method name="public void setGetChartBarsResult(com.xignite.services.CurrencyChartBars arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalRatesRanges</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public void setPeriodType(String arg0)">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public String getFixingTime()">1</method>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public String getPeriodType()">1</method>
+			<method name="public void setFixingTime(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficialHistoricalRates</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfBar</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getBar()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfCurrency</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCurrency()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>102</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>84</cbo>
+		<rfc>189</rfc>
+		<lcom>5119</lcom>
+		<ca>0</ca>
+		<ce>84</ce>
+		<npm>101</npm>
+		<lcom3>0.9900990099009901</lcom3>
+		<loc>682</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0681421083284799</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.529411764705882</amc>
+		<cc>
+			<method name="public com.xignite.services.GetBars createGetBars()">1</method>
+			<method name="public com.xignite.services.Currency createCurrency()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfRate(com.xignite.services.ArrayOfRate arg0)">1</method>
+			<method name="public com.xignite.services.GetRealTimeRateTableResponse createGetRealTimeRateTableResponse()">1</method>
+			<method name="public com.xignite.services.GetRealTimeRateResponse createGetRealTimeRateResponse()">1</method>
+			<method name="public com.xignite.services.ListCurrenciesResponse createListCurrenciesResponse()">1</method>
+			<method name="public com.xignite.services.GetForwardRate createGetForwardRate()">1</method>
+			<method name="public com.xignite.services.ArrayOfForwardContract createArrayOfForwardContract()">1</method>
+			<method name="public com.xignite.services.GetTicksResponse createGetTicksResponse()">1</method>
+			<method name="public com.xignite.services.Tick createTick()">1</method>
+			<method name="public com.xignite.services.GetOfficialHistoricalRates createGetOfficialHistoricalRates()">1</method>
+			<method name="public com.xignite.services.ArrayOfRateTableLine createArrayOfRateTableLine()">1</method>
+			<method name="public com.xignite.services.ListActiveCurrencies createListActiveCurrencies()">1</method>
+			<method name="public com.xignite.services.GetBar createGetBar()">1</method>
+			<method name="public com.xignite.services.RateConversion createRateConversion()">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.GetChartBarsResponse createGetChartBarsResponse()">1</method>
+			<method name="public com.xignite.services.GetBarsResponse createGetBarsResponse()">1</method>
+			<method name="public com.xignite.services.GetOfficialRate createGetOfficialRate()">1</method>
+			<method name="public com.xignite.services.QuoteCurrencyItem createQuoteCurrencyItem()">1</method>
+			<method name="public com.xignite.services.GetOfficialRatesResponse createGetOfficialRatesResponse()">1</method>
+			<method name="public com.xignite.services.GetOfficialHistoricalRate createGetOfficialHistoricalRate()">1</method>
+			<method name="public com.xignite.services.GetBarResponse createGetBarResponse()">1</method>
+			<method name="public com.xignite.services.GetHistoricalRatesRange createGetHistoricalRatesRange()">1</method>
+			<method name="public com.xignite.services.GetAllRealTimeRatesResponse createGetAllRealTimeRatesResponse()">1</method>
+			<method name="public com.xignite.services.GetLatestCrossRatesResponse createGetLatestCrossRatesResponse()">1</method>
+			<method name="public com.xignite.services.GetLondonHistoricalRatesRangeResponse createGetLondonHistoricalRatesRangeResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTick(com.xignite.services.Tick arg0)">1</method>
+			<method name="public com.xignite.services.Header createHeader()">1</method>
+			<method name="public com.xignite.services.GetLatestCrossRateResponse createGetLatestCrossRateResponse()">1</method>
+			<method name="public com.xignite.services.GetRealTimeRate createGetRealTimeRate()">1</method>
+			<method name="public com.xignite.services.ChartBar createChartBar()">1</method>
+			<method name="public com.xignite.services.GetHistoricalRate createGetHistoricalRate()">1</method>
+			<method name="public com.xignite.services.GetHistoricalRatesRangeResponse createGetHistoricalRatesRangeResponse()">1</method>
+			<method name="public com.xignite.services.ConvertHistoricalValueResponse createConvertHistoricalValueResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHistoricalRateBidAsk(com.xignite.services.HistoricalRateBidAsk arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfQuoteCurrencyItem createArrayOfQuoteCurrencyItem()">1</method>
+			<method name="public com.xignite.services.ArrayOfTick createArrayOfTick()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBar(com.xignite.services.Bar arg0)">1</method>
+			<method name="public com.xignite.services.GetHistoricalRateResponse createGetHistoricalRateResponse()">1</method>
+			<method name="public com.xignite.services.HistoricalRateBidAsk createHistoricalRateBidAsk()">1</method>
+			<method name="public com.xignite.services.GetOfficialHistoricalRateResponse createGetOfficialHistoricalRateResponse()">1</method>
+			<method name="public com.xignite.services.GetRealTimeRates createGetRealTimeRates()">1</method>
+			<method name="public com.xignite.services.GetHistoricalRatesRangesResponse createGetHistoricalRatesRangesResponse()">1</method>
+			<method name="public com.xignite.services.Bar createBar()">1</method>
+			<method name="public com.xignite.services.GetTickResponse createGetTickResponse()">1</method>
+			<method name="public com.xignite.services.HistoricalRate createHistoricalRate()">1</method>
+			<method name="public com.xignite.services.GetLondonHistoricalRatesRange createGetLondonHistoricalRatesRange()">1</method>
+			<method name="public com.xignite.services.RateTableLine createRateTableLine()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createRateTable(com.xignite.services.RateTable arg0)">1</method>
+			<method name="public com.xignite.services.GetTick createGetTick()">1</method>
+			<method name="public com.xignite.services.Country createCountry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHistoricalRateBidAsk(com.xignite.services.ArrayOfHistoricalRateBidAsk arg0)">1</method>
+			<method name="public com.xignite.services.Rate createRate()">1</method>
+			<method name="public com.xignite.services.GetTicks createGetTicks()">1</method>
+			<method name="public com.xignite.services.ArrayOfChartBar createArrayOfChartBar()">1</method>
+			<method name="public com.xignite.services.GetRealTimeRatesResponse createGetRealTimeRatesResponse()">1</method>
+			<method name="public com.xignite.services.ListCurrencies createListCurrencies()">1</method>
+			<method name="public com.xignite.services.GetOfficialRateResponse createGetOfficialRateResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCurrencyChartBars(com.xignite.services.CurrencyChartBars arg0)">1</method>
+			<method name="public com.xignite.services.ConvertRealTimeValueResponse createConvertRealTimeValueResponse()">1</method>
+			<method name="public com.xignite.services.ConvertHistoricalValue createConvertHistoricalValue()">1</method>
+			<method name="public com.xignite.services.CurrencyDescription createCurrencyDescription()">1</method>
+			<method name="public com.xignite.services.GetChartBars createGetChartBars()">1</method>
+			<method name="public com.xignite.services.GetHistoricalRatesResponse createGetHistoricalRatesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHistoricalRate(com.xignite.services.ArrayOfHistoricalRate arg0)">1</method>
+			<method name="public com.xignite.services.GetAllRealTimeRates createGetAllRealTimeRates()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createRate(com.xignite.services.Rate arg0)">1</method>
+			<method name="public com.xignite.services.ConvertRealTimeValue createConvertRealTimeValue()">1</method>
+			<method name="public com.xignite.services.GetBestCrossRatesResponse createGetBestCrossRatesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createForwardRate(com.xignite.services.ForwardRate arg0)">1</method>
+			<method name="public com.xignite.services.GetBestCrossRates createGetBestCrossRates()">1</method>
+			<method name="public com.xignite.services.GetRealTimeRateTable createGetRealTimeRateTable()">1</method>
+			<method name="public com.xignite.services.ArrayOfCurrency createArrayOfCurrency()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCurrencies(com.xignite.services.Currencies arg0)">1</method>
+			<method name="public com.xignite.services.GetOfficialHistoricalRatesResponse createGetOfficialHistoricalRatesResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfRate createArrayOfRate()">1</method>
+			<method name="public com.xignite.services.ArrayOfHistoricalRateBidAsk createArrayOfHistoricalRateBidAsk()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeader(com.xignite.services.Header arg0)">1</method>
+			<method name="public com.xignite.services.Currencies createCurrencies()">1</method>
+			<method name="public com.xignite.services.GetHistoricalRates createGetHistoricalRates()">1</method>
+			<method name="public com.xignite.services.GetBestCrossRateResponse createGetBestCrossRateResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRateConversion(com.xignite.services.RateConversion arg0)">1</method>
+			<method name="public com.xignite.services.ForwardContract createForwardContract()">1</method>
+			<method name="public com.xignite.services.GetForwardRateResponse createGetForwardRateResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTick(com.xignite.services.ArrayOfTick arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCountry createArrayOfCountry()">1</method>
+			<method name="public com.xignite.services.ListActiveCurrenciesResponse createListActiveCurrenciesResponse()">1</method>
+			<method name="public com.xignite.services.GetLatestCrossRate createGetLatestCrossRate()">1</method>
+			<method name="public com.xignite.services.GetHistoricalRatesRanges createGetHistoricalRatesRanges()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHistoricalRate(com.xignite.services.HistoricalRate arg0)">1</method>
+			<method name="public com.xignite.services.GetLatestCrossRates createGetLatestCrossRates()">1</method>
+			<method name="public com.xignite.services.GetOfficialRates createGetOfficialRates()">1</method>
+			<method name="public com.xignite.services.RateTable createRateTable()">1</method>
+			<method name="public com.xignite.services.ForwardRate createForwardRate()">1</method>
+			<method name="public com.xignite.services.CurrencyChartBars createCurrencyChartBars()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfBar(com.xignite.services.ArrayOfBar arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfHistoricalRate createArrayOfHistoricalRate()">1</method>
+			<method name="public com.xignite.services.GetBestCrossRate createGetBestCrossRate()">1</method>
+			<method name="public com.xignite.services.ArrayOfBar createArrayOfBar()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficialRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.HistoricalRateBidAsk getGetOfficialRateResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetOfficialRateResult(com.xignite.services.HistoricalRateBidAsk arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTicksResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfTick getGetTicksResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTicksResult(com.xignite.services.ArrayOfTick arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetBarResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Bar getGetBarResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetBarResult(com.xignite.services.Bar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetForwardRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ForwardRate getGetForwardRateResult()">1</method>
+			<method name="public void setGetForwardRateResult(com.xignite.services.ForwardRate arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLondonHistoricalRatesRangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLondonHistoricalRatesRangeResult(com.xignite.services.ArrayOfHistoricalRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfHistoricalRate getGetLondonHistoricalRatesRangeResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Tick</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setBid(double arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public void setMid(double arg0)">1</method>
+			<method name="public double getAsk()">1</method>
+			<method name="public void setAsk(double arg0)">1</method>
+			<method name="public void setTime(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public double getBid()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTime()">1</method>
+			<method name="public double getMid()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListCurrenciesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setListCurrenciesResult(com.xignite.services.Currencies arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.Currencies getListCurrenciesResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetRealTimeRateTableResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.RateTable getGetRealTimeRateTableResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetRealTimeRateTableResult(com.xignite.services.RateTable arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>9</noc>
+		<cbo>11</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>10</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalRatesRangesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfHistoricalRate getGetHistoricalRatesRangesResult()">1</method>
+			<method name="public void setGetHistoricalRatesRangesResult(com.xignite.services.ArrayOfHistoricalRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetBestCrossRate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfRate</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>6</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getRate()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteGlobalCurrenciesSoap</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>16</cbo>
+		<rfc>27</rfc>
+		<lcom>351</lcom>
+		<ca>1</ca>
+		<ce>15</ce>
+		<npm>27</npm>
+		<lcom3>2.0</lcom3>
+		<loc>27</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5185185185185185</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.ArrayOfHistoricalRate getHistoricalRatesRanges(String, String, String, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfBar getBars(String, String, String, String, String, String, int)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfHistoricalRateBidAsk getOfficialRates(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.RateTable getRealTimeRateTable(String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfRate getLatestCrossRates(String)">1</method>
+			<method name="public abstract com.xignite.services.Tick getTick(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfHistoricalRate getHistoricalRatesRange(String, String, String, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfTick getTicks(String, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfHistoricalRate getLondonHistoricalRatesRange(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.Rate getRealTimeRate(String)">1</method>
+			<method name="public abstract com.xignite.services.HistoricalRate getHistoricalRate(String, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.RateConversion convertRealTimeValue(String, String, double)">1</method>
+			<method name="public abstract com.xignite.services.Currencies listActiveCurrencies()">1</method>
+			<method name="public abstract com.xignite.services.HistoricalRateBidAsk getOfficialRate(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfRate getAllRealTimeRates(String)">1</method>
+			<method name="public abstract com.xignite.services.Rate getBestCrossRate(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfRate getBestCrossRates(String)">1</method>
+			<method name="public abstract com.xignite.services.Rate getLatestCrossRate(String)">1</method>
+			<method name="public abstract com.xignite.services.Bar getBar(String, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfHistoricalRate getOfficialHistoricalRates(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.HistoricalRate getOfficialHistoricalRate(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ForwardRate getForwardRate(String)">1</method>
+			<method name="public abstract com.xignite.services.RateConversion convertHistoricalValue(String, String, double, String, String)">1</method>
+			<method name="public abstract com.xignite.services.Currencies listCurrencies()">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfRate getRealTimeRates(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfHistoricalRate getHistoricalRates(String, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.CurrencyChartBars getChartBars(String, String, String, String, String, int)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfChartBar</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getChartBar()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetBestCrossRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Rate getGetBestCrossRateResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetBestCrossRateResult(com.xignite.services.Rate arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalRate</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public String getFixingTime()">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public void setFixingTime(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetRealTimeRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Rate getGetRealTimeRateResult()">1</method>
+			<method name="public void setGetRealTimeRateResult(com.xignite.services.Rate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ConvertHistoricalValue</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public double getAmount()">1</method>
+			<method name="public String getFrom()">1</method>
+			<method name="public void setTo(String arg0)">1</method>
+			<method name="public String getFixingTime()">1</method>
+			<method name="public void setFrom(String arg0)">1</method>
+			<method name="public String getTo()">1</method>
+			<method name="public void setAmount(double arg0)">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public void setFixingTime(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.CurrencyChartBars</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getTiming()">1</method>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public com.xignite.services.CurrencyDescription getCurrencyDescription()">1</method>
+			<method name="public void setChartBars(com.xignite.services.ArrayOfChartBar arg0)">1</method>
+			<method name="public void setCurrencyDescription(com.xignite.services.CurrencyDescription arg0)">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public void setTiming(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfChartBar getChartBars()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetRealTimeRate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetAllRealTimeRates</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficialHistoricalRatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetOfficialHistoricalRatesResult(com.xignite.services.ArrayOfHistoricalRate arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfHistoricalRate getGetOfficialHistoricalRatesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTicks</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getEndTime()">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getStartTime()">1</method>
+			<method name="public void setEndTime(String arg0)">1</method>
+			<method name="public void setStartTime(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.CurrencyDescription</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getBaseCurrency()">1</method>
+			<method name="public String getQuoteCurrency()">1</method>
+			<method name="public void setBaseCurrency(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public void setQuoteCurrency(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfRateTableLine</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRateTableLine()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetBars</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setTickPeriods(int arg0)">1</method>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public String getEndTime()">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public void setTickPrecision(String arg0)">1</method>
+			<method name="public void setEndTime(String arg0)">1</method>
+			<method name="public int getTickPeriods()">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public String getTickPrecision()">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getStartTime()">1</method>
+			<method name="public void setStartTime(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalRatesRangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetHistoricalRatesRangeResult(com.xignite.services.ArrayOfHistoricalRate arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfHistoricalRate getGetHistoricalRatesRangeResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.HistoricalRate</name>
+		<wmc>25</wmc>
+		<dit>0</dit>
+		<noc>1</noc>
+		<cbo>6</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49333333333333335</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public void setAverage(double arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public double getAverage()">1</method>
+			<method name="public double getOpen()">1</method>
+			<method name="public void setClose(double arg0)">1</method>
+			<method name="public String getQuoteCurrency()">1</method>
+			<method name="public double getHigh()">1</method>
+			<method name="public void setStartTime(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public double getLow()">1</method>
+			<method name="public String getEndDate()">1</method>
+			<method name="public String getBaseCurrency()">1</method>
+			<method name="public void setHigh(double arg0)">1</method>
+			<method name="public String getEndTime()">1</method>
+			<method name="public void setOpen(double arg0)">1</method>
+			<method name="public void setLow(double arg0)">1</method>
+			<method name="public void setEndTime(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setQuoteCurrency(String arg0)">1</method>
+			<method name="public String getStartTime()">1</method>
+			<method name="public double getClose()">1</method>
+			<method name="public void setBaseCurrency(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfCountry</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCountry()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalRatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfHistoricalRate getGetHistoricalRatesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetHistoricalRatesResult(com.xignite.services.ArrayOfHistoricalRate arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalRates</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public String getFixingTime()">1</method>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public void setFixingTime(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetOfficialHistoricalRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetOfficialHistoricalRateResult(com.xignite.services.HistoricalRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.HistoricalRate getGetOfficialHistoricalRateResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ForwardContract</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setBid(double arg0)">1</method>
+			<method name="public double getPoints()">1</method>
+			<method name="public void setMid(double arg0)">1</method>
+			<method name="public double getAsk()">1</method>
+			<method name="public void setAsk(double arg0)">1</method>
+			<method name="public void setPoints(double arg0)">1</method>
+			<method name="public void setSpotRate(double arg0)">1</method>
+			<method name="public void setExpiration(String arg0)">1</method>
+			<method name="public double getSpotRate()">1</method>
+			<method name="public double getBid()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getExpiration()">1</method>
+			<method name="public double getMid()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ChartBar</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3712121212121212</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public double getAdjustmentRatio()">1</method>
+			<method name="public double getVWAP()">1</method>
+			<method name="public void setAdjustmentRatio(double arg0)">1</method>
+			<method name="public void setUTCOffset(double arg0)">1</method>
+			<method name="public double getTWAP()">1</method>
+			<method name="public void setTrades(int arg0)">1</method>
+			<method name="public void setVWAP(double arg0)">1</method>
+			<method name="public double getOpen()">1</method>
+			<method name="public double getVolume()">1</method>
+			<method name="public double getUTCOffset()">1</method>
+			<method name="public void setClose(double arg0)">1</method>
+			<method name="public double getHigh()">1</method>
+			<method name="public void setStartTime(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public double getLow()">1</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public String getEndDate()">1</method>
+			<method name="public int getTrades()">1</method>
+			<method name="public void setSession(String arg0)">1</method>
+			<method name="public void setHigh(double arg0)">1</method>
+			<method name="public void setVolume(double arg0)">1</method>
+			<method name="public String getEndTime()">1</method>
+			<method name="public void setOpen(double arg0)">1</method>
+			<method name="public void setLow(double arg0)">1</method>
+			<method name="public void setEndTime(String arg0)">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public String getStartTime()">1</method>
+			<method name="public double getClose()">1</method>
+			<method name="public void setTWAP(double arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSession()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTick</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public void setAsOfTime(String arg0)">1</method>
+			<method name="public String getAsOfTime()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ConvertRealTimeValueResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.RateConversion getConvertRealTimeValueResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setConvertRealTimeValueResult(com.xignite.services.RateConversion arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetBar</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setPriceType(String arg0)">1</method>
+			<method name="public String getPriceType()">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public void setAsOfTime(String arg0)">1</method>
+			<method name="public String getAsOfTime()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLatestCrossRates</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTickResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTickResult(com.xignite.services.Tick arg0)">1</method>
+			<method name="public com.xignite.services.Tick getGetTickResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.RateConversion</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setRate(double arg0)">1</method>
+			<method name="public double getResult()">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public double getRate()">1</method>
+			<method name="public String getToCurrencySymbol()">1</method>
+			<method name="public String getToCurrencyName()">1</method>
+			<method name="public String getFromCurrencyName()">1</method>
+			<method name="public void setFromCurrencySymbol(String arg0)">1</method>
+			<method name="public void setFromCurrencyName(String arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setToCurrencySymbol(String arg0)">1</method>
+			<method name="public void setToCurrencyName(String arg0)">1</method>
+			<method name="public double getAmount()">1</method>
+			<method name="public void setResult(double arg0)">1</method>
+			<method name="public void setTime(String arg0)">1</method>
+			<method name="public void setAmount(double arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public String getFromCurrencySymbol()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTime()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteGlobalCurrencies</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="public com.xignite.services.XigniteGlobalCurrenciesSoap getXigniteGlobalCurrenciesSoap()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient com.xignite.services.XigniteGlobalCurrenciesSoap getXigniteGlobalCurrenciesSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetHistoricalRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetHistoricalRateResult(com.xignite.services.HistoricalRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.HistoricalRate getGetHistoricalRateResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetRealTimeRatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfRate getGetRealTimeRatesResult()">1</method>
+			<method name="public void setGetRealTimeRatesResult(com.xignite.services.ArrayOfRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListActiveCurrencies</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListActiveCurrenciesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Currencies getListActiveCurrenciesResult()">1</method>
+			<method name="public void setListActiveCurrenciesResult(com.xignite.services.Currencies arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfHistoricalRate</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>7</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getHistoricalRate()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Rate</name>
+		<wmc>25</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49333333333333335</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public String getQuoteType()">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public double getAsk()">1</method>
+			<method name="public void setAsk(double arg0)">1</method>
+			<method name="public double getSpread()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public String getQuoteCurrency()">1</method>
+			<method name="public void setText(String arg0)">1</method>
+			<method name="public void setTime(String arg0)">1</method>
+			<method name="public String getTime()">1</method>
+			<method name="public double getMid()">1</method>
+			<method name="public String getBaseCurrency()">1</method>
+			<method name="public void setSpread(double arg0)">1</method>
+			<method name="public void setQuoteType(String arg0)">1</method>
+			<method name="public void setBid(double arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public void setMid(double arg0)">1</method>
+			<method name="public void setQuoteCurrency(String arg0)">1</method>
+			<method name="public String getText()">1</method>
+			<method name="public void setBaseCurrency(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public double getBid()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListCurrencies</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetBarsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfBar getGetBarsResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetBarsResult(com.xignite.services.ArrayOfBar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetRealTimeRates</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbols()">1</method>
+			<method name="public void setSymbols(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfForwardContract</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getForwardContract()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLatestCrossRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Rate getGetLatestCrossRateResult()">1</method>
+			<method name="public void setGetLatestCrossRateResult(com.xignite.services.Rate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

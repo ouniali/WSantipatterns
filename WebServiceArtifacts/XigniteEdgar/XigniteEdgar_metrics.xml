@@ -1,0 +1,2801 @@
+	<class>
+		<name>com.xignite.services.SearchFilingsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.SearchResult getSearchFilingsResult()">1</method>
+			<method name="public void setSearchFilingsResult(com.xignite.services.SearchResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetFilingAsText</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setHTMLize(boolean arg0)">1</method>
+			<method name="public void setTextFileUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isHTMLize()">1</method>
+			<method name="public String getTextFileUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfFilingOccurrence</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getFilingOccurrence()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteEdgar</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.XigniteEdgarSoap getXigniteEdgarSoap()">1</method>
+			<method name="public transient com.xignite.services.XigniteEdgarSoap getXigniteEdgarSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.QueryResult</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>5</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setFilings(com.xignite.services.ArrayOfShortFiling arg0)">1</method>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public com.xignite.services.ArrayOfShortFiling getFilings()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutputTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9</lcom3>
+		<loc>156</loc>
+		<dam>0.2</dam>
+		<moa>9</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>23.333333333333332</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutputTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutputTypes fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.OutputTypes valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.File</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setContent(String arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getContent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCIK</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PredefinedQueryFilingsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.QueryResult getPredefinedQueryFilingsResult()">1</method>
+			<method name="public void setPredefinedQueryFilingsResult(com.xignite.services.QueryResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.IdentifierTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>12</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>11</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static com.xignite.services.IdentifierTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.IdentifierTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.IdentifierTypes fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetManagementOwnershipResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ManagementOwnership getGetManagementOwnershipResult()">1</method>
+			<method name="public void setGetManagementOwnershipResult(com.xignite.services.ManagementOwnership arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.LastFormTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.xignite.services.LastFormTypes fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.LastFormTypes valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.LastFormTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>99</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>78</cbo>
+		<rfc>180</rfc>
+		<lcom>4813</lcom>
+		<ca>0</ca>
+		<ce>78</ce>
+		<npm>98</npm>
+		<lcom3>0.9897959183673469</lcom3>
+		<loc>700</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.05969387755102041</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.878787878787879</amc>
+		<cc>
+			<method name="public com.xignite.services.SearchResult createSearchResult()">1</method>
+			<method name="public com.xignite.services.ListSECFilingTypes createListSECFilingTypes()">1</method>
+			<method name="public com.xignite.services.ListSICCodes createListSICCodes()">1</method>
+			<method name="public com.xignite.services.Document createDocument()">1</method>
+			<method name="public com.xignite.services.ListSICCodesResponse createListSICCodesResponse()">1</method>
+			<method name="public com.xignite.services.SECHeader createSECHeader()">1</method>
+			<method name="public com.xignite.services.FilingOccurrence createFilingOccurrence()">1</method>
+			<method name="public com.xignite.services.MasterDocument createMasterDocument()">1</method>
+			<method name="public com.xignite.services.MasterDocumentsResult createMasterDocumentsResult()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfFilingOccurrence(com.xignite.services.ArrayOfFilingOccurrence arg0)">1</method>
+			<method name="public com.xignite.services.GetSharesOutstandingResponse createGetSharesOutstandingResponse()">1</method>
+			<method name="public com.xignite.services.Security createSecurity()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQueryResult(com.xignite.services.QueryResult arg0)">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.GetFilingAsText createGetFilingAsText()">1</method>
+			<method name="public com.xignite.services.SECFormerCompanyName createSECFormerCompanyName()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createManagementOwnership(com.xignite.services.ManagementOwnership arg0)">1</method>
+			<method name="public com.xignite.services.Filing createFiling()">1</method>
+			<method name="public com.xignite.services.ArrayOfSECFormerCompanyName createArrayOfSECFormerCompanyName()">1</method>
+			<method name="public com.xignite.services.SECBusinessAddress createSECBusinessAddress()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilingAsText(com.xignite.services.FilingAsText arg0)">1</method>
+			<method name="public com.xignite.services.PredefinedQueryFilings createPredefinedQueryFilings()">1</method>
+			<method name="public com.xignite.services.QueryFilingsByReportingPeriodResponse createQueryFilingsByReportingPeriodResponse()">1</method>
+			<method name="public com.xignite.services.FilingAsText createFilingAsText()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public com.xignite.services.GetLastFilingResponse createGetLastFilingResponse()">1</method>
+			<method name="public com.xignite.services.SECFilingValues createSECFilingValues()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfCIKLookup(com.xignite.services.ArrayOfCIKLookup arg0)">1</method>
+			<method name="public com.xignite.services.QueryFilingsResponse createQueryFilingsResponse()">1</method>
+			<method name="public com.xignite.services.LookupCIKResponse createLookupCIKResponse()">1</method>
+			<method name="public com.xignite.services.Header createHeader()">1</method>
+			<method name="public com.xignite.services.PredefinedQueryFilingsResponse createPredefinedQueryFilingsResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfFilingOccurrence createArrayOfFilingOccurrence()">1</method>
+			<method name="public com.xignite.services.ArrayOfDocument createArrayOfDocument()">1</method>
+			<method name="public com.xignite.services.ManagementOwnership createManagementOwnership()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFiling(com.xignite.services.Filing arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCIKLookup(com.xignite.services.CIKLookup arg0)">1</method>
+			<method name="public com.xignite.services.GetCIKResponse createGetCIKResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfFiling(com.xignite.services.ArrayOfFiling arg0)">1</method>
+			<method name="public com.xignite.services.GetLastFiling createGetLastFiling()">1</method>
+			<method name="public com.xignite.services.CIKLookup createCIKLookup()">1</method>
+			<method name="public com.xignite.services.SearchFilingsResponse createSearchFilingsResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfFiling createArrayOfFiling()">1</method>
+			<method name="public com.xignite.services.GetRecentFilingsResponse createGetRecentFilingsResponse()">1</method>
+			<method name="public com.xignite.services.FilingDetails createFilingDetails()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfSICCode(com.xignite.services.ArrayOfSICCode arg0)">1</method>
+			<method name="public com.xignite.services.GetFilingAsTextResponse createGetFilingAsTextResponse()">1</method>
+			<method name="public com.xignite.services.SICCode createSICCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchResult(com.xignite.services.SearchResult arg0)">1</method>
+			<method name="public com.xignite.services.LookupNameByCIK createLookupNameByCIK()">1</method>
+			<method name="public com.xignite.services.ArrayOfShortFiling createArrayOfShortFiling()">1</method>
+			<method name="public com.xignite.services.ArrayOfCIKLookup createArrayOfCIKLookup()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTotalAssets(com.xignite.services.TotalAssets arg0)">1</method>
+			<method name="public com.xignite.services.ReadDocumentResponse createReadDocumentResponse()">1</method>
+			<method name="public com.xignite.services.Submission createSubmission()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSharesOutstanding(com.xignite.services.SharesOutstanding arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSharesAsOf createArrayOfSharesAsOf()">1</method>
+			<method name="public com.xignite.services.QueryMasterDocumentsResponse createQueryMasterDocumentsResponse()">1</method>
+			<method name="public com.xignite.services.TotalAssets createTotalAssets()">1</method>
+			<method name="public com.xignite.services.ArrayOfSubmission createArrayOfSubmission()">1</method>
+			<method name="public com.xignite.services.SharesAsOf createSharesAsOf()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMasterDocumentsResult(com.xignite.services.MasterDocumentsResult arg0)">1</method>
+			<method name="public com.xignite.services.QueryFilingsByReportingPeriod createQueryFilingsByReportingPeriod()">1</method>
+			<method name="public com.xignite.services.GetManagementOwnershipResponse createGetManagementOwnershipResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfSICCode createArrayOfSICCode()">1</method>
+			<method name="public com.xignite.services.GetFilingDetails createGetFilingDetails()">1</method>
+			<method name="public com.xignite.services.GetPDFDocument createGetPDFDocument()">1</method>
+			<method name="public com.xignite.services.GetFilingOccurrences createGetFilingOccurrences()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.xignite.services.QueryResult createQueryResult()">1</method>
+			<method name="public com.xignite.services.PDFFile createPDFFile()">1</method>
+			<method name="public com.xignite.services.QueryFilings createQueryFilings()">1</method>
+			<method name="public com.xignite.services.SearchFilings createSearchFilings()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPDFFile(com.xignite.services.PDFFile arg0)">1</method>
+			<method name="public com.xignite.services.LookupNameByCIKResponse createLookupNameByCIKResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilingDetails(com.xignite.services.FilingDetails arg0)">1</method>
+			<method name="public com.xignite.services.GetManagementOwnership createGetManagementOwnership()">1</method>
+			<method name="public com.xignite.services.GetPDFDocumentResponse createGetPDFDocumentResponse()">1</method>
+			<method name="public com.xignite.services.SECCompanyData createSECCompanyData()">1</method>
+			<method name="public com.xignite.services.GetRecentFilings createGetRecentFilings()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfSubmission(com.xignite.services.ArrayOfSubmission arg0)">1</method>
+			<method name="public com.xignite.services.ReadDocument createReadDocument()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeader(com.xignite.services.Header arg0)">1</method>
+			<method name="public com.xignite.services.ListSECFilingTypesResponse createListSECFilingTypesResponse()">1</method>
+			<method name="public com.xignite.services.QueryMasterDocuments createQueryMasterDocuments()">1</method>
+			<method name="public com.xignite.services.GetTotalAssetsResponse createGetTotalAssetsResponse()">1</method>
+			<method name="public com.xignite.services.LookupCIK createLookupCIK()">1</method>
+			<method name="public com.xignite.services.SECFiler createSECFiler()">1</method>
+			<method name="public com.xignite.services.File createFile()">1</method>
+			<method name="public com.xignite.services.ArrayOfMasterDocument createArrayOfMasterDocument()">1</method>
+			<method name="public com.xignite.services.ShortFiling createShortFiling()">1</method>
+			<method name="public com.xignite.services.GetTotalAssets createGetTotalAssets()">1</method>
+			<method name="public com.xignite.services.SharesOutstanding createSharesOutstanding()">1</method>
+			<method name="public com.xignite.services.GetFilingDetailsResponse createGetFilingDetailsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFile(com.xignite.services.File arg0)">1</method>
+			<method name="public com.xignite.services.GetSharesOutstanding createGetSharesOutstanding()">1</method>
+			<method name="public com.xignite.services.GetFilingOccurrencesResponse createGetFilingOccurrencesResponse()">1</method>
+			<method name="public com.xignite.services.GetCIK createGetCIK()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetRecentFilingsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfFiling getGetRecentFilingsResult()">1</method>
+			<method name="public void setGetRecentFilingsResult(com.xignite.services.ArrayOfFiling arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>21</noc>
+		<cbo>23</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>22</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PDFFile</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setOriginalUrl(String arg0)">1</method>
+			<method name="public String getPDFUrl()">1</method>
+			<method name="public String getOriginalUrl()">1</method>
+			<method name="public void setPDFUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.QueryFilingsByReportingPeriod</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public com.xignite.services.OwnershipFormTypes getOwnershipForms()">1</method>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public String getForm()">1</method>
+			<method name="public void setForm(String arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getFromDate()">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setOwnershipForms(com.xignite.services.OwnershipFormTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SECFiler</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setCompanyData(com.xignite.services.SECCompanyData arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSECFormerCompanyName getFormerCompanyNames()">1</method>
+			<method name="public void setFormerCompanyNames(com.xignite.services.ArrayOfSECFormerCompanyName arg0)">1</method>
+			<method name="public void setFilingValues(com.xignite.services.SECFilingValues arg0)">1</method>
+			<method name="public com.xignite.services.SECBusinessAddress getMailAddress()">1</method>
+			<method name="public com.xignite.services.SECBusinessAddress getBusinessAddress()">1</method>
+			<method name="public com.xignite.services.SECFilingValues getFilingValues()">1</method>
+			<method name="public com.xignite.services.SECCompanyData getCompanyData()">1</method>
+			<method name="public void setBusinessAddress(com.xignite.services.SECBusinessAddress arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMailAddress(com.xignite.services.SECBusinessAddress arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.MasterDocumentsResult</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfMasterDocument getDocuments()">1</method>
+			<method name="public void setDocuments(com.xignite.services.ArrayOfMasterDocument arg0)">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PredefinedQueryFilings</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public com.xignite.services.PredefinedQueryTypes getPredefinedQueryType()">1</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setPredefinedQueryType(com.xignite.services.PredefinedQueryTypes arg0)">1</method>
+			<method name="public String getFromDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchResult</name>
+		<wmc>19</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public com.xignite.services.SICCode getSICCode()">1</method>
+			<method name="public String getCIK()">1</method>
+			<method name="public void setCIK(String arg0)">1</method>
+			<method name="public String getStateOfIncorporation()">1</method>
+			<method name="public void setBusinessAddress(String arg0)">1</method>
+			<method name="public void setFiscalYearEnd(String arg0)">1</method>
+			<method name="public String getBusinessAddress()">1</method>
+			<method name="public void setStateOfIncorporation(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public String getCompany()">1</method>
+			<method name="public void setSICCode(com.xignite.services.SICCode arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public void setMailingAddress(String arg0)">1</method>
+			<method name="public void setCompany(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfFiling getFilings()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMailingAddress()">1</method>
+			<method name="public void setFilings(com.xignite.services.ArrayOfFiling arg0)">1</method>
+			<method name="public String getFiscalYearEnd()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.LookupCIKResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfCIKLookup getLookupCIKResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLookupCIKResult(com.xignite.services.ArrayOfCIKLookup arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSECFormerCompanyName</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSECFormerCompanyName()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SECFilingValues</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getFormType()">1</method>
+			<method name="public String getSECFileNumber()">1</method>
+			<method name="public String getSECAct()">1</method>
+			<method name="public void setFilmNumber(String arg0)">1</method>
+			<method name="public void setFormType(String arg0)">1</method>
+			<method name="public void setSECFileNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSECAct(String arg0)">1</method>
+			<method name="public String getFilmNumber()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.FileTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.xignite.services.FileTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.FileTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.xignite.services.FileTypes fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Submission</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setFilingType(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getFilingType()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetManagementOwnership</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchFilings</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public com.xignite.services.OwnershipFormTypes getOwnershipForms()">1</method>
+			<method name="public String getPriorToDate()">1</method>
+			<method name="public String getForm()">1</method>
+			<method name="public void setForm(String arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public void setPriorToDate(String arg0)">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public com.xignite.services.OutputTypes getOutputType()">1</method>
+			<method name="public void setOwnershipForms(com.xignite.services.OwnershipFormTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setOutputType(com.xignite.services.OutputTypes arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSharesOutstandingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.SharesOutstanding getGetSharesOutstandingResult()">1</method>
+			<method name="public void setGetSharesOutstandingResult(com.xignite.services.SharesOutstanding arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfMasterDocument</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getMasterDocument()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfDocument</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDocument()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SECFormerCompanyName</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setDateOfNameChange(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDateOfNameChange()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCIKResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetCIKResult(com.xignite.services.Security arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.Security getGetCIKResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PredefinedQueryTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static com.xignite.services.PredefinedQueryTypes fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.PredefinedQueryTypes[] values()">1</method>
+			<method name="public static com.xignite.services.PredefinedQueryTypes valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ReadDocumentResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.File getReadDocumentResult()">1</method>
+			<method name="public void setReadDocumentResult(com.xignite.services.File arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.MasterDocument</name>
+		<wmc>19</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getFilingUrl()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setFilingUrl(String arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void setFilingId(int arg0)">1</method>
+			<method name="public void setFileType(com.xignite.services.FileTypes arg0)">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getXMLSource()">1</method>
+			<method name="public String getFileName()">1</method>
+			<method name="public String getUrl()">1</method>
+			<method name="public void setFileName(String arg0)">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public int getFilingId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.FileTypes getFileType()">1</method>
+			<method name="public void setXMLSource(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.RecentFormTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static com.xignite.services.RecentFormTypes fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.RecentFormTypes[] values()">1</method>
+			<method name="public static com.xignite.services.RecentFormTypes valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OwnershipFormTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.xignite.services.OwnershipFormTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OwnershipFormTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OwnershipFormTypes fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetFilingOccurrencesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetFilingOccurrencesResult(com.xignite.services.ArrayOfFilingOccurrence arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfFilingOccurrence getGetFilingOccurrencesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetFilingDetailsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.FilingDetails getGetFilingDetailsResult()">1</method>
+			<method name="public void setGetFilingDetailsResult(com.xignite.services.FilingDetails arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetRecentFilings</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.RecentFormTypes getForm()">1</method>
+			<method name="public void setForm(com.xignite.services.RecentFormTypes arg0)">1</method>
+			<method name="public com.xignite.services.DayTypes getDay()">1</method>
+			<method name="public void setDay(com.xignite.services.DayTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTotalAssetsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetTotalAssetsResult(com.xignite.services.TotalAssets arg0)">1</method>
+			<method name="public com.xignite.services.TotalAssets getGetTotalAssetsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetTotalAssets</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.QueryFilingsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.QueryResult getQueryFilingsResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQueryFilingsResult(com.xignite.services.QueryResult arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Header</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setTracer(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+			<method name="public String getTracer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ManagementOwnership</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36764705882352944</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getSourceUrl()">1</method>
+			<method name="public String getValueDate()">1</method>
+			<method name="public void setSourceType(String arg0)">1</method>
+			<method name="public double getManagementShares()">1</method>
+			<method name="public String getSourceDate()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public String getSourceType()">1</method>
+			<method name="public void setSourceUrl(String arg0)">1</method>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public void setManagementPercent(double arg0)">1</method>
+			<method name="public void setSourceDate(String arg0)">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public double getManagementPercent()">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void setManagementShares(double arg0)">1</method>
+			<method name="public void setValueDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.QueryFilingsByReportingPeriodResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setQueryFilingsByReportingPeriodResult(com.xignite.services.QueryResult arg0)">1</method>
+			<method name="public com.xignite.services.QueryResult getQueryFilingsByReportingPeriodResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSICCode</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getSICCode()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListSICCodes</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.QueryMasterDocuments</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public com.xignite.services.OwnershipFormTypes getOwnershipForms()">1</method>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public String getForm()">1</method>
+			<method name="public void setForm(String arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getFromDate()">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setOwnershipForms(com.xignite.services.OwnershipFormTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetPDFDocumentResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.PDFFile getGetPDFDocumentResult()">1</method>
+			<method name="public void setGetPDFDocumentResult(com.xignite.services.PDFFile arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListSECFilingTypesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setListSECFilingTypesResult(com.xignite.services.ArrayOfSubmission arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSubmission getListSECFilingTypesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.QueryFilings</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public com.xignite.services.OwnershipFormTypes getOwnershipForms()">1</method>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public String getForm()">1</method>
+			<method name="public void setForm(String arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getFromDate()">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setOwnershipForms(com.xignite.services.OwnershipFormTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SharesOutstanding</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setExtractedDocuments(int arg0)">1</method>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public double getPercentageSuccess()">1</method>
+			<method name="public void setShares(com.xignite.services.ArrayOfSharesAsOf arg0)">1</method>
+			<method name="public void setTotalDocuments(int arg0)">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public int getExtractedDocuments()">1</method>
+			<method name="public com.xignite.services.ArrayOfSharesAsOf getShares()">1</method>
+			<method name="public int getTotalDocuments()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPercentageSuccess(double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SECBusinessAddress</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getBusinessPhone()">1</method>
+			<method name="public void setBusinessPhone(String arg0)">1</method>
+			<method name="public String getStreet2()">1</method>
+			<method name="public String getStreet1()">1</method>
+			<method name="public void setStreet1(String arg0)">1</method>
+			<method name="public void setStreet2(String arg0)">1</method>
+			<method name="public void setZIP(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getZIP()">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.FilingAsText</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setContent(String arg0)">1</method>
+			<method name="public void setHeader(com.xignite.services.SECHeader arg0)">1</method>
+			<method name="public String getContent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.SECHeader getHeader()">1</method>
+			<method name="public String getFileUrl()">1</method>
+			<method name="public void setFileUrl(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Security</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>8</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getCusip()">1</method>
+			<method name="public String getCIK()">1</method>
+			<method name="public void setCIK(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public String getISIN()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public void setMarket(String arg0)">1</method>
+			<method name="public void setValoren(String arg0)">1</method>
+			<method name="public String getCategoryOrIndustry()">1</method>
+			<method name="public void setCusip(String arg0)">1</method>
+			<method name="public void setISIN(String arg0)">1</method>
+			<method name="public void setCategoryOrIndustry(String arg0)">1</method>
+			<method name="public String getValoren()">1</method>
+			<method name="public String getMarket()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.FilingOccurrence</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public com.xignite.services.Submission getSubmission()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSubmission(com.xignite.services.Submission arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetFilingDetails</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHtmlFileUrl(String arg0)">1</method>
+			<method name="public String getHtmlFileUrl()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastFiling</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setForm(com.xignite.services.LastFormTypes arg0)">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public com.xignite.services.LastFormTypes getForm()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetFilingAsTextResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.FilingAsText getGetFilingAsTextResult()">1</method>
+			<method name="public void setGetFilingAsTextResult(com.xignite.services.FilingAsText arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SharesAsOf</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setSourceUrl(String arg0)">1</method>
+			<method name="public String getSourceUrl()">1</method>
+			<method name="public double getQuantity()">1</method>
+			<method name="public void setSourceDate(String arg0)">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public void setQuantity(double arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSourceDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.LookupCIK</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DayTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static com.xignite.services.DayTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.DayTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.DayTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSharesOutstanding</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfFiling</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getFiling()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfCIKLookup</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCIKLookup()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSubmission</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSubmission()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.TotalAssets</name>
+		<wmc>15</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getSourceUrl()">1</method>
+			<method name="public String getValueDate()">1</method>
+			<method name="public void setSourceType(String arg0)">1</method>
+			<method name="public String getSourceDate()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public String getSourceType()">1</method>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public void setSourceUrl(String arg0)">1</method>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public void setSourceDate(String arg0)">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void setValueDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public double getValue()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SECHeader</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public String getConformedPeriodOfReport()">1</method>
+			<method name="public String getDateOfFilingChange()">1</method>
+			<method name="public void setFiler(com.xignite.services.SECFiler arg0)">1</method>
+			<method name="public String getConformedSubmissionType()">1</method>
+			<method name="public void setPublicDocumentCount(String arg0)">1</method>
+			<method name="public void setFiledAsOfDate(String arg0)">1</method>
+			<method name="public void setNumber(String arg0)">1</method>
+			<method name="public void setAccessionNumber(String arg0)">1</method>
+			<method name="public String getSROS()">1</method>
+			<method name="public String getFiledAsOfDate()">1</method>
+			<method name="public void setDateOfFilingChange(String arg0)">1</method>
+			<method name="public String getAccessionNumber()">1</method>
+			<method name="public void setConformedSubmissionType(String arg0)">1</method>
+			<method name="public String getNumber()">1</method>
+			<method name="public String getPublicDocumentCount()">1</method>
+			<method name="public String getItemInformation()">1</method>
+			<method name="public com.xignite.services.SECFiler getFiler()">1</method>
+			<method name="public void setConformedPeriodOfReport(String arg0)">1</method>
+			<method name="public void setItemInformation(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSROS(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListSICCodesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfSICCode getListSICCodesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setListSICCodesResult(com.xignite.services.ArrayOfSICCode arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.LookupNameByCIK</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getCIK()">1</method>
+			<method name="public void setCIK(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ShortFiling</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36764705882352944</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setAlternateHtmlFileUrl(String arg0)">1</method>
+			<method name="public void setAmendment(boolean arg0)">1</method>
+			<method name="public String getCIK()">1</method>
+			<method name="public void setCIK(String arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public void setHtmlFileUrl(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void setFilingId(int arg0)">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setTextFileUrl(String arg0)">1</method>
+			<method name="public boolean isAmendment()">1</method>
+			<method name="public String getHtmlFileUrl()">1</method>
+			<method name="public String getAlternateHtmlFileUrl()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public int getFilingId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTextFileUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetFilingOccurrences</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public String getFromDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.LookupNameByCIKResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.CIKLookup getLookupNameByCIKResult()">1</method>
+			<method name="public void setLookupNameByCIKResult(com.xignite.services.CIKLookup arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Filing</name>
+		<wmc>23</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4927536231884058</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public void setAmendment(boolean arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getCIK()">1</method>
+			<method name="public void setCIK(String arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public void setHtmlFileUrl(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setFormDescrition(String arg0)">1</method>
+			<method name="public void setFileId(String arg0)">1</method>
+			<method name="public void setTextFileUrl(String arg0)">1</method>
+			<method name="public String getFileSize()">1</method>
+			<method name="public boolean isAmendment()">1</method>
+			<method name="public String getCompany()">1</method>
+			<method name="public String getFormDescrition()">1</method>
+			<method name="public void setFileSize(String arg0)">1</method>
+			<method name="public String getHtmlFileUrl()">1</method>
+			<method name="public void setCompany(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public String getFileId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTextFileUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.FilingDetails</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setDocuments(com.xignite.services.ArrayOfDocument arg0)">1</method>
+			<method name="public void setContentIfFormatWasInvalid(String arg0)">1</method>
+			<method name="public void setHeader(com.xignite.services.SECHeader arg0)">1</method>
+			<method name="public String getContentIfFormatWasInvalid()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.SECHeader getHeader()">1</method>
+			<method name="public com.xignite.services.ArrayOfDocument getDocuments()">1</method>
+			<method name="public String getFileUrl()">1</method>
+			<method name="public void setFileUrl(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ReadDocument</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHtmlFileUrl(String arg0)">1</method>
+			<method name="public String getHtmlFileUrl()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SICCode</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public String getOffice()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setOffice(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListSECFilingTypes</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.QueryMasterDocumentsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.MasterDocumentsResult getQueryMasterDocumentsResult()">1</method>
+			<method name="public void setQueryMasterDocumentsResult(com.xignite.services.MasterDocumentsResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteEdgarSoap</name>
+		<wmc>20</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>26</cbo>
+		<rfc>20</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>25</ce>
+		<npm>20</npm>
+		<lcom3>2.0</lcom3>
+		<loc>20</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.295</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.ArrayOfFiling getRecentFilings(com.xignite.services.DayTypes, com.xignite.services.RecentFormTypes)">1</method>
+			<method name="public abstract com.xignite.services.QueryResult queryFilingsByReportingPeriod(String, com.xignite.services.IdentifierTypes, String, com.xignite.services.OwnershipFormTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.SearchResult searchFilings(String, com.xignite.services.IdentifierTypes, String, com.xignite.services.OwnershipFormTypes, String, com.xignite.services.OutputTypes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfCIKLookup lookupCIK(String)">1</method>
+			<method name="public abstract com.xignite.services.QueryResult queryFilings(String, com.xignite.services.IdentifierTypes, String, com.xignite.services.OwnershipFormTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ManagementOwnership getManagementOwnership(String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.QueryResult predefinedQueryFilings(String, com.xignite.services.IdentifierTypes, com.xignite.services.PredefinedQueryTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.FilingAsText getFilingAsText(String, boolean)">1</method>
+			<method name="public abstract com.xignite.services.CIKLookup lookupNameByCIK(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSICCode listSICCodes(String)">1</method>
+			<method name="public abstract com.xignite.services.MasterDocumentsResult queryMasterDocuments(String, com.xignite.services.IdentifierTypes, String, com.xignite.services.OwnershipFormTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.FilingDetails getFilingDetails(String)">1</method>
+			<method name="public abstract com.xignite.services.TotalAssets getTotalAssets(String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.File readDocument(String)">1</method>
+			<method name="public abstract com.xignite.services.PDFFile getPDFDocument(String)">1</method>
+			<method name="public abstract com.xignite.services.SharesOutstanding getSharesOutstanding(String, com.xignite.services.IdentifierTypes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfFilingOccurrence getFilingOccurrences(String, com.xignite.services.IdentifierTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.Filing getLastFiling(String, com.xignite.services.IdentifierTypes, com.xignite.services.LastFormTypes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSubmission listSECFilingTypes(String)">1</method>
+			<method name="public abstract com.xignite.services.Security getCIK(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfShortFiling</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getShortFiling()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SECCompanyData</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public com.xignite.services.SICCode getSICCode()">1</method>
+			<method name="public String getCompanyConformedName()">1</method>
+			<method name="public String getStateOfIncorporation()">1</method>
+			<method name="public String getIRSNumber()">1</method>
+			<method name="public void setFiscalYearEnd(String arg0)">1</method>
+			<method name="public void setStateOfIncorporation(String arg0)">1</method>
+			<method name="public void setIRSNumber(String arg0)">1</method>
+			<method name="public void setSICCode(com.xignite.services.SICCode arg0)">1</method>
+			<method name="public void setCompanyConformedName(String arg0)">1</method>
+			<method name="public void setCentralIndexKey(String arg0)">1</method>
+			<method name="public String getCentralIndexKey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getFiscalYearEnd()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Document</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void setFileType(com.xignite.services.FileTypes arg0)">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getXMLSource()">1</method>
+			<method name="public String getFileName()">1</method>
+			<method name="public String getUrl()">1</method>
+			<method name="public void setFileName(String arg0)">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.FileTypes getFileType()">1</method>
+			<method name="public void setXMLSource(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.CIKLookup</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCIK()">1</method>
+			<method name="public void setCIK(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSharesAsOf</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSharesAsOf()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetPDFDocument</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHtmlFileUrl(String arg0)">1</method>
+			<method name="public String getHtmlFileUrl()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastFilingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Filing getGetLastFilingResult()">1</method>
+			<method name="public void setGetLastFilingResult(com.xignite.services.Filing arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

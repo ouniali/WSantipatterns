@@ -1,0 +1,487 @@
+	<class>
+		<name>jp.yahooapis.im.v4.ErrorDetail</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getRequestValue()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRequestKey()">1</method>
+			<method name="public void setRequestKey(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.SearchKeywordIdeaPage</name>
+		<wmc>2</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getValues()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.SearchKeywordIdeaServiceInterface</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract void get(jp.yahooapis.im.v4.SearchKeywordIdeaSelector, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.SoapHeader</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getApiAccountId()">1</method>
+			<method name="public void setLicense(String arg0)">1</method>
+			<method name="public void setApiAccountPassword(String arg0)">1</method>
+			<method name="public void setOnBehalfOfAccountId(String arg0)">1</method>
+			<method name="public Long getAccountId()">1</method>
+			<method name="public void setAccountId(Long arg0)">1</method>
+			<method name="public void setApiAccountId(String arg0)">1</method>
+			<method name="public String getLicense()">1</method>
+			<method name="public void setOnBehalfOfPassword(String arg0)">1</method>
+			<method name="public String getOnBehalfOfAccountId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getOnBehalfOfPassword()">1</method>
+			<method name="public String getApiAccountPassword()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.ReturnValue</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public Boolean isOperationSucceeded()">1</method>
+			<method name="public void setOperationSucceeded(Boolean arg0)">1</method>
+			<method name="public java.util.List getError()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.SoapResponseHeader</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getService()">1</method>
+			<method name="public String getRemainingQuota()">1</method>
+			<method name="public String getQuotaUsedForThisRequest()">1</method>
+			<method name="public String getTimeTakenMillis()">1</method>
+			<method name="public void setService(String arg0)">1</method>
+			<method name="public void setTimeTakenMillis(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRemainingQuota(String arg0)">1</method>
+			<method name="public void setQuotaUsedForThisRequest(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.Get</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public jp.yahooapis.im.v4.SearchKeywordIdeaSelector getSelector()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSelector(jp.yahooapis.im.v4.SearchKeywordIdeaSelector arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.Error</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public void setDetail(jp.yahooapis.im.v4.ErrorDetail arg0)">1</method>
+			<method name="public jp.yahooapis.im.v4.ErrorDetail getDetail()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.SearchKeywordIdea</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSearchKeywordId(Long arg0)">1</method>
+			<method name="public String getSearchKeyword()">1</method>
+			<method name="public void setSearchKeyword(String arg0)">1</method>
+			<method name="public void setDesktopSearchVolume(Long arg0)">1</method>
+			<method name="public Long getTabletSearchVolume()">1</method>
+			<method name="public Long getSmartPhoneSearchVolume()">1</method>
+			<method name="public Long getDesktopSearchVolume()">1</method>
+			<method name="public void setSmartPhoneSearchVolume(Long arg0)">1</method>
+			<method name="public void setTabletSearchVolume(Long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Long getSearchKeywordId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.ApiException</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, String arg1, Throwable arg2)">0</method>
+			<method name="public String getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, String arg1)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.ObjectFactory</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>28</rfc>
+		<lcom>99</lcom>
+		<ca>0</ca>
+		<ce>10</ce>
+		<npm>14</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.30357142857142855</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.733333333333333</amc>
+		<cc>
+			<method name="public jp.yahooapis.im.v4.GetResponse createGetResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApiExceptionFault(String arg0)">1</method>
+			<method name="public jp.yahooapis.im.v4.SearchKeywordIdeaPage createSearchKeywordIdeaPage()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createResponseHeader(jp.yahooapis.im.v4.SoapResponseHeader arg0)">1</method>
+			<method name="public jp.yahooapis.im.v4.SearchKeywordIdea createSearchKeywordIdea()">1</method>
+			<method name="public jp.yahooapis.im.v4.SoapResponseHeader createSoapResponseHeader()">1</method>
+			<method name="public jp.yahooapis.im.v4.SoapHeader createSoapHeader()">1</method>
+			<method name="public jp.yahooapis.im.v4.SearchKeywordIdeaValues createSearchKeywordIdeaValues()">1</method>
+			<method name="public jp.yahooapis.im.v4.Get createGet()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRequestHeader(jp.yahooapis.im.v4.SoapHeader arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public jp.yahooapis.im.v4.Error createError()">1</method>
+			<method name="public jp.yahooapis.im.v4.SearchKeywordIdeaSelector createSearchKeywordIdeaSelector()">1</method>
+			<method name="public jp.yahooapis.im.v4.ErrorDetail createErrorDetail()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.GetResponse</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getError()">2</method>
+			<method name="public jp.yahooapis.im.v4.SearchKeywordIdeaPage getRval()">1</method>
+			<method name="public void setRval(jp.yahooapis.im.v4.SearchKeywordIdeaPage arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.SearchKeywordIdeaService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public jp.yahooapis.im.v4.SearchKeywordIdeaServiceInterface getSearchKeywordIdeaService()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public transient jp.yahooapis.im.v4.SearchKeywordIdeaServiceInterface getSearchKeywordIdeaService(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.SearchKeywordIdeaSelector</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getKeywords()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.Page</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public Integer getTotalNumEntries()">1</method>
+			<method name="public String getPageType()">1</method>
+			<method name="public void setPageType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTotalNumEntries(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.im.v4.SearchKeywordIdeaValues</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchKeywordIdea(jp.yahooapis.im.v4.SearchKeywordIdea arg0)">1</method>
+			<method name="public jp.yahooapis.im.v4.SearchKeywordIdea getSearchKeywordIdea()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

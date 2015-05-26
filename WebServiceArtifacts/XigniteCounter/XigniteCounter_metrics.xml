@@ -1,0 +1,992 @@
+	<class>
+		<name>com.xignite.services.GetStatusesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfAuditEntry getGetStatusesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetStatusesResult(com.xignite.services.ArrayOfAuditEntry arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AuditOutcomes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.xignite.services.AuditOutcomes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.AuditOutcomes[] values()">1</method>
+			<method name="public static com.xignite.services.AuditOutcomes valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfLogEntry</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getLogEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteCounterSoap</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>11</rfc>
+		<lcom>55</lcom>
+		<ca>1</ca>
+		<ce>7</ce>
+		<npm>11</npm>
+		<lcom3>2.0</lcom3>
+		<loc>11</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.42424242424242425</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.AuditEntry audit(String, String, com.xignite.services.AuditOutcomes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfAuditEntry getAudit(String)">1</method>
+			<method name="public abstract com.xignite.services.AuditEntry getStatus(String)">1</method>
+			<method name="public abstract com.xignite.services.LogEntry log(String, String, String, String, String, com.xignite.services.OutcomeTypes, double, boolean, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfAuditEntry getStatuses()">1</method>
+			<method name="public abstract com.xignite.services.AuditEntry setStatus(String, com.xignite.services.AuditOutcomes)">1</method>
+			<method name="public abstract com.xignite.services.AuditEntry getStatusWithMachineName(String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfAuditEntry getStatusesWithPattern(String)">1</method>
+			<method name="public abstract com.xignite.services.AuditEntry setStatusWithMachineName(String, String, com.xignite.services.AuditOutcomes)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfLogEntry getLog(String)">1</method>
+			<method name="public abstract com.xignite.services.DoubleResult deleteAudit(String, boolean)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetStatusesWithPatternResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetStatusesWithPatternResult(com.xignite.services.ArrayOfAuditEntry arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfAuditEntry getGetStatusesWithPatternResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AuditEntry</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>7</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setResult(com.xignite.services.AuditOutcomes arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public com.xignite.services.AuditOutcomes getResult()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setTime(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTime()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DoubleResult</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public String getValueDate()">1</method>
+			<method name="public void setValueDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public double getValue()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DeleteAuditResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.DoubleResult getDeleteAuditResult()">1</method>
+			<method name="public void setDeleteAuditResult(com.xignite.services.DoubleResult arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetStatusWithMachineName</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setMachine(String arg0)">1</method>
+			<method name="public String getMachine()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfAuditEntry</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAuditEntry()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.LogResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLogResult(com.xignite.services.LogEntry arg0)">1</method>
+			<method name="public com.xignite.services.LogEntry getLogResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetStatusesWithPattern</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getPattern()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPattern(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.LogEntry</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49019607843137253</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setUserIp(String arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOperationOutcome()">1</method>
+			<method name="public String getServerIp()">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getUserIp()">1</method>
+			<method name="public void setOperationOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setTime(String arg0)">1</method>
+			<method name="public void setMethod(String arg0)">1</method>
+			<method name="public void setParameters(String arg0)">1</method>
+			<method name="public String getParameters()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTime()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public void setServerIp(String arg0)">1</method>
+			<method name="public String getMethod()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetStatuses</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLog</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCategory(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCategory()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetAuditResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfAuditEntry getGetAuditResult()">1</method>
+			<method name="public void setGetAuditResult(com.xignite.services.ArrayOfAuditEntry arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLogResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLogResult(com.xignite.services.ArrayOfLogEntry arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfLogEntry getGetLogResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AuditResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAuditResult(com.xignite.services.AuditEntry arg0)">1</method>
+			<method name="public com.xignite.services.AuditEntry getAuditResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SetStatusWithMachineName</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setResult(com.xignite.services.AuditOutcomes arg0)">1</method>
+			<method name="public void setMachine(String arg0)">1</method>
+			<method name="public String getMachine()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public com.xignite.services.AuditOutcomes getResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetStatusResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.AuditEntry getGetStatusResult()">1</method>
+			<method name="public void setGetStatusResult(com.xignite.services.AuditEntry arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteCounter</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public com.xignite.services.XigniteCounterSoap getXigniteCounterSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="public transient com.xignite.services.XigniteCounterSoap getXigniteCounterSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetAudit</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SetStatus</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setResult(com.xignite.services.AuditOutcomes arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public com.xignite.services.AuditOutcomes getResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetStatus</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SetStatusResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSetStatusResult(com.xignite.services.AuditEntry arg0)">1</method>
+			<method name="public com.xignite.services.AuditEntry getSetStatusResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DeleteAudit</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSuccessOnly(boolean arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isSuccessOnly()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>35</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>28</cbo>
+		<rfc>66</rfc>
+		<lcom>585</lcom>
+		<ca>0</ca>
+		<ce>28</ce>
+		<npm>34</npm>
+		<lcom3>0.9705882352941176</lcom3>
+		<loc>226</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.19117647058823528</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.314285714285714</amc>
+		<cc>
+			<method name="public com.xignite.services.GetStatusesResponse createGetStatusesResponse()">1</method>
+			<method name="public com.xignite.services.GetStatuses createGetStatuses()">1</method>
+			<method name="public com.xignite.services.DeleteAuditResponse createDeleteAuditResponse()">1</method>
+			<method name="public com.xignite.services.GetStatusesWithPatternResponse createGetStatusesWithPatternResponse()">1</method>
+			<method name="public com.xignite.services.GetStatus createGetStatus()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfAuditEntry(com.xignite.services.ArrayOfAuditEntry arg0)">1</method>
+			<method name="public com.xignite.services.SetStatusWithMachineNameResponse createSetStatusWithMachineNameResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfLogEntry createArrayOfLogEntry()">1</method>
+			<method name="public com.xignite.services.AuditEntry createAuditEntry()">1</method>
+			<method name="public com.xignite.services.GetAudit createGetAudit()">1</method>
+			<method name="public com.xignite.services.GetStatusResponse createGetStatusResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuditEntry(com.xignite.services.AuditEntry arg0)">1</method>
+			<method name="public com.xignite.services.GetStatusWithMachineNameResponse createGetStatusWithMachineNameResponse()">1</method>
+			<method name="public com.xignite.services.AuditResponse createAuditResponse()">1</method>
+			<method name="public com.xignite.services.SetStatusWithMachineName createSetStatusWithMachineName()">1</method>
+			<method name="public com.xignite.services.GetLogResponse createGetLogResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfAuditEntry createArrayOfAuditEntry()">1</method>
+			<method name="public com.xignite.services.LogResponse createLogResponse()">1</method>
+			<method name="public com.xignite.services.DoubleResult createDoubleResult()">1</method>
+			<method name="public com.xignite.services.Audit createAudit()">1</method>
+			<method name="public com.xignite.services.GetStatusesWithPattern createGetStatusesWithPattern()">1</method>
+			<method name="public com.xignite.services.LogEntry createLogEntry()">1</method>
+			<method name="public com.xignite.services.DeleteAudit createDeleteAudit()">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.GetAuditResponse createGetAuditResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDoubleResult(com.xignite.services.DoubleResult arg0)">1</method>
+			<method name="public com.xignite.services.SetStatus createSetStatus()">1</method>
+			<method name="public com.xignite.services.SetStatusResponse createSetStatusResponse()">1</method>
+			<method name="public com.xignite.services.GetLog createGetLog()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createLogEntry(com.xignite.services.LogEntry arg0)">1</method>
+			<method name="public com.xignite.services.Log createLog()">1</method>
+			<method name="public com.xignite.services.GetStatusWithMachineName createGetStatusWithMachineName()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfLogEntry(com.xignite.services.ArrayOfLogEntry arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Audit</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setResult(com.xignite.services.AuditOutcomes arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public com.xignite.services.AuditOutcomes getResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SetStatusWithMachineNameResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSetStatusWithMachineNameResult(com.xignite.services.AuditEntry arg0)">1</method>
+			<method name="public com.xignite.services.AuditEntry getSetStatusWithMachineNameResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetStatusWithMachineNameResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.AuditEntry getGetStatusWithMachineNameResult()">1</method>
+			<method name="public void setGetStatusWithMachineNameResult(com.xignite.services.AuditEntry arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Log</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29473684210526313</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public void setUserIp(String arg0)">1</method>
+			<method name="public String getServerIp()">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public void setSubscriber(boolean arg0)">1</method>
+			<method name="public String getUserIp()">1</method>
+			<method name="public boolean isSubscriber()">1</method>
+			<method name="public void setCategory(String arg0)">1</method>
+			<method name="public void setMethod(String arg0)">1</method>
+			<method name="public void setParameters(String arg0)">1</method>
+			<method name="public String getParameters()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public String getCategory()">1</method>
+			<method name="public void setServerIp(String arg0)">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public String getMethod()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>3</noc>
+		<cbo>5</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>

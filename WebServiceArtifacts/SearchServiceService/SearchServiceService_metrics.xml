@@ -1,0 +1,2076 @@
+	<class>
+		<name>nl.textkernel.home.search.SearchRequest</name>
+		<wmc>18</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>20</rfc>
+		<lcom>137</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>18</npm>
+		<lcom3>0.9477124183006536</lcom3>
+		<loc>97</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.888888888888889</amc>
+		<cc>
+			<method name="public Boolean isSuppressResultList()">1</method>
+			<method name="public void setInputLanguage(String arg0)">1</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public Integer getResultOffset()">1</method>
+			<method name="public Boolean isSuppressCorrection()">1</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public void setResultOffset(Integer arg0)">1</method>
+			<method name="public void setSuppressCorrection(Boolean arg0)">1</method>
+			<method name="public String getOutputLanguage()">1</method>
+			<method name="public void setOutputLanguage(String arg0)">1</method>
+			<method name="public void setSuppressResultList(Boolean arg0)">1</method>
+			<method name="public void setSearchEngine(String arg0)">1</method>
+			<method name="public void setProvideTagcloud(String arg0)">1</method>
+			<method name="public String getInputLanguage()">1</method>
+			<method name="public String getProvideTagcloud()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getQueryParts()">2</method>
+			<method name="public String getSearchEngine()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearcherMetadata$ResultFieldLabels</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CompositeMetadata$FieldNameLabels$Entry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearcherMetadata</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>29</rfc>
+		<lcom>329</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>27</npm>
+		<lcom3>0.9717948717948718</lcom3>
+		<loc>166</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2345679012345679</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.592592592592593</amc>
+		<cc>
+			<method name="public String getIcon()">1</method>
+			<method name="public void setIcon(String arg0)">1</method>
+			<method name="public void setLabel(String arg0)">1</method>
+			<method name="public String getLabel()">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public java.util.List getNonApplicableFields()">2</method>
+			<method name="public void setNonAutomatic(boolean arg0)">1</method>
+			<method name="public int getPageSize()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public boolean isHasQueryPartScoring()">1</method>
+			<method name="public nl.textkernel.home.search.SearcherMetadata$ResultFieldLabels getResultFieldLabels()">1</method>
+			<method name="public boolean isHasScoring()">1</method>
+			<method name="public Integer getMaxDisplayedMatchSize()">1</method>
+			<method name="public String getShortLabel()">1</method>
+			<method name="public void setHasScoring(boolean arg0)">1</method>
+			<method name="public boolean isNonAutomatic()">1</method>
+			<method name="public void setShowLabelInTooltip(boolean arg0)">1</method>
+			<method name="public java.util.List getResultFields()">2</method>
+			<method name="public void setHasQueryPartScoring(boolean arg0)">1</method>
+			<method name="public boolean isShowLabelInTooltip()">1</method>
+			<method name="public void setPageSize(int arg0)">1</method>
+			<method name="public void setMaxDisplayedMatchSize(Integer arg0)">1</method>
+			<method name="public void setResultFieldLabels(nl.textkernel.home.search.SearcherMetadata$ResultFieldLabels arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setShortLabel(String arg0)">1</method>
+			<method name="public java.util.List getDocumentIdLinks()">2</method>
+			<method name="public java.util.List getActionLinks()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ItemCountMap$ItemCounts$Entry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getValue()">1</method>
+			<method name="public void setValue(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchResult$FacetCounts$Entry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.ItemCountMap getValue()">1</method>
+			<method name="public void setValue(nl.textkernel.home.search.ItemCountMap arg0)">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CompositeMetadata$LinkNameLabels$Entry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CredentialsMap</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ErrorCode</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9945945945945945</lcom3>
+		<loc>427</loc>
+		<dam>0.02702702702702703</dam>
+		<moa>37</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>64.0</amc>
+		<cc>
+			<method name="public static nl.textkernel.home.search.ErrorCode valueOf(String arg0)">1</method>
+			<method name="public static nl.textkernel.home.search.ErrorCode fromValue(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static nl.textkernel.home.search.ErrorCode[] values()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CompositeMetadata$LinkNameLabels</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.java.dev.jaxb.array.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>net.java.dev.jaxb.array.ObjectFactory</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>9</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.5</amc>
+		<cc>
+			<method name="public net.java.dev.jaxb.array.StringArray createStringArray()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.SearchResult getReturn()">1</method>
+			<method name="public void setReturn(nl.textkernel.home.search.SearchResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.QueryPart</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34375</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public java.util.List getItems()">2</method>
+			<method name="public double getWeight()">1</method>
+			<method name="public void setCondition(nl.textkernel.home.search.Condition arg0)">1</method>
+			<method name="public void setWeight(double arg0)">1</method>
+			<method name="public void setField(String arg0)">1</method>
+			<method name="public nl.textkernel.home.search.Condition getCondition()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getField()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ActionItem</name>
+		<wmc>42</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>44</rfc>
+		<lcom>821</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>42</npm>
+		<lcom3>0.9767711962833915</lcom3>
+		<loc>217</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.6666666666666665</amc>
+		<cc>
+			<method name="public Boolean isIncludeState()">1</method>
+			<method name="public void setLabel(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public void setPrefix(String arg0)">1</method>
+			<method name="public String getLabel()">1</method>
+			<method name="public void setExtraParameters(String arg0)">1</method>
+			<method name="public void setIncludeFields(String arg0)">1</method>
+			<method name="public void setAllowNoSelection(Boolean arg0)">1</method>
+			<method name="public void setNoSelectionMessage(String arg0)">1</method>
+			<method name="public void setMethod(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void setWindow(String arg0)">1</method>
+			<method name="public void setRequiredParameter(String arg0)">1</method>
+			<method name="public String getIncludeFields()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getSuccessMessage()">1</method>
+			<method name="public String getWindow()">1</method>
+			<method name="public void setIncludeState(Boolean arg0)">1</method>
+			<method name="public String getSelectionParameter()">1</method>
+			<method name="public Boolean isHideOnCompareView()">1</method>
+			<method name="public void setHideOnSearchResults(Boolean arg0)">1</method>
+			<method name="public void setSuccessMessage(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getFunction()">1</method>
+			<method name="public String getExtraParameters()">1</method>
+			<method name="public String getPrefix()">1</method>
+			<method name="public String getUrl()">1</method>
+			<method name="public Boolean isAllowNoSelection()">1</method>
+			<method name="public String getRequiredParameter()">1</method>
+			<method name="public void setSelectionParameter(String arg0)">1</method>
+			<method name="public Boolean isHideOnSearchResults()">1</method>
+			<method name="public void setHideOnSavedResults(Boolean arg0)">1</method>
+			<method name="public void setHideOnCompareView(Boolean arg0)">1</method>
+			<method name="public void setAjaxMethod(String arg0)">1</method>
+			<method name="public String getNoSelectionMessage()">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void setFunction(String arg0)">1</method>
+			<method name="public Boolean isHideOnSavedResults()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMethod()">1</method>
+			<method name="public String getAjaxMethod()">1</method>
+			<method name="public java.util.List getActionLinks()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CompositeMetadata$SearcherMetadata</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ItemCountMap</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setItemCounts(nl.textkernel.home.search.ItemCountMap$ItemCounts arg0)">1</method>
+			<method name="public nl.textkernel.home.search.ItemCountMap$ItemCounts getItemCounts()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchResult$Synonyms$Entry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public nl.textkernel.home.search.SynonymSectionArray getValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setValue(nl.textkernel.home.search.SynonymSectionArray arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SavingConfig</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setTaggingEnabled(boolean arg0)">1</method>
+			<method name="public boolean isDisableResults()">1</method>
+			<method name="public String getProjectLinkPrefix()">1</method>
+			<method name="public String getProjectLinkTarget()">1</method>
+			<method name="public boolean isSharingEnabled()">1</method>
+			<method name="public void setDisableQueries(boolean arg0)">1</method>
+			<method name="public void setDontKnowEnabled(boolean arg0)">1</method>
+			<method name="public boolean isDisableQueries()">1</method>
+			<method name="public void setProjectLinkPrefix(String arg0)">1</method>
+			<method name="public void setSharingEnabled(boolean arg0)">1</method>
+			<method name="public boolean isDisableProjects()">1</method>
+			<method name="public void setDisableProjects(boolean arg0)">1</method>
+			<method name="public void setProjectLinkTarget(String arg0)">1</method>
+			<method name="public boolean isEnableAssessments()">1</method>
+			<method name="public void setDisableResults(boolean arg0)">1</method>
+			<method name="public boolean isTaggingEnabled()">1</method>
+			<method name="public void setSharingRequestidentitiesURL(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isDontKnowEnabled()">1</method>
+			<method name="public void setEnableAssessments(boolean arg0)">1</method>
+			<method name="public String getSharingRequestidentitiesURL()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.StringMapEntry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Search</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>37</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>10</npm>
+		<lcom3>0.911111111111111</lcom3>
+		<loc>57</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.2</amc>
+		<cc>
+			<method name="public String getEnvironment()">1</method>
+			<method name="public void setEnvironment(String arg0)">1</method>
+			<method name="public java.util.List getAccessRoles()">2</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public nl.textkernel.home.search.AccessOptions getAccessOptions()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public nl.textkernel.home.search.SearchRequest getRequest()">1</method>
+			<method name="public void setAccessOptions(nl.textkernel.home.search.AccessOptions arg0)">1</method>
+			<method name="public void setRequest(nl.textkernel.home.search.SearchRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.GetMetadataResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.CompositeMetadata getReturn()">1</method>
+			<method name="public void setReturn(nl.textkernel.home.search.CompositeMetadata arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearcherMetadata$ResultFieldLabels$Entry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CompositeMetadata$FieldNameLabels</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ItemCountMap$ItemCounts</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.StringMap</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Condition</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.96</lcom3>
+		<loc>75</loc>
+		<dam>0.2</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>10.666666666666666</amc>
+		<cc>
+			<method name="public static nl.textkernel.home.search.Condition valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static nl.textkernel.home.search.Condition[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static nl.textkernel.home.search.Condition fromValue(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CredentialsMapEntry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.Credentials getValue()">1</method>
+			<method name="public void setValue(nl.textkernel.home.search.Credentials arg0)">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Facet</name>
+		<wmc>30</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>32</rfc>
+		<lcom>409</lcom>
+		<ca>1</ca>
+		<ce>5</ce>
+		<npm>30</npm>
+		<lcom3>0.9719827586206896</lcom3>
+		<loc>173</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.17916666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.233333333333333</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.Condition getDefaultCondition()">1</method>
+			<method name="public void setHideFacetIfAllZero(Boolean arg0)">1</method>
+			<method name="public Boolean isReverseItemOrder()">1</method>
+			<method name="public void setField(String arg0)">1</method>
+			<method name="public void setGuiType(nl.textkernel.home.search.Guitype arg0)">1</method>
+			<method name="public nl.textkernel.home.search.Cloudtype getCloudType()">1</method>
+			<method name="public nl.textkernel.home.search.Datatype getDataType()">1</method>
+			<method name="public nl.textkernel.home.search.Combinationtype getCombinationType()">1</method>
+			<method name="public java.util.List getItems()">2</method>
+			<method name="public void setReverseItemOrder(Boolean arg0)">1</method>
+			<method name="public void setCombinationType(nl.textkernel.home.search.Combinationtype arg0)">1</method>
+			<method name="public String getGroupName()">1</method>
+			<method name="public nl.textkernel.home.search.Guitype getGuiType()">1</method>
+			<method name="public Boolean isCollapsed()">1</method>
+			<method name="public String getField()">1</method>
+			<method name="public void setDefaultCondition(nl.textkernel.home.search.Condition arg0)">1</method>
+			<method name="public void setTextInputOnFacet(Boolean arg0)">1</method>
+			<method name="public Boolean isTextInputOnFacet()">1</method>
+			<method name="public void setGroupName(String arg0)">1</method>
+			<method name="public Boolean isHideFacetIfAllZero()">1</method>
+			<method name="public void setCloudType(nl.textkernel.home.search.Cloudtype arg0)">1</method>
+			<method name="public Boolean isHideZeroCountItems()">1</method>
+			<method name="public void setDataType(nl.textkernel.home.search.Datatype arg0)">1</method>
+			<method name="public void setHideConditionWidget(Boolean arg0)">1</method>
+			<method name="public java.util.List getDistances()">2</method>
+			<method name="public void setCollapsed(Boolean arg0)">1</method>
+			<method name="public void setHideZeroCountItems(Boolean arg0)">1</method>
+			<method name="public java.util.List getChildFacets()">2</method>
+			<method name="public Boolean isHideConditionWidget()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.UserOptions</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setEmailAddresses(String arg0)">1</method>
+			<method name="public String getEmailAddresses()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchResult$Synonyms</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchServiceService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient nl.textkernel.home.search.SearchService getSearchServicePort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public nl.textkernel.home.search.SearchService getSearchServicePort()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Combinationtype</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.95</lcom3>
+		<loc>64</loc>
+		<dam>0.25</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>9.0</amc>
+		<cc>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static nl.textkernel.home.search.Combinationtype valueOf(String arg0)">1</method>
+			<method name="public static nl.textkernel.home.search.Combinationtype fromValue(String arg0)">1</method>
+			<method name="public static nl.textkernel.home.search.Combinationtype[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Tagcloud</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>7</rfc>
+		<lcom>8</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.9166666666666667</lcom3>
+		<loc>40</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.4</amc>
+		<cc>
+			<method name="public java.util.List getItems()">2</method>
+			<method name="public java.util.List getWeights()">2</method>
+			<method name="public void setField(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getField()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Datatype</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9666666666666666</lcom3>
+		<loc>86</loc>
+		<dam>0.16666666666666666</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static nl.textkernel.home.search.Datatype[] values()">1</method>
+			<method name="public static nl.textkernel.home.search.Datatype fromValue(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static nl.textkernel.home.search.Datatype valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchWithTokenResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.SearchResult getReturn()">1</method>
+			<method name="public void setReturn(nl.textkernel.home.search.SearchResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchService</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>6</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract nl.textkernel.home.search.SearchResult searchWithToken(String, nl.textkernel.home.search.SearchRequest)">1</method>
+			<method name="public abstract nl.textkernel.home.search.CompositeMetadata getMetadata(String, String, nl.textkernel.home.search.AccessOptions, String, nl.textkernel.home.search.UserOptions, java.util.List)">1</method>
+			<method name="public abstract nl.textkernel.home.search.CompositeMetadata getMetadataWithToken(String, String)">1</method>
+			<method name="public abstract nl.textkernel.home.search.SearchResult searchWithState(String, String, java.util.List, nl.textkernel.home.search.AccessOptions, String, String, String)">1</method>
+			<method name="public abstract nl.textkernel.home.search.SearchResult search(String, String, java.util.List, nl.textkernel.home.search.AccessOptions, nl.textkernel.home.search.SearchRequest)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Cloudtype</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static nl.textkernel.home.search.Cloudtype valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static nl.textkernel.home.search.Cloudtype[] values()">1</method>
+			<method name="public static nl.textkernel.home.search.Cloudtype fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ObjectFactory</name>
+		<wmc>67</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>52</cbo>
+		<rfc>122</rfc>
+		<lcom>2185</lcom>
+		<ca>0</ca>
+		<ce>52</ce>
+		<npm>66</npm>
+		<lcom3>0.9848484848484849</lcom3>
+		<loc>474</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0854978354978355</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.880597014925373</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.SearchWithState createSearchWithState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAccessOptionsExternalTokens(nl.textkernel.home.search.StringMap arg0)">1</method>
+			<method name="public nl.textkernel.home.search.QueryPart createQueryPart()">1</method>
+			<method name="public nl.textkernel.home.search.SearchResult$FacetCounts$Entry createSearchResultFacetCountsEntry()">1</method>
+			<method name="public nl.textkernel.home.search.GetMetadataWithToken createGetMetadataWithToken()">1</method>
+			<method name="public nl.textkernel.home.search.StringMapEntry createStringMapEntry()">1</method>
+			<method name="public nl.textkernel.home.search.SavingConfig createSavingConfig()">1</method>
+			<method name="public nl.textkernel.home.search.Search createSearch()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetMetadataWithToken(nl.textkernel.home.search.GetMetadataWithToken arg0)">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$FieldNameLabels createCompositeMetadataFieldNameLabels()">1</method>
+			<method name="public nl.textkernel.home.search.SearchWithToken createSearchWithToken()">1</method>
+			<method name="public nl.textkernel.home.search.ResultField createResultField()">1</method>
+			<method name="public nl.textkernel.home.search.SearchResult$Synonyms$Entry createSearchResultSynonymsEntry()">1</method>
+			<method name="public nl.textkernel.home.search.SearchResult$Synonyms createSearchResultSynonyms()">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$FieldNameLabels$Entry createCompositeMetadataFieldNameLabelsEntry()">1</method>
+			<method name="public nl.textkernel.home.search.SearchWithStateResponse createSearchWithStateResponse()">1</method>
+			<method name="public nl.textkernel.home.search.SearcherMetadata createSearcherMetadata()">1</method>
+			<method name="public nl.textkernel.home.search.GetMetadataResponse createGetMetadataResponse()">1</method>
+			<method name="public nl.textkernel.home.search.ActionItem createActionItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchWithStateResponse(nl.textkernel.home.search.SearchWithStateResponse arg0)">1</method>
+			<method name="public nl.textkernel.home.search.SearchResult$FacetCounts createSearchResultFacetCounts()">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$SearcherMetadata$Entry createCompositeMetadataSearcherMetadataEntry()">1</method>
+			<method name="public nl.textkernel.home.search.ItemCountMap$ItemCounts$Entry createItemCountMapItemCountsEntry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchResponse(nl.textkernel.home.search.SearchResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetMetadataResponse(nl.textkernel.home.search.GetMetadataResponse arg0)">1</method>
+			<method name="public nl.textkernel.home.search.SearchResult createSearchResult()">1</method>
+			<method name="public nl.textkernel.home.search.SynonymItem createSynonymItem()">1</method>
+			<method name="public nl.textkernel.home.search.StringMap createStringMap()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearch(nl.textkernel.home.search.Search arg0)">1</method>
+			<method name="public nl.textkernel.home.search.Credentials createCredentials()">1</method>
+			<method name="public nl.textkernel.home.search.ItemCountMap$ItemCounts createItemCountMapItemCounts()">1</method>
+			<method name="public nl.textkernel.home.search.CredentialsMapEntry createCredentialsMapEntry()">1</method>
+			<method name="public nl.textkernel.home.search.FaultBean createFaultBean()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchBoxException(nl.textkernel.home.search.FaultBean arg0)">1</method>
+			<method name="public nl.textkernel.home.search.ResultItem createResultItem()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public nl.textkernel.home.search.SearcherMetadata$ResultFieldLabels$Entry createSearcherMetadataResultFieldLabelsEntry()">1</method>
+			<method name="public nl.textkernel.home.search.UserOptions createUserOptions()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetMetadata(nl.textkernel.home.search.GetMetadata arg0)">1</method>
+			<method name="public nl.textkernel.home.search.AccessOptions createAccessOptions()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAccessOptionsSearcherAccess(nl.textkernel.home.search.CredentialsMap arg0)">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$SearcherMetadata createCompositeMetadataSearcherMetadata()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetMetadataWithTokenResponse(nl.textkernel.home.search.GetMetadataWithTokenResponse arg0)">1</method>
+			<method name="public nl.textkernel.home.search.ActionLink createActionLink()">1</method>
+			<method name="public nl.textkernel.home.search.SearchRequest createSearchRequest()">1</method>
+			<method name="public nl.textkernel.home.search.DocumentIdItem createDocumentIdItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchWithToken(nl.textkernel.home.search.SearchWithToken arg0)">1</method>
+			<method name="public nl.textkernel.home.search.Tagcloud createTagcloud()">1</method>
+			<method name="public nl.textkernel.home.search.DocumentIdLink createDocumentIdLink()">1</method>
+			<method name="public nl.textkernel.home.search.SearchResponse createSearchResponse()">1</method>
+			<method name="public nl.textkernel.home.search.HeaderLink createHeaderLink()">1</method>
+			<method name="public nl.textkernel.home.search.ItemCountMap createItemCountMap()">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata createCompositeMetadata()">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$LinkNameLabels$Entry createCompositeMetadataLinkNameLabelsEntry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchWithState(nl.textkernel.home.search.SearchWithState arg0)">1</method>
+			<method name="public nl.textkernel.home.search.CredentialsMap createCredentialsMap()">1</method>
+			<method name="public nl.textkernel.home.search.SearchWithTokenResponse createSearchWithTokenResponse()">1</method>
+			<method name="public nl.textkernel.home.search.QueryPartItem createQueryPartItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchWithTokenResponse(nl.textkernel.home.search.SearchWithTokenResponse arg0)">1</method>
+			<method name="public nl.textkernel.home.search.SynonymSection createSynonymSection()">1</method>
+			<method name="public nl.textkernel.home.search.GetMetadata createGetMetadata()">1</method>
+			<method name="public nl.textkernel.home.search.GetMetadataWithTokenResponse createGetMetadataWithTokenResponse()">1</method>
+			<method name="public nl.textkernel.home.search.SynonymSectionArray createSynonymSectionArray()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$LinkNameLabels createCompositeMetadataLinkNameLabels()">1</method>
+			<method name="public nl.textkernel.home.search.SearcherMetadata$ResultFieldLabels createSearcherMetadataResultFieldLabels()">1</method>
+			<method name="public nl.textkernel.home.search.Facet createFacet()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchWithToken</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getAccessToken()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public nl.textkernel.home.search.SearchRequest getRequest()">1</method>
+			<method name="public void setAccessToken(String arg0)">1</method>
+			<method name="public void setRequest(nl.textkernel.home.search.SearchRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.AccessOptions</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setExternalTokens(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSearcherAccess(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getExternalTokens()">1</method>
+			<method name="public void setAssessmentAccess(boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSearcherAccess()">1</method>
+			<method name="public void setReportingAccess(boolean arg0)">1</method>
+			<method name="public boolean isReportingAccess()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isAssessmentAccess()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchBoxException</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.FaultBean getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, nl.textkernel.home.search.FaultBean arg1)">0</method>
+			<method name="public void _init_(String arg0, nl.textkernel.home.search.FaultBean arg1, Throwable arg2)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ResultField</name>
+		<wmc>26</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>28</rfc>
+		<lcom>301</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>26</npm>
+		<lcom3>0.963076923076923</lcom3>
+		<loc>137</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.769230769230769</amc>
+		<cc>
+			<method name="public String getIcon()">1</method>
+			<method name="public void setIcon(String arg0)">1</method>
+			<method name="public java.util.List getHighlightAsFields()">2</method>
+			<method name="public Boolean isIncludeState()">1</method>
+			<method name="public void setPrefix(String arg0)">1</method>
+			<method name="public void setExtraParameters(String arg0)">1</method>
+			<method name="public Boolean isOpenInModal()">1</method>
+			<method name="public Boolean isHighlight()">1</method>
+			<method name="public void setOpenInModal(Boolean arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setDisplayType(String arg0)">1</method>
+			<method name="public Boolean isIncludeAccessToken()">1</method>
+			<method name="public String getTarget()">1</method>
+			<method name="public void setIncludeState(Boolean arg0)">1</method>
+			<method name="public void setDateFormat(String arg0)">1</method>
+			<method name="public Boolean isIncludeKeywords()">1</method>
+			<method name="public String getDisplayType()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getExtraParameters()">1</method>
+			<method name="public String getPrefix()">1</method>
+			<method name="public void setIncludeKeywords(Boolean arg0)">1</method>
+			<method name="public String getDateFormat()">1</method>
+			<method name="public void setIncludeAccessToken(Boolean arg0)">1</method>
+			<method name="public void setTarget(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHighlight(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SynonymItem</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public String getLang()">1</method>
+			<method name="public void setAutoExpansion(boolean arg0)">1</method>
+			<method name="public java.util.List getValues()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLang(String arg0)">1</method>
+			<method name="public boolean isAutoExpansion()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Credentials</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.DocumentIdItem</name>
+		<wmc>24</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>26</rfc>
+		<lcom>254</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>24</npm>
+		<lcom3>0.9601449275362318</lcom3>
+		<loc>127</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4861111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.7916666666666665</amc>
+		<cc>
+			<method name="public String getIcon()">1</method>
+			<method name="public Boolean isIncludeAccessToken()">1</method>
+			<method name="public String getTarget()">1</method>
+			<method name="public void setIcon(String arg0)">1</method>
+			<method name="public void setIncludeState(Boolean arg0)">1</method>
+			<method name="public Boolean isIncludeState()">1</method>
+			<method name="public void setLabel(String arg0)">1</method>
+			<method name="public void setPrefix(String arg0)">1</method>
+			<method name="public String getLabel()">1</method>
+			<method name="public void setExtraParameters(String arg0)">1</method>
+			<method name="public Boolean isIncludeKeywords()">1</method>
+			<method name="public Boolean isOpenInModal()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public Boolean isHighlight()">1</method>
+			<method name="public void setOpenInModal(Boolean arg0)">1</method>
+			<method name="public String getExtraParameters()">1</method>
+			<method name="public String getPrefix()">1</method>
+			<method name="public void setIncludeKeywords(Boolean arg0)">1</method>
+			<method name="public void setIncludeAccessToken(Boolean arg0)">1</method>
+			<method name="public void setTarget(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHighlight(Boolean arg0)">1</method>
+			<method name="public java.util.List getDocumentIdLinks()">2</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CompositeMetadata$SearcherMetadata$Entry</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.SearcherMetadata getValue()">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setValue(nl.textkernel.home.search.SearcherMetadata arg0)">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SynonymSectionArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.HeaderLink</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getTarget()">1</method>
+			<method name="public void setLabel(String arg0)">1</method>
+			<method name="public String getLabel()">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setTarget(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.CompositeMetadata</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>31</rfc>
+		<lcom>382</lcom>
+		<ca>4</ca>
+		<ce>4</ce>
+		<npm>29</npm>
+		<lcom3>0.9732142857142857</lcom3>
+		<loc>176</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2019704433497537</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.517241379310345</amc>
+		<cc>
+			<method name="public boolean isHasEmailAddressesOnToken()">1</method>
+			<method name="public java.util.List getAutoCompleteFields()">2</method>
+			<method name="public void setHasUserLogging(boolean arg0)">1</method>
+			<method name="public java.util.List getFacets()">2</method>
+			<method name="public void setHasEmailAddressesOnToken(boolean arg0)">1</method>
+			<method name="public boolean isHasReportingAccess()">1</method>
+			<method name="public java.util.List getRelevanceLabels()">2</method>
+			<method name="public boolean isHasUserLogging()">1</method>
+			<method name="public void setHasAssessmentAccess(boolean arg0)">1</method>
+			<method name="public void setHasQueryExtractor(boolean arg0)">1</method>
+			<method name="public void setLinkNameLabels(nl.textkernel.home.search.CompositeMetadata$LinkNameLabels arg0)">1</method>
+			<method name="public void setHasDatabase(boolean arg0)">1</method>
+			<method name="public void setFieldNameLabels(nl.textkernel.home.search.CompositeMetadata$FieldNameLabels arg0)">1</method>
+			<method name="public void setHasEmailAlerts(boolean arg0)">1</method>
+			<method name="public void setSavingConfig(nl.textkernel.home.search.SavingConfig arg0)">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$FieldNameLabels getFieldNameLabels()">1</method>
+			<method name="public boolean isHasDatabase()">1</method>
+			<method name="public boolean isHasEmailAlerts()">1</method>
+			<method name="public boolean isHasAssessmentAccess()">1</method>
+			<method name="public void setHasReportingAccess(boolean arg0)">1</method>
+			<method name="public java.util.List getHeaderLinks()">2</method>
+			<method name="public boolean isHasQueryExtractor()">1</method>
+			<method name="public void setSearcherMetadata(nl.textkernel.home.search.CompositeMetadata$SearcherMetadata arg0)">1</method>
+			<method name="public String getDefaultSearcher()">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$LinkNameLabels getLinkNameLabels()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDefaultSearcher(String arg0)">1</method>
+			<method name="public nl.textkernel.home.search.SavingConfig getSavingConfig()">1</method>
+			<method name="public nl.textkernel.home.search.CompositeMetadata$SearcherMetadata getSearcherMetadata()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchWithState</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getLanguage()">1</method>
+			<method name="public String getEnvironment()">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public void setEnvironment(String arg0)">1</method>
+			<method name="public java.util.List getAccessRoles()">2</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public void setSearchEngine(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public nl.textkernel.home.search.AccessOptions getAccessOptions()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAccessOptions(nl.textkernel.home.search.AccessOptions arg0)">1</method>
+			<method name="public String getSearchEngine()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.GetMetadataWithTokenResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.CompositeMetadata getReturn()">1</method>
+			<method name="public void setReturn(nl.textkernel.home.search.CompositeMetadata arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.java.dev.jaxb.array.StringArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.Guitype</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9714285714285715</lcom3>
+		<loc>97</loc>
+		<dam>0.14285714285714285</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.0</amc>
+		<cc>
+			<method name="public static nl.textkernel.home.search.Guitype fromValue(String arg0)">1</method>
+			<method name="public static nl.textkernel.home.search.Guitype[] values()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static nl.textkernel.home.search.Guitype valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.GetMetadataWithToken</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getLanguage()">1</method>
+			<method name="public String getAccessToken()">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAccessToken(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.QueryPartItem</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getSynonyms()">2</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchWithStateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.SearchResult getReturn()">1</method>
+			<method name="public void setReturn(nl.textkernel.home.search.SearchResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.GetMetadata</name>
+		<wmc>12</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>56</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>12</npm>
+		<lcom3>0.9242424242424242</lcom3>
+		<loc>67</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3541666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.083333333333333</amc>
+		<cc>
+			<method name="public String getLanguage()">1</method>
+			<method name="public String getEnvironment()">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public void setEnvironment(String arg0)">1</method>
+			<method name="public java.util.List getAccessRoles()">2</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public nl.textkernel.home.search.AccessOptions getAccessOptions()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setAccessOptions(nl.textkernel.home.search.AccessOptions arg0)">1</method>
+			<method name="public nl.textkernel.home.search.UserOptions getUserOptions()">1</method>
+			<method name="public void setUserOptions(nl.textkernel.home.search.UserOptions arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ResultItem</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>9</rfc>
+		<lcom>17</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>50</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.42857142857142855</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.571428571428571</amc>
+		<cc>
+			<method name="public String getDocID()">1</method>
+			<method name="public float getScore()">1</method>
+			<method name="public java.util.List getFields()">2</method>
+			<method name="public void setScore(float arg0)">1</method>
+			<method name="public void setDocID(String arg0)">1</method>
+			<method name="public java.util.List getQueryPartScores()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SynonymSection</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public java.util.List getItems()">2</method>
+			<method name="public void setCollapsed(boolean arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public boolean isCollapsed()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchResult$FacetCounts</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getEntry()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.ActionLink</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.SearchResult</name>
+		<wmc>18</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>20</rfc>
+		<lcom>139</lcom>
+		<ca>5</ca>
+		<ce>3</ce>
+		<npm>18</npm>
+		<lcom3>0.9588235294117647</lcom3>
+		<loc>113</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1984126984126984</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.722222222222222</amc>
+		<cc>
+			<method name="public java.util.List getResultItems()">2</method>
+			<method name="public nl.textkernel.home.search.SearchResult$FacetCounts getFacetCounts()">1</method>
+			<method name="public boolean isIsOrCombined()">1</method>
+			<method name="public nl.textkernel.home.search.SearchResult$Synonyms getSynonyms()">1</method>
+			<method name="public long getMatchSize()">1</method>
+			<method name="public java.util.List getNewQueryParts()">2</method>
+			<method name="public void setHasMoreResults(boolean arg0)">1</method>
+			<method name="public void setFacetCounts(nl.textkernel.home.search.SearchResult$FacetCounts arg0)">1</method>
+			<method name="public void setMatchSize(long arg0)">1</method>
+			<method name="public void setTagcloud(nl.textkernel.home.search.Tagcloud arg0)">1</method>
+			<method name="public void setSearchEngine(String arg0)">1</method>
+			<method name="public void setIsOrCombined(boolean arg0)">1</method>
+			<method name="public boolean isHasMoreResults()">1</method>
+			<method name="public void setSynonyms(nl.textkernel.home.search.SearchResult$Synonyms arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public nl.textkernel.home.search.Tagcloud getTagcloud()">1</method>
+			<method name="public java.util.List getQueryParts()">2</method>
+			<method name="public String getSearchEngine()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.FaultBean</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public nl.textkernel.home.search.ErrorCode getErrorCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public void setErrorCode(nl.textkernel.home.search.ErrorCode arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>nl.textkernel.home.search.DocumentIdLink</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

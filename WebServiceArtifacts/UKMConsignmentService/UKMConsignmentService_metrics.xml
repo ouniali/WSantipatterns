@@ -1,0 +1,1868 @@
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.ObjectFactory</name>
+		<wmc>34</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>31</cbo>
+		<rfc>53</rfc>
+		<lcom>473</lcom>
+		<ca>0</ca>
+		<ce>31</ce>
+		<npm>33</npm>
+		<lcom3>0.9461279461279462</lcom3>
+		<loc>293</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0928030303030303</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.352941176470588</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createCancelConsignmentRequest(com.ukmail.services.contracts.datacontracts.CancelConsignmentWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddReturnToSenderResponse createAddReturnToSenderResponse()">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.CancelReturn createCancelReturn()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentResponseAddPacketConsignmentResult(com.ukmail.services.contracts.datacontracts.UKMAddPacketConsignmentWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelConsignmentResponseCancelConsignmentResult(com.ukmail.services.contracts.datacontracts.UKMCancelConsignmentWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddInternationalConsignmentRequest(com.ukmail.services.contracts.datacontracts.AddInternationalConsignmentWebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddInternationalConsignmentResponseAddInternationalConsignmentResult(com.ukmail.services.contracts.datacontracts.UKMAddInternationalConsignmentWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentDeferredResponseAddDomesticConsignmentDeferredResult(com.ukmail.services.contracts.datacontracts.UKMAddDomesticConsignmentWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelReturnRequest(com.ukmail.services.contracts.datacontracts.CancelReturnWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddDomesticConsignment createAddDomesticConsignment()">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddInternationalConsignmentResponse createAddInternationalConsignmentResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentDeferredRequest(com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentDeferredWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.CancelReturnResponse createCancelReturnResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddSendToThirdPartyRequest(com.ukmail.services.contracts.datacontracts.AddSendToThirdPartyWebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddSendToThirdPartyResponseAddSendToThirdPartyResult(com.ukmail.services.contracts.datacontracts.UKMAddSendToThirdPartyWebResponse arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddPacketConsignment createAddPacketConsignment()">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddDomesticConsignmentResponse createAddDomesticConsignmentResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentResponseAddDomesticConsignmentResult(com.ukmail.services.contracts.datacontracts.UKMAddDomesticConsignmentWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnToSenderResponseAddReturnToSenderResult(com.ukmail.services.contracts.datacontracts.UKMAddReturnToSenderWebResponse arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddPacketConsignmentResponse createAddPacketConsignmentResponse()">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddSendToThirdParty createAddSendToThirdParty()">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddSendToThirdPartyResponse createAddSendToThirdPartyResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentRequest(com.ukmail.services.contracts.datacontracts.AddPacketConsignmentWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.CancelConsignmentResponse createCancelConsignmentResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentRequest(com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddReturnToSender createAddReturnToSender()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnToSenderRequest(com.ukmail.services.contracts.datacontracts.AddReturnWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddDomesticConsignmentDeferred createAddDomesticConsignmentDeferred()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddDomesticConsignmentDeferredResponse createAddDomesticConsignmentDeferredResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelReturnResponseCancelReturnResult(com.ukmail.services.contracts.datacontracts.UKMCancelReturnWebResponse arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.CancelConsignment createCancelConsignment()">1</method>
+			<method name="public com.ukmail.services.contracts.servicecontracts.AddInternationalConsignment createAddInternationalConsignment()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddPacketConsignmentWebRequest</name>
+		<wmc>27</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37037037037037035</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public String getContactName()">1</method>
+			<method name="public String getAccountNumber()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDeliveryMessage2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAlternativeRef()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCustomersRef()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDeliveryMessage1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPacketLength()">1</method>
+			<method name="public String getCollectionJobNumber()">1</method>
+			<method name="public void setPacketHeight(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAccountNumber(String arg0)">1</method>
+			<method name="public void setAddress(com.ukmail.services.contracts.datacontracts.PacketAddressWebModel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPacketWidth()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPacketHeight()">1</method>
+			<method name="public void setWeightInGrams(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCollectionJobNumber(String arg0)">1</method>
+			<method name="public void setPacketLength(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCustomersRef(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setBusinessName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.PacketAddressWebModel getAddress()">1</method>
+			<method name="public void setDeliveryMessage2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDeliveryMessage1(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getWeightInGrams()">1</method>
+			<method name="public void setAlternativeRef(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getBusinessName()">1</method>
+			<method name="public void setPacketWidth(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setContactName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMWebWarning</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCode(Integer arg0)">1</method>
+			<method name="public void setDescription(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDescription()">1</method>
+			<method name="public Integer getCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.LabelFormatType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static com.ukmail.services.contracts.datacontracts.LabelFormatType[] values()">1</method>
+			<method name="public static com.ukmail.services.contracts.datacontracts.LabelFormatType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.ukmail.services.contracts.datacontracts.LabelFormatType fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddInternationalConsignmentWebRequest</name>
+		<wmc>27</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24691358024691357</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCurrencyCode()">1</method>
+			<method name="public int getWidth()">1</method>
+			<method name="public void setInFreeCirculationEU(boolean arg0)">1</method>
+			<method name="public void setNoDangerousGoods(boolean arg0)">1</method>
+			<method name="public boolean isDocumentsOnly()">1</method>
+			<method name="public void setCurrencyCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public boolean isExtendedCoverRequired()">1</method>
+			<method name="public int getLength()">1</method>
+			<method name="public void setGoodsDescription2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setGoodsDescription3(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setGoodsDescription1(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public boolean isNoDangerousGoods()">1</method>
+			<method name="public boolean isInFreeCirculationEU()">1</method>
+			<method name="public void setWidth(int arg0)">1</method>
+			<method name="public void setLength(int arg0)">1</method>
+			<method name="public int getHeight()">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.InvoiceTypeList getInvoiceType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGoodsDescription3()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGoodsDescription1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGoodsDescription2()">1</method>
+			<method name="public void setInvoiceType(com.ukmail.services.contracts.datacontracts.InvoiceTypeList arg0)">1</method>
+			<method name="public void setHeight(int arg0)">1</method>
+			<method name="public void setValue(java.math.BigDecimal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setExtendedCoverRequired(boolean arg0)">1</method>
+			<method name="public void setDocumentsOnly(boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddReturnToSenderResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAddReturnToSenderResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAddReturnToSenderResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddConsignmentWebRequest</name>
+		<wmc>31</wmc>
+		<dit>0</dit>
+		<noc>2</noc>
+		<cbo>5</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2119815668202765</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public int getItems()">1</method>
+			<method name="public void setEmail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getAccountNumber()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAlternativeRef()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCustomersRef()">1</method>
+			<method name="public String getCollectionJobNumber()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSpecialInstructions2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getEmail()">1</method>
+			<method name="public int getServiceKey()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSpecialInstructions1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTelephone()">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddressWebModel getAddress()">1</method>
+			<method name="public void setAccountNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getContactName()">1</method>
+			<method name="public void setTelephone(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setContactName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setConfirmationOfDelivery(boolean arg0)">1</method>
+			<method name="public void setCollectionJobNumber(String arg0)">1</method>
+			<method name="public void setServiceKey(int arg0)">1</method>
+			<method name="public void setSpecialInstructions2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public boolean isConfirmationOfDelivery()">1</method>
+			<method name="public void setCustomersRef(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setBusinessName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setWeight(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getWeight()">1</method>
+			<method name="public void setItems(int arg0)">1</method>
+			<method name="public void setAlternativeRef(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAddress(com.ukmail.services.contracts.datacontracts.AddressWebModel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBusinessName()">1</method>
+			<method name="public void setSpecialInstructions1(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddSendToThirdPartyWebRequest</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setDeliveryContactName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getDeliveryTelephone()">1</method>
+			<method name="public void setDeliveryTelephone(String arg0)">1</method>
+			<method name="public void setDeliveryEmail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddressWebModel getDeliveryAddress()">1</method>
+			<method name="public void setDeliveryBusinessName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDeliveryEmail()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDeliveryBusinessName()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDeliveryContactName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDeliveryAddress(com.ukmail.services.contracts.datacontracts.AddressWebModel arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfbase64Binary</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getBase64Binary()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddConsignmentDeferredWebRequest</name>
+		<wmc>33</wmc>
+		<dit>0</dit>
+		<noc>1</noc>
+		<cbo>5</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.16498316498316498</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public int getItems()">1</method>
+			<method name="public void setEmail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getAccountNumber()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAlternativeRef()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCustomersRef()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSpecialInstructions2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getEmail()">1</method>
+			<method name="public int getServiceKey()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSpecialInstructions1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTelephone()">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddressWebModel getAddress()">1</method>
+			<method name="public void setAccountNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getContactName()">1</method>
+			<method name="public void setTelephone(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setContactName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setConfirmationOfDelivery(boolean arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.LabelFormatType getLabelFormat()">1</method>
+			<method name="public void setServiceKey(int arg0)">1</method>
+			<method name="public void setLabelFormat(com.ukmail.services.contracts.datacontracts.LabelFormatType arg0)">1</method>
+			<method name="public void setSpecialInstructions2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public boolean isConfirmationOfDelivery()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCollectionDate()">1</method>
+			<method name="public void setCollectionDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setCustomersRef(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setBusinessName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setWeight(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getWeight()">1</method>
+			<method name="public void setItems(int arg0)">1</method>
+			<method name="public void setAlternativeRef(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAddress(com.ukmail.services.contracts.datacontracts.AddressWebModel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBusinessName()">1</method>
+			<method name="public void setSpecialInstructions1(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.ArrayOfUKMWebWarning</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getUKMWebWarning()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.PacketAddressWebModel</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setCounty(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPostalTown()">1</method>
+			<method name="public void setAddress1(String arg0)">1</method>
+			<method name="public void setPostalTown(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAddress3()">1</method>
+			<method name="public String getAddress1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCounty()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAddress2()">1</method>
+			<method name="public void setAddress2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAddress3(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddSendToThirdPartyResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAddSendToThirdPartyResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAddSendToThirdPartyResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.CancelConsignmentResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCancelConsignmentResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCancelConsignmentResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMAddSendToThirdPartyWebResponse</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsignmentNumber()">1</method>
+			<method name="public void setConsignmentNumber(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.IUKMConsignmentService</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>16</cbo>
+		<rfc>8</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>15</ce>
+		<npm>8</npm>
+		<lcom3>2.0</lcom3>
+		<loc>8</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.ukmail.services.contracts.datacontracts.UKMAddDomesticConsignmentWebResponse addDomesticConsignment(com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentWebRequest)">1</method>
+			<method name="public abstract com.ukmail.services.contracts.datacontracts.UKMAddPacketConsignmentWebResponse addPacketConsignment(com.ukmail.services.contracts.datacontracts.AddPacketConsignmentWebRequest)">1</method>
+			<method name="public abstract com.ukmail.services.contracts.datacontracts.UKMCancelReturnWebResponse cancelReturn(com.ukmail.services.contracts.datacontracts.CancelReturnWebRequest)">1</method>
+			<method name="public abstract com.ukmail.services.contracts.datacontracts.UKMAddInternationalConsignmentWebResponse addInternationalConsignment(com.ukmail.services.contracts.datacontracts.AddInternationalConsignmentWebRequest)">1</method>
+			<method name="public abstract com.ukmail.services.contracts.datacontracts.UKMCancelConsignmentWebResponse cancelConsignment(com.ukmail.services.contracts.datacontracts.CancelConsignmentWebRequest)">1</method>
+			<method name="public abstract com.ukmail.services.contracts.datacontracts.UKMAddDomesticConsignmentWebResponse addDomesticConsignmentDeferred(com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentDeferredWebRequest)">1</method>
+			<method name="public abstract com.ukmail.services.contracts.datacontracts.UKMAddReturnToSenderWebResponse addReturnToSender(com.ukmail.services.contracts.datacontracts.AddReturnWebRequest)">1</method>
+			<method name="public abstract com.ukmail.services.contracts.datacontracts.UKMAddSendToThirdPartyWebResponse addSendToThirdParty(com.ukmail.services.contracts.datacontracts.AddSendToThirdPartyWebRequest)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddReturnWebRequest</name>
+		<wmc>39</wmc>
+		<dit>0</dit>
+		<noc>1</noc>
+		<cbo>6</cbo>
+		<rfc>40</rfc>
+		<lcom>703</lcom>
+		<ca>4</ca>
+		<ce>2</ce>
+		<npm>39</npm>
+		<lcom3>0.9736842105263158</lcom3>
+		<loc>194</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.21245421245421245</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4871794871794872</amc>
+		<cc>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddressWebModel getCollectionAddress()">1</method>
+			<method name="public String getAccountNumber()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCollectionEmail()">1</method>
+			<method name="public void setBookIn(boolean arg0)">1</method>
+			<method name="public String getCollectionTelephone()">1</method>
+			<method name="public void setCollectionSpecialInstructions1(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDeliverySpecialInstructions1()">1</method>
+			<method name="public String getCollectionContactName()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDeliverySpecialInstructions2()">1</method>
+			<method name="public void setCollectionSpecialInstructions2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCollectionTimeReady()">1</method>
+			<method name="public int getServiceKey()">1</method>
+			<method name="public void setCollectionTelephone(String arg0)">1</method>
+			<method name="public void setCollectionTimeReady(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setAccountNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCollectionBusinessName()">1</method>
+			<method name="public void setCollectionEmail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCollectionLatestPickup()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCollectionSpecialInstructions2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCollectionSpecialInstructions1()">1</method>
+			<method name="public void setCollectionLatestPickup(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCollectionCustomersRef()">1</method>
+			<method name="public void setServiceKey(int arg0)">1</method>
+			<method name="public void setCollectionBusinessName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCollectionDate()">1</method>
+			<method name="public boolean isBookIn()">1</method>
+			<method name="public void setCollectionDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setCollectionAddress(com.ukmail.services.contracts.datacontracts.AddressWebModel arg0)">1</method>
+			<method name="public void setCollectionCustomersRef(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCollectionContactName(String arg0)">1</method>
+			<method name="public void setCollectionOpenLunchtime(boolean arg0)">1</method>
+			<method name="public void setDescriptionOfGoods1(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDescriptionOfGoods2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDeliverySpecialInstructions2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDescriptionOfGoods2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDescriptionOfGoods1()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isCollectionOpenLunchtime()">1</method>
+			<method name="public void setDeliverySpecialInstructions1(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMWebError</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCode(Integer arg0)">1</method>
+			<method name="public void setDescription(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDescription()">1</method>
+			<method name="public Integer getCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddPacketConsignment</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMAddPacketConsignmentWebResponse</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsignmentNumber()">1</method>
+			<method name="public void setConsignmentNumber(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setLabels(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getLabels()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddressWebModel</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setCounty(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPostalTown()">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public void setAddress1(String arg0)">1</method>
+			<method name="public void setPostalTown(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAddress3()">1</method>
+			<method name="public String getAddress1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCounty()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAddress2()">1</method>
+			<method name="public void setAddress2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAddress3(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCountryCode()">1</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType valueOf(String arg0)">1</method>
+			<method name="public static com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddDomesticConsignmentResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getAddDomesticConsignmentResult()">1</method>
+			<method name="public void setAddDomesticConsignmentResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.CancelReturnWebRequest</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getConsignmentNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setConsignmentNumber(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMAddReturnToSenderWebResponse</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsignmentNumber()">1</method>
+			<method name="public void setConsignmentNumber(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.arrays.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfbase64Binary createArrayOfbase64Binary()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfbase64Binary(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfbase64Binary arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddPacketConsignmentResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAddPacketConsignmentResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAddPacketConsignmentResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMAddInternationalConsignmentWebResponse</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsignmentNumber()">1</method>
+			<method name="public void setConsignmentNumber(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setInvoiceBytes(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setLabels(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getInvoiceBytes()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getLabels()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddInternationalConsignmentResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAddInternationalConsignmentResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getAddInternationalConsignmentResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.UKMConsignmentService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public transient com.ukmail.services.IUKMConsignmentService getBasicHttpEndpointIUKMConsignmentService(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public com.ukmail.services.IUKMConsignmentService getBasicHttpEndpointIUKMConsignmentService()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.CancelConsignmentWebRequest</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getConsignmentNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setConsignmentNumber(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.ObjectFactory</name>
+		<wmc>125</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>29</cbo>
+		<rfc>153</rfc>
+		<lcom>7482</lcom>
+		<ca>0</ca>
+		<ce>29</ce>
+		<npm>124</npm>
+		<lcom3>0.9890232974910395</lcom3>
+		<loc>1518</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.054252199413489736</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>10.568</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createAddSendToThirdPartyWebRequestDeliveryEmail(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddressWebModel createAddressWebModel()">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMWebError createUKMWebError()">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.CancelConsignmentWebRequest createCancelConsignmentWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentDeferredWebRequestConfirmationEmail(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMWebWarning createUKMWebWarning()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestPacketLength(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequestEmail(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentDeferredWebRequestSecureLocation1(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequest(com.ukmail.services.contracts.datacontracts.AddConsignmentWebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPacketAddressWebModelAddress2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddReturnToSenderWebResponse(com.ukmail.services.contracts.datacontracts.UKMAddReturnToSenderWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfUKMWebError(com.ukmail.services.contracts.datacontracts.ArrayOfUKMWebError arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMWebWarningDescription(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequestEmail(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequestAlternativeRef(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddSendToThirdPartyWebRequestDeliveryBusinessName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequestBusinessName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddSendToThirdPartyWebResponseConsignmentNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentDeferredWebRequestConfirmationTelephone(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestCollectionSpecialInstructions2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddInternationalConsignmentWebRequestCurrencyCode(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddressWebModelAddress2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddDomesticConsignmentWebResponse(com.ukmail.services.contracts.datacontracts.UKMAddDomesticConsignmentWebResponse arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentDeferredWebRequest createAddDomesticConsignmentDeferredWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddressWebModel(com.ukmail.services.contracts.datacontracts.AddressWebModel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddInternationalConsignmentWebResponseLabels(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfbase64Binary arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequest(com.ukmail.services.contracts.datacontracts.AddConsignmentDeferredWebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddressWebModelAddress3(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPacketAddressWebModelCounty(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestCollectionBusinessName(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMAddSendToThirdPartyWebResponse createUKMAddSendToThirdPartyWebResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddInternationalConsignmentWebRequestGoodsDescription3(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMWebResponse(com.ukmail.services.contracts.datacontracts.UKMWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createWebRequest(com.ukmail.services.contracts.datacontracts.WebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequest(com.ukmail.services.contracts.datacontracts.AddPacketConsignmentWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddConsignmentDeferredWebRequest createAddConsignmentDeferredWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMCancelReturnWebResponse(com.ukmail.services.contracts.datacontracts.UKMCancelReturnWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentDeferredWebRequestSecureLocation2(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMCancelConsignmentWebResponse createUKMCancelConsignmentWebResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddPacketConsignmentWebResponse(com.ukmail.services.contracts.datacontracts.UKMAddPacketConsignmentWebResponse arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddInternationalConsignmentWebRequest createAddInternationalConsignmentWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddSendToThirdPartyWebRequestDeliveryContactName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequestAlternativeRef(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequestTelephone(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequestSpecialInstructions1(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfUKMWebWarning(com.ukmail.services.contracts.datacontracts.ArrayOfUKMWebWarning arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMAddReturnToSenderWebResponse createUKMAddReturnToSenderWebResponse()">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMCancelReturnWebResponse createUKMCancelReturnWebResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMWebWarning(com.ukmail.services.contracts.datacontracts.UKMWebWarning arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddInternationalConsignmentWebRequest(com.ukmail.services.contracts.datacontracts.AddInternationalConsignmentWebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentWebRequestConfirmationTelephone(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestDeliverySpecialInstructions2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelConsignmentWebRequest(com.ukmail.services.contracts.datacontracts.CancelConsignmentWebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestCollectionCustomersRef(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequestSpecialInstructions2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentWebRequestSecureLocation2(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.CancelReturnWebRequest createCancelReturnWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddInternationalConsignmentWebRequestGoodsDescription1(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMWebResponse createUKMWebResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddPacketConsignmentWebResponseConsignmentNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddInternationalConsignmentWebResponseInvoiceBytes(byte[] arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelReturnWebRequest(com.ukmail.services.contracts.datacontracts.CancelReturnWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMAddDomesticConsignmentWebResponse createUKMAddDomesticConsignmentWebResponse()">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMAddInternationalConsignmentWebResponse createUKMAddInternationalConsignmentWebResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPacketAddressWebModel(com.ukmail.services.contracts.datacontracts.PacketAddressWebModel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestCollectionEmail(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddReturnToSenderWebResponseConsignmentNumber(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.PacketAddressWebModel createPacketAddressWebModel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestDeliveryMessage1(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddPacketConsignmentWebRequest createAddPacketConsignmentWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestPacketHeight(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMWebResponseErrors(com.ukmail.services.contracts.datacontracts.ArrayOfUKMWebError arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequestCustomersRef(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequestContactName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPacketAddressWebModelPostalTown(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddDomesticConsignmentWebResponseConsignmentNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentDeferredWebRequest(com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentDeferredWebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPreDeliveryNotificationType(com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddressWebModelCounty(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddSendToThirdPartyWebRequest createAddSendToThirdPartyWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMCancelConsignmentWebResponse(com.ukmail.services.contracts.datacontracts.UKMCancelConsignmentWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequest(com.ukmail.services.contracts.datacontracts.AddReturnWebRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestCollectionSpecialInstructions1(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddSendToThirdPartyWebRequest(com.ukmail.services.contracts.datacontracts.AddSendToThirdPartyWebRequest arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.ArrayOfUKMWebError createArrayOfUKMWebError()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestDescriptionOfGoods2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestWeightInGrams(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestDescriptionOfGoods1(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequestContactName(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddSendToThirdPartyWebResponse(com.ukmail.services.contracts.datacontracts.UKMAddSendToThirdPartyWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentWebRequestConfirmationEmail(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.ArrayOfUKMWebWarning createArrayOfUKMWebWarning()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLabelFormatType(com.ukmail.services.contracts.datacontracts.LabelFormatType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequestCustomersRef(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddConsignmentWebRequest createAddConsignmentWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestAlternativeRef(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestPacketWidth(Integer arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.UKMAddPacketConsignmentWebResponse createUKMAddPacketConsignmentWebResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddressWebModelPostalTown(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMWebError(com.ukmail.services.contracts.datacontracts.UKMWebError arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestDeliveryMessage2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMWebErrorDescription(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequestBusinessName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequestSpecialInstructions1(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentDeferredWebRequestSpecialInstructions2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddInternationalConsignmentWebResponse(com.ukmail.services.contracts.datacontracts.UKMAddInternationalConsignmentWebResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInvoiceTypeList(com.ukmail.services.contracts.datacontracts.InvoiceTypeList arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMWebResponseWarnings(com.ukmail.services.contracts.datacontracts.ArrayOfUKMWebWarning arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestCustomersRef(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPacketAddressWebModelAddress3(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddInternationalConsignmentWebResponseConsignmentNumber(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddPacketConsignmentWebRequestBusinessName(String arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.WebRequest createWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddConsignmentWebRequestTelephone(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddPacketConsignmentWebResponseLabels(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfbase64Binary arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddReturnWebRequest createAddReturnWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddReturnWebRequestDeliverySpecialInstructions1(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentWebRequestSecureLocation1(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUKMAddDomesticConsignmentWebResponseLabels(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfbase64Binary arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentWebRequest createAddDomesticConsignmentWebRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddInternationalConsignmentWebRequestGoodsDescription2(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDomesticConsignmentWebRequest(com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentWebRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMCancelReturnWebResponse</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentDeferredWebRequest</name>
+		<wmc>23</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2463768115942029</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public boolean isLongLength()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConfirmationTelephone()">1</method>
+			<method name="public void setBookIn(boolean arg0)">1</method>
+			<method name="public boolean isBookIn()">1</method>
+			<method name="public void setExchangeOnDelivery(boolean arg0)">1</method>
+			<method name="public void setSignatureOptional(boolean arg0)">1</method>
+			<method name="public java.math.BigDecimal getCODAmount()">1</method>
+			<method name="public void setExtendedCover(int arg0)">1</method>
+			<method name="public void setConfirmationEmail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSecureLocation1(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public boolean isExchangeOnDelivery()">1</method>
+			<method name="public int getExtendedCover()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSecureLocation1()">1</method>
+			<method name="public void setCODAmount(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSecureLocation2()">1</method>
+			<method name="public void setConfirmationTelephone(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType getPreDeliveryNotification()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLongLength(boolean arg0)">1</method>
+			<method name="public void setSecureLocation2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConfirmationEmail()">1</method>
+			<method name="public boolean isSignatureOptional()">1</method>
+			<method name="public void setPreDeliveryNotification(com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.CancelConsignment</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddInternationalConsignment</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.AddDomesticConsignmentWebRequest</name>
+		<wmc>23</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2463768115942029</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public boolean isLongLength()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConfirmationTelephone()">1</method>
+			<method name="public void setBookIn(boolean arg0)">1</method>
+			<method name="public boolean isBookIn()">1</method>
+			<method name="public void setExchangeOnDelivery(boolean arg0)">1</method>
+			<method name="public void setSignatureOptional(boolean arg0)">1</method>
+			<method name="public java.math.BigDecimal getCODAmount()">1</method>
+			<method name="public void setExtendedCover(int arg0)">1</method>
+			<method name="public void setConfirmationEmail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSecureLocation1(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public boolean isExchangeOnDelivery()">1</method>
+			<method name="public int getExtendedCover()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSecureLocation1()">1</method>
+			<method name="public void setCODAmount(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSecureLocation2()">1</method>
+			<method name="public void setConfirmationTelephone(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType getPreDeliveryNotification()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLongLength(boolean arg0)">1</method>
+			<method name="public void setSecureLocation2(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConfirmationEmail()">1</method>
+			<method name="public boolean isSignatureOptional()">1</method>
+			<method name="public void setPreDeliveryNotification(com.ukmail.services.contracts.datacontracts.PreDeliveryNotificationType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.ObjectFactory</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>26</rfc>
+		<lcom>211</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>22</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>343</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.12215909090909091</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>13.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createGuid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDuration(javax.xml.datatype.Duration arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBoolean(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChar(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDecimal(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAnyType(Object arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLong(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBase64Binary(byte[] arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQName(javax.xml.namespace.QName arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedInt(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedLong(java.math.BigInteger arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedShort(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedByte(Short arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAnyURI(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createByte(Byte arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createInt(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createString(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createDouble(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFloat(Float arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShort(Short arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddReturnToSender</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ukmwebapicommon.UKMResultState</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static org.datacontract.schemas._2004._07.ukmwebapicommon.UKMResultState valueOf(String arg0)">1</method>
+			<method name="public static org.datacontract.schemas._2004._07.ukmwebapicommon.UKMResultState[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static org.datacontract.schemas._2004._07.ukmwebapicommon.UKMResultState fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.CancelReturn</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddDomesticConsignmentDeferredResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getAddDomesticConsignmentDeferredResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAddDomesticConsignmentDeferredResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.arrays.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.InvoiceTypeList</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.ukmail.services.contracts.datacontracts.InvoiceTypeList[] values()">1</method>
+			<method name="public static com.ukmail.services.contracts.datacontracts.InvoiceTypeList valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.ukmail.services.contracts.datacontracts.InvoiceTypeList fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.WebRequest</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>6</noc>
+		<cbo>7</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>7</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getAuthenticationToken()">1</method>
+			<method name="public String getUsername()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAuthenticationToken(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMWebResponse</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>7</noc>
+		<cbo>9</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>8</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setResult(org.datacontract.schemas._2004._07.ukmwebapicommon.UKMResultState arg0)">1</method>
+			<method name="public void setErrors(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getErrors()">1</method>
+			<method name="public void setWarnings(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ukmwebapicommon.UKMResultState getResult()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getWarnings()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.ArrayOfUKMWebError</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getUKMWebError()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddSendToThirdParty</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddDomesticConsignmentDeferred</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.AddDomesticConsignment</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMCancelConsignmentWebResponse</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.servicecontracts.CancelReturnResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCancelReturnResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCancelReturnResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ukmwebapicommon.ObjectFactory</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>1</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>0.5</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.75</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createUKMResultState(org.datacontract.schemas._2004._07.ukmwebapicommon.UKMResultState arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ukmail.services.contracts.datacontracts.UKMAddDomesticConsignmentWebResponse</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsignmentNumber()">1</method>
+			<method name="public void setConsignmentNumber(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setLabels(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getLabels()">1</method>
+		</cc>
+	</class>

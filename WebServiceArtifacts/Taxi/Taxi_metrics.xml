@@ -1,0 +1,689 @@
+	<class>
+		<name>org.tempuri.ConsultaPagamentoSolicitacao</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setIdSolicitacao(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getIdSolicitacao()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.IncluiSolicitacaoTaxiResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIncluiSolicitacaoTaxiResult()">1</method>
+			<method name="public void setIncluiSolicitacaoTaxiResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.AtualizaSolicitacaoTaxiResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isAtualizaSolicitacaoTaxiResult()">1</method>
+			<method name="public void setAtualizaSolicitacaoTaxiResult(boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.SolicitacaoTaxi</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getDdd()">1</method>
+			<method name="public String getNrotaxi()">1</method>
+			<method name="public void setDdd(String arg0)">1</method>
+			<method name="public void setIdestabelecimento(int arg0)">1</method>
+			<method name="public int getIdestabelecimento()">1</method>
+			<method name="public void setTelefone(String arg0)">1</method>
+			<method name="public String getCliente()">1</method>
+			<method name="public String getOrigem()">1</method>
+			<method name="public void setOrigem(String arg0)">1</method>
+			<method name="public void setNrotaxi(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTelefone()">1</method>
+			<method name="public String getDestino()">1</method>
+			<method name="public void setCliente(String arg0)">1</method>
+			<method name="public void setDestino(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.IncluirSolicitacaoTaxiXMLResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIncluirSolicitacaoTaxiXMLResult()">1</method>
+			<method name="public void setIncluirSolicitacaoTaxiXMLResult(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultaDadosSolicitanteTransResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultaDadosSolicitanteTransResult(String arg0)">1</method>
+			<method name="public String getConsultaDadosSolicitanteTransResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.AtualizaSolicitacaoTaxi</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setIdsolicitacao(int arg0)">1</method>
+			<method name="public String getKilometragem()">1</method>
+			<method name="public String getObservacao()">1</method>
+			<method name="public void setObservacao(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getIdsolicitacao()">1</method>
+			<method name="public void setKilometragem(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultaPagamentoSolicitacaoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getConsultaPagamentoSolicitacaoResult()">1</method>
+			<method name="public void setConsultaPagamentoSolicitacaoResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ListaClientesNome</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setIdEmpClie(int arg0)">1</method>
+			<method name="public int getIdEmpClie()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStrParteNomeCliente(String arg0)">1</method>
+			<method name="public String getStrParteNomeCliente()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ListaClientesNomeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setListaClientesNomeResult(String arg0)">1</method>
+			<method name="public String getListaClientesNomeResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ObjectFactory</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>20</cbo>
+		<rfc>42</rfc>
+		<lcom>210</lcom>
+		<ca>0</ca>
+		<ce>20</ce>
+		<npm>21</npm>
+		<lcom3>2.0</lcom3>
+		<loc>104</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9523809523809526</amc>
+		<cc>
+			<method name="public org.tempuri.AtualizaSolicitacaoTaxiResponse createAtualizaSolicitacaoTaxiResponse()">1</method>
+			<method name="public org.tempuri.CancelamentoSolicitacaoResponse createCancelamentoSolicitacaoResponse()">1</method>
+			<method name="public org.tempuri.ConsultaPagamentoSolicitacaoResponse createConsultaPagamentoSolicitacaoResponse()">1</method>
+			<method name="public org.tempuri.AtualizaSolicitacaoTaxi createAtualizaSolicitacaoTaxi()">1</method>
+			<method name="public org.tempuri.IncluiSolicitacaoTaxiResponse createIncluiSolicitacaoTaxiResponse()">1</method>
+			<method name="public org.tempuri.CancelamentoSolicitacao createCancelamentoSolicitacao()">1</method>
+			<method name="public org.tempuri.ConsultaDadosSolicitanteTrans createConsultaDadosSolicitanteTrans()">1</method>
+			<method name="public org.tempuri.IncluirSolicitacaoTaxiXMLResponse createIncluirSolicitacaoTaxiXMLResponse()">1</method>
+			<method name="public org.tempuri.IncluirSolicitacaoTaxiXML createIncluirSolicitacaoTaxiXML()">1</method>
+			<method name="public org.tempuri.ConsultaPagamentoSolicitacao createConsultaPagamentoSolicitacao()">1</method>
+			<method name="public org.tempuri.ConsultaDadosSolicitante createConsultaDadosSolicitante()">1</method>
+			<method name="public org.tempuri.ListaClientesNomeResponse createListaClientesNomeResponse()">1</method>
+			<method name="public org.tempuri.ConsultaDadosSolicitanteTransResponse createConsultaDadosSolicitanteTransResponse()">1</method>
+			<method name="public org.tempuri.SolicitacaoTaxi createSolicitacaoTaxi()">1</method>
+			<method name="public org.tempuri.IncluiSolicitacaoTaxi createIncluiSolicitacaoTaxi()">1</method>
+			<method name="public org.tempuri.ConsultaDadosSolicitanteResponse createConsultaDadosSolicitanteResponse()">1</method>
+			<method name="public org.tempuri.AtualizacaoSolicitacaoResponse createAtualizacaoSolicitacaoResponse()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.tempuri.AtualizacaoSolicitacao createAtualizacaoSolicitacao()">1</method>
+			<method name="public org.tempuri.SolicitacaoTaxiResponse createSolicitacaoTaxiResponse()">1</method>
+			<method name="public org.tempuri.ListaClientesNome createListaClientesNome()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultaDadosSolicitanteResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultaDadosSolicitanteResult(String arg0)">1</method>
+			<method name="public String getConsultaDadosSolicitanteResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultaDadosSolicitanteTrans</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getDdd()">1</method>
+			<method name="public void setDdd(String arg0)">1</method>
+			<method name="public void setIdEstabelecimento(int arg0)">1</method>
+			<method name="public int getIdEstabelecimento()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTelefone()">1</method>
+			<method name="public void setTelefone(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.AtualizacaoSolicitacaoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getAtualizacaoSolicitacaoResult()">1</method>
+			<method name="public void setAtualizacaoSolicitacaoResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.Taxi</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public org.tempuri.TaxiSoap getTaxiSoap()">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient org.tempuri.TaxiSoap getTaxiSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.CancelamentoSolicitacaoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCancelamentoSolicitacaoResult(boolean arg0)">1</method>
+			<method name="public boolean isCancelamentoSolicitacaoResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.CancelamentoSolicitacao</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setIdsolicitacao(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getIdsolicitacao()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.IncluiSolicitacaoTaxi</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getDdd()">1</method>
+			<method name="public String getNrotaxi()">1</method>
+			<method name="public void setDdd(String arg0)">1</method>
+			<method name="public void setIdestabelecimento(int arg0)">1</method>
+			<method name="public int getIdestabelecimento()">1</method>
+			<method name="public void setTelefone(String arg0)">1</method>
+			<method name="public String getCliente()">1</method>
+			<method name="public String getOrigem()">1</method>
+			<method name="public void setOrigem(String arg0)">1</method>
+			<method name="public void setNrotaxi(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTelefone()">1</method>
+			<method name="public String getDestino()">1</method>
+			<method name="public void setCliente(String arg0)">1</method>
+			<method name="public void setDestino(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.TaxiSoap</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>10</npm>
+		<lcom3>2.0</lcom3>
+		<loc>10</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.8333333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract String consultaDadosSolicitanteTrans(String, String, int)">1</method>
+			<method name="public abstract boolean atualizaSolicitacaoTaxi(int, String, String)">1</method>
+			<method name="public abstract int solicitacaoTaxi(int, String, String, String, String, String, String)">1</method>
+			<method name="public abstract String listaClientesNome(int, String)">1</method>
+			<method name="public abstract String incluiSolicitacaoTaxi(int, String, String, String, String, String, String)">1</method>
+			<method name="public abstract String consultaPagamentoSolicitacao(int)">1</method>
+			<method name="public abstract String atualizacaoSolicitacao(String)">1</method>
+			<method name="public abstract String consultaDadosSolicitante(String, String)">1</method>
+			<method name="public abstract boolean cancelamentoSolicitacao(int)">1</method>
+			<method name="public abstract String incluirSolicitacaoTaxiXML(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultaDadosSolicitante</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getDdd()">1</method>
+			<method name="public void setDdd(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTelefone()">1</method>
+			<method name="public void setTelefone(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.AtualizacaoSolicitacao</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setStrDados(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStrDados()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.IncluirSolicitacaoTaxiXML</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setStrDados(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStrDados()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.SolicitacaoTaxiResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSolicitacaoTaxiResult(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getSolicitacaoTaxiResult()">1</method>
+		</cc>
+	</class>

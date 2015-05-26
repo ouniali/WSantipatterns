@@ -1,0 +1,1454 @@
+	<class>
+		<name>com.flightwise.planexml.ws.Search</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setIncludeDynamicInfo(boolean arg0)">1</method>
+			<method name="public void setIncludeDetails(boolean arg0)">1</method>
+			<method name="public boolean isIncludeDetails()">1</method>
+			<method name="public long getPage()">1</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public void setPage(long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public boolean isIncludeDynamicInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightStatusType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.909090909090909</lcom3>
+		<loc>168</loc>
+		<dam>0.18181818181818182</dam>
+		<moa>10</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>25.166666666666668</amc>
+		<cc>
+			<method name="public static com.flightwise.planexml.ws.FlightStatusType valueOf(String arg0)">1</method>
+			<method name="public static com.flightwise.planexml.ws.FlightStatusType[] values()">1</method>
+			<method name="public static com.flightwise.planexml.ws.FlightStatusType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.Photo</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29473684210526313</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setDateTaken(long arg0)">1</method>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public double getLon()">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public double getLat()">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public long getDateUploaded()">1</method>
+			<method name="public void setDesc(String arg0)">1</method>
+			<method name="public long getDateTaken()">1</method>
+			<method name="public short getPrimary()">1</method>
+			<method name="public void setPrimary(short arg0)">1</method>
+			<method name="public void setDateUploaded(long arg0)">1</method>
+			<method name="public void setLon(double arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void setLat(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDesc()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.PlaneXMLv1</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public com.flightwise.planexml.ws.PlaneXMLv1Soap getPlaneXMLv1Soap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient com.flightwise.planexml.ws.PlaneXMLv1Soap getPlaneXMLv1Soap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.AirportsNearResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightwise.planexml.ws.ArrayOfAirport getAirportsNearResult()">1</method>
+			<method name="public void setAirportsNearResult(com.flightwise.planexml.ws.ArrayOfAirport arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.AirportsNear</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setRadius(long arg0)">1</method>
+			<method name="public double getLon()">1</method>
+			<method name="public double getLat()">1</method>
+			<method name="public void setLon(double arg0)">1</method>
+			<method name="public void setLat(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public long getRadius()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightsNearResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFlightsNearResult(com.flightwise.planexml.ws.ArrayOfFIStatic arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfFIStatic getFlightsNearResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightStatusResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightwise.planexml.ws.FIDynamic getFIDynamic()">1</method>
+			<method name="public void setFIDynamic(com.flightwise.planexml.ws.FIDynamic arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.fboweb.ws.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.ArrayOfAdsPosition</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAdsPosition()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.RecentFlightsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRecentFlightsResult(com.flightwise.planexml.ws.ArrayOfPastFlight arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfPastFlight getRecentFlightsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.AirportsNearConventional</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setRadius(long arg0)">1</method>
+			<method name="public double getLon()">1</method>
+			<method name="public double getLat()">1</method>
+			<method name="public void setLon(double arg0)">1</method>
+			<method name="public void setLat(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public long getRadius()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.ArrayOfPastFlight</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPastFlight()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.ArrayOfPhoto</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPhoto()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightStatus</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.ArrayOfAirport</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAirport()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.PhotoList</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightsNear</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setRadius(long arg0)">1</method>
+			<method name="public void setIncludeDetails(boolean arg0)">1</method>
+			<method name="public double getLon()">1</method>
+			<method name="public double getLat()">1</method>
+			<method name="public void setLon(double arg0)">1</method>
+			<method name="public boolean isIncludeDetails()">1</method>
+			<method name="public void setLat(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public long getRadius()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.RecentFlights</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.AdsPosition</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getTimestamp()">1</method>
+			<method name="public void setGs(String arg0)">1</method>
+			<method name="public void setCenter(String arg0)">1</method>
+			<method name="public short getClimbDescend()">1</method>
+			<method name="public String getAlt()">1</method>
+			<method name="public String getCenter()">1</method>
+			<method name="public void setLon(String arg0)">1</method>
+			<method name="public String getLon()">1</method>
+			<method name="public void setClimbDescend(short arg0)">1</method>
+			<method name="public String getLat()">1</method>
+			<method name="public void setAlt(String arg0)">1</method>
+			<method name="public void setLat(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGs()">1</method>
+			<method name="public void setTimestamp(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.RegistrationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.fboweb.ws.Registry getRegistry()">1</method>
+			<method name="public void setRegistry(com.fboweb.ws.Registry arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.ArrayOfFlightPlan</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getFlightPlan()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FIDynamic</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24691358024691357</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public void setGS(String arg0)">1</method>
+			<method name="public double getLon()">1</method>
+			<method name="public String getDestDST()">1</method>
+			<method name="public void setDestDST(String arg0)">1</method>
+			<method name="public void setTimeStamp(long arg0)">1</method>
+			<method name="public void setArrivalMins(long arg0)">1</method>
+			<method name="public long getAlt()">1</method>
+			<method name="public void setClimbDescend(long arg0)">1</method>
+			<method name="public void setStaticRefresh(long arg0)">1</method>
+			<method name="public void setLat(double arg0)">1</method>
+			<method name="public void setStatus(com.flightwise.planexml.ws.FlightStatusType arg0)">1</method>
+			<method name="public long getArrivalMins()">1</method>
+			<method name="public long getClimbDescend()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightStatusType getStatus()">1</method>
+			<method name="public double getLat()">1</method>
+			<method name="public void setAlt(long arg0)">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public long getStaticRefresh()">1</method>
+			<method name="public void setDestTimezoneOffset(short arg0)">1</method>
+			<method name="public short getDestTimezoneOffset()">1</method>
+			<method name="public void setLon(double arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public long getTimeStamp()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public long getCourse()">1</method>
+			<method name="public void setCourse(long arg0)">1</method>
+			<method name="public String getGS()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.PastFlight</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public long getArrivalTime()">1</method>
+			<method name="public String getDept()">1</method>
+			<method name="public void setArrivalTime(long arg0)">1</method>
+			<method name="public String getACType()">1</method>
+			<method name="public short getArrivalTimezoneOffset()">1</method>
+			<method name="public void setDest(String arg0)">1</method>
+			<method name="public void setDept(String arg0)">1</method>
+			<method name="public void setEquipCode(String arg0)">1</method>
+			<method name="public short getStatus()">1</method>
+			<method name="public short getDepartureTimezoneOffset()">1</method>
+			<method name="public void setACType(String arg0)">1</method>
+			<method name="public void setDepartureTime(long arg0)">1</method>
+			<method name="public void setCenter(String arg0)">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getCenter()">1</method>
+			<method name="public void setIndex(long arg0)">1</method>
+			<method name="public String getDest()">1</method>
+			<method name="public String getEquipCode()">1</method>
+			<method name="public void setStatus(short arg0)">1</method>
+			<method name="public long getIndex()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public long getDepartureTime()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDepartureTimezoneOffset(short arg0)">1</method>
+			<method name="public void setArrivalTimezoneOffset(short arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.fboweb.ws.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>4</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public com.fboweb.ws.Registry createRegistry()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createRegistry(com.fboweb.ws.Registry arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FIStatic</name>
+		<wmc>57</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>58</rfc>
+		<lcom>1540</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>57</npm>
+		<lcom3>0.9821428571428571</lcom3>
+		<loc>284</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2982456140350877</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.491228070175439</amc>
+		<cc>
+			<method name="public String getDestName()">1</method>
+			<method name="public String getDeptName()">1</method>
+			<method name="public String getArrivalTime()">1</method>
+			<method name="public String getACType()">1</method>
+			<method name="public void setDestName(String arg0)">1</method>
+			<method name="public void setDept(String arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.FIDynamic getFIDynamic()">1</method>
+			<method name="public String getHistoryNumber()">1</method>
+			<method name="public void setEquipCode(String arg0)">1</method>
+			<method name="public void setDestLoc(String arg0)">1</method>
+			<method name="public void setStatus(com.flightwise.planexml.ws.FlightStatusType arg0)">1</method>
+			<method name="public void setIndex(String arg0)">1</method>
+			<method name="public String getDeptLat()">1</method>
+			<method name="public String getIndex()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightStatusType getStatus()">1</method>
+			<method name="public void setDestLat(String arg0)">1</method>
+			<method name="public void setBBOX(String arg0)">1</method>
+			<method name="public String getOwner()">1</method>
+			<method name="public void setPrimaryPhoto(String arg0)">1</method>
+			<method name="public String getDest()">1</method>
+			<method name="public void setHistorical(short arg0)">1</method>
+			<method name="public String getDeptLoc()">1</method>
+			<method name="public void setACTypeString(String arg0)">1</method>
+			<method name="public void setFIDynamic(com.flightwise.planexml.ws.FIDynamic arg0)">1</method>
+			<method name="public void setDeptTimezoneOffset(short arg0)">1</method>
+			<method name="public void setDeptLat(String arg0)">1</method>
+			<method name="public short getVFR()">1</method>
+			<method name="public void setOwner(String arg0)">1</method>
+			<method name="public String getDestLoc()">1</method>
+			<method name="public void setHistoryNumber(String arg0)">1</method>
+			<method name="public void setVFR(short arg0)">1</method>
+			<method name="public String getDeptLon()">1</method>
+			<method name="public String getDept()">1</method>
+			<method name="public void setDeptName(String arg0)">1</method>
+			<method name="public String getDeptDST()">1</method>
+			<method name="public String getPrimaryPhoto()">1</method>
+			<method name="public String getDepartureTime()">1</method>
+			<method name="public void setDest(String arg0)">1</method>
+			<method name="public String getACTypeString()">1</method>
+			<method name="public String getDestLat()">1</method>
+			<method name="public void setDeptLon(String arg0)">1</method>
+			<method name="public short getHistorical()">1</method>
+			<method name="public void setACType(String arg0)">1</method>
+			<method name="public short getDeptTimezoneOffset()">1</method>
+			<method name="public void setDepartureTime(String arg0)">1</method>
+			<method name="public void setDestLon(String arg0)">1</method>
+			<method name="public void setDeptDST(String arg0)">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getBBOX()">1</method>
+			<method name="public String getEquipCode()">1</method>
+			<method name="public String getDestLon()">1</method>
+			<method name="public void setRadioCall(String arg0)">1</method>
+			<method name="public void setDeptLoc(String arg0)">1</method>
+			<method name="public void setArrivalTime(String arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRadioCall()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.ArrayOfFIStatic</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getFIStatic()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightPathResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightwise.planexml.ws.ArrayOfAdsPosition getFlightPathResult()">1</method>
+			<method name="public void setFlightPathResult(com.flightwise.planexml.ws.ArrayOfAdsPosition arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.AirportInfoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirportInfoResult(com.flightwise.planexml.ws.ArrayOfAirport arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfAirport getAirportInfoResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.fboweb.ws.Registry</name>
+		<wmc>41</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>42</rfc>
+		<lcom>780</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>41</npm>
+		<lcom3>0.975</lcom3>
+		<loc>204</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4959349593495935</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4878048780487805</amc>
+		<cc>
+			<method name="public void setAircraftType(int arg0)">1</method>
+			<method name="public void setAircraftTypeText(String arg0)">1</method>
+			<method name="public void setSerialNumber(String arg0)">1</method>
+			<method name="public void setCategoryText(String arg0)">1</method>
+			<method name="public int getEngineType()">1</method>
+			<method name="public int getAvgCruiseSpeed()">1</method>
+			<method name="public String getRegOwnerName()">1</method>
+			<method name="public void setRegOwnerCity(String arg0)">1</method>
+			<method name="public void setNumSeats(int arg0)">1</method>
+			<method name="public String getAircraftTypeText()">1</method>
+			<method name="public String getRegOwnerState()">1</method>
+			<method name="public void setEngineTypeText(String arg0)">1</method>
+			<method name="public String getAcftModelName()">1</method>
+			<method name="public void setYearMfr(String arg0)">1</method>
+			<method name="public String getEngineTypeText()">1</method>
+			<method name="public int getCategory()">1</method>
+			<method name="public void setWeightClass(String arg0)">1</method>
+			<method name="public void setRegOwnerName(String arg0)">1</method>
+			<method name="public void setRegOwnerZip(String arg0)">1</method>
+			<method name="public void setRegOwnerState(String arg0)">1</method>
+			<method name="public int getAircraftType()">1</method>
+			<method name="public String getSerialNumber()">1</method>
+			<method name="public String getRegOwnerCity()">1</method>
+			<method name="public int getNumSeats()">1</method>
+			<method name="public int getNumEngines()">1</method>
+			<method name="public String getAcftMfgName()">1</method>
+			<method name="public void setAvgCruiseSpeed(int arg0)">1</method>
+			<method name="public String getRegOwnerZip()">1</method>
+			<method name="public void setEngineType(int arg0)">1</method>
+			<method name="public void setAcftMfgName(String arg0)">1</method>
+			<method name="public void setRegOwnerAddress1(String arg0)">1</method>
+			<method name="public void setAcftModelName(String arg0)">1</method>
+			<method name="public void setRegOwnerAddress2(String arg0)">1</method>
+			<method name="public String getYearMfr()">1</method>
+			<method name="public String getCategoryText()">1</method>
+			<method name="public void setNumEngines(int arg0)">1</method>
+			<method name="public void setCategory(int arg0)">1</method>
+			<method name="public String getRegOwnerAddress2()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getWeightClass()">1</method>
+			<method name="public String getRegOwnerAddress1()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.PhotoListResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightwise.planexml.ws.ArrayOfPhoto getPhotoListResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPhotoListResult(com.flightwise.planexml.ws.ArrayOfPhoto arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightInfo</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setIncludeDynamicInfo(boolean arg0)">1</method>
+			<method name="public void setIncludeDetails(boolean arg0)">1</method>
+			<method name="public boolean isIncludeDetails()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public boolean isIncludeDynamicInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.Airport</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29523809523809524</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public short getGMTOffset()">1</method>
+			<method name="public double getLon()">1</method>
+			<method name="public double getLat()">1</method>
+			<method name="public String getICAO()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setICAO(String arg0)">1</method>
+			<method name="public void setDST(short arg0)">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public int getElev()">1</method>
+			<method name="public void setLocation(String arg0)">1</method>
+			<method name="public void setElev(int arg0)">1</method>
+			<method name="public void setTower(short arg0)">1</method>
+			<method name="public short getDST()">1</method>
+			<method name="public String getLocation()">1</method>
+			<method name="public void setLon(double arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public short getTower()">1</method>
+			<method name="public void setLat(double arg0)">1</method>
+			<method name="public void setGMTOffset(short arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.PlaneXMLv1Soap</name>
+		<wmc>12</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>12</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>9</ce>
+		<npm>12</npm>
+		<lcom3>2.0</lcom3>
+		<loc>12</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5166666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfAirport airportsNearConventional(double, double, long)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfFlightPlan flightPlans(String)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfAirport airportsNear(double, double, long)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfFIStatic flightsNear(double, double, long, boolean)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfPastFlight recentFlights(String)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfAdsPosition flightPath(String)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfFIStatic search(String, boolean, boolean, long)">1</method>
+			<method name="public abstract com.fboweb.ws.Registry registration(String)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfAirport airportInfo(String)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.FIDynamic flightStatus(String)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.FIStatic flightInfo(String, boolean, boolean)">1</method>
+			<method name="public abstract com.flightwise.planexml.ws.ArrayOfPhoto photoList(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.SearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightwise.planexml.ws.ArrayOfFIStatic getSearchResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchResult(com.flightwise.planexml.ws.ArrayOfFIStatic arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightPlan</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2962962962962963</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public String getRoute()">1</method>
+			<method name="public void setETA(long arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getDept()">1</method>
+			<method name="public short getDestinationTimezoneOffset()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setDest(String arg0)">1</method>
+			<method name="public void setDestinationTimezoneOffset(short arg0)">1</method>
+			<method name="public void setDept(String arg0)">1</method>
+			<method name="public void setRoute(String arg0)">1</method>
+			<method name="public int getStatus()">1</method>
+			<method name="public long getETA()">1</method>
+			<method name="public long getID()">1</method>
+			<method name="public short getDepartureTimezoneOffset()">1</method>
+			<method name="public void setDepartureTime(long arg0)">1</method>
+			<method name="public long getFileTime()">1</method>
+			<method name="public void setCenter(String arg0)">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getCenter()">1</method>
+			<method name="public String getDest()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public long getDepartureTime()">1</method>
+			<method name="public void setStatus(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDepartureTimezoneOffset(short arg0)">1</method>
+			<method name="public void setFileTime(long arg0)">1</method>
+			<method name="public void setID(long arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.AirportsNearConventionalResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirportsNearConventionalResult(com.flightwise.planexml.ws.ArrayOfAirport arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfAirport getAirportsNearConventionalResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightPlansResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFlightPlansResult(com.flightwise.planexml.ws.ArrayOfFlightPlan arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfFlightPlan getFlightPlansResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightPath</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.AirportInfo</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.ObjectFactory</name>
+		<wmc>47</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>37</cbo>
+		<rfc>87</rfc>
+		<lcom>1065</lcom>
+		<ca>0</ca>
+		<ce>37</ce>
+		<npm>46</npm>
+		<lcom3>0.9782608695652174</lcom3>
+		<loc>319</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.13043478260869565</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.617021276595745</amc>
+		<cc>
+			<method name="public com.flightwise.planexml.ws.FIDynamic createFIDynamic()">1</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfPastFlight createArrayOfPastFlight()">1</method>
+			<method name="public com.flightwise.planexml.ws.RegistrationResponse createRegistrationResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightStatusResponse createFlightStatusResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHistory(com.flightwise.planexml.ws.ArrayOfPastFlight arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.RecentFlightsResponse createRecentFlightsResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightsNearResponse createFlightsNearResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfFIStatic createArrayOfFIStatic()">1</method>
+			<method name="public com.flightwise.planexml.ws.Registration createRegistration()">1</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfAdsPosition createArrayOfAdsPosition()">1</method>
+			<method name="public com.flightwise.planexml.ws.AirportInfo createAirportInfo()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightPlan createFlightPlan()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPlanList(com.flightwise.planexml.ws.ArrayOfFlightPlan arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirports(com.flightwise.planexml.ws.ArrayOfAirport arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightStatus createFlightStatus()">1</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfAirport createArrayOfAirport()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlights(com.flightwise.planexml.ws.ArrayOfFIStatic arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.PastFlight createPastFlight()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPhotos(com.flightwise.planexml.ws.ArrayOfPhoto arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfPhoto createArrayOfPhoto()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightPath createFlightPath()">1</method>
+			<method name="public com.flightwise.planexml.ws.PhotoListResponse createPhotoListResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.AdsPosition createAdsPosition()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightPathResponse createFlightPathResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.Photo createPhoto()">1</method>
+			<method name="public com.flightwise.planexml.ws.SearchResponse createSearchResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFIStatic(com.flightwise.planexml.ws.FIStatic arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.PhotoList createPhotoList()">1</method>
+			<method name="public com.flightwise.planexml.ws.FIStatic createFIStatic()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightsNear createFlightsNear()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightInfoResponse createFlightInfoResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.AirportsNear createAirportsNear()">1</method>
+			<method name="public com.flightwise.planexml.ws.AirportInfoResponse createAirportInfoResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.Airport createAirport()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightPlansResponse createFlightPlansResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.Search createSearch()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPositions(com.flightwise.planexml.ws.ArrayOfAdsPosition arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.RecentFlights createRecentFlights()">1</method>
+			<method name="public com.flightwise.planexml.ws.AirportsNearConventional createAirportsNearConventional()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.flightwise.planexml.ws.FlightPlans createFlightPlans()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightwise.planexml.ws.ArrayOfFlightPlan createArrayOfFlightPlan()">1</method>
+			<method name="public com.flightwise.planexml.ws.FlightInfo createFlightInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFIDynamic(com.flightwise.planexml.ws.FIDynamic arg0)">1</method>
+			<method name="public com.flightwise.planexml.ws.AirportsNearConventionalResponse createAirportsNearConventionalResponse()">1</method>
+			<method name="public com.flightwise.planexml.ws.AirportsNearResponse createAirportsNearResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightInfoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightwise.planexml.ws.FIStatic getFIStatic()">1</method>
+			<method name="public void setFIStatic(com.flightwise.planexml.ws.FIStatic arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.Registration</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightwise.planexml.ws.FlightPlans</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+		</cc>
+	</class>

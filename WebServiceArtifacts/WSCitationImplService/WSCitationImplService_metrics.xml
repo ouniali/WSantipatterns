@@ -1,0 +1,2916 @@
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetSupplementaryFiles</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ProfilePublications</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getQueryString()">1</method>
+			<method name="public void setQueryString(String arg0)">1</method>
+			<method name="public void setProfileType(String arg0)">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public Boolean isSynonym()">1</method>
+			<method name="public void setSynonym(Boolean arg0)">1</method>
+			<method name="public String getProfileType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEmail()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.Request</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public String getQueryString()">1</method>
+			<method name="public void setQueryString(String arg0)">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public Boolean isSynonym()">1</method>
+			<method name="public String getProfileType()">1</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getResultType()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setResultType(String arg0)">1</method>
+			<method name="public void setProfileType(String arg0)">1</method>
+			<method name="public void setSemanticType(String arg0)">1</method>
+			<method name="public String getInternalQuery()">1</method>
+			<method name="public void setDatabase(String arg0)">1</method>
+			<method name="public String getDatabase()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public Integer getOffSet()">1</method>
+			<method name="public void setInternalQuery(String arg0)">1</method>
+			<method name="public void setSynonym(Boolean arg0)">1</method>
+			<method name="public String getSemanticType()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getProviderId()">1</method>
+			<method name="public void setProviderId(String arg0)">1</method>
+			<method name="public void setOffSet(Integer arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MeshQualifierInfo</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setMajorTopicYN(String arg0)">1</method>
+			<method name="public String getQualifierName()">1</method>
+			<method name="public void setQualifierName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAbbreviation(String arg0)">1</method>
+			<method name="public String getMajorTopicYN()">1</method>
+			<method name="public String getAbbreviation()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetLabsLinks</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public Integer getOffSet()">1</method>
+			<method name="public void setProviderId(String arg0)">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void setOffSet(Integer arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getProviderId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MinedTerms</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public java.util.List getTmSummary()">2</method>
+			<method name="public String getName()">1</method>
+			<method name="public int getTotal()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setTotal(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.BookOrReportDetails</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37037037037037035</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public void setIsbn10(String arg0)">1</method>
+			<method name="public void setEdition(String arg0)">1</method>
+			<method name="public void setIsbn13(String arg0)">1</method>
+			<method name="public String getComprisingTitle()">1</method>
+			<method name="public void setYearOfPublication(Short arg0)">1</method>
+			<method name="public Byte getMonthOfPublication()">1</method>
+			<method name="public String getPublisher()">1</method>
+			<method name="public void setComprisingTitleNonAscii(String arg0)">1</method>
+			<method name="public void setDayOfPublication(Byte arg0)">1</method>
+			<method name="public void setPublisher(String arg0)">1</method>
+			<method name="public void setMonthOfPublication(Byte arg0)">1</method>
+			<method name="public String getSeriesName()">1</method>
+			<method name="public void setSeriesName(String arg0)">1</method>
+			<method name="public void setNumberOfPages(String arg0)">1</method>
+			<method name="public Byte getDayOfPublication()">1</method>
+			<method name="public void setComprisingTitle(String arg0)">1</method>
+			<method name="public void setExtraInformation(String arg0)">1</method>
+			<method name="public String getExtraInformation()">1</method>
+			<method name="public String getIsbn10()">1</method>
+			<method name="public String getIsbn13()">1</method>
+			<method name="public String getSeriesIssn()">1</method>
+			<method name="public String getNumberOfPages()">1</method>
+			<method name="public String getComprisingTitleNonAscii()">1</method>
+			<method name="public Short getYearOfPublication()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSeriesIssn(String arg0)">1</method>
+			<method name="public String getEdition()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.SubSetList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getSubset()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.SubSet</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PatentPriorityList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPriority()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ProfilePublicationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.ResponseWrapper arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.Authors</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setFirstName(String arg0)">1</method>
+			<method name="public String getLastName()">1</method>
+			<method name="public String getInitials()">1</method>
+			<method name="public String getCollectiveName()">1</method>
+			<method name="public void setAuthorId(uk.ac.ebi.cdb.webservice.AuthorId arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.AuthorId getAuthorId()">1</method>
+			<method name="public String getFullName()">1</method>
+			<method name="public void setFullName(String arg0)">1</method>
+			<method name="public void setCollectiveName(String arg0)">1</method>
+			<method name="public void setInitials(String arg0)">1</method>
+			<method name="public String getFirstName()">1</method>
+			<method name="public void setLastName(String arg0)">1</method>
+			<method name="public String getAffiliation()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAffiliation(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.AuthorIdsList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAuthorId()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetDatabaseLinksResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.ResponseWrapper arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetLabsLinksResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.ResponseWrapper arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetTextMinedTerms</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public Integer getOffSet()">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void setSemanticType(String arg0)">1</method>
+			<method name="public void setOffSet(Integer arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSemanticType()">1</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.WSCitationImpl</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>10</npm>
+		<lcom3>2.0</lcom3>
+		<loc>10</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.ResponseWrapper profilePublications(String, String, Boolean, String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.ResponseWrapper searchPublications(String, String, Integer, Boolean, String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.ResponseWrapper listSearchFields(String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.ResponseWrapper getCitations(String, String, Integer, String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.ResponseWrapper getTextMinedTerms(String, String, String, Integer, String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.Result getSupplementaryFiles(String, String, String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.ResponseWrapper getReferences(String, String, Integer, String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.ResponseWrapper getDatabaseLinks(String, String, String, Integer, String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.ResponseWrapper getLabsLinks(String, String, String, Integer, String)">1</method>
+			<method name="public abstract uk.ac.ebi.cdb.webservice.Result getFulltextXML(String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.SemanticCounts</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public Integer getCount()">1</method>
+			<method name="public void setCount(Integer arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.SemanticTypeCounts</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSemanticType()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ResponseWrapper</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>22</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>10</ca>
+		<ce>12</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>12</moa>
+		<mfa>0.0</mfa>
+		<cam>0.09885057471264368</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public void setReferenceList(uk.ac.ebi.cdb.webservice.ReferencesList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ResultList getResultList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ReferencesList getReferenceList()">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public void setLinksCountList(uk.ac.ebi.cdb.webservice.LabsProviderCountList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.DbCrossReferenceList getDbCrossReferenceList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MinedTermsList getSemanticTypeList()">1</method>
+			<method name="public void setProfileList(uk.ac.ebi.cdb.webservice.ProfileListBean arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.Request getRequest()">1</method>
+			<method name="public void setDbCountList(uk.ac.ebi.cdb.webservice.DbCountList arg0)">1</method>
+			<method name="public void setSemanticTypeList(uk.ac.ebi.cdb.webservice.MinedTermsList arg0)">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public void setDbCrossReferenceList(uk.ac.ebi.cdb.webservice.DbCrossReferenceList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SearchTerms getSearchTermList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.DbCountList getDbCountList()">1</method>
+			<method name="public Integer getHitCount()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.LabsProviders getProviders()">1</method>
+			<method name="public void setHitCount(Integer arg0)">1</method>
+			<method name="public void setSearchTermList(uk.ac.ebi.cdb.webservice.SearchTerms arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.LabsProviderCountList getLinksCountList()">1</method>
+			<method name="public void setResultList(uk.ac.ebi.cdb.webservice.ResultList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ProfileListBean getProfileList()">1</method>
+			<method name="public void setProviders(uk.ac.ebi.cdb.webservice.LabsProviders arg0)">1</method>
+			<method name="public void setSemanticTypeCountList(uk.ac.ebi.cdb.webservice.SemanticTypeCounts arg0)">1</method>
+			<method name="public void setCitationList(uk.ac.ebi.cdb.webservice.CitationList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.CitationList getCitationList()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(uk.ac.ebi.cdb.webservice.Request arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SemanticTypeCounts getSemanticTypeCountList()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetTextMinedTermsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.ResponseWrapper arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MinedAltName</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAltName()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.FullTextURLInfo</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getAvailability()">1</method>
+			<method name="public String getDocumentStyle()">1</method>
+			<method name="public String getAvailabilityCode()">1</method>
+			<method name="public void setAvailabilityCode(String arg0)">1</method>
+			<method name="public String getSite()">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void setSite(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAvailability(String arg0)">1</method>
+			<method name="public void setDocumentStyle(String arg0)">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PatentApplication</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setOrderIn(Short arg0)">1</method>
+			<method name="public void setApplicationNumber(String arg0)">1</method>
+			<method name="public String getApplicationDate()">1</method>
+			<method name="public String getApplicationNumber()">1</method>
+			<method name="public void setApplicationDate(String arg0)">1</method>
+			<method name="public Short getOrderIn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.DbCounts</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public Integer getCount()">1</method>
+			<method name="public void setCount(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDbName()">1</method>
+			<method name="public void setDbName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.CitationData</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49382716049382713</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public String getJournalAbbreviation()">1</method>
+			<method name="public void setAuthorString(String arg0)">1</method>
+			<method name="public String getVolume()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setPubYear(int arg0)">1</method>
+			<method name="public void setText(String arg0)">1</method>
+			<method name="public void setCitationType(String arg0)">1</method>
+			<method name="public String getPageInfo()">1</method>
+			<method name="public String getAuthorString()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public void setPageInfo(String arg0)">1</method>
+			<method name="public int getCitedByCount()">1</method>
+			<method name="public void setIssue(String arg0)">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getISSN()">1</method>
+			<method name="public String getIssue()">1</method>
+			<method name="public void setCitedByCount(int arg0)">1</method>
+			<method name="public String getCitationType()">1</method>
+			<method name="public String getText()">1</method>
+			<method name="public void setJournalAbbreviation(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void setISSN(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getPubYear()">1</method>
+			<method name="public void setVolume(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetDatabaseLinks</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public Integer getOffSet()">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void setOffSet(Integer arg0)">1</method>
+			<method name="public void setDatabase(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDatabase()">1</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.LabsProviderCountList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProvider()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ListSearchFieldsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.ResponseWrapper arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.Journal</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getMedlineAbbreviation()">1</method>
+			<method name="public void setMedlineAbbreviation(String arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void setNLMid(String arg0)">1</method>
+			<method name="public String getISSN()">1</method>
+			<method name="public String getNLMid()">1</method>
+			<method name="public String getISOAbbreviation()">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setISOAbbreviation(String arg0)">1</method>
+			<method name="public void setESSN(String arg0)">1</method>
+			<method name="public void setISSN(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getESSN()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PatentFamilyList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getFamily()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.QueryException_Exception</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.QueryException getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, uk.ac.ebi.cdb.webservice.QueryException arg1)">0</method>
+			<method name="public void _init_(String arg0, uk.ac.ebi.cdb.webservice.QueryException arg1, Throwable arg2)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ExtComment</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getExtCommentSource()">1</method>
+			<method name="public void setInfo2(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setInfo1(String arg0)">1</method>
+			<method name="public String getInfo2()">1</method>
+			<method name="public void setExtCommentSource(String arg0)">1</method>
+			<method name="public String getInfo1()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GrantInfo</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAgency(String arg0)">1</method>
+			<method name="public String getAcronym()">1</method>
+			<method name="public void setAcronym(String arg0)">1</method>
+			<method name="public void setGrantId(String arg0)">1</method>
+			<method name="public short getOrderIn()">1</method>
+			<method name="public void setOrderIn(short arg0)">1</method>
+			<method name="public String getAgency()">1</method>
+			<method name="public String getGrantId()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.KeywordList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getKeyword()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.CitationList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCitation()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.CrossReferencesList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDbName()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetCitations</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public Integer getOffSet()">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void setOffSet(Integer arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MinedSummary</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getTerm()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MinedDbIDs getDbIdList()">1</method>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MinedAltName getAltNameList()">1</method>
+			<method name="public void setTerm(String arg0)">1</method>
+			<method name="public void setDbIdList(uk.ac.ebi.cdb.webservice.MinedDbIDs arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAltNameList(uk.ac.ebi.cdb.webservice.MinedAltName arg0)">1</method>
+			<method name="public String getDbName()">1</method>
+			<method name="public void setDbName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PatentDetailsInfo</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24509803921568626</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentPriorityList getPriorityList()">1</method>
+			<method name="public void setTypeCode(String arg0)">1</method>
+			<method name="public void setApplication(uk.ac.ebi.cdb.webservice.PatentApplication arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentFamilyList getFamilyList()">1</method>
+			<method name="public String getTypeDescription()">1</method>
+			<method name="public void setPriorityList(uk.ac.ebi.cdb.webservice.PatentPriorityList arg0)">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public String getTypeCode()">1</method>
+			<method name="public void setClassifierList(uk.ac.ebi.cdb.webservice.PatentClassifierList arg0)">1</method>
+			<method name="public void setTypeDescription(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentApplication getApplication()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCountryCode()">1</method>
+			<method name="public void setFamilyList(uk.ac.ebi.cdb.webservice.PatentFamilyList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentClassifierList getClassifierList()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PatentClassifierInfo</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getClassification()">1</method>
+			<method name="public String getClassificationType()">1</method>
+			<method name="public String getHyperlink()">1</method>
+			<method name="public void setClassificationType(String arg0)">1</method>
+			<method name="public void setHyperlink(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setClassification(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PatentFamilyData</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setOrderIn(Short arg0)">1</method>
+			<method name="public String getFamilyNumber()">1</method>
+			<method name="public void setFamilyNumber(String arg0)">1</method>
+			<method name="public Short getOrderIn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetSupplementaryFilesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.Result getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.Result arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ExtCommentBean</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getExtComment()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ProfileListBean</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>1.0</lcom3>
+		<loc>43</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.0</amc>
+		<cc>
+			<method name="public java.util.List getPubType()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getSource()">2</method>
+			<method name="public java.util.List getSubset()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.CommentCorrectionList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCommentCorrection()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ResultList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getResult()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.LabsLinks</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MeshHeadingsList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getMeshHeading()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MeshHeadingInfo</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getDescriptorName()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MeshQualifierList getMeshQualifierList()">1</method>
+			<method name="public void setMeshQualifierList(uk.ac.ebi.cdb.webservice.MeshQualifierList arg0)">1</method>
+			<method name="public void setMajorTopicYN(String arg0)">1</method>
+			<method name="public void setDescriptorName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMajorTopicYN()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ObjectFactory</name>
+		<wmc>109</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>86</cbo>
+		<rfc>198</rfc>
+		<lcom>5844</lcom>
+		<ca>0</ca>
+		<ce>86</ce>
+		<npm>108</npm>
+		<lcom3>0.9907407407407407</lcom3>
+		<loc>772</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.054292929292929296</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.889908256880734</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ChemicalInfo createChemicalInfo()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.Profile createProfile()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SearchPublicationsResponse createSearchPublicationsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDatabaseLinks(uk.ac.ebi.cdb.webservice.GetDatabaseLinks arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MeshHeadingsList createMeshHeadingsList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetTextMinedTermsResponse(uk.ac.ebi.cdb.webservice.GetTextMinedTermsResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetSupplementaryFilesResponse createGetSupplementaryFilesResponse()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.Authors createAuthors()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.AuthorIdsList createAuthorIdsList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MeshQualifierInfo createMeshQualifierInfo()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.LabsProviderCounts createLabsProviderCounts()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentFamilyData createPatentFamilyData()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ReferencesList createReferencesList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.CitationData createCitationData()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper createResponseWrapper()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.FullTextURLInfo createFullTextURLInfo()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.DbCrossReference createDbCrossReference()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.BookOrReportDetails createBookOrReportDetails()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.DbCountList createDbCountList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MeshHeadingInfo createMeshHeadingInfo()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.DbCrossReferenceList createDbCrossReferenceList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.LabsLinks createLabsLinks()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.TmAccessionTypeList createTmAccessionTypeList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetSupplementaryFiles createGetSupplementaryFiles()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MinedTerms createMinedTerms()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.CitationList createCitationList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFulltextXMLResponse(uk.ac.ebi.cdb.webservice.GetFulltextXMLResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ReferenceInfo createReferenceInfo()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SearchPublications createSearchPublications()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetFulltextXML createGetFulltextXML()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createListSearchFieldsResponse(uk.ac.ebi.cdb.webservice.ListSearchFieldsResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.LabsProviders createLabsProviders()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SearchTerms createSearchTerms()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCitations(uk.ac.ebi.cdb.webservice.GetCitations arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ProfilePublications createProfilePublications()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.FullTextUrlList createFullTextUrlList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SearchTerm createSearchTerm()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SubSetList createSubSetList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReferencesResponse(uk.ac.ebi.cdb.webservice.GetReferencesResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetFulltextXMLResponse createGetFulltextXMLResponse()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ExtCommentBean createExtCommentBean()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetReferences createGetReferences()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentDetailsInfo createPatentDetailsInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchPublicationsResponse(uk.ac.ebi.cdb.webservice.SearchPublicationsResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ListSearchFields createListSearchFields()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ListSearchFieldsResponse createListSearchFieldsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSupplementaryFilesResponse(uk.ac.ebi.cdb.webservice.GetSupplementaryFilesResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MinedSummary createMinedSummary()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.AuthorsList createAuthorsList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.CrossReferencesList createCrossReferencesList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDatabaseLinksResponse(uk.ac.ebi.cdb.webservice.GetDatabaseLinksResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SemanticTypeCounts createSemanticTypeCounts()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MinedAltName createMinedAltName()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetCitations createGetCitations()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentFamilyList createPatentFamilyList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentClassifierInfo createPatentClassifierInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetLabsLinksResponse(uk.ac.ebi.cdb.webservice.GetLabsLinksResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentPriorityList createPatentPriorityList()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.ac.ebi.cdb.webservice.QueryException createQueryException()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchPublications(uk.ac.ebi.cdb.webservice.SearchPublications arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.CommentCorrectionList createCommentCorrectionList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.Request createRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createListSearchFields(uk.ac.ebi.cdb.webservice.ListSearchFields arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFulltextXML(uk.ac.ebi.cdb.webservice.GetFulltextXML arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ChemicalList createChemicalList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.AuthorId createAuthorId()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GrantsList createGrantsList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetTextMinedTerms(uk.ac.ebi.cdb.webservice.GetTextMinedTerms arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MinedDbIDs createMinedDbIDs()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProfilePublicationsResponse(uk.ac.ebi.cdb.webservice.ProfilePublicationsResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetDatabaseLinks createGetDatabaseLinks()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.LabsProvider createLabsProvider()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetTextMinedTermsResponse createGetTextMinedTermsResponse()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MeshQualifierList createMeshQualifierList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentClassifierList createPatentClassifierList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SemanticCounts createSemanticCounts()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.KeywordList createKeywordList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCitationsResponse(uk.ac.ebi.cdb.webservice.GetCitationsResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.LabsProviderCountList createLabsProviderCountList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.InvestigatorList createInvestigatorList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetDatabaseLinksResponse createGetDatabaseLinksResponse()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public uk.ac.ebi.cdb.webservice.DbCrossReferenceInfo createDbCrossReferenceInfo()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ExtComment createExtComment()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProfilePublications(uk.ac.ebi.cdb.webservice.ProfilePublications arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQueryException(uk.ac.ebi.cdb.webservice.QueryException arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetLabsLinksResponse createGetLabsLinksResponse()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetReferencesResponse createGetReferencesResponse()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.CommentCorrection createCommentCorrection()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PubTypeList createPubTypeList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ProfilePublicationsResponse createProfilePublicationsResponse()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MinedTermsList createMinedTermsList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetCitationsResponse createGetCitationsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetLabsLinks(uk.ac.ebi.cdb.webservice.GetLabsLinks arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.JournalInfo createJournalInfo()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SubSet createSubSet()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetTextMinedTerms createGetTextMinedTerms()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GetLabsLinks createGetLabsLinks()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSupplementaryFiles(uk.ac.ebi.cdb.webservice.GetSupplementaryFiles arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GrantInfo createGrantInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReferences(uk.ac.ebi.cdb.webservice.GetReferences arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.Journal createJournal()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentApplication createPatentApplication()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentPriorityData createPatentPriorityData()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.DbCounts createDbCounts()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ProfileListBean createProfileListBean()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ResultList createResultList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.Result createResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.CommentCorrection</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setNote(String arg0)">1</method>
+			<method name="public void setOrderIn(short arg0)">1</method>
+			<method name="public void setReference(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public short getOrderIn()">1</method>
+			<method name="public String getReference()">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getNote()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetReferences</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public Integer getOffSet()">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void setOffSet(Integer arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PatentClassifierList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getClassifier()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.JournalInfo</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24509803921568626</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setDateOfPublication(String arg0)">1</method>
+			<method name="public void setPrintPublicationDate(String arg0)">1</method>
+			<method name="public Integer getJournalIssueId()">1</method>
+			<method name="public void setYearOfPublication(Short arg0)">1</method>
+			<method name="public Byte getMonthOfPublication()">1</method>
+			<method name="public void setIssue(String arg0)">1</method>
+			<method name="public String getPrintPublicationDate()">1</method>
+			<method name="public void setJournalIssueId(Integer arg0)">1</method>
+			<method name="public String getVolume()">1</method>
+			<method name="public String getIssue()">1</method>
+			<method name="public void setJournal(uk.ac.ebi.cdb.webservice.Journal arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.Journal getJournal()">1</method>
+			<method name="public void setMonthOfPublication(Byte arg0)">1</method>
+			<method name="public String getDateOfPublication()">1</method>
+			<method name="public Short getYearOfPublication()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setVolume(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.SearchTerm</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public String getTerm()">1</method>
+			<method name="public java.util.List getDataSets()">2</method>
+			<method name="public void setTerm(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ChemicalList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getChemical()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.TmAccessionTypeList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAccessionType()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetFulltextXMLResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.Result getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.Result arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.FullTextUrlList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getFullTextUrl()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.Result</name>
+		<wmc>119</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>22</cbo>
+		<rfc>120</rfc>
+		<lcom>6903</lcom>
+		<ca>4</ca>
+		<ce>18</ce>
+		<npm>119</npm>
+		<lcom3>0.9915254237288136</lcom3>
+		<loc>594</loc>
+		<dam>1.0</dam>
+		<moa>18</moa>
+		<mfa>0.0</mfa>
+		<cam>0.06799083269671505</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.495798319327731</amc>
+		<cc>
+			<method name="public void setMeshHeadingList(uk.ac.ebi.cdb.webservice.MeshHeadingsList arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.AuthorIdsList getAuthorIdList()">1</method>
+			<method name="public void setLuceneScore(String arg0)">1</method>
+			<method name="public String getJournalIssn()">1</method>
+			<method name="public void setHasTextMinedTerms(String arg0)">1</method>
+			<method name="public void setChemicalList(uk.ac.ebi.cdb.webservice.ChemicalList arg0)">1</method>
+			<method name="public void setSubsetList(uk.ac.ebi.cdb.webservice.SubSetList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.Request getRequest()">1</method>
+			<method name="public void setPubType(String arg0)">1</method>
+			<method name="public String getHasSupplementary()">1</method>
+			<method name="public void setAuthorIdList(uk.ac.ebi.cdb.webservice.AuthorIdsList arg0)">1</method>
+			<method name="public void setCitedByCount(Integer arg0)">1</method>
+			<method name="public String getDOI()">1</method>
+			<method name="public String getLanguage()">1</method>
+			<method name="public String getPmid()">1</method>
+			<method name="public void setInPMC(String arg0)">1</method>
+			<method name="public void setKeywordList(uk.ac.ebi.cdb.webservice.KeywordList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PubTypeList getPubTypeList()">1</method>
+			<method name="public void setInvestigatorList(uk.ac.ebi.cdb.webservice.InvestigatorList arg0)">1</method>
+			<method name="public void setAbstractText(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.MeshHeadingsList getMeshHeadingList()">1</method>
+			<method name="public void setDateOfCompletion(String arg0)">1</method>
+			<method name="public void setDOI(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public String getHasFullTextXML()">1</method>
+			<method name="public String getJournalTitle()">1</method>
+			<method name="public void setTmAccessionTypeList(uk.ac.ebi.cdb.webservice.TmAccessionTypeList arg0)">1</method>
+			<method name="public void setGrantsList(uk.ac.ebi.cdb.webservice.GrantsList arg0)">1</method>
+			<method name="public String getLuceneScore()">1</method>
+			<method name="public void setPmid(String arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.PatentDetailsInfo getPatentDetails()">1</method>
+			<method name="public void setEmbargoDate(String arg0)">1</method>
+			<method name="public void setInEPMC(String arg0)">1</method>
+			<method name="public String getHasTextMinedTerms()">1</method>
+			<method name="public String getFirstPublicationDate()">1</method>
+			<method name="public String getPubYear()">1</method>
+			<method name="public String getHasReferences()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.TmAccessionTypeList getTmAccessionTypeList()">1</method>
+			<method name="public void setHasFullTextXML(String arg0)">1</method>
+			<method name="public void setAffiliation(String arg0)">1</method>
+			<method name="public void setHasPDF(String arg0)">1</method>
+			<method name="public void setPmcid(String arg0)">1</method>
+			<method name="public javax.activation.DataHandler getSupplementaryFiles()">1</method>
+			<method name="public Integer getCitationId()">1</method>
+			<method name="public void setPageInfo(String arg0)">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public void setCitationId(Integer arg0)">1</method>
+			<method name="public void setAuthorList(uk.ac.ebi.cdb.webservice.AuthorsList arg0)">1</method>
+			<method name="public void setBookOrReportDetails(uk.ac.ebi.cdb.webservice.BookOrReportDetails arg0)">1</method>
+			<method name="public void setBrSummary(String arg0)">1</method>
+			<method name="public void setIssue(String arg0)">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getEmbargoDate()">1</method>
+			<method name="public String getPmcid()">1</method>
+			<method name="public String getIssue()">1</method>
+			<method name="public void setExtCommentList(uk.ac.ebi.cdb.webservice.ExtCommentBean arg0)">1</method>
+			<method name="public javax.activation.DataHandler getFullText()">1</method>
+			<method name="public void setDateOfCreation(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.JournalInfo getJournalInfo()">1</method>
+			<method name="public String getInEPMC()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.ac.ebi.cdb.webservice.AuthorsList getAuthorList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.CommentCorrectionList getCommentCorrectionList()">1</method>
+			<method name="public void setJournalInfo(uk.ac.ebi.cdb.webservice.JournalInfo arg0)">1</method>
+			<method name="public void setPubModel(String arg0)">1</method>
+			<method name="public void setCommentCorrectionList(uk.ac.ebi.cdb.webservice.CommentCorrectionList arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.BookOrReportDetails getBookOrReportDetails()">1</method>
+			<method name="public String getPubType()">1</method>
+			<method name="public void setHasTMAccessionNumbers(String arg0)">1</method>
+			<method name="public void setJournalTitle(String arg0)">1</method>
+			<method name="public void setDateOfRevision(String arg0)">1</method>
+			<method name="public void setHasLabsLinks(String arg0)">1</method>
+			<method name="public void setDbCrossReferenceList(uk.ac.ebi.cdb.webservice.CrossReferencesList arg0)">1</method>
+			<method name="public void setElectronicPublicationDate(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.CrossReferencesList getDbCrossReferenceList()">1</method>
+			<method name="public String getPageInfo()">1</method>
+			<method name="public String getPubModel()">1</method>
+			<method name="public void setPubYear(String arg0)">1</method>
+			<method name="public String getAffiliation()">1</method>
+			<method name="public String getAuthorString()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.SubSetList getSubsetList()">1</method>
+			<method name="public String getAbstractText()">1</method>
+			<method name="public void setIsOpenAccess(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.FullTextUrlList getFullTextUrlList()">1</method>
+			<method name="public void setPatentDetails(uk.ac.ebi.cdb.webservice.PatentDetailsInfo arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.GrantsList getGrantsList()">1</method>
+			<method name="public void setSupplementaryFiles(javax.activation.DataHandler arg0)">1</method>
+			<method name="public Integer getCitedByCount()">1</method>
+			<method name="public void setHasDbCrossReferences(String arg0)">1</method>
+			<method name="public String getHasPDF()">1</method>
+			<method name="public void setJournalVolume(String arg0)">1</method>
+			<method name="public String getIsOpenAccess()">1</method>
+			<method name="public String getInPMC()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.KeywordList getKeywordList()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ChemicalList getChemicalList()">1</method>
+			<method name="public String getBrSummary()">1</method>
+			<method name="public void setFullTextUrlList(uk.ac.ebi.cdb.webservice.FullTextUrlList arg0)">1</method>
+			<method name="public void setFirstPublicationDate(String arg0)">1</method>
+			<method name="public String getHasDbCrossReferences()">1</method>
+			<method name="public String getHasLabsLinks()">1</method>
+			<method name="public String getDateOfCreation()">1</method>
+			<method name="public void setAuthorString(String arg0)">1</method>
+			<method name="public void setPubTypeList(uk.ac.ebi.cdb.webservice.PubTypeList arg0)">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public String getJournalVolume()">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.InvestigatorList getInvestigatorList()">1</method>
+			<method name="public void setHasReferences(String arg0)">1</method>
+			<method name="public String getDateOfCompletion()">1</method>
+			<method name="public String getHasTMAccessionNumbers()">1</method>
+			<method name="public void setHasSupplementary(String arg0)">1</method>
+			<method name="public String getDateOfRevision()">1</method>
+			<method name="public String getElectronicPublicationDate()">1</method>
+			<method name="public void setJournalIssn(String arg0)">1</method>
+			<method name="public uk.ac.ebi.cdb.webservice.ExtCommentBean getExtCommentList()">1</method>
+			<method name="public void setRequest(uk.ac.ebi.cdb.webservice.Request arg0)">1</method>
+			<method name="public void setFullText(javax.activation.DataHandler arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MinedDbIDs</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDbId()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.Profile</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ReferenceInfo</name>
+		<wmc>51</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>52</rfc>
+		<lcom>1225</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>51</npm>
+		<lcom3>0.98</lcom3>
+		<loc>254</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49673202614379086</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4901960784313726</amc>
+		<cc>
+			<method name="public void setEditors(String arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public String getJournalAbbreviation()">1</method>
+			<method name="public String getVolume()">1</method>
+			<method name="public int getCitedOrder()">1</method>
+			<method name="public String getPageInfo()">1</method>
+			<method name="public String getISBN()">1</method>
+			<method name="public String getSeriesName()">1</method>
+			<method name="public void setExternalLink(String arg0)">1</method>
+			<method name="public String getAuthorString()">1</method>
+			<method name="public String getMatch()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public void setISBN(String arg0)">1</method>
+			<method name="public String getISSN()">1</method>
+			<method name="public String getExternalLink()">1</method>
+			<method name="public String getPublicationTitle()">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void setMatch(String arg0)">1</method>
+			<method name="public int getPubYear()">1</method>
+			<method name="public String getEdition()">1</method>
+			<method name="public void setVolume(String arg0)">1</method>
+			<method name="public void setDoi(String arg0)">1</method>
+			<method name="public void setEdition(String arg0)">1</method>
+			<method name="public void setUnstructuredInformation(String arg0)">1</method>
+			<method name="public void setPublicationTitle(String arg0)">1</method>
+			<method name="public String getPublisherLoc()">1</method>
+			<method name="public void setAuthorString(String arg0)">1</method>
+			<method name="public void setComments(String arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setPubYear(int arg0)">1</method>
+			<method name="public void setCitationType(String arg0)">1</method>
+			<method name="public void setESSN(String arg0)">1</method>
+			<method name="public void setSeriesName(String arg0)">1</method>
+			<method name="public String getESSN()">1</method>
+			<method name="public void setPageInfo(String arg0)">1</method>
+			<method name="public void setCitedOrder(int arg0)">1</method>
+			<method name="public String getPublisherName()">1</method>
+			<method name="public String getComments()">1</method>
+			<method name="public void setPublisherName(String arg0)">1</method>
+			<method name="public void setIssue(String arg0)">1</method>
+			<method name="public void setPublisherLoc(String arg0)">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getDoi()">1</method>
+			<method name="public String getIssue()">1</method>
+			<method name="public String getCitationType()">1</method>
+			<method name="public void setJournalAbbreviation(String arg0)">1</method>
+			<method name="public void setISSN(String arg0)">1</method>
+			<method name="public String getEditors()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUnstructuredInformation()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.DbCrossReferenceList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDbCrossReference()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetFulltextXML</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.AuthorsList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAuthor()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.LabsProvider</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>37</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>10</npm>
+		<lcom3>0.911111111111111</lcom3>
+		<loc>57</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.2</amc>
+		<cc>
+			<method name="public java.util.List getLink()">2</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getFrontTab()">1</method>
+			<method name="public void setId(Integer arg0)">1</method>
+			<method name="public Integer getId()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setFrontTab(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.LabsProviderCounts</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getProviderName()">1</method>
+			<method name="public void setLinksCount(Integer arg0)">1</method>
+			<method name="public void setProviderName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getLinksCount()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetCitationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.ResponseWrapper arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GrantsList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getGrant()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.InvestigatorList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getInvestigator()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ListSearchFields</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEmail()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PubTypeList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPubType()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ReferencesList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReference()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.GetReferencesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.ResponseWrapper arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.QueryException</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.ChemicalInfo</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void setRegistryNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getRegistryNumber()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.DbCountList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDb()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.SearchPublicationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.cdb.webservice.ResponseWrapper getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.cdb.webservice.ResponseWrapper arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.LabsProviders</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProvider()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.DbCrossReferenceInfo</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getInfo4()">1</method>
+			<method name="public String getInfo3()">1</method>
+			<method name="public void setInfo3(String arg0)">1</method>
+			<method name="public void setInfo4(String arg0)">1</method>
+			<method name="public void setInfo2(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setInfo1(String arg0)">1</method>
+			<method name="public String getInfo2()">1</method>
+			<method name="public String getInfo1()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.WSCitationImplService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient uk.ac.ebi.cdb.webservice.WSCitationImpl getWSCitationImplPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="public uk.ac.ebi.cdb.webservice.WSCitationImpl getWSCitationImplPort()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.PatentPriorityData</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setPriorityDate(String arg0)">1</method>
+			<method name="public void setOrderIn(Short arg0)">1</method>
+			<method name="public String getPriorityDate()">1</method>
+			<method name="public String getPriorityNumber()">1</method>
+			<method name="public Short getOrderIn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPriorityNumber(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MeshQualifierList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getMeshQualifier()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.DbCrossReference</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public int getDbCount()">1</method>
+			<method name="public void setDbCount(int arg0)">1</method>
+			<method name="public java.util.List getDbCrossReferenceInfo()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDbName()">1</method>
+			<method name="public void setDbName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.MinedTermsList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSemanticType()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.SearchPublications</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getResultType()">1</method>
+			<method name="public String getQueryString()">1</method>
+			<method name="public void setResultType(String arg0)">1</method>
+			<method name="public Integer getOffSet()">1</method>
+			<method name="public void setQueryString(String arg0)">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void setOffSet(Integer arg0)">1</method>
+			<method name="public Boolean isSynonym()">1</method>
+			<method name="public void setSynonym(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEmail()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.SearchTerms</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSearchTerms()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.cdb.webservice.AuthorId</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+		</cc>
+	</class>

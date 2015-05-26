@@ -1,0 +1,813 @@
+	<class>
+		<name>kr.co.rts.GetHotelInformationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getGetHotelInformationResult()">1</method>
+			<method name="public void setGetHotelInformationResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelInfoSummary</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public kr.co.rts.STGetHotelInfoSummaryNet getHotelInfoSummary()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHotelInfoSummary(kr.co.rts.STGetHotelInfoSummaryNet arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelInformation</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHotelInformationRTSWS(kr.co.rts.ArrayOfSTGetHotelInformationRTSWS arg0)">1</method>
+			<method name="public kr.co.rts.ArrayOfSTGetHotelInformationRTSWS getHotelInformationRTSWS()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.STGetHotelSearchListNet</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.296969696969697</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public String getSupplierCompCode()">1</method>
+			<method name="public String getStarRating()">1</method>
+			<method name="public String getSortType()">1</method>
+			<method name="public void setLocationCode(String arg0)">1</method>
+			<method name="public boolean isCompareYn()">1</method>
+			<method name="public void setCheckInDate(String arg0)">1</method>
+			<method name="public void setItemName(String arg0)">1</method>
+			<method name="public void setRoomsList(kr.co.rts.ArrayOfRoomsInfo arg0)">1</method>
+			<method name="public String getCityCode()">1</method>
+			<method name="public void setStarRating(String arg0)">1</method>
+			<method name="public void setSortType(String arg0)">1</method>
+			<method name="public kr.co.rts.ArrayOfRoomsInfo getRoomsList()">1</method>
+			<method name="public String getClientCurrencyCode()">1</method>
+			<method name="public void setClientCurrencyCode(String arg0)">1</method>
+			<method name="public kr.co.rts.ArrayOfItemCodeInfo getItemCodeList()">1</method>
+			<method name="public void setSupplierCompCode(String arg0)">1</method>
+			<method name="public String getItemName()">1</method>
+			<method name="public String getLanguageCode()">1</method>
+			<method name="public void setRecommendHotelOnly(boolean arg0)">1</method>
+			<method name="public boolean isAvailableHotelOnly()">1</method>
+			<method name="public String getCheckOutDate()">1</method>
+			<method name="public void setCityCode(String arg0)">1</method>
+			<method name="public void setCheckOutDate(String arg0)">1</method>
+			<method name="public void setItemCodeList(kr.co.rts.ArrayOfItemCodeInfo arg0)">1</method>
+			<method name="public String getLocationCode()">1</method>
+			<method name="public void setAvailableHotelOnly(boolean arg0)">1</method>
+			<method name="public boolean isRecommendHotelOnly()">1</method>
+			<method name="public void setLanguageCode(String arg0)">1</method>
+			<method name="public void setCompareYn(boolean arg0)">1</method>
+			<method name="public String getCheckInDate()">1</method>
+			<method name="public void setSellerMarkup(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSellerMarkup()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.ObjectFactory</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>22</cbo>
+		<rfc>50</rfc>
+		<lcom>298</lcom>
+		<ca>0</ca>
+		<ce>22</ce>
+		<npm>24</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>132</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5208333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.24</amc>
+		<cc>
+			<method name="public kr.co.rts.STGetHotelSearchListNetForGuestCount createSTGetHotelSearchListNetForGuestCount()">1</method>
+			<method name="public kr.co.rts.GetHotelInformationResponse createGetHotelInformationResponse()">1</method>
+			<method name="public kr.co.rts.GetHotelSearchListResponse createGetHotelSearchListResponse()">1</method>
+			<method name="public kr.co.rts.ArrayOfItemCodeInfo createArrayOfItemCodeInfo()">1</method>
+			<method name="public kr.co.rts.GetHotelPriceCheck createGetHotelPriceCheck()">1</method>
+			<method name="public kr.co.rts.STGetHotelSearchListNet createSTGetHotelSearchListNet()">1</method>
+			<method name="public kr.co.rts.GetHotelSearchList createGetHotelSearchList()">1</method>
+			<method name="public kr.co.rts.ItemCodeInfo createItemCodeInfo()">1</method>
+			<method name="public kr.co.rts.GuestsInfo createGuestsInfo()">1</method>
+			<method name="public kr.co.rts.ArrayOfGuestsInfo createArrayOfGuestsInfo()">1</method>
+			<method name="public kr.co.rts.BaseInfo createBaseInfo()">1</method>
+			<method name="public kr.co.rts.GetHotelSearchListForCustomerCountResponse createGetHotelSearchListForCustomerCountResponse()">1</method>
+			<method name="public kr.co.rts.GetHotelInfoSummaryResponse createGetHotelInfoSummaryResponse()">1</method>
+			<method name="public kr.co.rts.GetHotelInformation createGetHotelInformation()">1</method>
+			<method name="public kr.co.rts.GetHotelPriceCheckResponse createGetHotelPriceCheckResponse()">1</method>
+			<method name="public kr.co.rts.ArrayOfRoomsInfo createArrayOfRoomsInfo()">1</method>
+			<method name="public kr.co.rts.STGetHotelInfoSummaryNet createSTGetHotelInfoSummaryNet()">1</method>
+			<method name="public kr.co.rts.GetHotelSearchListForCustomerCount createGetHotelSearchListForCustomerCount()">1</method>
+			<method name="public kr.co.rts.ArrayOfSTGetHotelInformationRTSWS createArrayOfSTGetHotelInformationRTSWS()">1</method>
+			<method name="public kr.co.rts.GetHotelInfoSummary createGetHotelInfoSummary()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public kr.co.rts.RoomsInfo createRoomsInfo()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public kr.co.rts.STGetHotelInformationRTSWS createSTGetHotelInformationRTSWS()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBaseInfo(kr.co.rts.BaseInfo arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.WebServices</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="public transient kr.co.rts.WebServicesSoap getWebServicesSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public kr.co.rts.WebServicesSoap getWebServicesSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelSearchListResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetHotelSearchListResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGetHotelSearchListResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.ArrayOfGuestsInfo</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getGuestsInfo()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GuestsInfo</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setChildCount(int arg0)">1</method>
+			<method name="public void setRoomCount(int arg0)">1</method>
+			<method name="public void setAdultCount(int arg0)">1</method>
+			<method name="public int getChildAge1()">1</method>
+			<method name="public int getAdultCount()">1</method>
+			<method name="public void setChildAge1(int arg0)">1</method>
+			<method name="public void setChildAge2(int arg0)">1</method>
+			<method name="public int getChildAge2()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getChildCount()">1</method>
+			<method name="public int getRoomCount()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelSearchListForCustomerCount</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public kr.co.rts.STGetHotelSearchListNetForGuestCount getHotelSearchListNetGuestCount()">1</method>
+			<method name="public void setHotelSearchListNetGuestCount(kr.co.rts.STGetHotelSearchListNetForGuestCount arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.ArrayOfItemCodeInfo</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getItemCodeInfo()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.STGetHotelInformationRTSWS</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getLanguageCode()">1</method>
+			<method name="public String getItemCode()">1</method>
+			<method name="public void setLanguageCode(String arg0)">1</method>
+			<method name="public void setItemCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.ArrayOfSTGetHotelInformationRTSWS</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSTGetHotelInformationRTSWS()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelPriceCheckResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGetHotelPriceCheckResult()">1</method>
+			<method name="public void setGetHotelPriceCheckResult(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.ArrayOfRoomsInfo</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRoomsInfo()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelInfoSummaryResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getGetHotelInfoSummaryResult()">1</method>
+			<method name="public void setGetHotelInfoSummaryResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.ItemCodeInfo</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getItemCode()">1</method>
+			<method name="public int getItemNo()">1</method>
+			<method name="public void setItemCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setItemNo(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.WebServicesSoap</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract String getHotelInformation(kr.co.rts.ArrayOfSTGetHotelInformationRTSWS)">1</method>
+			<method name="public abstract String getHotelSearchListForCustomerCount(kr.co.rts.STGetHotelSearchListNetForGuestCount)">1</method>
+			<method name="public abstract String getHotelInfoSummary(kr.co.rts.STGetHotelInfoSummaryNet)">1</method>
+			<method name="public abstract String getHotelSearchList(kr.co.rts.STGetHotelSearchListNet)">1</method>
+			<method name="public abstract String getHotelPriceCheck(String, String, String, String, String, String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.STGetHotelInfoSummaryNet</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7368421052631579</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setRecommendClientPrice(String arg0)">1</method>
+			<method name="public String getLanguageCode()">1</method>
+			<method name="public String getItemCode()">1</method>
+			<method name="public void setSellerClientPrice(String arg0)">1</method>
+			<method name="public String getSellerNetPrice()">1</method>
+			<method name="public void setSellingCurrencyCode(String arg0)">1</method>
+			<method name="public void setSellerNetPrice(String arg0)">1</method>
+			<method name="public String getRoomTypeName()">1</method>
+			<method name="public String getSellerClientPrice()">1</method>
+			<method name="public String getSellingCurrencyCode()">1</method>
+			<method name="public String getPriceStatus()">1</method>
+			<method name="public void setLanguageCode(String arg0)">1</method>
+			<method name="public String getRecommendClientPrice()">1</method>
+			<method name="public void setNationalityCode(String arg0)">1</method>
+			<method name="public String getNationalityCode()">1</method>
+			<method name="public void setItemCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRoomTypeName(String arg0)">1</method>
+			<method name="public void setPriceStatus(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelPriceCheck</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getItemCode()">1</method>
+			<method name="public String getItemNo()">1</method>
+			<method name="public void setRoomTypeCode(String arg0)">1</method>
+			<method name="public String getNetPartnerPrice()">1</method>
+			<method name="public void setCheckInDate(String arg0)">1</method>
+			<method name="public String getRoomTypeCode()">1</method>
+			<method name="public String getSalesSiteCode()">1</method>
+			<method name="public void setSalesSiteCode(String arg0)">1</method>
+			<method name="public void setItemNo(String arg0)">1</method>
+			<method name="public void setNetPartnerPrice(String arg0)">1</method>
+			<method name="public String getCheckInDate()">1</method>
+			<method name="public void setItemCode(String arg0)">1</method>
+			<method name="public void setSellerMarkup(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getClientCurrencyCode()">1</method>
+			<method name="public void setClientCurrencyCode(String arg0)">1</method>
+			<method name="public String getSellerMarkup()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelSearchList</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHotelSearchListNet(kr.co.rts.STGetHotelSearchListNet arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public kr.co.rts.STGetHotelSearchListNet getHotelSearchListNet()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.BaseInfo</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public void setRequestType(String arg0)">1</method>
+			<method name="public void setSiteCode(String arg0)">1</method>
+			<method name="public String getRequestType()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public String getSiteCode()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.STGetHotelSearchListNetForGuestCount</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.296969696969697</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public String getSupplierCompCode()">1</method>
+			<method name="public String getStarRating()">1</method>
+			<method name="public String getSortType()">1</method>
+			<method name="public void setLocationCode(String arg0)">1</method>
+			<method name="public boolean isCompareYn()">1</method>
+			<method name="public void setCheckInDate(String arg0)">1</method>
+			<method name="public void setItemName(String arg0)">1</method>
+			<method name="public String getCityCode()">1</method>
+			<method name="public void setStarRating(String arg0)">1</method>
+			<method name="public void setSortType(String arg0)">1</method>
+			<method name="public String getClientCurrencyCode()">1</method>
+			<method name="public void setClientCurrencyCode(String arg0)">1</method>
+			<method name="public kr.co.rts.ArrayOfItemCodeInfo getItemCodeList()">1</method>
+			<method name="public void setSupplierCompCode(String arg0)">1</method>
+			<method name="public String getItemName()">1</method>
+			<method name="public String getLanguageCode()">1</method>
+			<method name="public void setRecommendHotelOnly(boolean arg0)">1</method>
+			<method name="public boolean isAvailableHotelOnly()">1</method>
+			<method name="public String getCheckOutDate()">1</method>
+			<method name="public kr.co.rts.ArrayOfGuestsInfo getGuestList()">1</method>
+			<method name="public void setGuestList(kr.co.rts.ArrayOfGuestsInfo arg0)">1</method>
+			<method name="public void setCityCode(String arg0)">1</method>
+			<method name="public void setCheckOutDate(String arg0)">1</method>
+			<method name="public void setItemCodeList(kr.co.rts.ArrayOfItemCodeInfo arg0)">1</method>
+			<method name="public String getLocationCode()">1</method>
+			<method name="public void setAvailableHotelOnly(boolean arg0)">1</method>
+			<method name="public boolean isRecommendHotelOnly()">1</method>
+			<method name="public void setLanguageCode(String arg0)">1</method>
+			<method name="public void setCompareYn(boolean arg0)">1</method>
+			<method name="public String getCheckInDate()">1</method>
+			<method name="public void setSellerMarkup(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSellerMarkup()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.RoomsInfo</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setBedTypeCode(String arg0)">1</method>
+			<method name="public void setRoomCount(int arg0)">1</method>
+			<method name="public int getChildAge1()">1</method>
+			<method name="public void setChildAge1(int arg0)">1</method>
+			<method name="public void setChildAge2(int arg0)">1</method>
+			<method name="public int getChildAge2()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getBedTypeCode()">1</method>
+			<method name="public int getRoomCount()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>kr.co.rts.GetHotelSearchListForCustomerCountResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetHotelSearchListForCustomerCountResult(String arg0)">1</method>
+			<method name="public String getGetHotelSearchListForCustomerCountResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

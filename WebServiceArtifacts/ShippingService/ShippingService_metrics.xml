@@ -1,0 +1,1274 @@
+	<class>
+		<name>com.channeladvisor.api.webservices.APIResultOfArrayOfShippingCarrier</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setMessageCode(int arg0)">1</method>
+			<method name="public void setData(String arg0)">1</method>
+			<method name="public int getMessageCode()">1</method>
+			<method name="public void setResultData(com.channeladvisor.api.webservices.ArrayOfShippingCarrier arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ResultStatus getStatus()">1</method>
+			<method name="public void setStatus(com.channeladvisor.api.webservices.ResultStatus arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfShippingCarrier getResultData()">1</method>
+			<method name="public String getData()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.datacontracts.shippingservice.ObjectFactory</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>14</rfc>
+		<lcom>21</lcom>
+		<ca>0</ca>
+		<ce>6</ce>
+		<npm>7</npm>
+		<lcom3>2.0</lcom3>
+		<loc>34</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.857142857142857</amc>
+		<cc>
+			<method name="public com.channeladvisor.api.datacontracts.shippingservice.OrderShipmentHistoryResponse createOrderShipmentHistoryResponse()">1</method>
+			<method name="public com.channeladvisor.api.datacontracts.shippingservice.ArrayOfShipmentLineItemResponse createArrayOfShipmentLineItemResponse()">1</method>
+			<method name="public com.channeladvisor.api.datacontracts.shippingservice.ShipmentLineItemResponse createShipmentLineItemResponse()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.channeladvisor.api.datacontracts.shippingservice.ShipmentResponse createShipmentResponse()">1</method>
+			<method name="public com.channeladvisor.api.datacontracts.shippingservice.OrderShipmentResponse createOrderShipmentResponse()">1</method>
+			<method name="public com.channeladvisor.api.datacontracts.shippingservice.ArrayOfOrderShipmentResponse createArrayOfOrderShipmentResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.GetShippingRateList</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setStreet(String arg0)">1</method>
+			<method name="public String getAccountID()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setCartID(int arg0)">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public String getStreet()">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public int getCartID()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setAccountID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.datacontracts.shippingservice.OrderShipmentHistoryResponse</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getShippingStatus()">1</method>
+			<method name="public void setShippingStatusUpdateDateGMT(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public int getOrderID()">1</method>
+			<method name="public void setClientOrderIdentifier(String arg0)">1</method>
+			<method name="public void setOrderID(int arg0)">1</method>
+			<method name="public void setOrderShipments(com.channeladvisor.api.datacontracts.shippingservice.ArrayOfOrderShipmentResponse arg0)">1</method>
+			<method name="public String getClientOrderIdentifier()">1</method>
+			<method name="public void setShippingStatus(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getShippingStatusUpdateDateGMT()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.channeladvisor.api.datacontracts.shippingservice.ArrayOfOrderShipmentResponse getOrderShipments()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.datacontracts.shippingservice.ArrayOfOrderShipmentResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getOrderShipmentResponse()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.LineItem</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSKU(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSKU()">1</method>
+			<method name="public int getQuantity()">1</method>
+			<method name="public void setQuantity(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.datacontracts.shippingservice.ArrayOfShipmentLineItemResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getShipmentLineItemResponse()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.datacontracts.shippingservice.ShipmentLineItemResponse</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public int getLineItemID()">1</method>
+			<method name="public void setLineItemID(int arg0)">1</method>
+			<method name="public void setSKU(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSKU()">1</method>
+			<method name="public int getQuantity()">1</method>
+			<method name="public void setQuantity(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ArrayOfShippingCarrier</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getShippingCarrier()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.PingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPingResult(com.channeladvisor.api.webservices.APIResultOfString arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfString getPingResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ShippingCarrier</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public int getCarrierID()">1</method>
+			<method name="public String getCarrierCode()">1</method>
+			<method name="public void setCarrierID(int arg0)">1</method>
+			<method name="public String getClassName()">1</method>
+			<method name="public void setCarrierCode(String arg0)">1</method>
+			<method name="public void setClassCode(String arg0)">1</method>
+			<method name="public String getClassCode()">1</method>
+			<method name="public void setClassName(String arg0)">1</method>
+			<method name="public void setCarrierName(String arg0)">1</method>
+			<method name="public String getCarrierName()">1</method>
+			<method name="public void setClassID(int arg0)">1</method>
+			<method name="public int getClassID()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.APIResultOfArrayOfOrderShipmentHistoryResponse</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setMessageCode(int arg0)">1</method>
+			<method name="public void setData(String arg0)">1</method>
+			<method name="public int getMessageCode()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfOrderShipmentHistoryResponse getResultData()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ResultStatus getStatus()">1</method>
+			<method name="public void setResultData(com.channeladvisor.api.webservices.ArrayOfOrderShipmentHistoryResponse arg0)">1</method>
+			<method name="public void setStatus(com.channeladvisor.api.webservices.ResultStatus arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public String getData()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.datacontracts.shippingservice.OrderShipmentResponse</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.296</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public void setTrackingNumber(String arg0)">1</method>
+			<method name="public String getFulfillmentType()">1</method>
+			<method name="public void setFulfillmentType(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getShipmentCost()">1</method>
+			<method name="public void setDistributionCenterCode(String arg0)">1</method>
+			<method name="public void setShipmentTaxCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setCarrierCode(String arg0)">1</method>
+			<method name="public void setShipmentDateGMT(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setFulfillmentStatus(String arg0)">1</method>
+			<method name="public String getClassCode()">1</method>
+			<method name="public String getTrackingNumber()">1</method>
+			<method name="public String getDistributionCenterCode()">1</method>
+			<method name="public void setShipmentLineItems(com.channeladvisor.api.datacontracts.shippingservice.ArrayOfShipmentLineItemResponse arg0)">1</method>
+			<method name="public java.math.BigDecimal getShipmentInsuranceCost()">1</method>
+			<method name="public String getCarrierCode()">1</method>
+			<method name="public void setShipmentCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getFulfillmentStatus()">1</method>
+			<method name="public com.channeladvisor.api.datacontracts.shippingservice.ArrayOfShipmentLineItemResponse getShipmentLineItems()">1</method>
+			<method name="public void setClassCode(String arg0)">1</method>
+			<method name="public String getSellerFulfillmentID()">1</method>
+			<method name="public java.math.BigDecimal getShipmentTaxCost()">1</method>
+			<method name="public void setSellerFulfillmentID(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getShipmentDateGMT()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setShipmentInsuranceCost(java.math.BigDecimal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ShippingItemBase</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setClassName(String arg0)">1</method>
+			<method name="public void setCarrierName(String arg0)">1</method>
+			<method name="public String getCarrierName()">1</method>
+			<method name="public String getClassName()">1</method>
+			<method name="public java.math.BigDecimal getShippingCost()">1</method>
+			<method name="public void setShippingCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.APIResultOfString</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setResultData(String arg0)">1</method>
+			<method name="public void setMessageCode(int arg0)">1</method>
+			<method name="public void setData(String arg0)">1</method>
+			<method name="public int getMessageCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ResultStatus getStatus()">1</method>
+			<method name="public void setStatus(com.channeladvisor.api.webservices.ResultStatus arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public String getResultData()">1</method>
+			<method name="public String getData()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.Ping</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ShippingRateResult</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfShippingItemBase getShippingDetailList()">1</method>
+			<method name="public void setShippingDetailList(com.channeladvisor.api.webservices.ArrayOfShippingItemBase arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.GetOrderShipmentHistoryList</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getAccountID()">1</method>
+			<method name="public void setOrderIDList(com.channeladvisor.api.webservices.ArrayOfInt arg0)">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfString getClientOrderIdentifierList()">1</method>
+			<method name="public void setAccountID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setClientOrderIdentifierList(com.channeladvisor.api.webservices.ArrayOfString arg0)">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfInt getOrderIDList()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.datacontracts.shippingservice.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ArrayOfString</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getString()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.datacontracts.shippingservice.ShipmentResponse</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSuccess(boolean arg0)">1</method>
+			<method name="public boolean isSuccess()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ArrayOfOrderShipmentHistoryResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getOrderShipmentHistoryResponse()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.GetOrderShipmentHistoryListResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfArrayOfOrderShipmentHistoryResponse getGetOrderShipmentHistoryListResult()">1</method>
+			<method name="public void setGetOrderShipmentHistoryListResult(com.channeladvisor.api.webservices.APIResultOfArrayOfOrderShipmentHistoryResponse arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.GetShippingCarrierListResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfArrayOfShippingCarrier getGetShippingCarrierListResult()">1</method>
+			<method name="public void setGetShippingCarrierListResult(com.channeladvisor.api.webservices.APIResultOfArrayOfShippingCarrier arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.SubmitOrderShipmentListResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfArrayOfShipmentResponse getSubmitOrderShipmentListResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSubmitOrderShipmentListResult(com.channeladvisor.api.webservices.APIResultOfArrayOfShipmentResponse arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.APIResultOfArrayOfShipmentResponse</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfShipmentResponse getResultData()">1</method>
+			<method name="public void setResultData(com.channeladvisor.api.webservices.ArrayOfShipmentResponse arg0)">1</method>
+			<method name="public void setMessageCode(int arg0)">1</method>
+			<method name="public void setData(String arg0)">1</method>
+			<method name="public int getMessageCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ResultStatus getStatus()">1</method>
+			<method name="public void setStatus(com.channeladvisor.api.webservices.ResultStatus arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public String getData()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ArrayOfShipmentResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getShipmentResponse()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ResultStatus</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static com.channeladvisor.api.webservices.ResultStatus valueOf(String arg0)">1</method>
+			<method name="public static com.channeladvisor.api.webservices.ResultStatus[] values()">1</method>
+			<method name="public static com.channeladvisor.api.webservices.ResultStatus fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ShippingServiceSoap</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>7</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.43333333333333335</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.channeladvisor.api.webservices.APIResultOfArrayOfShippingCarrier getShippingCarrierList(String)">1</method>
+			<method name="public abstract com.channeladvisor.api.webservices.APIResultOfArrayOfOrderShipmentHistoryResponse getOrderShipmentHistoryList(String, com.channeladvisor.api.webservices.ArrayOfInt, com.channeladvisor.api.webservices.ArrayOfString)">1</method>
+			<method name="public abstract com.channeladvisor.api.webservices.APIResultOfString ping()">1</method>
+			<method name="public abstract com.channeladvisor.api.webservices.APIResultOfArrayOfShipmentResponse submitOrderShipmentList(String, java.util.List)">1</method>
+			<method name="public abstract com.channeladvisor.api.webservices.APIResultOfShippingRateResult getShippingRateList(String, int, String, String, String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.GetShippingCarrierList</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getAccountID()">1</method>
+			<method name="public void setAccountID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.PartialShipmentContents</name>
+		<wmc>22</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>24</rfc>
+		<lcom>211</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>22</npm>
+		<lcom3>0.9567099567099566</lcom3>
+		<loc>117</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.8181818181818183</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateShippedGMT()">1</method>
+			<method name="public void setTrackingNumber(String arg0)">1</method>
+			<method name="public String getCarrierCode()">1</method>
+			<method name="public String getFulfillmentType()">1</method>
+			<method name="public void setFulfillmentType(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getShipmentCost()">1</method>
+			<method name="public void setShipmentCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setShipmentTaxCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setCarrierCode(String arg0)">1</method>
+			<method name="public String getFulfillmentStatus()">1</method>
+			<method name="public void setFulfillmentStatus(String arg0)">1</method>
+			<method name="public void setClassCode(String arg0)">1</method>
+			<method name="public String getSellerFulfillmentID()">1</method>
+			<method name="public void setInsuranceCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getShipmentTaxCost()">1</method>
+			<method name="public String getClassCode()">1</method>
+			<method name="public java.math.BigDecimal getInsuranceCost()">1</method>
+			<method name="public void setDateShippedGMT(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getTrackingNumber()">1</method>
+			<method name="public void setSellerFulfillmentID(String arg0)">1</method>
+			<method name="public java.util.List getLineItemList()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ShippingService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient com.channeladvisor.api.webservices.ShippingServiceSoap getShippingServiceSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public com.channeladvisor.api.webservices.ShippingServiceSoap getShippingServiceSoap()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ObjectFactory</name>
+		<wmc>32</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>29</cbo>
+		<rfc>64</rfc>
+		<lcom>494</lcom>
+		<ca>0</ca>
+		<ce>29</ce>
+		<npm>31</npm>
+		<lcom3>0.967741935483871</lcom3>
+		<loc>167</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5161290322580645</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.1875</amc>
+		<cc>
+			<method name="public com.channeladvisor.api.webservices.ShippingItemBase createShippingItemBase()">1</method>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfArrayOfOrderShipmentHistoryResponse createAPIResultOfArrayOfOrderShipmentHistoryResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.GetOrderShipmentHistoryListResponse createGetOrderShipmentHistoryListResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.SubmitOrderShipmentListResponse createSubmitOrderShipmentListResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfShippingItemBase createArrayOfShippingItemBase()">1</method>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfString createAPIResultOfString()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ShippingRateResult createShippingRateResult()">1</method>
+			<method name="public com.channeladvisor.api.webservices.SubmitOrderShipmentList createSubmitOrderShipmentList()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfOrderShipmentHistoryResponse createArrayOfOrderShipmentHistoryResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.PartialShipmentContents createPartialShipmentContents()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ShippingCarrier createShippingCarrier()">1</method>
+			<method name="public com.channeladvisor.api.webservices.GetShippingRateList createGetShippingRateList()">1</method>
+			<method name="public com.channeladvisor.api.webservices.GetShippingCarrierListResponse createGetShippingCarrierListResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfShipmentResponse createArrayOfShipmentResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.Ping createPing()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfInt createArrayOfInt()">1</method>
+			<method name="public com.channeladvisor.api.webservices.FullShipmentContents createFullShipmentContents()">1</method>
+			<method name="public com.channeladvisor.api.webservices.PingResponse createPingResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.GetOrderShipmentHistoryList createGetOrderShipmentHistoryList()">1</method>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfArrayOfShipmentResponse createAPIResultOfArrayOfShipmentResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfArrayOfShippingCarrier createAPIResultOfArrayOfShippingCarrier()">1</method>
+			<method name="public com.channeladvisor.api.webservices.OrderShipment createOrderShipment()">1</method>
+			<method name="public com.channeladvisor.api.webservices.LineItem createLineItem()">1</method>
+			<method name="public com.channeladvisor.api.webservices.GetShippingCarrierList createGetShippingCarrierList()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfShippingCarrier createArrayOfShippingCarrier()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ArrayOfString createArrayOfString()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfShippingRateResult createAPIResultOfShippingRateResult()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAPICredentials(com.channeladvisor.api.webservices.APICredentials arg0)">1</method>
+			<method name="public com.channeladvisor.api.webservices.GetShippingRateListResponse createGetShippingRateListResponse()">1</method>
+			<method name="public com.channeladvisor.api.webservices.APICredentials createAPICredentials()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.FullShipmentContents</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36764705882352944</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateShippedGMT()">1</method>
+			<method name="public void setTrackingNumber(String arg0)">1</method>
+			<method name="public String getCarrierCode()">1</method>
+			<method name="public java.math.BigDecimal getShipmentCost()">1</method>
+			<method name="public void setShipmentCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setShipmentTaxCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setCarrierCode(String arg0)">1</method>
+			<method name="public void setClassCode(String arg0)">1</method>
+			<method name="public String getSellerFulfillmentID()">1</method>
+			<method name="public void setInsuranceCost(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getShipmentTaxCost()">1</method>
+			<method name="public String getClassCode()">1</method>
+			<method name="public java.math.BigDecimal getInsuranceCost()">1</method>
+			<method name="public void setDateShippedGMT(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getTrackingNumber()">1</method>
+			<method name="public void setSellerFulfillmentID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ArrayOfInt</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getInt()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.OrderShipment</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setFullShipment(com.channeladvisor.api.webservices.FullShipmentContents arg0)">1</method>
+			<method name="public Integer getOrderID()">1</method>
+			<method name="public void setOrderID(Integer arg0)">1</method>
+			<method name="public String getShipmentType()">1</method>
+			<method name="public com.channeladvisor.api.webservices.PartialShipmentContents getPartialShipment()">1</method>
+			<method name="public void setClientOrderIdentifier(String arg0)">1</method>
+			<method name="public void setShipmentType(String arg0)">1</method>
+			<method name="public com.channeladvisor.api.webservices.FullShipmentContents getFullShipment()">1</method>
+			<method name="public String getClientOrderIdentifier()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPartialShipment(com.channeladvisor.api.webservices.PartialShipmentContents arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.APIResultOfShippingRateResult</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setResultData(com.channeladvisor.api.webservices.ShippingRateResult arg0)">1</method>
+			<method name="public void setMessageCode(int arg0)">1</method>
+			<method name="public void setData(String arg0)">1</method>
+			<method name="public int getMessageCode()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ShippingRateResult getResultData()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public com.channeladvisor.api.webservices.ResultStatus getStatus()">1</method>
+			<method name="public void setStatus(com.channeladvisor.api.webservices.ResultStatus arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public String getData()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.SubmitOrderShipmentList</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public String getAccountID()">1</method>
+			<method name="public void setAccountID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getShipmentList()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.APICredentials</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>9</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.166666666666667</amc>
+		<cc>
+			<method name="public String getDeveloperKey()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setDeveloperKey(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.ArrayOfShippingItemBase</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getShippingItemBase()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.channeladvisor.api.webservices.GetShippingRateListResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.channeladvisor.api.webservices.APIResultOfShippingRateResult getGetShippingRateListResult()">1</method>
+			<method name="public void setGetShippingRateListResult(com.channeladvisor.api.webservices.APIResultOfShippingRateResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

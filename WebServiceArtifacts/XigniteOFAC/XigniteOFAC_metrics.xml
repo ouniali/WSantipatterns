@@ -1,0 +1,1171 @@
+	<class>
+		<name>com.xignite.services.SearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchResult(com.xignite.services.SearchResults arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.SearchResults getSearchResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfOFACAlternateName</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getOFACAlternateName()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteOFAC</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient com.xignite.services.XigniteOFACSoap getXigniteOFACSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.XigniteOFACSoap getXigniteOFACSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OFACAddress</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getRemarks()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setRemarks(String arg0)">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAddress()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Search</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public com.xignite.services.OFACTypes getType()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public com.xignite.services.SearchTypes getSearchType()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void setType(com.xignite.services.OFACTypes arg0)">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public void setSearchType(com.xignite.services.SearchTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAddress()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteOFACSoap</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>7</rfc>
+		<lcom>21</lcom>
+		<ca>1</ca>
+		<ce>5</ce>
+		<npm>7</npm>
+		<lcom3>2.0</lcom3>
+		<loc>7</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6571428571428571</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.SearchResults searchVessel(String, com.xignite.services.SearchTypes)">1</method>
+			<method name="public abstract com.xignite.services.SearchResults searchByAddress(com.xignite.services.OFACTypes, String, String, String, com.xignite.services.SearchTypes)">1</method>
+			<method name="public abstract com.xignite.services.SearchResults searchOrganization(String, com.xignite.services.SearchTypes)">1</method>
+			<method name="public abstract com.xignite.services.SearchResults search(String, String, com.xignite.services.OFACTypes, String, String, String, com.xignite.services.SearchTypes)">1</method>
+			<method name="public abstract com.xignite.services.SearchResults searchByName(String, com.xignite.services.OFACTypes, com.xignite.services.SearchTypes)">1</method>
+			<method name="public abstract com.xignite.services.Criteria getCriteria(com.xignite.services.CriteriaTypes)">1</method>
+			<method name="public abstract com.xignite.services.SearchResults searchIndividual(String, com.xignite.services.SearchTypes)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCriteriaResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.Criteria getGetCriteriaResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetCriteriaResult(com.xignite.services.Criteria arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSanctionProgram</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getSanctionProgram()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Score</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setName(double arg0)">1</method>
+			<method name="public void setCity(double arg0)">1</method>
+			<method name="public double getName()">1</method>
+			<method name="public double getCountry()">1</method>
+			<method name="public double getCity()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCountry(double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Vessel</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getGRT()">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getOwner()">1</method>
+			<method name="public void setCallSign(String arg0)">1</method>
+			<method name="public String getCallSign()">1</method>
+			<method name="public void setGRT(String arg0)">1</method>
+			<method name="public String getFlag()">1</method>
+			<method name="public void setFlag(String arg0)">1</method>
+			<method name="public void setTonnage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTonnage()">1</method>
+			<method name="public void setOwner(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchByName</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.xignite.services.OFACTypes getType()">1</method>
+			<method name="public com.xignite.services.SearchTypes getSearchType()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setSearchType(com.xignite.services.SearchTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setType(com.xignite.services.OFACTypes arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.CriteriaTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.xignite.services.CriteriaTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.CriteriaTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.xignite.services.CriteriaTypes fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Header</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setTracer(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+			<method name="public String getTracer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchOrganizationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.SearchResults getSearchOrganizationResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchOrganizationResult(com.xignite.services.SearchResults arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchVessel</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.SearchTypes getSearchType()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setSearchType(com.xignite.services.SearchTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OFACAlternateName</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getRemarks()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setRemarks(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.AlternateNameTypes getType()">1</method>
+			<method name="public void setType(com.xignite.services.AlternateNameTypes arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCriteria</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.CriteriaTypes getCriteriaType()">1</method>
+			<method name="public void setCriteriaType(com.xignite.services.CriteriaTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchResults</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>8</ca>
+		<ce>3</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSearchCriteria(com.xignite.services.SearchCriteria arg0)">1</method>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public String getTimeOfRequest()">1</method>
+			<method name="public com.xignite.services.SearchCriteria getSearchCriteria()">1</method>
+			<method name="public com.xignite.services.ArrayOfOFACName getMatches()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMatches(com.xignite.services.ArrayOfOFACName arg0)">1</method>
+			<method name="public void setTimeOfRequest(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchIndividual</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.SearchTypes getSearchType()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setSearchType(com.xignite.services.SearchTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchVesselResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.SearchResults getSearchVesselResult()">1</method>
+			<method name="public void setSearchVesselResult(com.xignite.services.SearchResults arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchByAddress</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public com.xignite.services.OFACTypes getType()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public com.xignite.services.SearchTypes getSearchType()">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public void setSearchType(com.xignite.services.SearchTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAddress()">1</method>
+			<method name="public void setType(com.xignite.services.OFACTypes arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchByNameResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchByNameResult(com.xignite.services.SearchResults arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.SearchResults getSearchByNameResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchByAddressResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchByAddressResult(com.xignite.services.SearchResults arg0)">1</method>
+			<method name="public com.xignite.services.SearchResults getSearchByAddressResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OFACName</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>7</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>6</moa>
+		<mfa>0.0</mfa>
+		<cam>0.18452380952380953</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public com.xignite.services.OFACTypes getType()">1</method>
+			<method name="public com.xignite.services.ArrayOfSanctionProgram getPrograms()">1</method>
+			<method name="public com.xignite.services.Score getScore()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void setRemarks(String arg0)">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setPrograms(com.xignite.services.ArrayOfSanctionProgram arg0)">1</method>
+			<method name="public void setType(com.xignite.services.OFACTypes arg0)">1</method>
+			<method name="public void setAlternateNames(com.xignite.services.ArrayOfOFACAlternateName arg0)">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setAddresses(com.xignite.services.ArrayOfOFACAddress arg0)">1</method>
+			<method name="public void setScore(com.xignite.services.Score arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfOFACAddress getAddresses()">1</method>
+			<method name="public String getRemarks()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfOFACAlternateName getAlternateNames()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public com.xignite.services.Vessel getVessel()">1</method>
+			<method name="public void setVessel(com.xignite.services.Vessel arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>8</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.xignite.services.SearchTypes fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.SearchTypes[] values()">1</method>
+			<method name="public static com.xignite.services.SearchTypes valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfOFACAddress</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getOFACAddress()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OFACTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>6</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OFACTypes[] values()">1</method>
+			<method name="public static com.xignite.services.OFACTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OFACTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>35</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>30</cbo>
+		<rfc>68</rfc>
+		<lcom>589</lcom>
+		<ca>0</ca>
+		<ce>30</ce>
+		<npm>34</npm>
+		<lcom3>0.9705882352941176</lcom3>
+		<loc>204</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.27205882352941174</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.742857142857143</amc>
+		<cc>
+			<method name="public com.xignite.services.SearchVesselResponse createSearchVesselResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCriteria(com.xignite.services.Criteria arg0)">1</method>
+			<method name="public com.xignite.services.SearchVessel createSearchVessel()">1</method>
+			<method name="public com.xignite.services.OFACAddress createOFACAddress()">1</method>
+			<method name="public com.xignite.services.SearchByName createSearchByName()">1</method>
+			<method name="public com.xignite.services.GetCriteria createGetCriteria()">1</method>
+			<method name="public com.xignite.services.SearchByAddress createSearchByAddress()">1</method>
+			<method name="public com.xignite.services.ArrayOfOFACAddress createArrayOfOFACAddress()">1</method>
+			<method name="public com.xignite.services.SearchIndividualResponse createSearchIndividualResponse()">1</method>
+			<method name="public com.xignite.services.Header createHeader()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeader(com.xignite.services.Header arg0)">1</method>
+			<method name="public com.xignite.services.Criteria createCriteria()">1</method>
+			<method name="public com.xignite.services.ArrayOfOFACAlternateName createArrayOfOFACAlternateName()">1</method>
+			<method name="public com.xignite.services.ArrayOfOFACName createArrayOfOFACName()">1</method>
+			<method name="public com.xignite.services.Vessel createVessel()">1</method>
+			<method name="public com.xignite.services.SearchOrganizationResponse createSearchOrganizationResponse()">1</method>
+			<method name="public com.xignite.services.OFACName createOFACName()">1</method>
+			<method name="public com.xignite.services.SearchByAddressResponse createSearchByAddressResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfSanctionProgram createArrayOfSanctionProgram()">1</method>
+			<method name="public com.xignite.services.SanctionProgram createSanctionProgram()">1</method>
+			<method name="public com.xignite.services.Score createScore()">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.SearchResults createSearchResults()">1</method>
+			<method name="public com.xignite.services.SearchByNameResponse createSearchByNameResponse()">1</method>
+			<method name="public com.xignite.services.SearchResponse createSearchResponse()">1</method>
+			<method name="public com.xignite.services.GetCriteriaResponse createGetCriteriaResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfString createArrayOfString()">1</method>
+			<method name="public com.xignite.services.SearchIndividual createSearchIndividual()">1</method>
+			<method name="public com.xignite.services.SearchOrganization createSearchOrganization()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchResults(com.xignite.services.SearchResults arg0)">1</method>
+			<method name="public com.xignite.services.Search createSearch()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.xignite.services.SearchCriteria createSearchCriteria()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.OFACAlternateName createOFACAlternateName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfString</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getString()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Criteria</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfString getValues()">1</method>
+			<method name="public com.xignite.services.CriteriaTypes getCriteriaType()">1</method>
+			<method name="public void setCriteriaType(com.xignite.services.CriteriaTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setValues(com.xignite.services.ArrayOfString arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfOFACName</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getOFACName()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AlternateNameTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.xignite.services.AlternateNameTypes[] values()">1</method>
+			<method name="public static com.xignite.services.AlternateNameTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.AlternateNameTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchIndividualResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchIndividualResult(com.xignite.services.SearchResults arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.SearchResults getSearchIndividualResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SanctionProgram</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setSanction(String arg0)">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public String getSanction()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchOrganization</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.SearchTypes getSearchType()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setSearchType(com.xignite.services.SearchTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SearchCriteria</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public com.xignite.services.OFACTypes getType()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public com.xignite.services.SearchTypes getSearchType()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void setType(com.xignite.services.OFACTypes arg0)">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public void setSearchType(com.xignite.services.SearchTypes arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAddress()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>4</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>

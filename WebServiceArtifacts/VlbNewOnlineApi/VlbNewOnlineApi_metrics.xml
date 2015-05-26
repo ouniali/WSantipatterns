@@ -1,0 +1,1592 @@
+	<class>
+		<name>com.bvdep.vlbapi.QuickSearchFilter2Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setQuickSearchFilter2Result(com.bvdep.vlbapi.SearchInfo arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.SearchInfo getQuickSearchFilter2Result()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetPublisherDataResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getGetPublisherDataResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetPublisherDataResult(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetIndexResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetIndexResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGetIndexResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.MmoInfo</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setContent(String arg0)">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public String getFileExtension()">1</method>
+			<method name="public void setFileExtension(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getContent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.Layout</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>6</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.bvdep.vlbapi.ArrayOfField getFields()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFormat(com.bvdep.vlbapi.Format arg0)">1</method>
+			<method name="public void setFields(com.bvdep.vlbapi.ArrayOfField arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.Format getFormat()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetHierarchyResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.bvdep.vlbapi.SearchInfo getGetHierarchyResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetHierarchyResult(com.bvdep.vlbapi.SearchInfo arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.LogIn</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getLogin()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setLogin(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.QuickSearchFilter</name>
+		<wmc>12</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>56</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>12</npm>
+		<lcom3>0.9242424242424242</lcom3>
+		<loc>67</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4722222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.083333333333333</amc>
+		<cc>
+			<method name="public String getMediaType()">1</method>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public java.util.List getDataBaseMask()">2</method>
+			<method name="public void setDtFrom(String arg0)">1</method>
+			<method name="public String getDtFrom()">1</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public String getDtTo()">1</method>
+			<method name="public void setDtTo(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+			<method name="public void setMediaType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.QuickSearch</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public java.util.List getDataBaseMask()">2</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.Version</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.LogOut</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.QuickSearchFilterResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.bvdep.vlbapi.SearchInfo getQuickSearchFilterResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuickSearchFilterResult(com.bvdep.vlbapi.SearchInfo arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetCoverUrl</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.bvdep.vlbapi.CoverSize getSize()">1</method>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public void setSize(com.bvdep.vlbapi.CoverSize arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.SortOrder</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9</lcom3>
+		<loc>156</loc>
+		<dam>0.2</dam>
+		<moa>9</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>23.333333333333332</amc>
+		<cc>
+			<method name="public static com.bvdep.vlbapi.SortOrder[] values()">1</method>
+			<method name="public static com.bvdep.vlbapi.SortOrder fromValue(String arg0)">3</method>
+			<method name="public static com.bvdep.vlbapi.SortOrder valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.LoginInfo</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>21</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>20</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setAccountId(int arg0)">1</method>
+			<method name="public void setRegistrationCode(String arg0)">1</method>
+			<method name="public String getSessionCode()">1</method>
+			<method name="public int getSessionsLeft()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginStatus getLoginStatus()">1</method>
+			<method name="public void setUserLogin(String arg0)">1</method>
+			<method name="public void setSessionCode(String arg0)">1</method>
+			<method name="public String getRegistrationCode()">1</method>
+			<method name="public void setSessionsLeft(int arg0)">1</method>
+			<method name="public void setAccountMvbKennNr(int arg0)">1</method>
+			<method name="public int getAccountId()">1</method>
+			<method name="public void setLoginStatus(com.bvdep.vlbapi.LoginStatus arg0)">1</method>
+			<method name="public int getAccountMvbKennNr()">1</method>
+			<method name="public String getUserLogin()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetMMoUrlsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetMMoUrlsResult(com.bvdep.vlbapi.ArrayOfMmoInfo arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bvdep.vlbapi.ArrayOfMmoInfo getGetMMoUrlsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.SortDirection</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9333333333333333</lcom3>
+		<loc>53</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>7.333333333333333</amc>
+		<cc>
+			<method name="public static com.bvdep.vlbapi.SortDirection fromValue(String arg0)">1</method>
+			<method name="public static com.bvdep.vlbapi.SortDirection valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.bvdep.vlbapi.SortDirection[] values()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.SearchArea</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static com.bvdep.vlbapi.SearchArea valueOf(String arg0)">1</method>
+			<method name="public static com.bvdep.vlbapi.SearchArea[] values()">1</method>
+			<method name="public static com.bvdep.vlbapi.SearchArea fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.BooleanSearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setBooleanSearchResult(com.bvdep.vlbapi.SearchInfo arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bvdep.vlbapi.SearchInfo getBooleanSearchResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.ArrayOfDataBaseResult</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDataBaseResult()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.ArrayOfField</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getField()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.VlbNewOnlineApi</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public com.bvdep.vlbapi.VlbNewOnlineApiSoap getVlbNewOnlineApiSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public transient com.bvdep.vlbapi.VlbNewOnlineApiSoap getVlbNewOnlineApiSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetDataRecordResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getGetDataRecordResult()">1</method>
+			<method name="public void setGetDataRecordResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.LogInResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLogInResult(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLogInResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.SortInfo</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>4</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setDirection(com.bvdep.vlbapi.SortDirection arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.SortOrder getOrder()">1</method>
+			<method name="public void setOrder(com.bvdep.vlbapi.SortOrder arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bvdep.vlbapi.SortDirection getDirection()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.Field</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9921875</lcom3>
+		<loc>1572</loc>
+		<dam>0.015625</dam>
+		<moa>127</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>239.66666666666666</amc>
+		<cc>
+			<method name="public static com.bvdep.vlbapi.Field fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.bvdep.vlbapi.Field valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.bvdep.vlbapi.Field[] values()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetResultListResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetResultListResult(String arg0)">1</method>
+			<method name="public String getGetResultListResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetSeries</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public void setSerieId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSerieId()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.LoginStatus</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static com.bvdep.vlbapi.LoginStatus valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="public static com.bvdep.vlbapi.LoginStatus fromValue(String arg0)">3</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.bvdep.vlbapi.LoginStatus[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetResultDetailResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetResultDetailResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGetResultDetailResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.Format</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9666666666666666</lcom3>
+		<loc>86</loc>
+		<dam>0.16666666666666666</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static com.bvdep.vlbapi.Format fromValue(String arg0)">1</method>
+			<method name="public static com.bvdep.vlbapi.Format[] values()">1</method>
+			<method name="public static com.bvdep.vlbapi.Format valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetResultDetail</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>37</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>10</npm>
+		<lcom3>0.911111111111111</lcom3>
+		<loc>57</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.2</amc>
+		<cc>
+			<method name="public int getIndex()">1</method>
+			<method name="public java.util.List getSelectedDatabase()">2</method>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.Layout getLayout()">1</method>
+			<method name="public void setLayout(com.bvdep.vlbapi.Layout arg0)">1</method>
+			<method name="public int getSearchId()">1</method>
+			<method name="public void setSearchId(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIndex(int arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.QuickSearchFilter2</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>15</rfc>
+		<lcom>68</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9404761904761906</lcom3>
+		<loc>80</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.46153846153846156</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.615384615384615</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public String getDtFrom()">1</method>
+			<method name="public java.util.List getEProductType()">2</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public void setDtTo(String arg0)">1</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+			<method name="public String getMediaType()">1</method>
+			<method name="public java.util.List getDataBaseMask()">2</method>
+			<method name="public void setDtFrom(String arg0)">1</method>
+			<method name="public String getDtTo()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMediaType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.CoverSize</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.bvdep.vlbapi.CoverSize[] values()">1</method>
+			<method name="public static com.bvdep.vlbapi.CoverSize fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.bvdep.vlbapi.CoverSize valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetSeriesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetSeriesResult(com.bvdep.vlbapi.SearchInfo arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.SearchInfo getGetSeriesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.ArrayOfMmoInfo</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getMmoInfo()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.LogOutResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLogOutResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLogOutResult(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetHierarchy</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public void setHierarchyId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getHierarchyId()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetMMoUrls</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setPublisherId(String arg0)">1</method>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public String getPublisherId()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.DataBaseResult</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getDataBase()">2</method>
+			<method name="public int getResultCount()">1</method>
+			<method name="public void setResultCount(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetPublisherData</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setKennnummer(String arg0)">1</method>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getKennnummer()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetResultList</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2857142857142857</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public void setLength(int arg0)">1</method>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public void setLayout(com.bvdep.vlbapi.Layout arg0)">1</method>
+			<method name="public void setOSortInfo(com.bvdep.vlbapi.SortInfo arg0)">1</method>
+			<method name="public int getSearchId()">1</method>
+			<method name="public com.bvdep.vlbapi.SortInfo getOSortInfo()">1</method>
+			<method name="public void setSearchId(int arg0)">1</method>
+			<method name="public int getStartIndex()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+			<method name="public int getLength()">1</method>
+			<method name="public java.util.List getSelectedDatabase()">2</method>
+			<method name="public void setStartIndex(int arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.Layout getLayout()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetDataRecord</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.Layout getLayout()">1</method>
+			<method name="public void setLayout(com.bvdep.vlbapi.Layout arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.SearchInfo</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>8</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public int getId()">1</method>
+			<method name="public void setId(int arg0)">1</method>
+			<method name="public void setResultCounts(com.bvdep.vlbapi.ArrayOfDataBaseResult arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.ArrayOfDataBaseResult getResultCounts()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.QuickSearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setQuickSearchResult(com.bvdep.vlbapi.SearchInfo arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bvdep.vlbapi.SearchInfo getQuickSearchResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.BooleanSearch</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public java.util.List getDataBaseMask()">2</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.SearchAndGetResult</name>
+		<wmc>22</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>24</rfc>
+		<lcom>213</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>22</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>133</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.23484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.5</amc>
+		<cc>
+			<method name="public void setLength(int arg0)">1</method>
+			<method name="public void setOSortInfo(com.bvdep.vlbapi.SortInfo arg0)">1</method>
+			<method name="public java.util.List getDatabaseMask()">2</method>
+			<method name="public String getDtFrom()">1</method>
+			<method name="public java.util.List getEProductType()">2</method>
+			<method name="public com.bvdep.vlbapi.SortInfo getOSortInfo()">1</method>
+			<method name="public void setDtTo(String arg0)">1</method>
+			<method name="public void setOLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public int getStartIndex()">1</method>
+			<method name="public int getLength()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getOLoginInfo()">1</method>
+			<method name="public String getStrQuery()">1</method>
+			<method name="public String getMediaType()">1</method>
+			<method name="public java.util.List getSelectedDatabase()">2</method>
+			<method name="public void setStartIndex(int arg0)">1</method>
+			<method name="public void setDtFrom(String arg0)">1</method>
+			<method name="public String getDtTo()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bvdep.vlbapi.Layout getOLayout()">1</method>
+			<method name="public void setStrQuery(String arg0)">1</method>
+			<method name="public void setOLayout(com.bvdep.vlbapi.Layout arg0)">1</method>
+			<method name="public void setMediaType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.VlbNewOnlineApiSoap</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>17</rfc>
+		<lcom>136</lcom>
+		<ca>1</ca>
+		<ce>7</ce>
+		<npm>17</npm>
+		<lcom3>2.0</lcom3>
+		<loc>17</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.41830065359477125</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.bvdep.vlbapi.LoginInfo logOut(com.bvdep.vlbapi.LoginInfo)">1</method>
+			<method name="public abstract String getDataRecord(com.bvdep.vlbapi.LoginInfo, com.bvdep.vlbapi.Layout, String)">1</method>
+			<method name="public abstract String getPublisherData(com.bvdep.vlbapi.LoginInfo, String)">1</method>
+			<method name="public abstract String getIndex(com.bvdep.vlbapi.LoginInfo, com.bvdep.vlbapi.SearchArea, String)">1</method>
+			<method name="public abstract com.bvdep.vlbapi.SearchInfo quickSearch(com.bvdep.vlbapi.LoginInfo, String, java.util.List)">1</method>
+			<method name="public abstract String getCoverUrl(com.bvdep.vlbapi.LoginInfo, String, com.bvdep.vlbapi.CoverSize)">1</method>
+			<method name="public abstract com.bvdep.vlbapi.ArrayOfMmoInfo getMMoUrls(com.bvdep.vlbapi.LoginInfo, String, String)">1</method>
+			<method name="public abstract com.bvdep.vlbapi.SearchInfo getHierarchy(com.bvdep.vlbapi.LoginInfo, String)">1</method>
+			<method name="public abstract com.bvdep.vlbapi.SearchInfo quickSearchFilter2(com.bvdep.vlbapi.LoginInfo, String, java.util.List, String, String, String, java.util.List)">1</method>
+			<method name="public abstract com.bvdep.vlbapi.SearchInfo booleanSearch(com.bvdep.vlbapi.LoginInfo, String, java.util.List)">1</method>
+			<method name="public abstract String getResultList(com.bvdep.vlbapi.LoginInfo, int, java.util.List, com.bvdep.vlbapi.Layout, int, int, com.bvdep.vlbapi.SortInfo)">1</method>
+			<method name="public abstract com.bvdep.vlbapi.SearchInfo quickSearchFilter(com.bvdep.vlbapi.LoginInfo, String, java.util.List, String, String, String)">1</method>
+			<method name="public abstract String searchAndGetResult(com.bvdep.vlbapi.LoginInfo, String, java.util.List, java.util.List, String, String, String, int, int, com.bvdep.vlbapi.Layout, com.bvdep.vlbapi.SortInfo, java.util.List)">1</method>
+			<method name="public abstract com.bvdep.vlbapi.SearchInfo getSeries(com.bvdep.vlbapi.LoginInfo, String)">1</method>
+			<method name="public abstract String version(com.bvdep.vlbapi.LoginInfo)">1</method>
+			<method name="public abstract String getResultDetail(com.bvdep.vlbapi.LoginInfo, int, java.util.List, com.bvdep.vlbapi.Layout, int)">1</method>
+			<method name="public abstract com.bvdep.vlbapi.LoginInfo logIn(String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.SearchAndGetResultResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchAndGetResultResult(String arg0)">1</method>
+			<method name="public String getSearchAndGetResultResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.VersionResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getVersionResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setVersionResult(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetCoverUrlResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getGetCoverUrlResult()">1</method>
+			<method name="public void setGetCoverUrlResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.GetIndex</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setLoginInfo(com.bvdep.vlbapi.LoginInfo arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.SearchArea getSearchArea()">1</method>
+			<method name="public void setSearchArea(com.bvdep.vlbapi.SearchArea arg0)">1</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo getLoginInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bvdep.vlbapi.ObjectFactory</name>
+		<wmc>44</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>43</cbo>
+		<rfc>88</rfc>
+		<lcom>946</lcom>
+		<ca>0</ca>
+		<ce>43</ce>
+		<npm>44</npm>
+		<lcom3>2.0</lcom3>
+		<loc>219</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.977272727272727</amc>
+		<cc>
+			<method name="public com.bvdep.vlbapi.GetPublisherData createGetPublisherData()">1</method>
+			<method name="public com.bvdep.vlbapi.Layout createLayout()">1</method>
+			<method name="public com.bvdep.vlbapi.LogOut createLogOut()">1</method>
+			<method name="public com.bvdep.vlbapi.LogIn createLogIn()">1</method>
+			<method name="public com.bvdep.vlbapi.ArrayOfMmoInfo createArrayOfMmoInfo()">1</method>
+			<method name="public com.bvdep.vlbapi.GetIndex createGetIndex()">1</method>
+			<method name="public com.bvdep.vlbapi.GetResultDetail createGetResultDetail()">1</method>
+			<method name="public com.bvdep.vlbapi.MmoInfo createMmoInfo()">1</method>
+			<method name="public com.bvdep.vlbapi.SearchAndGetResultResponse createSearchAndGetResultResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.ArrayOfDataBaseResult createArrayOfDataBaseResult()">1</method>
+			<method name="public com.bvdep.vlbapi.GetCoverUrl createGetCoverUrl()">1</method>
+			<method name="public com.bvdep.vlbapi.GetResultList createGetResultList()">1</method>
+			<method name="public com.bvdep.vlbapi.DataBaseResult createDataBaseResult()">1</method>
+			<method name="public com.bvdep.vlbapi.GetResultDetailResponse createGetResultDetailResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.GetResultListResponse createGetResultListResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.Version createVersion()">1</method>
+			<method name="public com.bvdep.vlbapi.QuickSearchFilterResponse createQuickSearchFilterResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.LoginInfo createLoginInfo()">1</method>
+			<method name="public com.bvdep.vlbapi.QuickSearchFilter2Response createQuickSearchFilter2Response()">1</method>
+			<method name="public com.bvdep.vlbapi.QuickSearchResponse createQuickSearchResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.GetSeries createGetSeries()">1</method>
+			<method name="public com.bvdep.vlbapi.BooleanSearch createBooleanSearch()">1</method>
+			<method name="public com.bvdep.vlbapi.GetHierarchyResponse createGetHierarchyResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.GetSeriesResponse createGetSeriesResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.QuickSearchFilter2 createQuickSearchFilter2()">1</method>
+			<method name="public com.bvdep.vlbapi.BooleanSearchResponse createBooleanSearchResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.GetMMoUrls createGetMMoUrls()">1</method>
+			<method name="public com.bvdep.vlbapi.QuickSearch createQuickSearch()">1</method>
+			<method name="public com.bvdep.vlbapi.GetCoverUrlResponse createGetCoverUrlResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.GetIndexResponse createGetIndexResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.SearchAndGetResult createSearchAndGetResult()">1</method>
+			<method name="public com.bvdep.vlbapi.VersionResponse createVersionResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.SearchInfo createSearchInfo()">1</method>
+			<method name="public com.bvdep.vlbapi.GetDataRecordResponse createGetDataRecordResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.GetHierarchy createGetHierarchy()">1</method>
+			<method name="public com.bvdep.vlbapi.GetMMoUrlsResponse createGetMMoUrlsResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.QuickSearchFilter createQuickSearchFilter()">1</method>
+			<method name="public com.bvdep.vlbapi.GetDataRecord createGetDataRecord()">1</method>
+			<method name="public com.bvdep.vlbapi.ArrayOfField createArrayOfField()">1</method>
+			<method name="public com.bvdep.vlbapi.LogInResponse createLogInResponse()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bvdep.vlbapi.SortInfo createSortInfo()">1</method>
+			<method name="public com.bvdep.vlbapi.LogOutResponse createLogOutResponse()">1</method>
+			<method name="public com.bvdep.vlbapi.GetPublisherDataResponse createGetPublisherDataResponse()">1</method>
+		</cc>
+	</class>

@@ -1,0 +1,1675 @@
+	<class>
+		<name>com.qas.ondemand_2010_01.ArrayOfQAExampleAddress</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getExampleAddress()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.ArrayOfQALayout</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getLayout()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QADataSet</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getID()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAAddressType</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>11</rfc>
+		<lcom>22</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>59</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4583333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.875</amc>
+		<cc>
+			<method name="public com.qas.ondemand_2010_01.DPVStatusType getDPVStatus()">1</method>
+			<method name="public java.util.List getAddressLine()">2</method>
+			<method name="public void setOverflow(Boolean arg0)">1</method>
+			<method name="public void setTruncated(Boolean arg0)">1</method>
+			<method name="public boolean isOverflow()">2</method>
+			<method name="public boolean isTruncated()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDPVStatus(com.qas.ondemand_2010_01.DPVStatusType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.ArrayOfString</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSystemInfo()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QACanSearch</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public void setEngine(com.qas.ondemand_2010_01.EngineType arg0)">1</method>
+			<method name="public void setLayout(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public String getLayout()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.qas.ondemand_2010_01.EngineType getEngine()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.PromptLine</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getPrompt()">1</method>
+			<method name="public void setPrompt(String arg0)">1</method>
+			<method name="public void setSuggestedInputLength(java.math.BigInteger arg0)">1</method>
+			<method name="public void setExample(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getExample()">1</method>
+			<method name="public java.math.BigInteger getSuggestedInputLength()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QASearchResult</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>39</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.142857142857143</amc>
+		<cc>
+			<method name="public void setVerifyLevel(com.qas.ondemand_2010_01.VerifyLevelType arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.VerifyLevelType getVerifyLevel()">2</method>
+			<method name="public void setQAPicklist(com.qas.ondemand_2010_01.QAPicklistType arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAPicklistType getQAPicklist()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQAAddress(com.qas.ondemand_2010_01.QAAddressType arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAAddressType getQAAddress()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.VerifyLevelType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9</lcom3>
+		<loc>156</loc>
+		<dam>0.2</dam>
+		<moa>9</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>23.333333333333332</amc>
+		<cc>
+			<method name="public static com.qas.ondemand_2010_01.VerifyLevelType[] values()">1</method>
+			<method name="public static com.qas.ondemand_2010_01.VerifyLevelType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.qas.ondemand_2010_01.VerifyLevelType fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QALayout</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setComment(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getComment()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QALicensedSet</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3695652173913043</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public void setDaysLeft(java.math.BigInteger arg0)">1</method>
+			<method name="public java.math.BigInteger getDataDaysLeft()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public void setLicenceDaysLeft(java.math.BigInteger arg0)">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public void setCopyright(String arg0)">1</method>
+			<method name="public java.math.BigInteger getLicenceDaysLeft()">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public String getCopyright()">1</method>
+			<method name="public void setWarningLevel(com.qas.ondemand_2010_01.LicenceWarningLevel arg0)">1</method>
+			<method name="public String getBaseCountry()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public void setBaseCountry(String arg0)">1</method>
+			<method name="public void setServer(String arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.LicenceWarningLevel getWarningLevel()">1</method>
+			<method name="public void setDataDaysLeft(java.math.BigInteger arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.math.BigInteger getDaysLeft()">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public String getServer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QADataMapDetail</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getLicensedSet()">2</method>
+			<method name="public com.qas.ondemand_2010_01.LicenceWarningLevel getWarningLevel()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWarningLevel(com.qas.ondemand_2010_01.LicenceWarningLevel arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.OnDemandIntermediaryV2</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public com.qas.ondemand_2010_01.QASOnDemand getQASOnDemand()">1</method>
+			<method name="public transient com.qas.ondemand_2010_01.QASOnDemand getQASOnDemand(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.EngineEnumType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.qas.ondemand_2010_01.EngineEnumType[] values()">1</method>
+			<method name="public static com.qas.ondemand_2010_01.EngineEnumType valueOf(String arg0)">1</method>
+			<method name="public static com.qas.ondemand_2010_01.EngineEnumType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAPromptSet</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>7</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>33</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.75</amc>
+		<cc>
+			<method name="public java.util.List getLine()">2</method>
+			<method name="public void setDynamic(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isDynamic()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.PicklistEntryType</name>
+		<wmc>43</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>45</rfc>
+		<lcom>861</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>43</npm>
+		<lcom3>0.9761904761904762</lcom3>
+		<loc>310</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37209302325581395</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.72093023255814</amc>
+		<cc>
+			<method name="public String getMoniker()">1</method>
+			<method name="public void setFullAddress(Boolean arg0)">1</method>
+			<method name="public void setPhantomPrimaryPoint(Boolean arg0)">1</method>
+			<method name="public boolean isSubsidiaryData()">2</method>
+			<method name="public void setUnresolvableRange(Boolean arg0)">1</method>
+			<method name="public void setEnhancedData(Boolean arg0)">1</method>
+			<method name="public void setCrossBorderMatch(Boolean arg0)">1</method>
+			<method name="public void setAliasMatch(Boolean arg0)">1</method>
+			<method name="public void setMoniker(String arg0)">1</method>
+			<method name="public boolean isUnresolvableRange()">2</method>
+			<method name="public String getPartialAddress()">1</method>
+			<method name="public boolean isCanStep()">2</method>
+			<method name="public boolean isInformation()">2</method>
+			<method name="public void setPicklist(String arg0)">1</method>
+			<method name="public void setName(Boolean arg0)">1</method>
+			<method name="public void setPostcodeRecoded(Boolean arg0)">1</method>
+			<method name="public boolean isExtendedData()">2</method>
+			<method name="public boolean isCrossBorderMatch()">2</method>
+			<method name="public boolean isEnhancedData()">2</method>
+			<method name="public boolean isDummyPOBox()">2</method>
+			<method name="public boolean isWarnInformation()">2</method>
+			<method name="public boolean isIncompleteAddr()">2</method>
+			<method name="public void setPartialAddress(String arg0)">1</method>
+			<method name="public void setInformation(Boolean arg0)">1</method>
+			<method name="public boolean isFullAddress()">2</method>
+			<method name="public boolean isMultiples()">2</method>
+			<method name="public void setDummyPOBox(Boolean arg0)">1</method>
+			<method name="public void setScore(java.math.BigInteger arg0)">1</method>
+			<method name="public void setSubsidiaryData(Boolean arg0)">1</method>
+			<method name="public void setWarnInformation(Boolean arg0)">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public void setCanStep(Boolean arg0)">1</method>
+			<method name="public boolean isAliasMatch()">2</method>
+			<method name="public boolean isPostcodeRecoded()">2</method>
+			<method name="public String getPicklist()">1</method>
+			<method name="public boolean isName()">2</method>
+			<method name="public void setIncompleteAddr(Boolean arg0)">1</method>
+			<method name="public void setExtendedData(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.math.BigInteger getScore()">1</method>
+			<method name="public void setMultiples(Boolean arg0)">1</method>
+			<method name="public boolean isPhantomPrimaryPoint()">2</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAPicklistType</name>
+		<wmc>26</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>29</rfc>
+		<lcom>301</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>26</npm>
+		<lcom3>0.963076923076923</lcom3>
+		<loc>191</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.846153846153846</amc>
+		<cc>
+			<method name="public boolean isAutoStepinSafe()">2</method>
+			<method name="public void setPrompt(String arg0)">1</method>
+			<method name="public void setAutoFormatSafe(Boolean arg0)">1</method>
+			<method name="public boolean isAutoFormatPastClose()">2</method>
+			<method name="public String getPrompt()">1</method>
+			<method name="public java.math.BigInteger getTotal()">1</method>
+			<method name="public boolean isMoreOtherMatches()">2</method>
+			<method name="public java.util.List getPicklistEntry()">2</method>
+			<method name="public boolean isTimeout()">2</method>
+			<method name="public boolean isMaxMatches()">2</method>
+			<method name="public void setMoreOtherMatches(Boolean arg0)">1</method>
+			<method name="public void setTotal(java.math.BigInteger arg0)">1</method>
+			<method name="public boolean isAutoFormatSafe()">2</method>
+			<method name="public String getFullPicklistMoniker()">1</method>
+			<method name="public void setAutoFormatPastClose(Boolean arg0)">1</method>
+			<method name="public boolean isOverThreshold()">2</method>
+			<method name="public boolean isAutoStepinPastClose()">2</method>
+			<method name="public boolean isLargePotential()">2</method>
+			<method name="public void setAutoStepinSafe(Boolean arg0)">1</method>
+			<method name="public void setMaxMatches(Boolean arg0)">1</method>
+			<method name="public void setLargePotential(Boolean arg0)">1</method>
+			<method name="public void setOverThreshold(Boolean arg0)">1</method>
+			<method name="public void setFullPicklistMoniker(String arg0)">1</method>
+			<method name="public void setTimeout(Boolean arg0)">1</method>
+			<method name="public void setAutoStepinPastClose(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.oasis_open.docs.wss._2004._01.oasis_200401_wss_wssecurity_secext_1_0.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAExampleAddress</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setComment(String arg0)">1</method>
+			<method name="public void setAddress(com.qas.ondemand_2010_01.QAAddressType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.qas.ondemand_2010_01.QAAddressType getAddress()">1</method>
+			<method name="public String getComment()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.LineContentType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.qas.ondemand_2010_01.LineContentType[] values()">1</method>
+			<method name="public static com.qas.ondemand_2010_01.LineContentType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.qas.ondemand_2010_01.LineContentType fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.ArrayOfQADataSet</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDataSet()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAGetData</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QABulkSearchItemType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setVerifyLevel(com.qas.ondemand_2010_01.VerifyLevelType arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.VerifyLevelType getVerifyLevel()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQAAddress(com.qas.ondemand_2010_01.QAAddressType arg0)">1</method>
+			<method name="public void setInputAddress(String arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAAddressType getQAAddress()">1</method>
+			<method name="public String getInputAddress()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAGetExampleAddresses</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public void setLayout(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public String getLayout()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QASearch</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setSearch(String arg0)">1</method>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public String getSearch()">1</method>
+			<method name="public void setEngine(com.qas.ondemand_2010_01.EngineType arg0)">1</method>
+			<method name="public void setLayout(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public String getLayout()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.qas.ondemand_2010_01.EngineType getEngine()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAGetLicenseInfo</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAInformation</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>9</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.166666666666667</amc>
+		<cc>
+			<method name="public String getStateTransition()">1</method>
+			<method name="public void setStateTransition(String arg0)">1</method>
+			<method name="public long getCreditsUsed()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setCreditsUsed(long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAGetAddress</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getMoniker()">1</method>
+			<method name="public void setMoniker(String arg0)">1</method>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public void setLayout(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public String getLayout()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.LicenceWarningLevel</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.923076923076923</lcom3>
+		<loc>192</loc>
+		<dam>0.15384615384615385</dam>
+		<moa>12</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>28.833333333333332</amc>
+		<cc>
+			<method name="public static com.qas.ondemand_2010_01.LicenceWarningLevel valueOf(String arg0)">1</method>
+			<method name="public static com.qas.ondemand_2010_01.LicenceWarningLevel fromValue(String arg0)">3</method>
+			<method name="public static com.qas.ondemand_2010_01.LicenceWarningLevel[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.DataplusGroupType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public String getGroupName()">1</method>
+			<method name="public void setGroupName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDataplusGroupItem()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QALicenceInfo</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getLicensedSet()">2</method>
+			<method name="public com.qas.ondemand_2010_01.LicenceWarningLevel getWarningLevel()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWarningLevel(com.qas.ondemand_2010_01.LicenceWarningLevel arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QARefine</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getMoniker()">1</method>
+			<method name="public String getRefinement()">1</method>
+			<method name="public void setTimeout(java.math.BigInteger arg0)">1</method>
+			<method name="public void setRefinement(String arg0)">1</method>
+			<method name="public void setThreshold(java.math.BigInteger arg0)">1</method>
+			<method name="public void setMoniker(String arg0)">1</method>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public void setLayout(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public String getLayout()">1</method>
+			<method name="public java.math.BigInteger getTimeout()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.math.BigInteger getThreshold()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAAuthentication</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.AddressLineType</name>
+		<wmc>12</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>15</rfc>
+		<lcom>56</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>12</npm>
+		<lcom3>0.9242424242424242</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3541666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.5</amc>
+		<cc>
+			<method name="public com.qas.ondemand_2010_01.LineContentType getLineContent()">2</method>
+			<method name="public void setOverflow(Boolean arg0)">1</method>
+			<method name="public void setTruncated(Boolean arg0)">1</method>
+			<method name="public void setLine(String arg0)">1</method>
+			<method name="public void setLabel(String arg0)">1</method>
+			<method name="public void setLineContent(com.qas.ondemand_2010_01.LineContentType arg0)">1</method>
+			<method name="public boolean isOverflow()">2</method>
+			<method name="public String getLabel()">1</method>
+			<method name="public java.util.List getDataplusGroup()">2</method>
+			<method name="public String getLine()">1</method>
+			<method name="public boolean isTruncated()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QASearchType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>32</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.5</amc>
+		<cc>
+			<method name="public void setCount(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getSearch()">2</method>
+			<method name="public String getCount()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.DPVStatusType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static com.qas.ondemand_2010_01.DPVStatusType[] values()">1</method>
+			<method name="public static com.qas.ondemand_2010_01.DPVStatusType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.qas.ondemand_2010_01.DPVStatusType valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QABulkSearchResult</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>37</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>10</npm>
+		<lcom3>0.911111111111111</lcom3>
+		<loc>67</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.2</amc>
+		<cc>
+			<method name="public String getBulkError()">1</method>
+			<method name="public void setCount(String arg0)">1</method>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public void setBulkError(String arg0)">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public java.util.List getBulkAddress()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchCount(String arg0)">1</method>
+			<method name="public String getSearchCount()">2</method>
+			<method name="public String getCount()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAQueryHeader</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>9</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>6</npm>
+		<lcom3>0.8</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.166666666666667</amc>
+		<cc>
+			<method name="public com.qas.ondemand_2010_01.QAAuthentication getQAAuthentication()">1</method>
+			<method name="public void setQAAuthentication(com.qas.ondemand_2010_01.QAAuthentication arg0)">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.oasis_open.docs.wss._2004._01.oasis_200401_wss_wssecurity_secext_1_0.SecurityHeaderType getSecurity()">1</method>
+			<method name="public void setSecurity(org.oasis_open.docs.wss._2004._01.oasis_200401_wss_wssecurity_secext_1_0.SecurityHeaderType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.EngineType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>5</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24358974358974358</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setValue(com.qas.ondemand_2010_01.EngineEnumType arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.PromptSetType getPromptSet()">1</method>
+			<method name="public void setIntensity(com.qas.ondemand_2010_01.EngineIntensityType arg0)">1</method>
+			<method name="public void setPromptSet(com.qas.ondemand_2010_01.PromptSetType arg0)">1</method>
+			<method name="public Boolean isFlatten()">1</method>
+			<method name="public void setTimeout(java.math.BigInteger arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.EngineEnumType getValue()">1</method>
+			<method name="public void setThreshold(java.math.BigInteger arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.EngineIntensityType getIntensity()">1</method>
+			<method name="public void setFlatten(Boolean arg0)">1</method>
+			<method name="public java.math.BigInteger getTimeout()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.math.BigInteger getThreshold()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.ObjectFactory</name>
+		<wmc>48</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>40</cbo>
+		<rfc>91</rfc>
+		<lcom>1116</lcom>
+		<ca>0</ca>
+		<ce>40</ce>
+		<npm>47</npm>
+		<lcom3>0.9787234042553191</lcom3>
+		<loc>302</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.16109422492401215</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.166666666666667</amc>
+		<cc>
+			<method name="public com.qas.ondemand_2010_01.QACanSearch createQACanSearch()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QALicensedSet createQALicensedSet()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQALayouts(com.qas.ondemand_2010_01.ArrayOfQALayout arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAGetAddress createQAGetAddress()">1</method>
+			<method name="public com.qas.ondemand_2010_01.DataplusGroupType createDataplusGroupType()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QASearchType createQASearchType()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAGetData createQAGetData()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QALayout createQALayout()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAInformation createQAInformation()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QADataMapDetail createQADataMapDetail()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQAData(com.qas.ondemand_2010_01.ArrayOfQADataSet arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAGetPromptSet createQAGetPromptSet()">1</method>
+			<method name="public com.qas.ondemand_2010_01.AddressLineType createAddressLineType()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QADataSet createQADataSet()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAExampleAddress createQAExampleAddress()">1</method>
+			<method name="public com.qas.ondemand_2010_01.Picklist createPicklist()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QABulkSearchResult createQABulkSearchResult()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QASearchOk createQASearchOk()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAGetLicenseInfo createQAGetLicenseInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQAQueryHeader(com.qas.ondemand_2010_01.QAQueryHeader arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAPicklistType createQAPicklistType()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QASearchResult createQASearchResult()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAAddressType createQAAddressType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQAExampleAddresses(com.qas.ondemand_2010_01.ArrayOfQAExampleAddress arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQASystemInfo(com.qas.ondemand_2010_01.ArrayOfString arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QALicenceInfo createQALicenceInfo()">1</method>
+			<method name="public com.qas.ondemand_2010_01.EngineType createEngineType()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAGetDataMapDetail createQAGetDataMapDetail()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAGetSystemInfo createQAGetSystemInfo()">1</method>
+			<method name="public com.qas.ondemand_2010_01.ArrayOfQADataSet createArrayOfQADataSet()">1</method>
+			<method name="public com.qas.ondemand_2010_01.PicklistEntryType createPicklistEntryType()">1</method>
+			<method name="public com.qas.ondemand_2010_01.Address createAddress()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAAuthentication createQAAuthentication()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QABulkSearchItemType createQABulkSearchItemType()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QARefine createQARefine()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAPromptSet createQAPromptSet()">1</method>
+			<method name="public com.qas.ondemand_2010_01.ArrayOfQALayout createArrayOfQALayout()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QASearch createQASearch()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAGetExampleAddresses createQAGetExampleAddresses()">1</method>
+			<method name="public com.qas.ondemand_2010_01.ArrayOfString createArrayOfString()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAQueryHeader createQAQueryHeader()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQAInformation(com.qas.ondemand_2010_01.QAInformation arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.ArrayOfQAExampleAddress createArrayOfQAExampleAddress()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAGetLayouts createQAGetLayouts()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QABulkSearch createQABulkSearch()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.qas.ondemand_2010_01.PromptLine createPromptLine()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAGetPromptSet</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public com.qas.ondemand_2010_01.PromptSetType getPromptSet()">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public void setPromptSet(com.qas.ondemand_2010_01.PromptSetType arg0)">1</method>
+			<method name="public void setEngine(com.qas.ondemand_2010_01.EngineType arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.qas.ondemand_2010_01.EngineType getEngine()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QABulkSearch</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public void setEngine(com.qas.ondemand_2010_01.EngineType arg0)">1</method>
+			<method name="public void setLayout(String arg0)">1</method>
+			<method name="public void setBulkSearchTerm(com.qas.ondemand_2010_01.QASearchType arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public String getLayout()">1</method>
+			<method name="public com.qas.ondemand_2010_01.QASearchType getBulkSearchTerm()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.qas.ondemand_2010_01.EngineType getEngine()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.Address</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQAAddress(com.qas.ondemand_2010_01.QAAddressType arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAAddressType getQAAddress()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.PromptSetType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static com.qas.ondemand_2010_01.PromptSetType[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.qas.ondemand_2010_01.PromptSetType fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.qas.ondemand_2010_01.PromptSetType valueOf(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAGetLayouts</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.oasis_open.docs.wss._2004._01.oasis_200401_wss_wssecurity_secext_1_0.SecurityHeaderType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.75</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.333333333333333</amc>
+		<cc>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAGetSystemInfo</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QASOnDemand</name>
+		<wmc>12</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>25</cbo>
+		<rfc>12</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>24</ce>
+		<npm>12</npm>
+		<lcom3>2.0</lcom3>
+		<loc>12</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.15384615384615385</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.qas.ondemand_2010_01.ArrayOfQAExampleAddress doGetExampleAddresses(com.qas.ondemand_2010_01.QAGetExampleAddresses)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.Picklist doRefine(com.qas.ondemand_2010_01.QARefine)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.QALicenceInfo doGetLicenseInfo(com.qas.ondemand_2010_01.QAGetLicenseInfo)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.ArrayOfString doGetSystemInfo(com.qas.ondemand_2010_01.QAGetSystemInfo)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.QADataMapDetail doGetDataMapDetail(com.qas.ondemand_2010_01.QAGetDataMapDetail)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.QAPromptSet doGetPromptSet(com.qas.ondemand_2010_01.QAGetPromptSet)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.Address doGetAddress(com.qas.ondemand_2010_01.QAGetAddress)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.ArrayOfQALayout doGetLayouts(com.qas.ondemand_2010_01.QAGetLayouts)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.QASearchResult doSearch(com.qas.ondemand_2010_01.QASearch)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.ArrayOfQADataSet doGetData(com.qas.ondemand_2010_01.QAGetData)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.QABulkSearchResult doBulkSearch(com.qas.ondemand_2010_01.QABulkSearch)">1</method>
+			<method name="public abstract com.qas.ondemand_2010_01.QASearchOk doCanSearch(com.qas.ondemand_2010_01.QACanSearch)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QASearchOk</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4583333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public java.util.List getErrorDetail()">2</method>
+			<method name="public void setIsOk(boolean arg0)">1</method>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public boolean isIsOk()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.EngineIntensityType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.qas.ondemand_2010_01.EngineIntensityType fromValue(String arg0)">3</method>
+			<method name="public static com.qas.ondemand_2010_01.EngineIntensityType[] values()">1</method>
+			<method name="public static com.qas.ondemand_2010_01.EngineIntensityType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.Picklist</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setQAPicklist(com.qas.ondemand_2010_01.QAPicklistType arg0)">1</method>
+			<method name="public com.qas.ondemand_2010_01.QAPicklistType getQAPicklist()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.qas.ondemand_2010_01.QAGetDataMapDetail</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setLocalisation(String arg0)">1</method>
+			<method name="public void setDataMap(String arg0)">1</method>
+			<method name="public String getDataMap()">1</method>
+			<method name="public String getLocalisation()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.oasis_open.docs.wss._2004._01.oasis_200401_wss_wssecurity_secext_1_0.ObjectFactory</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>9</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.5</amc>
+		<cc>
+			<method name="public org.oasis_open.docs.wss._2004._01.oasis_200401_wss_wssecurity_secext_1_0.SecurityHeaderType createSecurityHeaderType()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

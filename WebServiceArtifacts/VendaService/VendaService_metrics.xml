@@ -1,0 +1,3182 @@
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelCodigo</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getHotelCodigo()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.Retornar</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultaFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultaFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotel</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultaFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultaFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_shared.BaseData</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>8</noc>
+		<cbo>9</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>9</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCodigoErro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoErro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMensagemErro()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMensagemErro(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.Cancelar</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCancelamentoParametro()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCancelamentoParametro(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_shared.ObjectFactory</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>9</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.8</lcom3>
+		<loc>59</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.333333333333334</amc>
+		<cc>
+			<method name="public org.datacontract.schemas._2004._07.ftv_shared.BaseData createBaseData()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createBaseDataMensagemErro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBaseDataCodigoErro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBaseData(org.datacontract.schemas._2004._07.ftv_shared.BaseData arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotel</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getHotel()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ReservarHotel</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getReservaParametro()">1</method>
+			<method name="public void setReservaParametro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.DetalheTarifa</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataTarifa()">1</method>
+			<method name="public java.math.BigDecimal getValorDiaria()">1</method>
+			<method name="public void setDataTarifa(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setValorDiaria(java.math.BigDecimal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelRetorno</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCodigoConsulta()">1</method>
+			<method name="public void setHoteis(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIdioma()">1</method>
+			<method name="public void setSiglaIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaIdioma()">1</method>
+			<method name="public Boolean isConsultaFinalizada()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setConsultaFinalizada(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHoteis()">1</method>
+			<method name="public void setCodigoConsulta(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro</name>
+		<wmc>73</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>74</rfc>
+		<lcom>2556</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>73</npm>
+		<lcom3>0.9861111111111112</lcom3>
+		<loc>364</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4977168949771689</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.493150684931507</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getDataInicial()">1</method>
+			<method name="public void setSiglaIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoCidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoPais()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAssincrono()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoExternoAgencia()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getApartamentos()">1</method>
+			<method name="public Short getCodigoTipoTarifa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorReservaOnRequest()">1</method>
+			<method name="public void setCodigoExternoVendedor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoPais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDataInicial(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoModuloVenda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIdioma()">1</method>
+			<method name="public void setNomeContinente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAssincrono(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCNPJCPFAgencia()">1</method>
+			<method name="public void setCodigoVendedor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCNPJCPFAgencia(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDataFinal()">1</method>
+			<method name="public void setCNPJCPFEmpresa(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIndicadorHotelAgrupado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorHotelFlytour()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoEstado()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoConsulta()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCNPJCPFVendedor()">1</method>
+			<method name="public void setCodigoAgencia(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomeEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoIsoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCNPJCPFEmpresa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorHotelAgrupado()">1</method>
+			<method name="public void setNomeCidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaPais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIndicadorReservaOnRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIndicadorInformacaoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setApartamentos(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaPais()">1</method>
+			<method name="public void setIndicadorSomenteNovosRegistros(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoVendedor()">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIndicadorHotelFlytour(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorInformacaoHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+			<method name="public void setCodigoModuloVenda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoTipoVenda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoEmpresa()">1</method>
+			<method name="public void setCodigoTipoTarifa(Short arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeContinente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeEstado()">1</method>
+			<method name="public void setCodigoTipoVenda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoCidade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoAgencia()">1</method>
+			<method name="public void setCodigoExternoAgencia(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoContinente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaIdioma()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIsoMoeda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoExternoVendedor()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaEstado()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorSomenteNovosRegistros()">1</method>
+			<method name="public void setCodigoContinente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoEmpresa(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomePais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDataFinal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCNPJCPFVendedor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoMoeda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeCidade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomePais()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodigoConsulta(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarLocalizacao</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHotelLocalizacaoFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelLocalizacaoFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFacilidade</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFacilidades()">1</method>
+			<method name="public void setTituloFacilidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getTituloFacilidade()">1</method>
+			<method name="public void setFacilidades(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.Tarifa</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4942528735632184</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public void setCodigoRegimeAlimentacao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMultasCancelamento()">1</method>
+			<method name="public void setValorTotal(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getValorDiariaMedia()">1</method>
+			<method name="public void setQuantidadeApartamentoDisponivel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoStatusVenda()">1</method>
+			<method name="public void setHotelTaxas(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoRegimeAlimentacao()">1</method>
+			<method name="public void setNomeAcomodacao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setValorCusto(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setDetalheTarifas(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getObservacoesHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoTarifa()">1</method>
+			<method name="public void setMultasCancelamento(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIdTarifaPerVigCusto(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.math.BigDecimal getValorTotal()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelTaxas()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDetalheTarifas()">1</method>
+			<method name="public void setObservacoesHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setValorDiariaMedia(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIdTarifaPerVigCusto()">1</method>
+			<method name="public void setCodigoStatusVenda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeAcomodacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getQuantidadeApartamentoDisponivel()">1</method>
+			<method name="public java.math.BigDecimal getValorCusto()">1</method>
+			<method name="public void setNomeRegimeAlimentacao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeRegimeAlimentacao()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodigoTarifa(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.Apartamento</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorCamaCasal()">1</method>
+			<method name="public void setValorTaxa(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setValorTotal(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPassageiros()">1</method>
+			<method name="public java.math.BigDecimal getValorVenda()">1</method>
+			<method name="public java.math.BigDecimal getValorTotal()">1</method>
+			<method name="public void setCodigoApartamento(Long arg0)">1</method>
+			<method name="public Long getCodigoApartamento()">1</method>
+			<method name="public void setPassageiros(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public java.math.BigDecimal getValorTaxa()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIndicadorCamaCasal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setValorVenda(java.math.BigDecimal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelAlteradoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultarHotelAlteradoResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultarHotelAlteradoResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ObjectFactory</name>
+		<wmc>64</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>53</cbo>
+		<rfc>99</rfc>
+		<lcom>1924</lcom>
+		<ca>0</ca>
+		<ce>53</ce>
+		<npm>63</npm>
+		<lcom3>0.9801587301587301</lcom3>
+		<loc>604</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0670995670995671</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.0625</amc>
+		<cc>
+			<method name="public org.tempuri.Retornar createRetornar()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservarHotelReservaParametro(org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaParametro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelarCancelamentoParametro(org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoParametro arg0)">1</method>
+			<method name="public org.tempuri.CancelarResponse createCancelarResponse()">1</method>
+			<method name="public org.tempuri.ConsultarHotelDestaqueResponse createConsultarHotelDestaqueResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarConsultaFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelInformacaoResponseConsultarHotelInformacaoResult(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotel arg0)">1</method>
+			<method name="public org.tempuri.ConsultarHotelFoto createConsultarHotelFoto()">1</method>
+			<method name="public org.tempuri.ConsultarHotelInformacaoResponse createConsultarHotelInformacaoResponse()">1</method>
+			<method name="public org.tempuri.ConsultarHotelAlteradoResponse createConsultarHotelAlteradoResponse()">1</method>
+			<method name="public org.tempuri.Consultar createConsultar()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelarResponseCancelarResult(org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoRetorno arg0)">1</method>
+			<method name="public org.tempuri.ImportarReservaExternaResponse createImportarReservaExternaResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelAlteradoResponseConsultarHotelAlteradoResult(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelCodigo arg0)">1</method>
+			<method name="public org.tempuri.ConfirmarHotelAlteradoResponse createConfirmarHotelAlteradoResponse()">1</method>
+			<method name="public org.tempuri.ContadorHoteisProcessados createContadorHoteisProcessados()">1</method>
+			<method name="public org.tempuri.AtualizarStatusReservaIntegracao createAtualizarStatusReservaIntegracao()">1</method>
+			<method name="public org.tempuri.ConsultarHotel createConsultarHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConfirmarHotelAlteradoHotelAlteradoConfirmacaoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacaoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelFacilidadeResponseConsultarHotelFacilidadeResult(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidade arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAtualizarStatusReservaIntegracaoAtualizacao(org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelResponseConsultarHotelResult(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConfirmarHotelAlteradoResponseConfirmarHotelAlteradoResult(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacao arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public org.tempuri.AtualizarStatusReservaIntegracaoResponse createAtualizarStatusReservaIntegracaoResponse()">1</method>
+			<method name="public org.tempuri.ConsultarHotelAlterado createConsultarHotelAlterado()">1</method>
+			<method name="public org.tempuri.ConfirmarHotelAlterado createConfirmarHotelAlterado()">1</method>
+			<method name="public org.tempuri.Cancelar createCancelar()">1</method>
+			<method name="public org.tempuri.ReservarHotelResponse createReservarHotelResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelAlteradoHotelAlteradoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRetornarConsultaFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservarHotelResponseReservarHotelResult(org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaRetorno arg0)">1</method>
+			<method name="public org.tempuri.ReservarHotel createReservarHotel()">1</method>
+			<method name="public org.tempuri.ConsultarHotelInformacao createConsultarHotelInformacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelConsultaFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro arg0)">1</method>
+			<method name="public org.tempuri.ConsultarResponse createConsultarResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarResponseConsultarResult(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelRetorno arg0)">1</method>
+			<method name="public org.tempuri.ConsultarLocalizacao createConsultarLocalizacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRetornarResponseRetornarResult(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelRetorno arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelFotoResponseConsultarHotelFotoResult(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFoto arg0)">1</method>
+			<method name="public org.tempuri.ConsultarHotelDestaque createConsultarHotelDestaque()">1</method>
+			<method name="public org.tempuri.ConsultarHotelFotoResponse createConsultarHotelFotoResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createContadorHoteisProcessadosConsultaFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro arg0)">1</method>
+			<method name="public org.tempuri.ImportarReservaExterna createImportarReservaExterna()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelFotoCosultaFotoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFotoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createImportarReservaExternaResponseImportarReservaExternaResult(org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao arg0)">1</method>
+			<method name="public org.tempuri.VerificarConsultaFinalizadaResponse createVerificarConsultaFinalizadaResponse()">1</method>
+			<method name="public org.tempuri.ConsultarHotelFacilidade createConsultarHotelFacilidade()">1</method>
+			<method name="public org.tempuri.ContadorHoteisProcessadosResponse createContadorHoteisProcessadosResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelInformacaoConsultaFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaInformacaoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelDestaqueHotelDestaque(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelDestaque arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarLocalizacaoResponseConsultarLocalizacaoResult(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelLocalizacao arg0)">1</method>
+			<method name="public org.tempuri.VerificarConsultaFinalizada createVerificarConsultaFinalizada()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarLocalizacaoHotelLocalizacaoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelLocalizacaoFiltro arg0)">1</method>
+			<method name="public org.tempuri.ConsultarLocalizacaoResponse createConsultarLocalizacaoResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createImportarReservaExternaAtualizacao(org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao arg0)">1</method>
+			<method name="public org.tempuri.ConsultarHotelResponse createConsultarHotelResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelDestaqueResponseConsultarHotelDestaqueResult(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelDestaque arg0)">1</method>
+			<method name="public org.tempuri.ConsultarHotelFacilidadeResponse createConsultarHotelFacilidadeResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultarHotelFacilidadeCosultaFacilidadeFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFacilidadeFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAtualizarStatusReservaIntegracaoResponseAtualizarStatusReservaIntegracaoResult(org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.tempuri.RetornarResponse createRetornarResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createVerificarConsultaFinalizadaConsultaFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConfirmarHotelAlteradoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConfirmarHotelAlteradoResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getConfirmarHotelAlteradoResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setConsultarHotelResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultarHotelResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelDestaque</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHotelDestaque(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelDestaque()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.MultaCancelamento</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setCodigoIsoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDataFinal(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataInicial()">1</method>
+			<method name="public void setSiglaMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaMoeda()">1</method>
+			<method name="public void setValorMulta(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataFinal()">1</method>
+			<method name="public void setCodigoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoMoeda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIsoMoeda()">1</method>
+			<method name="public void setDescricaoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDescricaoMoeda()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDataInicial(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public java.math.BigDecimal getValorMulta()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.Passageiro</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getDocumentos()">1</method>
+			<method name="public void setDataNascimentoPassageiro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIdadePassageiro()">1</method>
+			<method name="public void setNomePassageiro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSobrenomePassageiro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDocumentos(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDataNascimentoPassageiro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSobrenomePassageiro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoPassageiro()">1</method>
+			<method name="public void setCodigoPassageiro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSexoPassageiro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSexoPassageiro()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdadePassageiro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomePassageiro()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.AtualizarStatusReservaIntegracao</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAtualizacao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAtualizacao()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiroDocumento</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPassageiroDocumento()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidade</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getHotelFacilidade()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiroFiltro</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPassageiroFiltro()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfTarifa</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getTarifa()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ContadorHoteisProcessados</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultaFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultaFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoFiltro</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIdioma()">1</method>
+			<method name="public void setSiglaIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaIdioma()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoFila()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDataUltimaAlteracao()">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDataUltimaAlteracao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+			<method name="public void setCodigoFila(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoParametro</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCodigoFile()">1</method>
+			<method name="public void setCodigoFile(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoReserva()">1</method>
+			<method name="public void setCodigoReserva(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ReservarHotelResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getReservarHotelResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReservarHotelResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.PassageiroFiltro</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getIdade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDataNascimento()">1</method>
+			<method name="public void setIdade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDataNascimento(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.RetornarResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRetornarResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRetornarResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarLocalizacaoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsultarLocalizacaoResult()">1</method>
+			<method name="public void setConsultarLocalizacaoResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidadeConteudo</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getHotelFacilidadeConteudo()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelAlterado</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHotelAlteradoFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelAlteradoFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaParametro</name>
+		<wmc>63</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>64</rfc>
+		<lcom>1891</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>63</npm>
+		<lcom3>0.9838709677419355</lcom3>
+		<loc>314</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.373015873015873</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.492063492063492</amc>
+		<cc>
+			<method name="public void setSiglaIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoFile()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataInicial()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoExternoAgencia()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getApartamentos()">1</method>
+			<method name="public Short getCodigoTipoTarifa()">1</method>
+			<method name="public void setCodigoExternoVendedor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoStatusVenda()">1</method>
+			<method name="public void setValorTaxa(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoModuloVenda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIdioma()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getValorVenda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoExternoAtendente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCNPJCPFAgencia()">1</method>
+			<method name="public void setCodigoVendedor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCNPJCPFAgencia(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCNPJCPFEmpresa(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCNPJCPFVendedor()">1</method>
+			<method name="public void setCodigoAgencia(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoIsoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getValorTotal()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCNPJCPFEmpresa()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataFinal()">1</method>
+			<method name="public void setValorVenda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoFile(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setApartamentos(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoVendedor()">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoFileCliente()">1</method>
+			<method name="public void setDataInicial(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+			<method name="public void setCodigoModuloVenda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoTipoVenda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoEmpresa()">1</method>
+			<method name="public void setDataFinal(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setCodigoTipoTarifa(Short arg0)">1</method>
+			<method name="public void setSiglaMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoTipoVenda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPermiteReservaPeriodoMulta(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoAgencia()">1</method>
+			<method name="public void setCodigoExternoAgencia(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaIdioma()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIsoMoeda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoExternoVendedor()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoTarifa()">1</method>
+			<method name="public void setCodigoAtendente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoAtendente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCNPJCPFAtendente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPermiteReservaPeriodoMulta()">1</method>
+			<method name="public void setCNPJCPFAtendente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaMoeda()">1</method>
+			<method name="public void setCodigoEmpresa(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoFileCliente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoStatusVenda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCNPJCPFVendedor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoMoeda()">1</method>
+			<method name="public void setCodigoExternoAtendente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodigoTarifa(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setValorTotal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getValorTaxa()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacao</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFoto</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setHotelFotoOrdem(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelFotoUrl(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFotoTitulo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFotoUrl()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFotoLink()">1</method>
+			<method name="public void setHotelFotoTitulo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelFotoLink(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFotoOrdem()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ContadorHoteisProcessadosResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Integer getContadorHoteisProcessadosResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setContadorHoteisProcessadosResult(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelFacilidadeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultarHotelFacilidadeResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultarHotelFacilidadeResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfMultaCancelamento</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getMultaCancelamento()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelFoto</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCosultaFotoFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCosultaFotoFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelInformacao</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultaFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultaFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ImportarReservaExternaResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getImportarReservaExternaResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setImportarReservaExternaResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.Hotel</name>
+		<wmc>51</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>52</rfc>
+		<lcom>1225</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>51</npm>
+		<lcom3>0.98</lcom3>
+		<loc>254</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49673202614379086</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4901960784313726</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getValorDiariaFinal()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getEndereco()">1</method>
+			<method name="public void setValorDiariaFinal(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCep()">1</method>
+			<method name="public void setNumeroEstrelas(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getValorDiaria()">1</method>
+			<method name="public void setValorDiaria(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getLongitude()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFacilidades()">1</method>
+			<method name="public void setNomeEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoIsoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getLatitude()">1</method>
+			<method name="public void setNomeCidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setProvedor(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaPais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBroker()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDescricaoHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTelefone()">1</method>
+			<method name="public void setTelefone(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCategoria(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFotos()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaPais()">1</method>
+			<method name="public void setEndereco(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCep(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDescricaoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getProvedor()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeEstado()">1</method>
+			<method name="public void setSiglaMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setLongitude(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelFotos(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIsoMoeda()">1</method>
+			<method name="public void setLatitude(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomeHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaEstado()">1</method>
+			<method name="public void setHotelFacilidades(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeHotel()">1</method>
+			<method name="public void setAcomodacoes(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaMoeda()">1</method>
+			<method name="public java.math.BigDecimal getNumeroEstrelas()">1</method>
+			<method name="public void setNomePais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCategoria()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoMoeda()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeCidade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomePais()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getAcomodacoes()">1</method>
+			<method name="public void setBroker(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfReservaApartamentoRetorno</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReservaApartamentoRetorno()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelDestaqueResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultarHotelDestaqueResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultarHotelDestaqueResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelDestaque</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getHotelDestaque()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiro</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPassageiro()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFacilidadeConteudo</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getNomeFacilidade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDescricaoFacilidade()">1</method>
+			<method name="public void setNomeFacilidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDescricaoFacilidade(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.IVenda</name>
+		<wmc>16</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>22</cbo>
+		<rfc>16</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>21</ce>
+		<npm>16</npm>
+		<lcom3>2.0</lcom3>
+		<loc>16</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.16666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotel consultarHotel(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelLocalizacao consultarLocalizacao(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelLocalizacaoFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao importarReservaExterna(org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelCodigo consultarHotelAlterado(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoFiltro)">1</method>
+			<method name="public abstract Integer contadorHoteisProcessados(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoRetorno cancelar(org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoParametro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotel consultarHotelInformacao(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaInformacaoFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.HotelRetorno retornar(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaRetorno reservarHotel(org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaParametro)">1</method>
+			<method name="public abstract Boolean verificarConsultaFinalizada(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacao confirmarHotelAlterado(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacaoFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelDestaque consultarHotelDestaque(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelDestaque)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.HotelRetorno consultar(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidade consultarHotelFacilidade(org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFacilidadeFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFoto consultarHotelFoto(org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFotoFiltro)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao atualizarStatusReservaIntegracao(org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.VendaService</name>
+		<wmc>12</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>44</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>10</npm>
+		<lcom3>0.696969696969697</lcom3>
+		<loc>119</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8214285714285714</mfa>
+		<cam>0.4772727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.666666666666666</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient org.tempuri.IVenda getBasicHttpsBindingIVenda(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public org.tempuri.IVenda getBasicHttpsBindingIVenda()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.tempuri.IVenda getBasicHttpBindingIVenda()">1</method>
+			<method name="public transient org.tempuri.IVenda getBasicHttpBindingIVenda(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfApartamentoFiltro</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getApartamentoFiltro()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFacilidadeFiltro</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCodigoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ImportarReservaExterna</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAtualizacao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAtualizacao()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ApartamentoFiltro</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setCodigoApartamento(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoApartamento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorCamaCasal()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPassageiros()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIndicadorCamaCasal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPassageiros(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.VerificarConsultaFinalizadaResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setVerificarConsultaFinalizadaResult(Boolean arg0)">1</method>
+			<method name="public Boolean isVerificarConsultaFinalizadaResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.AtualizarStatusReservaIntegracaoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getAtualizarStatusReservaIntegracaoResult()">1</method>
+			<method name="public void setAtualizarStatusReservaIntegracaoResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.VerificarConsultaFinalizada</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultaFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultaFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelFacilidade</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCosultaFacilidadeFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCosultaFacilidadeFiltro()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacaoFiltro</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setCodigoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoFila()">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+			<method name="public void setCodigoFila(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaInformacaoFiltro</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIdioma()">1</method>
+			<method name="public void setSiglaIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaIdioma()">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFoto</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getHotelFoto()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelTaxa</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setX003CDescricaoMoedaX003EKBackingField(String arg0)">1</method>
+			<method name="public void setX003CTipoTaxaX003EKBackingField(Long arg0)">1</method>
+			<method name="public void setX003CCodigoTaxaX003EKBackingField(Long arg0)">1</method>
+			<method name="public String getX003CDescricaoMoedaX003EKBackingField()">1</method>
+			<method name="public String getX003CSiglaMoedaX003EKBackingField()">1</method>
+			<method name="public void setX003CValorTaxaX003EKBackingField(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setX003CSiglaMoedaX003EKBackingField(String arg0)">1</method>
+			<method name="public void setX003CIndicadorIncluidoValorX003EKBackingField(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getX003CValorTaxaX003EKBackingField()">1</method>
+			<method name="public Long getX003CCodigoMoedaX003EKBackingField()">1</method>
+			<method name="public Long getX003CCodigoTaxaX003EKBackingField()">1</method>
+			<method name="public void setX003CCodigoIsoMoedaX003EKBackingField(String arg0)">1</method>
+			<method name="public String getX003CCodigoIsoMoedaX003EKBackingField()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setX003CCodigoMoedaX003EKBackingField(Long arg0)">1</method>
+			<method name="public String getX003CIndicadorIncluidoValorX003EKBackingField()">1</method>
+			<method name="public String getX003CNomeTaxaX003EKBackingField()">1</method>
+			<method name="public void setX003CNomeTaxaX003EKBackingField(String arg0)">1</method>
+			<method name="public Long getX003CTipoTaxaX003EKBackingField()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.ObjectFactory</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>26</rfc>
+		<lcom>211</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>22</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>343</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.12215909090909091</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>13.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createGuid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDuration(javax.xml.datatype.Duration arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBoolean(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChar(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDecimal(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAnyType(Object arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLong(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBase64Binary(byte[] arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQName(javax.xml.namespace.QName arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedInt(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedLong(java.math.BigInteger arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedShort(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedByte(Short arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAnyURI(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createByte(Byte arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createInt(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createString(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createDouble(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFloat(Float arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShort(Short arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelInformacaoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsultarHotelInformacaoResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setConsultarHotelInformacaoResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelLocalizacao</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getHotelLocalizacao()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelLocalizacaoFiltro</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.74</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public void setCodigoCidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoPais()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeContinente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeEstado()">1</method>
+			<method name="public void setCodigoPais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoCidade()">1</method>
+			<method name="public void setNomeContinente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoContinente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoEstado()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaEstado()">1</method>
+			<method name="public void setNomeEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomeCidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaPais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoContinente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomePais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeCidade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaPais()">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomePais()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodigoEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIndicadorNacional(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorNacional()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.Consultar</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConsultaFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getConsultaFiltro()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaApartamentoRetorno</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCodigoApartamento(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoApartamento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoReserva()">1</method>
+			<method name="public void setCodigoReserva(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelTaxa</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getHotelTaxa()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.CancelarResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCancelarResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCancelarResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.PassageiroDocumento</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getNumeroDocumento()">1</method>
+			<method name="public void setNumeroDocumento(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoDocumento(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomeDocumento(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoDocumento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeDocumento()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfAcomodacao</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAcomodacao()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoRetorno</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConfirmarHotelAlterado</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setHotelAlteradoConfirmacaoFiltro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelAlteradoConfirmacaoFiltro()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelDestaque</name>
+		<wmc>35</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>36</rfc>
+		<lcom>561</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>35</npm>
+		<lcom3>0.9705882352941176</lcom3>
+		<loc>174</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7428571428571429</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4857142857142858</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getDataInicial()">1</method>
+			<method name="public void setCodigoCidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIndicadorStatus(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDataInicial(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoCidade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getValorEntrada()">1</method>
+			<method name="public void setNomeHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getValorParcela()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDataFinal()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeHotel()">1</method>
+			<method name="public void setCodigoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoHotelDestaque()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaMoeda()">1</method>
+			<method name="public void setNomeCidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getQuantidadeParcela()">1</method>
+			<method name="public void setCodigoMoeda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDataFinal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getValorReferencia()">1</method>
+			<method name="public void setValorReferencia(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setQuantidadeParcela(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorStatus()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoMoeda()">1</method>
+			<method name="public void setCodigoHotelDestaque(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeCidade()">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoPessoa()">1</method>
+			<method name="public void setValorEntrada(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoHotel()">1</method>
+			<method name="public void setIndicadorNacional(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoPessoa(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorNacional()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+			<method name="public void setValorParcela(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFotoFiltro</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCodigoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.Acomodacao</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCodigoAcomodacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeAcomodacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTarifas()">1</method>
+			<method name="public void setNomeAcomodacao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTarifas(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoAcomodacao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelCodigo</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCodigoHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoHotel()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.HotelLocalizacao</name>
+		<wmc>27</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49382716049382713</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public void setCodigoCidade(Long arg0)">1</method>
+			<method name="public void setSiglaIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeContinente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeEstado()">1</method>
+			<method name="public void setCidadeEstadoPais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Long getCodigoPais()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIdioma()">1</method>
+			<method name="public void setNomeContinente(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoContinente(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaIdioma()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaEstado()">1</method>
+			<method name="public void setNomeEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaEstado(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNomeCidade(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSiglaPais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoPais(Long arg0)">1</method>
+			<method name="public void setNomePais(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Long getCodigoCidade()">1</method>
+			<method name="public void setCodigoEstado(Long arg0)">1</method>
+			<method name="public void setCodigoIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCidadeEstadoPais()">1</method>
+			<method name="public Long getCodigoContinente()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomeCidade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaPais()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNomePais()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Long getCodigoEstado()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsultarResult()">1</method>
+			<method name="public void setConsultarResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_shared.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaRetorno</name>
+		<wmc>15</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getMultasCancelamento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getReservaApartamentos()">1</method>
+			<method name="public void setSiglaIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIndicadorPermitePagamento(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoFile()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getIndicadorPermitePagamento()">1</method>
+			<method name="public void setMultasCancelamento(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setReservaApartamentos(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIdioma()">1</method>
+			<method name="public void setCodigoIdioma(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoFile(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDataValidade(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSiglaIdioma()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataValidade()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCodigoFile()">1</method>
+			<method name="public void setCodigoFile(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodigoFileExterno(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoFileExterno()">1</method>
+			<method name="public void setCodigoIntegracao(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setToken(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCodigoIntegracao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getToken()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfDetalheTarifa</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDetalheTarifa()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfApartamento</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getApartamento()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ConsultarHotelFotoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getConsultarHotelFotoResult()">1</method>
+			<method name="public void setConsultarHotelFotoResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.ftv_hotel_business.ObjectFactory</name>
+		<wmc>304</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>50</cbo>
+		<rfc>357</rfc>
+		<lcom>45124</lcom>
+		<ca>0</ca>
+		<ce>50</ce>
+		<npm>303</npm>
+		<lcom3>0.9948976492741298</lcom3>
+		<loc>3665</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0333033303330333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>10.519736842105264</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createHotelRetornoCodigoIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoFiltroDataUltimaAlteracao(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApartamentoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.ApartamentoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHotelLocalizacao(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelLocalizacao arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.DetalheTarifa createDetalheTarifa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroSiglaEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApartamentoFiltroCodigoApartamento(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoFiltroSiglaIdioma(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidade createArrayOfHotelFacilidade()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueSiglaMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroDataFinal(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoCidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDescricaoHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTarifa(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfTarifa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroSiglaPais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfApartamento(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfApartamento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaMultasCancelamento(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfMultaCancelamento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueIndicadorStatus(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoConfirmacao(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacao arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFacilidadeTituloFacilidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultaFotoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFotoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaInformacaoFiltroCodigoIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoAgencia(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfAcomodacao(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfAcomodacao arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroNomeEstado(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.Apartamento createApartamento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroCodigoPassageiro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoIsoMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroDocumentoCodigoDocumento(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMultaCancelamentoCodigoMoeda(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelRetornoCodigoConsulta(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMultaCancelamento(org.datacontract.schemas._2004._07.ftv_hotel_business.MultaCancelamento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueCodigoHotelDestaque(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroIndicadorNacional(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelamentoParametroCodigoReserva(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApartamento(org.datacontract.schemas._2004._07.ftv_hotel_business.Apartamento arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoParametro createCancelamentoParametro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoNomePais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHotelDestaque(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelDestaque arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelNomeCidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroSiglaIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoFileCliente(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacaoFiltro createHotelAlteradoConfirmacaoFiltro()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaApartamentoRetorno createReservaApartamentoRetorno()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHotel(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroNomeCidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelHotelFotos(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFoto arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaRetornoSiglaIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelamentoParametro(org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoParametro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCNPJCPFVendedor(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoAgencia(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAtualizacaoCodigoIntegracao(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroNomePais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaInformacaoFiltroSiglaIdioma(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelTaxa createHotelTaxa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaObservacoesHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoExternoVendedor(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHotelFoto(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFoto arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametro(org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaParametro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoTipoVenda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroApartamentos(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfApartamentoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelamentoParametroToken(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLongitude(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApartamentoPassageiros(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCodigoHotel(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFotoHotelFotoLink(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoFiltro createHotelAlteradoFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroDocumento(org.datacontract.schemas._2004._07.ftv_hotel_business.PassageiroDocumento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMultaCancelamentoDescricaoMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultaFacilidadeFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFacilidadeFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueQuantidadeParcela(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCep(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelEndereco(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelamentoRetorno(org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoRetorno arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFotoHotelFotoOrdem(Long arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfDetalheTarifa createArrayOfDetalheTarifa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueValorEntrada(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoFiltroCodigoIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroPermiteReservaPeriodoMulta(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroDocumentoNomeDocumento(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoPais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoVendedor(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroIndicadorHotelFlytour(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMultaCancelamentoCodigoIsoMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueIndicadorNacional(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaRetornoIndicadorPermitePagamento(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoVendedor(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaApartamentoRetorno(org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaApartamentoRetorno arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAtualizacaoCodigoFileExterno(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoConfirmacaoFiltroCodigoFila(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ApartamentoFiltro createApartamentoFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaQuantidadeApartamentoDisponivel(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaInformacaoFiltroToken(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfApartamentoFiltro createArrayOfApartamentoFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfDetalheTarifa(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfDetalheTarifa arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfAcomodacao createArrayOfAcomodacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelSiglaMoeda(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.MultaCancelamento createMultaCancelamento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoNomeEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueToken(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createApartamentoFiltroPassageiros(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiroFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaCodigoTarifa(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroIndicadorReservaOnRequest(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroNomePassageiro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueCodigoMoeda(java.math.BigDecimal arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelDestaque createHotelDestaque()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroCodigoEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroDataNascimentoPassageiro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelTaxa(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelTaxa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoFiltroCodigoFila(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoEmpresa(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelCodigo createArrayOfHotelCodigo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHotelFacilidade(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidade arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroFiltroDataNascimento(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelSiglaPais(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidadeConteudo createArrayOfHotelFacilidadeConteudo()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiroFiltro createArrayOfPassageiroFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaInformacaoFiltroCodigoHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroAssincrono(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoConfirmacaoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacaoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCNPJCPFEmpresa(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaDetalheTarifas(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfDetalheTarifa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoModuloVenda(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroIndicadorInformacaoHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueCodigoHotel(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCNPJCPFVendedor(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelBroker(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoCidadeEstadoPais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaRetorno(org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaRetorno arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFacilidadeFiltro createConsultaFacilidadeFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfReservaApartamentoRetorno(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfReservaApartamentoRetorno arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroToken(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFacilidadeConteudo createHotelFacilidadeConteudo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoIsoMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroNomeEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoFile(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroFiltroIdade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroSiglaIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelRetornoSiglaIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaRetornoMultasCancelamento(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfMultaCancelamento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMultaCancelamentoSiglaMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelSiglaEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaRetornoCodigoIdioma(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAcomodacaoCodigoAcomodacao(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueValorReferencia(java.math.BigDecimal arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFacilidade createHotelFacilidade()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelAlteradoConfirmacao createHotelAlteradoConfirmacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelHotelFacilidades(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidade arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroCodigoContinente(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoExternoAtendente(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroToken(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroSobrenomePassageiro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroCodigoCidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiro(org.datacontract.schemas._2004._07.ftv_hotel_business.Passageiro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelProvedor(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiroDocumento createArrayOfPassageiroDocumento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueDataFinal(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotel(org.datacontract.schemas._2004._07.ftv_hotel_business.Hotel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaIdTarifaPerVigCusto(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelRetornoHoteis(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCNPJCPFEmpresa(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotel createArrayOfHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroNomeContinente(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFotoHotelFotoTitulo(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacao(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelLocalizacao arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaHotelTaxas(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelTaxa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFacilidadeConteudo(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFacilidadeConteudo arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.PassageiroDocumento createPassageiroDocumento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroSiglaPais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroIndicadorHotelAgrupado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFoto(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFoto arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroSexoPassageiro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaRetornoReservaApartamentos(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfReservaApartamentoRetorno arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultaFacilidadeFiltroCodigoHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaNomeAcomodacao(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoConsulta(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoExternoAgencia(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLatitude(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCodigo(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelCodigo arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoTipoVenda(java.math.BigDecimal arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaParametro createReservaParametro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoCodigoIdioma(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueNomeHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifa(org.datacontract.schemas._2004._07.ftv_hotel_business.Tarifa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAcomodacao(org.datacontract.schemas._2004._07.ftv_hotel_business.Acomodacao arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFacilidadeConteudoDescricaoFacilidade(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFoto createArrayOfHotelFoto()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHotelTaxa(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelTaxa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelNomePais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCategoria(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroNomeCidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAcomodacoes(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfAcomodacao arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfPassageiroFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiroFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoConfirmacaoFiltroCodigoHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFacilidade(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFacilidade arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfMultaCancelamento createArrayOfMultaCancelamento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueValorParcela(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFacilidadeConteudoNomeFacilidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoNomeCidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueNomeCidade(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoTarifa(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroDocumentoNumeroDocumento(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroNomeContinente(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaRetornoCodigoFile(Long arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.Hotel createHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCodigoMoeda(Long arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelLocalizacao createHotelLocalizacao()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfTarifa createArrayOfTarifa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoExternoVendedor(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoEmpresa(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ConsultaFotoFiltro createConsultaFotoFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFotoHotelFotoUrl(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelLocalizacao createArrayOfHotelLocalizacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfApartamentoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfApartamentoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCodigoCodigoHotel(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueDataInicial(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoStatusVenda(java.math.BigDecimal arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelRetorno createHotelRetorno()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaNomeRegimeAlimentacao(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCNPJCPFAtendente(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCNPJCPFAgencia(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaInformacaoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaInformacaoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCodigoIsoMoeda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelLocalizacaoFiltro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoConfirmacaoFiltroToken(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiro createArrayOfPassageiro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelNomeEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDetalheTarifa(org.datacontract.schemas._2004._07.ftv_hotel_business.DetalheTarifa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroSiglaEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroNomePais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroSiglaMoeda(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ReservaRetorno createReservaRetorno()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelTaxa createArrayOfHotelTaxa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoSiglaPais(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfApartamento createArrayOfApartamento()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroToken(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfPassageiro(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiro arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelNomeHotel(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaFiltro createCosultaFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCNPJCPFAgencia(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFacilidadeFacilidades(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidadeConteudo arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCancelamentoParametroCodigoFile(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaCodigoRegimeAlimentacao(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTarifaCodigoStatusVenda(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultaFacilidadeFiltroToken(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroIdadePassageiro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHotelFacilidadeConteudo(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelFacilidadeConteudo arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.CosultaInformacaoFiltro createCosultaInformacaoFiltro()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelDestaque createArrayOfHotelDestaque()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAtualizacaoToken(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfHotelCodigo(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfHotelCodigo arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaApartamentoRetornoCodigoReserva(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueCodigoPessoa(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoExternoAgencia(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAtualizacaoCodigoFile(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultaFotoFiltroCodigoHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaque(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelDestaque arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoSiglaIdioma(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.PassageiroFiltro createPassageiroFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAcomodacaoNomeAcomodacao(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroCodigoAtendente(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfPassageiroDocumento(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiroDocumento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroDocumentos(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfPassageiroDocumento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroIndicadorSomenteNovosRegistros(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoModuloVenda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelDestaqueCodigoCidade(java.math.BigDecimal arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.Acomodacao createAcomodacao()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfReservaApartamentoRetorno createArrayOfReservaApartamentoRetorno()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelAlteradoFiltroToken(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.Tarifa createTarifa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAcomodacaoTarifas(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfTarifa arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.Passageiro createPassageiro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroApartamentos(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfApartamento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoFiltroCodigoPais(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAtualizacao(org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApartamentoIndicadorCamaCasal(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelRetorno(org.datacontract.schemas._2004._07.ftv_hotel_business.HotelRetorno arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.CancelamentoRetorno createCancelamentoRetorno()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfMultaCancelamento(org.datacontract.schemas._2004._07.ftv_hotel_business.ArrayOfMultaCancelamento arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaApartamentoRetornoCodigoApartamento(Long arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelFoto createHotelFoto()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApartamentoFiltroIndicadorCamaCasal(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroValorVenda(java.math.BigDecimal arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.Atualizacao createAtualizacao()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroValorTaxa(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoSiglaEstado(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelTelefone(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroDataInicial(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConsultaFotoFiltroToken(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelLocalizacaoFiltro createHotelLocalizacaoFiltro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCosultaFiltroCodigoContinente(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelLocalizacaoNomeContinente(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.ftv_hotel_business.HotelCodigo createHotelCodigo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReservaParametroValorTotal(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPassageiroFiltro(org.datacontract.schemas._2004._07.ftv_hotel_business.PassageiroFiltro arg0)">1</method>
+		</cc>
+	</class>

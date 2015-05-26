@@ -1,0 +1,1655 @@
+	<class>
+		<name>https.ivrs_elections_il_gov.api.IVRSAuthenticate</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.InvalidStatusChangeError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.WsUpdateRequest</name>
+		<wmc>77</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>78</rfc>
+		<lcom>2850</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>77</npm>
+		<lcom3>0.9868421052631579</lcom3>
+		<loc>384</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7467532467532467</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4935064935064934</amc>
+		<cc>
+			<method name="public void setDLNum(String arg0)">1</method>
+			<method name="public void setMailCity(String arg0)">1</method>
+			<method name="public void setGeocode2(String arg0)">1</method>
+			<method name="public String getPhone()">1</method>
+			<method name="public String getBirthDate()">1</method>
+			<method name="public String getStreetNumber()">1</method>
+			<method name="public void setAddrZip(String arg0)">1</method>
+			<method name="public void setUserInfo(String arg0)">1</method>
+			<method name="public void setRegistrationDate(String arg0)">1</method>
+			<method name="public void setStreetPostDirection(String arg0)">1</method>
+			<method name="public void setMailState(String arg0)">1</method>
+			<method name="public String getDLNum()">1</method>
+			<method name="public void setNameSuffix(String arg0)">1</method>
+			<method name="public String getStreetType()">1</method>
+			<method name="public String getMailLine2()">1</method>
+			<method name="public String getAddrZip()">1</method>
+			<method name="public void setStateID(String arg0)">1</method>
+			<method name="public void setGender(String arg0)">1</method>
+			<method name="public void setStreetNumber(String arg0)">1</method>
+			<method name="public String getAddrCity()">1</method>
+			<method name="public void setRegSource(String arg0)">1</method>
+			<method name="public void setStatusReason(String arg0)">1</method>
+			<method name="public void setStreetType(String arg0)">1</method>
+			<method name="public void setFirstName(String arg0)">1</method>
+			<method name="public String getNameSuffix()">1</method>
+			<method name="public String getMiddleName()">1</method>
+			<method name="public String getStreetPredirection()">1</method>
+			<method name="public String getMailState()">1</method>
+			<method name="public void setMiddleName(String arg0)">1</method>
+			<method name="public String getMailCountry()">1</method>
+			<method name="public String getUserInfo()">1</method>
+			<method name="public void setAuthenticationCode(String arg0)">1</method>
+			<method name="public String getGeocode3()">1</method>
+			<method name="public void setGeocode3(String arg0)">1</method>
+			<method name="public void setSSN(String arg0)">1</method>
+			<method name="public String getStatusReason()">1</method>
+			<method name="public void setStateStatus(String arg0)">1</method>
+			<method name="public String getFirstName()">1</method>
+			<method name="public void setLocalStatus(String arg0)">1</method>
+			<method name="public String getStateID()">1</method>
+			<method name="public String getGeocode1()">1</method>
+			<method name="public String getMailCity()">1</method>
+			<method name="public void setLocalID(String arg0)">1</method>
+			<method name="public String getLastName()">1</method>
+			<method name="public String getLocalID()">1</method>
+			<method name="public void setPhone(String arg0)">1</method>
+			<method name="public void setStreetFreeForm(String arg0)">1</method>
+			<method name="public void setMailZip(String arg0)">1</method>
+			<method name="public String getRegSource()">1</method>
+			<method name="public String getActionCode()">1</method>
+			<method name="public void setGeocode1(String arg0)">1</method>
+			<method name="public String getStreetPostDirection()">1</method>
+			<method name="public String getMailZip()">1</method>
+			<method name="public void setMailCountry(String arg0)">1</method>
+			<method name="public String getRegistrationDate()">1</method>
+			<method name="public String getStreetName()">1</method>
+			<method name="public void setLastName(String arg0)">1</method>
+			<method name="public String getGender()">1</method>
+			<method name="public String getMailLine1()">1</method>
+			<method name="public String getSSN()">1</method>
+			<method name="public String getStreetFreeForm()">1</method>
+			<method name="public String getAuthenticationCode()">1</method>
+			<method name="public void setActionCode(String arg0)">1</method>
+			<method name="public void setStreetPredirection(String arg0)">1</method>
+			<method name="public void setMailLine1(String arg0)">1</method>
+			<method name="public void setMailLine2(String arg0)">1</method>
+			<method name="public void setStreetName(String arg0)">1</method>
+			<method name="public String getAddrState()">1</method>
+			<method name="public void setBirthDate(String arg0)">1</method>
+			<method name="public String getStateStatus()">1</method>
+			<method name="public void setAddrLine2(String arg0)">1</method>
+			<method name="public void setAddrCity(String arg0)">1</method>
+			<method name="public String getAddrLine2()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getLocalStatus()">1</method>
+			<method name="public String getGeocode2()">1</method>
+			<method name="public void setAddrState(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.SearchUpdate</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public https.ivrs_elections_il_gov.api.SearchUpdateSoap getSearchUpdateSoap()">1</method>
+			<method name="public transient https.ivrs_elections_il_gov.api.SearchUpdateSoap getSearchUpdateSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.RefuseTransaction</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.VoterUpdateReturn</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setInformation(https.ivrs_elections_il_gov.api.WsUpdateInfoResult arg0)">1</method>
+			<method name="public void setErrors(https.ivrs_elections_il_gov.api.ArrayOfBaseError arg0)">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.ArrayOfBaseError getErrors()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public https.ivrs_elections_il_gov.api.WsUpdateInfoResult getInformation()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.MissingAttributeError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.TransactIdMismatchError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.VoterTransactionQueueTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static https.ivrs_elections_il_gov.api.VoterTransactionQueueTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static https.ivrs_elections_il_gov.api.VoterTransactionQueueTypes[] values()">1</method>
+			<method name="public static https.ivrs_elections_il_gov.api.VoterTransactionQueueTypes valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.TransactQueueRequest</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setAuthenticationCode(String arg0)">1</method>
+			<method name="public void setRequestQty(int arg0)">1</method>
+			<method name="public String getAuthenticationCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getRequestQty()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.StatewideVoterUpdate2</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.StatewideVoterSearch</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.StatewideVoterUpdateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setStatewideVoterUpdateResult(String arg0)">1</method>
+			<method name="public String getStatewideVoterUpdateResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.Transaction</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36904761904761907</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setStateID(String arg0)">1</method>
+			<method name="public void setLocalID(String arg0)">1</method>
+			<method name="public void setTransaction(https.ivrs_elections_il_gov.api.VoterTransactionQueueTypes arg0)">1</method>
+			<method name="public void setReason(String arg0)">1</method>
+			<method name="public String getLocalID()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateTime()">1</method>
+			<method name="public String getTransactID()">1</method>
+			<method name="public String getExplanation()">1</method>
+			<method name="public String getReason()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.VoterTransactionQueueTypes getTransaction()">1</method>
+			<method name="public String getStateStatus()">1</method>
+			<method name="public void setTransactID(String arg0)">1</method>
+			<method name="public String getParam1()">1</method>
+			<method name="public void setParam1(String arg0)">1</method>
+			<method name="public void setStateStatus(String arg0)">1</method>
+			<method name="public void setParam2(String arg0)">1</method>
+			<method name="public void setDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStateID()">1</method>
+			<method name="public void setExplanation(String arg0)">1</method>
+			<method name="public String getParam2()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.UnexcpectedError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.AccessRestrictedError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.InvalidXmlError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.StatewideVoterUpdate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.MissingStateIdError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.GetTransactQueueResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTransactQueueResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGetTransactQueueResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.TruncatedAttributeError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.UpdateDisabledError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.StatewideVoterSearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getStatewideVoterSearchResult()">1</method>
+			<method name="public void setStatewideVoterSearchResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.RefuseTransactionRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setAuthenticationCode(String arg0)">1</method>
+			<method name="public void setReason(https.ivrs_elections_il_gov.api.RefuseTransactionReasons arg0)">1</method>
+			<method name="public void setTransactID(long arg0)">1</method>
+			<method name="public String getAuthenticationCode()">1</method>
+			<method name="public long getTransactID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransactionReasons getReason()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.GetVoterSignature</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getAuthcode()">1</method>
+			<method name="public void setStateId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStateId()">1</method>
+			<method name="public void setAuthcode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.InvalidStateIdError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.RefuseTransactionStdResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransactionReturn getRefuseTransactionReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRefuseTransactionReturn(https.ivrs_elections_il_gov.api.RefuseTransactionReturn arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.ArrayOfTransaction</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTransaction()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.GetTransactQueueStdResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public https.ivrs_elections_il_gov.api.TransactQueueReturn getTransactQueueReturn()">1</method>
+			<method name="public void setTransactQueueReturn(https.ivrs_elections_il_gov.api.TransactQueueReturn arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.WsUpdateRequest2</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getPrecinctID()">1</method>
+			<method name="public void setPrecinctID(String arg0)">1</method>
+			<method name="public void setTransactID(String arg0)">1</method>
+			<method name="public String getTransactID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPrecinctSplit(String arg0)">1</method>
+			<method name="public String getPrecinctSplit()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.InvalidActionCodeError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.InvalidAttributeError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.RefuseTransactionResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRefuseTransactionResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRefuseTransactionResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.IVRSAuthenticateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setIVRSAuthenticateResult(String arg0)">1</method>
+			<method name="public String getIVRSAuthenticateResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.DuplicateRecordError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.InformationInternal</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setResult(String arg0)">1</method>
+			<method name="public String getResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.GetTransactQueue</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.BatchProcessIsExecutingError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.TransactQueueReturn</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public https.ivrs_elections_il_gov.api.ArrayOfTransaction getTransactions()">1</method>
+			<method name="public void setErrors(https.ivrs_elections_il_gov.api.ArrayOfBaseError arg0)">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.ArrayOfBaseError getErrors()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTransactions(https.ivrs_elections_il_gov.api.ArrayOfTransaction arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.StatewideVoterUpdate2StdResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setStatewideVoterUpdate2StdResult(https.ivrs_elections_il_gov.api.VoterUpdateReturn arg0)">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.VoterUpdateReturn getStatewideVoterUpdate2StdResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.BaseError</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>19</noc>
+		<cbo>20</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>20</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.GetTransactQueueStd</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public https.ivrs_elections_il_gov.api.TransactQueueRequest getTransactQueueRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTransactQueueRequest(https.ivrs_elections_il_gov.api.TransactQueueRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.ObjectFactory</name>
+		<wmc>53</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>52</cbo>
+		<rfc>106</rfc>
+		<lcom>1378</lcom>
+		<ca>0</ca>
+		<ce>52</ce>
+		<npm>53</npm>
+		<lcom3>2.0</lcom3>
+		<loc>264</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.981132075471698</amc>
+		<cc>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransaction createRefuseTransaction()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.AccessRestrictedError createAccessRestrictedError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.BatchProcessIsExecutingError createBatchProcessIsExecutingError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.IVRSAuthenticate createIVRSAuthenticate()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.TransactIdMismatchError createTransactIdMismatchError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.InformationInternal createInformationInternal()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.WsUpdateRequest2 createWsUpdateRequest2()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.WsUpdateRequest createWsUpdateRequest()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.StatewideVoterUpdate2Std createStatewideVoterUpdate2Std()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.WsUpdateInfoResult createWsUpdateInfoResult()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.DuplicateRecordError createDuplicateRecordError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransactionStdResponse createRefuseTransactionStdResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.InvalidStateIdError createInvalidStateIdError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.StatewideVoterSearch createStatewideVoterSearch()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.StatewideVoterUpdate2Response createStatewideVoterUpdate2Response()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.InvalidStatusChangeError createInvalidStatusChangeError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.ExpiredAuthCodeError createExpiredAuthCodeError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransactionReturn createRefuseTransactionReturn()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.ArrayOfBaseError createArrayOfBaseError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.InvalidAttributeError createInvalidAttributeError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.UnexpectedStateIdError createUnexpectedStateIdError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.StatewideVoterUpdate createStatewideVoterUpdate()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.StatewideVoterUpdate2StdResponse createStatewideVoterUpdate2StdResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.InvalidDateError createInvalidDateError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.StatewideVoterSearchResponse createStatewideVoterSearchResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.VoterUpdateReturn createVoterUpdateReturn()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.GetVoterSignature createGetVoterSignature()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.MissingStateIdError createMissingStateIdError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.IVRSAuthenticateResponse createIVRSAuthenticateResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.GetTransactQueueResponse createGetTransactQueueResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.InvalidXmlError createInvalidXmlError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.TranslationError createTranslationError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.GetTransactQueueStdResponse createGetTransactQueueStdResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.Transaction createTransaction()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.UpdateDisabledError createUpdateDisabledError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.BaseError createBaseError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.ArrayOfTransaction createArrayOfTransaction()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransactionStd createRefuseTransactionStd()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.TransactQueueReturn createTransactQueueReturn()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.UnexcpectedError createUnexcpectedError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.TransactQueueRequest createTransactQueueRequest()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.TruncatedAttributeError createTruncatedAttributeError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.RecordNotFoundError createRecordNotFoundError()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.StatewideVoterUpdate2 createStatewideVoterUpdate2()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.GetVoterSignatureResponse createGetVoterSignatureResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.StatewideVoterUpdateResponse createStatewideVoterUpdateResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.GetTransactQueueStd createGetTransactQueueStd()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransactionRequest createRefuseTransactionRequest()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.GetTransactQueue createGetTransactQueue()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransactionResponse createRefuseTransactionResponse()">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.InvalidActionCodeError createInvalidActionCodeError()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public https.ivrs_elections_il_gov.api.MissingAttributeError createMissingAttributeError()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.StatewideVoterUpdate2Std</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setVoterUpdate(https.ivrs_elections_il_gov.api.WsUpdateRequest2 arg0)">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.WsUpdateRequest2 getVoterUpdate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.InvalidDateError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.StatewideVoterUpdate2Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getStatewideVoterUpdate2Result()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStatewideVoterUpdate2Result(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.SearchUpdateSoap</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>10</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>6</ce>
+		<npm>10</npm>
+		<lcom3>2.0</lcom3>
+		<loc>10</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract byte[] getVoterSignature(String, String)">1</method>
+			<method name="public abstract String statewideVoterUpdate2(String)">1</method>
+			<method name="public abstract String ivrsAuthenticate(String, String)">1</method>
+			<method name="public abstract String getTransactQueue(String)">1</method>
+			<method name="public abstract String refuseTransaction(String)">1</method>
+			<method name="public abstract String statewideVoterUpdate(String)">1</method>
+			<method name="public abstract https.ivrs_elections_il_gov.api.VoterUpdateReturn statewideVoterUpdate2Std(https.ivrs_elections_il_gov.api.WsUpdateRequest2)">1</method>
+			<method name="public abstract https.ivrs_elections_il_gov.api.RefuseTransactionReturn refuseTransactionStd(https.ivrs_elections_il_gov.api.RefuseTransactionRequest)">1</method>
+			<method name="public abstract String statewideVoterSearch(String)">1</method>
+			<method name="public abstract https.ivrs_elections_il_gov.api.TransactQueueReturn getTransactQueueStd(https.ivrs_elections_il_gov.api.TransactQueueRequest)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.TranslationError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.GetVoterSignatureResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public byte[] getGetVoterSignatureResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetVoterSignatureResult(byte[] arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.WsUpdateInfoResult</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setStateID(String arg0)">1</method>
+			<method name="public void setLocalID(String arg0)">1</method>
+			<method name="public String getStateStatus()">1</method>
+			<method name="public String getLocalID()">1</method>
+			<method name="public void setReceiptDatetime(String arg0)">1</method>
+			<method name="public void setStateStatus(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getReceiptDatetime()">1</method>
+			<method name="public String getStateID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.RefuseTransactionStd</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public https.ivrs_elections_il_gov.api.RefuseTransactionRequest getRefuseTransactionRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRefuseTransactionRequest(https.ivrs_elections_il_gov.api.RefuseTransactionRequest arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.ExpiredAuthCodeError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.RecordNotFoundError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.ArrayOfBaseError</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getError()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.UnexpectedStateIdError</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.RefuseTransactionReturn</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setErrors(https.ivrs_elections_il_gov.api.ArrayOfBaseError arg0)">1</method>
+			<method name="public https.ivrs_elections_il_gov.api.ArrayOfBaseError getErrors()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public https.ivrs_elections_il_gov.api.InformationInternal getInformation()">1</method>
+			<method name="public void setInformation(https.ivrs_elections_il_gov.api.InformationInternal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>https.ivrs_elections_il_gov.api.RefuseTransactionReasons</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static https.ivrs_elections_il_gov.api.RefuseTransactionReasons fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static https.ivrs_elections_il_gov.api.RefuseTransactionReasons valueOf(String arg0)">1</method>
+			<method name="public static https.ivrs_elections_il_gov.api.RefuseTransactionReasons[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>

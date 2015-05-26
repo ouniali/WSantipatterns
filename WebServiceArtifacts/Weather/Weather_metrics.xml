@@ -1,0 +1,536 @@
+	<class>
+		<name>com.cdyne.ws.weatherws.ObjectFactory</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>14</cbo>
+		<rfc>36</rfc>
+		<lcom>165</lcom>
+		<ca>0</ca>
+		<ce>14</ce>
+		<npm>18</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2916666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.368421052631579</amc>
+		<cc>
+			<method name="public com.cdyne.ws.weatherws.ArrayOfWeatherDescription createArrayOfWeatherDescription()">1</method>
+			<method name="public com.cdyne.ws.weatherws.WeatherDescription createWeatherDescription()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createWeatherReturn(com.cdyne.ws.weatherws.WeatherReturn arg0)">1</method>
+			<method name="public com.cdyne.ws.weatherws.POP createPOP()">1</method>
+			<method name="public com.cdyne.ws.weatherws.WeatherReturn createWeatherReturn()">1</method>
+			<method name="public com.cdyne.ws.weatherws.GetWeatherInformationResponse createGetWeatherInformationResponse()">1</method>
+			<method name="public com.cdyne.ws.weatherws.GetCityWeatherByZIPResponse createGetCityWeatherByZIPResponse()">1</method>
+			<method name="public com.cdyne.ws.weatherws.GetCityWeatherByZIP createGetCityWeatherByZIP()">1</method>
+			<method name="public com.cdyne.ws.weatherws.ForecastReturn createForecastReturn()">1</method>
+			<method name="public com.cdyne.ws.weatherws.GetWeatherInformation createGetWeatherInformation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createForecastReturn(com.cdyne.ws.weatherws.ForecastReturn arg0)">1</method>
+			<method name="public com.cdyne.ws.weatherws.ArrayOfForecast createArrayOfForecast()">1</method>
+			<method name="public com.cdyne.ws.weatherws.GetCityForecastByZIPResponse createGetCityForecastByZIPResponse()">1</method>
+			<method name="public com.cdyne.ws.weatherws.Forecast createForecast()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.cdyne.ws.weatherws.GetCityForecastByZIP createGetCityForecastByZIP()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfWeatherDescription(com.cdyne.ws.weatherws.ArrayOfWeatherDescription arg0)">1</method>
+			<method name="public com.cdyne.ws.weatherws.Temp createTemp()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.GetCityForecastByZIP</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setZIP(String arg0)">1</method>
+			<method name="public String getZIP()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.GetCityWeatherByZIP</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setZIP(String arg0)">1</method>
+			<method name="public String getZIP()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.ForecastReturn</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setSuccess(boolean arg0)">1</method>
+			<method name="public void setWeatherStationCity(String arg0)">1</method>
+			<method name="public String getWeatherStationCity()">1</method>
+			<method name="public void setResponseText(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public void setForecastResult(com.cdyne.ws.weatherws.ArrayOfForecast arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public boolean isSuccess()">1</method>
+			<method name="public String getResponseText()">1</method>
+			<method name="public com.cdyne.ws.weatherws.ArrayOfForecast getForecastResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.Weather</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public com.cdyne.ws.weatherws.WeatherSoap getWeatherSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient com.cdyne.ws.weatherws.WeatherSoap getWeatherSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.WeatherSoap</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>3</rfc>
+		<lcom>3</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>3</npm>
+		<lcom3>2.0</lcom3>
+		<loc>3</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.8333333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.cdyne.ws.weatherws.ArrayOfWeatherDescription getWeatherInformation()">1</method>
+			<method name="public abstract com.cdyne.ws.weatherws.ForecastReturn getCityForecastByZIP(String)">1</method>
+			<method name="public abstract com.cdyne.ws.weatherws.WeatherReturn getCityWeatherByZIP(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.ArrayOfForecast</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getForecast()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.Temp</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setMorningLow(String arg0)">1</method>
+			<method name="public String getMorningLow()">1</method>
+			<method name="public void setDaytimeHigh(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDaytimeHigh()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.WeatherDescription</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public short getWeatherID()">1</method>
+			<method name="public String getPictureURL()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWeatherID(short arg0)">1</method>
+			<method name="public void setPictureURL(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.ArrayOfWeatherDescription</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getWeatherDescription()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.GetCityForecastByZIPResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.cdyne.ws.weatherws.ForecastReturn getGetCityForecastByZIPResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetCityForecastByZIPResult(com.cdyne.ws.weatherws.ForecastReturn arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.WeatherReturn</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3706896551724138</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public void setWeatherStationCity(String arg0)">1</method>
+			<method name="public short getWeatherID()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setResponseText(String arg0)">1</method>
+			<method name="public void setVisibility(String arg0)">1</method>
+			<method name="public void setTemperature(String arg0)">1</method>
+			<method name="public String getRelativeHumidity()">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public boolean isSuccess()">1</method>
+			<method name="public String getResponseText()">1</method>
+			<method name="public String getTemperature()">1</method>
+			<method name="public void setSuccess(boolean arg0)">1</method>
+			<method name="public void setWind(String arg0)">1</method>
+			<method name="public String getWeatherStationCity()">1</method>
+			<method name="public void setRelativeHumidity(String arg0)">1</method>
+			<method name="public void setRemarks(String arg0)">1</method>
+			<method name="public void setWindChill(String arg0)">1</method>
+			<method name="public void setPressure(String arg0)">1</method>
+			<method name="public String getWindChill()">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getWind()">1</method>
+			<method name="public String getRemarks()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public String getPressure()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWeatherID(short arg0)">1</method>
+			<method name="public String getVisibility()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.GetWeatherInformation</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.Forecast</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24242424242424243</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDate()">1</method>
+			<method name="public String getDesciption()">1</method>
+			<method name="public void setDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public short getWeatherID()">1</method>
+			<method name="public com.cdyne.ws.weatherws.POP getProbabilityOfPrecipiation()">1</method>
+			<method name="public void setProbabilityOfPrecipiation(com.cdyne.ws.weatherws.POP arg0)">1</method>
+			<method name="public void setDesciption(String arg0)">1</method>
+			<method name="public void setTemperatures(com.cdyne.ws.weatherws.Temp arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWeatherID(short arg0)">1</method>
+			<method name="public com.cdyne.ws.weatherws.Temp getTemperatures()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.GetWeatherInformationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetWeatherInformationResult(com.cdyne.ws.weatherws.ArrayOfWeatherDescription arg0)">1</method>
+			<method name="public com.cdyne.ws.weatherws.ArrayOfWeatherDescription getGetWeatherInformationResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.POP</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setDaytime(String arg0)">1</method>
+			<method name="public String getDaytime()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNighttime(String arg0)">1</method>
+			<method name="public String getNighttime()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.cdyne.ws.weatherws.GetCityWeatherByZIPResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.cdyne.ws.weatherws.WeatherReturn getGetCityWeatherByZIPResult()">1</method>
+			<method name="public void setGetCityWeatherByZIPResult(com.cdyne.ws.weatherws.WeatherReturn arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

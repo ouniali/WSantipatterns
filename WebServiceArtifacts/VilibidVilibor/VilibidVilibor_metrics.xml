@@ -1,0 +1,577 @@
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeXmlStringResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetVilibRatesByRateTypeXmlStringResult(String arg0)">1</method>
+			<method name="public String getGetVilibRatesByRateTypeXmlStringResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRateTypes</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateResponse$GetVilibRatesByDateResult</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getContent()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateXmlStringResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getGetVilibRatesByDateXmlStringResult()">1</method>
+			<method name="public void setGetVilibRatesByDateXmlStringResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRate</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getRateType()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRateType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.VilibidVilibor</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.VilibidViliborSoap getVilibidViliborSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient lt.lb.webservices.vilibidvilibor.VilibidViliborSoap getVilibidViliborSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeXmlString</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getDateLow()">1</method>
+			<method name="public String getDateHigh()">1</method>
+			<method name="public void setDateHigh(String arg0)">1</method>
+			<method name="public void setDateLow(String arg0)">1</method>
+			<method name="public String getRateType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRateType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetLatestVilibRate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getRateType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRateType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateXmlString</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.VilibidViliborSoap</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>7</rfc>
+		<lcom>21</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>2.0</lcom3>
+		<loc>7</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.9285714285714286</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract java.math.BigDecimal getLatestVilibRate(String)">1</method>
+			<method name="public abstract java.math.BigDecimal getVilibRate(String, String)">1</method>
+			<method name="public abstract String getVilibRatesByDateXmlString(String)">1</method>
+			<method name="public abstract lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateResponse$GetVilibRatesByDateResult getVilibRatesByDate(String)">1</method>
+			<method name="public abstract lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeResponse$GetVilibRatesByRateTypeResult getVilibRatesByRateType(String, String, String)">1</method>
+			<method name="public abstract String getVilibRatesByRateTypeXmlString(String, String, String)">1</method>
+			<method name="public abstract lt.lb.webservices.vilibidvilibor.GetVilibRateTypesResponse$GetVilibRateTypesResult getVilibRateTypes()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetLatestVilibRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getGetLatestVilibRateResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetLatestVilibRateResult(java.math.BigDecimal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRateTypesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetVilibRateTypesResult(lt.lb.webservices.vilibidvilibor.GetVilibRateTypesResponse$GetVilibRateTypesResult arg0)">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRateTypesResponse$GetVilibRateTypesResult getGetVilibRateTypesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRateTypesResponse$GetVilibRateTypesResult</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getContent()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getGetVilibRateResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetVilibRateResult(java.math.BigDecimal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeResponse$GetVilibRatesByRateTypeResult getGetVilibRatesByRateTypeResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetVilibRatesByRateTypeResult(lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeResponse$GetVilibRatesByRateTypeResult arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByDate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getDateLow()">1</method>
+			<method name="public String getDateHigh()">1</method>
+			<method name="public void setDateHigh(String arg0)">1</method>
+			<method name="public void setDateLow(String arg0)">1</method>
+			<method name="public String getRateType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRateType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeResponse$GetVilibRatesByRateTypeResult</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getContent()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetVilibRatesByDateResult(lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateResponse$GetVilibRatesByDateResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateResponse$GetVilibRatesByDateResult getGetVilibRatesByDateResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.ObjectFactory</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>17</cbo>
+		<rfc>41</rfc>
+		<lcom>206</lcom>
+		<ca>0</ca>
+		<ce>17</ce>
+		<npm>20</npm>
+		<lcom3>0.95</lcom3>
+		<loc>123</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.761904761904762</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createDecimal(java.math.BigDecimal arg0)">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByDate createGetVilibRatesByDate()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateType createGetVilibRatesByRateType()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeResponse$GetVilibRatesByRateTypeResult createGetVilibRatesByRateTypeResponseGetVilibRatesByRateTypeResult()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateResponse$GetVilibRatesByDateResult createGetVilibRatesByDateResponseGetVilibRatesByDateResult()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRateResponse createGetVilibRateResponse()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateXmlStringResponse createGetVilibRatesByDateXmlStringResponse()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRateTypesResponse createGetVilibRateTypesResponse()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeResponse createGetVilibRatesByRateTypeResponse()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetLatestVilibRate createGetLatestVilibRate()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateXmlString createGetVilibRatesByDateXmlString()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRate createGetVilibRate()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRateTypes createGetVilibRateTypes()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetLatestVilibRateResponse createGetLatestVilibRateResponse()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByDateResponse createGetVilibRatesByDateResponse()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeXmlString createGetVilibRatesByRateTypeXmlString()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createString(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRateTypesResponse$GetVilibRateTypesResult createGetVilibRateTypesResponseGetVilibRateTypesResult()">1</method>
+			<method name="public lt.lb.webservices.vilibidvilibor.GetVilibRatesByRateTypeXmlStringResponse createGetVilibRatesByRateTypeXmlStringResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>lt.lb.webservices.vilibidvilibor.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>

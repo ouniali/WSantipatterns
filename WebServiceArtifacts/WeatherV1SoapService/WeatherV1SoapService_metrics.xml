@@ -1,0 +1,1577 @@
+	<class>
+		<name>com.flightstats.weather.service.v1.MetarV1$RunwayVisualRanges</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getRunwayVisualRange()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.TafForAirport</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getCodeType()">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodeType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ConditionsV1$WeatherConditions</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWeatherCondition()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ZoneForecastsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastResponseV1 getReturn()">1</method>
+			<method name="public void setReturn(com.flightstats.weather.service.v1.ZoneForecastResponseV1 arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ZoneForecastV1$Zones</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getZone()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ZoneForecastV1$DayForecasts</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDayForecast()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.TafForAirportResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(com.flightstats.weather.service.v1.TafResponseV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.TafResponseV1 getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.MetarForAirport</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getCodeType()">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodeType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.MetarV1$Obscurations</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getObscuration()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.TafResponseV1</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setRequest(com.flightstats.weather.service.v1.WeatherRequestBaseV1 arg0)">1</method>
+			<method name="public void setTaf(com.flightstats.weather.service.v1.TafV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.TafV1 getTaf()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightstats.weather.service.v1.WeatherRequestBaseV1 getRequest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ApiResponseError</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public int getHttpStatusCode()">1</method>
+			<method name="public void setErrorId(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getErrorId()">1</method>
+			<method name="public void setHttpStatusCode(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.AllWeatherResponseV1</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>5</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setMetar(com.flightstats.weather.service.v1.MetarV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1 getMetar()">1</method>
+			<method name="public void setRequest(com.flightstats.weather.service.v1.WeatherRequestBaseV1 arg0)">1</method>
+			<method name="public void setTaf(com.flightstats.weather.service.v1.TafV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1 getZoneForecast()">1</method>
+			<method name="public com.flightstats.weather.service.v1.TafV1 getTaf()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setZoneForecast(com.flightstats.weather.service.v1.ZoneForecastV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.WeatherRequestBaseV1 getRequest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ObscurationV1</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setHeight(Integer arg0)">1</method>
+			<method name="public void setCoverage(String arg0)">1</method>
+			<method name="public String getCoverage()">1</method>
+			<method name="public String getPhenomenon()">1</method>
+			<method name="public void setPhenomenon(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getHeight()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.VisibilityV1</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public Boolean isCavok()">1</method>
+			<method name="public String getMiles()">1</method>
+			<method name="public void setLessThan(Boolean arg0)">1</method>
+			<method name="public void setCavok(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Boolean isLessThan()">1</method>
+			<method name="public void setMiles(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.MetarV1$Tags</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTag()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.WindV1</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setSpeedKnots(String arg0)">1</method>
+			<method name="public void setDirectionMin(Integer arg0)">1</method>
+			<method name="public Integer getDirectionMax()">1</method>
+			<method name="public void setGustSpeedKnots(String arg0)">1</method>
+			<method name="public Integer getDirection()">1</method>
+			<method name="public String getSpeedKnots()">1</method>
+			<method name="public Boolean isDirectionIsVariable()">1</method>
+			<method name="public void setDirection(Integer arg0)">1</method>
+			<method name="public String getGustSpeedKnots()">1</method>
+			<method name="public Integer getDirectionMin()">1</method>
+			<method name="public void setDirectionIsVariable(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDirectionMax(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.RequestedAirportV1</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAirport(com.flightstats.weather.service.v1.AirportV1 arg0)">1</method>
+			<method name="public String getRequestedCode()">1</method>
+			<method name="public String getFsCode()">1</method>
+			<method name="public com.flightstats.weather.service.v1.AirportV1 getAirport()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setFsCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+			<method name="public void setRequestedCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.DayForecastV1$Tags</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTag()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.TafV1$Forecasts</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getForecast()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ZoneForecastV1$ZoneNames</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getZoneName()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.TafV1</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setReport(String arg0)">1</method>
+			<method name="public void setForecasts(com.flightstats.weather.service.v1.TafV1$Forecasts arg0)">1</method>
+			<method name="public String getReport()">1</method>
+			<method name="public com.flightstats.weather.service.v1.TafV1$Forecasts getForecasts()">1</method>
+			<method name="public void setObservationTime(String arg0)">1</method>
+			<method name="public String getWeatherStationIcao()">1</method>
+			<method name="public void setReportType(String arg0)">1</method>
+			<method name="public String getReportTime()">1</method>
+			<method name="public String getObservationTime()">1</method>
+			<method name="public void setReportTime(String arg0)">1</method>
+			<method name="public String getReportType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWeatherStationIcao(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.WeatherV1SoapService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.flightstats.weather.service.v1.WeatherService getWeatherServicePort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public com.flightstats.weather.service.v1.WeatherService getWeatherServicePort()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ZoneForecasts</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getCodeType()">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodeType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ZoneForecastV1$Cities</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCity()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.WeatherRequestBaseV1</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>5</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.flightstats.weather.service.v1.RequestedString getCodeType()">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void setAirport(com.flightstats.weather.service.v1.RequestedAirportV1 arg0)">1</method>
+			<method name="public void setCodeType(com.flightstats.weather.service.v1.RequestedString arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightstats.weather.service.v1.RequestedAirportV1 getAirport()">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ZoneForecastV1</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>4</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setGeneral(String arg0)">1</method>
+			<method name="public void setZones(com.flightstats.weather.service.v1.ZoneForecastV1$Zones arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1$Cities getCities()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1$DayForecasts getDayForecasts()">1</method>
+			<method name="public void setCities(com.flightstats.weather.service.v1.ZoneForecastV1$Cities arg0)">1</method>
+			<method name="public void setHeader(String arg0)">1</method>
+			<method name="public void setZoneNames(com.flightstats.weather.service.v1.ZoneForecastV1$ZoneNames arg0)">1</method>
+			<method name="public String getGeneral()">1</method>
+			<method name="public String getReportTime()">1</method>
+			<method name="public void setDayForecasts(com.flightstats.weather.service.v1.ZoneForecastV1$DayForecasts arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1$Zones getZones()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1$ZoneNames getZoneNames()">1</method>
+			<method name="public void setReportTime(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getHeader()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.APIException_Exception</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public com.flightstats.weather.service.v1.APIException getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, com.flightstats.weather.service.v1.APIException arg1)">0</method>
+			<method name="public void _init_(String arg0, com.flightstats.weather.service.v1.APIException arg1, Throwable arg2)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.AirportV1</name>
+		<wmc>55</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>56</rfc>
+		<lcom>1431</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>55</npm>
+		<lcom3>0.9814814814814815</lcom3>
+		<loc>274</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24848484848484848</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4909090909090907</amc>
+		<cc>
+			<method name="public String getStreet2()">1</method>
+			<method name="public void setDateTo(String arg0)">1</method>
+			<method name="public void setFs(String arg0)">1</method>
+			<method name="public void setElevationFeet(Integer arg0)">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public String getFaa()">1</method>
+			<method name="public void setDelayIndexUrl(String arg0)">1</method>
+			<method name="public String getWeatherZone()">1</method>
+			<method name="public String getDelayIndexUrl()">1</method>
+			<method name="public boolean isActive()">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getDateTo()">1</method>
+			<method name="public void setLongitude(double arg0)">1</method>
+			<method name="public void setRegionName(String arg0)">1</method>
+			<method name="public void setWeatherZone(String arg0)">1</method>
+			<method name="public void setIcao(String arg0)">1</method>
+			<method name="public String getRegionName()">1</method>
+			<method name="public String getIcao()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public String getFs()">1</method>
+			<method name="public double getUtcOffsetHours()">1</method>
+			<method name="public String getWeatherUrl()">1</method>
+			<method name="public String getTimeZoneRegionName()">1</method>
+			<method name="public void setWeatherUrl(String arg0)">1</method>
+			<method name="public void setFaa(String arg0)">1</method>
+			<method name="public double getLatitude()">1</method>
+			<method name="public void setUtcOffsetHours(double arg0)">1</method>
+			<method name="public void setStateCode(String arg0)">1</method>
+			<method name="public String getLocalTime()">1</method>
+			<method name="public void setLocalTime(String arg0)">1</method>
+			<method name="public String getStreet1()">1</method>
+			<method name="public String getDateFrom()">1</method>
+			<method name="public void setIata(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public void setTimeZoneRegionName(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public String getCityCode()">1</method>
+			<method name="public String getIata()">1</method>
+			<method name="public String getStateCode()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setDateFrom(String arg0)">1</method>
+			<method name="public void setLatitude(double arg0)">1</method>
+			<method name="public void setCityCode(String arg0)">1</method>
+			<method name="public void setStreet1(String arg0)">1</method>
+			<method name="public void setStreet2(String arg0)">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public Integer getElevationFeet()">1</method>
+			<method name="public int getClassification()">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public void setClassification(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCountryCode()">1</method>
+			<method name="public double getLongitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.All</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getCodeType()">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCodeType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.APIException</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public int getHttpStatusCode()">1</method>
+			<method name="public void setErrorId(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getErrorId()">1</method>
+			<method name="public void setHttpStatusCode(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.MetarV1</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>3</ca>
+		<ce>4</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2111801242236025</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public String getDewPointCelsius()">1</method>
+			<method name="public void setObscurations(com.flightstats.weather.service.v1.MetarV1$Obscurations arg0)">1</method>
+			<method name="public void setReport(String arg0)">1</method>
+			<method name="public void setReportModifier(String arg0)">1</method>
+			<method name="public void setTemperatureCelsius(String arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1$RunwayVisualRanges getRunwayVisualRanges()">1</method>
+			<method name="public String getReport()">1</method>
+			<method name="public void setDewPointCelsius(String arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1$Obscurations getObscurations()">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1$Tags getTags()">1</method>
+			<method name="public String getWeatherStationIcao()">1</method>
+			<method name="public String getTemperatureCelsius()">1</method>
+			<method name="public void setRunwayVisualRanges(com.flightstats.weather.service.v1.MetarV1$RunwayVisualRanges arg0)">1</method>
+			<method name="public boolean isNoSignificantChange()">1</method>
+			<method name="public String getReportTime()">1</method>
+			<method name="public String getReportModifier()">1</method>
+			<method name="public void setReportTime(String arg0)">1</method>
+			<method name="public void setNoSignificantChange(boolean arg0)">1</method>
+			<method name="public void setTags(com.flightstats.weather.service.v1.MetarV1$Tags arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightstats.weather.service.v1.ConditionsV1 getConditions()">1</method>
+			<method name="public void setWeatherStationIcao(String arg0)">1</method>
+			<method name="public void setConditions(com.flightstats.weather.service.v1.ConditionsV1 arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.DayForecastV1</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setForecast(String arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.DayForecastV1$Tags getTags()">1</method>
+			<method name="public void setTags(com.flightstats.weather.service.v1.DayForecastV1$Tags arg0)">1</method>
+			<method name="public String getStart()">1</method>
+			<method name="public String getEnd()">1</method>
+			<method name="public String getForecast()">1</method>
+			<method name="public String getDay()">1</method>
+			<method name="public void setDay(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStart(String arg0)">1</method>
+			<method name="public void setEnd(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ObjectFactory</name>
+		<wmc>63</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>44</cbo>
+		<rfc>110</rfc>
+		<lcom>1919</lcom>
+		<ca>0</ca>
+		<ce>44</ce>
+		<npm>62</npm>
+		<lcom3>0.9838709677419355</lcom3>
+		<loc>498</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.07078853046594982</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.634920634920635</amc>
+		<cc>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1 createZoneForecastV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarForAirportResponse createMetarForAirportResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZoneForecast(com.flightstats.weather.service.v1.ZoneForecastV1 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAppendix(com.flightstats.weather.service.v1.Appendices arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1$Tags createMetarV1Tags()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1$DayForecasts createZoneForecastV1DayForecasts()">1</method>
+			<method name="public com.flightstats.weather.service.v1.TafForAirport createTafForAirport()">1</method>
+			<method name="public com.flightstats.weather.service.v1.DayForecastV1 createDayForecastV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarResponseV1 createMetarResponseV1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAllResponse(com.flightstats.weather.service.v1.AllResponse arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ConditionsV1 createConditionsV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.AllWeatherResponseV1 createAllWeatherResponseV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.All createAll()">1</method>
+			<method name="public com.flightstats.weather.service.v1.RequestedAirportV1 createRequestedAirportV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.DayForecastV1$Tags createDayForecastV1Tags()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApiResponseError(com.flightstats.weather.service.v1.ApiResponseError arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.TagV1 createTagV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.RunwayVisualRangeV1 createRunwayVisualRangeV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastsResponse createZoneForecastsResponse()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ObscurationV1 createObscurationV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.AirportV1 createAirportV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarForAirport createMetarForAirport()">1</method>
+			<method name="public com.flightstats.weather.service.v1.WeatherRequestBaseV1 createWeatherRequestBaseV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.TafResponseV1 createTafResponseV1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTaf(com.flightstats.weather.service.v1.TafV1 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRequest(com.flightstats.weather.service.v1.WeatherRequestBaseV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.Appendices$Airports createAppendicesAirports()">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1$RunwayVisualRanges createMetarV1RunwayVisualRanges()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ApiResponseError createApiResponseError()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createResponse(Object arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTafForAirport(com.flightstats.weather.service.v1.TafForAirport arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1$Cities createZoneForecastV1Cities()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.flightstats.weather.service.v1.ConditionsV1$WeatherConditions createConditionsV1WeatherConditions()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMetarForAirport(com.flightstats.weather.service.v1.MetarForAirport arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.Appendices createAppendices()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAPIException(com.flightstats.weather.service.v1.APIException arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.TafV1 createTafV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.AllResponse createAllResponse()">1</method>
+			<method name="public com.flightstats.weather.service.v1.SkyConditionV1 createSkyConditionV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1$Obscurations createMetarV1Obscurations()">1</method>
+			<method name="public com.flightstats.weather.service.v1.APIException createAPIException()">1</method>
+			<method name="public com.flightstats.weather.service.v1.WeatherConditionV1 createWeatherConditionV1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirport(com.flightstats.weather.service.v1.AirportV1 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMetar(com.flightstats.weather.service.v1.MetarV1 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTafForAirportResponse(com.flightstats.weather.service.v1.TafForAirportResponse arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.RequestedString createRequestedString()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZoneForecasts(com.flightstats.weather.service.v1.ZoneForecasts arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.TafV1$Forecasts createTafV1Forecasts()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZoneForecastsResponse(com.flightstats.weather.service.v1.ZoneForecastsResponse arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1$Zones createZoneForecastV1Zones()">1</method>
+			<method name="public com.flightstats.weather.service.v1.VisibilityV1 createVisibilityV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ForecastV1 createForecastV1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAll(com.flightstats.weather.service.v1.All arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecasts createZoneForecasts()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1$ZoneNames createZoneForecastV1ZoneNames()">1</method>
+			<method name="public com.flightstats.weather.service.v1.WindV1 createWindV1()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ConditionsV1$SkyConditions createConditionsV1SkyConditions()">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1 createMetarV1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMetarForAirportResponse(com.flightstats.weather.service.v1.MetarForAirportResponse arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightstats.weather.service.v1.TafForAirportResponse createTafForAirportResponse()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastResponseV1 createZoneForecastResponseV1()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.RunwayVisualRangeV1</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setLowestVisibility(Integer arg0)">1</method>
+			<method name="public String getModifier()">1</method>
+			<method name="public void setModifier(String arg0)">1</method>
+			<method name="public void setHighestVisibility(Integer arg0)">1</method>
+			<method name="public String getRunwayNumber()">1</method>
+			<method name="public Integer getLowestVisibility()">1</method>
+			<method name="public void setRunwayNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getHighestVisibility()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.RequestedString</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setInterpreted(String arg0)">1</method>
+			<method name="public String getRequested()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setRequested(String arg0)">1</method>
+			<method name="public String getInterpreted()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ForecastV1</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getStart()">1</method>
+			<method name="public String getEnd()">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStart(String arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ConditionsV1 getConditions()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setEnd(String arg0)">1</method>
+			<method name="public void setConditions(com.flightstats.weather.service.v1.ConditionsV1 arg0)">1</method>
+			<method name="public String getProbability()">1</method>
+			<method name="public void setProbability(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.MetarForAirportResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightstats.weather.service.v1.MetarResponseV1 getReturn()">1</method>
+			<method name="public void setReturn(com.flightstats.weather.service.v1.MetarResponseV1 arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ResponseImpl</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>4</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>4</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.flightstats.weather.service.v1.ApiResponseError getError()">1</method>
+			<method name="public void setAppendix(com.flightstats.weather.service.v1.Appendices arg0)">1</method>
+			<method name="public void setError(com.flightstats.weather.service.v1.ApiResponseError arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.Appendices getAppendix()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.WeatherService</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>5</ce>
+		<npm>4</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.flightstats.weather.service.v1.AllWeatherResponseV1 all(String, String, String, String, String)">1</method>
+			<method name="public abstract com.flightstats.weather.service.v1.ZoneForecastResponseV1 zoneForecasts(String, String, String, String, String)">1</method>
+			<method name="public abstract com.flightstats.weather.service.v1.TafResponseV1 tafForAirport(String, String, String, String, String)">1</method>
+			<method name="public abstract com.flightstats.weather.service.v1.MetarResponseV1 metarForAirport(String, String, String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ConditionsV1$SkyConditions</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSkyCondition()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ConditionsV1</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>4</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24242424242424243</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public com.flightstats.weather.service.v1.VisibilityV1 getVisibility()">1</method>
+			<method name="public void setSkyConditions(com.flightstats.weather.service.v1.ConditionsV1$SkyConditions arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.WindV1 getWind()">1</method>
+			<method name="public void setVisibility(com.flightstats.weather.service.v1.VisibilityV1 arg0)">1</method>
+			<method name="public void setWeatherConditions(com.flightstats.weather.service.v1.ConditionsV1$WeatherConditions arg0)">1</method>
+			<method name="public void setPressureInchesHg(String arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ConditionsV1$SkyConditions getSkyConditions()">1</method>
+			<method name="public com.flightstats.weather.service.v1.ConditionsV1$WeatherConditions getWeatherConditions()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getPressureInchesHg()">1</method>
+			<method name="public void setWind(com.flightstats.weather.service.v1.WindV1 arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.WeatherConditionV1</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setIntensity(String arg0)">1</method>
+			<method name="public void setDescriptor(String arg0)">1</method>
+			<method name="public String getPhenomenon()">1</method>
+			<method name="public void setPhenomenon(String arg0)">1</method>
+			<method name="public String getIntensity()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDescriptor()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.MetarResponseV1</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setMetar(com.flightstats.weather.service.v1.MetarV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.MetarV1 getMetar()">1</method>
+			<method name="public void setRequest(com.flightstats.weather.service.v1.WeatherRequestBaseV1 arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightstats.weather.service.v1.WeatherRequestBaseV1 getRequest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.Appendices</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightstats.weather.service.v1.Appendices$Airports getAirports()">1</method>
+			<method name="public void setAirports(com.flightstats.weather.service.v1.Appendices$Airports arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.AllResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightstats.weather.service.v1.AllWeatherResponseV1 getReturn()">1</method>
+			<method name="public void setReturn(com.flightstats.weather.service.v1.AllWeatherResponseV1 arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.TagV1</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.SkyConditionV1</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getModifier()">1</method>
+			<method name="public void setModifier(String arg0)">1</method>
+			<method name="public void setCoverage(String arg0)">1</method>
+			<method name="public String getCoverage()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setBase(Integer arg0)">1</method>
+			<method name="public Integer getBase()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.ZoneForecastResponseV1</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setRequest(com.flightstats.weather.service.v1.WeatherRequestBaseV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.ZoneForecastV1 getZoneForecast()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setZoneForecast(com.flightstats.weather.service.v1.ZoneForecastV1 arg0)">1</method>
+			<method name="public com.flightstats.weather.service.v1.WeatherRequestBaseV1 getRequest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightstats.weather.service.v1.Appendices$Airports</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAirport()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

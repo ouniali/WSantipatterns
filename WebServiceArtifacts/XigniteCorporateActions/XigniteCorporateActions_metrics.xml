@@ -1,0 +1,4591 @@
+	<class>
+		<name>com.xignite.services.GetInstrumentAttributeChangesByExchange</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSplitHistory</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCorporateActionsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfCorporateAction getGetCorporateActionsResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetCorporateActionsResult(com.xignite.services.ArrayOfCorporateAction arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Payment</name>
+		<wmc>77</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>78</rfc>
+		<lcom>2850</lcom>
+		<ca>2</ca>
+		<ce>5</ce>
+		<npm>77</npm>
+		<lcom3>0.9868421052631579</lcom3>
+		<loc>384</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.21335807050092764</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4935064935064934</amc>
+		<cc>
+			<method name="public void setAmountType(String arg0)">1</method>
+			<method name="public String getPaymentStatus()">1</method>
+			<method name="public void setSettlementType(String arg0)">1</method>
+			<method name="public String getEntitlementPeriodStart()">1</method>
+			<method name="public String getMeetingDate()">1</method>
+			<method name="public String getSpreadDirection()">1</method>
+			<method name="public void setNewInstrumentMatch(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public String getDeclaredDate()">1</method>
+			<method name="public void setInterestPaymentFixings(com.xignite.services.ArrayOfInterestPaymentFixing arg0)">1</method>
+			<method name="public com.xignite.services.Instrument getNewInstrumentMatch()">1</method>
+			<method name="public String getDistributionInKindAgent()">1</method>
+			<method name="public void setAmount(double arg0)">1</method>
+			<method name="public double getSubscriptionPrice()">1</method>
+			<method name="public String getInterestDayCountConvention()">1</method>
+			<method name="public void setDistributionInKindValidEnd(String arg0)">1</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public String getDistributionInKindDiscountQuotationType()">1</method>
+			<method name="public String getNote()">1</method>
+			<method name="public void setNumberInitialInstruments(double arg0)">1</method>
+			<method name="public void setDistributionInKindDiscountQuotationType(String arg0)">1</method>
+			<method name="public void setEntitlementPeriodStart(String arg0)">1</method>
+			<method name="public void setRecordDate(String arg0)">1</method>
+			<method name="public void setPaymentType(String arg0)">1</method>
+			<method name="public void setPayDate(String arg0)">1</method>
+			<method name="public String getSettlementType()">1</method>
+			<method name="public void setDistributionInKindDiscountCurrency(String arg0)">1</method>
+			<method name="public double getReinvestmentPrice()">1</method>
+			<method name="public String getRecordDate()">1</method>
+			<method name="public void setCouponNumber(String arg0)">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public String getPayDate()">1</method>
+			<method name="public void setInstrumentAllotmentOrPlacementType(String arg0)">1</method>
+			<method name="public void setPaymentStatus(String arg0)">1</method>
+			<method name="public void setDistributionInKindDiscountAmount(double arg0)">1</method>
+			<method name="public void setDistributionInKindValidStart(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfString getDistributionSetDataSourceIdentifiers()">1</method>
+			<method name="public void setReinvestmentPriceCurrency(String arg0)">1</method>
+			<method name="public void setInterestDayCountConvention(String arg0)">1</method>
+			<method name="public void setCustomAttributes(com.xignite.services.ArrayOfCustomAttribute arg0)">1</method>
+			<method name="public String getSubscriptionPriceCurrency()">1</method>
+			<method name="public void setDistributionSetDataSourceIdentifiers(com.xignite.services.ArrayOfString arg0)">1</method>
+			<method name="public void setNote(String arg0)">1</method>
+			<method name="public String getPaymentType()">1</method>
+			<method name="public void setNewSecurities(double arg0)">1</method>
+			<method name="public void setReinvestmentPrice(double arg0)">1</method>
+			<method name="public String getDistributionInKindValidEnd()">1</method>
+			<method name="public String getInstrumentAllotmentOrPlacementType()">1</method>
+			<method name="public String getValidationType()">1</method>
+			<method name="public void setSubscriptionPrice(double arg0)">1</method>
+			<method name="public String getDistributionInKindDiscountCurrency()">1</method>
+			<method name="public String getPaymentClassification()">1</method>
+			<method name="public String getExDate()">1</method>
+			<method name="public String getReinvestmentPriceCurrency()">1</method>
+			<method name="public void setInstrumentDistributionType(String arg0)">1</method>
+			<method name="public String getDistributionInKindValidStart()">1</method>
+			<method name="public void setExDate(String arg0)">1</method>
+			<method name="public String getEntitlementPeriodEnd()">1</method>
+			<method name="public String getCouponNumber()">1</method>
+			<method name="public void setSpreadRate(double arg0)">1</method>
+			<method name="public void setSubscriptionPriceCurrency(String arg0)">1</method>
+			<method name="public double getSpreadRate()">1</method>
+			<method name="public com.xignite.services.ArrayOfCustomAttribute getCustomAttributes()">1</method>
+			<method name="public String getAmountType()">1</method>
+			<method name="public double getDistributionInKindDiscountAmount()">1</method>
+			<method name="public void setValidationType(String arg0)">1</method>
+			<method name="public double getAmount()">1</method>
+			<method name="public double getNewSecurities()">1</method>
+			<method name="public void setEntitlementPeriodEnd(String arg0)">1</method>
+			<method name="public void setSpreadDirection(String arg0)">1</method>
+			<method name="public void setDeclaredDate(String arg0)">1</method>
+			<method name="public void setDistributionInKindAgent(String arg0)">1</method>
+			<method name="public void setMeetingDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPaymentClassification(String arg0)">1</method>
+			<method name="public String getInstrumentDistributionType()">1</method>
+			<method name="public com.xignite.services.ArrayOfInterestPaymentFixing getInterestPaymentFixings()">1</method>
+			<method name="public double getNumberInitialInstruments()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerAttributeChangesByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetIssuerAttributeChangesByExchangeResult(com.xignite.services.ArrayOfIssuerAttributeChange arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfIssuerAttributeChange getGetIssuerAttributeChangesByExchangeResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PossibleValue</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getXigniteValue()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setXigniteValue(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getProviderValue()">1</method>
+			<method name="public void setProviderValue(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetDividendHistory</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfAttributeChange</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAttributeChange()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfAlternateSecurityIdentifier</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAlternateSecurityIdentifier()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Classification</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getScheme()">1</method>
+			<method name="public String getClassificationCode()">1</method>
+			<method name="public void setScheme(String arg0)">1</method>
+			<method name="public void setClassificationCode(String arg0)">1</method>
+			<method name="public String getSector()">1</method>
+			<method name="public String getIndustry()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIndustry(String arg0)">1</method>
+			<method name="public void setSector(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetDividendHistoriesByExchange</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Dividend</name>
+		<wmc>33</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2474747474747475</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public void setAmountValid(boolean arg0)">1</method>
+			<method name="public void setAmountType(String arg0)">1</method>
+			<method name="public String getDividendPaymentFrequency()">1</method>
+			<method name="public String getEntitlementPeriodStart()">1</method>
+			<method name="public String getMeetingDate()">1</method>
+			<method name="public boolean isAmountValid()">1</method>
+			<method name="public void setDividendType(String arg0)">1</method>
+			<method name="public String getDeclaredDate()">1</method>
+			<method name="public void setDividendPaymentFrequency(String arg0)">1</method>
+			<method name="public String getDividendClassification()">1</method>
+			<method name="public void setAmount(double arg0)">1</method>
+			<method name="public String getDividendType()">1</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public void setEntitlementPeriodStart(String arg0)">1</method>
+			<method name="public void setRecordDate(String arg0)">1</method>
+			<method name="public String getExDate()">1</method>
+			<method name="public void setPayDate(String arg0)">1</method>
+			<method name="public void setExDate(String arg0)">1</method>
+			<method name="public void setDividendClassification(String arg0)">1</method>
+			<method name="public String getEntitlementPeriodEnd()">1</method>
+			<method name="public String getRecordDate()">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCustomAttribute getCustomAttributes()">1</method>
+			<method name="public String getAmountType()">1</method>
+			<method name="public String getPayDate()">1</method>
+			<method name="public double getAmount()">1</method>
+			<method name="public com.xignite.services.ArrayOfString getDistributionSetDataSourceIdentifiers()">1</method>
+			<method name="public void setEntitlementPeriodEnd(String arg0)">1</method>
+			<method name="public void setDeclaredDate(String arg0)">1</method>
+			<method name="public void setCustomAttributes(com.xignite.services.ArrayOfCustomAttribute arg0)">1</method>
+			<method name="public void setMeetingDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDistributionSetDataSourceIdentifiers(com.xignite.services.ArrayOfString arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListDividendPaymentFrequencies</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetPaymentHistoriesByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfPaymentHistory getGetPaymentHistoriesByExchangeResult()">1</method>
+			<method name="public void setGetPaymentHistoriesByExchangeResult(com.xignite.services.ArrayOfPaymentHistory arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetPaymentHistoryResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfPaymentHistory getGetPaymentHistoryResult()">1</method>
+			<method name="public void setGetPaymentHistoryResult(com.xignite.services.ArrayOfPaymentHistory arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfPaymentHistory</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPaymentHistory()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfCustomAttribute</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>8</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCustomAttribute()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListIndustriesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.PossibleValues getListIndustriesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setListIndustriesResult(com.xignite.services.PossibleValues arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.IdentifierTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>12</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>11</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static com.xignite.services.IdentifierTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.IdentifierTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.IdentifierTypes fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentTransformationsAllResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetInstrumentTransformationsAllResult(com.xignite.services.ArrayOfInstrumentTransformation arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentTransformation getGetInstrumentTransformationsAllResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerTransformationsByExchange</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.IssuerRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.IssuerRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetDividendHistoriesByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetDividendHistoriesByExchangeResult(com.xignite.services.ArrayOfDividendHistory arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfDividendHistory getGetDividendHistoriesByExchangeResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSplit</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSplit()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSecurityAttributeChangesAllResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetSecurityAttributeChangesAllResult(com.xignite.services.ArrayOfSecurityAttributeChange arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSecurityAttributeChange getGetSecurityAttributeChangesAllResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.IssuerAttributeChange</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getExDate()">1</method>
+			<method name="public com.xignite.services.Issuer getIssuer()">1</method>
+			<method name="public void setIssuer(com.xignite.services.Issuer arg0)">1</method>
+			<method name="public void setExDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEventType()">1</method>
+			<method name="public void setEventType(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfAttributeChange getAttributeChanges()">1</method>
+			<method name="public void setAttributeChanges(com.xignite.services.ArrayOfAttributeChange arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSplitTotal</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSplitTotal()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.CorporateActionRole</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.xignite.services.Issuer getIssuer()">1</method>
+			<method name="public void setIssuer(com.xignite.services.Issuer arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getRoleType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRoleType(String arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentTransformationsAll</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>151</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>135</cbo>
+		<rfc>289</rfc>
+		<lcom>11297</lcom>
+		<ca>0</ca>
+		<ce>135</ce>
+		<npm>150</npm>
+		<lcom3>0.9933333333333333</lcom3>
+		<loc>905</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.07288888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.900662251655629</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfInstrumentTransformation createArrayOfInstrumentTransformation()">1</method>
+			<method name="public com.xignite.services.ArrayOfPossibleValue createArrayOfPossibleValue()">1</method>
+			<method name="public com.xignite.services.SecurityAttributeChange createSecurityAttributeChange()">1</method>
+			<method name="public com.xignite.services.InterestPaymentFixing createInterestPaymentFixing()">1</method>
+			<method name="public com.xignite.services.ListCurrenciesResponse createListCurrenciesResponse()">1</method>
+			<method name="public com.xignite.services.IssuerAttributeChange createIssuerAttributeChange()">1</method>
+			<method name="public com.xignite.services.Issuer createIssuer()">1</method>
+			<method name="public com.xignite.services.GetIssuerTransformationsByExchangeResponse createGetIssuerTransformationsByExchangeResponse()">1</method>
+			<method name="public com.xignite.services.InstrumentTransformation createInstrumentTransformation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfCorporateAction(com.xignite.services.ArrayOfCorporateAction arg0)">1</method>
+			<method name="public com.xignite.services.PaymentHistory createPaymentHistory()">1</method>
+			<method name="public com.xignite.services.GetInstrumentTransformationsAll createGetInstrumentTransformationsAll()">1</method>
+			<method name="public com.xignite.services.ListSectors createListSectors()">1</method>
+			<method name="public com.xignite.services.GetDividendHistory createGetDividendHistory()">1</method>
+			<method name="public com.xignite.services.ArrayOfSecurity createArrayOfSecurity()">1</method>
+			<method name="public com.xignite.services.PossibleValue createPossibleValue()">1</method>
+			<method name="public com.xignite.services.PossibleValues createPossibleValues()">1</method>
+			<method name="public com.xignite.services.Security createSecurity()">1</method>
+			<method name="public com.xignite.services.ArrayOfDistributionSet createArrayOfDistributionSet()">1</method>
+			<method name="public com.xignite.services.ListDividendClassifications createListDividendClassifications()">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.GetIssuerAttributeChangesByExchangeResponse createGetIssuerAttributeChangesByExchangeResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfIssuerAttributeChange(com.xignite.services.ArrayOfIssuerAttributeChange arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfInstrumentTransformation(com.xignite.services.ArrayOfInstrumentTransformation arg0)">1</method>
+			<method name="public com.xignite.services.GetPaymentHistoriesByExchangeResponse createGetPaymentHistoriesByExchangeResponse()">1</method>
+			<method name="public com.xignite.services.GetCorporateActionsByExchangeResponse createGetCorporateActionsByExchangeResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfDividendHistory createArrayOfDividendHistory()">1</method>
+			<method name="public com.xignite.services.GetIssuerAttributeChangesResponse createGetIssuerAttributeChangesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPossibleValues(com.xignite.services.PossibleValues arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfSplitTotal(com.xignite.services.ArrayOfSplitTotal arg0)">1</method>
+			<method name="public com.xignite.services.GetInstrumentTransformationsByExchange createGetInstrumentTransformationsByExchange()">1</method>
+			<method name="public com.xignite.services.ArrayOfSecurityAttributeChange createArrayOfSecurityAttributeChange()">1</method>
+			<method name="public com.xignite.services.GetSplitTotalResponse createGetSplitTotalResponse()">1</method>
+			<method name="public com.xignite.services.ListPaymentTypes createListPaymentTypes()">1</method>
+			<method name="public com.xignite.services.CustomAttribute createCustomAttribute()">1</method>
+			<method name="public com.xignite.services.AlternateSecurityIdentifier createAlternateSecurityIdentifier()">1</method>
+			<method name="public com.xignite.services.Action createAction()">1</method>
+			<method name="public com.xignite.services.InstrumentTransformationInputOutput createInstrumentTransformationInputOutput()">1</method>
+			<method name="public com.xignite.services.ListExchangesResponse createListExchangesResponse()">1</method>
+			<method name="public com.xignite.services.GetIssuerTransformationsAllResponse createGetIssuerTransformationsAllResponse()">1</method>
+			<method name="public com.xignite.services.Header createHeader()">1</method>
+			<method name="public com.xignite.services.GetInstrumentAttributeChangesAll createGetInstrumentAttributeChangesAll()">1</method>
+			<method name="public com.xignite.services.GetInstrumentTransformationsResponse createGetInstrumentTransformationsResponse()">1</method>
+			<method name="public com.xignite.services.ListIndustriesResponse createListIndustriesResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentTransformationInputOutput createArrayOfInstrumentTransformationInputOutput()">1</method>
+			<method name="public com.xignite.services.ArrayOfSplitHistory createArrayOfSplitHistory()">1</method>
+			<method name="public com.xignite.services.Payment createPayment()">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentOutputChoice createArrayOfInstrumentOutputChoice()">1</method>
+			<method name="public com.xignite.services.DistributionSet createDistributionSet()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfDividendHistory(com.xignite.services.ArrayOfDividendHistory arg0)">1</method>
+			<method name="public com.xignite.services.GetIssuerTransformations createGetIssuerTransformations()">1</method>
+			<method name="public com.xignite.services.GetSecurityAttributeChangesResponse createGetSecurityAttributeChangesResponse()">1</method>
+			<method name="public com.xignite.services.Split createSplit()">1</method>
+			<method name="public com.xignite.services.GetSplitHistoriesByExchange createGetSplitHistoriesByExchange()">1</method>
+			<method name="public com.xignite.services.ArrayOfPaymentHistory createArrayOfPaymentHistory()">1</method>
+			<method name="public com.xignite.services.GetInstrumentAttributeChangesByExchangeResponse createGetInstrumentAttributeChangesByExchangeResponse()">1</method>
+			<method name="public com.xignite.services.GetDividendHistoriesByExchangeResponse createGetDividendHistoriesByExchangeResponse()">1</method>
+			<method name="public com.xignite.services.CorporateActionRole createCorporateActionRole()">1</method>
+			<method name="public com.xignite.services.GetInstrumentAttributeChangesAllResponse createGetInstrumentAttributeChangesAllResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentAttributeChange createArrayOfInstrumentAttributeChange()">1</method>
+			<method name="public com.xignite.services.ListDividendTypes createListDividendTypes()">1</method>
+			<method name="public com.xignite.services.GetIssuerAttributeChangesByExchange createGetIssuerAttributeChangesByExchange()">1</method>
+			<method name="public com.xignite.services.GetPaymentHistoryResponse createGetPaymentHistoryResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfDividend createArrayOfDividend()">1</method>
+			<method name="public com.xignite.services.GetSecurityAttributeChangesByExchange createGetSecurityAttributeChangesByExchange()">1</method>
+			<method name="public com.xignite.services.ArrayOfCorporateActionRole createArrayOfCorporateActionRole()">1</method>
+			<method name="public com.xignite.services.ArrayOfSplit createArrayOfSplit()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfPaymentHistory(com.xignite.services.ArrayOfPaymentHistory arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentOutputChoice createInstrumentOutputChoice()">1</method>
+			<method name="public com.xignite.services.GetInstrumentAttributeChangesResponse createGetInstrumentAttributeChangesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfIssuerTransformation(com.xignite.services.ArrayOfIssuerTransformation arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.GetDistributionSetResponse createGetDistributionSetResponse()">1</method>
+			<method name="public com.xignite.services.GetSecurityAttributeChangesByExchangeResponse createGetSecurityAttributeChangesByExchangeResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfAction createArrayOfAction()">1</method>
+			<method name="public com.xignite.services.SplitTotal createSplitTotal()">1</method>
+			<method name="public com.xignite.services.GetInstrumentTransformationsAllResponse createGetInstrumentTransformationsAllResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfAttributeChange createArrayOfAttributeChange()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfSecurityAttributeChange(com.xignite.services.ArrayOfSecurityAttributeChange arg0)">1</method>
+			<method name="public com.xignite.services.GetSecurityAttributeChangesAllResponse createGetSecurityAttributeChangesAllResponse()">1</method>
+			<method name="public com.xignite.services.ListDividendPaymentFrequencies createListDividendPaymentFrequencies()">1</method>
+			<method name="public com.xignite.services.GetIssuerTransformationsAll createGetIssuerTransformationsAll()">1</method>
+			<method name="public com.xignite.services.ArrayOfDistributionPayment createArrayOfDistributionPayment()">1</method>
+			<method name="public com.xignite.services.GetSplitHistoryResponse createGetSplitHistoryResponse()">1</method>
+			<method name="public com.xignite.services.ListCurrencies createListCurrencies()">1</method>
+			<method name="public com.xignite.services.GetPaymentHistoriesByExchange createGetPaymentHistoriesByExchange()">1</method>
+			<method name="public com.xignite.services.ArrayOfIssuerTransformation createArrayOfIssuerTransformation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDistributionSet(com.xignite.services.DistributionSet arg0)">1</method>
+			<method name="public com.xignite.services.DistributionDividend createDistributionDividend()">1</method>
+			<method name="public com.xignite.services.GetDistributionSetsResponse createGetDistributionSetsResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfPayment createArrayOfPayment()">1</method>
+			<method name="public com.xignite.services.ListEventTypes createListEventTypes()">1</method>
+			<method name="public com.xignite.services.ListInstrumentClasses createListInstrumentClasses()">1</method>
+			<method name="public com.xignite.services.ArrayOfCustomAttribute createArrayOfCustomAttribute()">1</method>
+			<method name="public com.xignite.services.DistributionPayment createDistributionPayment()">1</method>
+			<method name="public com.xignite.services.GetIssuerTransformationsByExchange createGetIssuerTransformationsByExchange()">1</method>
+			<method name="public com.xignite.services.ListDividendPaymentFrequenciesResponse createListDividendPaymentFrequenciesResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrument createArrayOfInstrument()">1</method>
+			<method name="public com.xignite.services.InstrumentAttributeChange createInstrumentAttributeChange()">1</method>
+			<method name="public com.xignite.services.GetInstrumentAttributeChangesByExchange createGetInstrumentAttributeChangesByExchange()">1</method>
+			<method name="public com.xignite.services.Dividend createDividend()">1</method>
+			<method name="public com.xignite.services.ListExchanges createListExchanges()">1</method>
+			<method name="public com.xignite.services.GetIssuerAttributeChangesAll createGetIssuerAttributeChangesAll()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfSplitHistory(com.xignite.services.ArrayOfSplitHistory arg0)">1</method>
+			<method name="public com.xignite.services.GetInstrumentTransformationsByExchangeResponse createGetInstrumentTransformationsByExchangeResponse()">1</method>
+			<method name="public com.xignite.services.GetSecurityAttributeChangesAll createGetSecurityAttributeChangesAll()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.xignite.services.ArrayOfInterestPaymentFixing createArrayOfInterestPaymentFixing()">1</method>
+			<method name="public com.xignite.services.GetPaymentHistory createGetPaymentHistory()">1</method>
+			<method name="public com.xignite.services.IssuerTransformation createIssuerTransformation()">1</method>
+			<method name="public com.xignite.services.GetInstrumentTransformations createGetInstrumentTransformations()">1</method>
+			<method name="public com.xignite.services.GetIssuerAttributeChangesAllResponse createGetIssuerAttributeChangesAllResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfSplitTotal createArrayOfSplitTotal()">1</method>
+			<method name="public com.xignite.services.GetInstrumentAttributeChanges createGetInstrumentAttributeChanges()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeader(com.xignite.services.Header arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCorporateAction createArrayOfCorporateAction()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfInstrumentAttributeChange(com.xignite.services.ArrayOfInstrumentAttributeChange arg0)">1</method>
+			<method name="public com.xignite.services.GetDistributionSet createGetDistributionSet()">1</method>
+			<method name="public com.xignite.services.GetCorporateActionsByExchange createGetCorporateActionsByExchange()">1</method>
+			<method name="public com.xignite.services.ArrayOfClassification createArrayOfClassification()">1</method>
+			<method name="public com.xignite.services.ListSectorsResponse createListSectorsResponse()">1</method>
+			<method name="public com.xignite.services.ListPaymentTypesResponse createListPaymentTypesResponse()">1</method>
+			<method name="public com.xignite.services.SplitHistory createSplitHistory()">1</method>
+			<method name="public com.xignite.services.Classification createClassification()">1</method>
+			<method name="public com.xignite.services.ArrayOfDistributionDividend createArrayOfDistributionDividend()">1</method>
+			<method name="public com.xignite.services.ListIndustries createListIndustries()">1</method>
+			<method name="public com.xignite.services.GetCorporateActionsResponse createGetCorporateActionsResponse()">1</method>
+			<method name="public com.xignite.services.GetSplitHistoriesByExchangeResponse createGetSplitHistoriesByExchangeResponse()">1</method>
+			<method name="public com.xignite.services.GetIssuerTransformationsResponse createGetIssuerTransformationsResponse()">1</method>
+			<method name="public com.xignite.services.GetSecurityAttributeChanges createGetSecurityAttributeChanges()">1</method>
+			<method name="public com.xignite.services.GetSplitTotalsByExchange createGetSplitTotalsByExchange()">1</method>
+			<method name="public com.xignite.services.ListDividendClassificationsResponse createListDividendClassificationsResponse()">1</method>
+			<method name="public com.xignite.services.GetDividendHistoryResponse createGetDividendHistoryResponse()">1</method>
+			<method name="public com.xignite.services.GetCorporateActions createGetCorporateActions()">1</method>
+			<method name="public com.xignite.services.ListDividendTypesResponse createListDividendTypesResponse()">1</method>
+			<method name="public com.xignite.services.AttributeChange createAttributeChange()">1</method>
+			<method name="public com.xignite.services.ArrayOfAlternateSecurityIdentifier createArrayOfAlternateSecurityIdentifier()">1</method>
+			<method name="public com.xignite.services.ArrayOfString createArrayOfString()">1</method>
+			<method name="public com.xignite.services.GetDistributionSets createGetDistributionSets()">1</method>
+			<method name="public com.xignite.services.GetIssuerAttributeChanges createGetIssuerAttributeChanges()">1</method>
+			<method name="public com.xignite.services.DividendHistory createDividendHistory()">1</method>
+			<method name="public com.xignite.services.ListEventTypesResponse createListEventTypesResponse()">1</method>
+			<method name="public com.xignite.services.GetSplitTotalsByExchangeResponse createGetSplitTotalsByExchangeResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfDistributionSet(com.xignite.services.ArrayOfDistributionSet arg0)">1</method>
+			<method name="public com.xignite.services.GetSplitTotal createGetSplitTotal()">1</method>
+			<method name="public com.xignite.services.GetDividendHistoriesByExchange createGetDividendHistoriesByExchange()">1</method>
+			<method name="public com.xignite.services.ArrayOfIssuerAttributeChange createArrayOfIssuerAttributeChange()">1</method>
+			<method name="public com.xignite.services.ListInstrumentClassesResponse createListInstrumentClassesResponse()">1</method>
+			<method name="public com.xignite.services.CorporateAction createCorporateAction()">1</method>
+			<method name="public com.xignite.services.Instrument createInstrument()">1</method>
+			<method name="public com.xignite.services.GetSplitHistory createGetSplitHistory()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListPaymentTypesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setListPaymentTypesResult(com.xignite.services.PossibleValues arg0)">1</method>
+			<method name="public com.xignite.services.PossibleValues getListPaymentTypesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfAction</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAction()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.IssuerRelatedTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>9</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.xignite.services.IssuerRelatedTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.IssuerRelatedTypes fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.IssuerRelatedTypes valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSecurity</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSecurity()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetDistributionSets</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDistributionSetDataSourceIdentifiers(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDistributionSetDataSourceIdentifiers()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListDividendClassificationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.PossibleValues getListDividendClassificationsResult()">1</method>
+			<method name="public void setListDividendClassificationsResult(com.xignite.services.PossibleValues arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerTransformationsByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfIssuerTransformation getGetIssuerTransformationsByExchangeResult()">1</method>
+			<method name="public void setGetIssuerTransformationsByExchangeResult(com.xignite.services.ArrayOfIssuerTransformation arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSplitTotalsByExchange</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>5</noc>
+		<cbo>7</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>6</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfInstrumentAttributeChange</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>6</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getInstrumentAttributeChange()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentAttributeChangesAll</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCorporateActions</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.IssuerRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.IssuerRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSplitHistory</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSplitHistory()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfPayment</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPayment()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerTransformationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfIssuerTransformation getGetIssuerTransformationsResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetIssuerTransformationsResult(com.xignite.services.ArrayOfIssuerTransformation arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerAttributeChangesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfIssuerAttributeChange getGetIssuerAttributeChangesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetIssuerAttributeChangesResult(com.xignite.services.ArrayOfIssuerAttributeChange arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfDividend</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDividend()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfInterestPaymentFixing</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getInterestPaymentFixing()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.CustomAttribute</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getDataType()">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setDataType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PaymentHistory</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.xignite.services.Instrument getInstrument()">1</method>
+			<method name="public com.xignite.services.ArrayOfPayment getPayments()">1</method>
+			<method name="public com.xignite.services.Security getMatchingSecurity()">1</method>
+			<method name="public void setInstrument(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public void setMatchingSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public void setPayments(com.xignite.services.ArrayOfPayment arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SplitHistory</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public com.xignite.services.Instrument getInstrument()">1</method>
+			<method name="public com.xignite.services.Security getMatchingSecurity()">1</method>
+			<method name="public com.xignite.services.ArrayOfSplit getSplits()">1</method>
+			<method name="public void setSplits(com.xignite.services.ArrayOfSplit arg0)">1</method>
+			<method name="public void setInstrument(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public void setMatchingSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public com.xignite.services.SplitHistory getPreviousSplitHistory()">1</method>
+			<method name="public void setPreviousSplitHistory(com.xignite.services.SplitHistory arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfInstrumentTransformation</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>6</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getInstrumentTransformation()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSecurityAttributeChanges</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetDistributionSetResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.DistributionSet getGetDistributionSetResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetDistributionSetResult(com.xignite.services.DistributionSet arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteCorporateActions</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.xignite.services.XigniteCorporateActionsSoap getXigniteCorporateActionsSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.XigniteCorporateActionsSoap getXigniteCorporateActionsSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.InstrumentRelatedTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>14</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>13</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static com.xignite.services.InstrumentRelatedTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.InstrumentRelatedTypes[] values()">1</method>
+			<method name="public static com.xignite.services.InstrumentRelatedTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetPaymentHistory</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfInstrumentOutputChoice</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getInstrumentOutputChoice()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerAttributeChangesAll</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.IssuerRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.IssuerRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentAttributeChanges</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListDividendPaymentFrequenciesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.PossibleValues getListDividendPaymentFrequenciesResult()">1</method>
+			<method name="public void setListDividendPaymentFrequenciesResult(com.xignite.services.PossibleValues arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSplitHistoriesByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfSplitHistory getGetSplitHistoriesByExchangeResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetSplitHistoriesByExchangeResult(com.xignite.services.ArrayOfSplitHistory arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentTransformations</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DistributionSet</name>
+		<wmc>23</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>3</ca>
+		<ce>5</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2111801242236025</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public com.xignite.services.Instrument getInstrument()">1</method>
+			<method name="public void setDistributionSubsets(com.xignite.services.ArrayOfDistributionSet arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfDistributionDividend getDistributionDividends()">1</method>
+			<method name="public String getFrom()">1</method>
+			<method name="public void setEntitledPerson(String arg0)">1</method>
+			<method name="public void setDistributionType(String arg0)">1</method>
+			<method name="public void setFrom(String arg0)">1</method>
+			<method name="public void setInstrument(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public String getTo()">1</method>
+			<method name="public String getDistributionSetDataSourceIdentifier()">1</method>
+			<method name="public void setDistributionPayments(com.xignite.services.ArrayOfDistributionPayment arg0)">1</method>
+			<method name="public void setDistributionSetDataSourceIdentifier(String arg0)">1</method>
+			<method name="public String getDistributionType()">1</method>
+			<method name="public void setDistributionDividends(com.xignite.services.ArrayOfDistributionDividend arg0)">1</method>
+			<method name="public void setTo(String arg0)">1</method>
+			<method name="public String getEntitledPerson()">1</method>
+			<method name="public void setSetType(String arg0)">1</method>
+			<method name="public String getSetType()">1</method>
+			<method name="public com.xignite.services.ArrayOfDistributionSet getDistributionSubsets()">1</method>
+			<method name="public void setIsDefaultDistribution(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isIsDefaultDistribution()">1</method>
+			<method name="public com.xignite.services.ArrayOfDistributionPayment getDistributionPayments()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteCorporateActionsSoap</name>
+		<wmc>37</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>18</cbo>
+		<rfc>37</rfc>
+		<lcom>666</lcom>
+		<ca>1</ca>
+		<ce>17</ce>
+		<npm>37</npm>
+		<lcom3>2.0</lcom3>
+		<loc>37</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.ArrayOfCorporateAction getCorporateActionsByExchange(com.xignite.services.IssuerRelatedTypes, String, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfInstrumentTransformation getInstrumentTransformations(com.xignite.services.InstrumentRelatedTypes, String, com.xignite.services.IdentifierTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listInstrumentClasses()">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfIssuerAttributeChange getIssuerAttributeChangesByExchange(com.xignite.services.IssuerRelatedTypes, String, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSecurityAttributeChange getSecurityAttributeChangesAll(com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfInstrumentTransformation getInstrumentTransformationsAll(com.xignite.services.InstrumentRelatedTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfInstrumentAttributeChange getInstrumentAttributeChanges(com.xignite.services.InstrumentRelatedTypes, String, com.xignite.services.IdentifierTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.DistributionSet getDistributionSet(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfIssuerAttributeChange getIssuerAttributeChanges(com.xignite.services.IssuerRelatedTypes, String, com.xignite.services.IdentifierTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfInstrumentAttributeChange getInstrumentAttributeChangesByExchange(com.xignite.services.InstrumentRelatedTypes, String, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfInstrumentTransformation getInstrumentTransformationsByExchange(com.xignite.services.InstrumentRelatedTypes, String, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSplitHistory getSplitHistory(com.xignite.services.InstrumentRelatedTypes, String, com.xignite.services.IdentifierTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfPaymentHistory getPaymentHistoriesByExchange(com.xignite.services.InstrumentRelatedTypes, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSecurityAttributeChange getSecurityAttributeChangesByExchange(String, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listPaymentTypes()">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listDividendClassifications()">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfInstrumentAttributeChange getInstrumentAttributeChangesAll(com.xignite.services.InstrumentRelatedTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfIssuerTransformation getIssuerTransformations(com.xignite.services.IssuerRelatedTypes, String, com.xignite.services.IdentifierTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfDividendHistory getDividendHistory(com.xignite.services.InstrumentRelatedTypes, String, com.xignite.services.IdentifierTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfDividendHistory getDividendHistoriesByExchange(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listCurrencies()">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listExchanges()">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSecurityAttributeChange getSecurityAttributeChanges(String, com.xignite.services.IdentifierTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSplitTotal getSplitTotal(com.xignite.services.InstrumentRelatedTypes, String, com.xignite.services.IdentifierTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listDividendTypes()">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listSectors()">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfPaymentHistory getPaymentHistory(com.xignite.services.InstrumentRelatedTypes, String, com.xignite.services.IdentifierTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSplitTotal getSplitTotalsByExchange(String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfSplitHistory getSplitHistoriesByExchange(com.xignite.services.InstrumentRelatedTypes, String, String, String)">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listDividendPaymentFrequencies()">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listIndustries()">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfIssuerAttributeChange getIssuerAttributeChangesAll(com.xignite.services.IssuerRelatedTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfIssuerTransformation getIssuerTransformationsAll(com.xignite.services.IssuerRelatedTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfIssuerTransformation getIssuerTransformationsByExchange(com.xignite.services.IssuerRelatedTypes, String, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfDistributionSet getDistributionSets(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfCorporateAction getCorporateActions(com.xignite.services.IssuerRelatedTypes, String, com.xignite.services.IdentifierTypes, com.xignite.services.EventTypes, String, String)">1</method>
+			<method name="public abstract com.xignite.services.PossibleValues listEventTypes()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListPaymentTypes</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SplitTotal</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public com.xignite.services.Instrument getInstrument()">1</method>
+			<method name="public com.xignite.services.Security getMatchingSecurity()">1</method>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public void setInstrument(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public void setMatchingSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public double getCumulativeRatio()">1</method>
+			<method name="public void setCumulativeRatio(double arg0)">1</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getFromDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.PossibleValues</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>14</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>12</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfPossibleValue getValues()">1</method>
+			<method name="public void setValues(com.xignite.services.ArrayOfPossibleValue arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getPossibleValuesOf()">1</method>
+			<method name="public void setPossibleValuesOf(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfDistributionSet</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDistributionSet()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfInstrumentTransformationInputOutput</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getInstrumentTransformationInputOutput()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerTransformationsAll</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.IssuerRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.IssuerRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListSectors</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DistributionPayment</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.Payment getPayment()">1</method>
+			<method name="public void setPayment(com.xignite.services.Payment arg0)">1</method>
+			<method name="public void setIsDefaultDistribution(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isIsDefaultDistribution()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfDividendHistory</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDividendHistory()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetDistributionSetsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetDistributionSetsResult(com.xignite.services.ArrayOfDistributionSet arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfDistributionSet getGetDistributionSetsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerTransformationsAllResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetIssuerTransformationsAllResult(com.xignite.services.ArrayOfIssuerTransformation arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfIssuerTransformation getGetIssuerTransformationsAllResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListDividendTypesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.PossibleValues getListDividendTypesResult()">1</method>
+			<method name="public void setListDividendTypesResult(com.xignite.services.PossibleValues arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfCorporateActionRole</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCorporateActionRole()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AbstractPublicWebServiceEvent</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>8</noc>
+		<cbo>9</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>8</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetDividendHistoryResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfDividendHistory getGetDividendHistoryResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetDividendHistoryResult(com.xignite.services.ArrayOfDividendHistory arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentTransformationsByExchange</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListSectorsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setListSectorsResult(com.xignite.services.PossibleValues arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.PossibleValues getListSectorsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerAttributeChanges</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.IssuerRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.IssuerRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListInstrumentClasses</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DistributionDividend</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.xignite.services.Dividend getDividend()">1</method>
+			<method name="public void setIsDefaultDistribution(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDividend(com.xignite.services.Dividend arg0)">1</method>
+			<method name="public boolean isIsDefaultDistribution()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.CorporateAction</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setEventName(String arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getEventStatus()">1</method>
+			<method name="public String getComments()">1</method>
+			<method name="public com.xignite.services.ArrayOfAction getActions()">1</method>
+			<method name="public void setComments(String arg0)">1</method>
+			<method name="public void setActions(com.xignite.services.ArrayOfAction arg0)">1</method>
+			<method name="public String getEventName()">1</method>
+			<method name="public void setRoles(com.xignite.services.ArrayOfCorporateActionRole arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCorporateActionRole getRoles()">1</method>
+			<method name="public void setEventStatus(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Header</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setTracer(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+			<method name="public String getTracer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AbstractPublicWebServiceObj</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>13</noc>
+		<cbo>15</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>13</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.DataProviders getDataProvider()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDataProvider(com.xignite.services.DataProviders arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListEventTypes</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSecurityAttributeChangesAll</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.EventTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>19</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>18</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9565217391304348</lcom3>
+		<loc>312</loc>
+		<dam>0.08695652173913043</dam>
+		<moa>22</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>47.166666666666664</amc>
+		<cc>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="public static com.xignite.services.EventTypes fromValue(String arg0)">3</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.EventTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.xignite.services.EventTypes valueOf(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerAttributeChangesByExchange</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.IssuerRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.IssuerRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfInstrument</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getInstrument()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetPaymentHistoriesByExchange</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSplitHistoryResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfSplitHistory getGetSplitHistoryResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetSplitHistoryResult(com.xignite.services.ArrayOfSplitHistory arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSplitHistoriesByExchange</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DataProviders</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static com.xignite.services.DataProviders fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.DataProviders valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.DataProviders[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfCorporateAction</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCorporateAction()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Security</name>
+		<wmc>25</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>6</ca>
+		<ce>4</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public com.xignite.services.DataProviders getDataProvider()">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getActiveDate()">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public boolean isHomeTradingPlace()">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public String getSymbol()">1</method>
+			<method name="public void setSymbol(String arg0)">1</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public void setAlternateSecurityIdentifiers(com.xignite.services.ArrayOfAlternateSecurityIdentifier arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setInactiveDate(String arg0)">1</method>
+			<method name="public boolean isActive()">1</method>
+			<method name="public void setSEDOL(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public void setHomeTradingPlace(boolean arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCustomAttribute getCustomAttributes()">1</method>
+			<method name="public com.xignite.services.ArrayOfAlternateSecurityIdentifier getAlternateSecurityIdentifiers()">1</method>
+			<method name="public String getSEDOL()">1</method>
+			<method name="public void setActiveDate(String arg0)">1</method>
+			<method name="public String getInactiveDate()">1</method>
+			<method name="public void setCustomAttributes(com.xignite.services.ArrayOfCustomAttribute arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDataProvider(com.xignite.services.DataProviders arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerAttributeChangesAllResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetIssuerAttributeChangesAllResult(com.xignite.services.ArrayOfIssuerAttributeChange arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfIssuerAttributeChange getGetIssuerAttributeChangesAllResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfString</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getString()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.InstrumentTransformationInputOutput</name>
+		<wmc>39</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>40</rfc>
+		<lcom>703</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>39</npm>
+		<lcom3>0.9736842105263158</lcom3>
+		<loc>194</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3717948717948718</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4871794871794872</amc>
+		<cc>
+			<method name="public String getInputTenderedInstrumentsAmountType()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getAmountCurrency()">1</method>
+			<method name="public String getNominalCurrency()">1</method>
+			<method name="public String getAmountUnit()">1</method>
+			<method name="public void setInputTenderedInstrumentsAmountType(String arg0)">1</method>
+			<method name="public String getInputAcceptedInstrumentsUnit()">1</method>
+			<method name="public void setAmountUnit(String arg0)">1</method>
+			<method name="public double getNominal()">1</method>
+			<method name="public void setInputAcceptedInstrumentsUnit(String arg0)">1</method>
+			<method name="public String getPaymentDate()">1</method>
+			<method name="public void setMaxAmount(double arg0)">1</method>
+			<method name="public void setInputAcceptedInstruments(double arg0)">1</method>
+			<method name="public void setAmount(double arg0)">1</method>
+			<method name="public String getMinAmountUnit()">1</method>
+			<method name="public void setMinAmountUnit(String arg0)">1</method>
+			<method name="public void setMaxAmountUnit(String arg0)">1</method>
+			<method name="public String getMaxAmountUnit()">1</method>
+			<method name="public void setOfferingLimitsLimit(double arg0)">1</method>
+			<method name="public double getMaxAmount()">1</method>
+			<method name="public com.xignite.services.Instrument getInstrument()">1</method>
+			<method name="public void setInputTenderedInstrumentsUnit(String arg0)">1</method>
+			<method name="public void setInstrument(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public void setInputAcceptedInstrumentsAmountType(String arg0)">1</method>
+			<method name="public void setAmountCurrency(String arg0)">1</method>
+			<method name="public void setMinAmount(double arg0)">1</method>
+			<method name="public double getInputAcceptedInstruments()">1</method>
+			<method name="public void setNominal(double arg0)">1</method>
+			<method name="public double getMinAmount()">1</method>
+			<method name="public double getInputTenderedInstruments()">1</method>
+			<method name="public void setNominalCurrency(String arg0)">1</method>
+			<method name="public double getAmount()">1</method>
+			<method name="public double getOfferingLimitsLimit()">1</method>
+			<method name="public void setInputTenderedInstruments(double arg0)">1</method>
+			<method name="public void setPaymentDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getInputTenderedInstrumentsUnit()">1</method>
+			<method name="public String getInputAcceptedInstrumentsAmountType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfClassification</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getClassification()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListDividendClassifications</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListCurrenciesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setListCurrenciesResult(com.xignite.services.PossibleValues arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.PossibleValues getListCurrenciesResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListExchangesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.PossibleValues getListExchangesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setListExchangesResult(com.xignite.services.PossibleValues arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentAttributeChangesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfInstrumentAttributeChange getGetInstrumentAttributeChangesResult()">1</method>
+			<method name="public void setGetInstrumentAttributeChangesResult(com.xignite.services.ArrayOfInstrumentAttributeChange arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentTransformationsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfInstrumentTransformation getGetInstrumentTransformationsResult()">1</method>
+			<method name="public void setGetInstrumentTransformationsResult(com.xignite.services.ArrayOfInstrumentTransformation arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListExchanges</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfIssuerTransformation</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>6</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getIssuerTransformation()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentAttributeChangesByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfInstrumentAttributeChange getGetInstrumentAttributeChangesByExchangeResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetInstrumentAttributeChangesByExchangeResult(com.xignite.services.ArrayOfInstrumentAttributeChange arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfDistributionDividend</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDistributionDividend()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentAttributeChangesAllResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfInstrumentAttributeChange getGetInstrumentAttributeChangesAllResult()">1</method>
+			<method name="public void setGetInstrumentAttributeChangesAllResult(com.xignite.services.ArrayOfInstrumentAttributeChange arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListInstrumentClassesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.PossibleValues getListInstrumentClassesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setListInstrumentClassesResult(com.xignite.services.PossibleValues arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AttributeChange</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOldValue()">1</method>
+			<method name="public void setOldValue(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNewValue(String arg0)">1</method>
+			<method name="public String getNewValue()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.InstrumentOutputChoice</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setOutputs(com.xignite.services.ArrayOfInstrumentTransformationInputOutput arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentTransformationInputOutput getOutputs()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfPossibleValue</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPossibleValue()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListDividendTypes</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfSecurityAttributeChange</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>6</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getSecurityAttributeChange()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.InstrumentTransformation</name>
+		<wmc>35</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>36</rfc>
+		<lcom>561</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>35</npm>
+		<lcom3>0.9705882352941176</lcom3>
+		<loc>174</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4857142857142858</amc>
+		<cc>
+			<method name="public String getDeadlineExtendedUntil()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setSettlementType(String arg0)">1</method>
+			<method name="public com.xignite.services.Issuer getNewIssuer()">1</method>
+			<method name="public void setDeadlineExtendedUntil(String arg0)">1</method>
+			<method name="public void setInputs(com.xignite.services.ArrayOfInstrumentTransformationInputOutput arg0)">1</method>
+			<method name="public void setMandatory(String arg0)">1</method>
+			<method name="public void setSubmissionPeriodFrom(String arg0)">1</method>
+			<method name="public void setEventType(String arg0)">1</method>
+			<method name="public void setOutputChoices(com.xignite.services.ArrayOfInstrumentOutputChoice arg0)">1</method>
+			<method name="public String getSubmissionPeriodUntil()">1</method>
+			<method name="public String getSubmissionPeriodFrom()">1</method>
+			<method name="public String getTransformationType()">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentTransformationInputOutput getInputs()">1</method>
+			<method name="public String getEventType()">1</method>
+			<method name="public String getValidationType()">1</method>
+			<method name="public String getChargesIncurred()">1</method>
+			<method name="public void setRecordDate(String arg0)">1</method>
+			<method name="public String getExDate()">1</method>
+			<method name="public void setExDate(String arg0)">1</method>
+			<method name="public String getSettlementType()">1</method>
+			<method name="public String getRecordDate()">1</method>
+			<method name="public String getWithdrawableUntil()">1</method>
+			<method name="public void setWithdrawableUntil(String arg0)">1</method>
+			<method name="public void setTransformationType(String arg0)">1</method>
+			<method name="public void setChargesIncurred(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentOutputChoice getOutputChoices()">1</method>
+			<method name="public void setValidationType(String arg0)">1</method>
+			<method name="public void setSubmissionPeriodUntil(String arg0)">1</method>
+			<method name="public String getWithdrawableDeadlineExtendedUntil()">1</method>
+			<method name="public void setWithdrawableDeadlineExtendedUntil(String arg0)">1</method>
+			<method name="public void setNewIssuer(com.xignite.services.Issuer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMandatory()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Instrument</name>
+		<wmc>29</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>14</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>10</ca>
+		<ce>4</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2471264367816092</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public com.xignite.services.DataProviders getDataProvider()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getActiveDate()">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public String getInstrumentClass()">1</method>
+			<method name="public void setCFICode(String arg0)">1</method>
+			<method name="public void setInstrumentClass(String arg0)">1</method>
+			<method name="public String getCFICode()">1</method>
+			<method name="public void setValoren(String arg0)">1</method>
+			<method name="public String getMostLiquidExchange()">1</method>
+			<method name="public String getCUSIP()">1</method>
+			<method name="public void setISIN(String arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setMostLiquidExchange(String arg0)">1</method>
+			<method name="public void setInactiveDate(String arg0)">1</method>
+			<method name="public boolean isActive()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getISIN()">1</method>
+			<method name="public com.xignite.services.ArrayOfCustomAttribute getCustomAttributes()">1</method>
+			<method name="public void setSecurities(com.xignite.services.ArrayOfSecurity arg0)">1</method>
+			<method name="public void setCUSIP(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSecurity getSecurities()">1</method>
+			<method name="public void setActiveDate(String arg0)">1</method>
+			<method name="public String getInactiveDate()">1</method>
+			<method name="public String getValoren()">1</method>
+			<method name="public void setCustomAttributes(com.xignite.services.ArrayOfCustomAttribute arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDataProvider(com.xignite.services.DataProviders arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCorporateActionsByExchange</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.IssuerRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.IssuerRelatedTypes getIncludeRelated()">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AlternateSecurityIdentifier</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAlternateIdentifier(String arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.AlternateIdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getAlternateIdentifier()">1</method>
+			<method name="public com.xignite.services.AlternateIdentifierTypes getIdentifierType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetIssuerTransformations</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public void setIncludeRelated(com.xignite.services.IssuerRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.IssuerRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSecurityAttributeChangesByExchange</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setEventType(com.xignite.services.EventTypes arg0)">1</method>
+			<method name="public void setExchange(String arg0)">1</method>
+			<method name="public String getExchange()">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public com.xignite.services.EventTypes getEventType()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSplitTotal</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setIncludeRelated(com.xignite.services.InstrumentRelatedTypes arg0)">1</method>
+			<method name="public com.xignite.services.InstrumentRelatedTypes getIncludeRelated()">1</method>
+			<method name="public com.xignite.services.IdentifierTypes getIdentifierType()">1</method>
+			<method name="public void setIdentifierType(com.xignite.services.IdentifierTypes arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdentifier(String arg0)">1</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getIdentifier()">1</method>
+			<method name="public String getEndDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Action</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>9</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>9</moa>
+		<mfa>0.0</mfa>
+		<cam>0.13438735177865613</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public void setInstrumentTransformations(com.xignite.services.ArrayOfInstrumentTransformation arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfSecurityAttributeChange getSecurityAttributeChanges()">1</method>
+			<method name="public com.xignite.services.ArrayOfCustomAttribute getActionProperties()">1</method>
+			<method name="public void setSecurityAttributeChanges(com.xignite.services.ArrayOfSecurityAttributeChange arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfIssuerTransformation getIssuerTransformations()">1</method>
+			<method name="public com.xignite.services.ArrayOfDividendHistory getDividendHistories()">1</method>
+			<method name="public com.xignite.services.ArrayOfSplitHistory getSplitHistories()">1</method>
+			<method name="public com.xignite.services.ArrayOfPaymentHistory getPaymentHistories()">1</method>
+			<method name="public void setPaymentHistories(com.xignite.services.ArrayOfPaymentHistory arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void setIssuerAttributeChanges(com.xignite.services.ArrayOfIssuerAttributeChange arg0)">1</method>
+			<method name="public void setDividendHistories(com.xignite.services.ArrayOfDividendHistory arg0)">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public com.xignite.services.ArrayOfIssuerAttributeChange getIssuerAttributeChanges()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentTransformation getInstrumentTransformations()">1</method>
+			<method name="public void setActionProperties(com.xignite.services.ArrayOfCustomAttribute arg0)">1</method>
+			<method name="public void setSplitHistories(com.xignite.services.ArrayOfSplitHistory arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentAttributeChange getInstrumentAttributeChanges()">1</method>
+			<method name="public void setInstrumentAttributeChanges(com.xignite.services.ArrayOfInstrumentAttributeChange arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public void setIssuerTransformations(com.xignite.services.ArrayOfIssuerTransformation arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Issuer</name>
+		<wmc>27</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>28</rfc>
+		<lcom>325</lcom>
+		<ca>5</ca>
+		<ce>5</ce>
+		<npm>27</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>134</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.21164021164021163</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4814814814814814</amc>
+		<cc>
+			<method name="public com.xignite.services.DataProviders getDataProvider()">1</method>
+			<method name="public String getCIK()">1</method>
+			<method name="public void setCIK(String arg0)">1</method>
+			<method name="public String getCompanyIdentifier()">1</method>
+			<method name="public String getActiveDate()">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public void setDomicile(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfClassification getClassifications()">1</method>
+			<method name="public void setSector(String arg0)">1</method>
+			<method name="public String getDomicile()">1</method>
+			<method name="public void setClassifications(com.xignite.services.ArrayOfClassification arg0)">1</method>
+			<method name="public String getIndustry()">1</method>
+			<method name="public void setIndustry(String arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setInactiveDate(String arg0)">1</method>
+			<method name="public boolean isActive()">1</method>
+			<method name="public void setCompanyIdentifier(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getSector()">1</method>
+			<method name="public void setInstruments(com.xignite.services.ArrayOfInstrument arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfCustomAttribute getCustomAttributes()">1</method>
+			<method name="public com.xignite.services.ArrayOfInstrument getInstruments()">1</method>
+			<method name="public void setActiveDate(String arg0)">1</method>
+			<method name="public String getInactiveDate()">1</method>
+			<method name="public void setCustomAttributes(com.xignite.services.ArrayOfCustomAttribute arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDataProvider(com.xignite.services.DataProviders arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetCorporateActionsByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfCorporateAction getGetCorporateActionsByExchangeResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetCorporateActionsByExchangeResult(com.xignite.services.ArrayOfCorporateAction arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.InstrumentAttributeChange</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public com.xignite.services.Instrument getInstrument()">1</method>
+			<method name="public String getExDate()">1</method>
+			<method name="public void setExDate(String arg0)">1</method>
+			<method name="public void setInstrument(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEventType()">1</method>
+			<method name="public void setEventType(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfAttributeChange getAttributeChanges()">1</method>
+			<method name="public void setAttributeChanges(com.xignite.services.ArrayOfAttributeChange arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.AlternateIdentifierTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9</lcom3>
+		<loc>156</loc>
+		<dam>0.2</dam>
+		<moa>9</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>23.333333333333332</amc>
+		<cc>
+			<method name="public static com.xignite.services.AlternateIdentifierTypes[] values()">1</method>
+			<method name="public static com.xignite.services.AlternateIdentifierTypes valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.xignite.services.AlternateIdentifierTypes fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.SecurityAttributeChange</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getExDate()">1</method>
+			<method name="public void setExDate(String arg0)">1</method>
+			<method name="public void setSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public com.xignite.services.Instrument getParentInstrument()">1</method>
+			<method name="public com.xignite.services.Security getSecurity()">1</method>
+			<method name="public void setParentInstrument(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEventType()">1</method>
+			<method name="public void setEventType(String arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfAttributeChange getAttributeChanges()">1</method>
+			<method name="public void setAttributeChanges(com.xignite.services.ArrayOfAttributeChange arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSplitTotalsByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfSplitTotal getGetSplitTotalsByExchangeResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetSplitTotalsByExchangeResult(com.xignite.services.ArrayOfSplitTotal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListIndustries</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Split</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public double getOldShares()">1</method>
+			<method name="public void setNewShares(double arg0)">1</method>
+			<method name="public String getExDate()">1</method>
+			<method name="public void setExDate(String arg0)">1</method>
+			<method name="public double getSplitRatio()">1</method>
+			<method name="public void setCustomAttributes(com.xignite.services.ArrayOfCustomAttribute arg0)">1</method>
+			<method name="public double getNewShares()">1</method>
+			<method name="public com.xignite.services.ArrayOfCustomAttribute getCustomAttributes()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSplitRatio(double arg0)">1</method>
+			<method name="public void setOldShares(double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSecurityAttributeChangesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetSecurityAttributeChangesResult(com.xignite.services.ArrayOfSecurityAttributeChange arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfSecurityAttributeChange getGetSecurityAttributeChangesResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.InterestPaymentFixing</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public double getAmount()">1</method>
+			<method name="public void setRate(double arg0)">1</method>
+			<method name="public double getRate()">1</method>
+			<method name="public double getNumberDays()">1</method>
+			<method name="public void setAmount(double arg0)">1</method>
+			<method name="public void setStartDate(String arg0)">1</method>
+			<method name="public void setEndDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStartDate()">1</method>
+			<method name="public String getEndDate()">1</method>
+			<method name="public void setNumberDays(double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetInstrumentTransformationsByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetInstrumentTransformationsByExchangeResult(com.xignite.services.ArrayOfInstrumentTransformation arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfInstrumentTransformation getGetInstrumentTransformationsByExchangeResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSplitTotalResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfSplitTotal getGetSplitTotalResult()">1</method>
+			<method name="public void setGetSplitTotalResult(com.xignite.services.ArrayOfSplitTotal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.IssuerTransformation</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getExDate()">1</method>
+			<method name="public com.xignite.services.Issuer getOldIssuer()">1</method>
+			<method name="public void setExDate(String arg0)">1</method>
+			<method name="public com.xignite.services.Issuer getNewIssuer()">1</method>
+			<method name="public void setOldIssuer(com.xignite.services.Issuer arg0)">1</method>
+			<method name="public void setNewIssuer(com.xignite.services.Issuer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getEventType()">1</method>
+			<method name="public void setEventType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfDistributionPayment</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDistributionPayment()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetSecurityAttributeChangesByExchangeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfSecurityAttributeChange getGetSecurityAttributeChangesByExchangeResult()">1</method>
+			<method name="public void setGetSecurityAttributeChangesByExchangeResult(com.xignite.services.ArrayOfSecurityAttributeChange arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListCurrencies</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfIssuerAttributeChange</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>6</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getIssuerAttributeChange()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.DividendHistory</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.xignite.services.Instrument getInstrument()">1</method>
+			<method name="public com.xignite.services.Security getMatchingSecurity()">1</method>
+			<method name="public void setInstrument(com.xignite.services.Instrument arg0)">1</method>
+			<method name="public void setMatchingSecurity(com.xignite.services.Security arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfDividend getDividends()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDividends(com.xignite.services.ArrayOfDividend arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetDistributionSet</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getDistributionSetDataSourceIdentifier()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDistributionSetDataSourceIdentifier(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ListEventTypesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.PossibleValues getListEventTypesResult()">1</method>
+			<method name="public void setListEventTypesResult(com.xignite.services.PossibleValues arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

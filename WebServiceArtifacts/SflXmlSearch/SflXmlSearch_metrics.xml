@@ -1,0 +1,810 @@
+	<class>
+		<name>au.gov.superfundlookup.FundType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.SearchByABNResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public au.gov.superfundlookup.FundPayload getSuperFundPayload()">1</method>
+			<method name="public void setSuperFundPayload(au.gov.superfundlookup.FundPayload arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.IdentifierSearch</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setGuid(String arg0)">1</method>
+			<method name="public String getGuid()">1</method>
+			<method name="public void setABN(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getABN()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.IdentifierStatus</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.FundNameAbn</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setIdentifierStatus(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getIdentifierStatus()">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.FundNamesResponse</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateTimeRetrieved()">1</method>
+			<method name="public au.gov.superfundlookup.MatchingFundNames getMatchingFundNames()">1</method>
+			<method name="public void setDateTimeRetrieved(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public au.gov.superfundlookup.ResponseException getException()">1</method>
+			<method name="public void setException(au.gov.superfundlookup.ResponseException arg0)">1</method>
+			<method name="public void setMatchingFundNames(au.gov.superfundlookup.MatchingFundNames arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.FundResponse</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateTimeRetrieved()">1</method>
+			<method name="public void setSuperannuationFund(au.gov.superfundlookup.SuperannuationFund arg0)">1</method>
+			<method name="public void setDateTimeRetrieved(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setUsageStatement(String arg0)">1</method>
+			<method name="public String getUsageStatement()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public au.gov.superfundlookup.ResponseException getException()">1</method>
+			<method name="public void setException(au.gov.superfundlookup.ResponseException arg0)">1</method>
+			<method name="public au.gov.superfundlookup.SuperannuationFund getSuperannuationFund()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.ObjectFactory</name>
+		<wmc>27</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>23</cbo>
+		<rfc>53</rfc>
+		<lcom>347</lcom>
+		<ca>0</ca>
+		<ce>23</ce>
+		<npm>26</npm>
+		<lcom3>0.9615384615384616</lcom3>
+		<loc>153</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.358974358974359</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.592592592592593</amc>
+		<cc>
+			<method name="public au.gov.superfundlookup.ComplyingStatus createComplyingStatus()">1</method>
+			<method name="public au.gov.superfundlookup.Location createLocation()">1</method>
+			<method name="public au.gov.superfundlookup.SuperannuationFund createSuperannuationFund()">1</method>
+			<method name="public au.gov.superfundlookup.SearchByABNResponse createSearchByABNResponse()">1</method>
+			<method name="public au.gov.superfundlookup.ResponseException createResponseException()">1</method>
+			<method name="public au.gov.superfundlookup.MatchingFundName createMatchingFundName()">1</method>
+			<method name="public au.gov.superfundlookup.SearchByName createSearchByName()">1</method>
+			<method name="public au.gov.superfundlookup.IdentifierStatus createIdentifierStatus()">1</method>
+			<method name="public au.gov.superfundlookup.FundPayload createFundPayload()">1</method>
+			<method name="public au.gov.superfundlookup.FundNameAbn createFundNameAbn()">1</method>
+			<method name="public au.gov.superfundlookup.SearchByNameResponse createSearchByNameResponse()">1</method>
+			<method name="public au.gov.superfundlookup.Address createAddress()">1</method>
+			<method name="public au.gov.superfundlookup.IdentifierSearch createIdentifierSearch()">1</method>
+			<method name="public au.gov.superfundlookup.OrganisationName createOrganisationName()">1</method>
+			<method name="public au.gov.superfundlookup.FundType createFundType()">1</method>
+			<method name="public au.gov.superfundlookup.FundResponse createFundResponse()">1</method>
+			<method name="public au.gov.superfundlookup.FundNamesPayload createFundNamesPayload()">1</method>
+			<method name="public au.gov.superfundlookup.Identifier createIdentifier()">1</method>
+			<method name="public au.gov.superfundlookup.MatchingFundNames createMatchingFundNames()">1</method>
+			<method name="public au.gov.superfundlookup.NameSearch createNameSearch()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSuperFundPayload(au.gov.superfundlookup.FundPayload arg0)">1</method>
+			<method name="public au.gov.superfundlookup.SearchByABN createSearchByABN()">1</method>
+			<method name="public au.gov.superfundlookup.FundNamesResponse createFundNamesResponse()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createSuperFundNamesPayload(au.gov.superfundlookup.FundNamesPayload arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public au.gov.superfundlookup.FundName createFundName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.SflXmlSearch</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public au.gov.superfundlookup.SflXmlSearchSoap getSflXmlSearchSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient au.gov.superfundlookup.SflXmlSearchSoap getSflXmlSearchSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.FundName</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setNameType(String arg0)">1</method>
+			<method name="public void setScore(int arg0)">1</method>
+			<method name="public String getNameStatus()">1</method>
+			<method name="public String getNameType()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public int getScore()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNameStatus(String arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.NameSearch</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setGuid(String arg0)">1</method>
+			<method name="public String getGuid()">1</method>
+			<method name="public String getActiveFundsOnly()">1</method>
+			<method name="public void setActiveFundsOnly(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.Identifier</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setIdentifierStatus(au.gov.superfundlookup.IdentifierStatus arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public au.gov.superfundlookup.IdentifierStatus getIdentifierStatus()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.ComplyingStatus</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.ResponseException</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.Address</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getLine1()">1</method>
+			<method name="public String getLine2()">1</method>
+			<method name="public String getSuburbLocalityName()">1</method>
+			<method name="public void setStateTerritoryCode(String arg0)">1</method>
+			<method name="public void setSuburbLocalityName(String arg0)">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public String getPurposeCode()">1</method>
+			<method name="public String getStateTerritoryCode()">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public void setLine1(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public void setPurposeCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLine2(String arg0)">1</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.SuperannuationFund</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>6</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>6</moa>
+		<mfa>0.0</mfa>
+		<cam>0.18333333333333332</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public au.gov.superfundlookup.Identifier getIdentifier()">1</method>
+			<method name="public void setIdentifier(au.gov.superfundlookup.Identifier arg0)">1</method>
+			<method name="public au.gov.superfundlookup.OrganisationName getOrganisationName()">1</method>
+			<method name="public au.gov.superfundlookup.ResponseException getException()">1</method>
+			<method name="public void setException(au.gov.superfundlookup.ResponseException arg0)">1</method>
+			<method name="public au.gov.superfundlookup.FundType getFundType()">1</method>
+			<method name="public void setAddress(au.gov.superfundlookup.Address arg0)">1</method>
+			<method name="public void setRecordLastUpdatedDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getRecordLastUpdatedDate()">1</method>
+			<method name="public au.gov.superfundlookup.ComplyingStatus getComplyingStatus()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setComplyingStatus(au.gov.superfundlookup.ComplyingStatus arg0)">1</method>
+			<method name="public void setOrganisationName(au.gov.superfundlookup.OrganisationName arg0)">1</method>
+			<method name="public void setFundType(au.gov.superfundlookup.FundType arg0)">1</method>
+			<method name="public au.gov.superfundlookup.Address getAddress()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.SearchByABN</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setGuid(String arg0)">1</method>
+			<method name="public String getGuid()">1</method>
+			<method name="public void setAbn(String arg0)">1</method>
+			<method name="public String getAbn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.FundNamesPayload</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setResponse(au.gov.superfundlookup.FundNamesResponse arg0)">1</method>
+			<method name="public au.gov.superfundlookup.NameSearch getRequest()">1</method>
+			<method name="public au.gov.superfundlookup.FundNamesResponse getResponse()">1</method>
+			<method name="public void setRequest(au.gov.superfundlookup.NameSearch arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.MatchingFundNames</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNumberOfRecords(int arg0)">1</method>
+			<method name="public java.util.List getMatchingFundName()">2</method>
+			<method name="public int getNumberOfRecords()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.SearchByName</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setGuid(String arg0)">1</method>
+			<method name="public String getGuid()">1</method>
+			<method name="public String getActiveFundsOnly()">1</method>
+			<method name="public void setActiveFundsOnly(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.OrganisationName</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getTypeCode()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartDate()">1</method>
+			<method name="public void setTypeCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setStartDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.SearchByNameResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public au.gov.superfundlookup.FundNamesPayload getSuperFundNamesPayload()">1</method>
+			<method name="public void setSuperFundNamesPayload(au.gov.superfundlookup.FundNamesPayload arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.Location</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getPostcode()">1</method>
+			<method name="public String getStateTerritoryCode()">1</method>
+			<method name="public void setStateTerritoryCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.SflXmlSearchSoap</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>2</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>2</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract au.gov.superfundlookup.FundPayload searchByABN(String, String)">1</method>
+			<method name="public abstract au.gov.superfundlookup.FundNamesPayload searchByName(String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.FundPayload</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public au.gov.superfundlookup.FundResponse getResponse()">1</method>
+			<method name="public void setRequest(au.gov.superfundlookup.IdentifierSearch arg0)">1</method>
+			<method name="public void setResponse(au.gov.superfundlookup.FundResponse arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public au.gov.superfundlookup.IdentifierSearch getRequest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>au.gov.superfundlookup.MatchingFundName</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public au.gov.superfundlookup.FundName getFundName()">1</method>
+			<method name="public void setFundName(au.gov.superfundlookup.FundName arg0)">1</method>
+			<method name="public au.gov.superfundlookup.Location getLocation()">1</method>
+			<method name="public void setLocation(au.gov.superfundlookup.Location arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public au.gov.superfundlookup.FundNameAbn getABN()">1</method>
+			<method name="public void setABN(au.gov.superfundlookup.FundNameAbn arg0)">1</method>
+		</cc>
+	</class>

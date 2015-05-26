@@ -1,0 +1,1632 @@
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2$UpdatedDateFields getUpdatedDateFields()">1</method>
+			<method name="public void setUpdatedAt(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2$UpdatedTextFields getUpdatedTextFields()">1</method>
+			<method name="public void setUpdatedTextFields(com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2$UpdatedTextFields arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getUpdatedAt()">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setUpdatedDateFields(com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2$UpdatedDateFields arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusArriving</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2956521739130435</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public int getDay()">1</method>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setMonth(int arg0)">1</method>
+			<method name="public Boolean isUtc()">1</method>
+			<method name="public String getDepartureAirport()">1</method>
+			<method name="public String getCodeType()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public void setDepartureAirport(String arg0)">1</method>
+			<method name="public void setDay(int arg0)">1</method>
+			<method name="public void setArrivalAirport(String arg0)">1</method>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public void setUtc(Boolean arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public int getMonth()">1</method>
+			<method name="public Integer getMaxFlights()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public String getArrivalAirport()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMaxFlights(Integer arg0)">1</method>
+			<method name="public void setCodeType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightEquipmentV2</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1 getScheduledEquipment()">1</method>
+			<method name="public void setTailNumber(String arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1 getActualEquipment()">1</method>
+			<method name="public String getScheduledEquipmentIataCode()">1</method>
+			<method name="public void setScheduledEquipmentIataCode(String arg0)">1</method>
+			<method name="public String getActualEquipmentIataCode()">1</method>
+			<method name="public void setActualEquipment(com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1 arg0)">1</method>
+			<method name="public void setScheduledEquipment(com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1 arg0)">1</method>
+			<method name="public String getTailNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setActualEquipmentIataCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1</name>
+		<wmc>55</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>56</rfc>
+		<lcom>1431</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>55</npm>
+		<lcom3>0.9814814814814815</lcom3>
+		<loc>274</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24848484848484848</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4909090909090907</amc>
+		<cc>
+			<method name="public String getStreet2()">1</method>
+			<method name="public void setDateTo(String arg0)">1</method>
+			<method name="public void setFs(String arg0)">1</method>
+			<method name="public void setElevationFeet(Integer arg0)">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public String getFaa()">1</method>
+			<method name="public void setDelayIndexUrl(String arg0)">1</method>
+			<method name="public String getWeatherZone()">1</method>
+			<method name="public String getDelayIndexUrl()">1</method>
+			<method name="public boolean isActive()">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getDateTo()">1</method>
+			<method name="public void setLongitude(double arg0)">1</method>
+			<method name="public void setRegionName(String arg0)">1</method>
+			<method name="public void setWeatherZone(String arg0)">1</method>
+			<method name="public void setIcao(String arg0)">1</method>
+			<method name="public String getRegionName()">1</method>
+			<method name="public String getIcao()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public String getFs()">1</method>
+			<method name="public double getUtcOffsetHours()">1</method>
+			<method name="public String getWeatherUrl()">1</method>
+			<method name="public String getTimeZoneRegionName()">1</method>
+			<method name="public void setWeatherUrl(String arg0)">1</method>
+			<method name="public void setFaa(String arg0)">1</method>
+			<method name="public double getLatitude()">1</method>
+			<method name="public void setUtcOffsetHours(double arg0)">1</method>
+			<method name="public void setStateCode(String arg0)">1</method>
+			<method name="public String getLocalTime()">1</method>
+			<method name="public void setLocalTime(String arg0)">1</method>
+			<method name="public String getStreet1()">1</method>
+			<method name="public String getDateFrom()">1</method>
+			<method name="public void setIata(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public void setTimeZoneRegionName(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public String getCityCode()">1</method>
+			<method name="public String getIata()">1</method>
+			<method name="public String getStateCode()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setDateFrom(String arg0)">1</method>
+			<method name="public void setLatitude(double arg0)">1</method>
+			<method name="public void setCityCode(String arg0)">1</method>
+			<method name="public void setStreet1(String arg0)">1</method>
+			<method name="public void setStreet2(String arg0)">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public Integer getElevationFeet()">1</method>
+			<method name="public int getClassification()">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public void setClassification(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCountryCode()">1</method>
+			<method name="public double getLongitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusesResponse$FlightStatuses</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getFlightStatus()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusDeparting</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2956521739130435</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public int getDay()">1</method>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setMonth(int arg0)">1</method>
+			<method name="public Boolean isUtc()">1</method>
+			<method name="public String getDepartureAirport()">1</method>
+			<method name="public String getCodeType()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public void setDepartureAirport(String arg0)">1</method>
+			<method name="public void setDay(int arg0)">1</method>
+			<method name="public void setArrivalAirport(String arg0)">1</method>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public void setUtc(Boolean arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public int getMonth()">1</method>
+			<method name="public Integer getMaxFlights()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public String getArrivalAirport()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMaxFlights(Integer arg0)">1</method>
+			<method name="public void setCodeType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusArrivingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(com.conducivetech.cache.flighthistory.api_internal.v2.ResponseRouteStatus arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ResponseRouteStatus getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.DelaysV2</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setArrivalRunwayDelayMinutes(Integer arg0)">1</method>
+			<method name="public void setArrivalGateDelayMinutes(Integer arg0)">1</method>
+			<method name="public Integer getDepartureGateDelayMinutes()">1</method>
+			<method name="public void setDepartureGateDelayMinutes(Integer arg0)">1</method>
+			<method name="public Integer getDepartureRunwayDelayMinutes()">1</method>
+			<method name="public void setDepartureRunwayDelayMinutes(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getArrivalRunwayDelayMinutes()">1</method>
+			<method name="public Integer getArrivalGateDelayMinutes()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RouteSoapApiService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RouteService getRouteServicePort()">1</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.conducivetech.cache.flighthistory.api_internal.v2.RouteService getRouteServicePort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setInterpreted(String arg0)">1</method>
+			<method name="public String getRequested()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setRequested(String arg0)">1</method>
+			<method name="public String getInterpreted()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestRouteStatus</name>
+		<wmc>15</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>6</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>7</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString getCodeType()">1</method>
+			<method name="public void setMaxFlights(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger arg0)">1</method>
+			<method name="public void setArrivalAirport(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedAirportV1 arg0)">1</method>
+			<method name="public void setDate(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDate arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString getExtendedOptions()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDate getDate()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedAirportV1 getDepartureAirport()">1</method>
+			<method name="public void setDepartureAirport(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedAirportV1 arg0)">1</method>
+			<method name="public void setCodeType(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString arg0)">1</method>
+			<method name="public void setUtc(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedBoolean arg0)">1</method>
+			<method name="public void setExtendedOptions(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedAirportV1 getArrivalAirport()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedBoolean getUtc()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger getMaxFlights()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestedAirportV1</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAirport(com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 arg0)">1</method>
+			<method name="public String getRequestedCode()">1</method>
+			<method name="public String getFsCode()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setFsCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 getAirport()">1</method>
+			<method name="public void setError(String arg0)">1</method>
+			<method name="public void setRequestedCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49019607843137253</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public boolean isActive()">1</method>
+			<method name="public void setDateTo(String arg0)">1</method>
+			<method name="public void setFs(String arg0)">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getDateTo()">1</method>
+			<method name="public String getPhoneNumber()">1</method>
+			<method name="public String getDateFrom()">1</method>
+			<method name="public void setIcao(String arg0)">1</method>
+			<method name="public void setIata(String arg0)">1</method>
+			<method name="public String getIcao()">1</method>
+			<method name="public void setPhoneNumber(String arg0)">1</method>
+			<method name="public String getFs()">1</method>
+			<method name="public String getIata()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setDateFrom(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.DownlineFlightV2</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 getArrivalAirport()">1</method>
+			<method name="public void setArrivalAirport(com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 arg0)">1</method>
+			<method name="public String getFsCode()">1</method>
+			<method name="public void setFlightId(Long arg0)">1</method>
+			<method name="public Long getFlightId()">1</method>
+			<method name="public void setFsCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getDateUtc()">1</method>
+			<method name="public String getDateLocal()">1</method>
+			<method name="public void setDateLocal(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDateUtc(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2$UpdatedDateFields</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getUpdatedDateField()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusesResponse</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>1</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusesResponse$FlightStatuses getFlightStatuses()">1</method>
+			<method name="public void setFlightStatuses(com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusesResponse$FlightStatuses arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdatedTextV2</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOriginalText()">1</method>
+			<method name="public void setOriginalText(String arg0)">1</method>
+			<method name="public void setNewText(String arg0)">1</method>
+			<method name="public void setField(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getField()">1</method>
+			<method name="public String getNewText()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.Appendices</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Equipments getEquipments()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airlines getAirlines()">1</method>
+			<method name="public void setAirlines(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airlines arg0)">1</method>
+			<method name="public void setEquipments(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Equipments arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airports getAirports()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAirports(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airports arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public int getHttpStatusCode()">1</method>
+			<method name="public void setErrorId(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getErrorId()">1</method>
+			<method name="public void setHttpStatusCode(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestedBoolean</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getRequested()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setRequested(String arg0)">1</method>
+			<method name="public void setInterpreted(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+			<method name="public Boolean isInterpreted()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2$FlightStatusUpdates</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getFlightStatusUpdate()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setInterpreted(Integer arg0)">1</method>
+			<method name="public String getRequested()">1</method>
+			<method name="public Integer getInterpreted()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setRequested(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestBase</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.APIException_Exception</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.APIException getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, com.conducivetech.cache.flighthistory.api_internal.v2.APIException arg1, Throwable arg2)">0</method>
+			<method name="public void _init_(String arg0, com.conducivetech.cache.flighthistory.api_internal.v2.APIException arg1)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.OperationalTimesV2</name>
+		<wmc>29</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>14</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7413793103448276</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getFlightPlanPlannedDeparture()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getEstimatedGateArrival()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getActualRunwayDeparture()">1</method>
+			<method name="public void setPublishedDeparture(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public void setActualGateArrival(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getEstimatedRunwayArrival()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getActualGateArrival()">1</method>
+			<method name="public void setScheduledGateDeparture(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getEstimatedRunwayDeparture()">1</method>
+			<method name="public void setFlightPlanPlannedArrival(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getActualRunwayArrival()">1</method>
+			<method name="public void setFlightPlanPlannedDeparture(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public void setActualRunwayDeparture(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getPublishedArrival()">1</method>
+			<method name="public void setScheduledGateArrival(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getPublishedDeparture()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getScheduledGateDeparture()">1</method>
+			<method name="public void setPublishedArrival(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public void setEstimatedRunwayDeparture(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getScheduledGateArrival()">1</method>
+			<method name="public void setEstimatedGateDeparture(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getEstimatedGateDeparture()">1</method>
+			<method name="public void setActualRunwayArrival(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public void setActualGateDeparture(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getFlightPlanPlannedArrival()">1</method>
+			<method name="public void setEstimatedRunwayArrival(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public void setEstimatedGateArrival(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getActualGateDeparture()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDate</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getYear()">1</method>
+			<method name="public void setInterpreted(String arg0)">1</method>
+			<method name="public void setYear(String arg0)">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public String getMonth()">1</method>
+			<method name="public void setMonth(String arg0)">1</method>
+			<method name="public String getDay()">1</method>
+			<method name="public void setDay(String arg0)">1</method>
+			<method name="public String getInterpreted()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airlines</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAirline()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2$UpdatedTextFields</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getUpdatedTextField()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2$Codeshares</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCodeshare()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setTurboProp(boolean arg0)">1</method>
+			<method name="public boolean isWidebody()">1</method>
+			<method name="public void setWidebody(boolean arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setRegional(boolean arg0)">1</method>
+			<method name="public void setIata(String arg0)">1</method>
+			<method name="public boolean isJet()">1</method>
+			<method name="public void setJet(boolean arg0)">1</method>
+			<method name="public boolean isTurboProp()">1</method>
+			<method name="public String getIata()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public boolean isRegional()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusDepartingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(com.conducivetech.cache.flighthistory.api_internal.v2.ResponseRouteStatus arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ResponseRouteStatus getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.CodeshareV2</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getFsCode()">1</method>
+			<method name="public void setFlightNumber(String arg0)">1</method>
+			<method name="public void setCarrier(com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1 arg0)">1</method>
+			<method name="public void setFsCode(String arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1 getCarrier()">1</method>
+			<method name="public void setRelationship(String arg0)">1</method>
+			<method name="public String getFlightNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRelationship()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdatedDateV2</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getOriginalDateLocal()">1</method>
+			<method name="public void setOriginalDateLocal(String arg0)">1</method>
+			<method name="public String getNewDateLocal()">1</method>
+			<method name="public void setField(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getField()">1</method>
+			<method name="public void setNewDateLocal(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightDurationsV2</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setScheduledTaxiInMinutes(Integer arg0)">1</method>
+			<method name="public void setAirMinutes(Integer arg0)">1</method>
+			<method name="public Integer getTaxiInMinutes()">1</method>
+			<method name="public Integer getScheduledTaxiInMinutes()">1</method>
+			<method name="public void setScheduledAirMinutes(Integer arg0)">1</method>
+			<method name="public Integer getScheduledAirMinutes()">1</method>
+			<method name="public void setTaxiInMinutes(Integer arg0)">1</method>
+			<method name="public Integer getBlockMinutes()">1</method>
+			<method name="public void setBlockMinutes(Integer arg0)">1</method>
+			<method name="public Integer getAirMinutes()">1</method>
+			<method name="public void setTaxiOutMinutes(Integer arg0)">1</method>
+			<method name="public void setScheduledBlockMinutes(Integer arg0)">1</method>
+			<method name="public Integer getScheduledTaxiOutMinutes()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getScheduledBlockMinutes()">1</method>
+			<method name="public void setScheduledTaxiOutMinutes(Integer arg0)">1</method>
+			<method name="public Integer getTaxiOutMinutes()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ResponseImpl</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError getError()">1</method>
+			<method name="public void setError(com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices getAppendix()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAppendix(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Equipments</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getEquipment()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setServiceClasses(String arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2$Uplines getUplines()">1</method>
+			<method name="public String getServiceClasses()">1</method>
+			<method name="public void setDownlines(com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2$Downlines arg0)">1</method>
+			<method name="public String getFlightType()">1</method>
+			<method name="public void setRestrictions(String arg0)">1</method>
+			<method name="public void setUplines(com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2$Uplines arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2$Downlines getDownlines()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFlightType(String arg0)">1</method>
+			<method name="public String getRestrictions()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ObjectFactory</name>
+		<wmc>56</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>41</cbo>
+		<rfc>100</rfc>
+		<lcom>1514</lcom>
+		<ca>0</ca>
+		<ce>41</ce>
+		<npm>55</npm>
+		<lcom3>0.9818181818181818</lcom3>
+		<loc>419</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0951048951048951</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.25</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusDeparting createRouteStatusDeparting()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1 createAirlineV1()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2$Uplines createScheduleDataV2Uplines()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusArriving createRouteStatusArriving()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger createRequestedInteger()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusArrivingResponse createRouteStatusArrivingResponse()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightDurationsV2 createFlightDurationsV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2 createFlightStatusV2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRouteStatusArrivingResponse(com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusArrivingResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdatedDateV2 createFlightStatusUpdatedDateV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 createDateInfoV2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createEquipment(com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusesResponse$FlightStatuses createFlightStatusesResponseFlightStatuses()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirline(com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError createApiResponseError()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAPIException(com.conducivetech.cache.flighthistory.api_internal.v2.APIException arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDate createRequestedDate()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedAirportV1 createRequestedAirportV1()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2$FlightStatusUpdates createFlightStatusV2FlightStatusUpdates()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2 createScheduleDataV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2$UpdatedDateFields createFlightStatusUpdateV2UpdatedDateFields()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightEquipmentV2 createFlightEquipmentV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusDepartingResponse createRouteStatusDepartingResponse()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.OperationalTimesV2 createOperationalTimesV2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createResponse(Object arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedBoolean createRequestedBoolean()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirport(com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2$UpdatedTextFields createFlightStatusUpdateV2UpdatedTextFields()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.CodeshareV2 createCodeshareV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdatedTextV2 createFlightStatusUpdatedTextV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DownlineFlightV2 createDownlineFlightV2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRequest(Object arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportResourcesV2 createAirportResourcesV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2$Downlines createScheduleDataV2Downlines()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRouteStatusDepartingResponse(com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusDepartingResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DelaysV2 createDelaysV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusUpdateV2 createFlightStatusUpdateV2()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.UplineFlightV2 createUplineFlightV2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAppendix(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ResponseRouteStatus createResponseRouteStatus()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightStatus(com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.APIException createAPIException()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Equipments createAppendicesEquipments()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices createAppendices()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApiResponseError(com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 createAirportV1()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airports createAppendicesAirports()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestRouteStatus createRequestRouteStatus()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1 createEquipmentV1()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString createRequestedString()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2$Codeshares createFlightStatusV2Codeshares()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRouteStatusArriving(com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusArriving arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRouteStatusDeparting(com.conducivetech.cache.flighthistory.api_internal.v2.RouteStatusDeparting arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airlines createAppendicesAirlines()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2$Downlines</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDownline()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ResponseRouteStatus</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRequest(com.conducivetech.cache.flighthistory.api_internal.v2.RequestRouteStatus arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestRouteStatus getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2$Uplines</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getUpline()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airports</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAirport()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.APIException</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public int getHttpStatusCode()">1</method>
+			<method name="public void setErrorId(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getErrorId()">1</method>
+			<method name="public void setHttpStatusCode(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2</name>
+		<wmc>43</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>12</cbo>
+		<rfc>44</rfc>
+		<lcom>861</lcom>
+		<ca>1</ca>
+		<ce>11</ce>
+		<npm>43</npm>
+		<lcom3>0.9761904761904762</lcom3>
+		<loc>214</loc>
+		<dam>1.0</dam>
+		<moa>14</moa>
+		<mfa>0.0</mfa>
+		<cam>0.10631229235880399</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.488372093023256</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightDurationsV2 getFlightDurations()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getDepartureDate()">1</method>
+			<method name="public String getCarrierFsCode()">1</method>
+			<method name="public void setFlightStatusUpdates(com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2$FlightStatusUpdates arg0)">1</method>
+			<method name="public void setFlightNumber(String arg0)">1</method>
+			<method name="public String getDivertedAirportFsCode()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightEquipmentV2 getFlightEquipment()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2$FlightStatusUpdates getFlightStatusUpdates()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2 getSchedule()">1</method>
+			<method name="public long getFlightId()">1</method>
+			<method name="public void setDivertedAirport(com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 getDivertedAirport()">1</method>
+			<method name="public void setAirportResources(com.conducivetech.cache.flighthistory.api_internal.v2.AirportResourcesV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 getDepartureAirport()">1</method>
+			<method name="public void setArrivalAirport(com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 arg0)">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setOperationalTimes(com.conducivetech.cache.flighthistory.api_internal.v2.OperationalTimesV2 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DelaysV2 getDelays()">1</method>
+			<method name="public void setFlightId(long arg0)">1</method>
+			<method name="public void setCarrierFsCode(String arg0)">1</method>
+			<method name="public void setDepartureAirportFsCode(String arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.OperationalTimesV2 getOperationalTimes()">1</method>
+			<method name="public void setFlightDurations(com.conducivetech.cache.flighthistory.api_internal.v2.FlightDurationsV2 arg0)">1</method>
+			<method name="public void setSchedule(com.conducivetech.cache.flighthistory.api_internal.v2.ScheduleDataV2 arg0)">1</method>
+			<method name="public void setArrivalAirportFsCode(String arg0)">1</method>
+			<method name="public void setDelays(com.conducivetech.cache.flighthistory.api_internal.v2.DelaysV2 arg0)">1</method>
+			<method name="public void setArrivalDate(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2$Codeshares getCodeshares()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 getArrivalAirport()">1</method>
+			<method name="public void setDivertedAirportFsCode(String arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportResourcesV2 getAirportResources()">1</method>
+			<method name="public String getArrivalAirportFsCode()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1 getCarrier()">1</method>
+			<method name="public void setCodeshares(com.conducivetech.cache.flighthistory.api_internal.v2.FlightStatusV2$Codeshares arg0)">1</method>
+			<method name="public String getFlightNumber()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 getArrivalDate()">1</method>
+			<method name="public void setCarrier(com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1 arg0)">1</method>
+			<method name="public String getDepartureAirportFsCode()">1</method>
+			<method name="public void setDepartureDate(com.conducivetech.cache.flighthistory.api_internal.v2.DateInfoV2 arg0)">1</method>
+			<method name="public void setFlightEquipment(com.conducivetech.cache.flighthistory.api_internal.v2.FlightEquipmentV2 arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDepartureAirport(com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RouteService</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>2</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>2</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.conducivetech.cache.flighthistory.api_internal.v2.ResponseRouteStatus routeStatusDeparting(String, String, String, String, int, int, int, Boolean, String, Integer, String)">1</method>
+			<method name="public abstract com.conducivetech.cache.flighthistory.api_internal.v2.ResponseRouteStatus routeStatusArriving(String, String, String, String, int, int, int, Boolean, String, Integer, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.AirportResourcesV2</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setBaggage(String arg0)">1</method>
+			<method name="public String getArrivalTerminal()">1</method>
+			<method name="public String getDepartureTerminal()">1</method>
+			<method name="public String getArrivalGate()">1</method>
+			<method name="public void setDepartureGate(String arg0)">1</method>
+			<method name="public void setArrivalTerminal(String arg0)">1</method>
+			<method name="public void setArrivalGate(String arg0)">1</method>
+			<method name="public String getBaggage()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDepartureGate()">1</method>
+			<method name="public void setDepartureTerminal(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.UplineFlightV2</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getFsCode()">1</method>
+			<method name="public void setFlightId(Long arg0)">1</method>
+			<method name="public Long getFlightId()">1</method>
+			<method name="public void setFsCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDepartureAirport(com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 getDepartureAirport()">1</method>
+		</cc>
+	</class>

@@ -1,0 +1,561 @@
+	<class>
+		<name>stadiswebservice.RepeatMessageResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.CarDataQuery</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public String getLanguage()">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public boolean isCityList()">1</method>
+			<method name="public void setArrivalDateTime(String arg0)">1</method>
+			<method name="public void setWithCancellationInsurance(boolean arg0)">1</method>
+			<method name="public String getCityName()">1</method>
+			<method name="public void setCurrency(String arg0)">1</method>
+			<method name="public void setContryCode(String arg0)">1</method>
+			<method name="public void setIataCode(String arg0)">1</method>
+			<method name="public boolean isWithCancellationInsurance()">1</method>
+			<method name="public void setCityList(boolean arg0)">1</method>
+			<method name="public String getContryCode()">1</method>
+			<method name="public String getCityId()">1</method>
+			<method name="public void setCityName(String arg0)">1</method>
+			<method name="public String getDepartureDateTime()">1</method>
+			<method name="public String getArrivalDateTime()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCurrency()">1</method>
+			<method name="public void setCityId(String arg0)">1</method>
+			<method name="public String getIataCode()">1</method>
+			<method name="public void setDepartureDateTime(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.CarInformation</name>
+		<wmc>37</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>38</rfc>
+		<lcom>630</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>37</npm>
+		<lcom3>0.9722222222222222</lcom3>
+		<loc>184</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24774774774774774</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4864864864864864</amc>
+		<cc>
+			<method name="public Integer getRecommendedChildPassangerCount()">1</method>
+			<method name="public Integer getRecommendedAdultPassangerCount()">1</method>
+			<method name="public void setRecommendedLargeBaggageCount(Integer arg0)">1</method>
+			<method name="public Integer getPassengerCount()">1</method>
+			<method name="public Integer getBaggageCount()">1</method>
+			<method name="public void setDoorCount(Integer arg0)">1</method>
+			<method name="public void setUrlPictureBig(String arg0)">1</method>
+			<method name="public String getUrlPictureMedium()">1</method>
+			<method name="public String getConfiguration()">1</method>
+			<method name="public void setPassengerCount(Integer arg0)">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setAirport(boolean arg0)">1</method>
+			<method name="public double getPrice()">1</method>
+			<method name="public String getUrlPictureBig()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setBaggageCount(Integer arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public Integer getRecommendedLargeBaggageCount()">1</method>
+			<method name="public String getUrlDescription()">1</method>
+			<method name="public void setPrice(double arg0)">1</method>
+			<method name="public void setUrlPictureMedium(String arg0)">1</method>
+			<method name="public Integer getRecommendedSmallBaggageCount()">1</method>
+			<method name="public void setCarcode(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setRecommendedChildPassangerCount(Integer arg0)">1</method>
+			<method name="public String getUrlPictureSmall()">1</method>
+			<method name="public void setUrlDescription(String arg0)">1</method>
+			<method name="public void setConfiguration(String arg0)">1</method>
+			<method name="public void setRecommendedSmallBaggageCount(Integer arg0)">1</method>
+			<method name="public void setUrlPictureSmall(String arg0)">1</method>
+			<method name="public String getCarcode()">1</method>
+			<method name="public void setOfficeAdress(stadiswebservice.LocationAdress arg0)">1</method>
+			<method name="public void setRecommendedAdultPassangerCount(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getDoorCount()">1</method>
+			<method name="public stadiswebservice.LocationAdress getOfficeAdress()">1</method>
+			<method name="public boolean isAirport()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.travel_it.sunnycars.ObjectFactory</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>1</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>0.5</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.75</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createQuery(stadiswebservice.Query arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.FailureMessage</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setErrorCode(int arg0)">1</method>
+			<method name="public void setBrokenParameter(String arg0)">1</method>
+			<method name="public int getErrorCode()">1</method>
+			<method name="public String getBrokenParameter()">1</method>
+			<method name="public String getErrorDescription()">1</method>
+			<method name="public void setErrorDescription(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.RentACar</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>2</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>2</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract stadiswebservice.CarDataResponse getCarData(stadiswebservice.CarDataQuery)">1</method>
+			<method name="public abstract String repeatMessage(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.ObjectFactory</name>
+		<wmc>18</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>12</cbo>
+		<rfc>33</rfc>
+		<lcom>145</lcom>
+		<ca>0</ca>
+		<ce>12</ce>
+		<npm>17</npm>
+		<lcom3>0.9411764705882353</lcom3>
+		<loc>130</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24705882352941178</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public stadiswebservice.GetCarData createGetCarData()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRepeatMessage(stadiswebservice.RepeatMessage arg0)">1</method>
+			<method name="public stadiswebservice.WarningMessage createWarningMessage()">1</method>
+			<method name="public stadiswebservice.Answer createAnswer()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCarData(stadiswebservice.GetCarData arg0)">1</method>
+			<method name="public stadiswebservice.RepeatMessage createRepeatMessage()">1</method>
+			<method name="public stadiswebservice.Query createQuery()">1</method>
+			<method name="public stadiswebservice.LocationAdress createLocationAdress()">1</method>
+			<method name="public stadiswebservice.FailureMessage createFailureMessage()">1</method>
+			<method name="public stadiswebservice.GetCarDataResponse createGetCarDataResponse()">1</method>
+			<method name="public stadiswebservice.RepeatMessageResponse createRepeatMessageResponse()">1</method>
+			<method name="public stadiswebservice.CarDataQuery createCarDataQuery()">1</method>
+			<method name="public stadiswebservice.CarInformation createCarInformation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRepeatMessageResponse(stadiswebservice.RepeatMessageResponse arg0)">1</method>
+			<method name="public stadiswebservice.CarDataResponse createCarDataResponse()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCarDataResponse(stadiswebservice.GetCarDataResponse arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.Answer</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>3</cbo>
+		<rfc>7</rfc>
+		<lcom>8</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.9166666666666667</lcom3>
+		<loc>40</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.4</amc>
+		<cc>
+			<method name="public java.util.List getFailureMessages()">2</method>
+			<method name="public java.util.List getWarningMessages()">2</method>
+			<method name="public void setStatus(stadiswebservice.AnswerStatus arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public stadiswebservice.AnswerStatus getStatus()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.AnswerStatus</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.95</lcom3>
+		<loc>64</loc>
+		<dam>0.25</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>9.0</amc>
+		<cc>
+			<method name="public static stadiswebservice.AnswerStatus fromValue(String arg0)">1</method>
+			<method name="public static stadiswebservice.AnswerStatus[] values()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static stadiswebservice.AnswerStatus valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.CarDataResponse</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>5</rfc>
+		<lcom>3</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>1.0</lcom3>
+		<loc>30</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.333333333333334</amc>
+		<cc>
+			<method name="public java.util.List getCarData()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCityList()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.WarningMessage</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public int getWarningCode()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setWarningCode(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.RentACar_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public stadiswebservice.RentACar getRentACarPort()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient stadiswebservice.RentACar getRentACarPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.GetCarDataResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(stadiswebservice.CarDataResponse arg0)">1</method>
+			<method name="public stadiswebservice.CarDataResponse getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.LocationAdress</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49019607843137253</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setStreet(String arg0)">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public String getAreaCode()">1</method>
+			<method name="public String getCityName()">1</method>
+			<method name="public String getLocationId()">1</method>
+			<method name="public String getStreet()">1</method>
+			<method name="public void setCityCode(String arg0)">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setLocationId(String arg0)">1</method>
+			<method name="public Boolean isAirport()">1</method>
+			<method name="public void setAirport(Boolean arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public void setCityName(String arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public String getCityCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAreaCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.GetCarData</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public stadiswebservice.CarDataQuery getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(stadiswebservice.CarDataQuery arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.Query</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>3</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>stadiswebservice.RepeatMessage</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getArg0()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setArg0(String arg0)">1</method>
+		</cc>
+	</class>

@@ -1,0 +1,519 @@
+	<class>
+		<name>scooby.ObjectFactory</name>
+		<wmc>26</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>14</cbo>
+		<rfc>43</rfc>
+		<lcom>305</lcom>
+		<ca>0</ca>
+		<ce>14</ce>
+		<npm>25</npm>
+		<lcom3>0.96</lcom3>
+		<loc>236</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.23333333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.6923076923076925</amc>
+		<cc>
+			<method name="public scooby.ProtIdType createProtIdType()">1</method>
+			<method name="public scooby.TicketType createTicketType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDoScoobyBySeq(scooby.FastaType arg0)">1</method>
+			<method name="public scooby.SeqId createSeqId()">1</method>
+			<method name="public scooby.DOMCUTType createDOMCUTType()">1</method>
+			<method name="public scooby.FastaType createFastaType()">1</method>
+			<method name="public scooby.Response createResponse()">1</method>
+			<method name="public scooby.ResultsResponseType createResultsResponseType()">1</method>
+			<method name="public scooby.ResultsResponseTypeWrapper createResultsResponseTypeWrapper()">1</method>
+			<method name="public scooby.IterationType createIterationType()">1</method>
+			<method name="public scooby.SequenceType createSequenceType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDoScoobyById(scooby.ProtIdType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetStatus(scooby.TicketType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDoScoobyByIdResponse(scooby.ResultsResponseTypeWrapper arg0)">1</method>
+			<method name="public scooby.RanksType createRanksType()">1</method>
+			<method name="public scooby.SequencesType createSequencesType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDoScoobyByIdAsyncResponse(scooby.TicketType arg0)">1</method>
+			<method name="public scooby.StatusType createStatusType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetStatusResponse(scooby.StatusResponseType arg0)">1</method>
+			<method name="public scooby.StatusResponseType createStatusResponseType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDoScoobyByIdAsync(scooby.ProtIdType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDoScoobyBySeqResponse(scooby.ResultsResponseTypeWrapper arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createGetResultsResponse(scooby.ResultsResponseTypeWrapper arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetResults(scooby.TicketType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.ResultsResponseType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setSequences(scooby.SequencesType arg0)">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public String getTicket()">1</method>
+			<method name="public void setTicket(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public scooby.SequencesType getSequences()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.StatusResponseType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setStatus(scooby.StatusType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public scooby.StatusType getStatus()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.StatusType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getStatusString()">1</method>
+			<method name="public int getStatusCode()">1</method>
+			<method name="public void setStatusCode(int arg0)">1</method>
+			<method name="public void setCompleted(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStatusString(String arg0)">1</method>
+			<method name="public boolean isCompleted()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setResponse(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.IterationType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setPred(int arg0)">1</method>
+			<method name="public void setNum(int arg0)">1</method>
+			<method name="public int getPred()">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public float getScore()">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void setScore(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNum()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.SequenceType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getProtID()">1</method>
+			<method name="public scooby.SeqId getId()">1</method>
+			<method name="public void setProtID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRanks(scooby.RanksType arg0)">1</method>
+			<method name="public void setId(scooby.SeqId arg0)">1</method>
+			<method name="public scooby.RanksType getRanks()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.IBIVUPortType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.8666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract String doScoobyByIdAsync(String, scooby.DOMCUTType)">1</method>
+			<method name="public abstract scooby.StatusType getStatus(String)">1</method>
+			<method name="public abstract scooby.ResultsResponseType doScoobyBySeq(String, scooby.DOMCUTType)">1</method>
+			<method name="public abstract scooby.ResultsResponseType getResults(String)">1</method>
+			<method name="public abstract scooby.ResultsResponseType doScoobyById(String, scooby.DOMCUTType)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.DOMCUTType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.ResultsResponseTypeWrapper</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public scooby.ResultsResponseType getResultsResponse()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setResultsResponse(scooby.ResultsResponseType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.ScoobyDomainPrediction</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient scooby.IBIVUPortType getIBIVUPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public scooby.IBIVUPortType getIBIVUPort()">1</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.SeqId</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public boolean isFound()">1</method>
+			<method name="public void setFound(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.FastaType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setFASTA(String arg0)">1</method>
+			<method name="public void setDOMCUT(scooby.DOMCUTType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public scooby.DOMCUTType getDOMCUT()">1</method>
+			<method name="public String getFASTA()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.TicketType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getTicket()">1</method>
+			<method name="public void setTicket(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.ProtIdType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getUniProtRefSeqID()">1</method>
+			<method name="public void setDOMCUT(scooby.DOMCUTType arg0)">1</method>
+			<method name="public void setUniProtRefSeqID(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public scooby.DOMCUTType getDOMCUT()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.RanksType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRank()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>scooby.SequencesType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSequence()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

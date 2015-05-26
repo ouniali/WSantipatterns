@@ -1,0 +1,1563 @@
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.AcoperireCalatorie</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.AcoperireCalatorie fromValue(String arg0)">3</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.AcoperireCalatorie[] values()">1</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.AcoperireCalatorie valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.brokerplatform_core_model.TipPersoana</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_core_model.TipPersoana valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_core_model.TipPersoana[] values()">1</method>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_core_model.TipPersoana fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ITravelServiceCotatieValidationFaultFaultFaultMessage</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault arg1, Throwable arg2)">0</method>
+			<method name="public void _init_(String arg0, com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault arg1)">0</method>
+			<method name="public com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault getFaultInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.Judet</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9795918367346939</lcom3>
+		<loc>624</loc>
+		<dam>0.04081632653061224</dam>
+		<moa>48</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>94.83333333333333</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.Judet[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.Judet valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.Judet fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.TravelCotatie</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29411764705882354</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setProdusTravel(ro.platforma_broker.ws.travel.types.ProdusTravel arg0)">1</method>
+			<method name="public Double getDurataApelServiciu()">1</method>
+			<method name="public java.math.BigDecimal getPrimaRedusa()">1</method>
+			<method name="public void setDurataApelServiciu(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPrimaRON()">1</method>
+			<method name="public void setPrimaRON(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.ProdusTravel getProdusTravel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getEmailAgentVoucher()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSumaAsigurataEUR()">1</method>
+			<method name="public void setMesajEroare(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setReducereVoucher(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setPrimaRedusa(java.math.BigDecimal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setEmailAgentVoucher(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSumaAsigurataEUR(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMesajEroare()">1</method>
+			<method name="public java.math.BigDecimal getReducereVoucher()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.StareSanatate</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.StareSanatate fromValue(String arg0)">3</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.StareSanatate valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.StareSanatate[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.TravelService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public org.tempuri.ITravelService getTravel()">1</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient org.tempuri.ITravelService getTravel(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.TipPolita</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipPolita fromValue(String arg0)">3</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipPolita valueOf(String arg0)">1</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipPolita[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.Tara</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9959349593495934</lcom3>
+		<loc>2988</loc>
+		<dam>0.008130081300813009</dam>
+		<moa>245</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>456.0</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.Tara[] values()">1</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.Tara valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.Tara fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieAllianz</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieAllianz valueOf(String arg0)">1</method>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieAllianz[] values()">1</method>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieAllianz fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.Adresa</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49019607843137253</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getLocalitate()">1</method>
+			<method name="public void setStrada(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setLocalitate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setBloc(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setScara(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getApartament()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getBloc()">1</method>
+			<method name="public void setCodPostal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setApartament(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNumarStrada(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getStrada()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNumarStrada()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getScara()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public ro.platforma_broker.ws.travel.types.Judet getJudet()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodPostal()">1</method>
+			<method name="public void setJudet(ro.platforma_broker.ws.travel.types.Judet arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ITravelServiceSalvareCerereAuthenticationStatusFaultFaultMessage</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, ro.platforma_broker.security.AuthenticationStatus arg1, Throwable arg2)">0</method>
+			<method name="public ro.platforma_broker.security.AuthenticationStatus getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, ro.platforma_broker.security.AuthenticationStatus arg1)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ITravelServiceCotatieAuthenticationStatusFaultFaultMessage</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, ro.platforma_broker.security.AuthenticationStatus arg1, Throwable arg2)">0</method>
+			<method name="public ro.platforma_broker.security.AuthenticationStatus getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, ro.platforma_broker.security.AuthenticationStatus arg1)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ObjectFactory</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>9</rfc>
+		<lcom>6</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>43</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.2</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createValidationFaultDetails(org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.ArrayOfValidationDetail arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createValidationFault(com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault arg0)">1</method>
+			<method name="public com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault createValidationFault()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.brokerplatform_ws_travel.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>7</rfc>
+		<lcom>2</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.6666666666666666</lcom3>
+		<loc>38</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5555555555555556</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createPlanCalatorieCreditEurope(org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieCreditEurope arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPlanCalatorieAllianz(org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieAllianz arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.security.AuthenticationStatus</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.security.AuthenticationStatus valueOf(String arg0)">1</method>
+			<method name="public static ro.platforma_broker.security.AuthenticationStatus fromValue(String arg0)">3</method>
+			<method name="public static ro.platforma_broker.security.AuthenticationStatus[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.ScopCalatorie</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.ScopCalatorie[] values()">1</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.ScopCalatorie valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.ScopCalatorie fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.DomeniuActivitate</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.DomeniuActivitate fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.DomeniuActivitate valueOf(String arg0)">1</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.DomeniuActivitate[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.ValidationDetail</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setKey(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMessage()">1</method>
+			<method name="public void setTag(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTag()">1</method>
+			<method name="public void setMessage(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ITravelService</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>2</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>8</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>2</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract ro.platforma_broker.ws.travel.types.TravelSalvareResponse salvareCerere(ro.platforma_broker.ws.travel.types.TravelSalvareRequest)">1</method>
+			<method name="public abstract ro.platforma_broker.ws.travel.types.TravelCotatieResponse cotatie(ro.platforma_broker.ws.travel.types.TravelCotatieRequest)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.ObjectFactory</name>
+		<wmc>78</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>21</cbo>
+		<rfc>90</rfc>
+		<lcom>2853</lcom>
+		<ca>0</ca>
+		<ce>21</ce>
+		<npm>77</npm>
+		<lcom3>0.9852520360994936</lcom3>
+		<loc>1067</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.07192807192807193</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>11.923076923076923</amc>
+		<cc>
+			<method name="public ro.platforma_broker.ws.travel.types.TravelCotatieRequest createTravelCotatieRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestSumaAsigurataRiscSuplimentarStornoInEuro(java.math.BigDecimal arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TravelSalvareRequest createTravelSalvareRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAdresaBloc(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProdusTravel(ro.platforma_broker.ws.travel.types.ProdusTravel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestAstraTariTranzit(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieResponseCotatii(ro.platforma_broker.ws.travel.types.ArrayOfTravelCotatie arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfProdusTravel(ro.platforma_broker.ws.travel.types.ArrayOfProdusTravel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareResponse(ro.platforma_broker.ws.travel.types.TravelSalvareResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsiguratEmail(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieEmailAgentVoucher(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAcoperireBunuriElectronice(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsiguratNumarTelefon(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAdresa(ro.platforma_broker.ws.travel.types.Adresa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieRequest(ro.platforma_broker.ws.travel.types.TravelCotatieRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieRequestAllianzProduct(org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieAllianz arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieRequestCodVoucher(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestAllianzProduct(org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieAllianz arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieRequestSumaAsigurataRiscSuplimentarStornoInEuro(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareResponseMesajEroare(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTara(ro.platforma_broker.ws.travel.types.Tara arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TravelSalvareResponse createTravelSalvareResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsiguratNumarFax(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieRequestAltaSumaAsigurataInEuro(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTipPolita(ro.platforma_broker.ws.travel.types.TipPolita arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieRequestSumaAsigurataRiscSuplimentarLegalInEuro(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAdresaApartament(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestNumarComanda(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieMesajEroare(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieRequestCreditEruopeProduct(org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieCreditEurope arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsiguratAdresa(ro.platforma_broker.ws.travel.types.Adresa arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestAdresaLivare(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTipCalatorie(ro.platforma_broker.ws.travel.types.TipCalatorie arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsiguratPrenume(String arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.Asigurat createAsigurat()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatiePrimaRON(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAdresaStrada(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieResponse(ro.platforma_broker.ws.travel.types.TravelCotatieResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestEmailPersoanaContact(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestAstraMentiuniSpeciale(String arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.ArrayOfTravelCotatie createArrayOfTravelCotatie()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsigurat(ro.platforma_broker.ws.travel.types.Asigurat arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieSumaAsigurataEUR(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestReducereaSeAplicaLaPrima(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsiguratSerieSiNumarPasaport(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestTelefonPersoanaContact(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestNumePersoanaContact(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDomeniuActivitate(ro.platforma_broker.ws.travel.types.DomeniuActivitate arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TravelCotatieResponse createTravelCotatieResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAdresaNumarStrada(String arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.Adresa createAdresa()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatieRequestPlanCalatorieATEInsurance(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareResponseEmailAgent(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelCotatie(ro.platforma_broker.ws.travel.types.TravelCotatie arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TravelCotatie createTravelCotatie()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTravelCotatie(ro.platforma_broker.ws.travel.types.ArrayOfTravelCotatie arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestDetaliiPlata(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestCreditEruopeProduct(org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieCreditEurope arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTipReducere(ro.platforma_broker.ws.travel.types.TipReducere arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestAltaSumaAsigurataInEuro(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestSumaAsigurataRiscSuplimentarLegalInEuro(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAdresaLocalitate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAcoperireCalatorie(ro.platforma_broker.ws.travel.types.AcoperireCalatorie arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSumaAsigurata(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsiguratEsteElevSauStudent(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestCodVoucher(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequest(ro.platforma_broker.ws.travel.types.TravelSalvareRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAsiguratNume(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAcoperireBagaje(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAdresaCodPostal(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createJudet(ro.platforma_broker.ws.travel.types.Judet arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAdresaScara(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public ro.platforma_broker.ws.travel.types.ArrayOfProdusTravel createArrayOfProdusTravel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTravelSalvareRequestPretRedus(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createStareSanatate(ro.platforma_broker.ws.travel.types.StareSanatate arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createScopCalatorie(ro.platforma_broker.ws.travel.types.ScopCalatorie arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.SalvareCerereResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getSalvareCerereResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSalvareCerereResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.ArrayOfTravelCotatie</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTravelCotatie()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.ProdusTravel</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9545454545454545</lcom3>
+		<loc>300</loc>
+		<dam>0.09090909090909091</dam>
+		<moa>21</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>45.333333333333336</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.ProdusTravel[] values()">1</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.ProdusTravel valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.ProdusTravel fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.SalvareCerere</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.TravelCotatieRequest</name>
+		<wmc>43</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>44</rfc>
+		<lcom>861</lcom>
+		<ca>3</ca>
+		<ce>8</ce>
+		<npm>43</npm>
+		<lcom3>0.9761904761904762</lcom3>
+		<loc>214</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.11449016100178891</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.488372093023256</amc>
+		<cc>
+			<method name="public void setDataSfarsitValabilitate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setExtindereAcoperireSporturiPericuloase(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAltaSumaAsigurataInEuro()">1</method>
+			<method name="public void setDataInceputValabilitate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.ArrayOfProdusTravel getProduse()">1</method>
+			<method name="public void setScopCalatorie(ro.platforma_broker.ws.travel.types.ScopCalatorie arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSumaAsigurataRiscSuplimentarStornoInEuro()">1</method>
+			<method name="public void setAcoperiereBagajeInEuro(String arg0)">1</method>
+			<method name="public void setAcoperireCalatorie(ro.platforma_broker.ws.travel.types.AcoperireCalatorie arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TipReducere getTipReducere()">1</method>
+			<method name="public Boolean isExtindereAcoperireSporturiPericuloase()">1</method>
+			<method name="public void setSumaAsigurataInEuro(String arg0)">1</method>
+			<method name="public void setTaraDestinatieFinala(ro.platforma_broker.ws.travel.types.Tara arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.Asigurat getAsigurat()">1</method>
+			<method name="public void setAsigurat(ro.platforma_broker.ws.travel.types.Asigurat arg0)">1</method>
+			<method name="public void setAltaSumaAsigurataInEuro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodVoucher()">1</method>
+			<method name="public String getAcoperireBunuriElectroniceInEuro()">1</method>
+			<method name="public void setCreditEruopeProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.Tara getTaraDestinatieFinala()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataInceputValabilitate()">1</method>
+			<method name="public String getSumaAsigurataInEuro()">1</method>
+			<method name="public void setCodVoucher(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataSfarsitValabilitate()">1</method>
+			<method name="public void setTipCalatorie(ro.platforma_broker.ws.travel.types.TipCalatorie arg0)">1</method>
+			<method name="public void setTipReducere(ro.platforma_broker.ws.travel.types.TipReducere arg0)">1</method>
+			<method name="public String getAcoperiereBagajeInEuro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAllianzProduct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCreditEruopeProduct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPlanCalatorieATEInsurance()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSumaAsigurataRiscSuplimentarLegalInEuro()">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TipCalatorie getTipCalatorie()">1</method>
+			<method name="public void setSumaAsigurataRiscSuplimentarLegalInEuro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTipPolita(ro.platforma_broker.ws.travel.types.TipPolita arg0)">1</method>
+			<method name="public void setAllianzProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAcoperireBunuriElectroniceInEuro(String arg0)">1</method>
+			<method name="public void setSumaAsigurataRiscSuplimentarStornoInEuro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.ScopCalatorie getScopCalatorie()">1</method>
+			<method name="public void setPlanCalatorieATEInsurance(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.AcoperireCalatorie getAcoperireCalatorie()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setProduse(ro.platforma_broker.ws.travel.types.ArrayOfProdusTravel arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TipPolita getTipPolita()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ITravelServiceSalvareCerereValidationFaultFaultFaultMessage</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault arg1, Throwable arg2)">0</method>
+			<method name="public void _init_(String arg0, com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault arg1)">0</method>
+			<method name="public com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault getFaultInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.ArrayOfValidationDetail</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getValidationDetail()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.ObjectFactory</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>26</rfc>
+		<lcom>211</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>22</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>343</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.12215909090909091</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>13.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createGuid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDuration(javax.xml.datatype.Duration arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBoolean(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChar(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDecimal(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAnyType(Object arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLong(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBase64Binary(byte[] arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQName(javax.xml.namespace.QName arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedInt(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedLong(java.math.BigInteger arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedShort(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedByte(Short arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAnyURI(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createByte(Byte arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createInt(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createString(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createDouble(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFloat(Float arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShort(Short arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.ArrayOfProdusTravel</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getProdusTravel()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.Cotatie</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRequest(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.TravelSalvareResponse</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public Boolean isCerereSalvata()">1</method>
+			<method name="public void setCerereSalvata(Boolean arg0)">1</method>
+			<method name="public void setMesajEroare(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getEmailAgent()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMesajEroare()">1</method>
+			<method name="public void setEmailAgent(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.Asigurat</name>
+		<wmc>39</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>40</rfc>
+		<lcom>703</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>39</npm>
+		<lcom3>0.9736842105263158</lcom3>
+		<loc>194</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.21245421245421245</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4871794871794872</amc>
+		<cc>
+			<method name="public void setAreAltaBoala(boolean arg0)">1</method>
+			<method name="public void setCNP(String arg0)">1</method>
+			<method name="public void setEmail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNumarTelefon()">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.StareSanatate getStareSanatate()">1</method>
+			<method name="public void setAreBoalaBoalaAparatRespirator(boolean arg0)">1</method>
+			<method name="public void setSerieSiNumarPasaport(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAreBoalaNeuro(boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAdresa()">1</method>
+			<method name="public boolean isAreBoalaDefinitiva()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNumarFax()">1</method>
+			<method name="public void setDomeniuActivitateAsigurat(ro.platforma_broker.ws.travel.types.DomeniuActivitate arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getEsteElevSauStudent()">1</method>
+			<method name="public void setAreBoalaCardio(boolean arg0)">1</method>
+			<method name="public boolean isAreBoalaInterna()">1</method>
+			<method name="public void setAreBoalaDefinitiva(boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getEmail()">1</method>
+			<method name="public void setTipPersoanaAsigurat(org.datacontract.schemas._2004._07.brokerplatform_core_model.TipPersoana arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.DomeniuActivitate getDomeniuActivitateAsigurat()">1</method>
+			<method name="public void setPrenume(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAreBoalaGradInvaliditate(boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNume()">1</method>
+			<method name="public void setNume(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNumarTelefon(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public boolean isAreBoalaGradInvaliditate()">1</method>
+			<method name="public String getCNP()">1</method>
+			<method name="public boolean isAreBoalaBoalaAparatRespirator()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.brokerplatform_core_model.TipPersoana getTipPersoanaAsigurat()">1</method>
+			<method name="public boolean isAreBoalaNeuro()">1</method>
+			<method name="public void setAreBoalaInterna(boolean arg0)">1</method>
+			<method name="public void setStareSanatate(ro.platforma_broker.ws.travel.types.StareSanatate arg0)">1</method>
+			<method name="public boolean isAreBoalaCardio()">1</method>
+			<method name="public void setAdresa(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public boolean isAreAltaBoala()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSerieSiNumarPasaport()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setEsteElevSauStudent(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPrenume()">1</method>
+			<method name="public void setNumarFax(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.TipCalatorie</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipCalatorie valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipCalatorie fromValue(String arg0)">3</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipCalatorie[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.ObjectFactory</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>18</rfc>
+		<lcom>43</lcom>
+		<ca>0</ca>
+		<ce>9</ce>
+		<npm>10</npm>
+		<lcom3>0.875</lcom3>
+		<loc>99</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.25</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.636363636363637</amc>
+		<cc>
+			<method name="public ro.platforma_broker.ws.travel.SalvareCerere createSalvareCerere()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCotatieResponseCotatieResult(ro.platforma_broker.ws.travel.types.TravelCotatieResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSalvareCerereResponseSalvareCerereResult(ro.platforma_broker.ws.travel.types.TravelSalvareResponse arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.Cotatie createCotatie()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAuthenticationStatusFault(ro.platforma_broker.security.AuthenticationStatus arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCotatieRequest(ro.platforma_broker.ws.travel.types.TravelCotatieRequest arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public ro.platforma_broker.ws.travel.SalvareCerereResponse createSalvareCerereResponse()">1</method>
+			<method name="public ro.platforma_broker.ws.travel.CotatieResponse createCotatieResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSalvareCerereRequest(ro.platforma_broker.ws.travel.types.TravelSalvareRequest arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.TipReducere</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipReducere fromValue(String arg0)">3</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipReducere[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static ro.platforma_broker.ws.travel.types.TipReducere valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.practices.enterpriselibrary._2007._01.wcf.validation.ValidationFault</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDetails(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getDetails()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.brokerplatform_core_model.ObjectFactory</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>1</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>0.5</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.75</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createTipPersoana(org.datacontract.schemas._2004._07.brokerplatform_core_model.TipPersoana arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieCreditEurope</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.888888888888889</lcom3>
+		<loc>144</loc>
+		<dam>0.2222222222222222</dam>
+		<moa>8</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>21.5</amc>
+		<cc>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieCreditEurope valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieCreditEurope fromValue(String arg0)">3</method>
+			<method name="public static org.datacontract.schemas._2004._07.brokerplatform_ws_travel.PlanCalatorieCreditEurope[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.ObjectFactory</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>26</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>8</npm>
+		<lcom3>0.875</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.40625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.11111111111111</amc>
+		<cc>
+			<method name="public org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.ArrayOfValidationDetail createArrayOfValidationDetail()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createValidationDetail(org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.ValidationDetail arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfValidationDetail(org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.ArrayOfValidationDetail arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createValidationDetailMessage(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createValidationDetailTag(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createValidationDetailKey(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.datacontract.schemas._2004._07.microsoft_practices_enterpriselibrary_validation_integration.ValidationDetail createValidationDetail()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.TravelSalvareRequest</name>
+		<wmc>61</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>62</rfc>
+		<lcom>1770</lcom>
+		<ca>3</ca>
+		<ce>8</ce>
+		<npm>61</npm>
+		<lcom3>0.9833333333333333</lcom3>
+		<loc>304</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.11475409836065574</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4918032786885247</amc>
+		<cc>
+			<method name="public void setDataSfarsitValabilitate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setExtindereAcoperireSporturiPericuloase(Boolean arg0)">1</method>
+			<method name="public void setProdusTravel(ro.platforma_broker.ws.travel.types.ProdusTravel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAltaSumaAsigurataInEuro()">1</method>
+			<method name="public void setDataInceputValabilitate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPretRedus()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSumaAsigurataRiscSuplimentarStornoInEuro()">1</method>
+			<method name="public void setTelefonPersoanaContact(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TipReducere getTipReducere()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNumarComanda()">1</method>
+			<method name="public void setTaraDestinatieFinala(ro.platforma_broker.ws.travel.types.Tara arg0)">1</method>
+			<method name="public void setAsigurat(ro.platforma_broker.ws.travel.types.Asigurat arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAstraTariTranzit()">1</method>
+			<method name="public String getAcoperireBunuriElectroniceInEuro()">1</method>
+			<method name="public void setCreditEruopeProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNumePersoanaContact()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataInceputValabilitate()">1</method>
+			<method name="public void setAdresaLivare(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodVoucher(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTipCalatorie(ro.platforma_broker.ws.travel.types.TipCalatorie arg0)">1</method>
+			<method name="public void setTipReducere(ro.platforma_broker.ws.travel.types.TipReducere arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAllianzProduct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCreditEruopeProduct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAstraMentiuniSpeciale()">1</method>
+			<method name="public void setAllianzProduct(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAstraMentiuniSpeciale(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.ScopCalatorie getScopCalatorie()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getEmailPersoanaContact()">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.AcoperireCalatorie getAcoperireCalatorie()">1</method>
+			<method name="public void setPretRedus(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTelefonPersoanaContact()">1</method>
+			<method name="public void setNumarComanda(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDetaliiPlata()">1</method>
+			<method name="public void setScopCalatorie(ro.platforma_broker.ws.travel.types.ScopCalatorie arg0)">1</method>
+			<method name="public void setNumePersoanaContact(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAcoperiereBagajeInEuro(String arg0)">1</method>
+			<method name="public void setAcoperireCalatorie(ro.platforma_broker.ws.travel.types.AcoperireCalatorie arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.ProdusTravel getProdusTravel()">1</method>
+			<method name="public void setDetaliiPlata(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Boolean isExtindereAcoperireSporturiPericuloase()">1</method>
+			<method name="public void setSumaAsigurataInEuro(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getReducereaSeAplicaLaPrima()">1</method>
+			<method name="public void setReducereaSeAplicaLaPrima(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.Asigurat getAsigurat()">1</method>
+			<method name="public void setAltaSumaAsigurataInEuro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAstraTariTranzit(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodVoucher()">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.Tara getTaraDestinatieFinala()">1</method>
+			<method name="public String getSumaAsigurataInEuro()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDataSfarsitValabilitate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAdresaLivare()">1</method>
+			<method name="public String getAcoperiereBagajeInEuro()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSumaAsigurataRiscSuplimentarLegalInEuro()">1</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TipCalatorie getTipCalatorie()">1</method>
+			<method name="public void setSumaAsigurataRiscSuplimentarLegalInEuro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTipPolita(ro.platforma_broker.ws.travel.types.TipPolita arg0)">1</method>
+			<method name="public void setAcoperireBunuriElectroniceInEuro(String arg0)">1</method>
+			<method name="public void setSumaAsigurataRiscSuplimentarStornoInEuro(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setEmailPersoanaContact(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public ro.platforma_broker.ws.travel.types.TipPolita getTipPolita()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.types.TravelCotatieResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCotatii()">1</method>
+			<method name="public void setCotatii(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.security.ObjectFactory</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>1</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>0.5</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.75</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createAuthenticationStatus(ro.platforma_broker.security.AuthenticationStatus arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ro.platforma_broker.ws.travel.CotatieResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCotatieResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCotatieResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>

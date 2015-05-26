@@ -1,0 +1,344 @@
+	<class>
+		<name>ch.comteach.contest.CreateAccessToken</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public String getCompany()">1</method>
+			<method name="public void setCompany(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.TaxSoap</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>3</rfc>
+		<lcom>3</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>2.0</lcom3>
+		<loc>3</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract ch.comteach.contest.CalculateSimpleResponse$CalculateSimpleResult calculateSimple(String, int, String, String, String, int, String, double, double)">1</method>
+			<method name="public abstract ch.comteach.contest.CheckTaxBoroughResponse$CheckTaxBoroughResult checkTaxBorough(String, String, String)">1</method>
+			<method name="public abstract String createAccessToken(String, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.ObjectFactory</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>18</rfc>
+		<lcom>36</lcom>
+		<ca>0</ca>
+		<ce>8</ce>
+		<npm>9</npm>
+		<lcom3>2.0</lcom3>
+		<loc>44</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.888888888888889</amc>
+		<cc>
+			<method name="public ch.comteach.contest.CalculateSimpleResponse$CalculateSimpleResult createCalculateSimpleResponseCalculateSimpleResult()">1</method>
+			<method name="public ch.comteach.contest.CreateAccessTokenResponse createCreateAccessTokenResponse()">1</method>
+			<method name="public ch.comteach.contest.CalculateSimple createCalculateSimple()">1</method>
+			<method name="public ch.comteach.contest.CreateAccessToken createCreateAccessToken()">1</method>
+			<method name="public ch.comteach.contest.CalculateSimpleResponse createCalculateSimpleResponse()">1</method>
+			<method name="public ch.comteach.contest.CheckTaxBorough createCheckTaxBorough()">1</method>
+			<method name="public ch.comteach.contest.CheckTaxBoroughResponse$CheckTaxBoroughResult createCheckTaxBoroughResponseCheckTaxBoroughResult()">1</method>
+			<method name="public ch.comteach.contest.CheckTaxBoroughResponse createCheckTaxBoroughResponse()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.Tax</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="public transient ch.comteach.contest.TaxSoap getTaxSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public ch.comteach.contest.TaxSoap getTaxSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.CalculateSimpleResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public ch.comteach.contest.CalculateSimpleResponse$CalculateSimpleResult getCalculateSimpleResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCalculateSimpleResult(ch.comteach.contest.CalculateSimpleResponse$CalculateSimpleResult arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.CheckTaxBorough</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setBorough(String arg0)">1</method>
+			<method name="public void setZIP(String arg0)">1</method>
+			<method name="public String getCanton()">1</method>
+			<method name="public String getZIP()">1</method>
+			<method name="public void setCanton(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getBorough()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.CalculateSimpleResponse$CalculateSimpleResult</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getContent()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.CreateAccessTokenResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCreateAccessTokenResult()">1</method>
+			<method name="public void setCreateAccessTokenResult(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.CheckTaxBoroughResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public ch.comteach.contest.CheckTaxBoroughResponse$CheckTaxBoroughResult getCheckTaxBoroughResult()">1</method>
+			<method name="public void setCheckTaxBoroughResult(ch.comteach.contest.CheckTaxBoroughResponse$CheckTaxBoroughResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.CheckTaxBoroughResponse$CheckTaxBoroughResult</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getContent()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>ch.comteach.contest.CalculateSimple</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getCanton()">1</method>
+			<method name="public void setNumberOfChildren(int arg0)">1</method>
+			<method name="public int getNumberOfChildren()">1</method>
+			<method name="public String getCivilState()">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public void setTaxableIncome(double arg0)">1</method>
+			<method name="public String getReligion()">1</method>
+			<method name="public double getTaxableIncome()">1</method>
+			<method name="public void setTaxableWealth(double arg0)">1</method>
+			<method name="public void setBorough(String arg0)">1</method>
+			<method name="public String getAccessToken()">1</method>
+			<method name="public void setReligion(String arg0)">1</method>
+			<method name="public double getTaxableWealth()">1</method>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public void setCivilState(String arg0)">1</method>
+			<method name="public void setCanton(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAccessToken(String arg0)">1</method>
+			<method name="public String getBorough()">1</method>
+		</cc>
+	</class>

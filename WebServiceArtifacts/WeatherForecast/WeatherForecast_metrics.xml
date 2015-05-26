@@ -1,0 +1,319 @@
+	<class>
+		<name>net.webservicex.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.GetWeatherByZipCode</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getZipCode()">1</method>
+			<method name="public void setZipCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.WeatherForecastSoap</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>2</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract net.webservicex.WeatherForecasts getWeatherByZipCode(String)">1</method>
+			<method name="public abstract net.webservicex.WeatherForecasts getWeatherByPlaceName(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.WeatherForecast</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public net.webservicex.WeatherForecastSoap getWeatherForecastSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public transient net.webservicex.WeatherForecastSoap getWeatherForecastSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.ObjectFactory</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>20</rfc>
+		<lcom>43</lcom>
+		<ca>0</ca>
+		<ce>7</ce>
+		<npm>9</npm>
+		<lcom3>0.8888888888888888</lcom3>
+		<loc>57</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5555555555555556</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.6</amc>
+		<cc>
+			<method name="public net.webservicex.GetWeatherByZipCodeResponse createGetWeatherByZipCodeResponse()">1</method>
+			<method name="public net.webservicex.ArrayOfWeatherData createArrayOfWeatherData()">1</method>
+			<method name="public net.webservicex.WeatherData createWeatherData()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public net.webservicex.GetWeatherByZipCode createGetWeatherByZipCode()">1</method>
+			<method name="public net.webservicex.GetWeatherByPlaceNameResponse createGetWeatherByPlaceNameResponse()">1</method>
+			<method name="public net.webservicex.WeatherForecasts createWeatherForecasts()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createWeatherForecasts(net.webservicex.WeatherForecasts arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public net.webservicex.GetWeatherByPlaceName createGetWeatherByPlaceName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.WeatherForecasts</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36764705882352944</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setLatitude(float arg0)">1</method>
+			<method name="public String getPlaceName()">1</method>
+			<method name="public void setStateCode(String arg0)">1</method>
+			<method name="public void setAllocationFactor(float arg0)">1</method>
+			<method name="public void setPlaceName(String arg0)">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public float getLatitude()">1</method>
+			<method name="public String getFipsCode()">1</method>
+			<method name="public float getAllocationFactor()">1</method>
+			<method name="public void setFipsCode(String arg0)">1</method>
+			<method name="public void setLongitude(float arg0)">1</method>
+			<method name="public void setDetails(net.webservicex.ArrayOfWeatherData arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getLongitude()">1</method>
+			<method name="public String getStateCode()">1</method>
+			<method name="public net.webservicex.ArrayOfWeatherData getDetails()">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.GetWeatherByPlaceName</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getPlaceName()">1</method>
+			<method name="public void setPlaceName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.GetWeatherByPlaceNameResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetWeatherByPlaceNameResult(net.webservicex.WeatherForecasts arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public net.webservicex.WeatherForecasts getGetWeatherByPlaceNameResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.WeatherData</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setWeatherImage(String arg0)">1</method>
+			<method name="public void setDay(String arg0)">1</method>
+			<method name="public void setMinTemperatureF(String arg0)">1</method>
+			<method name="public String getMinTemperatureF()">1</method>
+			<method name="public String getMinTemperatureC()">1</method>
+			<method name="public void setMaxTemperatureF(String arg0)">1</method>
+			<method name="public String getMaxTemperatureF()">1</method>
+			<method name="public void setMaxTemperatureC(String arg0)">1</method>
+			<method name="public void setMinTemperatureC(String arg0)">1</method>
+			<method name="public String getWeatherImage()">1</method>
+			<method name="public String getDay()">1</method>
+			<method name="public String getMaxTemperatureC()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.ArrayOfWeatherData</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWeatherData()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>net.webservicex.GetWeatherByZipCodeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetWeatherByZipCodeResult(net.webservicex.WeatherForecasts arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public net.webservicex.WeatherForecasts getGetWeatherByZipCodeResult()">1</method>
+		</cc>
+	</class>

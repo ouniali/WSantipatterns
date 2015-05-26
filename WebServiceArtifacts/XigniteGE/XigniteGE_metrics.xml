@@ -1,0 +1,957 @@
+	<class>
+		<name>com.xignite.services.GetWSJRatesTestResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfWSJRate getGetWSJRatesTestResult()">1</method>
+			<method name="public void setGetWSJRatesTestResult(com.xignite.services.ArrayOfWSJRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetH15Rates1</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetH15Rates1Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetH15Rates1Result(com.xignite.services.ArrayOfInterestRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.ArrayOfInterestRate getGetH15Rates1Result()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetH15RatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfInterestRate getGetH15RatesResult()">1</method>
+			<method name="public void setGetH15RatesResult(com.xignite.services.ArrayOfInterestRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastH15Rate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastWSJRateByMaturity</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setMaturity(String arg0)">1</method>
+			<method name="public com.xignite.services.WSJRateTypes getType()">1</method>
+			<method name="public String getMaturity()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setType(com.xignite.services.WSJRateTypes arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetWSJRates1Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetWSJRates1Result(com.xignite.services.ArrayOfWSJRate arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfWSJRate getGetWSJRates1Result()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfInterestRate</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getInterestRate()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.RateDescription</name>
+		<wmc>29</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>30</rfc>
+		<lcom>378</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>29</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>144</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.296551724137931</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4827586206896552</amc>
+		<cc>
+			<method name="public void setSeasonallyAdjusted(boolean arg0)">1</method>
+			<method name="public void setSuffix(String arg0)">1</method>
+			<method name="public void setMaturityUnit(com.xignite.services.MaturityUnitTypes arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setPrecision(int arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public boolean isSeasonallyAdjusted()">1</method>
+			<method name="public boolean isDiscontinued()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setMaturityCount(int arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setMaturity(String arg0)">1</method>
+			<method name="public String getAvailability()">1</method>
+			<method name="public int getMaturityCount()">1</method>
+			<method name="public String getSuffix()">1</method>
+			<method name="public com.xignite.services.MaturityUnitTypes getMaturityUnit()">1</method>
+			<method name="public void setFactor(int arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getService()">1</method>
+			<method name="public String getMaturity()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public int getFactor()">1</method>
+			<method name="public void setDiscontinued(boolean arg0)">1</method>
+			<method name="public void setService(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public int getPrecision()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAvailability(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteGE</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.xignite.services.XigniteGESoap getXigniteGESoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public com.xignite.services.XigniteGESoap getXigniteGESoap()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetWSJRates</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetWSJRates1</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Header</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>20</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getUsername()">1</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void setTracer(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setUsername(String arg0)">1</method>
+			<method name="public String getTracer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ArrayOfWSJRate</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWSJRate()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.WSJRate</name>
+		<wmc>25</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>5</ca>
+		<ce>2</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.296</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public int getMaturityInMonths()">1</method>
+			<method name="public String getEffectiveDate()">1</method>
+			<method name="public void setEffectiveDate(String arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getLastCondition()">1</method>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public void setMaturity(String arg0)">1</method>
+			<method name="public double getHigh()">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public double getLow()">1</method>
+			<method name="public double getValue()">1</method>
+			<method name="public void setHigh(double arg0)">1</method>
+			<method name="public void setRateType(com.xignite.services.WSJRateTypes arg0)">1</method>
+			<method name="public String getMaturity()">1</method>
+			<method name="public void setLow(double arg0)">1</method>
+			<method name="public com.xignite.services.WSJRateTypes getRateType()">1</method>
+			<method name="public void setRequestDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public double getChange()">1</method>
+			<method name="public void setMaturityInMonths(int arg0)">1</method>
+			<method name="public String getRequestDate()">1</method>
+			<method name="public void setChange(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLastCondition(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetWSJRatesTest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.InterestRate</name>
+		<wmc>19</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29473684210526313</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public int getMaturityInMonths()">1</method>
+			<method name="public String getEffectiveDate()">1</method>
+			<method name="public void setEffectiveDate(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getLastCondition()">1</method>
+			<method name="public void setRequestDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setDescription(com.xignite.services.RateDescription arg0)">1</method>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public String getText()">1</method>
+			<method name="public void setText(String arg0)">1</method>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public void setMaturityInMonths(int arg0)">1</method>
+			<method name="public com.xignite.services.RateDescription getDescription()">1</method>
+			<method name="public String getRequestDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLastCondition(String arg0)">1</method>
+			<method name="public double getValue()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastWSJRate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.WSJRateTypes getType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setType(com.xignite.services.WSJRateTypes arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastWSJRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.WSJRate getGetLastWSJRateResult()">1</method>
+			<method name="public void setGetLastWSJRateResult(com.xignite.services.WSJRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastWSJRateByDescriptionResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.WSJRate getGetLastWSJRateByDescriptionResult()">1</method>
+			<method name="public void setGetLastWSJRateByDescriptionResult(com.xignite.services.WSJRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.OutcomeTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.OutcomeTypes valueOf(String arg0)">1</method>
+			<method name="public static com.xignite.services.OutcomeTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.OutcomeTypes[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastWSJRateByDescription</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public com.xignite.services.WSJRateTypes getType()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setType(com.xignite.services.WSJRateTypes arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastWSJRateByMaturityResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.xignite.services.WSJRate getGetLastWSJRateByMaturityResult()">1</method>
+			<method name="public void setGetLastWSJRateByMaturityResult(com.xignite.services.WSJRate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.WSJRateTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9791666666666666</lcom3>
+		<loc>612</loc>
+		<dam>0.041666666666666664</dam>
+		<moa>47</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>93.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.WSJRateTypes fromValue(String arg0)">3</method>
+			<method name="public static com.xignite.services.WSJRateTypes[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.WSJRateTypes valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetWSJRatesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetWSJRatesResult(com.xignite.services.ArrayOfWSJRate arg0)">1</method>
+			<method name="public com.xignite.services.ArrayOfWSJRate getGetWSJRatesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetH15Rates</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAsOfDate(String arg0)">1</method>
+			<method name="public String getAsOfDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.GetLastH15RateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLastH15RateResult(com.xignite.services.InterestRate arg0)">1</method>
+			<method name="public com.xignite.services.InterestRate getGetLastH15RateResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.ObjectFactory</name>
+		<wmc>32</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>25</cbo>
+		<rfc>60</rfc>
+		<lcom>486</lcom>
+		<ca>0</ca>
+		<ce>25</ce>
+		<npm>31</npm>
+		<lcom3>0.967741935483871</lcom3>
+		<loc>211</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1935483870967742</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.4375</amc>
+		<cc>
+			<method name="public com.xignite.services.ArrayOfWSJRate createArrayOfWSJRate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInterestRate(com.xignite.services.InterestRate arg0)">1</method>
+			<method name="public com.xignite.services.GetLastWSJRateByMaturity createGetLastWSJRateByMaturity()">1</method>
+			<method name="public com.xignite.services.GetLastH15RateResponse createGetLastH15RateResponse()">1</method>
+			<method name="public com.xignite.services.Header createHeader()">1</method>
+			<method name="public com.xignite.services.GetLastH15Rate createGetLastH15Rate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHeader(com.xignite.services.Header arg0)">1</method>
+			<method name="public com.xignite.services.GetWSJRates1 createGetWSJRates1()">1</method>
+			<method name="public com.xignite.services.GetWSJRates1Response createGetWSJRates1Response()">1</method>
+			<method name="public com.xignite.services.GetH15Rates createGetH15Rates()">1</method>
+			<method name="public com.xignite.services.WSJRate createWSJRate()">1</method>
+			<method name="public com.xignite.services.GetLastWSJRate createGetLastWSJRate()">1</method>
+			<method name="public com.xignite.services.GetWSJRates createGetWSJRates()">1</method>
+			<method name="public com.xignite.services.RateDescription createRateDescription()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createWSJRate(com.xignite.services.WSJRate arg0)">1</method>
+			<method name="public com.xignite.services.GetH15Rates1Response createGetH15Rates1Response()">1</method>
+			<method name="public com.xignite.services.GetH15RatesResponse createGetH15RatesResponse()">1</method>
+			<method name="public com.xignite.services.Common createCommon()">1</method>
+			<method name="public com.xignite.services.GetLastWSJRateByDescriptionResponse createGetLastWSJRateByDescriptionResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfWSJRate(com.xignite.services.ArrayOfWSJRate arg0)">1</method>
+			<method name="public com.xignite.services.GetLastWSJRateByDescription createGetLastWSJRateByDescription()">1</method>
+			<method name="public com.xignite.services.GetWSJRatesResponse createGetWSJRatesResponse()">1</method>
+			<method name="public com.xignite.services.ArrayOfInterestRate createArrayOfInterestRate()">1</method>
+			<method name="public com.xignite.services.InterestRate createInterestRate()">1</method>
+			<method name="public com.xignite.services.GetWSJRatesTestResponse createGetWSJRatesTestResponse()">1</method>
+			<method name="public com.xignite.services.GetH15Rates1 createGetH15Rates1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfInterestRate(com.xignite.services.ArrayOfInterestRate arg0)">1</method>
+			<method name="public com.xignite.services.GetLastWSJRateResponse createGetLastWSJRateResponse()">1</method>
+			<method name="public com.xignite.services.GetWSJRatesTest createGetWSJRatesTest()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.xignite.services.GetLastWSJRateByMaturityResponse createGetLastWSJRateByMaturityResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.XigniteGESoap</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>9</rfc>
+		<lcom>36</lcom>
+		<ca>1</ca>
+		<ce>5</ce>
+		<npm>9</npm>
+		<lcom3>2.0</lcom3>
+		<loc>9</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7407407407407407</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.xignite.services.InterestRate getLastH15Rate(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfWSJRate getWSJRates(String)">1</method>
+			<method name="public abstract com.xignite.services.WSJRate getLastWSJRateByMaturity(com.xignite.services.WSJRateTypes, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfWSJRate getWSJRates1(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfWSJRate getWSJRatesTest(String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfInterestRate getH15Rates1(String)">1</method>
+			<method name="public abstract com.xignite.services.WSJRate getLastWSJRate(com.xignite.services.WSJRateTypes)">1</method>
+			<method name="public abstract com.xignite.services.WSJRate getLastWSJRateByDescription(com.xignite.services.WSJRateTypes, String)">1</method>
+			<method name="public abstract com.xignite.services.ArrayOfInterestRate getH15Rates(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.MaturityUnitTypes</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.xignite.services.MaturityUnitTypes[] values()">1</method>
+			<method name="public static com.xignite.services.MaturityUnitTypes fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.xignite.services.MaturityUnitTypes valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.xignite.services.Common</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>3</noc>
+		<cbo>5</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getDelay()">1</method>
+			<method name="public String getIdentity()">1</method>
+			<method name="public com.xignite.services.OutcomeTypes getOutcome()">1</method>
+			<method name="public void setIdentity(String arg0)">1</method>
+			<method name="public void setDelay(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setOutcome(com.xignite.services.OutcomeTypes arg0)">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>

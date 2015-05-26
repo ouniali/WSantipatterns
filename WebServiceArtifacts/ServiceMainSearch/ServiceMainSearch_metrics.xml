@@ -1,0 +1,4053 @@
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightTariffState</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDate()">1</method>
+			<method name="public void setDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAirseason()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAirseason(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setState(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>7</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9743589743589745</lcom3>
+		<loc>504</loc>
+		<dam>0.05128205128205128</dam>
+		<moa>38</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>76.5</amc>
+		<cc>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum[] values()">1</method>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaHotelItem</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getQuotaHotelItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetMinPrices</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFilter()">1</method>
+			<method name="public void setFilter(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.SearchGroupHotelResult</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getTourHotelGroups()">1</method>
+			<method name="public Boolean isHasMore()">1</method>
+			<method name="public void setHasMore(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTourHotelGroups(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.QuotaFlightsStateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getQuotaFlightsStateResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuotaFlightsStateResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetDataByToursResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetDataByToursResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGetDataByToursResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFilter4Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetFilter4Result(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGetFilter4Result()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.AirSeason</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTimeEnd()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getWeekDays()">1</method>
+			<method name="public void setDateBegin(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setCharterKey(Integer arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateEnd()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTimeBegin()">1</method>
+			<method name="public Integer getCharterKey()">1</method>
+			<method name="public void setDateEnd(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateBegin()">1</method>
+			<method name="public void setTimeEnd(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setWeekDays(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTimeBegin(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetPriceByKey</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDate()">1</method>
+			<method name="public void setSpoKey(Integer arg0)">1</method>
+			<method name="public void setDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public Integer getSpoKey()">1</method>
+			<method name="public Integer getPriceKey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPriceKey(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelCategory</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCodeGlobalLat()">1</method>
+			<method name="public void setCodeGlobalLat(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Hotel</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36904761904761907</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public Integer getHotelCategoryID()">1</method>
+			<method name="public void setHotelCategoryID(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHTTP()">1</method>
+			<method name="public void setHotelCategoryGlobal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelTown()">1</method>
+			<method name="public Integer getCityID()">1</method>
+			<method name="public void setRating(Double arg0)">1</method>
+			<method name="public void setHotelTownLat(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelCategory()">1</method>
+			<method name="public void setCityID(Integer arg0)">1</method>
+			<method name="public void setHotelTown(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getHotelCategoryGlobalID()">1</method>
+			<method name="public void setHTTP(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelTownLat()">1</method>
+			<method name="public Double getRating()">1</method>
+			<method name="public void setHotelCategoryGlobalID(Integer arg0)">1</method>
+			<method name="public Integer getCountryID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCountryID(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelCategoryGlobal()">1</method>
+			<method name="public void setHotelCategory(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.TouristCountDetail</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public Integer getMaxAdult()">1</method>
+			<method name="public Integer getMaxChild()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMaxChild(Integer arg0)">1</method>
+			<method name="public void setMaxAdult(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelItem</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotel()">1</method>
+			<method name="public void setIsGroupResult(Boolean arg0)">1</method>
+			<method name="public void setQuotaHotelRoomVariants(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Boolean isIsGroupResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getQuotaHotelRoomVariants()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelRoomVariant</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setTouristCountDetail(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelRoomCategoryKey(Integer arg0)">1</method>
+			<method name="public void setRoomVariant(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTouristCountDetail()">1</method>
+			<method name="public void setQuotaDateStates(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getHotelGlobalRoomCategoryKey()">1</method>
+			<method name="public void setAccomodations(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelRoomTypeKey(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRoomVariant()">1</method>
+			<method name="public Integer getHotelRoomCategoryKey()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAccomodations()">1</method>
+			<method name="public Integer getHotelRoomTypeKey()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getQuotaDateStates()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHotelGlobalRoomCategoryKey(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.SearchTourGroupByHotel</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFilter()">1</method>
+			<method name="public void setFilter(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ServiceMainSearch</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient org.tempuri.IServiceMainSearch getBasicHttpBindingIServiceMainSearch(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public org.tempuri.IServiceMainSearch getBasicHttpBindingIServiceMainSearch()">1</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatValue</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getStatValue()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.FlightPackets</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getPacketsBack()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPacketsTo()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPacketsBack(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPacketsTo(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.AirLine</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.RealCourse</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public Double getCourseTotal()">1</method>
+			<method name="public void setCourseInternal(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCurrencyCodeFrom()">1</method>
+			<method name="public void setCurrencyCodeFrom(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCurrencyCodeTo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Double getCourseCB()">1</method>
+			<method name="public void setCourseTotal(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCurrencyCodeTo()">1</method>
+			<method name="public void setCourseCB(Double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Double getCourseInternal()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetReservationState</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getReservationCode()">1</method>
+			<method name="public void setLogin(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getLogin()">1</method>
+			<method name="public void setPassword(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReservationCode(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Aircraft</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightTariffs</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getQuotaFlightTariffs()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.StatValue</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setKey(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getKey()">1</method>
+			<method name="public void setValue(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.QuotaFlightsState</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFilter()">1</method>
+			<method name="public void setFilter(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Country</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.SearchTourGroupByHotelResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchTourGroupByHotelResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getSearchTourGroupByHotelResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.TourHotelVariant</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36904761904761907</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getMeal()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateFlightDepartureB()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateFlightArrival()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateHotel()">1</method>
+			<method name="public void setQuotaStateHotel(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public void setQuotaStateFlightArrival(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public void setQuotaStateFlightArrivalB(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public void setQuotaStateFlightDepartureB(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateFlightArrivalB()">1</method>
+			<method name="public Double getPrice()">1</method>
+			<method name="public void setPrice(Double arg0)">1</method>
+			<method name="public void setTourPrice(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateFlightDeparture()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRoomCategory()">1</method>
+			<method name="public void setRoomType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setRoomCategory(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourPrice()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuotaStateFlightDeparture(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRoomType()">1</method>
+			<method name="public void setMeal(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetCountries</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.TourDate</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDate()">1</method>
+			<method name="public void setDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setPrices(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Boolean isHasMore()">1</method>
+			<method name="public void setHasMore(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getPrices()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.RoomCategory</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetDataByTours</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFilter()">1</method>
+			<method name="public void setFilter(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.TransportKind</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services.TransportKind valueOf(String arg0)">1</method>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services.TransportKind fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services.TransportKind[] values()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfRealCourse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRealCourse()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.arrays.ObjectFactory</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>11</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.8</lcom3>
+		<loc>48</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.666666666666667</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfshort(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfshort arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfshort createArrayOfshort()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfint(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint createArrayOfint()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Airport</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCtKey(Integer arg0)">1</method>
+			<method name="public Integer getCtKey()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFilter3Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetFilter3Result()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetFilter3Result(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaDateState</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getQuotaDateState()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetDataDistinctHotelsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetDataDistinctHotelsResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGetDataDistinctHotelsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Service</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setIsSubKey(Boolean arg0)">1</method>
+			<method name="public void setIsSubKey1(Boolean arg0)">1</method>
+			<method name="public Boolean isIsCity()">1</method>
+			<method name="public Boolean isIsSubKey2()">1</method>
+			<method name="public Boolean isIsSubKey1()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIsCity(Boolean arg0)">1</method>
+			<method name="public Boolean isIsSubKey()">1</method>
+			<method name="public void setIsSubKey2(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourPriceServiceInfo</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getTourPriceServiceInfo()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.IServiceMainSearch</name>
+		<wmc>20</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>13</cbo>
+		<rfc>20</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>12</ce>
+		<npm>20</npm>
+		<lcom3>2.0</lcom3>
+		<loc>20</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.32222222222222224</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult getDataByTours(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject getFilter3(Integer, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, javax.xml.datatype.XMLGregorianCalendar, javax.xml.datatype.XMLGregorianCalendar, Integer, Integer, Double, Double, org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum, String)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject getCityDeparture(Integer)">1</method>
+			<method name="public abstract Double getPriceByKey(Integer, javax.xml.datatype.XMLGregorianCalendar, Integer)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject getFilter2(Integer, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, javax.xml.datatype.XMLGregorianCalendar, javax.xml.datatype.XMLGregorianCalendar, Integer, Integer, org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum, String)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject getDictionary(Integer, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryEnum)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfRealCourse getCourse(Integer)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatItem getStat(Integer)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult getMinPrices(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult getData(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult getDataDistinctHotels(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject getFilter(Integer, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum)">1</method>
+			<method name="public abstract String getReservationState(String, String, String)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.SearchGroupHotelResult searchTourGroupByHotel(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightsState quotaFlightsState(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject getCityDepartureByTypeTour(Integer, Integer)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelsState quotaHotelsState(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services.FlightPackets getFlightPackets(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject getFilter4(Integer, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, Integer, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint, javax.xml.datatype.XMLGregorianCalendar, javax.xml.datatype.XMLGregorianCalendar, Integer, Integer, Double, Double, org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum, String)">1</method>
+			<method name="public abstract org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject getCountries()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametrDiagnostic</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setNotUseThread(Boolean arg0)">1</method>
+			<method name="public void setTimeIndexCreate(Integer arg0)">1</method>
+			<method name="public Integer getIterationFilterCOunt()">1</method>
+			<method name="public Boolean isNotUseThread()">1</method>
+			<method name="public Integer getIterationQuotaCheckCOunt()">1</method>
+			<method name="public void setIterationFilterCOunt(Integer arg0)">1</method>
+			<method name="public void setTimeSearch(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getTimeSearch()">1</method>
+			<method name="public void setIterationQuotaCheckCOunt(Integer arg0)">1</method>
+			<method name="public Integer getTimeIndexCreate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaHotelRoomVariant</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getQuotaHotelRoomVariant()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.TourHotelGroup</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotel()">1</method>
+			<method name="public void setTourPrice(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourHotelVariants()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourPrice()">1</method>
+			<method name="public void setTourHotelVariants(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getHotelKey()">1</method>
+			<method name="public void setHotelKey(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr</name>
+		<wmc>87</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>88</rfc>
+		<lcom>3655</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>87</npm>
+		<lcom3>0.9883720930232558</lcom3>
+		<loc>434</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1867816091954023</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4942528735632186</amc>
+		<cc>
+			<method name="public void setDurations(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Double getHotelRatingTo()">1</method>
+			<method name="public void setPriceMin(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAccommodationsCheck()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getLocalization()">1</method>
+			<method name="public void setPageNumber(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSender()">1</method>
+			<method name="public void setIsOnlyHot(Boolean arg0)">1</method>
+			<method name="public void setCountryKey(Integer arg0)">1</method>
+			<method name="public Boolean isIsQuotaFlightStop()">1</method>
+			<method name="public void setPaxAdultCount(Short arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTours()">1</method>
+			<method name="public void setDebug(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPaxChildAges(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateBegin()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotels()">1</method>
+			<method name="public Boolean isIsQuotaHotelWait()">1</method>
+			<method name="public Integer getPageSize()">1</method>
+			<method name="public void setHotelCategories(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSender(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getTransportKindId()">1</method>
+			<method name="public Boolean isIsQuotaFlightOk()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCityKey()">1</method>
+			<method name="public void setHotelsToExclude(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getPageNumber()">1</method>
+			<method name="public Short getPaxAdultCount()">1</method>
+			<method name="public void setHotelRatingFrom(Double arg0)">1</method>
+			<method name="public void setDateEnd(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCities()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMeals()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFacilities()">1</method>
+			<method name="public void setInGlobalCode(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCityKeyTo()">1</method>
+			<method name="public void setHotelRatingTo(Double arg0)">1</method>
+			<method name="public void setIsQuotaHotelOk(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelGroups()">1</method>
+			<method name="public void setIsQuotaFlightWait(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxChildAges()">1</method>
+			<method name="public void setAccommodationsCheck(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCurrencyIsoCode()">1</method>
+			<method name="public void setHotels(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getTourID()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateEnd()">1</method>
+			<method name="public void setPaxs(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Boolean isInGlobalCode()">1</method>
+			<method name="public void setSenderMarket(Integer arg0)">1</method>
+			<method name="public void setCityKey(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setPageSize(Integer arg0)">1</method>
+			<method name="public void setCityKeyTo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getCountryKey()">1</method>
+			<method name="public Boolean isIsOnlyHot()">1</method>
+			<method name="public void setMeals(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDebug()">1</method>
+			<method name="public void setTransportKind(org.datacontract.schemas._2004._07.mouzenidis_services.TransportKind arg0)">1</method>
+			<method name="public void setHotelGroups(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRoomCategories()">1</method>
+			<method name="public void setCurrencyIsoCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIsQuotaFlightStop(Boolean arg0)">1</method>
+			<method name="public void setTourTypes(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIsQuotaFlightOk(Boolean arg0)">1</method>
+			<method name="public void setIsQuotaHotelWait(Boolean arg0)">1</method>
+			<method name="public Integer getSenderMarket()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelCategories()">1</method>
+			<method name="public void setHotelFacilities(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelsToExclude()">1</method>
+			<method name="public void setDateBegin(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public Boolean isIsQuotaHotelOk()">1</method>
+			<method name="public Double getPriceMin()">1</method>
+			<method name="public Boolean isIsQuotaHotelStop()">1</method>
+			<method name="public void setPaxChildCount(Short arg0)">1</method>
+			<method name="public void setPriceMax(Double arg0)">1</method>
+			<method name="public void setTourID(Integer arg0)">1</method>
+			<method name="public void setTransportKindId(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxs()">1</method>
+			<method name="public void setCities(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Boolean isIsQuotaFlightWait()">1</method>
+			<method name="public void setTours(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourTypes()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDurations()">1</method>
+			<method name="public void setLocalization(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setIsQuotaHotelStop(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Short getPaxChildCount()">1</method>
+			<method name="public Double getPriceMax()">1</method>
+			<method name="public void setRoomCategories(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Double getHotelRatingFrom()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.TransportKind getTransportKind()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetDataResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetDataResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getGetDataResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFlightPackets</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFilter()">1</method>
+			<method name="public void setFilter(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatItem</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getStatItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.QuotaHotelsStateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setQuotaHotelsStateResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getQuotaHotelsStateResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.QuotaHotelsState</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFilter()">1</method>
+			<method name="public void setFilter(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetReservationStateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetReservationStateResult()">1</method>
+			<method name="public void setGetReservationStateResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetMinPricesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetMinPricesResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGetMinPricesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelsState</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setQuotaHotelItems(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getQuotaHotelItems()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFilterResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetFilterResult()">1</method>
+			<method name="public void setGetFilterResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetCourseResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetCourseResult()">1</method>
+			<method name="public void setGetCourseResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetData</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFilter()">1</method>
+			<method name="public void setFilter(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetCityDepartureByTypeTour</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public Integer getTypeTourID()">1</method>
+			<method name="public void setTypeTourID(Integer arg0)">1</method>
+			<method name="public Integer getCountryID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCountryID(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.Tour</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public Integer getCityKey()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourURL()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTypeTours()">1</method>
+			<method name="public void setRateIso(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTourURL(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCountryKey(Integer arg0)">1</method>
+			<method name="public Integer getTypeTour()">1</method>
+			<method name="public Integer getCountryKey()">1</method>
+			<method name="public void setCityKey(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRateIso()">1</method>
+			<method name="public void setTypeTours(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTypeTour(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ObjectFactory</name>
+		<wmc>137</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>39</cbo>
+		<rfc>172</rfc>
+		<lcom>9094</lcom>
+		<ca>0</ca>
+		<ce>39</ce>
+		<npm>136</npm>
+		<lcom3>0.9921109068627452</lcom3>
+		<loc>1765</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0428622668579627</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>11.182481751824817</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrAccommodationsCheck(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createStatItemStats(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatValue arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchResult(org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightTariffState(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightTariffState arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr createFilterParametr()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTourPriceServiceInfo(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourPriceServiceInfo arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightTariffs createArrayOfQuotaFlightTariffs()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaDateState createQuotaDateState()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaHotelRoomVariant createArrayOfQuotaHotelRoomVariant()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrTourTypes(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrLocalization(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfQuotaFlightItem(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaState(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfQuotaDateState(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaDateState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoDuration(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrDurations(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrCityKey(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightTariffState createQuotaFlightTariffState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrCities(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaDateState createArrayOfQuotaDateState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelGroupTourPrice(org.datacontract.schemas._2004._07.mouzenidis_services.TourPriceEx arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourPriceServiceInfo createArrayOfTourPriceServiceInfo()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.StatValue createStatValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceExTourTypeName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrHotels(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightsState createQuotaFlightsState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTourHotelGroup(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourHotelGroup arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelRoomVariantAccomodations(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfAccommodation arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightTariffs(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightTariffs arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourHotelVariant createArrayOfTourHotelVariant()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightItemAirports(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightItemCharterName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrHotelsToExclude(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelRoomVariantRoomVariant(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoRoomType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelVariantRoomType(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoCity(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.SearchGroupHotelResult createSearchGroupHotelResult()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightPackets(org.datacontract.schemas._2004._07.mouzenidis_services.FlightPackets arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.StatItem createStatItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelRoomVariant(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelRoomVariant arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightsState(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightsState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTourHotelVariant(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourHotelVariant arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoMeal(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelVariantRoomCategory(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrHotelFacilities(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelsState createQuotaHotelsState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfQuotaFlightTariffs(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightTariffs arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchResultPrices(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourPriceEx arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightTariffState createArrayOfQuotaFlightTariffState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightTariffsQuotaFlightTariffStates(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightTariffState arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelRoomVariant createQuotaHotelRoomVariant()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchGroupHotelResult(org.datacontract.schemas._2004._07.mouzenidis_services.SearchGroupHotelResult arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceExTourName(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatItem createArrayOfStatItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrPaxs(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelRoomVariantQuotaDateStates(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaDateState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelRoomVariantTouristCountDetail(org.datacontract.schemas._2004._07.mouzenidis_services_objects.TouristCountDetail arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelGroupTourHotelVariants(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourHotelVariant arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.TourPriceServiceInfo createTourPriceServiceInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfStatValue(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatValue arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelItemQuotaHotelRoomVariants(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaHotelRoomVariant arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrDebug(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametrDiagnostic arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightsStateQuotaBackFlightItems(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrHotelGroups(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaHotelItem createArrayOfQuotaHotelItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfStatItem(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTour(org.datacontract.schemas._2004._07.mouzenidis_services.Tour arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelVariant(org.datacontract.schemas._2004._07.mouzenidis_services.TourHotelVariant arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.TourPriceEx createTourPriceEx()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelItem createQuotaHotelItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfQuotaFlightTariffState(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightTariffState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrRoomCategories(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightItem(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightTariffsTariffName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfQuotaHotelItem(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaHotelItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelsStateQuotaHotelItems(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaHotelItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceEx(org.datacontract.schemas._2004._07.mouzenidis_services.TourPriceEx arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.FlightPackets createFlightPackets()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatValue createArrayOfStatValue()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createStatValueKey(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightPacketsPacketsBack(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourTourURL(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrHotelCategories(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoAccmd(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourTypeTours(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelGroup(org.datacontract.schemas._2004._07.mouzenidis_services.TourHotelGroup arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelVariantMeal(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchGroupHotelResultTourHotelGroups(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourHotelGroup arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.TourHotelGroup createTourHotelGroup()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrTours(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceExCityToName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrPaxChildAges(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfshort arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelGroupHotel(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Hotel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightTariffStateAirseason(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourHotelGroup createArrayOfTourHotelGroup()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourPriceEx createArrayOfTourPriceEx()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightItem createArrayOfQuotaFlightItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourRateIso(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createStatValueValue(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametrDiagnostic createFilterParametrDiagnostic()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaDateState(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaDateState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelItem(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelItem arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createStatItem(org.datacontract.schemas._2004._07.mouzenidis_services.StatItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoTown(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightsStateQuotaFlightItems(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoRoomCategory(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightItem createQuotaFlightItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightPacketsPacketsTo(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametr(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceExRate(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoURL(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightTariffsTariff(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTransportKind(org.datacontract.schemas._2004._07.mouzenidis_services.TransportKind arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfQuotaHotelRoomVariant(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaHotelRoomVariant arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createStatValue(org.datacontract.schemas._2004._07.mouzenidis_services.StatValue arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceExTourPriceServiceInfos(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourPriceServiceInfo arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.Tour createTour()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrCityKeyTo(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTourPriceEx(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourPriceEx arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.TourHotelVariant createTourHotelVariant()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfo(org.datacontract.schemas._2004._07.mouzenidis_services.TourPriceServiceInfo arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceServiceInfoHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrDiagnostic(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametrDiagnostic arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult createSearchResult()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelsState(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelsState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightItemAircraftName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrSender(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrMeals(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightItemQuotaFlightTariffs(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightTariffs arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightTariffs createQuotaFlightTariffs()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFilterParametrCurrencyIsoCode(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourHotelVariantTourPrice(org.datacontract.schemas._2004._07.mouzenidis_services.TourPriceEx arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelItemHotel(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Hotel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourPriceExTourUrl(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetCityDepartureByTypeTourResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetCityDepartureByTypeTourResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getGetCityDepartureByTypeTourResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfAccommodation</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAccommodation()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Transport</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPlaces(Integer arg0)">1</method>
+			<method name="public Integer getPlaces()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.City</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setIsDeparture(Boolean arg0)">1</method>
+			<method name="public Integer getRegionID()">1</method>
+			<method name="public void setHotelCount(Integer arg0)">1</method>
+			<method name="public void setRegionID(Integer arg0)">1</method>
+			<method name="public Integer getCountryID()">1</method>
+			<method name="public Boolean isIsDeparture()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCountryID(Integer arg0)">1</method>
+			<method name="public Integer getHotelCount()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelRoom</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public Integer getAccommodationID()">1</method>
+			<method name="public void setAccommodationID(Integer arg0)">1</method>
+			<method name="public Integer getRoomCategoryID()">1</method>
+			<method name="public void setRoomTypeID(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRoomCategoryID(Integer arg0)">1</method>
+			<method name="public Integer getRoomTypeID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Tariff</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getInt()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFilter2Response</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetFilter2Result(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGetFilter2Result()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Transfer</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTimeEnd()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPlaceFrom()">1</method>
+			<method name="public void setPlaceFrom(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getCtKey()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTimeBegin()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDuration()">1</method>
+			<method name="public void setCtKey(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPlaceTo()">1</method>
+			<method name="public void setTimeEnd(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setDuration(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTimeBegin(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPlaceTo(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetDictionary</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setCityDepartures(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getCountry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCityDepartures()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDictionaries()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDictionaries(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCountry(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetStat</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Integer getHash()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHash(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.ObjectFactory</name>
+		<wmc>125</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>51</cbo>
+		<rfc>168</rfc>
+		<lcom>7398</lcom>
+		<ca>0</ca>
+		<ce>51</ce>
+		<npm>124</npm>
+		<lcom3>0.9832661290322581</lcom3>
+		<loc>1233</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.11129032258064517</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.544</amc>
+		<cc>
+			<method name="public org.tempuri.GetMinPricesResponse createGetMinPricesResponse()">1</method>
+			<method name="public org.tempuri.GetStat createGetStat()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3Sender(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3Durations(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetDataByTours createGetDataByTours()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDictionaryResponseGetDictionaryResult(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2TourTypes(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2DateTo(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterCities(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetFilter4 createGetFilter4()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4Cities(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetFilter2 createGetFilter2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDataByToursResponseGetDataByToursResult(org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult arg0)">1</method>
+			<method name="public org.tempuri.GetFilter4Response createGetFilter4Response()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReservationStateResponseGetReservationStateResult(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFlightPacketsResponseGetFlightPacketsResult(org.datacontract.schemas._2004._07.mouzenidis_services.FlightPackets arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDictionaryCityDepartures(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFlightPacketsFilter(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2Durations(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3Categories(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4TourTypes(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetFilterResponse createGetFilterResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4Tours(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterResponseGetFilterResult(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterMeals(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3DateTo(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCountriesResponseGetCountriesResult(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public org.tempuri.GetCityDepartureByTypeTour createGetCityDepartureByTypeTour()">1</method>
+			<method name="public org.tempuri.QuotaFlightsStateResponse createQuotaFlightsStateResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2Sender(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2DateFrom(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4Sender(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4PaxAdult(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2Tours(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterTourTypes(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.SearchTourGroupByHotel createSearchTourGroupByHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2Cities(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetFilter2Response createGetFilter2Response()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchTourGroupByHotelResponseSearchTourGroupByHotelResult(org.datacontract.schemas._2004._07.mouzenidis_services.SearchGroupHotelResult arg0)">1</method>
+			<method name="public org.tempuri.GetFilter createGetFilter()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDataByToursFilter(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3TourTypes(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetFilter3 createGetFilter3()">1</method>
+			<method name="public org.tempuri.SearchTourGroupByHotelResponse createSearchTourGroupByHotelResponse()">1</method>
+			<method name="public org.tempuri.GetReservationStateResponse createGetReservationStateResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDictionaryDictionaries(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryEnum arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDataDistinctHotelsResponseGetDataDistinctHotelsResult(org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2PaxAdult(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterDepartureCityId(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetMinPricesResponseGetMinPricesResult(org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightsStateResponseQuotaFlightsStateResult(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightsState arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterCategories(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetDictionaryResponse createGetDictionaryResponse()">1</method>
+			<method name="public org.tempuri.GetMinPrices createGetMinPrices()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterHotels(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetCityDepartureResponse createGetCityDepartureResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3DepartureCityId(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelsStateFilter(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2Hotels(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaFlightsStateFilter(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public org.tempuri.GetDictionary createGetDictionary()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2ResponseGetFilter2Result(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3Hotels(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.QuotaHotelsState createQuotaHotelsState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4DateTo(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCityDepartureResponseGetCityDepartureResult(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDataDistinctHotelsFilter(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCityDepartureByTypeTourResponseGetCityDepartureByTypeTourResult(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public org.tempuri.GetCityDeparture createGetCityDeparture()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3Meals(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetCityDepartureByTypeTourResponse createGetCityDepartureByTypeTourResponse()">1</method>
+			<method name="public org.tempuri.GetDataDistinctHotels createGetDataDistinctHotels()">1</method>
+			<method name="public org.tempuri.QuotaFlightsState createQuotaFlightsState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4DateFrom(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterDurations(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3HotelGroups(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetStatResponse createGetStatResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4HotelFacilities(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3PaxChild(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3DateFrom(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetStatResponseGetStatResult(org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfStatItem arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4Categories(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public org.tempuri.GetCountriesResponse createGetCountriesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4DepartureCityId(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2DepartureCityId(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public org.tempuri.GetPriceByKeyResponse createGetPriceByKeyResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2PaxChild(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2Categories(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter2Meals(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQuotaHotelsStateResponseQuotaHotelsStateResult(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaHotelsState arg0)">1</method>
+			<method name="public org.tempuri.QuotaHotelsStateResponse createQuotaHotelsStateResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDataFilter(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public org.tempuri.GetCountries createGetCountries()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4HotelGroups(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCourseResponseGetCourseResult(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfRealCourse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchTourGroupByHotelFilter(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReservationStateLogin(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4Meals(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4Hotels(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilterTours(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4PaxChild(Integer arg0)">1</method>
+			<method name="public org.tempuri.GetReservationState createGetReservationState()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3PaxAdult(Integer arg0)">1</method>
+			<method name="public org.tempuri.GetCourse createGetCourse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3ResponseGetFilter3Result(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public org.tempuri.GetDataResponse createGetDataResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetMinPricesFilter(org.datacontract.schemas._2004._07.mouzenidis_services.FilterParametr arg0)">1</method>
+			<method name="public org.tempuri.GetFlightPacketsResponse createGetFlightPacketsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3HotelFacilities(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4Durations(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReservationStateReservationCode(String arg0)">1</method>
+			<method name="public org.tempuri.GetFilter3Response createGetFilter3Response()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDataResponseGetDataResult(org.datacontract.schemas._2004._07.mouzenidis_services.SearchResult arg0)">1</method>
+			<method name="public org.tempuri.GetData createGetData()">1</method>
+			<method name="public org.tempuri.GetFlightPackets createGetFlightPackets()">1</method>
+			<method name="public org.tempuri.GetCourseResponse createGetCourseResponse()">1</method>
+			<method name="public org.tempuri.GetDataDistinctHotelsResponse createGetDataDistinctHotelsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3Cities(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetReservationStatePassword(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter3Tours(com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfint arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFilter4ResponseGetFilter4Result(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public org.tempuri.GetPriceByKey createGetPriceByKey()">1</method>
+			<method name="public org.tempuri.GetDataByToursResponse createGetDataByToursResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.ObjectFactory</name>
+		<wmc>97</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>36</cbo>
+		<rfc>135</rfc>
+		<lcom>4532</lcom>
+		<ca>0</ca>
+		<ce>36</ce>
+		<npm>96</npm>
+		<lcom3>0.9892241379310346</lcom3>
+		<loc>1127</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.04276315789473684</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>10.02061855670103</amc>
+		<cc>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.AddDescript1 createAddDescript1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelHotelTown(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCharterFlight(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Airport createAirport()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTypeTour(org.datacontract.schemas._2004._07.mouzenidis_services_objects.TypeTour arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.TypeTour createTypeTour()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelFacility createHotelFacility()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCity(org.datacontract.schemas._2004._07.mouzenidis_services_objects.City arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCategoryCodeGlobalLat(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRealCourseCurrencyCodeFrom(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotel(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Hotel arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCharterCodePortDeparture(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.TourDate createTourDate()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Aircraft createAircraft()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Accommodation createAccommodation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelHotelCategoryGlobal(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.City createCity()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelHotelCategory(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDictionaryBaseGroupNameLat(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject createArrayOfReturnObject()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirLine(org.datacontract.schemas._2004._07.mouzenidis_services_objects.AirLine arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDictionaryBaseCodeGlobal(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDescript2(org.datacontract.schemas._2004._07.mouzenidis_services_objects.AddDescript2 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelFacility(org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelFacility arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelRoom(org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelRoom arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirSeason(org.datacontract.schemas._2004._07.mouzenidis_services_objects.AirSeason arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.RoomCategory createRoomCategory()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRoomType(org.datacontract.schemas._2004._07.mouzenidis_services_objects.RoomType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCharter(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Charter arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.ServiceList createServiceList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDictionaryBaseNameLat(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDictionaryBase(org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryBase arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfRealCourse(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfRealCourse arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.TouristCountDetail createTouristCountDetail()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Rate createRate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDictionaryEnum(org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCharterAirlineCode(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAccommodation(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Accommodation arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRoomCategory(org.datacontract.schemas._2004._07.mouzenidis_services_objects.RoomCategory arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createService(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Service arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountry(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Country arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfAccommodation(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfAccommodation arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelCategory(org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelCategory arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelHTTP(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAircraft(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Aircraft arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Charter createCharter()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Transport createTransport()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryBase createArrayOfDictionaryBase()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createServiceList(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ServiceList arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Service createService()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTariff(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Tariff arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfDictionaryBase(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryBase arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Meal createMeal()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.AirSeason createAirSeason()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Transfer createTransfer()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.ReturnObject createReturnObject()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTransferPlaceFrom(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTransfer(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Transfer arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.RealCourse createRealCourse()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryEnum createArrayOfDictionaryEnum()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReturnObjectItems(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryBase arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfAccommodation createArrayOfAccommodation()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Hotel createHotel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirSeasonWeekDays(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createRate(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Rate arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelGroup(org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelGroup arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createReturnObject(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ReturnObject arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Country createCountry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAddDescript1(org.datacontract.schemas._2004._07.mouzenidis_services_objects.AddDescript1 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTouristCountDetail(org.datacontract.schemas._2004._07.mouzenidis_services_objects.TouristCountDetail arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCharterAircraft(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfDictionaryEnum(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryEnum arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelRoom createHotelRoom()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRealCourse(org.datacontract.schemas._2004._07.mouzenidis_services_objects.RealCourse arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.Tariff createTariff()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelGroup createHotelGroup()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDictionaryBaseName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createHotelHotelTownLat(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRealCourseCurrencyCodeTo(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.AirLine createAirLine()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirport(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Airport arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDictionaryBaseCode(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.RoomType createRoomType()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryBase createDictionaryBase()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDictionaryBaseGroupName(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfReturnObject(org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTransferPlaceTo(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfRealCourse createArrayOfRealCourse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTourDate(org.datacontract.schemas._2004._07.mouzenidis_services_objects.TourDate arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTransferDuration(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.AddDescript2 createAddDescript2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTransport(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Transport arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCharterCodePortArrival(String arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelCategory createHotelCategory()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMeal(org.datacontract.schemas._2004._07.mouzenidis_services_objects.Meal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.StatItem</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDate()">1</method>
+			<method name="public void setDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public Integer getHash()">1</method>
+			<method name="public void setStats(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Boolean isIsComplete()">1</method>
+			<method name="public void setIsComplete(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getStats()">1</method>
+			<method name="public void setHash(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Accommodation</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setAge2From(Short arg0)">1</method>
+			<method name="public Short getAge1From()">1</method>
+			<method name="public void setPlaceAdult(Integer arg0)">1</method>
+			<method name="public Short getAge1To()">1</method>
+			<method name="public void setAge1To(Short arg0)">1</method>
+			<method name="public void setAge1From(Short arg0)">1</method>
+			<method name="public Integer getPlaceChild()">1</method>
+			<method name="public Short getAge2To()">1</method>
+			<method name="public void setAge2To(Short arg0)">1</method>
+			<method name="public void setPlaceChild(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Short getAge2From()">1</method>
+			<method name="public Integer getPlaceAdult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetCountriesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetCountriesResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetCountriesResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Charter</name>
+		<wmc>15</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getCodePortArrival()">1</method>
+			<method name="public void setCityArrivalKey(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getFlight()">1</method>
+			<method name="public void setAircraft(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCodePortDeparture(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAirlineCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCityDepartureKey(Integer arg0)">1</method>
+			<method name="public void setCodePortArrival(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getCityArrivalKey()">1</method>
+			<method name="public void setFlight(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getCityDepartureKey()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodePortDeparture()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAircraft()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getAirlineCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.ServiceList</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void set?ityKey(Integer arg0)">1</method>
+			<method name="public Integer getSvKey()">1</method>
+			<method name="public Integer get?ityKey()">1</method>
+			<method name="public void set?ountryKey(Integer arg0)">1</method>
+			<method name="public void setSvKey(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer get?ountryKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetPriceByKeyResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Double getGetPriceByKeyResult()">1</method>
+			<method name="public void setGetPriceByKeyResult(Double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.TourPriceServiceInfo</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.494949494949495</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public Integer getDay()">1</method>
+			<method name="public Integer getCityKey()">1</method>
+			<method name="public void setDay(Integer arg0)">1</method>
+			<method name="public void setAccmd(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCityKey(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDuration()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotel()">1</method>
+			<method name="public void setMealKey(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getURL()">1</method>
+			<method name="public void setDuration(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setURL(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCity(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getHotelKey()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRoomType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getAccmd()">1</method>
+			<method name="public void setMeal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTown(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMeal()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCity()">1</method>
+			<method name="public void setAccmdId(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTown()">1</method>
+			<method name="public Integer getAccmdId()">1</method>
+			<method name="public void setMealGlobalKey(Integer arg0)">1</method>
+			<method name="public void setHotelKey(Integer arg0)">1</method>
+			<method name="public void setHotel(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getMealGlobalKey()">1</method>
+			<method name="public void setHotelCategoryGlobalKey(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRoomCategory()">1</method>
+			<method name="public void setRoomType(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setRoomCategory(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getHotelCategoryGlobalKey()">1</method>
+			<method name="public Integer getMealKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryBase</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDictionaryBase()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightItem</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getAircraftName()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCharterName()">1</method>
+			<method name="public void setAirports(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setAircraftName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getCityFrom()">1</method>
+			<method name="public void setCharterName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getCityTo()">1</method>
+			<method name="public void setCityTo(Integer arg0)">1</method>
+			<method name="public Integer getCharterId()">1</method>
+			<method name="public void setCityFrom(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getQuotaFlightTariffs()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getAirports()">1</method>
+			<method name="public void setCharterId(Integer arg0)">1</method>
+			<method name="public void setQuotaFlightTariffs(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetDataDistinctHotels</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getFilter()">1</method>
+			<method name="public void setFilter(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.ReturnObject</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum getType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getItems()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setType(org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum arg0)">1</method>
+			<method name="public void setItems(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Meal</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourHotelGroup</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getTourHotelGroup()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfReturnObject</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturnObject()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetStatResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetStatResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetStatResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.ArrayOfDictionaryEnum</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDictionaryEnum()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightTariffState</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getQuotaFlightTariffState()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourPriceEx</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTourPriceEx()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryBase</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>29</noc>
+		<cbo>30</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>30</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49122807017543857</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setCode(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setOrder(Integer arg0)">1</method>
+			<method name="public Integer getID()">1</method>
+			<method name="public Integer getOrder()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGroupNameLat()">1</method>
+			<method name="public void setName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setGroupName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setNameLat(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGroupName()">1</method>
+			<method name="public void setCodeGlobal(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCodeGlobal()">1</method>
+			<method name="public void setID(Integer arg0)">1</method>
+			<method name="public Integer getGroupOrder()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCode()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getNameLat()">1</method>
+			<method name="public void setGroupNameLat(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getName()">1</method>
+			<method name="public void setGroupOrder(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetDictionaryResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetDictionaryResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetDictionaryResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFlightPacketsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetFlightPacketsResult()">1</method>
+			<method name="public void setGetFlightPacketsResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaDateState</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDate()">1</method>
+			<method name="public void setDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getState()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setState(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightsState</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setQuotaBackFlightItems(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getQuotaFlightItems()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getQuotaBackFlightItems()">1</method>
+			<method name="public void setQuotaFlightItems(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.arrays.ArrayOfshort</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getShort()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.AddDescript2</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Integer getSvKey()">1</method>
+			<method name="public void setSvKey(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfTourHotelVariant</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTourHotelVariant()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.875</lcom3>
+		<loc>132</loc>
+		<dam>0.25</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>19.666666666666668</amc>
+		<cc>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState fromValue(String arg0)">3</method>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.AddDescript1</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Integer getSvKey()">1</method>
+			<method name="public void setSvKey(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFilter</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36904761904761907</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setCategories(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDurations(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCountryId(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDepartureCityId()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTours()">1</method>
+			<method name="public void setCities(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCities()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMeals()">1</method>
+			<method name="public void setMeals(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotels()">1</method>
+			<method name="public void setChangedItem(org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum arg0)">1</method>
+			<method name="public Integer getCountryId()">1</method>
+			<method name="public void setTours(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCategories()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum getChangedItem()">1</method>
+			<method name="public void setDepartureCityId(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourTypes()">1</method>
+			<method name="public void setTourTypes(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDurations()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHotels(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelFacility</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.ObjectFactory</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>26</rfc>
+		<lcom>211</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>22</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>343</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.12215909090909091</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>13.0</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createGuid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDuration(javax.xml.datatype.Duration arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBoolean(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChar(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDecimal(java.math.BigDecimal arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAnyType(Object arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLong(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBase64Binary(byte[] arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createQName(javax.xml.namespace.QName arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedInt(Long arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedLong(java.math.BigInteger arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedShort(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUnsignedByte(Short arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAnyURI(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDateTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createByte(Byte arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createInt(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createString(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createDouble(Double arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFloat(Float arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShort(Short arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetCityDeparture</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Integer getCountryID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCountryID(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFilter4</name>
+		<wmc>41</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>42</rfc>
+		<lcom>780</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>41</npm>
+		<lcom3>0.975</lcom3>
+		<loc>204</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2975609756097561</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4878048780487805</amc>
+		<cc>
+			<method name="public void setDurations(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Double getHotelRatingTo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxChild()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSender()">1</method>
+			<method name="public void setCountryId(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDepartureCityId()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTours()">1</method>
+			<method name="public void setMeals(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotels()">1</method>
+			<method name="public void setPaxAdult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setChangedItem(org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum arg0)">1</method>
+			<method name="public Integer getCountryId()">1</method>
+			<method name="public void setDateFrom(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelGroups(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDepartureCityId(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTourTypes(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelFacilities(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDateTo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Integer getTransportKindId()">1</method>
+			<method name="public void setSender(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCategories(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTransportKindId(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxAdult()">1</method>
+			<method name="public void setHotelRatingFrom(Double arg0)">1</method>
+			<method name="public void setCities(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCities()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMeals()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFacilities()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDateFrom()">1</method>
+			<method name="public void setTours(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCategories()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum getChangedItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourTypes()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDurations()">1</method>
+			<method name="public void setPaxChild(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelRatingTo(Double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelGroups()">1</method>
+			<method name="public Double getHotelRatingFrom()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDateTo()">1</method>
+			<method name="public void setHotels(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.QuotaFlightTariffs</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setQuotaFlightTariffStates(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTariff(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTariff()">1</method>
+			<method name="public void setTariffName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getQuotaFlightTariffStates()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTariffId(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTariffName()">1</method>
+			<method name="public Integer getTariffId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFilter3</name>
+		<wmc>39</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>40</rfc>
+		<lcom>703</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>39</npm>
+		<lcom3>0.9736842105263158</lcom3>
+		<loc>194</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29743589743589743</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4871794871794872</amc>
+		<cc>
+			<method name="public void setDurations(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Double getHotelRatingTo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxChild()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSender()">1</method>
+			<method name="public void setCountryId(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDepartureCityId()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTours()">1</method>
+			<method name="public void setMeals(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotels()">1</method>
+			<method name="public void setPaxAdult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setChangedItem(org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum arg0)">1</method>
+			<method name="public Integer getCountryId()">1</method>
+			<method name="public void setDateFrom(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelGroups(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDepartureCityId(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTourTypes(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelFacilities(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDateTo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSender(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCategories(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxAdult()">1</method>
+			<method name="public void setHotelRatingFrom(Double arg0)">1</method>
+			<method name="public void setCities(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCities()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMeals()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelFacilities()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDateFrom()">1</method>
+			<method name="public void setTours(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCategories()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum getChangedItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourTypes()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDurations()">1</method>
+			<method name="public void setPaxChild(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setHotelRatingTo(Double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getHotelGroups()">1</method>
+			<method name="public Double getHotelRatingFrom()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDateTo()">1</method>
+			<method name="public void setHotels(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetFilter2</name>
+		<wmc>31</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3709677419354839</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public void setDurations(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxChild()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSender()">1</method>
+			<method name="public void setCountryId(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDepartureCityId()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTours()">1</method>
+			<method name="public void setMeals(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getHotels()">1</method>
+			<method name="public void setPaxAdult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setChangedItem(org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum arg0)">1</method>
+			<method name="public Integer getCountryId()">1</method>
+			<method name="public void setDateFrom(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDepartureCityId(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTourTypes(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setDateTo(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setSender(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setCategories(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPaxAdult()">1</method>
+			<method name="public void setCities(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCities()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getMeals()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDateFrom()">1</method>
+			<method name="public void setTours(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCategories()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services_objects.DictionaryEnum getChangedItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourTypes()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getDurations()">1</method>
+			<method name="public void setPaxChild(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getDateTo()">1</method>
+			<method name="public void setHotels(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.Rate</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.microsoft.schemas._2003._10.serialization.arrays.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.TypeTour</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setParentID(Integer arg0)">1</method>
+			<method name="public void setHasTours(Boolean arg0)">1</method>
+			<method name="public Boolean isHasTours()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getParentID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetCityDepartureResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetCityDepartureResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGetCityDepartureResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.RoomType</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setPlaces(Integer arg0)">1</method>
+			<method name="public void setPlacesEx(Integer arg0)">1</method>
+			<method name="public Integer getPlaces()">1</method>
+			<method name="public Integer getPlacesEx()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.TourPriceEx</name>
+		<wmc>45</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>46</rfc>
+		<lcom>946</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>45</npm>
+		<lcom3>0.9772727272727273</lcom3>
+		<loc>224</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2126984126984127</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.488888888888889</amc>
+		<cc>
+			<method name="public void setHasTickets(Boolean arg0)">1</method>
+			<method name="public void setTourTypeID(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourPriceServiceInfos()">1</method>
+			<method name="public Integer getID()">1</method>
+			<method name="public Integer getTransportTypeId()">1</method>
+			<method name="public void setTRID(Integer arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourTypeName()">1</method>
+			<method name="public void setQuotaStateFlightArrivalB(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public void setQuotaStateFlightDepartureB(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getDateBegin()">1</method>
+			<method name="public Integer getDuration()">1</method>
+			<method name="public void setPrice(Double arg0)">1</method>
+			<method name="public void setCityToKey(Integer arg0)">1</method>
+			<method name="public Integer getTRID()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourUrl()">1</method>
+			<method name="public void setCityToName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setQuotaStateFlightDeparture(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public void setTourPriceServiceInfos(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateFlightDepartureB()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getTourName()">1</method>
+			<method name="public void setDateBegin(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setRate(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateFlightArrival()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getRate()">1</method>
+			<method name="public void setTourID(Integer arg0)">1</method>
+			<method name="public void setDuration(Integer arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateHotel()">1</method>
+			<method name="public Integer getCityToKey()">1</method>
+			<method name="public void setTransportTypeId(Integer arg0)">1</method>
+			<method name="public void setQuotaStateHotel(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public Integer getHotLevel()">1</method>
+			<method name="public void setQuotaStateFlightArrival(org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState arg0)">1</method>
+			<method name="public Boolean isHasTickets()">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateFlightArrivalB()">1</method>
+			<method name="public void setTourName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setTourTypeName(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Double getPrice()">1</method>
+			<method name="public void setID(Integer arg0)">1</method>
+			<method name="public org.datacontract.schemas._2004._07.mouzenidis_services.QuotaState getQuotaStateFlightDeparture()">1</method>
+			<method name="public Integer getTourTypeID()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCityToName()">1</method>
+			<method name="public void setTourUrl(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHotLevel(Integer arg0)">1</method>
+			<method name="public Integer getTourID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services.ArrayOfQuotaFlightItem</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getQuotaFlightItem()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.tempuri.GetCourse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public Integer getHash()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHash(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.datacontract.schemas._2004._07.mouzenidis_services_objects.HotelGroup</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

@@ -1,0 +1,970 @@
+	<class>
+		<name>com.strikeiron.ws.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.GetStatusCodesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.strikeiron.SIWsOutputOfSIWsResultArrayOfMethodStatusRecord getGetStatusCodesResult()">1</method>
+			<method name="public void setGetStatusCodesResult(com.strikeiron.SIWsOutputOfSIWsResultArrayOfMethodStatusRecord arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ws.SubscriptionInfo</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public int getLicenseStatusCode()">1</method>
+			<method name="public int getRemainingHits()">1</method>
+			<method name="public void setLicenseStatus(String arg0)">1</method>
+			<method name="public void setAmount(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getAmount()">1</method>
+			<method name="public void setLicenseActionCode(int arg0)">1</method>
+			<method name="public String getLicenseAction()">1</method>
+			<method name="public String getLicenseStatus()">1</method>
+			<method name="public int getLicenseActionCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseStatusCode(int arg0)">1</method>
+			<method name="public void setLicenseAction(String arg0)">1</method>
+			<method name="public void setRemainingHits(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ws.GetRemainingHitsResponse</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ws.LicenseInfo</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setRegisteredUser(com.strikeiron.ws.RegisteredUser arg0)">1</method>
+			<method name="public void setUnregisteredUser(com.strikeiron.ws.UnregisteredUser arg0)">1</method>
+			<method name="public com.strikeiron.ws.RegisteredUser getRegisteredUser()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.strikeiron.ws.UnregisteredUser getUnregisteredUser()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.GetStatusCodes</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.MethodStatusRecord</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getMethodName()">1</method>
+			<method name="public void setMethodName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.GetGeocodeUSA</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setAddressLine2(String arg0)">1</method>
+			<method name="public void setCityStateZIPCode(String arg0)">1</method>
+			<method name="public void setAddressLine1(String arg0)">1</method>
+			<method name="public String getAddressLine2()">1</method>
+			<method name="public String getAddressLine1()">1</method>
+			<method name="public String getCityStateZIPCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.SIWsResultArrayOfServiceInfoRecord</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setResults(com.strikeiron.ArrayOfServiceInfoRecord arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.strikeiron.ArrayOfServiceInfoRecord getResults()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ArrayOfSIWsStatus</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSIWsStatus()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.GetGeocodeUSAResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.strikeiron.SIWsOutputOfUSGeocode getGetGeocodeUSAResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetGeocodeUSAResult(com.strikeiron.SIWsOutputOfUSGeocode arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.GetServiceInfo</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.SIWsOutputOfSIWsResultArrayOfServiceInfoRecord</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.strikeiron.SIWsStatus getServiceStatus()">1</method>
+			<method name="public void setServiceResult(com.strikeiron.SIWsResultArrayOfServiceInfoRecord arg0)">1</method>
+			<method name="public com.strikeiron.SIWsResultArrayOfServiceInfoRecord getServiceResult()">1</method>
+			<method name="public void setServiceStatus(com.strikeiron.SIWsStatus arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.USGeocodingSoap</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.strikeiron.SIWsOutputOfUSGeocode getGeocodeUSA(String, String, String)">1</method>
+			<method name="public abstract com.strikeiron.SIWsOutputOfSIWsResultArrayOfMethodStatusRecord getStatusCodes()">1</method>
+			<method name="public abstract com.strikeiron.SIWsOutputOfSIWsResultArrayOfServiceInfoRecord getServiceInfo()">1</method>
+			<method name="public abstract com.strikeiron.SIWsOutputOfMethodStatusRecord getStatusCodesForMethod(String)">1</method>
+			<method name="public abstract void getRemainingHits()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.SIWsResultArrayOfSIWsStatus</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.strikeiron.ArrayOfSIWsStatus getResults()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setResults(com.strikeiron.ArrayOfSIWsStatus arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ws.UnregisteredUser</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setEmailAddress(String arg0)">1</method>
+			<method name="public String getEmailAddress()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.GetServiceInfoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.strikeiron.SIWsOutputOfSIWsResultArrayOfServiceInfoRecord getGetServiceInfoResult()">1</method>
+			<method name="public void setGetServiceInfoResult(com.strikeiron.SIWsOutputOfSIWsResultArrayOfServiceInfoRecord arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.SIWsOutputOfUSGeocode</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setServiceResult(com.strikeiron.USGeocode arg0)">1</method>
+			<method name="public com.strikeiron.SIWsStatus getServiceStatus()">1</method>
+			<method name="public void setServiceStatus(com.strikeiron.SIWsStatus arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.strikeiron.USGeocode getServiceResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.GetStatusCodesForMethod</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getMethodName()">1</method>
+			<method name="public void setMethodName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.GetStatusCodesForMethodResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetStatusCodesForMethodResult(com.strikeiron.SIWsOutputOfMethodStatusRecord arg0)">1</method>
+			<method name="public com.strikeiron.SIWsOutputOfMethodStatusRecord getGetStatusCodesForMethodResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ObjectFactory</name>
+		<wmc>24</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>23</cbo>
+		<rfc>48</rfc>
+		<lcom>276</lcom>
+		<ca>0</ca>
+		<ce>23</ce>
+		<npm>24</npm>
+		<lcom3>2.0</lcom3>
+		<loc>119</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9583333333333335</amc>
+		<cc>
+			<method name="public com.strikeiron.SIWsResultArrayOfSIWsStatus createSIWsResultArrayOfSIWsStatus()">1</method>
+			<method name="public com.strikeiron.SIWsOutputOfMethodStatusRecord createSIWsOutputOfMethodStatusRecord()">1</method>
+			<method name="public com.strikeiron.GetGeocodeUSA createGetGeocodeUSA()">1</method>
+			<method name="public com.strikeiron.SIWsOutputOfSIWsResultArrayOfServiceInfoRecord createSIWsOutputOfSIWsResultArrayOfServiceInfoRecord()">1</method>
+			<method name="public com.strikeiron.SIWsStatus createSIWsStatus()">1</method>
+			<method name="public com.strikeiron.GetGeocodeUSAResponse createGetGeocodeUSAResponse()">1</method>
+			<method name="public com.strikeiron.GetStatusCodesForMethodResponse createGetStatusCodesForMethodResponse()">1</method>
+			<method name="public com.strikeiron.MethodStatusRecord createMethodStatusRecord()">1</method>
+			<method name="public com.strikeiron.ServiceInfoRecord createServiceInfoRecord()">1</method>
+			<method name="public com.strikeiron.ArrayOfSIWsStatus createArrayOfSIWsStatus()">1</method>
+			<method name="public com.strikeiron.SIWsResultArrayOfMethodStatusRecord createSIWsResultArrayOfMethodStatusRecord()">1</method>
+			<method name="public com.strikeiron.SIWsOutputOfUSGeocode createSIWsOutputOfUSGeocode()">1</method>
+			<method name="public com.strikeiron.SIWsResultArrayOfServiceInfoRecord createSIWsResultArrayOfServiceInfoRecord()">1</method>
+			<method name="public com.strikeiron.Geocode createGeocode()">1</method>
+			<method name="public com.strikeiron.GetStatusCodesForMethod createGetStatusCodesForMethod()">1</method>
+			<method name="public com.strikeiron.GetStatusCodesResponse createGetStatusCodesResponse()">1</method>
+			<method name="public com.strikeiron.SIWsOutputOfSIWsResultArrayOfMethodStatusRecord createSIWsOutputOfSIWsResultArrayOfMethodStatusRecord()">1</method>
+			<method name="public com.strikeiron.GetServiceInfo createGetServiceInfo()">1</method>
+			<method name="public com.strikeiron.USGeocode createUSGeocode()">1</method>
+			<method name="public com.strikeiron.ArrayOfServiceInfoRecord createArrayOfServiceInfoRecord()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.strikeiron.ArrayOfMethodStatusRecord createArrayOfMethodStatusRecord()">1</method>
+			<method name="public com.strikeiron.GetServiceInfoResponse createGetServiceInfoResponse()">1</method>
+			<method name="public com.strikeiron.GetStatusCodes createGetStatusCodes()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.Geocode</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setLongitude(double arg0)">1</method>
+			<method name="public void setLatitude(double arg0)">1</method>
+			<method name="public double getLatitude()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public double getLongitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.SIWsOutputOfSIWsResultArrayOfMethodStatusRecord</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.strikeiron.SIWsStatus getServiceStatus()">1</method>
+			<method name="public void setServiceStatus(com.strikeiron.SIWsStatus arg0)">1</method>
+			<method name="public com.strikeiron.SIWsResultArrayOfMethodStatusRecord getServiceResult()">1</method>
+			<method name="public void setServiceResult(com.strikeiron.SIWsResultArrayOfMethodStatusRecord arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ws.GetRemainingHits</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ArrayOfMethodStatusRecord</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getMethodStatusRecord()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.SIWsStatus</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setStatusDescription(String arg0)">1</method>
+			<method name="public int getStatusNbr()">1</method>
+			<method name="public void setStatusNbr(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStatusDescription()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.SIWsOutputOfMethodStatusRecord</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.strikeiron.SIWsStatus getServiceStatus()">1</method>
+			<method name="public com.strikeiron.MethodStatusRecord getServiceResult()">1</method>
+			<method name="public void setServiceStatus(com.strikeiron.SIWsStatus arg0)">1</method>
+			<method name="public void setServiceResult(com.strikeiron.MethodStatusRecord arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ServiceInfoRecord</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getInfoKey()">1</method>
+			<method name="public String getInfoValue()">1</method>
+			<method name="public void setInfoValue(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setInfoKey(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.USGeocoding</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient com.strikeiron.USGeocodingSoap getUSGeocodingSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.strikeiron.USGeocodingSoap getUSGeocodingSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ws.ObjectFactory</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>19</rfc>
+		<lcom>41</lcom>
+		<ca>0</ca>
+		<ce>6</ce>
+		<npm>9</npm>
+		<lcom3>0.8888888888888888</lcom3>
+		<loc>68</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4074074074074074</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.6</amc>
+		<cc>
+			<method name="public com.strikeiron.ws.LicenseInfo createLicenseInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSubscriptionInfo(com.strikeiron.ws.SubscriptionInfo arg0)">1</method>
+			<method name="public com.strikeiron.ws.GetRemainingHitsResponse createGetRemainingHitsResponse()">1</method>
+			<method name="public com.strikeiron.ws.UnregisteredUser createUnregisteredUser()">1</method>
+			<method name="public com.strikeiron.ws.SubscriptionInfo createSubscriptionInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLicenseInfo(com.strikeiron.ws.LicenseInfo arg0)">1</method>
+			<method name="public com.strikeiron.ws.RegisteredUser createRegisteredUser()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.strikeiron.ws.GetRemainingHits createGetRemainingHits()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.USGeocode</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getCensusTract()">1</method>
+			<method name="public void setCountyNumber(String arg0)">1</method>
+			<method name="public String getBlockGroup()">1</method>
+			<method name="public String getStateNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStateNumber(String arg0)">1</method>
+			<method name="public String getCountyNumber()">1</method>
+			<method name="public void setBlockGroup(String arg0)">1</method>
+			<method name="public void setCensusTract(String arg0)">1</method>
+			<method name="public void setBlockNumber(String arg0)">1</method>
+			<method name="public String getBlockNumber()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.SIWsResultArrayOfMethodStatusRecord</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setResults(com.strikeiron.ArrayOfMethodStatusRecord arg0)">1</method>
+			<method name="public com.strikeiron.ArrayOfMethodStatusRecord getResults()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ws.RegisteredUser</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getUserID()">1</method>
+			<method name="public void setUserID(String arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.strikeiron.ArrayOfServiceInfoRecord</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getServiceInfoRecord()">2</method>
+		</cc>
+	</class>
