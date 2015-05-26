@@ -1,0 +1,1274 @@
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.VOTABLE</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>13</rfc>
+		<lcom>47</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9333333333333333</lcom3>
+		<loc>70</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3409090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.818181818181818</amc>
+		<cc>
+			<method name="public void setDEFINITIONS(fr.u_strasbg.vizier.xml.votable_1_1.ArrayOfChoice1 arg0)">1</method>
+			<method name="public java.util.List getRESOURCE()">2</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT getDESCRIPTION()">1</method>
+			<method name="public void setDESCRIPTION(fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT arg0)">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getID()">1</method>
+			<method name="public java.util.List getINFO()">2</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.ArrayOfChoice1 getDEFINITIONS()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>edu.jhu.pha.skyservice.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.GROUP</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public void setRef(Object arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT getDESCRIPTION()">1</method>
+			<method name="public void setDESCRIPTION(fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT arg0)">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public Object getRef()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public String getUtype()">1</method>
+			<method name="public String getUcd()">1</method>
+			<method name="public void setUcd(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPARAMrefOrPARAMOrFIELD()">2</method>
+			<method name="public void setUtype(String arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>edu.jhu.pha.skyservice.ConeSearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.VOTABLE getConeSearchResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setConeSearchResult(fr.u_strasbg.vizier.xml.votable_1_1.VOTABLE arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.STREAMType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.STREAMType[] values()">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.STREAMType valueOf(String arg0)">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.STREAMType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.BINARY</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSTREAM(fr.u_strasbg.vizier.xml.votable_1_1.STREAM arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.STREAM getSTREAM()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.PARAMref</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRef(Object arg0)">1</method>
+			<method name="public Object getRef()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.VALUESType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.VALUESType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.VALUESType[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.VALUESType fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>edu.jhu.pha.skyservice.ConeSearch</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public double getRa()">1</method>
+			<method name="public double getDec()">1</method>
+			<method name="public double getSr()">1</method>
+			<method name="public void setRa(double arg0)">1</method>
+			<method name="public void setDec(double arg0)">1</method>
+			<method name="public void setSr(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.COOSYS</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>59</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.909090909090909</amc>
+		<cc>
+			<method name="public void setContent(String arg0)">1</method>
+			<method name="public String getEquinox()">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public void setEquinox(String arg0)">1</method>
+			<method name="public String getEpoch()">1</method>
+			<method name="public void setSystem(fr.u_strasbg.vizier.xml.votable_1_1.COOSYSSystem arg0)">1</method>
+			<method name="public String getContent()">1</method>
+			<method name="public void setEpoch(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getID()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.COOSYSSystem getSystem()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.DATA</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.TABLEDATA getTABLEDATA()">1</method>
+			<method name="public void setFITS(fr.u_strasbg.vizier.xml.votable_1_1.FITS arg0)">1</method>
+			<method name="public void setTABLEDATA(fr.u_strasbg.vizier.xml.votable_1_1.TABLEDATA arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.FITS getFITS()">1</method>
+			<method name="public void setBINARY(fr.u_strasbg.vizier.xml.votable_1_1.BINARY arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.BINARY getBINARY()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.ObjectFactory</name>
+		<wmc>28</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>24</cbo>
+		<rfc>55</rfc>
+		<lcom>374</lcom>
+		<ca>0</ca>
+		<ce>24</ce>
+		<npm>27</npm>
+		<lcom3>0.9629629629629629</lcom3>
+		<loc>158</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5370370370370371</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.571428571428571</amc>
+		<cc>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.TD createTD()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.TABLE createTABLE()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.FIELD createFIELD()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.INFO createINFO()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.FITS createFITS()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.MAX createMAX()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.TR createTR()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.RESOURCE createRESOURCE()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.OPTION createOPTION()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.MIN createMIN()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.VALUES createVALUES()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.GROUP createGROUP()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.LINK createLINK()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.ArrayOfChoice1 createArrayOfChoice1()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.FIELDref createFIELDref()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.PARAMref createPARAMref()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConeSearchResult(fr.u_strasbg.vizier.xml.votable_1_1.VOTABLE arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.VOTABLE createVOTABLE()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.STREAM createSTREAM()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT createAnyTEXT()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.COOSYS createCOOSYS()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createVOTABLE(fr.u_strasbg.vizier.xml.votable_1_1.VOTABLE arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.PARAM createPARAM()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.BINARY createBINARY()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.TABLEDATA createTABLEDATA()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.DATA createDATA()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.INFO</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setContent(String arg0)">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getContent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getID()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.TD</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setContent(String arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.EncodingType getEncoding()">1</method>
+			<method name="public void setEncoding(fr.u_strasbg.vizier.xml.votable_1_1.EncodingType arg0)">1</method>
+			<method name="public String getContent()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.TR</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTD()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.STREAMActuate</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.STREAMActuate fromValue(String arg0)">3</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.STREAMActuate valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.STREAMActuate[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.VALUES</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>82</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.23809523809523808</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.357142857142857</amc>
+		<cc>
+			<method name="public void setRef(Object arg0)">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.VALUESType getType()">2</method>
+			<method name="public Object getRef()">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.MIN getMIN()">1</method>
+			<method name="public void setMIN(fr.u_strasbg.vizier.xml.votable_1_1.MIN arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.MAX getMAX()">1</method>
+			<method name="public java.util.List getOPTION()">2</method>
+			<method name="public void setMAX(fr.u_strasbg.vizier.xml.votable_1_1.MAX arg0)">1</method>
+			<method name="public String getNull()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNull(String arg0)">1</method>
+			<method name="public void setType(fr.u_strasbg.vizier.xml.votable_1_1.VALUESType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.MIN</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>29</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.4</amc>
+		<cc>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.Yesno getInclusive()">2</method>
+			<method name="public void setInclusive(fr.u_strasbg.vizier.xml.votable_1_1.Yesno arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.RESOURCE</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>18</rfc>
+		<lcom>95</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>15</npm>
+		<lcom3>0.9642857142857143</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.31666666666666665</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.6</amc>
+		<cc>
+			<method name="public java.util.List getRESOURCE()">2</method>
+			<method name="public java.util.List getTABLE()">2</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT getDESCRIPTION()">1</method>
+			<method name="public java.util.List getCOOSYSOrINFOOrPARAM()">2</method>
+			<method name="public void setDESCRIPTION(fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT arg0)">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setType(fr.u_strasbg.vizier.xml.votable_1_1.RESOURCEType arg0)">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public java.util.List getLINK()">2</method>
+			<method name="public java.util.Map getOtherAttributes()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.RESOURCEType getType()">2</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.FIELDref</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRef(Object arg0)">1</method>
+			<method name="public Object getRef()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>edu.jhu.pha.skyservice.ObjectFactory</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>3</lcom>
+		<ca>0</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>2.0</lcom3>
+		<loc>14</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.6666666666666665</amc>
+		<cc>
+			<method name="public edu.jhu.pha.skyservice.ConeSearchResponse createConeSearchResponse()">1</method>
+			<method name="public edu.jhu.pha.skyservice.ConeSearch createConeSearch()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>edu.jhu.pha.skyservice.SdssConeSearch</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient edu.jhu.pha.skyservice.SdssConeSearchSoap getSdssConeSearchSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public edu.jhu.pha.skyservice.SdssConeSearchSoap getSdssConeSearchSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.RESOURCEType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.RESOURCEType[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.RESOURCEType valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.RESOURCEType fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.EncodingType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.EncodingType[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.EncodingType fromValue(String arg0)">3</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.EncodingType valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.COOSYSSystem</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>180</loc>
+		<dam>0.16666666666666666</dam>
+		<moa>11</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>27.0</amc>
+		<cc>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.COOSYSSystem fromValue(String arg0)">3</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.COOSYSSystem valueOf(String arg0)">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.COOSYSSystem[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.TABLE</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>15</rfc>
+		<lcom>68</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>13</npm>
+		<lcom3>0.9404761904761906</lcom3>
+		<loc>80</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.27692307692307694</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.615384615384615</amc>
+		<cc>
+			<method name="public void setRef(Object arg0)">1</method>
+			<method name="public java.util.List getPARAMOrFIELDOrGROUP()">2</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT getDESCRIPTION()">1</method>
+			<method name="public void setDESCRIPTION(fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT arg0)">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public Object getRef()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public java.util.List getLINK()">2</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.DATA getDATA()">1</method>
+			<method name="public void setDATA(fr.u_strasbg.vizier.xml.votable_1_1.DATA arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.LINKContentrole</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.LINKContentrole[] values()">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.LINKContentrole valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.LINKContentrole fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.Yesno</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.Yesno[] values()">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.Yesno valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.Yesno fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.OPTION</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public java.util.List getOPTION()">2</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.STREAM</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>89</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.466666666666667</amc>
+		<cc>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.STREAMType getType()">2</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.EncodingType getEncoding()">2</method>
+			<method name="public String getRights()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.STREAMActuate getActuate()">2</method>
+			<method name="public void setType(fr.u_strasbg.vizier.xml.votable_1_1.STREAMType arg0)">1</method>
+			<method name="public void setExpires(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setRights(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public void setHref(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void setEncoding(fr.u_strasbg.vizier.xml.votable_1_1.EncodingType arg0)">1</method>
+			<method name="public String getHref()">1</method>
+			<method name="public void setActuate(fr.u_strasbg.vizier.xml.votable_1_1.STREAMActuate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getExpires()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.DataType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9285714285714285</lcom3>
+		<loc>204</loc>
+		<dam>0.14285714285714285</dam>
+		<moa>13</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>30.666666666666668</amc>
+		<cc>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.DataType valueOf(String arg0)">1</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.DataType fromValue(String arg0)">3</method>
+			<method name="public static fr.u_strasbg.vizier.xml.votable_1_1.DataType[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.PARAM</name>
+		<wmc>28</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>30</rfc>
+		<lcom>352</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>28</npm>
+		<lcom3>0.9656084656084657</lcom3>
+		<loc>147</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.20918367346938777</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.75</amc>
+		<cc>
+			<method name="public void setPrecision(String arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT getDESCRIPTION()">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public Object getRef()">1</method>
+			<method name="public String getUnit()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.DataType getDatatype()">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public String getUtype()">1</method>
+			<method name="public String getPrecision()">1</method>
+			<method name="public String getUcd()">1</method>
+			<method name="public void setWidth(java.math.BigInteger arg0)">1</method>
+			<method name="public void setUcd(String arg0)">1</method>
+			<method name="public void setArraysize(String arg0)">1</method>
+			<method name="public void setUnit(String arg0)">1</method>
+			<method name="public String getArraysize()">1</method>
+			<method name="public void setUtype(String arg0)">1</method>
+			<method name="public void setDatatype(fr.u_strasbg.vizier.xml.votable_1_1.DataType arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setRef(Object arg0)">1</method>
+			<method name="public void setDESCRIPTION(fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT arg0)">1</method>
+			<method name="public void setVALUES(fr.u_strasbg.vizier.xml.votable_1_1.VALUES arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public java.math.BigInteger getWidth()">1</method>
+			<method name="public java.util.List getLINK()">2</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.VALUES getVALUES()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.FIELD</name>
+		<wmc>26</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>28</rfc>
+		<lcom>301</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>26</npm>
+		<lcom3>0.963076923076923</lcom3>
+		<loc>137</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2087912087912088</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.769230769230769</amc>
+		<cc>
+			<method name="public void setPrecision(String arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT getDESCRIPTION()">1</method>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public Object getRef()">1</method>
+			<method name="public String getUnit()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.DataType getDatatype()">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public String getUtype()">1</method>
+			<method name="public String getPrecision()">1</method>
+			<method name="public String getUcd()">1</method>
+			<method name="public void setWidth(java.math.BigInteger arg0)">1</method>
+			<method name="public void setUcd(String arg0)">1</method>
+			<method name="public void setArraysize(String arg0)">1</method>
+			<method name="public void setUnit(String arg0)">1</method>
+			<method name="public String getArraysize()">1</method>
+			<method name="public void setUtype(String arg0)">1</method>
+			<method name="public void setDatatype(fr.u_strasbg.vizier.xml.votable_1_1.DataType arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setRef(Object arg0)">1</method>
+			<method name="public void setDESCRIPTION(fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT arg0)">1</method>
+			<method name="public void setVALUES(fr.u_strasbg.vizier.xml.votable_1_1.VALUES arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public java.math.BigInteger getWidth()">1</method>
+			<method name="public java.util.List getLINK()">2</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.VALUES getVALUES()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.ArrayOfChoice1</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPARAMOrCOOSYS()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.MAX</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>29</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.4</amc>
+		<cc>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.Yesno getInclusive()">2</method>
+			<method name="public void setInclusive(fr.u_strasbg.vizier.xml.votable_1_1.Yesno arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>edu.jhu.pha.skyservice.SdssConeSearchSoap</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract fr.u_strasbg.vizier.xml.votable_1_1.VOTABLE coneSearch(double, double, double)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.AnyTEXT</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>7</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getContent()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.TABLEDATA</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTR()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.LINK</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49122807017543857</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setID(String arg0)">1</method>
+			<method name="public String getAction()">1</method>
+			<method name="public String getContentType()">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void setContentType(String arg0)">1</method>
+			<method name="public String getID()">1</method>
+			<method name="public void setAction(String arg0)">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.LINKContentrole getContentRole()">1</method>
+			<method name="public void setContent(String arg0)">1</method>
+			<method name="public void setContentRole(fr.u_strasbg.vizier.xml.votable_1_1.LINKContentrole arg0)">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setGref(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public void setHref(String arg0)">1</method>
+			<method name="public String getGref()">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getHref()">1</method>
+			<method name="public String getContent()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>fr.u_strasbg.vizier.xml.votable_1_1.FITS</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSTREAM(fr.u_strasbg.vizier.xml.votable_1_1.STREAM arg0)">1</method>
+			<method name="public java.math.BigInteger getExtnum()">1</method>
+			<method name="public fr.u_strasbg.vizier.xml.votable_1_1.STREAM getSTREAM()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setExtnum(java.math.BigInteger arg0)">1</method>
+		</cc>
+	</class>

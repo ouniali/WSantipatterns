@@ -1,0 +1,718 @@
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.CurrentAirlinesResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlineByFsCode</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesV1SoapService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlinesService getAirlinesServicePort()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public transient com.conducivetech.cache.airlines.v1.AirlinesService getAirlinesServicePort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesByIata</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void setIataCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIataCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesByIcao</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIcaoCode()">1</method>
+			<method name="public void setIcaoCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlineByIcaoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlineV1 getReturn()">1</method>
+			<method name="public void setReturn(com.conducivetech.cache.airlines.v1.AirlineV1 arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.CurrentAirlines</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.APIException</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public int getHttpStatusCode()">1</method>
+			<method name="public void setErrorId(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getErrorId()">1</method>
+			<method name="public void setHttpStatusCode(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AllAirlines</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesByIataResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlineByIcao</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public int getDay()">1</method>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setMonth(int arg0)">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public String getIcaoCode()">1</method>
+			<method name="public void setDay(int arg0)">1</method>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public int getMonth()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIcaoCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.Airlines</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public int getDay()">1</method>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setMonth(int arg0)">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public void setDay(int arg0)">1</method>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public int getMonth()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlineV1</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49122807017543857</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public boolean isActive()">1</method>
+			<method name="public void setDateTo(String arg0)">1</method>
+			<method name="public void setFs(String arg0)">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getDateTo()">1</method>
+			<method name="public String getPhoneNumber()">1</method>
+			<method name="public String getDateFrom()">1</method>
+			<method name="public void setIcao(String arg0)">1</method>
+			<method name="public void setIata(String arg0)">1</method>
+			<method name="public String getIcao()">1</method>
+			<method name="public void setCategory(String arg0)">1</method>
+			<method name="public void setPhoneNumber(String arg0)">1</method>
+			<method name="public String getFs()">1</method>
+			<method name="public String getIata()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getCategory()">1</method>
+			<method name="public void setDateFrom(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlineByFsCodeResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlineV1 getReturn()">1</method>
+			<method name="public void setReturn(com.conducivetech.cache.airlines.v1.AirlineV1 arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.APIException_Exception</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, com.conducivetech.cache.airlines.v1.APIException arg1, Throwable arg2)">0</method>
+			<method name="public void _init_(String arg0, com.conducivetech.cache.airlines.v1.APIException arg1)">0</method>
+			<method name="public com.conducivetech.cache.airlines.v1.APIException getFaultInfo()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesByIataForDate</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public int getDay()">1</method>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setMonth(int arg0)">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public void setIataCode(String arg0)">1</method>
+			<method name="public int getYear()">1</method>
+			<method name="public void setDay(int arg0)">1</method>
+			<method name="public void setYear(int arg0)">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public int getMonth()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getIataCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.ObjectFactory</name>
+		<wmc>38</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>18</cbo>
+		<rfc>59</rfc>
+		<lcom>667</lcom>
+		<ca>0</ca>
+		<ce>18</ce>
+		<npm>37</npm>
+		<lcom3>0.972972972972973</lcom3>
+		<loc>384</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.07823613086770982</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.631578947368421</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createAirlines(com.conducivetech.cache.airlines.v1.Airlines arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlinesByIataResponse createAirlinesByIataResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlinesByIataResponse(com.conducivetech.cache.airlines.v1.AirlinesByIataResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AllAirlinesResponse createAllAirlinesResponse()">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlinesByIcaoResponse createAirlinesByIcaoResponse()">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AllAirlines createAllAirlines()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineByIcaoResponse(com.conducivetech.cache.airlines.v1.AirlineByIcaoResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlineV1 createAirlineV1()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlinesByIcaoResponse(com.conducivetech.cache.airlines.v1.AirlinesByIcaoResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.APIException createAPIException()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlinesByIataForDate(com.conducivetech.cache.airlines.v1.AirlinesByIataForDate arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlinesByIata createAirlinesByIata()">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.Airlines createAirlines()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAllAirlines(com.conducivetech.cache.airlines.v1.AllAirlines arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.CurrentAirlines createCurrentAirlines()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlinesByIataForDateResponse(com.conducivetech.cache.airlines.v1.AirlinesByIataForDateResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlinesByIataForDateResponse createAirlinesByIataForDateResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlinesByIata(com.conducivetech.cache.airlines.v1.AirlinesByIata arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlinesResponse createAirlinesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineByFsCodeResponse(com.conducivetech.cache.airlines.v1.AirlineByFsCodeResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlinesByIataForDate createAirlinesByIataForDate()">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlineByIcao createAirlineByIcao()">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlineByFsCodeResponse createAirlineByFsCodeResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlinesResponse(com.conducivetech.cache.airlines.v1.AirlinesResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlineByIcaoResponse createAirlineByIcaoResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlinesByIcao(com.conducivetech.cache.airlines.v1.AirlinesByIcao arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAllAirlinesResponse(com.conducivetech.cache.airlines.v1.AllAirlinesResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlineByFsCode createAirlineByFsCode()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCurrentAirlinesResponse(com.conducivetech.cache.airlines.v1.CurrentAirlinesResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.CurrentAirlinesResponse createCurrentAirlinesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCurrentAirlines(com.conducivetech.cache.airlines.v1.CurrentAirlines arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineByFsCode(com.conducivetech.cache.airlines.v1.AirlineByFsCode arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirline(com.conducivetech.cache.airlines.v1.AirlineV1 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAPIException(com.conducivetech.cache.airlines.v1.APIException arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineByIcao(com.conducivetech.cache.airlines.v1.AirlineByIcao arg0)">1</method>
+			<method name="public com.conducivetech.cache.airlines.v1.AirlinesByIcao createAirlinesByIcao()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AllAirlinesResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesByIataForDateResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesByIcaoResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.airlines.v1.AirlinesService</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>8</npm>
+		<lcom3>2.0</lcom3>
+		<loc>8</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7916666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract java.util.List airlines(String, String, int, int, int, String)">1</method>
+			<method name="public abstract java.util.List airlinesByIataForDate(String, String, String, int, int, int, String)">1</method>
+			<method name="public abstract java.util.List airlinesByIcao(String, String, String, String)">1</method>
+			<method name="public abstract java.util.List allAirlines(String, String, String)">1</method>
+			<method name="public abstract java.util.List currentAirlines(String, String, String)">1</method>
+			<method name="public abstract com.conducivetech.cache.airlines.v1.AirlineV1 airlineByIcao(String, String, String, int, int, int, String)">1</method>
+			<method name="public abstract java.util.List airlinesByIata(String, String, String, String)">1</method>
+			<method name="public abstract com.conducivetech.cache.airlines.v1.AirlineV1 airlineByFsCode(String, String, String, String)">1</method>
+		</cc>
+	</class>

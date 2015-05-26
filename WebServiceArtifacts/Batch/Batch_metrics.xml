@@ -1,0 +1,792 @@
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.BatchSoap</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.addressdoctor.validator2.addbatch.batch.AddBatchResponse validate(com.addressdoctor.validator2.addbatch.batch.AddBatchRequest)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.Result</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getElementResultStatus()">1</method>
+			<method name="public double getResultPercentage()">1</method>
+			<method name="public String getCountryISO3()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Address getAddress()">1</method>
+			<method name="public String getElementMatchStatus()">1</method>
+			<method name="public void setElementMatchStatus(String arg0)">1</method>
+			<method name="public void setAddress(com.addressdoctor.validator2.addbatch.batch.Address arg0)">1</method>
+			<method name="public void setElementResultStatus(String arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ArrayOfService getOtherServices()">1</method>
+			<method name="public void setOtherServices(com.addressdoctor.validator2.addbatch.batch.ArrayOfService arg0)">1</method>
+			<method name="public String getValidationStatus()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setValidationStatus(String arg0)">1</method>
+			<method name="public void setResultPercentage(double arg0)">1</method>
+			<method name="public void setCountryISO3(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.ParsedInputType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.95</lcom3>
+		<loc>64</loc>
+		<dam>0.25</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>9.0</amc>
+		<cc>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.ParsedInputType fromValue(String arg0)">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.ParsedInputType valueOf(String arg0)">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.ParsedInputType[] values()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.AddBatchRequest</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>4</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.20952380952380953</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setReserved(String arg0)">1</method>
+			<method name="public String getCampaignID()">1</method>
+			<method name="public void setCampaignID(String arg0)">1</method>
+			<method name="public String getReserved()">1</method>
+			<method name="public void setAddresses(com.addressdoctor.validator2.addbatch.batch.ArrayOfAddress arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Parameters getParameters()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ArrayOfAddress getAddresses()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Authentication getAuthentication()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ArrayOfService getOtherServices()">1</method>
+			<method name="public void setOtherServices(com.addressdoctor.validator2.addbatch.batch.ArrayOfService arg0)">1</method>
+			<method name="public void setAuthentication(com.addressdoctor.validator2.addbatch.batch.Authentication arg0)">1</method>
+			<method name="public long getAddressCount()">1</method>
+			<method name="public void setAddressCount(long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setParameters(com.addressdoctor.validator2.addbatch.batch.Parameters arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.CapitalizationType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.96</lcom3>
+		<loc>75</loc>
+		<dam>0.2</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>10.666666666666666</amc>
+		<cc>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CapitalizationType valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CapitalizationType[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CapitalizationType fromValue(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.Service</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getPayload()">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setPayload(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.Batch</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient com.addressdoctor.validator2.addbatch.batch.BatchSoap getBatchSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.BatchSoap getBatchSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.CountryOfOriginType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9991735537190083</lcom3>
+		<loc>2682</loc>
+		<dam>0.004132231404958678</dam>
+		<moa>242</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>405.6666666666667</amc>
+		<cc>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CountryOfOriginType[] values()">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CountryOfOriginType fromValue(String arg0)">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CountryOfOriginType valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.ArrayOfService</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getService()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.AddBatchResponse</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public long getErrorCode()">1</method>
+			<method name="public void setReserved(String arg0)">1</method>
+			<method name="public String getCampaignID()">1</method>
+			<method name="public void setCampaignID(String arg0)">1</method>
+			<method name="public String getReserved()">1</method>
+			<method name="public void setErrorCode(long arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ArrayOfResult getResults()">1</method>
+			<method name="public long getResultCount()">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void setResults(com.addressdoctor.validator2.addbatch.batch.ArrayOfResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setResultCount(long arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setMaxLines(int arg0)">1</method>
+			<method name="public void setMaxLineLength(int arg0)">1</method>
+			<method name="public int getMaxLineLength()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getMaxLines()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.Parameters</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>7</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>7</moa>
+		<mfa>0.0</mfa>
+		<cam>0.164021164021164</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setCountryOfOrigin(com.addressdoctor.validator2.addbatch.batch.CountryOfOriginType arg0)">1</method>
+			<method name="public boolean isStreetWithHNo()">1</method>
+			<method name="public void setParsedInput(com.addressdoctor.validator2.addbatch.batch.ParsedInputType arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.LineSeparatorType getLineSeparator()">1</method>
+			<method name="public boolean isRemoveDiacritics()">1</method>
+			<method name="public void setFormattedAddressWithOrganization(boolean arg0)">1</method>
+			<method name="public void setCountryType(com.addressdoctor.validator2.addbatch.batch.CountryType arg0)">1</method>
+			<method name="public void setPreferredLanguage(com.addressdoctor.validator2.addbatch.batch.PreferredLanguageType arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ParsedInputType getParsedInput()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionsRequest getFieldDimensions()">1</method>
+			<method name="public void setStreetWithHNo(boolean arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.PreferredLanguageType getPreferredLanguage()">1</method>
+			<method name="public void setLineSeparator(com.addressdoctor.validator2.addbatch.batch.LineSeparatorType arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.CountryOfOriginType getCountryOfOrigin()">1</method>
+			<method name="public boolean isFormattedAddressWithOrganization()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.CountryType getCountryType()">1</method>
+			<method name="public void setCapitalization(com.addressdoctor.validator2.addbatch.batch.CapitalizationType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.CapitalizationType getCapitalization()">1</method>
+			<method name="public void setFieldDimensions(com.addressdoctor.validator2.addbatch.batch.FieldDimensionsRequest arg0)">1</method>
+			<method name="public void setRemoveDiacritics(boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.ObjectFactory</name>
+		<wmc>16</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>15</cbo>
+		<rfc>32</rfc>
+		<lcom>120</lcom>
+		<ca>0</ca>
+		<ce>15</ce>
+		<npm>16</npm>
+		<lcom3>2.0</lcom3>
+		<loc>79</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9375</amc>
+		<cc>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Validate createValidate()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionsRequest createFieldDimensionsRequest()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Authentication createAuthentication()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Service createService()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.AddBatchRequest createAddBatchRequest()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Parameters createParameters()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.AddBatchResponse createAddBatchResponse()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ArrayOfService createArrayOfService()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType createFieldDimensionSingleLineType()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType createFieldDimensionMultiLineType()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ArrayOfResult createArrayOfResult()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Address createAddress()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.Result createResult()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ValidateResponse createValidateResponse()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.ArrayOfAddress createArrayOfAddress()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.LineSeparatorType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9666666666666666</lcom3>
+		<loc>86</loc>
+		<dam>0.16666666666666666</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.LineSeparatorType valueOf(String arg0)">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.LineSeparatorType fromValue(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.LineSeparatorType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.CountryType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9913043478260869</lcom3>
+		<loc>273</loc>
+		<dam>0.043478260869565216</dam>
+		<moa>23</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>40.666666666666664</amc>
+		<cc>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CountryType[] values()">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CountryType valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.CountryType fromValue(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.FieldDimensionsRequest</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>12</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49333333333333335</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType getPOBox()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType getPostalCode()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType getDeliveryAddressLines()">1</method>
+			<method name="public void setFormattedAddress(com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType getCountrySpecificLocalityLine()">1</method>
+			<method name="public void setLocality(com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType arg0)">1</method>
+			<method name="public void setDeliveryAddressLines(com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType getLocality()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType getCountry()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType getContact()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType getBuilding()">1</method>
+			<method name="public void setCountry(com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType arg0)">1</method>
+			<method name="public void setContact(com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType arg0)">1</method>
+			<method name="public void setProvince(com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType arg0)">1</method>
+			<method name="public void setBuilding(com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType arg0)">1</method>
+			<method name="public void setOrganization(com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType getStreet()">1</method>
+			<method name="public void setPostalCode(com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType arg0)">1</method>
+			<method name="public void setStreet(com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType getFormattedAddress()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType getProvince()">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.FieldDimensionMultiLineType getOrganization()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPOBox(com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType arg0)">1</method>
+			<method name="public void setCountrySpecificLocalityLine(com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.ValidateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.AddBatchResponse getValidateResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setValidateResult(com.addressdoctor.validator2.addbatch.batch.AddBatchResponse arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.Address</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7424242424242424</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public String getResidue()">1</method>
+			<method name="public void setDeliveryAddressLines(String arg0)">1</method>
+			<method name="public String getStreet()">1</method>
+			<method name="public String getContact()">1</method>
+			<method name="public String getHouseNumber()">1</method>
+			<method name="public String getCountrySpecificLocalityLine()">1</method>
+			<method name="public void setRecordID(String arg0)">1</method>
+			<method name="public String getBuilding()">1</method>
+			<method name="public void setLocality(String arg0)">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setFormattedAddress(String arg0)">1</method>
+			<method name="public void setProvince(String arg0)">1</method>
+			<method name="public void setOrganization(String arg0)">1</method>
+			<method name="public void setCountrySpecificLocalityLine(String arg0)">1</method>
+			<method name="public String getOrganization()">1</method>
+			<method name="public String getLocality()">1</method>
+			<method name="public String getDepartment()">1</method>
+			<method name="public void setPOBox(String arg0)">1</method>
+			<method name="public void setStreet(String arg0)">1</method>
+			<method name="public void setContact(String arg0)">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public String getDeliveryAddressLines()">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public String getFormattedAddress()">1</method>
+			<method name="public String getProvince()">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public String getRecordID()">1</method>
+			<method name="public void setDepartment(String arg0)">1</method>
+			<method name="public void setBuilding(String arg0)">1</method>
+			<method name="public void setResidue(String arg0)">1</method>
+			<method name="public String getPOBox()">1</method>
+			<method name="public void setHouseNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.ArrayOfResult</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getResult()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.Authentication</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public long getDepartmentID()">1</method>
+			<method name="public void setDepartmentID(long arg0)">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public long getCustomerID()">1</method>
+			<method name="public void setCustomerID(long arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.ArrayOfAddress</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAddress()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.FieldDimensionSingleLineType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setMaxLineLength(int arg0)">1</method>
+			<method name="public int getMaxLineLength()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.PreferredLanguageType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9714285714285715</lcom3>
+		<loc>97</loc>
+		<dam>0.14285714285714285</dam>
+		<moa>7</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.0</amc>
+		<cc>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.PreferredLanguageType fromValue(String arg0)">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.PreferredLanguageType[] values()">1</method>
+			<method name="public static com.addressdoctor.validator2.addbatch.batch.PreferredLanguageType valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.addressdoctor.validator2.addbatch.batch.Validate</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAddBatchRequest(com.addressdoctor.validator2.addbatch.batch.AddBatchRequest arg0)">1</method>
+			<method name="public com.addressdoctor.validator2.addbatch.batch.AddBatchRequest getAddBatchRequest()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

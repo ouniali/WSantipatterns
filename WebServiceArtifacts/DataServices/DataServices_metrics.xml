@@ -1,0 +1,1260 @@
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Domain2SsgResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDomain2SsgRecord()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbId2DomainIdsRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPdbCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getPdbCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Ssg2DomainsRequestRecordType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public String getSsgNumber()">1</method>
+			<method name="public void setSsgNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbId2DomainIdsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public localhost._3000.api.soap.dataservices.PdbId2DomainIdsRequestRecordType getPdbId2DomainIdsRequestRecord()">1</method>
+			<method name="public void setPdbId2DomainIdsRequestRecord(localhost._3000.api.soap.dataservices.PdbId2DomainIdsRequestRecordType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsRequestRecordType getPdbSuperfamily2UniProtIdsRequestRecord()">1</method>
+			<method name="public void setPdbSuperfamily2UniProtIdsRequestRecord(localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsRequestRecordType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Domain2SsgRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.ChainId2DomainIdsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setChainId2DomainIdsRequestRecord(localhost._3000.api.soap.dataservices.ChainId2DomainIdsRequestRecordType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.ChainId2DomainIdsRequestRecordType getChainId2DomainIdsRequestRecord()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesRecordType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setEcCode(String arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getEcCode()">1</method>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Superfamily2SsgsResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSuperfamily2SsgsRecord()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setEcCode(String arg0)">1</method>
+			<method name="public String getEcCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsRecordType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setUniprotAcc(String arg0)">1</method>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public String getSpeciesName()">1</method>
+			<method name="public String getDomainId()">1</method>
+			<method name="public void setGeneName(String arg0)">1</method>
+			<method name="public String getUniprotAcc()">1</method>
+			<method name="public void setSpeciesName(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGeneName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPdbSuperfamily2UniProtIdsRecord()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.UniProtId2DomainIdsResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getUniProtId2DomainIdsRecord()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.ChainId2DomainIdsRecordType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setChainId(String arg0)">1</method>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public String getChainId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.DomainId2UniprotIdsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDomainId2UniprotIdsRequestRecord(localhost._3000.api.soap.dataservices.DomainId2UniprotIdsRequestRecordType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.DomainId2UniprotIdsRequestRecordType getDomainId2UniprotIdsRequestRecord()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Ssg2DomainsRecordType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public String getSsgNumber()">1</method>
+			<method name="public void setSsgNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsRecordType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setEcCode(String arg0)">1</method>
+			<method name="public String getEcCode()">1</method>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.DomainId2UniprotIdsRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Ssg2DomainsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSsg2DomainsRequestRecord(localhost._3000.api.soap.dataservices.Ssg2DomainsRequestRecordType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Ssg2DomainsRequestRecordType getSsg2DomainsRequestRecord()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Ssg2DomainsResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSsg2DomainsRecord()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.ChainId2DomainIdsResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getChainId2DomainIdsRecord()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.DataServices</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient localhost._3000.api.soap.dataservices.DataServicesPortType getDataServicesPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public localhost._3000.api.soap.dataservices.DataServicesPortType getDataServicesPort()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.UniProtId2DomainIdsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setUniProtId2DomainIdsRequestRecord(localhost._3000.api.soap.dataservices.UniProtId2DomainIdsRequestRecordType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.UniProtId2DomainIdsRequestRecordType getUniProtId2DomainIdsRequestRecord()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbId2DomainIdsRecordType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setPdbCode(String arg0)">1</method>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainId()">1</method>
+			<method name="public String getPdbCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.DomainId2UniprotIdsResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getDomainId2UniprotIdsRecord()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getEC2PdbSuperfamiliesRecord()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Domain2SsgRecordType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public String getSsgNumber()">1</method>
+			<method name="public void setSsgNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Domain2SsgType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public localhost._3000.api.soap.dataservices.Domain2SsgRequestRecordType getDomain2SsgRequestRecord()">1</method>
+			<method name="public void setDomain2SsgRequestRecord(localhost._3000.api.soap.dataservices.Domain2SsgRequestRecordType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPdbSuperfamily2ECsRequestRecord(localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsRequestRecordType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsRequestRecordType getPdbSuperfamily2ECsRequestRecord()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Superfamily2SsgsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public localhost._3000.api.soap.dataservices.Superfamily2SsgsRequestRecordType getSuperfamily2SsgsRequestRecord()">1</method>
+			<method name="public void setSuperfamily2SsgsRequestRecord(localhost._3000.api.soap.dataservices.Superfamily2SsgsRequestRecordType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.UniProtId2DomainIdsRecordType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setUniprotAcc(String arg0)">1</method>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public String getSpeciesName()">1</method>
+			<method name="public String getDomainId()">1</method>
+			<method name="public void setGeneName(String arg0)">1</method>
+			<method name="public String getUniprotAcc()">1</method>
+			<method name="public void setSpeciesName(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGeneName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Superfamily2SsgsRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbId2DomainIdsResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPdbId2DomainIdsRecord()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.Superfamily2SsgsRecordType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public String getSsgNumber()">1</method>
+			<method name="public void setSsgNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.DataServicesPortType</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>10</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>10</ce>
+		<npm>10</npm>
+		<lcom3>2.0</lcom3>
+		<loc>10</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.18181818181818182</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract java.util.List ec2PdbSuperfamilies(localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesRequestRecordType)">1</method>
+			<method name="public abstract java.util.List chainId2DomainIds(localhost._3000.api.soap.dataservices.ChainId2DomainIdsRequestRecordType)">1</method>
+			<method name="public abstract java.util.List pdbSuperfamily2UniProtIds(localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsRequestRecordType)">1</method>
+			<method name="public abstract java.util.List pdbId2DomainIds(localhost._3000.api.soap.dataservices.PdbId2DomainIdsRequestRecordType)">1</method>
+			<method name="public abstract java.util.List ssg2Domains(localhost._3000.api.soap.dataservices.Ssg2DomainsRequestRecordType)">1</method>
+			<method name="public abstract java.util.List uniProtId2DomainIds(localhost._3000.api.soap.dataservices.UniProtId2DomainIdsRequestRecordType)">1</method>
+			<method name="public abstract java.util.List domain2Ssg(localhost._3000.api.soap.dataservices.Domain2SsgRequestRecordType)">1</method>
+			<method name="public abstract java.util.List superfamily2Ssgs(localhost._3000.api.soap.dataservices.Superfamily2SsgsRequestRecordType)">1</method>
+			<method name="public abstract java.util.List domainId2UniprotIds(localhost._3000.api.soap.dataservices.DomainId2UniprotIdsRequestRecordType)">1</method>
+			<method name="public abstract java.util.List pdbSuperfamily2ECs(localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsRequestRecordType)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesRequestRecordType getEC2PdbSuperfamiliesRequestRecord()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setEC2PdbSuperfamiliesRequestRecord(localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesRequestRecordType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsResponseType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPdbSuperfamily2ECsRecord()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.ChainId2DomainIdsRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setChainId(String arg0)">1</method>
+			<method name="public String getChainId()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.UniProtId2DomainIdsRequestRecordType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getUniprotAcc()">1</method>
+			<method name="public void setUniprotAcc(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.DomainId2UniprotIdsRecordType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setUniprotAcc(String arg0)">1</method>
+			<method name="public void setSuperfamilyId(String arg0)">1</method>
+			<method name="public void setDomainId(String arg0)">1</method>
+			<method name="public String getSpeciesName()">1</method>
+			<method name="public String getDomainId()">1</method>
+			<method name="public void setGeneName(String arg0)">1</method>
+			<method name="public String getUniprotAcc()">1</method>
+			<method name="public void setSpeciesName(String arg0)">1</method>
+			<method name="public String getSuperfamilyId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getGeneName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>localhost._3000.api.soap.dataservices.ObjectFactory</name>
+		<wmc>62</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>40</cbo>
+		<rfc>105</rfc>
+		<lcom>1851</lcom>
+		<ca>0</ca>
+		<ce>40</ce>
+		<npm>61</npm>
+		<lcom3>0.9836065573770492</lcom3>
+		<loc>526</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.06323185011709602</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.161290322580645</amc>
+		<cc>
+			<method name="public localhost._3000.api.soap.dataservices.Domain2SsgResponseType createDomain2SsgResponseType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.UniProtId2DomainIdsRequestRecordType createUniProtId2DomainIdsRequestRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.ChainId2DomainIdsRequestRecordType createChainId2DomainIdsRequestRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSsg2DomainsResponse(localhost._3000.api.soap.dataservices.Ssg2DomainsResponseType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsResponseType createPdbSuperfamily2UniProtIdsResponseType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.UniProtId2DomainIdsRecordType createUniProtId2DomainIdsRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPdbId2DomainIdsResponse(localhost._3000.api.soap.dataservices.PdbId2DomainIdsResponseType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbId2DomainIdsType createPdbId2DomainIdsType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Ssg2DomainsType createSsg2DomainsType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChainId2DomainIds(localhost._3000.api.soap.dataservices.ChainId2DomainIdsType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsRecordType createPdbSuperfamily2UniProtIdsRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.ChainId2DomainIdsType createChainId2DomainIdsType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbId2DomainIdsResponseType createPdbId2DomainIdsResponseType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSuperfamily2SsgsResponse(localhost._3000.api.soap.dataservices.Superfamily2SsgsResponseType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSuperfamily2Ssgs(localhost._3000.api.soap.dataservices.Superfamily2SsgsType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.UniProtId2DomainIdsType createUniProtId2DomainIdsType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPdbId2DomainIds(localhost._3000.api.soap.dataservices.PdbId2DomainIdsType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbId2DomainIdsRecordType createPdbId2DomainIdsRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsResponseType createPdbSuperfamily2ECsResponseType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPdbSuperfamily2UniProtIdsResponse(localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsResponseType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Ssg2DomainsRecordType createSsg2DomainsRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Superfamily2SsgsResponseType createSuperfamily2SsgsResponseType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSsg2Domains(localhost._3000.api.soap.dataservices.Ssg2DomainsType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Domain2SsgRecordType createDomain2SsgRecordType()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesType createEC2PdbSuperfamiliesType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Superfamily2SsgsRequestRecordType createSuperfamily2SsgsRequestRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsRequestRecordType createPdbSuperfamily2ECsRequestRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.ChainId2DomainIdsRecordType createChainId2DomainIdsRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDomain2SsgResponse(localhost._3000.api.soap.dataservices.Domain2SsgResponseType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsType createPdbSuperfamily2UniProtIdsType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Domain2SsgRequestRecordType createDomain2SsgRequestRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDomainId2UniprotIdsResponse(localhost._3000.api.soap.dataservices.DomainId2UniprotIdsResponseType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Superfamily2SsgsRecordType createSuperfamily2SsgsRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.DomainId2UniprotIdsRecordType createDomainId2UniprotIdsRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDomain2Ssg(localhost._3000.api.soap.dataservices.Domain2SsgType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createEC2PdbSuperfamilies(localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.ChainId2DomainIdsResponseType createChainId2DomainIdsResponseType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Ssg2DomainsResponseType createSsg2DomainsResponseType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.UniProtId2DomainIdsResponseType createUniProtId2DomainIdsResponseType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsRequestRecordType createPdbSuperfamily2UniProtIdsRequestRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsRecordType createPdbSuperfamily2ECsRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChainId2DomainIdsResponse(localhost._3000.api.soap.dataservices.ChainId2DomainIdsResponseType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUniProtId2DomainIds(localhost._3000.api.soap.dataservices.UniProtId2DomainIdsType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Superfamily2SsgsType createSuperfamily2SsgsType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.DomainId2UniprotIdsType createDomainId2UniprotIdsType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsType createPdbSuperfamily2ECsType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.DomainId2UniprotIdsResponseType createDomainId2UniprotIdsResponseType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPdbSuperfamily2ECs(localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesResponseType createEC2PdbSuperfamiliesResponseType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesRecordType createEC2PdbSuperfamiliesRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createEC2PdbSuperfamiliesResponse(localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesResponseType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.PdbId2DomainIdsRequestRecordType createPdbId2DomainIdsRequestRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDomainId2UniprotIds(localhost._3000.api.soap.dataservices.DomainId2UniprotIdsType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Ssg2DomainsRequestRecordType createSsg2DomainsRequestRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.EC2PdbSuperfamiliesRequestRecordType createEC2PdbSuperfamiliesRequestRecordType()">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.Domain2SsgType createDomain2SsgType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createUniProtId2DomainIdsResponse(localhost._3000.api.soap.dataservices.UniProtId2DomainIdsResponseType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPdbSuperfamily2ECsResponse(localhost._3000.api.soap.dataservices.PdbSuperfamily2ECsResponseType arg0)">1</method>
+			<method name="public localhost._3000.api.soap.dataservices.DomainId2UniprotIdsRequestRecordType createDomainId2UniprotIdsRequestRecordType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPdbSuperfamily2UniProtIds(localhost._3000.api.soap.dataservices.PdbSuperfamily2UniProtIdsType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

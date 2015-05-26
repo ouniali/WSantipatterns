@@ -1,0 +1,2143 @@
+	<class>
+		<name>travel.caval._20091127.hotelbooking.ValuatedOccupation</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getRoomCode()">1</method>
+			<method name="public Integer getNumberOfRooms()">1</method>
+			<method name="public void setNumberOfRooms(Integer arg0)">1</method>
+			<method name="public void setChildrenPerRoom(Integer arg0)">1</method>
+			<method name="public String getRoomName()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setRoomCode(String arg0)">1</method>
+			<method name="public Integer getChildrenPerRoom()">1</method>
+			<method name="public java.util.List getChildAges()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRoomName(String arg0)">1</method>
+			<method name="public Integer getAdultsPerRoom()">1</method>
+			<method name="public void setAdultsPerRoom(Integer arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalGetOffersListRS</name>
+		<wmc>2</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getZonesWithOffers()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.DesiredSupplement</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public int getQuantity()">1</method>
+			<method name="public void setQuantity(int arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.NotifyHotelBookingsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRS getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRS arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.ObjectFactory</name>
+		<wmc>84</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>56</cbo>
+		<rfc>143</rfc>
+		<lcom>3434</lcom>
+		<ca>0</ca>
+		<ce>56</ce>
+		<npm>83</npm>
+		<lcom3>0.9879518072289156</lcom3>
+		<loc>702</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.07295850066934405</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0476190476190474</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.AvailRQOccupation createAvailRQOccupation()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.NotifyHotelBookings createNotifyHotelBookings()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetListOfBoardTypes createGetListOfBoardTypes()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.OfferCategory createOfferCategory()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAvailableHotelsResponse(travel.caval._20091127.hotelbooking.GetAvailableHotelsResponse arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.BoardType createBoardType()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetAvailableHotels createGetAvailableHotels()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.RoomOccupation createRoomOccupation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetListOfBoardTypes(travel.caval._20091127.hotelbooking.GetListOfBoardTypes arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRQ createCavalHotelBookingConfirmRQ()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Passenger createPassenger()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.ValuatedLine createValuatedLine()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRS createCavalHotelBookingConfirmRS()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDetailedValuationResponse(travel.caval._20091127.hotelbooking.GetDetailedValuationResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQDepartureFlightTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQAgencyReference(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetEstablishmentDataSheetsResponse(travel.caval._20091127.hotelbooking.GetEstablishmentDataSheetsResponse arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRS createCavalGetListOfBoardTypesRS()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount createAmount()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQAgencyEmail(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQCommentForHotel(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQPassengers(travel.caval._20091127.hotelbooking.Passenger arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAvailableHotels(travel.caval._20091127.hotelbooking.GetAvailableHotels arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetOffersListResponse(travel.caval._20091127.hotelbooking.GetOffersListResponse arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.NotifyHotelBookingsResponse createNotifyHotelBookingsResponse()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.EstablishmentDataSheet createEstablishmentDataSheet()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRQ createCavalHotelBookingNotificationRQ()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.FeaturesGroup createFeaturesGroup()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Offer createOffer()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public travel.caval._20091127.hotelbooking.Occupation createOccupation()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetDetailedValuationResponse createGetDetailedValuationResponse()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.BoardPrice createBoardPrice()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetOffersListRQ createCavalGetOffersListRQ()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQArrivalFlightTime(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createNotifyHotelBookingsResponse(travel.caval._20091127.hotelbooking.NotifyHotelBookingsResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQArrivalFlightNumber(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.DatesRange createDatesRange()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.ConfirmHotelBooking createConfirmHotelBooking()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQCommentForBookingDept(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRS createCavalGetEstablishmentDataSheetsRS()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRQ createCavalGetEstablishmentDataSheetsRQ()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetListOfBoardTypesResponse(travel.caval._20091127.hotelbooking.GetListOfBoardTypesResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetDetailedValuation(travel.caval._20091127.hotelbooking.GetDetailedValuation arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConfirmHotelBooking(travel.caval._20091127.hotelbooking.ConfirmHotelBooking arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetEstablishmentDataSheets(travel.caval._20091127.hotelbooking.GetEstablishmentDataSheets arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Room createRoom()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createConfirmHotelBookingResponse(travel.caval._20091127.hotelbooking.ConfirmHotelBookingResponse arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Classification createClassification()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetOffersList(travel.caval._20091127.hotelbooking.GetOffersList arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.ValuatedOccupation createValuatedOccupation()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createNotifyHotelBookings(travel.caval._20091127.hotelbooking.NotifyHotelBookings arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.MultilanguageText createMultilanguageText()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRQ createCavalHotelBookingValuationRQ()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRQ createCavalGetListOfBoardTypesRQ()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQDepartureFlightNumber(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.DesiredSupplement createDesiredSupplement()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetOffersListRS createCavalGetOffersListRS()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Feature createFeature()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetListOfBoardTypesResponse createGetListOfBoardTypesResponse()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.AvailableEstablishment createAvailableEstablishment()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.ZoneWithOffers createZoneWithOffers()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.EstablishmentRemark createEstablishmentRemark()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CombinationPrice createCombinationPrice()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRS createCavalHotelBookingNotificationRS()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQExpectedNetPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.RoomType createRoomType()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.ConfirmHotelBookingResponse createConfirmHotelBookingResponse()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetOffersListResponse createGetOffersListResponse()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ createCavalHotelAvailabilityRQ()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetOffersList createGetOffersList()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CancellationCost createCancellationCost()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRS createCavalHotelAvailabilityRS()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetEstablishmentDataSheetsResponse createGetEstablishmentDataSheetsResponse()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetEstablishmentDataSheets createGetEstablishmentDataSheets()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ$CoverageArea createCavalHotelAvailabilityRQCoverageArea()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Supplement createSupplement()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQTitular(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createCavalHotelBookingConfirmRQGuestCountryCode(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetDetailedValuation createGetDetailedValuation()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.GetAvailableHotelsResponse createGetAvailableHotelsResponse()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRS createCavalHotelBookingValuationRS()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.HotelBooking createHotelBooking()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetDetailedValuation</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRQ getRq()">1</method>
+			<method name="public void setRq(travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRQ arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.HotelBookingService_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient travel.caval._20091127.hotelbooking.HotelBookingService getHotelBookingServicePort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public travel.caval._20091127.hotelbooking.HotelBookingService getHotelBookingServicePort()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.HotelBooking</name>
+		<wmc>61</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>63</rfc>
+		<lcom>1772</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>61</npm>
+		<lcom3>0.9844086021505376</lcom3>
+		<loc>320</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36885245901639346</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.737704918032787</amc>
+		<cc>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void setReference(String arg0)">1</method>
+			<method name="public String getTitular()">1</method>
+			<method name="public Boolean isWantsDepartureTransfer()">1</method>
+			<method name="public String getDepartureFlightDate()">1</method>
+			<method name="public String getArrivalFlightDate()">1</method>
+			<method name="public String getDepartureFlightDestination()">1</method>
+			<method name="public String getCountryId()">1</method>
+			<method name="public void setCityName(String arg0)">1</method>
+			<method name="public String getReference()">1</method>
+			<method name="public void setArrivalFlightNumber(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getPrice()">1</method>
+			<method name="public void setDepartureFlightNumber(String arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public void setWantsArrivalTransfer(Boolean arg0)">1</method>
+			<method name="public String getContractId()">1</method>
+			<method name="public void setTourOperatorId(String arg0)">1</method>
+			<method name="public String getTelephone()">1</method>
+			<method name="public void setArrivalFlightDate(String arg0)">1</method>
+			<method name="public Boolean isWantsArrivalTransfer()">1</method>
+			<method name="public void setPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public void setFormalizationTime(String arg0)">1</method>
+			<method name="public void setArrivalFlightOrigin(String arg0)">1</method>
+			<method name="public void setDepartureFlightTime(String arg0)">1</method>
+			<method name="public void setArrivalFlightTime(String arg0)">1</method>
+			<method name="public String getArrivalFlightOrigin()">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public String getAddress()">1</method>
+			<method name="public void setCityId(String arg0)">1</method>
+			<method name="public String getCommentsForBookingDepartment()">1</method>
+			<method name="public void setCountryId(String arg0)">1</method>
+			<method name="public void setWantsDepartureTransfer(Boolean arg0)">1</method>
+			<method name="public void setDepartureFlightDate(String arg0)">1</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public void setTelephone(String arg0)">1</method>
+			<method name="public String getDepartureFlightNumber()">1</method>
+			<method name="public String getHotelName()">1</method>
+			<method name="public void setHotelId(String arg0)">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setHotelName(String arg0)">1</method>
+			<method name="public void setDepartureFlightDestination(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public String getTourOperatorId()">1</method>
+			<method name="public String getDepartureFlightTime()">1</method>
+			<method name="public String getCityName()">1</method>
+			<method name="public void setCommentsForBookingDepartment(String arg0)">1</method>
+			<method name="public String getHotelId()">1</method>
+			<method name="public String getCommentsForHotel()">1</method>
+			<method name="public String getArrivalFlightTime()">1</method>
+			<method name="public void setCommentsForHotel(String arg0)">1</method>
+			<method name="public void setLastModificationTime(String arg0)">1</method>
+			<method name="public java.util.List getRooms()">2</method>
+			<method name="public void setContractId(String arg0)">1</method>
+			<method name="public String getCityId()">1</method>
+			<method name="public String getFormalizationTime()">1</method>
+			<method name="public void setTitular(String arg0)">1</method>
+			<method name="public String getArrivalFlightNumber()">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public String getLastModificationTime()">1</method>
+			<method name="public java.util.List getPassengers()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalGetOffersListRQ</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>9</rfc>
+		<lcom>19</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>66</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5714285714285714</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.714285714285714</amc>
+		<cc>
+			<method name="public String getChangesFromDate()">1</method>
+			<method name="public java.util.List getHotelIds()">2</method>
+			<method name="public java.util.List getCityIds()">2</method>
+			<method name="public java.util.List getCountryIds()">2</method>
+			<method name="public java.util.List getStateIds()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setChangesFromDate(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetListOfBoardTypes</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRq(travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRQ arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRQ getRq()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.MultilanguageText</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getText()">1</method>
+			<method name="public void setText(String arg0)">1</method>
+			<method name="public void setLanguageISOCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getLanguageISOCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.RoomOccupation</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getRoomCode()">1</method>
+			<method name="public Integer getNumberOfRooms()">1</method>
+			<method name="public void setNumberOfRooms(Integer arg0)">1</method>
+			<method name="public void setChildrenPerRoom(Integer arg0)">1</method>
+			<method name="public String getRoomName()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setRoomCode(String arg0)">1</method>
+			<method name="public Integer getChildrenPerRoom()">1</method>
+			<method name="public java.util.List getChildAges()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRoomName(String arg0)">1</method>
+			<method name="public Integer getAdultsPerRoom()">1</method>
+			<method name="public void setAdultsPerRoom(Integer arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.FeaturesGroup</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>9</rfc>
+		<lcom>17</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>50</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6428571428571429</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.571428571428571</amc>
+		<cc>
+			<method name="public java.util.List getNameInOtherLanguages()">2</method>
+			<method name="public java.util.List getFeatures()">2</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ$CoverageArea</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getGoogleLongitude()">1</method>
+			<method name="public void setRadius(String arg0)">1</method>
+			<method name="public String getGoogleLatitude()">1</method>
+			<method name="public void setGoogleLatitude(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGoogleLongitude(String arg0)">1</method>
+			<method name="public String getRadius()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetEstablishmentDataSheetsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRS arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRS getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CombinationPrice</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>11</rfc>
+		<lcom>32</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>76</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6111111111111112</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.777777777777778</amc>
+		<cc>
+			<method name="public Boolean isOnRequest()">1</method>
+			<method name="public Boolean isNonRefundable()">1</method>
+			<method name="public java.util.List getBoardPrices()">2</method>
+			<method name="public java.util.List getRemarks()">2</method>
+			<method name="public void setNonRefundable(Boolean arg0)">1</method>
+			<method name="public java.util.List getCancellationCosts()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getRooms()">2</method>
+			<method name="public void setOnRequest(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetEstablishmentDataSheets</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRQ getRq()">1</method>
+			<method name="public void setRq(travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRQ arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRS</name>
+		<wmc>2</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getDataSheets()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.Supplement</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getGrossPrice()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getNetPrice()">1</method>
+			<method name="public void setNetPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setGrossPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.EstablishmentDataSheet</name>
+		<wmc>51</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>53</rfc>
+		<lcom>1231</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>51</npm>
+		<lcom3>0.9842857142857143</lcom3>
+		<loc>302</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7156862745098039</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.372549019607843</amc>
+		<cc>
+			<method name="public java.util.List getShortDescriptionInOtherLanguages()">2</method>
+			<method name="public void setLongDescription(String arg0)">1</method>
+			<method name="public void setMainImageUrl(String arg0)">1</method>
+			<method name="public String getZipCode()">1</method>
+			<method name="public void setGoogleLongitude(String arg0)">1</method>
+			<method name="public java.util.List getLongDescriptionInOtherLanguages()">2</method>
+			<method name="public String getLastModificationDate()">1</method>
+			<method name="public void setCityName(String arg0)">1</method>
+			<method name="public String getGoogleLatitude()">1</method>
+			<method name="public String getStateId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public String getFax()">1</method>
+			<method name="public void setStateName(String arg0)">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public String getTelephone()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getCategoryGroupId()">1</method>
+			<method name="public String getCategoryName()">1</method>
+			<method name="public String getShortDescription()">1</method>
+			<method name="public void setCategoryCode(String arg0)">1</method>
+			<method name="public void setGoogleLatitude(String arg0)">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public String getAddress()">1</method>
+			<method name="public void setZipCode(String arg0)">1</method>
+			<method name="public void setCityId(String arg0)">1</method>
+			<method name="public java.util.List getRemarks()">2</method>
+			<method name="public java.util.List getFeaturesGroups()">2</method>
+			<method name="public String getMainImageUrl()">1</method>
+			<method name="public void setStateId(String arg0)">1</method>
+			<method name="public void setTelephone(String arg0)">1</method>
+			<method name="public String getLongDescription()">1</method>
+			<method name="public void setLastModificationDate(String arg0)">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public java.util.List getOtherImagesUrls()">2</method>
+			<method name="public void setCategoryName(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setFax(String arg0)">1</method>
+			<method name="public void setCategoryGroupId(String arg0)">1</method>
+			<method name="public String getCityName()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getCityId()">1</method>
+			<method name="public void setShortDescription(String arg0)">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public String getCategoryCode()">1</method>
+			<method name="public String getGoogleLongitude()">1</method>
+			<method name="public java.util.List getRoomTypes()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStateName()">1</method>
+			<method name="public String getCountryCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRQ</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>11</rfc>
+		<lcom>32</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>76</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4074074074074074</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.777777777777778</amc>
+		<cc>
+			<method name="public void setDescriptionsInAllLanguagesWanted(Boolean arg0)">1</method>
+			<method name="public java.util.List getCityIds()">2</method>
+			<method name="public java.util.List getStateIds()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUpdatedSince()">1</method>
+			<method name="public void setUpdatedSince(String arg0)">1</method>
+			<method name="public Boolean isDescriptionsInAllLanguagesWanted()">1</method>
+			<method name="public java.util.List getEstablishmentIds()">2</method>
+			<method name="public java.util.List getCountryCodes()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CancellationCost</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getGrossPrice()">1</method>
+			<method name="public String getFrom()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getNetPrice()">1</method>
+			<method name="public void setFrom(String arg0)">1</method>
+			<method name="public void setNetPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGrossPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.BoardPrice</name>
+		<wmc>22</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>24</rfc>
+		<lcom>211</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>22</npm>
+		<lcom3>0.9567099567099566</lcom3>
+		<loc>117</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.8181818181818183</amc>
+		<cc>
+			<method name="public String getBoardCode()">1</method>
+			<method name="public void setOldNetPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public Boolean isOffer()">1</method>
+			<method name="public String getBoardCategoryId()">1</method>
+			<method name="public void setNetPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public String getOfferDescription()">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void setBoardCode(String arg0)">1</method>
+			<method name="public String getBoardName()">1</method>
+			<method name="public void setOldGrossPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public void setGrossPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getGrossPrice()">1</method>
+			<method name="public void setBoardName(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getOldNetPrice()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getNetPrice()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getOldGrossPrice()">1</method>
+			<method name="public java.util.List getAppliedCategoryOffers()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setOffer(Boolean arg0)">1</method>
+			<method name="public void setBoardCategoryId(String arg0)">1</method>
+			<method name="public void setOfferDescription(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.ConfirmHotelBookingResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRS getReturn()">1</method>
+			<method name="public void setReturn(travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRS arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRS</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetAvailableHotelsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRS getReturn()">1</method>
+			<method name="public void setReturn(travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRS arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRQ</name>
+		<wmc>2</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getBookings()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ</name>
+		<wmc>32</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>34</rfc>
+		<lcom>474</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>32</npm>
+		<lcom3>0.982258064516129</lcom3>
+		<loc>231</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.26875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.59375</amc>
+		<cc>
+			<method name="public String getEstablishmentNameFilter()">1</method>
+			<method name="public void setIncludeCancellationCostsAndRemarks(Boolean arg0)">1</method>
+			<method name="public java.util.List getHotelCategoryGroupFilter()">2</method>
+			<method name="public java.util.List getBoardGroupFilter()">2</method>
+			<method name="public java.util.List getRoomGroupFilter()">2</method>
+			<method name="public java.util.List getOccupations()">2</method>
+			<method name="public Boolean isRemoveHotelInfo()">1</method>
+			<method name="public String getCheckOut()">1</method>
+			<method name="public void setCheckIn(String arg0)">1</method>
+			<method name="public java.util.List getEstablishmentClassificationFilter()">2</method>
+			<method name="public Boolean isIncludeCancellationCostsAndRemarks()">1</method>
+			<method name="public void setFromRow(Integer arg0)">1</method>
+			<method name="public void setCoverageArea(travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ$CoverageArea arg0)">1</method>
+			<method name="public void setOnlyOffers(Boolean arg0)">1</method>
+			<method name="public void setNumRows(Integer arg0)">1</method>
+			<method name="public Boolean isExcludeOnRequest()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ$CoverageArea getCoverageArea()">1</method>
+			<method name="public Integer getNumRows()">1</method>
+			<method name="public void setGuestCountryCode(String arg0)">1</method>
+			<method name="public Boolean isOnlyOffers()">1</method>
+			<method name="public java.util.List getCityIds()">2</method>
+			<method name="public String getGuestCountryCode()">1</method>
+			<method name="public void setEstablishmentNameFilter(String arg0)">1</method>
+			<method name="public java.util.List getEstablishmentIds()">2</method>
+			<method name="public void setRemoveHotelInfo(Boolean arg0)">1</method>
+			<method name="public Integer getFromRow()">1</method>
+			<method name="public void setCheckOut(String arg0)">1</method>
+			<method name="public String getCheckIn()">1</method>
+			<method name="public java.util.List getStateIds()">2</method>
+			<method name="public void setExcludeOnRequest(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAirportIds()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.Offer</name>
+		<wmc>25</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>27</rfc>
+		<lcom>284</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>25</npm>
+		<lcom3>0.9791666666666666</lcom3>
+		<loc>188</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.44</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.88</amc>
+		<cc>
+			<method name="public void setModificationDate(String arg0)">1</method>
+			<method name="public String getModificationDate()">1</method>
+			<method name="public String getHotelName()">1</method>
+			<method name="public void setHotelId(String arg0)">1</method>
+			<method name="public java.util.List getStayDates()">2</method>
+			<method name="public Integer getMaximumStay()">1</method>
+			<method name="public void setHotelName(String arg0)">1</method>
+			<method name="public java.util.List getCheckoutWeekDays()">2</method>
+			<method name="public java.util.List getCheckinDates()">2</method>
+			<method name="public void setId(String arg0)">1</method>
+			<method name="public void setImage(String arg0)">1</method>
+			<method name="public java.util.List getFormalizationDates()">2</method>
+			<method name="public String getOfferDescription()">1</method>
+			<method name="public String getHotelId()">1</method>
+			<method name="public java.util.List getCategories()">2</method>
+			<method name="public Integer getMinimumStay()">1</method>
+			<method name="public String getId()">1</method>
+			<method name="public String getImage()">1</method>
+			<method name="public void setMinimumStay(Integer arg0)">1</method>
+			<method name="public java.util.List getRoomTypes()">2</method>
+			<method name="public java.util.List getCheckinWeekDays()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMaximumStay(Integer arg0)">1</method>
+			<method name="public java.util.List getBoardTypes()">2</method>
+			<method name="public void setOfferDescription(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.ValuatedLine</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getGrossPrice()">1</method>
+			<method name="public void setQuantity(Double arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getNetPrice()">1</method>
+			<method name="public void setNetPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Double getQuantity()">1</method>
+			<method name="public void setGrossPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.Room</name>
+		<wmc>20</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>22</rfc>
+		<lcom>172</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>20</npm>
+		<lcom3>0.9526315789473685</lcom3>
+		<loc>107</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48333333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.85</amc>
+		<cc>
+			<method name="public String getBoardCode()">1</method>
+			<method name="public String getRoomCode()">1</method>
+			<method name="public void setCheckin(String arg0)">1</method>
+			<method name="public String getCheckin()">1</method>
+			<method name="public java.util.List getChildrenAges()">2</method>
+			<method name="public void setCheckout(String arg0)">1</method>
+			<method name="public Integer getNumberOfRooms()">1</method>
+			<method name="public void setNumberOfRooms(Integer arg0)">1</method>
+			<method name="public void setChildrenPerRoom(Integer arg0)">1</method>
+			<method name="public void setBoardCode(String arg0)">1</method>
+			<method name="public String getBoardName()">1</method>
+			<method name="public String getRoomName()">1</method>
+			<method name="public void setBoardName(String arg0)">1</method>
+			<method name="public void setRoomCode(String arg0)">1</method>
+			<method name="public Integer getChildrenPerRoom()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCheckout()">1</method>
+			<method name="public void setRoomName(String arg0)">1</method>
+			<method name="public Integer getAdultsPerRoom()">1</method>
+			<method name="public void setAdultsPerRoom(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.NotifyHotelBookings</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRq(travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRQ arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRQ getRq()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRS</name>
+		<wmc>10</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>37</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>10</npm>
+		<lcom3>0.911111111111111</lcom3>
+		<loc>57</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.2</amc>
+		<cc>
+			<method name="public String getStatsKey()">1</method>
+			<method name="public Integer getNumRows()">1</method>
+			<method name="public Integer getFromRow()">1</method>
+			<method name="public void setStatsKey(String arg0)">1</method>
+			<method name="public Integer getTotalRows()">1</method>
+			<method name="public void setTotalRows(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAvailableEstablishments()">2</method>
+			<method name="public void setFromRow(Integer arg0)">1</method>
+			<method name="public void setNumRows(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.EstablishmentRemark</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public java.util.List getDescriptionInOtherLanguages()">2</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getFromDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.AbstractAuthenticatedRQ</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getLogin()">1</method>
+			<method name="public String getRqId()">1</method>
+			<method name="public void setGzipResponse(Boolean arg0)">1</method>
+			<method name="public Boolean isGzipResponse()">1</method>
+			<method name="public String getPassword()">1</method>
+			<method name="public void setRqId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPassword(String arg0)">1</method>
+			<method name="public void setLogin(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.AvailableEstablishment</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>35</rfc>
+		<lcom>498</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>33</npm>
+		<lcom3>0.9724264705882353</lcom3>
+		<loc>180</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7272727272727273</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9393939393939394</amc>
+		<cc>
+			<method name="public void setEstablishmentId(String arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setCategoryId(String arg0)">1</method>
+			<method name="public void setCountryId(String arg0)">1</method>
+			<method name="public void setImageUrl(String arg0)">1</method>
+			<method name="public void setStateId(String arg0)">1</method>
+			<method name="public String getEstablishmentName()">1</method>
+			<method name="public java.util.List getPrices()">2</method>
+			<method name="public void setGoogleLongitude(String arg0)">1</method>
+			<method name="public String getCountryId()">1</method>
+			<method name="public java.util.List getClassification()">2</method>
+			<method name="public void setCityName(String arg0)">1</method>
+			<method name="public void setEstablishmentName(String arg0)">1</method>
+			<method name="public void setCategoryName(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public String getGoogleLatitude()">1</method>
+			<method name="public String getStateId()">1</method>
+			<method name="public String getCategoryId()">1</method>
+			<method name="public void setStateName(String arg0)">1</method>
+			<method name="public void setCategoryGroupId(String arg0)">1</method>
+			<method name="public String getCityName()">1</method>
+			<method name="public String getCategoryGroupId()">1</method>
+			<method name="public String getCategoryName()">1</method>
+			<method name="public String getCityId()">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public String getEstablishmentId()">1</method>
+			<method name="public String getGoogleLongitude()">1</method>
+			<method name="public void setGoogleLatitude(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getImageUrl()">1</method>
+			<method name="public void setCityId(String arg0)">1</method>
+			<method name="public String getStateName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRS</name>
+		<wmc>45</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>47</rfc>
+		<lcom>952</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>45</npm>
+		<lcom3>0.9827272727272728</lcom3>
+		<loc>272</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35555555555555557</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.488888888888889</amc>
+		<cc>
+			<method name="public String getBoardCode()">1</method>
+			<method name="public void setEstablishmentId(String arg0)">1</method>
+			<method name="public String getEstablishmentCategory()">1</method>
+			<method name="public String getCheckin()">1</method>
+			<method name="public boolean isOffer()">1</method>
+			<method name="public java.util.List getRemarks()">2</method>
+			<method name="public void setStatsKey(String arg0)">1</method>
+			<method name="public java.util.List getCancellationCosts()">2</method>
+			<method name="public String getEstablishmentName()">1</method>
+			<method name="public void setEstablishmentCategory(String arg0)">1</method>
+			<method name="public void setGrossPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public String getStatsKey()">1</method>
+			<method name="public void setBoardName(String arg0)">1</method>
+			<method name="public java.util.List getOccupations()">2</method>
+			<method name="public String getEstablishmentCity()">1</method>
+			<method name="public void setEstablishmentCity(String arg0)">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public java.util.List getAvailableSupplements()">2</method>
+			<method name="public String getEstablishmentCountry()">1</method>
+			<method name="public void setEstablishmentName(String arg0)">1</method>
+			<method name="public void setEstablishmentAddress(String arg0)">1</method>
+			<method name="public void setOffer(boolean arg0)">1</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public void setEstablishmentDescription(String arg0)">1</method>
+			<method name="public void setCheckin(String arg0)">1</method>
+			<method name="public java.util.List getValuationLines()">2</method>
+			<method name="public void setNetPrice(travel.caval._20091127.hotelbooking.Amount arg0)">1</method>
+			<method name="public String getOfferDescription()">1</method>
+			<method name="public void setCheckout(String arg0)">1</method>
+			<method name="public String getEstablishmentImageUrl()">1</method>
+			<method name="public String getEstablishmentDescription()">1</method>
+			<method name="public void setEstablishmentZip(String arg0)">1</method>
+			<method name="public void setBoardCode(String arg0)">1</method>
+			<method name="public String getBoardName()">1</method>
+			<method name="public String getEstablishmentZip()">1</method>
+			<method name="public String getEstablishmentAddress()">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getGrossPrice()">1</method>
+			<method name="public void setEstablishmentCountry(String arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.Amount getNetPrice()">1</method>
+			<method name="public String getEstablishmentId()">1</method>
+			<method name="public java.util.List getAppliedCategoryOffers()">2</method>
+			<method name="public void setEstablishmentImageUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCheckout()">1</method>
+			<method name="public void setOfferDescription(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetOffersList</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRq(travel.caval._20091127.hotelbooking.CavalGetOffersListRQ arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetOffersListRQ getRq()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetOffersListResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(travel.caval._20091127.hotelbooking.CavalGetOffersListRS arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetOffersListRS getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.Classification</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.BoardType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getBoardGroupId()">1</method>
+			<method name="public String getCode()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setBoardGroupId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.AbstractRS</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>7</noc>
+		<cbo>7</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>7</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getDateAtServer()">1</method>
+			<method name="public String getRqId()">1</method>
+			<method name="public int getResultCode()">1</method>
+			<method name="public void setCpuTime(String arg0)">1</method>
+			<method name="public String getCpuTime()">1</method>
+			<method name="public void setResultCode(int arg0)">1</method>
+			<method name="public void setRqId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public void setDateAtServer(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetListOfBoardTypesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRS getReturn()">1</method>
+			<method name="public void setReturn(travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRS arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.Passenger</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setBirthDate(String arg0)">1</method>
+			<method name="public void setComment(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public Integer getAge()">1</method>
+			<method name="public String getBirthDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAge(Integer arg0)">1</method>
+			<method name="public String getComment()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.AbstractAuthenticatedAgencyRQ</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>6</noc>
+		<cbo>7</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>6</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getLanguage()">1</method>
+			<method name="public String getAgentId()">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public void setAgentId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.ZoneWithOffers</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public void setStateName(String arg0)">1</method>
+			<method name="public String getCityName()">1</method>
+			<method name="public void setCountryId(String arg0)">1</method>
+			<method name="public void setStateId(String arg0)">1</method>
+			<method name="public String getCityId()">1</method>
+			<method name="public java.util.List getOffers()">2</method>
+			<method name="public String getCountryId()">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public void setCityName(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getStateId()">1</method>
+			<method name="public String getStateName()">1</method>
+			<method name="public void setCityId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRQ</name>
+		<wmc>2</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getRest()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.OfferCategory</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.ConfirmHotelBooking</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRQ getRq()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRq(travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRQ arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetDetailedValuationResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRS getReturn()">1</method>
+			<method name="public void setReturn(travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRS arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.RoomType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>13</rfc>
+		<lcom>47</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9333333333333333</lcom3>
+		<loc>70</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6818181818181818</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.818181818181818</amc>
+		<cc>
+			<method name="public String getRoomTypeGroupId()">1</method>
+			<method name="public java.util.List getNameInOtherLanguages()">2</method>
+			<method name="public void setRoomTypeGroupId(String arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public java.util.List getDescriptionInOtherLanguages()">2</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.GetAvailableHotels</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRq(travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ arg0)">1</method>
+			<method name="public travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ getRq()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.HotelBookingService</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>15</cbo>
+		<rfc>7</rfc>
+		<lcom>21</lcom>
+		<ca>1</ca>
+		<ce>14</ce>
+		<npm>7</npm>
+		<lcom3>2.0</lcom3>
+		<loc>7</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.25</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRS getListOfBoardTypes(travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRQ)">1</method>
+			<method name="public abstract travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRS confirmHotelBooking(travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRQ)">1</method>
+			<method name="public abstract travel.caval._20091127.hotelbooking.CavalGetOffersListRS getOffersList(travel.caval._20091127.hotelbooking.CavalGetOffersListRQ)">1</method>
+			<method name="public abstract travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRS notifyHotelBookings(travel.caval._20091127.hotelbooking.CavalHotelBookingNotificationRQ)">1</method>
+			<method name="public abstract travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRS getAvailableHotels(travel.caval._20091127.hotelbooking.CavalHotelAvailabilityRQ)">1</method>
+			<method name="public abstract travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRS getDetailedValuation(travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRQ)">1</method>
+			<method name="public abstract travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRS getEstablishmentDataSheets(travel.caval._20091127.hotelbooking.CavalGetEstablishmentDataSheetsRQ)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.AvailRQOccupation</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4583333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public void setNumberOfRooms(int arg0)">1</method>
+			<method name="public Integer getChildrenPerRoom()">1</method>
+			<method name="public java.util.List getChildAges()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAdultsPerRoom(int arg0)">1</method>
+			<method name="public void setChildrenPerRoom(Integer arg0)">1</method>
+			<method name="public int getNumberOfRooms()">1</method>
+			<method name="public int getAdultsPerRoom()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelBookingConfirmRS</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLocator(String arg0)">1</method>
+			<method name="public String getLocator()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.Amount</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>7</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public String getCurrencyCode()">1</method>
+			<method name="public void setCurrencyCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public double getValue()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.Feature</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public java.util.List getDescriptionInOtherLanguages()">2</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.Occupation</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>37</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>10</npm>
+		<lcom3>0.911111111111111</lcom3>
+		<loc>57</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.2</amc>
+		<cc>
+			<method name="public String getRoomCode()">1</method>
+			<method name="public void setRoomCode(String arg0)">1</method>
+			<method name="public void setNumberOfRooms(int arg0)">1</method>
+			<method name="public Integer getChildrenPerRoom()">1</method>
+			<method name="public java.util.List getChildAges()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAdultsPerRoom(int arg0)">1</method>
+			<method name="public void setChildrenPerRoom(Integer arg0)">1</method>
+			<method name="public int getNumberOfRooms()">1</method>
+			<method name="public int getAdultsPerRoom()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRS</name>
+		<wmc>2</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getBoardTypes()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalHotelBookingValuationRQ</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>1</noc>
+		<cbo>5</cbo>
+		<rfc>15</rfc>
+		<lcom>68</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9404761904761906</lcom3>
+		<loc>80</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.615384615384615</amc>
+		<cc>
+			<method name="public String getBoardCode()">1</method>
+			<method name="public void setEstablishmentId(String arg0)">1</method>
+			<method name="public void setGuestCountryCode(String arg0)">1</method>
+			<method name="public String getGuestCountryCode()">1</method>
+			<method name="public java.util.List getDesiredSupplements()">2</method>
+			<method name="public void setBoardCode(String arg0)">1</method>
+			<method name="public java.util.List getOccupations()">2</method>
+			<method name="public String getCheckOut()">1</method>
+			<method name="public String getEstablishmentId()">1</method>
+			<method name="public void setCheckIn(String arg0)">1</method>
+			<method name="public void setCheckOut(String arg0)">1</method>
+			<method name="public String getCheckIn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.CavalGetListOfBoardTypesRQ</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>travel.caval._20091127.hotelbooking.DatesRange</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getFrom()">1</method>
+			<method name="public void setTo(String arg0)">1</method>
+			<method name="public void setFrom(String arg0)">1</method>
+			<method name="public String getTo()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

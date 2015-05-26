@@ -1,0 +1,259 @@
+	<class>
+		<name>webservices.OutputData</name>
+		<wmc>49</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>50</rfc>
+		<lcom>1128</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>49</npm>
+		<lcom3>0.9791666666666666</lcom3>
+		<loc>244</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7448979591836735</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.489795918367347</amc>
+		<cc>
+			<method name="public void setEBITDA(double arg0)">1</method>
+			<method name="public double getOwnersEquity()">1</method>
+			<method name="public void setCash(double arg0)">1</method>
+			<method name="public void setLongTermDebt(double arg0)">1</method>
+			<method name="public double getCash()">1</method>
+			<method name="public double getResidualCashFlow()">1</method>
+			<method name="public double getShortTermDebt()">1</method>
+			<method name="public double getEBITDA()">1</method>
+			<method name="public double getTaxes()">1</method>
+			<method name="public void setAccountsPayable(double arg0)">1</method>
+			<method name="public void setLongTermLiabilities(double arg0)">1</method>
+			<method name="public void setTaxes(double arg0)">1</method>
+			<method name="public void setTotalLiabilities(double arg0)">1</method>
+			<method name="public double getLiabilitiesAndEquity()">1</method>
+			<method name="public void setGrossProfit(double arg0)">1</method>
+			<method name="public double getEBIT()">1</method>
+			<method name="public double getCurrentAssets()">1</method>
+			<method name="public double getGrossProfit()">1</method>
+			<method name="public double getTotalAssets()">1</method>
+			<method name="public void setShortTermDebt(double arg0)">1</method>
+			<method name="public void setInterestExpense(double arg0)">1</method>
+			<method name="public void setCurrentLiabilities(double arg0)">1</method>
+			<method name="public void setDepreciation(double arg0)">1</method>
+			<method name="public double getCurrentLiabilities()">1</method>
+			<method name="public void setNetIncome(double arg0)">1</method>
+			<method name="public double getUnitSales()">1</method>
+			<method name="public void setTotalAssets(double arg0)">1</method>
+			<method name="public double getDepreciation()">1</method>
+			<method name="public void setFixedAssets(double arg0)">1</method>
+			<method name="public double getAccountsPayable()">1</method>
+			<method name="public double getFreeCashFlow()">1</method>
+			<method name="public double getLongTermDebt()">1</method>
+			<method name="public double getAccountsReceivable()">1</method>
+			<method name="public double getLongTermLiabilities()">1</method>
+			<method name="public void setUnitSales(double arg0)">1</method>
+			<method name="public void setEBIT(double arg0)">1</method>
+			<method name="public void setAccountsReceivable(double arg0)">1</method>
+			<method name="public void setResidualCashFlow(double arg0)">1</method>
+			<method name="public void setCurrentAssets(double arg0)">1</method>
+			<method name="public void setInventory(double arg0)">1</method>
+			<method name="public double getNetIncome()">1</method>
+			<method name="public void setOwnersEquity(double arg0)">1</method>
+			<method name="public void setLiabilitiesAndEquity(double arg0)">1</method>
+			<method name="public double getInterestExpense()">1</method>
+			<method name="public double getTotalLiabilities()">1</method>
+			<method name="public double getInventory()">1</method>
+			<method name="public double getFixedAssets()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFreeCashFlow(double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>webservices.InputType</name>
+		<wmc>31</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7419354838709677</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public void setTaxRate(Double arg0)">1</method>
+			<method name="public void setInitialFixedAssets(Double arg0)">1</method>
+			<method name="public Double getOperatingExpenses()">1</method>
+			<method name="public void setOperatingExpenses(Double arg0)">1</method>
+			<method name="public void setDebtInterestRate(Double arg0)">1</method>
+			<method name="public Double getInitialFixedAssets()">1</method>
+			<method name="public Double getInitialLongTermDebt()">1</method>
+			<method name="public Double getDebtAmortization()">1</method>
+			<method name="public void setAverageAssetLife(Double arg0)">1</method>
+			<method name="public Double getSalesGrowthRate()">1</method>
+			<method name="public Double getAverageAssetLife()">1</method>
+			<method name="public void setDaysReceivables(Double arg0)">1</method>
+			<method name="public void setDaysInventory(Double arg0)">1</method>
+			<method name="public Double getInitialCash()">1</method>
+			<method name="public void setUnitPrice(Double arg0)">1</method>
+			<method name="public Double getToolingCost()">1</method>
+			<method name="public void setInitialCash(Double arg0)">1</method>
+			<method name="public Double getDaysInventory()">1</method>
+			<method name="public Double getInitialSales()">1</method>
+			<method name="public void setInitialSales(Double arg0)">1</method>
+			<method name="public Double getDaysPayables()">1</method>
+			<method name="public void setSalesGrowthRate(Double arg0)">1</method>
+			<method name="public Double getUnitPrice()">1</method>
+			<method name="public Double getTaxRate()">1</method>
+			<method name="public void setInitialLongTermDebt(Double arg0)">1</method>
+			<method name="public void setDaysPayables(Double arg0)">1</method>
+			<method name="public Double getDaysReceivables()">1</method>
+			<method name="public void setDebtAmortization(Double arg0)">1</method>
+			<method name="public void setToolingCost(Double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Double getDebtInterestRate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>webservices.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>webservices.ServicePortType</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract webservices.OutputType company_002520Simulation(webservices.InputType)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>webservices.OutputType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setOutputData(webservices.OutputData arg0)">1</method>
+			<method name="public webservices.OutputData getOutputData()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>webservices.Company_002520Simulation</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient webservices.ServicePortType getServicePort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public webservices.ServicePortType getServicePort()">1</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>webservices.ObjectFactory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>6</lcom>
+		<ca>0</ca>
+		<ce>3</ce>
+		<npm>4</npm>
+		<lcom3>2.0</lcom3>
+		<loc>19</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.75</amc>
+		<cc>
+			<method name="public webservices.OutputData createOutputData()">1</method>
+			<method name="public webservices.InputType createInputType()">1</method>
+			<method name="public webservices.OutputType createOutputType()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

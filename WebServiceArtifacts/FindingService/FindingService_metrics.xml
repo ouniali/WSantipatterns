@@ -1,0 +1,2363 @@
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsByProductRequest</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>7</rfc>
+		<lcom>8</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.9166666666666667</lcom3>
+		<loc>40</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.4</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.ProductId getProductId()">1</method>
+			<method name="public java.util.List getOutputSelector()">2</method>
+			<method name="public java.util.List getItemFilter()">2</method>
+			<method name="public void setProductId(com.ebay.marketplace.search.v1.services.ProductId arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.Distance</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public String getUnit()">1</method>
+			<method name="public void setUnit(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public double getValue()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ListingInfo</name>
+		<wmc>20</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>22</rfc>
+		<lcom>172</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>20</npm>
+		<lcom3>0.9526315789473685</lcom3>
+		<loc>107</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.85</amc>
+		<cc>
+			<method name="public void setEndTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public Boolean isBuyItNowAvailable()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartTime()">1</method>
+			<method name="public void setGift(Boolean arg0)">1</method>
+			<method name="public void setStartTime(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getListingType()">1</method>
+			<method name="public void setBestOfferEnabled(Boolean arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Amount getBuyItNowPrice()">1</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getEndTime()">1</method>
+			<method name="public void setBuyItNowPrice(com.ebay.marketplace.search.v1.services.Amount arg0)">1</method>
+			<method name="public Boolean isBestOfferEnabled()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public Boolean isGift()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Amount getConvertedBuyItNowPrice()">1</method>
+			<method name="public void setConvertedBuyItNowPrice(com.ebay.marketplace.search.v1.services.Amount arg0)">1</method>
+			<method name="public void setBuyItNowAvailable(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setListingType(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.SearchResult</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>9</rfc>
+		<lcom>17</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>50</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.42857142857142855</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.571428571428571</amc>
+		<cc>
+			<method name="public java.util.List getItem()">2</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ErrorParameter</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.PaginationOutput</name>
+		<wmc>12</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>56</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>12</npm>
+		<lcom3>0.9242424242424242</lcom3>
+		<loc>67</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4722222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.083333333333333</amc>
+		<cc>
+			<method name="public Integer getTotalEntries()">1</method>
+			<method name="public void setTotalPages(Integer arg0)">1</method>
+			<method name="public Integer getEntriesPerPage()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void setEntriesPerPage(Integer arg0)">1</method>
+			<method name="public Integer getTotalPages()">1</method>
+			<method name="public Integer getPageNumber()">1</method>
+			<method name="public void setPageNumber(Integer arg0)">1</method>
+			<method name="public void setTotalEntries(Integer arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.UnitPriceInfo</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public double getQuantity()">1</method>
+			<method name="public void setQuantity(double arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GallerySizeEnum</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.ebay.marketplace.search.v1.services.GallerySizeEnum[] values()">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.GallerySizeEnum valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.GallerySizeEnum fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ConditionHistogram</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34375</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.Condition getCondition()">1</method>
+			<method name="public void setCondition(com.ebay.marketplace.search.v1.services.Condition arg0)">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindingServicePortType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>23</cbo>
+		<rfc>11</rfc>
+		<lcom>55</lcom>
+		<ca>1</ca>
+		<ce>22</ce>
+		<npm>11</npm>
+		<lcom3>2.0</lcom3>
+		<loc>11</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.16666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.FindItemsByProductResponse findItemsByProduct(com.ebay.marketplace.search.v1.services.FindItemsByProductRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.FindItemsForFavoriteSearchResponse findItemsForFavoriteSearch(com.ebay.marketplace.search.v1.services.FindItemsForFavoriteSearchRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.FindItemsAdvancedResponse findItemsAdvanced(com.ebay.marketplace.search.v1.services.FindItemsAdvancedRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.FindItemsByKeywordsResponse findItemsByKeywords(com.ebay.marketplace.search.v1.services.FindItemsByKeywordsRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.FindItemsIneBayStoresResponse findItemsIneBayStores(com.ebay.marketplace.search.v1.services.FindItemsIneBayStoresRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.GetVersionResponse getVersion(com.ebay.marketplace.search.v1.services.GetVersionRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.FindItemsByCategoryResponse findItemsByCategory(com.ebay.marketplace.search.v1.services.FindItemsByCategoryRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.FindCompletedItemsResponse findCompletedItems(com.ebay.marketplace.search.v1.services.FindCompletedItemsRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.FindItemsByImageResponse findItemsByImage(com.ebay.marketplace.search.v1.services.FindItemsByImageRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.GetSearchKeywordsRecommendationResponse getSearchKeywordsRecommendation(com.ebay.marketplace.search.v1.services.GetSearchKeywordsRecommendationRequest)">1</method>
+			<method name="public abstract com.ebay.marketplace.search.v1.services.GetHistogramsResponse getHistograms(com.ebay.marketplace.search.v1.services.GetHistogramsRequest)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.SellingStatus</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2857142857142857</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public void setSellingState(String arg0)">1</method>
+			<method name="public void setCurrentPrice(com.ebay.marketplace.search.v1.services.Amount arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void setBidCount(Integer arg0)">1</method>
+			<method name="public javax.xml.datatype.Duration getTimeLeft()">1</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public String getSellingState()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Amount getCurrentPrice()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Amount getConvertedCurrentPrice()">1</method>
+			<method name="public void setTimeLeft(javax.xml.datatype.Duration arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getBidCount()">1</method>
+			<method name="public void setConvertedCurrentPrice(com.ebay.marketplace.search.v1.services.Amount arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.BaseServiceRequest</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>5</noc>
+		<cbo>5</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.Condition</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4583333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public String getConditionDisplayName()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public Integer getConditionId()">1</method>
+			<method name="public void setConditionDisplayName(String arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public void setConditionId(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsAdvancedRequest</name>
+		<wmc>10</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>41</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>10</npm>
+		<lcom3>0.9682539682539681</lcom3>
+		<loc>89</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.2</amc>
+		<cc>
+			<method name="public java.util.List getAspectFilter()">2</method>
+			<method name="public Boolean isDescriptionSearch()">1</method>
+			<method name="public void setKeywords(String arg0)">1</method>
+			<method name="public java.util.List getOutputSelector()">2</method>
+			<method name="public String getKeywords()">1</method>
+			<method name="public java.util.List getDomainFilter()">2</method>
+			<method name="public java.util.List getItemFilter()">2</method>
+			<method name="public void setDescriptionSearch(Boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCategoryId()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsByCategoryRequest</name>
+		<wmc>6</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>6</npm>
+		<lcom3>1.0</lcom3>
+		<loc>69</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.666666666666666</amc>
+		<cc>
+			<method name="public java.util.List getAspectFilter()">2</method>
+			<method name="public java.util.List getOutputSelector()">2</method>
+			<method name="public java.util.List getDomainFilter()">2</method>
+			<method name="public java.util.List getItemFilter()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCategoryId()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GetSearchKeywordsRecommendationRequest</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setKeywords(String arg0)">1</method>
+			<method name="public String getKeywords()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GetSearchKeywordsRecommendationResponse</name>
+		<wmc>4</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setKeywords(String arg0)">1</method>
+			<method name="public String getKeywords()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getExtension()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ShippingInfo</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>19</rfc>
+		<lcom>122</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9513888888888888</lcom3>
+		<loc>100</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2823529411764706</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.352941176470588</amc>
+		<cc>
+			<method name="public void setShippingServiceCost(com.ebay.marketplace.search.v1.services.Amount arg0)">1</method>
+			<method name="public java.util.List getShipToLocations()">2</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Amount getShippingServiceCost()">1</method>
+			<method name="public void setShippingType(String arg0)">1</method>
+			<method name="public void setExpeditedShipping(Boolean arg0)">1</method>
+			<method name="public void setIntermediatedShipping(Boolean arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public void setOneDayShippingAvailable(Boolean arg0)">1</method>
+			<method name="public Integer getHandlingTime()">1</method>
+			<method name="public Boolean isOneDayShippingAvailable()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void setHandlingTime(Integer arg0)">1</method>
+			<method name="public String getShippingType()">1</method>
+			<method name="public Boolean isIntermediatedShipping()">1</method>
+			<method name="public Boolean isExpeditedShipping()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GetHistogramsResponse</name>
+		<wmc>8</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34375</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer getCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setCategoryHistogramContainer(com.ebay.marketplace.search.v1.services.CategoryHistogramContainer arg0)">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getExtension()">2</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsByCategoryResponse</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer getCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setCategoryHistogramContainer(com.ebay.marketplace.search.v1.services.CategoryHistogramContainer arg0)">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.Affiliate</name>
+		<wmc>12</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>56</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>12</npm>
+		<lcom3>0.9242424242424242</lcom3>
+		<loc>67</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4722222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.083333333333333</amc>
+		<cc>
+			<method name="public String getNetworkId()">1</method>
+			<method name="public String getTrackingId()">1</method>
+			<method name="public Boolean isGeoTargeting()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void setNetworkId(String arg0)">1</method>
+			<method name="public void setCustomId(String arg0)">1</method>
+			<method name="public String getCustomId()">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTrackingId(String arg0)">1</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public void setGeoTargeting(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.MapExposureEnum</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static com.ebay.marketplace.search.v1.services.MapExposureEnum[] values()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.MapExposureEnum valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.MapExposureEnum fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GetVersionResponse</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.Amount</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public String getCurrencyId()">1</method>
+			<method name="public void setCurrencyId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public double getValue()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.DiscountPriceInfo</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.PriceTreatmentEnum getPricingTreatment()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Amount getOriginalRetailPrice()">1</method>
+			<method name="public Boolean isSoldOffEbay()">1</method>
+			<method name="public Boolean isSoldOnEbay()">1</method>
+			<method name="public void setSoldOffEbay(Boolean arg0)">1</method>
+			<method name="public void setOriginalRetailPrice(com.ebay.marketplace.search.v1.services.Amount arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSoldOnEbay(Boolean arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.MapExposureEnum getMinimumAdvertisedPriceExposure()">1</method>
+			<method name="public void setMinimumAdvertisedPriceExposure(com.ebay.marketplace.search.v1.services.MapExposureEnum arg0)">1</method>
+			<method name="public void setPricingTreatment(com.ebay.marketplace.search.v1.services.PriceTreatmentEnum arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.BaseFindingServiceRequest</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>6</noc>
+		<cbo>8</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>6</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public com.ebay.marketplace.search.v1.services.SortOrderType getSortOrder()">1</method>
+			<method name="public void setSortOrder(com.ebay.marketplace.search.v1.services.SortOrderType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ErrorSeverity</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.75</lcom3>
+		<loc>84</loc>
+		<dam>0.5</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>12.333333333333334</amc>
+		<cc>
+			<method name="public static com.ebay.marketplace.search.v1.services.ErrorSeverity[] values()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.ErrorSeverity fromValue(String arg0)">3</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.ErrorSeverity valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindCompletedItemsRequest</name>
+		<wmc>10</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>41</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>10</npm>
+		<lcom3>0.9682539682539681</lcom3>
+		<loc>89</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.2</amc>
+		<cc>
+			<method name="public java.util.List getAspectFilter()">2</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ProductId getProductId()">1</method>
+			<method name="public void setKeywords(String arg0)">1</method>
+			<method name="public java.util.List getOutputSelector()">2</method>
+			<method name="public String getKeywords()">1</method>
+			<method name="public java.util.List getDomainFilter()">2</method>
+			<method name="public java.util.List getItemFilter()">2</method>
+			<method name="public void setProductId(com.ebay.marketplace.search.v1.services.ProductId arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCategoryId()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.BaseFindingServiceResponse</name>
+		<wmc>8</wmc>
+		<dit>0</dit>
+		<noc>8</noc>
+		<cbo>11</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>8</ca>
+		<ce>3</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34375</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public void setPaginationOutput(com.ebay.marketplace.search.v1.services.PaginationOutput arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.PaginationOutput getPaginationOutput()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.SearchResult getSearchResult()">1</method>
+			<method name="public void setSearchResult(com.ebay.marketplace.search.v1.services.SearchResult arg0)">1</method>
+			<method name="public void setItemSearchURL(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getItemSearchURL()">1</method>
+			<method name="public java.util.List getExtension()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsByImageRequest</name>
+		<wmc>8</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>26</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.9761904761904762</lcom3>
+		<loc>79</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.125</amc>
+		<cc>
+			<method name="public java.util.List getAspectFilter()">2</method>
+			<method name="public java.util.List getOutputSelector()">2</method>
+			<method name="public java.util.List getDomainFilter()">2</method>
+			<method name="public String getItemId()">1</method>
+			<method name="public java.util.List getItemFilter()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCategoryId()">2</method>
+			<method name="public void setItemId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsByImageResponse</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer getCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setCategoryHistogramContainer(com.ebay.marketplace.search.v1.services.CategoryHistogramContainer arg0)">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ErrorCategory</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="public static com.ebay.marketplace.search.v1.services.ErrorCategory valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.ErrorCategory[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.ErrorCategory fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.SearchItem</name>
+		<wmc>68</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>13</cbo>
+		<rfc>70</rfc>
+		<lcom>2216</lcom>
+		<ca>1</ca>
+		<ce>12</ce>
+		<npm>68</npm>
+		<lcom3>0.9871475953565505</lcom3>
+		<loc>379</loc>
+		<dam>1.0</dam>
+		<moa>13</moa>
+		<mfa>0.0</mfa>
+		<cam>0.09705882352941177</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.044117647058823</amc>
+		<cc>
+			<method name="public String getPictureURLSuperSize()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ProductId getProductId()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Condition getCondition()">1</method>
+			<method name="public void setAutoPay(Boolean arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.SellerInfo getSellerInfo()">1</method>
+			<method name="public void setSubtitle(String arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public Boolean isReturnsAccepted()">1</method>
+			<method name="public java.util.List getPaymentMethod()">2</method>
+			<method name="public void setItemId(String arg0)">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setPictureURLSuperSize(String arg0)">1</method>
+			<method name="public void setShippingInfo(com.ebay.marketplace.search.v1.services.ShippingInfo arg0)">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void setReturnsAccepted(Boolean arg0)">1</method>
+			<method name="public String getViewItemURL()">1</method>
+			<method name="public void setIsMultiVariationListing(Boolean arg0)">1</method>
+			<method name="public String getGlobalId()">1</method>
+			<method name="public void setDiscountPriceInfo(com.ebay.marketplace.search.v1.services.DiscountPriceInfo arg0)">1</method>
+			<method name="public void setProductId(com.ebay.marketplace.search.v1.services.ProductId arg0)">1</method>
+			<method name="public void setPictureURLLarge(String arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Category getSecondaryCategory()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void setSellingStatus(com.ebay.marketplace.search.v1.services.SellingStatus arg0)">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public Boolean isAutoPay()">1</method>
+			<method name="public void setStoreInfo(com.ebay.marketplace.search.v1.services.Storefront arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ShippingInfo getShippingInfo()">1</method>
+			<method name="public void setListingInfo(com.ebay.marketplace.search.v1.services.ListingInfo arg0)">1</method>
+			<method name="public void setCompatibility(String arg0)">1</method>
+			<method name="public Boolean isIsMultiVariationListing()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GalleryInfoContainer getGalleryInfoContainer()">1</method>
+			<method name="public void setCharityId(String arg0)">1</method>
+			<method name="public void setSellerInfo(com.ebay.marketplace.search.v1.services.SellerInfo arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.UnitPriceInfo getUnitPrice()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.SellingStatus getSellingStatus()">1</method>
+			<method name="public java.util.List getEekStatus()">2</method>
+			<method name="public void setPrimaryCategory(com.ebay.marketplace.search.v1.services.Category arg0)">1</method>
+			<method name="public String getCompatibility()">1</method>
+			<method name="public java.util.List getAttribute()">2</method>
+			<method name="public Boolean isTopRatedListing()">1</method>
+			<method name="public void setTopRatedListing(Boolean arg0)">1</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public void setDistance(com.ebay.marketplace.search.v1.services.Distance arg0)">1</method>
+			<method name="public void setLocation(String arg0)">1</method>
+			<method name="public String getGalleryURL()">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Category getPrimaryCategory()">1</method>
+			<method name="public String getLocation()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Storefront getStoreInfo()">1</method>
+			<method name="public void setUnitPrice(com.ebay.marketplace.search.v1.services.UnitPriceInfo arg0)">1</method>
+			<method name="public void setViewItemURL(String arg0)">1</method>
+			<method name="public String getSubtitle()">1</method>
+			<method name="public String getPictureURLLarge()">1</method>
+			<method name="public void setCondition(com.ebay.marketplace.search.v1.services.Condition arg0)">1</method>
+			<method name="public String getCharityId()">1</method>
+			<method name="public void setGalleryURL(String arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.DiscountPriceInfo getDiscountPriceInfo()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ListingInfo getListingInfo()">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void setGlobalId(String arg0)">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public void setSecondaryCategory(com.ebay.marketplace.search.v1.services.Category arg0)">1</method>
+			<method name="public void setGalleryInfoContainer(com.ebay.marketplace.search.v1.services.GalleryInfoContainer arg0)">1</method>
+			<method name="public String getItemId()">1</method>
+			<method name="public java.util.List getGalleryPlusPictureURL()">2</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Distance getDistance()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.DomainFilter</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>7</rfc>
+		<lcom>8</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.9166666666666667</lcom3>
+		<loc>40</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.4</amc>
+		<cc>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public java.util.List getDomainName()">2</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ErrorData</name>
+		<wmc>16</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>18</rfc>
+		<lcom>106</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>16</npm>
+		<lcom3>0.9416666666666667</lcom3>
+		<loc>87</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9375</amc>
+		<cc>
+			<method name="public void setErrorId(long arg0)">1</method>
+			<method name="public void setSubdomain(String arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ErrorCategory getCategory()">1</method>
+			<method name="public void setSeverity(com.ebay.marketplace.search.v1.services.ErrorSeverity arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ErrorSeverity getSeverity()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+			<method name="public java.util.List getParameter()">2</method>
+			<method name="public void setDomain(String arg0)">1</method>
+			<method name="public void setExceptionId(String arg0)">1</method>
+			<method name="public long getErrorId()">1</method>
+			<method name="public String getExceptionId()">1</method>
+			<method name="public String getDomain()">1</method>
+			<method name="public String getSubdomain()">1</method>
+			<method name="public void setCategory(com.ebay.marketplace.search.v1.services.ErrorCategory arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindingService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.FindingServicePortType getFindingServiceSOAPPort()">1</method>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public transient com.ebay.marketplace.search.v1.services.FindingServicePortType getFindingServiceSOAPPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ItemFilterType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9782608695652174</lcom3>
+		<loc>588</loc>
+		<dam>0.043478260869565216</dam>
+		<moa>45</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>89.33333333333333</amc>
+		<cc>
+			<method name="public static com.ebay.marketplace.search.v1.services.ItemFilterType fromValue(String arg0)">3</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.ItemFilterType[] values()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.ItemFilterType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsAdvancedResponse</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer getCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setCategoryHistogramContainer(com.ebay.marketplace.search.v1.services.CategoryHistogramContainer arg0)">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GalleryInfoContainer</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getGalleryURL()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.AspectValueHistogram</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public void setCount(long arg0)">1</method>
+			<method name="public String getValueName()">1</method>
+			<method name="public void setValueName(String arg0)">1</method>
+			<method name="public long getCount()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.PriceTreatmentEnum</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9333333333333333</lcom3>
+		<loc>53</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>7.333333333333333</amc>
+		<cc>
+			<method name="public static com.ebay.marketplace.search.v1.services.PriceTreatmentEnum valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.PriceTreatmentEnum[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.PriceTreatmentEnum fromValue(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.OutputSelectorType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.909090909090909</lcom3>
+		<loc>168</loc>
+		<dam>0.18181818181818182</dam>
+		<moa>10</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>25.166666666666668</amc>
+		<cc>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.OutputSelectorType valueOf(String arg0)">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.OutputSelectorType[] values()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.OutputSelectorType fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.AckValue</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static com.ebay.marketplace.search.v1.services.AckValue fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.AckValue valueOf(String arg0)">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.AckValue[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsByProductResponse</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsIneBayStoresResponse</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer getCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setCategoryHistogramContainer(com.ebay.marketplace.search.v1.services.CategoryHistogramContainer arg0)">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsIneBayStoresRequest</name>
+		<wmc>10</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>41</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>10</npm>
+		<lcom3>0.9682539682539681</lcom3>
+		<loc>89</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.2</amc>
+		<cc>
+			<method name="public java.util.List getAspectFilter()">2</method>
+			<method name="public String getStoreName()">1</method>
+			<method name="public void setKeywords(String arg0)">1</method>
+			<method name="public java.util.List getOutputSelector()">2</method>
+			<method name="public void setStoreName(String arg0)">1</method>
+			<method name="public String getKeywords()">1</method>
+			<method name="public java.util.List getDomainFilter()">2</method>
+			<method name="public java.util.List getItemFilter()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getCategoryId()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.BestMatchFindingServiceRequest</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>2</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setPaginationInput(com.ebay.marketplace.search.v1.services.PaginationInput arg0)">1</method>
+			<method name="public String getBuyerPostalCode()">1</method>
+			<method name="public void setAffiliate(com.ebay.marketplace.search.v1.services.Affiliate arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.ebay.marketplace.search.v1.services.PaginationInput getPaginationInput()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Affiliate getAffiliate()">1</method>
+			<method name="public void setBuyerPostalCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.BaseServiceResponse</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>4</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>4</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorMessage(com.ebay.marketplace.search.v1.services.ErrorMessage arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ErrorMessage getErrorMessage()">1</method>
+			<method name="public void setTimestamp(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setAck(com.ebay.marketplace.search.v1.services.AckValue arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getTimestamp()">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AckValue getAck()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsForFavoriteSearchResponse</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer getCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setCategoryHistogramContainer(com.ebay.marketplace.search.v1.services.CategoryHistogramContainer arg0)">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.AspectFilter</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>9</rfc>
+		<lcom>17</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>50</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6428571428571429</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.571428571428571</amc>
+		<cc>
+			<method name="public void setAspectName(String arg0)">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public java.util.List getAspectValueName()">2</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public String getAspectName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ItemFilter</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>13</rfc>
+		<lcom>47</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9333333333333333</lcom3>
+		<loc>70</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.45454545454545453</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.818181818181818</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.ItemFilterType getName()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void setParamName(String arg0)">1</method>
+			<method name="public java.util.List getValue()">2</method>
+			<method name="public void setParamValue(String arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getParamName()">1</method>
+			<method name="public String getParamValue()">1</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public void setName(com.ebay.marketplace.search.v1.services.ItemFilterType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ObjectFactory</name>
+		<wmc>80</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>56</cbo>
+		<rfc>139</rfc>
+		<lcom>3116</lcom>
+		<ca>0</ca>
+		<ce>56</ce>
+		<npm>79</npm>
+		<lcom3>0.9873417721518988</lcom3>
+		<loc>638</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.05558613098514034</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.7</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsByCategoryResponse createFindItemsByCategoryResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsByCategoryRequest(com.ebay.marketplace.search.v1.services.FindItemsByCategoryRequest arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.DomainFilter createDomainFilter()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ErrorParameter createErrorParameter()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsIneBayStoresResponse(com.ebay.marketplace.search.v1.services.FindItemsIneBayStoresResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsByKeywordsResponse(com.ebay.marketplace.search.v1.services.FindItemsByKeywordsResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsAdvancedResponse createFindItemsAdvancedResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ErrorMessage createErrorMessage()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetVersionResponse(com.ebay.marketplace.search.v1.services.GetVersionResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Affiliate createAffiliate()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Condition createCondition()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ItemAttribute createItemAttribute()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetHistogramsRequest(com.ebay.marketplace.search.v1.services.GetHistogramsRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsAdvancedRequest(com.ebay.marketplace.search.v1.services.FindItemsAdvancedRequest arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsForFavoriteSearchRequest createFindItemsForFavoriteSearchRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsByProductRequest(com.ebay.marketplace.search.v1.services.FindItemsByProductRequest arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsIneBayStoresRequest createFindItemsIneBayStoresRequest()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsForFavoriteSearchResponse createFindItemsForFavoriteSearchResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer createConditionHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogram createConditionHistogram()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Storefront createStorefront()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ListingInfo createListingInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsByImageRequest(com.ebay.marketplace.search.v1.services.FindItemsByImageRequest arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.SellerInfo createSellerInfo()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ShippingInfo createShippingInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSearchKeywordsRecommendationResponse(com.ebay.marketplace.search.v1.services.GetSearchKeywordsRecommendationResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.PaginationInput createPaginationInput()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsByProductResponse(com.ebay.marketplace.search.v1.services.FindItemsByProductResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ProductId createProductId()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.PaginationOutput createPaginationOutput()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsByImageResponse createFindItemsByImageResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GalleryInfoContainer createGalleryInfoContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.SearchResult createSearchResult()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ErrorData createErrorData()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsByImageRequest createFindItemsByImageRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindCompletedItemsRequest(com.ebay.marketplace.search.v1.services.FindCompletedItemsRequest arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.DiscountPriceInfo createDiscountPriceInfo()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Aspect createAspect()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Distance createDistance()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GetVersionResponse createGetVersionResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.UnitPriceInfo createUnitPriceInfo()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsForFavoriteSearchResponse(com.ebay.marketplace.search.v1.services.FindItemsForFavoriteSearchResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetHistogramsResponse(com.ebay.marketplace.search.v1.services.GetHistogramsResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GetSearchKeywordsRecommendationRequest createGetSearchKeywordsRecommendationRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsByImageResponse(com.ebay.marketplace.search.v1.services.FindItemsByImageResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer createCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsByProductResponse createFindItemsByProductResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsByCategoryRequest createFindItemsByCategoryRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsAdvancedResponse(com.ebay.marketplace.search.v1.services.FindItemsAdvancedResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsAdvancedRequest createFindItemsAdvancedRequest()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindCompletedItemsResponse createFindCompletedItemsResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsIneBayStoresResponse createFindItemsIneBayStoresResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer createAspectHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectValueHistogram createAspectValueHistogram()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsByCategoryResponse(com.ebay.marketplace.search.v1.services.FindItemsByCategoryResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GetHistogramsResponse createGetHistogramsResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.SellingStatus createSellingStatus()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSearchKeywordsRecommendationRequest(com.ebay.marketplace.search.v1.services.GetSearchKeywordsRecommendationRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsIneBayStoresRequest(com.ebay.marketplace.search.v1.services.FindItemsIneBayStoresRequest arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Category createCategory()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogram createCategoryHistogram()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ExtensionType createExtensionType()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindCompletedItemsRequest createFindCompletedItemsRequest()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GalleryURL createGalleryURL()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindCompletedItemsResponse(com.ebay.marketplace.search.v1.services.FindCompletedItemsResponse arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectFilter createAspectFilter()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsByKeywordsRequest(com.ebay.marketplace.search.v1.services.FindItemsByKeywordsRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetVersionRequest(com.ebay.marketplace.search.v1.services.GetVersionRequest arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsByProductRequest createFindItemsByProductRequest()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GetHistogramsRequest createGetHistogramsRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFindItemsForFavoriteSearchRequest(com.ebay.marketplace.search.v1.services.FindItemsForFavoriteSearchRequest arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsByKeywordsResponse createFindItemsByKeywordsResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.Amount createAmount()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.FindItemsByKeywordsRequest createFindItemsByKeywordsRequest()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GetVersionRequest createGetVersionRequest()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.SearchItem createSearchItem()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GetSearchKeywordsRecommendationResponse createGetSearchKeywordsRecommendationResponse()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ItemFilter createItemFilter()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ProductId</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.CategoryHistogram</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>9</rfc>
+		<lcom>17</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>50</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.42857142857142855</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.571428571428571</amc>
+		<cc>
+			<method name="public void setCount(Long arg0)">1</method>
+			<method name="public java.util.List getChildCategoryHistogram()">2</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public Long getCount()">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsByKeywordsResponse</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer getCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setCategoryHistogramContainer(com.ebay.marketplace.search.v1.services.CategoryHistogramContainer arg0)">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.AspectHistogramContainer</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>11</rfc>
+		<lcom>30</lcom>
+		<ca>10</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.925</lcom3>
+		<loc>60</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.111111111111111</amc>
+		<cc>
+			<method name="public void setDomainName(String arg0)">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void setDomainDisplayName(String arg0)">1</method>
+			<method name="public String getDomainDisplayName()">1</method>
+			<method name="public java.util.List getAspect()">2</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDomainName()">1</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.CategoryHistogramContainer</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>7</rfc>
+		<lcom>8</lcom>
+		<ca>9</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.9166666666666667</lcom3>
+		<loc>40</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.4</amc>
+		<cc>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public java.util.List getCategoryHistogram()">2</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GetHistogramsRequest</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCategoryId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCategoryId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindCompletedItemsResponse</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.ebay.marketplace.search.v1.services.CategoryHistogramContainer getCategoryHistogramContainer()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.ConditionHistogramContainer getConditionHistogramContainer()">1</method>
+			<method name="public void setCategoryHistogramContainer(com.ebay.marketplace.search.v1.services.CategoryHistogramContainer arg0)">1</method>
+			<method name="public void setConditionHistogramContainer(com.ebay.marketplace.search.v1.services.ConditionHistogramContainer arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.AspectHistogramContainer getAspectHistogramContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAspectHistogramContainer(com.ebay.marketplace.search.v1.services.AspectHistogramContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.Category</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setCategoryId(String arg0)">1</method>
+			<method name="public void setCategoryName(String arg0)">1</method>
+			<method name="public String getCategoryName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCategoryId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.Storefront</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public String getStoreName()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void setStoreName(String arg0)">1</method>
+			<method name="public void setStoreURL(String arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public String getStoreURL()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.Aspect</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>9</rfc>
+		<lcom>17</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>50</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6428571428571429</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.571428571428571</amc>
+		<cc>
+			<method name="public java.util.List getValueHistogram()">2</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GetVersionRequest</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ConditionHistogramContainer</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>10</cbo>
+		<rfc>7</rfc>
+		<lcom>8</lcom>
+		<ca>10</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.9166666666666667</lcom3>
+		<loc>40</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.4</amc>
+		<cc>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public java.util.List getConditionHistogram()">2</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ItemAttribute</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsByKeywordsRequest</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>9</rfc>
+		<lcom>19</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>66</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5714285714285714</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.714285714285714</amc>
+		<cc>
+			<method name="public java.util.List getAspectFilter()">2</method>
+			<method name="public void setKeywords(String arg0)">1</method>
+			<method name="public java.util.List getOutputSelector()">2</method>
+			<method name="public String getKeywords()">1</method>
+			<method name="public java.util.List getDomainFilter()">2</method>
+			<method name="public java.util.List getItemFilter()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.SellerInfo</name>
+		<wmc>14</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>79</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>14</npm>
+		<lcom3>0.9340659340659341</lcom3>
+		<loc>77</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2857142857142857</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.0</amc>
+		<cc>
+			<method name="public String getSellerUserName()">1</method>
+			<method name="public Long getFeedbackScore()">1</method>
+			<method name="public void setSellerUserName(String arg0)">1</method>
+			<method name="public void setPositiveFeedbackPercent(Double arg0)">1</method>
+			<method name="public Boolean isTopRatedSeller()">1</method>
+			<method name="public Double getPositiveFeedbackPercent()">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public String getFeedbackRatingStar()">1</method>
+			<method name="public java.util.List getAny()">2</method>
+			<method name="public void setTopRatedSeller(Boolean arg0)">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFeedbackRatingStar(String arg0)">1</method>
+			<method name="public void setFeedbackScore(Long arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ExtensionType</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>37</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>10</npm>
+		<lcom3>0.911111111111111</lcom3>
+		<loc>57</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.2</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getVersion()">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void setVersion(String arg0)">1</method>
+			<method name="public String getContentType()">1</method>
+			<method name="public java.math.BigInteger getId()">1</method>
+			<method name="public void setId(java.math.BigInteger arg0)">1</method>
+			<method name="public void setContentType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.GalleryURL</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setGallerySize(com.ebay.marketplace.search.v1.services.GallerySizeEnum arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.GallerySizeEnum getGallerySize()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.ErrorMessage</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getError()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.FindItemsForFavoriteSearchRequest</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setPaginationInput(com.ebay.marketplace.search.v1.services.PaginationInput arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getStartTimeFrom()">1</method>
+			<method name="public void setStartTimeFrom(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public Long getSearchId()">1</method>
+			<method name="public String getSearchName()">1</method>
+			<method name="public void setSearchName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchId(Long arg0)">1</method>
+			<method name="public com.ebay.marketplace.search.v1.services.PaginationInput getPaginationInput()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.SortOrderType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.923076923076923</lcom3>
+		<loc>192</loc>
+		<dam>0.15384615384615385</dam>
+		<moa>12</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>28.833333333333332</amc>
+		<cc>
+			<method name="public static com.ebay.marketplace.search.v1.services.SortOrderType[] values()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.SortOrderType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+			<method name="public static com.ebay.marketplace.search.v1.services.SortOrderType fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.ebay.marketplace.search.v1.services.PaginationInput</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4583333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public Integer getEntriesPerPage()">1</method>
+			<method name="public String getDelimiter()">1</method>
+			<method name="public void setEntriesPerPage(Integer arg0)">1</method>
+			<method name="public Integer getPageNumber()">1</method>
+			<method name="public void setPageNumber(Integer arg0)">1</method>
+			<method name="public void setDelimiter(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAny()">2</method>
+		</cc>
+	</class>

@@ -1,0 +1,750 @@
+	<class>
+		<name>tns.CountDistinctPmidsFromCid</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCid(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCid()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetAnnotationsFromCid</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCid(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCid()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.ProlificProteinsequenceResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getProlificProteinsequenceResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setProlificProteinsequenceResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetPmidsFromUniprotAccResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetPmidsFromUniprotAccResult()">1</method>
+			<method name="public void setGetPmidsFromUniprotAccResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.ProlificNucleotidesequenceResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setProlificNucleotidesequenceResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getProlificNucleotidesequenceResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetAnnotationsFromUniprotAcc</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAccs(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getAccs()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.ProlificProteinsequence</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSequence(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSequence()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.ProlificNucleotidesequence</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSequence(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSequence()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetSimilarProteinsNucleotidesequence</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSequence(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSequence()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.CountDistinctPmidsFromUniprotAcc</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPid(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPid()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetPmidsFromUniprotAcc</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPid(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getPid()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetAnnotationsFromUniprotAccResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetAnnotationsFromUniprotAccResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getGetAnnotationsFromUniprotAccResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetAnnotationsFromCidResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetAnnotationsFromCidResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetAnnotationsFromCidResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetPmidsFromCidResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetPmidsFromCidResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetPmidsFromCidResult(javax.xml.bind.JAXBElement arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetSimilarProteinsProteinsequence</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSequence(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getSequence()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetSimilarProteinsProteinsequenceResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetSimilarProteinsProteinsequenceResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getGetSimilarProteinsProteinsequenceResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetPmidsFromCid</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCid(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCid()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.CountDistinctPmidsFromUniprotAccResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCountDistinctPmidsFromUniprotAccResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getCountDistinctPmidsFromUniprotAccResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.GetSimilarProteinsNucleotidesequenceResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement getGetSimilarProteinsNucleotidesequenceResult()">1</method>
+			<method name="public void setGetSimilarProteinsNucleotidesequenceResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.Application</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>11</rfc>
+		<lcom>55</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>2.0</lcom3>
+		<loc>11</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.9545454545454546</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract java.math.BigInteger countDistinctPmidsFromCid(String)">1</method>
+			<method name="public abstract String prolificProteinsequence(String)">1</method>
+			<method name="public abstract String getAnnotationsFromCid(String)">1</method>
+			<method name="public abstract String getAnnotationsFromUniprotAcc(String)">1</method>
+			<method name="public abstract String getPmidsFromUniprotAcc(String)">1</method>
+			<method name="public abstract java.math.BigInteger countDistinctPmidsFromUniprotAcc(String)">1</method>
+			<method name="public abstract String getSimilarProteinsNucleotidesequence(String)">1</method>
+			<method name="public abstract String getPmidsFromCid(String)">1</method>
+			<method name="public abstract String getSimilarProteinsProteinsequence(String)">1</method>
+			<method name="public abstract String info()">1</method>
+			<method name="public abstract String prolificNucleotidesequence(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.CountDistinctPmidsFromCidResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setCountDistinctPmidsFromCidResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getCountDistinctPmidsFromCidResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.ObjectFactory</name>
+		<wmc>67</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>22</cbo>
+		<rfc>92</rfc>
+		<lcom>2105</lcom>
+		<ca>0</ca>
+		<ce>22</ce>
+		<npm>66</npm>
+		<lcom3>0.9823914823914824</lcom3>
+		<loc>762</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.06606060606060606</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>9.82089552238806</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createProlificNucleotidesequence(tns.ProlificNucleotidesequence arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAnnotationsFromCid(tns.GetAnnotationsFromCid arg0)">1</method>
+			<method name="public tns.GetPmidsFromUniprotAcc createGetPmidsFromUniprotAcc()">1</method>
+			<method name="public tns.CountDistinctPmidsFromUniprotAcc createCountDistinctPmidsFromUniprotAcc()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountDistinctPmidsFromCidResponse(tns.CountDistinctPmidsFromCidResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountDistinctPmidsFromCid(tns.CountDistinctPmidsFromCid arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountDistinctPmidsFromUniprotAccPid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInfoResponse(tns.InfoResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountDistinctPmidsFromCidCid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProlificNucleotidesequenceSequence(String arg0)">1</method>
+			<method name="public tns.ProlificNucleotidesequence createProlificNucleotidesequence()">1</method>
+			<method name="public tns.GetSimilarProteinsProteinsequenceResponse createGetSimilarProteinsProteinsequenceResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProlificProteinsequence(tns.ProlificProteinsequence arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPmidsFromCid(tns.GetPmidsFromCid arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAnnotationsFromCidResponseGetAnnotationsFromCidResult(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAnnotationsFromCidCid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountDistinctPmidsFromUniprotAccResponse(tns.CountDistinctPmidsFromUniprotAccResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSimilarProteinsNucleotidesequenceSequence(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSimilarProteinsProteinsequence(tns.GetSimilarProteinsProteinsequence arg0)">1</method>
+			<method name="public tns.Info createInfo()">1</method>
+			<method name="public tns.CountDistinctPmidsFromCidResponse createCountDistinctPmidsFromCidResponse()">1</method>
+			<method name="public tns.GetSimilarProteinsNucleotidesequence createGetSimilarProteinsNucleotidesequence()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAnnotationsFromCidResponse(tns.GetAnnotationsFromCidResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAnnotationsFromUniprotAccResponse(tns.GetAnnotationsFromUniprotAccResponse arg0)">1</method>
+			<method name="public tns.GetAnnotationsFromUniprotAccResponse createGetAnnotationsFromUniprotAccResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAnnotationsFromUniprotAccResponseGetAnnotationsFromUniprotAccResult(String arg0)">1</method>
+			<method name="public tns.GetSimilarProteinsNucleotidesequenceResponse createGetSimilarProteinsNucleotidesequenceResponse()">1</method>
+			<method name="public tns.GetAnnotationsFromUniprotAcc createGetAnnotationsFromUniprotAcc()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAnnotationsFromUniprotAcc(tns.GetAnnotationsFromUniprotAcc arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountDistinctPmidsFromUniprotAccResponseCountDistinctPmidsFromUniprotAccResult(java.math.BigInteger arg0)">1</method>
+			<method name="public tns.GetAnnotationsFromCid createGetAnnotationsFromCid()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProlificNucleotidesequenceResponseProlificNucleotidesequenceResult(String arg0)">1</method>
+			<method name="public tns.ProlificProteinsequence createProlificProteinsequence()">1</method>
+			<method name="public tns.GetPmidsFromCid createGetPmidsFromCid()">1</method>
+			<method name="public tns.GetSimilarProteinsProteinsequence createGetSimilarProteinsProteinsequence()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createProlificProteinsequenceSequence(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSimilarProteinsNucleotidesequenceResponse(tns.GetSimilarProteinsNucleotidesequenceResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAnnotationsFromUniprotAccAccs(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInfoResponseInfoResult(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSimilarProteinsNucleotidesequence(tns.GetSimilarProteinsNucleotidesequence arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountDistinctPmidsFromUniprotAcc(tns.CountDistinctPmidsFromUniprotAcc arg0)">1</method>
+			<method name="public tns.GetAnnotationsFromCidResponse createGetAnnotationsFromCidResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSimilarProteinsProteinsequenceResponse(tns.GetSimilarProteinsProteinsequenceResponse arg0)">1</method>
+			<method name="public tns.CountDistinctPmidsFromCid createCountDistinctPmidsFromCid()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSimilarProteinsProteinsequenceResponseGetSimilarProteinsProteinsequenceResult(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPmidsFromCidResponseGetPmidsFromCidResult(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPmidsFromUniprotAccPid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPmidsFromCidResponse(tns.GetPmidsFromCidResponse arg0)">1</method>
+			<method name="public tns.GetPmidsFromUniprotAccResponse createGetPmidsFromUniprotAccResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPmidsFromUniprotAccResponse(tns.GetPmidsFromUniprotAccResponse arg0)">1</method>
+			<method name="public tns.ProlificProteinsequenceResponse createProlificProteinsequenceResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProlificProteinsequenceResponse(tns.ProlificProteinsequenceResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountDistinctPmidsFromCidResponseCountDistinctPmidsFromCidResult(java.math.BigInteger arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPmidsFromUniprotAcc(tns.GetPmidsFromUniprotAcc arg0)">1</method>
+			<method name="public tns.CountDistinctPmidsFromUniprotAccResponse createCountDistinctPmidsFromUniprotAccResponse()">1</method>
+			<method name="public tns.InfoResponse createInfoResponse()">1</method>
+			<method name="public tns.ProlificNucleotidesequenceResponse createProlificNucleotidesequenceResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPmidsFromCidCid(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSimilarProteinsNucleotidesequenceResponseGetSimilarProteinsNucleotidesequenceResult(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProlificNucleotidesequenceResponse(tns.ProlificNucleotidesequenceResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInfo(tns.Info arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetPmidsFromUniprotAccResponseGetPmidsFromUniprotAccResult(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createProlificProteinsequenceResponseProlificProteinsequenceResult(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetSimilarProteinsProteinsequenceSequence(String arg0)">1</method>
+			<method name="public tns.GetPmidsFromCidResponse createGetPmidsFromCidResponse()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.Application_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="public tns.Application getApplication()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public transient tns.Application getApplication(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.Info</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>tns.InfoResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setInfoResult(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement getInfoResult()">1</method>
+		</cc>
+	</class>

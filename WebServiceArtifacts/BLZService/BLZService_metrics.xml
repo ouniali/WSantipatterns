@@ -1,0 +1,194 @@
+	<class>
+		<name>com.thomas_bayer.blz.ObjectFactory</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>13</rfc>
+		<lcom>17</lcom>
+		<ca>0</ca>
+		<ce>3</ce>
+		<npm>6</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>53</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.285714285714286</amc>
+		<cc>
+			<method name="public com.thomas_bayer.blz.GetBankResponseType createGetBankResponseType()">1</method>
+			<method name="public com.thomas_bayer.blz.DetailsType createDetailsType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetBank(com.thomas_bayer.blz.GetBankType arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetBankResponse(com.thomas_bayer.blz.GetBankResponseType arg0)">1</method>
+			<method name="public com.thomas_bayer.blz.GetBankType createGetBankType()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.thomas_bayer.blz.GetBankType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getBlz()">1</method>
+			<method name="public void setBlz(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.thomas_bayer.blz.BLZService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.thomas_bayer.blz.BLZServicePortType getBLZServiceSOAP11PortHttp(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public com.thomas_bayer.blz.BLZServicePortType getBLZServiceSOAP11PortHttp()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.thomas_bayer.blz.BLZServicePortType</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.thomas_bayer.blz.DetailsType getBank(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.thomas_bayer.blz.DetailsType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setOrt(String arg0)">1</method>
+			<method name="public String getBic()">1</method>
+			<method name="public void setBic(String arg0)">1</method>
+			<method name="public void setPlz(String arg0)">1</method>
+			<method name="public String getPlz()">1</method>
+			<method name="public String getBezeichnung()">1</method>
+			<method name="public void setBezeichnung(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getOrt()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.thomas_bayer.blz.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.thomas_bayer.blz.GetBankResponseType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.thomas_bayer.blz.DetailsType getDetails()">1</method>
+			<method name="public void setDetails(com.thomas_bayer.blz.DetailsType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

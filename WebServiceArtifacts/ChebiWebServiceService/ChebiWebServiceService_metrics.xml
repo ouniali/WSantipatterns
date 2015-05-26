@@ -1,0 +1,1126 @@
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.LiteEntityList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getListElement()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.StructureType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.95</lcom3>
+		<loc>64</loc>
+		<dam>0.25</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>9.0</amc>
+		<cc>
+			<method name="public static uk.ac.ebi.webservices.chebi.StructureType fromValue(String arg0)">1</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.StructureType[] values()">1</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.StructureType valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetCompleteEntityByListResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getReturn()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.LiteEntity</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public Float getSearchScore()">1</method>
+			<method name="public String getChebiId()">1</method>
+			<method name="public void setChebiAsciiName(String arg0)">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public String getChebiAsciiName()">1</method>
+			<method name="public void setEntityStar(Integer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSearchScore(Float arg0)">1</method>
+			<method name="public Integer getEntityStar()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.StructureDataItem</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>37</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>10</npm>
+		<lcom3>0.911111111111111</lcom3>
+		<loc>57</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.2</amc>
+		<cc>
+			<method name="public String getStructure()">1</method>
+			<method name="public java.util.List getComments()">2</method>
+			<method name="public Boolean isDefaultStructure()">1</method>
+			<method name="public void setDimension(String arg0)">1</method>
+			<method name="public void setStructure(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getDimension()">1</method>
+			<method name="public void setDefaultStructure(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetOntologyChildrenResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.webservices.chebi.OntologyDataItemList getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.webservices.chebi.OntologyDataItemList arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.ChebiWebServiceFault_Exception</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public uk.ac.ebi.webservices.chebi.ChebiWebServiceFault getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, uk.ac.ebi.webservices.chebi.ChebiWebServiceFault arg1)">0</method>
+			<method name="public void _init_(String arg0, uk.ac.ebi.webservices.chebi.ChebiWebServiceFault arg1, Throwable arg2)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetOntologyParentsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.webservices.chebi.OntologyDataItemList getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.webservices.chebi.OntologyDataItemList arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetCompleteEntityResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(uk.ac.ebi.webservices.chebi.Entity arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.Entity getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetLiteEntityResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.ac.ebi.webservices.chebi.LiteEntityList getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.webservices.chebi.LiteEntityList arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.OntologyDataItem</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>15</rfc>
+		<lcom>68</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9404761904761906</lcom3>
+		<loc>80</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.46153846153846156</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.615384615384615</amc>
+		<cc>
+			<method name="public java.util.List getOntologyElement()">2</method>
+			<method name="public void setChebiName(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public boolean isCyclicRelationship()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getChebiName()">1</method>
+			<method name="public java.util.List getComments()">2</method>
+			<method name="public String getChebiId()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setCyclicRelationship(boolean arg0)">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStatus(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetStructureSearch</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24242424242424243</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getStructure()">1</method>
+			<method name="public void setTotalResults(int arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.StructureType getType()">1</method>
+			<method name="public void setStructure(String arg0)">1</method>
+			<method name="public void setType(uk.ac.ebi.webservices.chebi.StructureType arg0)">1</method>
+			<method name="public void setStructureSearchCategory(uk.ac.ebi.webservices.chebi.StructureSearchCategory arg0)">1</method>
+			<method name="public void setTanimotoCutoff(float arg0)">1</method>
+			<method name="public int getTotalResults()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.ac.ebi.webservices.chebi.StructureSearchCategory getStructureSearchCategory()">1</method>
+			<method name="public float getTanimotoCutoff()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetAllOntologyChildrenInPath</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setRelationshipType(uk.ac.ebi.webservices.chebi.RelationshipType arg0)">1</method>
+			<method name="public String getChebiId()">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.RelationshipType getRelationshipType()">1</method>
+			<method name="public void setStructureOnly(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isStructureOnly()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.StructureSearchCategory</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.95</lcom3>
+		<loc>64</loc>
+		<dam>0.25</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>9.0</amc>
+		<cc>
+			<method name="public static uk.ac.ebi.webservices.chebi.StructureSearchCategory[] values()">1</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.StructureSearchCategory fromValue(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.StructureSearchCategory valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetOntologyParents</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getChebiId()">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.CompoundOrigins</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getComponentAccession()">1</method>
+			<method name="public void setSourceType(String arg0)">1</method>
+			<method name="public void setComponentText(String arg0)">1</method>
+			<method name="public void setSpeciesText(String arg0)">1</method>
+			<method name="public void setStrainAccession(String arg0)">1</method>
+			<method name="public String getSpeciesText()">1</method>
+			<method name="public void setComponentAccession(String arg0)">1</method>
+			<method name="public String getSourceAccession()">1</method>
+			<method name="public void setStrainText(String arg0)">1</method>
+			<method name="public String getSourceType()">1</method>
+			<method name="public String getSpeciesAccession()">1</method>
+			<method name="public String getStrainAccession()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getComponentText()">1</method>
+			<method name="public String getStrainText()">1</method>
+			<method name="public void setSpeciesAccession(String arg0)">1</method>
+			<method name="public void setSourceAccession(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.Entity</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>35</rfc>
+		<lcom>508</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>33</npm>
+		<lcom3>0.9857954545454546</lcom3>
+		<loc>260</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.43434343434343436</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.212121212121212</amc>
+		<cc>
+			<method name="public String getMass()">1</method>
+			<method name="public void setChebiAsciiName(String arg0)">1</method>
+			<method name="public String getDefinition()">1</method>
+			<method name="public void setDefinition(String arg0)">1</method>
+			<method name="public void setEntityStar(Integer arg0)">1</method>
+			<method name="public void setInchi(String arg0)">1</method>
+			<method name="public java.util.List getFormulae()">2</method>
+			<method name="public String getCharge()">1</method>
+			<method name="public String getStatus()">1</method>
+			<method name="public void setSmiles(String arg0)">1</method>
+			<method name="public void setCharge(String arg0)">1</method>
+			<method name="public java.util.List getSecondaryChEBIIds()">2</method>
+			<method name="public java.util.List getIupacNames()">2</method>
+			<method name="public void setStatus(String arg0)">1</method>
+			<method name="public String getInchi()">1</method>
+			<method name="public String getInchiKey()">1</method>
+			<method name="public java.util.List getOntologyParents()">2</method>
+			<method name="public java.util.List getCitations()">2</method>
+			<method name="public java.util.List getRegistryNumbers()">2</method>
+			<method name="public String getChebiAsciiName()">1</method>
+			<method name="public java.util.List getCompoundOrigins()">2</method>
+			<method name="public String getSmiles()">1</method>
+			<method name="public void setMass(String arg0)">1</method>
+			<method name="public Integer getEntityStar()">1</method>
+			<method name="public java.util.List getSynonyms()">2</method>
+			<method name="public java.util.List getGeneralComments()">2</method>
+			<method name="public void setInchiKey(String arg0)">1</method>
+			<method name="public java.util.List getDatabaseLinks()">2</method>
+			<method name="public String getChebiId()">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getOntologyChildren()">2</method>
+			<method name="public java.util.List getChemicalStructures()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.OntologyDataItemList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getListElement()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetUpdatedPolymerResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.webservices.chebi.UpdatedPolymer getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.webservices.chebi.UpdatedPolymer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetOntologyChildren</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getChebiId()">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetUpdatedPolymer</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public String getChebiId()">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public java.util.List getPolymerisationIndex()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetLiteEntity</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setSearch(String arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.SearchCategory getSearchCategory()">1</method>
+			<method name="public String getSearch()">1</method>
+			<method name="public void setMaximumResults(int arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.StarsCategory getStars()">1</method>
+			<method name="public void setSearchCategory(uk.ac.ebi.webservices.chebi.SearchCategory arg0)">1</method>
+			<method name="public void setStars(uk.ac.ebi.webservices.chebi.StarsCategory arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getMaximumResults()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetCompleteEntityByList</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getListOfChEBIIds()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.CommentDataItem</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getText()">1</method>
+			<method name="public void setText(String arg0)">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.ObjectFactory</name>
+		<wmc>46</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>27</cbo>
+		<rfc>76</rfc>
+		<lcom>1001</lcom>
+		<ca>0</ca>
+		<ce>27</ce>
+		<npm>45</npm>
+		<lcom3>0.9777777777777777</lcom3>
+		<loc>413</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.08104575163398693</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.608695652173913</amc>
+		<cc>
+			<method name="public uk.ac.ebi.webservices.chebi.GetAllOntologyChildrenInPath createGetAllOntologyChildrenInPath()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetCompleteEntityByList createGetCompleteEntityByList()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetLiteEntity createGetLiteEntity()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetStructureSearchResponse(uk.ac.ebi.webservices.chebi.GetLiteEntityResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.LiteEntityList createLiteEntityList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetStructureSearch(uk.ac.ebi.webservices.chebi.GetStructureSearch arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetOntologyParents(uk.ac.ebi.webservices.chebi.GetOntologyParents arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAllOntologyChildrenInPathResponse(uk.ac.ebi.webservices.chebi.GetAllOntologyChildrenInPathResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetOntologyChildrenResponse(uk.ac.ebi.webservices.chebi.GetOntologyChildrenResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createChebiWebServiceFault(uk.ac.ebi.webservices.chebi.ChebiWebServiceFault arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.ChebiWebServiceFault createChebiWebServiceFault()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetStructureSearch createGetStructureSearch()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetOntologyChildrenResponse createGetOntologyChildrenResponse()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.UpdatedPolymer createUpdatedPolymer()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetCompleteEntityResponse createGetCompleteEntityResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetOntologyParentsResponse(uk.ac.ebi.webservices.chebi.GetOntologyParentsResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.DataItem createDataItem()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.LiteEntity createLiteEntity()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.CompoundOrigins createCompoundOrigins()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetUpdatedPolymer(uk.ac.ebi.webservices.chebi.GetUpdatedPolymer arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.StructureDataItem createStructureDataItem()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.CommentDataItem createCommentDataItem()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetCompleteEntityByListResponse createGetCompleteEntityByListResponse()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetOntologyChildren createGetOntologyChildren()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetUpdatedPolymerResponse(uk.ac.ebi.webservices.chebi.GetUpdatedPolymerResponse arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetStructureSearchResponse createGetStructureSearchResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetLiteEntity(uk.ac.ebi.webservices.chebi.GetLiteEntity arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCompleteEntityByListResponse(uk.ac.ebi.webservices.chebi.GetCompleteEntityByListResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCompleteEntity(uk.ac.ebi.webservices.chebi.GetCompleteEntity arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetAllOntologyChildrenInPathResponse createGetAllOntologyChildrenInPathResponse()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetLiteEntityResponse createGetLiteEntityResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetLiteEntityResponse(uk.ac.ebi.webservices.chebi.GetLiteEntityResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAllOntologyChildrenInPath(uk.ac.ebi.webservices.chebi.GetAllOntologyChildrenInPath arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetCompleteEntity createGetCompleteEntity()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetUpdatedPolymerResponse createGetUpdatedPolymerResponse()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.Entity createEntity()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetUpdatedPolymer createGetUpdatedPolymer()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetOntologyParentsResponse createGetOntologyParentsResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCompleteEntityByList(uk.ac.ebi.webservices.chebi.GetCompleteEntityByList arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.ac.ebi.webservices.chebi.GetOntologyParents createGetOntologyParents()">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.OntologyDataItem createOntologyDataItem()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetOntologyChildren(uk.ac.ebi.webservices.chebi.GetOntologyChildren arg0)">1</method>
+			<method name="public uk.ac.ebi.webservices.chebi.OntologyDataItemList createOntologyDataItemList()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetCompleteEntityResponse(uk.ac.ebi.webservices.chebi.GetCompleteEntityResponse arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetStructureSearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.ac.ebi.webservices.chebi.LiteEntityList getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.webservices.chebi.LiteEntityList arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.StarsCategory</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8</lcom3>
+		<loc>96</loc>
+		<dam>0.4</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>14.166666666666666</amc>
+		<cc>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.StarsCategory valueOf(String arg0)">1</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.StarsCategory[] values()">1</method>
+			<method name="public String value()">1</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.StarsCategory fromValue(String arg0)">3</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetCompleteEntity</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getChebiId()">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.ChebiWebServiceFault</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setFaultInfo(String arg0)">1</method>
+			<method name="public String getFaultInfo()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.DataItem</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>22</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>0.8928571428571429</lcom3>
+		<loc>47</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6875</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.375</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public java.util.List getComments()">2</method>
+			<method name="public void setData(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getData()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.ChebiWebServiceService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public uk.ac.ebi.webservices.chebi.ChebiWebServicePortType getChebiWebServicePort()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient uk.ac.ebi.webservices.chebi.ChebiWebServicePortType getChebiWebServicePort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.ChebiWebServicePortType</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>11</cbo>
+		<rfc>8</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>10</ce>
+		<npm>8</npm>
+		<lcom3>2.0</lcom3>
+		<loc>8</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29545454545454547</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract java.util.List getCompleteEntityByList(java.util.List)">1</method>
+			<method name="public abstract uk.ac.ebi.webservices.chebi.UpdatedPolymer getUpdatedPolymer(String, java.util.List)">1</method>
+			<method name="public abstract uk.ac.ebi.webservices.chebi.Entity getCompleteEntity(String)">1</method>
+			<method name="public abstract uk.ac.ebi.webservices.chebi.OntologyDataItemList getOntologyChildren(String)">1</method>
+			<method name="public abstract uk.ac.ebi.webservices.chebi.LiteEntityList getLiteEntity(String, uk.ac.ebi.webservices.chebi.SearchCategory, int, uk.ac.ebi.webservices.chebi.StarsCategory)">1</method>
+			<method name="public abstract uk.ac.ebi.webservices.chebi.LiteEntityList getStructureSearch(String, uk.ac.ebi.webservices.chebi.StructureType, uk.ac.ebi.webservices.chebi.StructureSearchCategory, int, float)">1</method>
+			<method name="public abstract uk.ac.ebi.webservices.chebi.OntologyDataItemList getOntologyParents(String)">1</method>
+			<method name="public abstract uk.ac.ebi.webservices.chebi.LiteEntityList getAllOntologyChildrenInPath(String, uk.ac.ebi.webservices.chebi.RelationshipType, boolean)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.GetAllOntologyChildrenInPathResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.ac.ebi.webservices.chebi.OntologyDataItemList getReturn()">1</method>
+			<method name="public void setReturn(uk.ac.ebi.webservices.chebi.OntologyDataItemList arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.RelationshipType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>180</loc>
+		<dam>0.16666666666666666</dam>
+		<moa>11</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>27.0</amc>
+		<cc>
+			<method name="public static uk.ac.ebi.webservices.chebi.RelationshipType valueOf(String arg0)">1</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.RelationshipType fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.RelationshipType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.UpdatedPolymer</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getGlobalCharge()">1</method>
+			<method name="public void setGlobalCharge(String arg0)">1</method>
+			<method name="public String getChebiId()">1</method>
+			<method name="public String getUpdatedStructure()">1</method>
+			<method name="public void setChebiId(String arg0)">1</method>
+			<method name="public void setGlobalFormula(String arg0)">1</method>
+			<method name="public String getGlobalFormula()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setUpdatedStructure(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.ac.ebi.webservices.chebi.SearchCategory</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9285714285714285</lcom3>
+		<loc>204</loc>
+		<dam>0.14285714285714285</dam>
+		<moa>13</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>30.666666666666668</amc>
+		<cc>
+			<method name="public static uk.ac.ebi.webservices.chebi.SearchCategory fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.SearchCategory[] values()">1</method>
+			<method name="public static uk.ac.ebi.webservices.chebi.SearchCategory valueOf(String arg0)">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>

@@ -1,0 +1,928 @@
+	<class>
+		<name>org.diacomp.webservices.GetModelResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.diacomp.webservices.Model getGetModelResult()">1</method>
+			<method name="public void setGetModelResult(org.diacomp.webservices.Model arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Species</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ArrayOfInvestigator</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getInvestigator()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.GetModel</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setModelID(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getModelID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ModelWebService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public org.diacomp.webservices.ModelWebServiceSoap getModelWebServiceSoap()">1</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient org.diacomp.webservices.ModelWebServiceSoap getModelWebServiceSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Institution</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setInstitutionID(String arg0)">1</method>
+			<method name="public String getInstitutionID()">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public org.diacomp.webservices.Contact getContact()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setContact(org.diacomp.webservices.Contact arg0)">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Country</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Protocol</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getTitle()">1</method>
+			<method name="public short getVersion()">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setVersion(short arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTypeName()">1</method>
+			<method name="public void setTypeName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Strain</name>
+		<wmc>39</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>40</rfc>
+		<lcom>703</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>39</npm>
+		<lcom3>0.9736842105263158</lcom3>
+		<loc>194</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.1858974358974359</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4871794871794872</amc>
+		<cc>
+			<method name="public String getPhenotypeDescription()">1</method>
+			<method name="public org.diacomp.webservices.Species getSpecies()">1</method>
+			<method name="public boolean isIsStandardFavorite()">1</method>
+			<method name="public void setBreedingGenerations(short arg0)">1</method>
+			<method name="public String getDevelopmentStatusName()">1</method>
+			<method name="public String getBreedingTypeName()">1</method>
+			<method name="public void setMaternalStrainName(String arg0)">1</method>
+			<method name="public void setTreatmentProtocol(org.diacomp.webservices.Protocol arg0)">1</method>
+			<method name="public String getBackgroundStrainName()">1</method>
+			<method name="public org.diacomp.webservices.ID getConsortiumID()">1</method>
+			<method name="public String getCreationMethodName()">1</method>
+			<method name="public void setIsPublic(boolean arg0)">1</method>
+			<method name="public org.diacomp.webservices.Protocol getTreatmentProtocol()">1</method>
+			<method name="public void setDevelopmentStatusName(String arg0)">1</method>
+			<method name="public void setStrainDescription(String arg0)">1</method>
+			<method name="public void setFemaleCount(int arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setCommonName(String arg0)">1</method>
+			<method name="public void setBackgroundStrainName(String arg0)">1</method>
+			<method name="public void setMaleCount(int arg0)">1</method>
+			<method name="public String getMaternalStrainName()">1</method>
+			<method name="public int getUnknownCount()">1</method>
+			<method name="public void setConsortiumID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public String getCommonName()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getStrainDescription()">1</method>
+			<method name="public short getBreedingGenerations()">1</method>
+			<method name="public void setIsStandardFavorite(boolean arg0)">1</method>
+			<method name="public void setPhenotypeDescription(String arg0)">1</method>
+			<method name="public org.diacomp.webservices.Protocol getBreedingProtocol()">1</method>
+			<method name="public void setBreedingProtocol(org.diacomp.webservices.Protocol arg0)">1</method>
+			<method name="public void setUnknownCount(int arg0)">1</method>
+			<method name="public int getMaleCount()">1</method>
+			<method name="public int getFemaleCount()">1</method>
+			<method name="public void setCreationMethodName(String arg0)">1</method>
+			<method name="public boolean isIsPublic()">1</method>
+			<method name="public void setBreedingTypeName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSpecies(org.diacomp.webservices.Species arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ID</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>7</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.GetModels</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ObjectFactory</name>
+		<wmc>28</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>23</cbo>
+		<rfc>54</rfc>
+		<lcom>372</lcom>
+		<ca>0</ca>
+		<ce>23</ce>
+		<npm>27</npm>
+		<lcom3>0.9629629629629629</lcom3>
+		<loc>169</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2777777777777778</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.928571428571429</amc>
+		<cc>
+			<method name="public org.diacomp.webservices.GetModel createGetModel()">1</method>
+			<method name="public org.diacomp.webservices.Laboratory createLaboratory()">1</method>
+			<method name="public org.diacomp.webservices.Species createSpecies()">1</method>
+			<method name="public org.diacomp.webservices.ArrayOfModel createArrayOfModel()">1</method>
+			<method name="public org.diacomp.webservices.Strain createStrain()">1</method>
+			<method name="public org.diacomp.webservices.Institution createInstitution()">1</method>
+			<method name="public org.diacomp.webservices.Country createCountry()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createModel(org.diacomp.webservices.Model arg0)">1</method>
+			<method name="public org.diacomp.webservices.Model createModel()">1</method>
+			<method name="public org.diacomp.webservices.GetModelResponse createGetModelResponse()">1</method>
+			<method name="public org.diacomp.webservices.Member createMember()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfInvestigator(org.diacomp.webservices.ArrayOfInvestigator arg0)">1</method>
+			<method name="public org.diacomp.webservices.Investigator createInvestigator()">1</method>
+			<method name="public org.diacomp.webservices.ArrayOfInvestigator createArrayOfInvestigator()">1</method>
+			<method name="public org.diacomp.webservices.ModelSearch createModelSearch()">1</method>
+			<method name="public org.diacomp.webservices.ID createID()">1</method>
+			<method name="public org.diacomp.webservices.GetModelExperiments createGetModelExperiments()">1</method>
+			<method name="public org.diacomp.webservices.GetModelsBySearchResponse createGetModelsBySearchResponse()">1</method>
+			<method name="public org.diacomp.webservices.GetModels createGetModels()">1</method>
+			<method name="public org.diacomp.webservices.GetModelsResponse createGetModelsResponse()">1</method>
+			<method name="public org.diacomp.webservices.Contact createContact()">1</method>
+			<method name="public org.diacomp.webservices.ObjectHistory createObjectHistory()">1</method>
+			<method name="public org.diacomp.webservices.Protocol createProtocol()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfModel(org.diacomp.webservices.ArrayOfModel arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public org.diacomp.webservices.GetModelExperimentsResponse createGetModelExperimentsResponse()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.diacomp.webservices.GetModelsBySearch createGetModelsBySearch()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Object</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>3</noc>
+		<cbo>3</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.GetModelsBySearch</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.diacomp.webservices.ModelSearch getModelSearch()">1</method>
+			<method name="public void setModelSearch(org.diacomp.webservices.ModelSearch arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Investigator</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.diacomp.webservices.ID getPrincipalInvestigatorID()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPrincipalInvestigatorID(org.diacomp.webservices.ID arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ObjectHistory</name>
+		<wmc>9</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public org.diacomp.webservices.ID getCreationID()">1</method>
+			<method name="public void setLastModifyDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public org.diacomp.webservices.ID getLastModifyID()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getLastModifyDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCreationID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public void setLastModifyID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCreationDate()">1</method>
+			<method name="public void setCreationDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ObjectSearch</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.GetModelsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetModelsResult(org.diacomp.webservices.ArrayOfModel arg0)">1</method>
+			<method name="public org.diacomp.webservices.ArrayOfModel getGetModelsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Model</name>
+		<wmc>25</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>26</rfc>
+		<lcom>276</lcom>
+		<ca>3</ca>
+		<ce>6</ce>
+		<npm>25</npm>
+		<lcom3>0.9583333333333334</lcom3>
+		<loc>124</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.21142857142857144</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.48</amc>
+		<cc>
+			<method name="public String getPhenotypeDescription()">1</method>
+			<method name="public org.diacomp.webservices.Protocol getComplicationInduction()">1</method>
+			<method name="public org.diacomp.webservices.ObjectHistory getHistory()">1</method>
+			<method name="public String getDevelopmentStatusName()">1</method>
+			<method name="public void setDiabetesInduction(org.diacomp.webservices.Protocol arg0)">1</method>
+			<method name="public org.diacomp.webservices.ID getDevelopmentStatusID()">1</method>
+			<method name="public void setInvestigators(org.diacomp.webservices.ArrayOfInvestigator arg0)">1</method>
+			<method name="public void setTypeID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public org.diacomp.webservices.Strain getStrain()">1</method>
+			<method name="public void setDiabetesTypeID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public void setDevelopmentStatusName(String arg0)">1</method>
+			<method name="public void setDevelopmentStatusID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public org.diacomp.webservices.ID getDiabetesTypeID()">1</method>
+			<method name="public void setTypeName(String arg0)">1</method>
+			<method name="public void setHistory(org.diacomp.webservices.ObjectHistory arg0)">1</method>
+			<method name="public org.diacomp.webservices.ID getTypeID()">1</method>
+			<method name="public void setDiabetesTypeName(String arg0)">1</method>
+			<method name="public void setComplicationInduction(org.diacomp.webservices.Protocol arg0)">1</method>
+			<method name="public void setPhenotypeDescription(String arg0)">1</method>
+			<method name="public org.diacomp.webservices.ArrayOfInvestigator getInvestigators()">1</method>
+			<method name="public String getDiabetesTypeName()">1</method>
+			<method name="public void setStrain(org.diacomp.webservices.Strain arg0)">1</method>
+			<method name="public org.diacomp.webservices.Protocol getDiabetesInduction()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getTypeName()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.GetModelExperimentsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetModelExperimentsResult(org.diacomp.webservices.ArrayOfInvestigator arg0)">1</method>
+			<method name="public org.diacomp.webservices.ArrayOfInvestigator getGetModelExperimentsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ModelSearch</name>
+		<wmc>19</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29473684210526313</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setStrainID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public org.diacomp.webservices.ID getTypeID()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCreatedFromDate()">1</method>
+			<method name="public short getOrderBy()">1</method>
+			<method name="public org.diacomp.webservices.ID getDevelopmentStatusID()">1</method>
+			<method name="public int getRowCount()">1</method>
+			<method name="public void setCreatedToDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setTypeID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public void setCreatedFromDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setInvestigatorID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public void setDevelopmentStatusID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public org.diacomp.webservices.ID getInvestigatorID()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCreatedToDate()">1</method>
+			<method name="public void setOrderBy(short arg0)">1</method>
+			<method name="public void setRowCount(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public org.diacomp.webservices.ID getStrainID()">1</method>
+			<method name="public org.diacomp.webservices.ID getSpeciesID()">1</method>
+			<method name="public void setSpeciesID(org.diacomp.webservices.ID arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.IDObject</name>
+		<wmc>1</wmc>
+		<dit>0</dit>
+		<noc>8</noc>
+		<cbo>9</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>8</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.GetModelsBySearchResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public org.diacomp.webservices.ArrayOfModel getGetModelsBySearchResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetModelsBySearchResult(org.diacomp.webservices.ArrayOfModel arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ArrayOfModel</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getModel()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Member</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>1</noc>
+		<cbo>7</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>5</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24603174603174602</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setFirstName(String arg0)">1</method>
+			<method name="public String getLastName()">1</method>
+			<method name="public org.diacomp.webservices.ID getTitleID()">1</method>
+			<method name="public void setMemberID(String arg0)">1</method>
+			<method name="public void setLaboratory(org.diacomp.webservices.Laboratory arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public org.diacomp.webservices.Contact getContact()">1</method>
+			<method name="public void setTitleID(org.diacomp.webservices.ID arg0)">1</method>
+			<method name="public String getTitleName()">1</method>
+			<method name="public void setTitleName(String arg0)">1</method>
+			<method name="public String getMemberID()">1</method>
+			<method name="public void setInstitution(org.diacomp.webservices.Institution arg0)">1</method>
+			<method name="public org.diacomp.webservices.Institution getInstitution()">1</method>
+			<method name="public String getCommaName()">1</method>
+			<method name="public String getFirstName()">1</method>
+			<method name="public void setLastName(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCommaName(String arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setContact(org.diacomp.webservices.Contact arg0)">1</method>
+			<method name="public org.diacomp.webservices.Laboratory getLaboratory()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.ModelWebServiceSoap</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>4</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5833333333333334</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract org.diacomp.webservices.Model getModel(int)">1</method>
+			<method name="public abstract org.diacomp.webservices.ArrayOfModel getModels()">1</method>
+			<method name="public abstract org.diacomp.webservices.ArrayOfModel getModelsBySearch(org.diacomp.webservices.ModelSearch)">1</method>
+			<method name="public abstract org.diacomp.webservices.ArrayOfInvestigator getModelExperiments(int)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Contact</name>
+		<wmc>21</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setFax(String arg0)">1</method>
+			<method name="public org.diacomp.webservices.Country getCountry()">1</method>
+			<method name="public String getFax()">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public String getPhone()">1</method>
+			<method name="public void setPhone(String arg0)">1</method>
+			<method name="public String getAddressLine2()">1</method>
+			<method name="public String getAddressLine1()">1</method>
+			<method name="public String getPhoneExt()">1</method>
+			<method name="public String getZipCode()">1</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public void setCountry(org.diacomp.webservices.Country arg0)">1</method>
+			<method name="public void setAddressLine2(String arg0)">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public void setAddressLine1(String arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setZipCode(String arg0)">1</method>
+			<method name="public void setPhoneExt(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.GetModelExperiments</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setModelID(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getModelID()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>org.diacomp.webservices.Laboratory</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>

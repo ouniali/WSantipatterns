@@ -1,0 +1,1900 @@
+	<class>
+		<name>uk.co.hha.apps.mis.GetAreasExternalPorts</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.AreaLine</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public int getID()">1</method>
+			<method name="public int getParentID()">1</method>
+			<method name="public void setColor(int arg0)">1</method>
+			<method name="public void setParentID(int arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAbbreviation(String arg0)">1</method>
+			<method name="public String getAbbreviation()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setID(int arg0)">1</method>
+			<method name="public int getColor()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetTransitsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.Visits getGetTransitsResult()">1</method>
+			<method name="public void setGetTransitsResult(uk.co.hha.apps.mis.Visits arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ArrayOfEvent</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getEvent()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetDepartures</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetLiveSensors</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetWarnings</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ArrayOfString</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getString()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.HeadingType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static uk.co.hha.apps.mis.HeadingType[] values()">1</method>
+			<method name="public static uk.co.hha.apps.mis.HeadingType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static uk.co.hha.apps.mis.HeadingType fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ApiSoap</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>19</rfc>
+		<lcom>171</lcom>
+		<ca>1</ca>
+		<ce>7</ce>
+		<npm>19</npm>
+		<lcom3>2.0</lcom3>
+		<loc>19</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.631578947368421</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract uk.co.hha.apps.mis.AreaLines getAreasExternalPorts(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Visits getAnchored(String)">1</method>
+			<method name="public abstract boolean isLiveSensorOld()">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Forecast getQueuedForecast(String, String)">1</method>
+			<method name="public abstract boolean isTrafficOld()">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Visits getArrivals(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Sensors getLiveSensors(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Sensors getPredictedSensors(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Warnings getWarnings(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Tide getPredictedHighLowTide(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Visits getDepartures(String)">1</method>
+			<method name="public abstract boolean isPredictedSensorOld()">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.AreaLines getAreasBerths(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Visits getBerthed(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.AreaLines getAreasAnchorages(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Visits getShifts(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Visits getTransits(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.Visits getForecasts(String)">1</method>
+			<method name="public abstract uk.co.hha.apps.mis.ApiResult setForecast(String, uk.co.hha.apps.mis.Forecast)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetTransits</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetAreasAnchoragesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetAreasAnchoragesResult(uk.co.hha.apps.mis.AreaLines arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLines getGetAreasAnchoragesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetAreasBerths</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetLiveSensorsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLiveSensorsResult(uk.co.hha.apps.mis.Sensors arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.Sensors getGetLiveSensorsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.SetForecast</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setForecast(uk.co.hha.apps.mis.Forecast arg0)">1</method>
+			<method name="public String getKey()">1</method>
+			<method name="public uk.co.hha.apps.mis.Forecast getForecast()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetArrivals</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetAreasAnchorages</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.IsTrafficOld</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Sensors</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getSensor()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.StateType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8571428571428571</lcom3>
+		<loc>120</loc>
+		<dam>0.2857142857142857</dam>
+		<moa>6</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>17.833333333333332</amc>
+		<cc>
+			<method name="public static uk.co.hha.apps.mis.StateType[] values()">1</method>
+			<method name="public static uk.co.hha.apps.mis.StateType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static uk.co.hha.apps.mis.StateType fromValue(String arg0)">3</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetPredictedSensors</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Api</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient uk.co.hha.apps.mis.ApiSoap getApiSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public uk.co.hha.apps.mis.ApiSoap getApiSoap()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Visits</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>9</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getVisit()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.IsTrafficOldResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setIsTrafficOldResult(boolean arg0)">1</method>
+			<method name="public boolean isIsTrafficOldResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ArrayOfValue</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getValue()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Value</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCreatedOn()">1</method>
+			<method name="public double getValue()">1</method>
+			<method name="public void setCreatedOn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetAreasBerthsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.AreaLines getGetAreasBerthsResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetAreasBerthsResult(uk.co.hha.apps.mis.AreaLines arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetQueuedForecast</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public String getUniqueIdentifier()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setUniqueIdentifier(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetForecasts</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetDeparturesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.Visits getGetDeparturesResult()">1</method>
+			<method name="public void setGetDeparturesResult(uk.co.hha.apps.mis.Visits arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Action</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>6</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>7</moa>
+		<mfa>0.0</mfa>
+		<cam>0.12373737373737374</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.ArrayOfEvent getEvents()">1</method>
+			<method name="public void setNote(String arg0)">1</method>
+			<method name="public void setTugCompanyAbbreviation(String arg0)">1</method>
+			<method name="public String getTugCompany()">1</method>
+			<method name="public void setEvents(uk.co.hha.apps.mis.ArrayOfEvent arg0)">1</method>
+			<method name="public boolean isIsConfirmed()">1</method>
+			<method name="public void setTugCount(int arg0)">1</method>
+			<method name="public void setIsConfirmed(boolean arg0)">1</method>
+			<method name="public int getSequence()">1</method>
+			<method name="public void setDraught(double arg0)">1</method>
+			<method name="public void setHeading(uk.co.hha.apps.mis.HeadingType arg0)">1</method>
+			<method name="public void setFrom(uk.co.hha.apps.mis.AreaLine arg0)">1</method>
+			<method name="public void setType(uk.co.hha.apps.mis.ActionType arg0)">1</method>
+			<method name="public String getNote()">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLine getFrom()">1</method>
+			<method name="public void setTo(uk.co.hha.apps.mis.AreaLine arg0)">1</method>
+			<method name="public void setID(int arg0)">1</method>
+			<method name="public void setChangedOn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getTugCompanyAbbreviation()">1</method>
+			<method name="public uk.co.hha.apps.mis.ActionType getType()">1</method>
+			<method name="public double getDraught()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getChangedOn()">1</method>
+			<method name="public void setStatus(uk.co.hha.apps.mis.StateType arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.HeadingType getHeading()">1</method>
+			<method name="public int getTugCount()">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfTime getTimes()">1</method>
+			<method name="public int getID()">1</method>
+			<method name="public void setTimes(uk.co.hha.apps.mis.ArrayOfTime arg0)">1</method>
+			<method name="public void setTugCompany(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.co.hha.apps.mis.StateType getStatus()">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLine getTo()">1</method>
+			<method name="public void setSequence(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ObjectFactory</name>
+		<wmc>59</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>58</cbo>
+		<rfc>118</rfc>
+		<lcom>1711</lcom>
+		<ca>0</ca>
+		<ce>58</ce>
+		<npm>59</npm>
+		<lcom3>2.0</lcom3>
+		<loc>294</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.983050847457627</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.GetPredictedSensors createGetPredictedSensors()">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfAction createArrayOfAction()">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfString createArrayOfString()">1</method>
+			<method name="public uk.co.hha.apps.mis.Time createTime()">1</method>
+			<method name="public uk.co.hha.apps.mis.Value createValue()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetShiftsResponse createGetShiftsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.IsLiveSensorOldResponse createIsLiveSensorOldResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetPredictedHighLowTideResponse createGetPredictedHighLowTideResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.SetForecastResponse createSetForecastResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.Sensor createSensor()">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfTime createArrayOfTime()">1</method>
+			<method name="public uk.co.hha.apps.mis.Warnings createWarnings()">1</method>
+			<method name="public uk.co.hha.apps.mis.Sensors createSensors()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetAnchored createGetAnchored()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetQueuedForecast createGetQueuedForecast()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetShifts createGetShifts()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetAreasBerths createGetAreasBerths()">1</method>
+			<method name="public uk.co.hha.apps.mis.Tide createTide()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetAreasExternalPorts createGetAreasExternalPorts()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetDepartures createGetDepartures()">1</method>
+			<method name="public uk.co.hha.apps.mis.ApiResult createApiResult()">1</method>
+			<method name="public uk.co.hha.apps.mis.Warning createWarning()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetDeparturesResponse createGetDeparturesResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.IsTrafficOld createIsTrafficOld()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetAreasAnchoragesResponse createGetAreasAnchoragesResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetArrivalsResponse createGetArrivalsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetTransits createGetTransits()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetBerthed createGetBerthed()">1</method>
+			<method name="public uk.co.hha.apps.mis.Visit createVisit()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetBerthedResponse createGetBerthedResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetWarnings createGetWarnings()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetForecastsResponse createGetForecastsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfValue createArrayOfValue()">1</method>
+			<method name="public uk.co.hha.apps.mis.Visits createVisits()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetPredictedHighLowTide createGetPredictedHighLowTide()">1</method>
+			<method name="public uk.co.hha.apps.mis.IsPredictedSensorOldResponse createIsPredictedSensorOldResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.Event createEvent()">1</method>
+			<method name="public uk.co.hha.apps.mis.SetForecast createSetForecast()">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfEvent createArrayOfEvent()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetAreasBerthsResponse createGetAreasBerthsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.Forecast createForecast()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetLiveSensorsResponse createGetLiveSensorsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetForecasts createGetForecasts()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetTransitsResponse createGetTransitsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetPredictedSensorsResponse createGetPredictedSensorsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetWarningsResponse createGetWarningsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.IsPredictedSensorOld createIsPredictedSensorOld()">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLines createAreaLines()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetAreasAnchorages createGetAreasAnchorages()">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLine createAreaLine()">1</method>
+			<method name="public uk.co.hha.apps.mis.IsLiveSensorOld createIsLiveSensorOld()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetArrivals createGetArrivals()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetQueuedForecastResponse createGetQueuedForecastResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.IsTrafficOldResponse createIsTrafficOldResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.Action createAction()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetAnchoredResponse createGetAnchoredResponse()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.co.hha.apps.mis.GetAreasExternalPortsResponse createGetAreasExternalPortsResponse()">1</method>
+			<method name="public uk.co.hha.apps.mis.GetLiveSensors createGetLiveSensors()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.SetForecastResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSetForecastResult(uk.co.hha.apps.mis.ApiResult arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.ApiResult getSetForecastResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetPredictedHighLowTideResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.Tide getGetPredictedHighLowTideResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetPredictedHighLowTideResult(uk.co.hha.apps.mis.Tide arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ArrayOfAction</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAction()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetAnchoredResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.Visits getGetAnchoredResult()">1</method>
+			<method name="public void setGetAnchoredResult(uk.co.hha.apps.mis.Visits arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetBerthed</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Time</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setChangedOn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public int getID()">1</method>
+			<method name="public void setETx(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLine getPosition()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getETx()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getChangedOn()">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPosition(uk.co.hha.apps.mis.AreaLine arg0)">1</method>
+			<method name="public void setID(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetWarningsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.Warnings getGetWarningsResult()">1</method>
+			<method name="public void setGetWarningsResult(uk.co.hha.apps.mis.Warnings arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.IsLiveSensorOld</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ArrayOfTime</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTime()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Warnings</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWarning()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ActionType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.909090909090909</lcom3>
+		<loc>168</loc>
+		<dam>0.18181818181818182</dam>
+		<moa>10</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>25.166666666666668</amc>
+		<cc>
+			<method name="public static uk.co.hha.apps.mis.ActionType fromValue(String arg0)">3</method>
+			<method name="public static uk.co.hha.apps.mis.ActionType[] values()">1</method>
+			<method name="public static uk.co.hha.apps.mis.ActionType valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Forecast</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.21212121212121213</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public void setNote(String arg0)">1</method>
+			<method name="public String getLastPort()">1</method>
+			<method name="public void setMisId(int arg0)">1</method>
+			<method name="public java.math.BigDecimal getVesselDraught()">1</method>
+			<method name="public void setLog(uk.co.hha.apps.mis.ArrayOfString arg0)">1</method>
+			<method name="public boolean isHazardousOnBoard()">1</method>
+			<method name="public String getVesselLloydsNumber()">1</method>
+			<method name="public void setIgnore(boolean arg0)">1</method>
+			<method name="public boolean isCancel()">1</method>
+			<method name="public void setUniqueIdentifier(String arg0)">1</method>
+			<method name="public int getPersonsOnBoard()">1</method>
+			<method name="public String getBillingAgent()">1</method>
+			<method name="public boolean isIgnore()">1</method>
+			<method name="public String getVesselName()">1</method>
+			<method name="public void setVesselLloydsNumber(String arg0)">1</method>
+			<method name="public String getNote()">1</method>
+			<method name="public void setArrivalPort(String arg0)">1</method>
+			<method name="public void setBillingAgent(String arg0)">1</method>
+			<method name="public void setPersonsOnBoard(int arg0)">1</method>
+			<method name="public void setHazardousOnBoard(boolean arg0)">1</method>
+			<method name="public String getUniqueIdentifier()">1</method>
+			<method name="public void setETA(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setCancel(boolean arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfString getLog()">1</method>
+			<method name="public void setLastPort(String arg0)">1</method>
+			<method name="public void setForce(boolean arg0)">1</method>
+			<method name="public void setVesselDraught(java.math.BigDecimal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getMisId()">1</method>
+			<method name="public String getArrivalPort()">1</method>
+			<method name="public boolean isForce()">1</method>
+			<method name="public void setVesselName(String arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getETA()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.IsPredictedSensorOldResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public boolean isIsPredictedSensorOldResult()">1</method>
+			<method name="public void setIsPredictedSensorOldResult(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.IsPredictedSensorOld</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Visit</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.16498316498316498</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public void setNote(String arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.ActionType getRunningAction()">1</method>
+			<method name="public String getVesselNote()">1</method>
+			<method name="public void setToPort(uk.co.hha.apps.mis.AreaLine arg0)">1</method>
+			<method name="public void setVesselNote(String arg0)">1</method>
+			<method name="public void setExternalReference(String arg0)">1</method>
+			<method name="public String getVesselName()">1</method>
+			<method name="public String getNote()">1</method>
+			<method name="public void setID(int arg0)">1</method>
+			<method name="public double getVesselGrossTonnage()">1</method>
+			<method name="public void setChangedOn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public String getVesselCallSign()">1</method>
+			<method name="public int getVesselLloydsNumber()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getChangedOn()">1</method>
+			<method name="public void setStatus(uk.co.hha.apps.mis.StateType arg0)">1</method>
+			<method name="public void setRunningAction(uk.co.hha.apps.mis.ActionType arg0)">1</method>
+			<method name="public void setFromPort(uk.co.hha.apps.mis.AreaLine arg0)">1</method>
+			<method name="public double getDraughtCurrent()">1</method>
+			<method name="public double getVesselLength()">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLine getFromPort()">1</method>
+			<method name="public int getID()">1</method>
+			<method name="public void setVesselLloydsNumber(int arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLine getToPort()">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfAction getActions()">1</method>
+			<method name="public void setActions(uk.co.hha.apps.mis.ArrayOfAction arg0)">1</method>
+			<method name="public String getExternalReference()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.co.hha.apps.mis.StateType getStatus()">1</method>
+			<method name="public void setVesselCallSign(String arg0)">1</method>
+			<method name="public void setDraughtCurrent(double arg0)">1</method>
+			<method name="public void setVesselName(String arg0)">1</method>
+			<method name="public void setVesselGrossTonnage(double arg0)">1</method>
+			<method name="public void setVesselLength(double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetAreasExternalPortsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.co.hha.apps.mis.AreaLines getGetAreasExternalPortsResult()">1</method>
+			<method name="public void setGetAreasExternalPortsResult(uk.co.hha.apps.mis.AreaLines arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.IsLiveSensorOldResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setIsLiveSensorOldResult(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isIsLiveSensorOldResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Sensor</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setSeries(String arg0)">1</method>
+			<method name="public int getID()">1</method>
+			<method name="public String getSeries()">1</method>
+			<method name="public String getUnit()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setUnit(String arg0)">1</method>
+			<method name="public void setValues(uk.co.hha.apps.mis.ArrayOfValue arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.ArrayOfValue getValues()">1</method>
+			<method name="public void setID(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetForecastsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetForecastsResult(uk.co.hha.apps.mis.Visits arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.Visits getGetForecastsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.ApiResult</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setSuccess(boolean arg0)">1</method>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public boolean isSuccess()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Event</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24358974358974358</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setLatitude(double arg0)">1</method>
+			<method name="public double getLatitude()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getOccurredOn()">1</method>
+			<method name="public void setPosition(uk.co.hha.apps.mis.AreaLine arg0)">1</method>
+			<method name="public void setLongitude(double arg0)">1</method>
+			<method name="public int getID()">1</method>
+			<method name="public String getDetails()">1</method>
+			<method name="public uk.co.hha.apps.mis.AreaLine getPosition()">1</method>
+			<method name="public void setDetails(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setOccurredOn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public double getLongitude()">1</method>
+			<method name="public void setID(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetQueuedForecastResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.Forecast getGetQueuedForecastResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetQueuedForecastResult(uk.co.hha.apps.mis.Forecast arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetShiftsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.Visits getGetShiftsResult()">1</method>
+			<method name="public void setGetShiftsResult(uk.co.hha.apps.mis.Visits arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetPredictedSensorsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetPredictedSensorsResult(uk.co.hha.apps.mis.Sensors arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public uk.co.hha.apps.mis.Sensors getGetPredictedSensorsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetShifts</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetBerthedResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public uk.co.hha.apps.mis.Visits getGetBerthedResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetBerthedResult(uk.co.hha.apps.mis.Visits arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Warning</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getDetails()">1</method>
+			<method name="public void setDetails(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getCreatedOn()">1</method>
+			<method name="public void setCreatedOn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.AreaLines</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>5</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAreaLine()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetPredictedHighLowTide</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.Tide</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setNextHighOn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setNextLowHeight(double arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getNextLowOn()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getNextHighOn()">1</method>
+			<method name="public void setNextLowOn(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNextHighHeight(double arg0)">1</method>
+			<method name="public double getNextLowHeight()">1</method>
+			<method name="public double getNextHighHeight()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetArrivalsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetArrivalsResult(uk.co.hha.apps.mis.Visits arg0)">1</method>
+			<method name="public uk.co.hha.apps.mis.Visits getGetArrivalsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>uk.co.hha.apps.mis.GetAnchored</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getKey()">1</method>
+			<method name="public void setKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

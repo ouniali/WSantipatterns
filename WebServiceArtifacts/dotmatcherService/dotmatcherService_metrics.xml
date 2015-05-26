@@ -1,0 +1,772 @@
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.WaitFor</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getJobid()">1</method>
+			<method name="public void setJobid(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.AlignmentDotPlotsDotmatcher</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>4</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResult runAndWaitFor(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tdotmatcher)">1</method>
+			<method name="public abstract void waitFor(String)">1</method>
+			<method name="public abstract String createAndRun(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tdotmatcher)">1</method>
+			<method name="public abstract de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResult getResults(String)">1</method>
+			<method name="public abstract de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tstatus getStatus(String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.GetStatus</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getJobid()">1</method>
+			<method name="public void setJobid(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.CreateAndRun</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tdotmatcher getDotmatcher()">1</method>
+			<method name="public void setDotmatcher(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tdotmatcher arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tstatus</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public String getAsString()">1</method>
+			<method name="public void setDetailed(String arg0)">1</method>
+			<method name="public void setCompleted(boolean arg0)">1</method>
+			<method name="public boolean isInProgress()">1</method>
+			<method name="public boolean isCompleted()">1</method>
+			<method name="public String getDetailed()">1</method>
+			<method name="public boolean isErroneous()">1</method>
+			<method name="public void setAsString(String arg0)">1</method>
+			<method name="public void setSuccessful(boolean arg0)">1</method>
+			<method name="public boolean isSuccessful()">1</method>
+			<method name="public void setInProgress(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setErroneous(boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResultGraphicsContainer</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public byte[] getGraphics()">1</method>
+			<method name="public void setGraphicsInPostscript(String arg0)">1</method>
+			<method name="public void setGraphics(byte[] arg0)">1</method>
+			<method name="public String getGraphicsInPostscript()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getGraphicsInPNG()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequenceSformat1</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9642857142857142</lcom3>
+		<loc>372</loc>
+		<dam>0.07142857142857142</dam>
+		<moa>27</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>56.333333333333336</amc>
+		<cc>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequenceSformat1 valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequenceSformat1 fromValue(String arg0)">3</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequenceSformat1[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.GetStatusResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tstatus getStatus()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setStatus(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tstatus arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.RunAndWaitForResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResult getDotmatcherResult()">1</method>
+			<method name="public void setDotmatcherResult(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherMatrixfile</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getMatrixfileDirectData()">1</method>
+			<method name="public String getMatrixfileUrl()">1</method>
+			<method name="public void setMatrixfileUrl(String arg0)">1</method>
+			<method name="public void setMatrixfileDirectData(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.GetResultsResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResult getDotmatcherResult()">1</method>
+			<method name="public void setDotmatcherResult(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequenceSformat2</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9642857142857142</lcom3>
+		<loc>372</loc>
+		<dam>0.07142857142857142</dam>
+		<moa>27</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>56.333333333333336</amc>
+		<cc>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequenceSformat2 valueOf(String arg0)">1</method>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequenceSformat2 fromValue(String arg0)">3</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequenceSformat2[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherGraphFormat</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>11</rfc>
+		<lcom>7</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>108</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>5</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>16.0</amc>
+		<cc>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherGraphFormat[] values()">1</method>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherGraphFormat fromValue(String arg0)">3</method>
+			<method name="public static de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherGraphFormat valueOf(String arg0)">1</method>
+			<method name="private void _init_(String arg0, int arg1, String arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.SoaplabException</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TSoaplabException arg1)">0</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TSoaplabException getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TSoaplabException arg1, Throwable arg2)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.RunAndWaitFor</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tdotmatcher getDotmatcher()">1</method>
+			<method name="public void setDotmatcher(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tdotmatcher arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.CreateAndRunResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getJobid()">1</method>
+			<method name="public void setJobid(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.GetResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getJobid()">1</method>
+			<method name="public void setJobid(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.WaitForResponse</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TSoaplabException</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.ObjectFactory</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>18</cbo>
+		<rfc>42</rfc>
+		<lcom>208</lcom>
+		<ca>0</ca>
+		<ce>18</ce>
+		<npm>20</npm>
+		<lcom3>0.95</lcom3>
+		<loc>112</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.525</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.285714285714286</amc>
+		<cc>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tstatus createTstatus()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.CreateAndRun createCreateAndRun()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.RunAndWaitForResponse createRunAndWaitForResponse()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequence createTdotmatcherBsequence()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.GetResultsResponse createGetResultsResponse()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.GetStatusResponse createGetStatusResponse()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.GetResults createGetResults()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.WaitFor createWaitFor()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequence createTdotmatcherAsequence()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFault(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TSoaplabException arg0)">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.RunAndWaitFor createRunAndWaitFor()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.WaitForResponse createWaitForResponse()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.GetStatus createGetStatus()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tdotmatcher createTdotmatcher()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherMatrixfile createTdotmatcherMatrixfile()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResultGraphicsContainer createTdotmatcherResultGraphicsContainer()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TSoaplabException createTSoaplabException()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResult createTdotmatcherResult()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.CreateAndRunResponse createCreateAndRunResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequence</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29523809523809524</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequenceSformat1 getSformat1()">1</method>
+			<method name="public String getAsequenceDirectData()">1</method>
+			<method name="public Long getSbegin1()">1</method>
+			<method name="public void setSend1(Long arg0)">1</method>
+			<method name="public void setSnucleotide1(Boolean arg0)">1</method>
+			<method name="public Boolean isSprotein1()">1</method>
+			<method name="public Boolean isSnucleotide1()">1</method>
+			<method name="public void setAsequenceUsa(String arg0)">1</method>
+			<method name="public Boolean isSlower1()">1</method>
+			<method name="public Boolean isSupper1()">1</method>
+			<method name="public void setSbegin1(Long arg0)">1</method>
+			<method name="public void setSreverse1(Boolean arg0)">1</method>
+			<method name="public void setAsequenceDirectData(String arg0)">1</method>
+			<method name="public String getAsequenceUsa()">1</method>
+			<method name="public void setSprotein1(Boolean arg0)">1</method>
+			<method name="public void setSupper1(Boolean arg0)">1</method>
+			<method name="public void setSlower1(Boolean arg0)">1</method>
+			<method name="public void setSformat1(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequenceSformat1 arg0)">1</method>
+			<method name="public Boolean isSreverse1()">1</method>
+			<method name="public Long getSend1()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.DotmatcherService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.AlignmentDotPlotsDotmatcher getAlignmentDotPlotsDotmatcherDerived(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.AlignmentDotPlotsDotmatcher getAlignmentDotPlotsDotmatcherDerived()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.Tdotmatcher</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>4</ca>
+		<ce>4</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24358974358974358</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherMatrixfile getMatrixfile()">1</method>
+			<method name="public void setGraphFormat(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherGraphFormat arg0)">1</method>
+			<method name="public Long getThreshold()">1</method>
+			<method name="public void setThreshold(Long arg0)">1</method>
+			<method name="public Long getWindowsize()">1</method>
+			<method name="public void setWindowsize(Long arg0)">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherGraphFormat getGraphFormat()">1</method>
+			<method name="public void setAsequence(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequence arg0)">1</method>
+			<method name="public void setBsequence(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequence arg0)">1</method>
+			<method name="public void setMatrixfile(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherMatrixfile arg0)">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherAsequence getAsequence()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequence getBsequence()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResult</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>4</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setReport(String arg0)">1</method>
+			<method name="public Long getDetailedStatus()">1</method>
+			<method name="public String getReport()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResultGraphicsContainer getGraphicsContainer()">1</method>
+			<method name="public void setDetailedStatus(Long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGraphicsContainer(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherResultGraphicsContainer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequence</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29523809523809524</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public Long getSbegin2()">1</method>
+			<method name="public de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequenceSformat2 getSformat2()">1</method>
+			<method name="public void setSlower2(Boolean arg0)">1</method>
+			<method name="public void setSprotein2(Boolean arg0)">1</method>
+			<method name="public Boolean isSlower2()">1</method>
+			<method name="public void setSupper2(Boolean arg0)">1</method>
+			<method name="public Boolean isSnucleotide2()">1</method>
+			<method name="public Boolean isSprotein2()">1</method>
+			<method name="public void setSnucleotide2(Boolean arg0)">1</method>
+			<method name="public void setSformat2(de.dkfz_heidelberg.menu.tomcat.as.alignment_dot_plots.TdotmatcherBsequenceSformat2 arg0)">1</method>
+			<method name="public String getBsequenceDirectData()">1</method>
+			<method name="public Boolean isSupper2()">1</method>
+			<method name="public String getBsequenceUsa()">1</method>
+			<method name="public void setSend2(Long arg0)">1</method>
+			<method name="public void setSreverse2(Boolean arg0)">1</method>
+			<method name="public Boolean isSreverse2()">1</method>
+			<method name="public void setSbegin2(Long arg0)">1</method>
+			<method name="public Long getSend2()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setBsequenceDirectData(String arg0)">1</method>
+			<method name="public void setBsequenceUsa(String arg0)">1</method>
+		</cc>
+	</class>

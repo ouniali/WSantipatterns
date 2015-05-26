@@ -1,0 +1,641 @@
+	<class>
+		<name>by.bisc.webservices.ArrayOfWSTBItemWSTBItem</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWSTBItem()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.WSRel</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getUNP()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setUNP(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.WSPas</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getUNP()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setUNP(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.WSTBItem</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setKompl(String arg0)">1</method>
+			<method name="public String getKompl()">1</method>
+			<method name="public void setKod(Long arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getFormat()">1</method>
+			<method name="public void setFormat(String arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public Long getKod()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.ArrayOfWSRelWSRel</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getWSRel()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.FindBlankWSResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public by.bisc.webservices.WSAnswer getFindBlankWSResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFindBlankWSResult(by.bisc.webservices.WSAnswer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.FindBlankWSnTBResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public by.bisc.webservices.WSAnswerList getFindBlankWSnTBResult()">1</method>
+			<method name="public void setFindBlankWSnTBResult(by.bisc.webservices.WSAnswerList arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.ArrayOfWSSpWSSp</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWSSp()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.FindBlankWS</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setPTB(Long arg0)">1</method>
+			<method name="public String getPNB()">1</method>
+			<method name="public String getPSB()">1</method>
+			<method name="public void setPSB(String arg0)">1</method>
+			<method name="public Long getPTB()">1</method>
+			<method name="public void setPNB(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.ArrayOfWSAnswerWSAnswer</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWSAnswer()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.ArrayOfWSPasWSPas</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getWSPas()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.FindBlankWSnTB</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getPNB()">1</method>
+			<method name="public String getPSB()">1</method>
+			<method name="public void setPSB(String arg0)">1</method>
+			<method name="public void setPNB(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.FindBlankWS_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient by.bisc.webservices.FindBlankWSSoap getFindBlankWSSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+			<method name="public by.bisc.webservices.FindBlankWSSoap getFindBlankWSSoap()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.FindBlankWSSoap</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>3</rfc>
+		<lcom>3</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>3</npm>
+		<lcom3>2.0</lcom3>
+		<loc>3</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract by.bisc.webservices.WSAnswerList findBlankWSnTB(String, String)">1</method>
+			<method name="public abstract by.bisc.webservices.WSAnswer findBlankWS(Long, String, String)">1</method>
+			<method name="public abstract by.bisc.webservices.WSTBList getTBListWS()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.GetTBListWS</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.WSAnswerList</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public by.bisc.webservices.ArrayOfWSAnswerWSAnswer getBlanks()">1</method>
+			<method name="public void setIsFound(Long arg0)">1</method>
+			<method name="public void setBlanks(by.bisc.webservices.ArrayOfWSAnswerWSAnswer arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Long getIsFound()">1</method>
+			<method name="public void setBlanksTB(by.bisc.webservices.ArrayOfBlanksTBItemLong arg0)">1</method>
+			<method name="public by.bisc.webservices.ArrayOfBlanksTBItemLong getBlanksTB()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.ArrayOfBlanksTBItemLong</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getBlanksTBItem()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.GetTBListWSResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetTBListWSResult(by.bisc.webservices.WSTBList arg0)">1</method>
+			<method name="public by.bisc.webservices.WSTBList getGetTBListWSResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.WSAnswer</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>3</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.28888888888888886</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public by.bisc.webservices.ArrayOfWSRelWSRel getRel()">1</method>
+			<method name="public void setIsFound(Long arg0)">1</method>
+			<method name="public void setSp(by.bisc.webservices.ArrayOfWSSpWSSp arg0)">1</method>
+			<method name="public void setRel(by.bisc.webservices.ArrayOfWSRelWSRel arg0)">1</method>
+			<method name="public by.bisc.webservices.ArrayOfWSSpWSSp getSp()">1</method>
+			<method name="public void setPas(by.bisc.webservices.ArrayOfWSPasWSPas arg0)">1</method>
+			<method name="public by.bisc.webservices.ArrayOfWSPasWSPas getPas()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Long getIsFound()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.WSTBList</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setTBList(by.bisc.webservices.ArrayOfWSTBItemWSTBItem arg0)">1</method>
+			<method name="public by.bisc.webservices.ArrayOfWSTBItemWSTBItem getTBList()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.ObjectFactory</name>
+		<wmc>20</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>19</cbo>
+		<rfc>40</rfc>
+		<lcom>190</lcom>
+		<ca>0</ca>
+		<ce>19</ce>
+		<npm>20</npm>
+		<lcom3>2.0</lcom3>
+		<loc>99</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.95</amc>
+		<cc>
+			<method name="public by.bisc.webservices.WSTBList createWSTBList()">1</method>
+			<method name="public by.bisc.webservices.ArrayOfWSRelWSRel createArrayOfWSRelWSRel()">1</method>
+			<method name="public by.bisc.webservices.WSRel createWSRel()">1</method>
+			<method name="public by.bisc.webservices.ArrayOfBlanksTBItemLong createArrayOfBlanksTBItemLong()">1</method>
+			<method name="public by.bisc.webservices.ArrayOfWSTBItemWSTBItem createArrayOfWSTBItemWSTBItem()">1</method>
+			<method name="public by.bisc.webservices.ArrayOfWSPasWSPas createArrayOfWSPasWSPas()">1</method>
+			<method name="public by.bisc.webservices.WSPas createWSPas()">1</method>
+			<method name="public by.bisc.webservices.ArrayOfWSAnswerWSAnswer createArrayOfWSAnswerWSAnswer()">1</method>
+			<method name="public by.bisc.webservices.FindBlankWSnTB createFindBlankWSnTB()">1</method>
+			<method name="public by.bisc.webservices.WSTBItem createWSTBItem()">1</method>
+			<method name="public by.bisc.webservices.WSSp createWSSp()">1</method>
+			<method name="public by.bisc.webservices.FindBlankWSResponse createFindBlankWSResponse()">1</method>
+			<method name="public by.bisc.webservices.WSAnswer createWSAnswer()">1</method>
+			<method name="public by.bisc.webservices.FindBlankWS createFindBlankWS()">1</method>
+			<method name="public by.bisc.webservices.ArrayOfWSSpWSSp createArrayOfWSSpWSSp()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public by.bisc.webservices.WSAnswerList createWSAnswerList()">1</method>
+			<method name="public by.bisc.webservices.GetTBListWS createGetTBListWS()">1</method>
+			<method name="public by.bisc.webservices.FindBlankWSnTBResponse createFindBlankWSnTBResponse()">1</method>
+			<method name="public by.bisc.webservices.GetTBListWSResponse createGetTBListWSResponse()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>by.bisc.webservices.WSSp</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

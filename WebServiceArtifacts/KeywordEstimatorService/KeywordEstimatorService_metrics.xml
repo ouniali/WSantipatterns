@@ -1,0 +1,705 @@
+	<class>
+		<name>jp.yahooapis.ss.v5.AdGroupEstimateRequest</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public Long getAdGroupId()">1</method>
+			<method name="public Long getMaxCpc()">1</method>
+			<method name="public java.util.List getKeywordEstimateRequests()">2</method>
+			<method name="public void setAdGroupId(Long arg0)">1</method>
+			<method name="public void setMaxCpc(Long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.Get</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSelector(jp.yahooapis.ss.v5.KeywordEstimatorSelector arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimatorSelector getSelector()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.SoapResponseHeader</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getService()">1</method>
+			<method name="public String getRemainingQuota()">1</method>
+			<method name="public String getQuotaUsedForThisRequest()">1</method>
+			<method name="public String getTimeTakenMillis()">1</method>
+			<method name="public void setService(String arg0)">1</method>
+			<method name="public void setTimeTakenMillis(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRemainingQuota(String arg0)">1</method>
+			<method name="public void setQuotaUsedForThisRequest(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.KeywordEstimateResult</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public Long getAdGroupId()">1</method>
+			<method name="public Long getCampaignId()">1</method>
+			<method name="public void setCampaignId(Long arg0)">1</method>
+			<method name="public void setMax(jp.yahooapis.ss.v5.EstimateResult arg0)">1</method>
+			<method name="public void setMin(jp.yahooapis.ss.v5.EstimateResult arg0)">1</method>
+			<method name="public void setKeyword(String arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.EstimateResult getMin()">1</method>
+			<method name="public jp.yahooapis.ss.v5.EstimateResult getMax()">1</method>
+			<method name="public void setAdGroupId(Long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getKeyword()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.EstimateResult</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public Double getImpressions()">1</method>
+			<method name="public void setCost(Double arg0)">1</method>
+			<method name="public void setCpc(Double arg0)">1</method>
+			<method name="public Double getCost()">1</method>
+			<method name="public Double getCtr()">1</method>
+			<method name="public Double getCpc()">1</method>
+			<method name="public void setImpressions(Double arg0)">1</method>
+			<method name="public void setClicks(Double arg0)">1</method>
+			<method name="public Double getClicks()">1</method>
+			<method name="public Double getRank()">1</method>
+			<method name="public void setCtr(Double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRank(Double arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.GetResponse</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getError()">2</method>
+			<method name="public void setRval(jp.yahooapis.ss.v5.KeywordEstimatorPage arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimatorPage getRval()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.KeywordEstimatorService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public transient jp.yahooapis.ss.v5.KeywordEstimatorServiceInterface getKeywordEstimatorService(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimatorServiceInterface getKeywordEstimatorService()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.KeywordEstimatorPage</name>
+		<wmc>2</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getValues()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.Error</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public String getCode()">1</method>
+			<method name="public java.util.List getDetail()">2</method>
+			<method name="public void setCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMessage()">1</method>
+			<method name="public void setMessage(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.EstimateKeyword</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setMatchType(jp.yahooapis.ss.v5.KeywordMatchType arg0)">1</method>
+			<method name="public String getText()">1</method>
+			<method name="public void setText(String arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordMatchType getMatchType()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.IsNegativeBool</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.9333333333333333</lcom3>
+		<loc>53</loc>
+		<dam>0.3333333333333333</dam>
+		<moa>3</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>7.333333333333333</amc>
+		<cc>
+			<method name="public static jp.yahooapis.ss.v5.IsNegativeBool fromValue(String arg0)">1</method>
+			<method name="public static jp.yahooapis.ss.v5.IsNegativeBool valueOf(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static jp.yahooapis.ss.v5.IsNegativeBool[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.KeywordEstimatorSelector</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public long getAccountId()">1</method>
+			<method name="public void setAccountId(long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCampaignEstimateRequest(jp.yahooapis.ss.v5.CampaignEstimateRequest arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.CampaignEstimateRequest getCampaignEstimateRequest()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.ReturnValue</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public Boolean isOperationSucceeded()">1</method>
+			<method name="public void setOperationSucceeded(Boolean arg0)">1</method>
+			<method name="public java.util.List getError()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.KeywordEstimateValues</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimateResult getData()">1</method>
+			<method name="public void setData(jp.yahooapis.ss.v5.KeywordEstimateResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.KeywordMatchType</name>
+		<wmc>6</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>13</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>4</npm>
+		<lcom3>0.95</lcom3>
+		<loc>64</loc>
+		<dam>0.25</dam>
+		<moa>4</moa>
+		<mfa>0.7647058823529411</mfa>
+		<cam>0.4</cam>
+		<ic>1</ic>
+		<cbm>1</cbm>
+		<amc>9.0</amc>
+		<cc>
+			<method name="public static jp.yahooapis.ss.v5.KeywordMatchType valueOf(String arg0)">1</method>
+			<method name="public static jp.yahooapis.ss.v5.KeywordMatchType fromValue(String arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="private void _init_(String arg0, int arg1)">0</method>
+			<method name="public static jp.yahooapis.ss.v5.KeywordMatchType[] values()">1</method>
+			<method name="public String value()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.KeywordEstimateRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setIsNegative(jp.yahooapis.ss.v5.IsNegativeBool arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.EstimateKeyword getKeyword()">1</method>
+			<method name="public Long getMaxCpc()">1</method>
+			<method name="public void setKeyword(jp.yahooapis.ss.v5.EstimateKeyword arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.IsNegativeBool getIsNegative()">1</method>
+			<method name="public void setMaxCpc(Long arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.ApiException</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public void _init_(String arg0, String arg1, Throwable arg2)">0</method>
+			<method name="public String getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, String arg1)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.Page</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public Integer getTotalNumEntries()">1</method>
+			<method name="public String getPageType()">1</method>
+			<method name="public void setPageType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTotalNumEntries(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.KeywordEstimatorServiceInterface</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract void get(jp.yahooapis.ss.v5.KeywordEstimatorSelector, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.ObjectFactory</name>
+		<wmc>20</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>15</cbo>
+		<rfc>38</rfc>
+		<lcom>184</lcom>
+		<ca>0</ca>
+		<ce>15</ce>
+		<npm>19</npm>
+		<lcom3>0.9473684210526315</lcom3>
+		<loc>129</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2894736842105263</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.3</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createApiExceptionFault(String arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.ErrorDetail createErrorDetail()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRequestHeader(jp.yahooapis.ss.v5.SoapHeader arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.GetResponse createGetResponse()">1</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimatorPage createKeywordEstimatorPage()">1</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimatorSelector createKeywordEstimatorSelector()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createResponseHeader(jp.yahooapis.ss.v5.SoapResponseHeader arg0)">1</method>
+			<method name="public jp.yahooapis.ss.v5.SoapResponseHeader createSoapResponseHeader()">1</method>
+			<method name="public jp.yahooapis.ss.v5.EstimateResult createEstimateResult()">1</method>
+			<method name="public jp.yahooapis.ss.v5.EstimateKeyword createEstimateKeyword()">1</method>
+			<method name="public jp.yahooapis.ss.v5.SoapHeader createSoapHeader()">1</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimateRequest createKeywordEstimateRequest()">1</method>
+			<method name="public jp.yahooapis.ss.v5.CampaignEstimateRequest createCampaignEstimateRequest()">1</method>
+			<method name="public jp.yahooapis.ss.v5.Get createGet()">1</method>
+			<method name="public jp.yahooapis.ss.v5.Error createError()">1</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimateResult createKeywordEstimateResult()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public jp.yahooapis.ss.v5.AdGroupEstimateRequest createAdGroupEstimateRequest()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public jp.yahooapis.ss.v5.KeywordEstimateValues createKeywordEstimateValues()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.CampaignEstimateRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>9</rfc>
+		<lcom>17</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>50</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6428571428571429</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.571428571428571</amc>
+		<cc>
+			<method name="public Long getCampaignId()">1</method>
+			<method name="public void setCampaignId(Long arg0)">1</method>
+			<method name="public java.util.List getProvinces()">2</method>
+			<method name="public java.util.List getAdGroupEstimateRequests()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Long getDailyBudget()">1</method>
+			<method name="public void setDailyBudget(Long arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.ErrorDetail</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getRequestValue()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getRequestKey()">1</method>
+			<method name="public void setRequestKey(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>jp.yahooapis.ss.v5.SoapHeader</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getApiAccountId()">1</method>
+			<method name="public void setLicense(String arg0)">1</method>
+			<method name="public void setApiAccountPassword(String arg0)">1</method>
+			<method name="public void setOnBehalfOfAccountId(String arg0)">1</method>
+			<method name="public Long getAccountId()">1</method>
+			<method name="public void setAccountId(Long arg0)">1</method>
+			<method name="public void setApiAccountId(String arg0)">1</method>
+			<method name="public String getLicense()">1</method>
+			<method name="public void setOnBehalfOfPassword(String arg0)">1</method>
+			<method name="public String getOnBehalfOfAccountId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getOnBehalfOfPassword()">1</method>
+			<method name="public String getApiAccountPassword()">1</method>
+		</cc>
+	</class>

@@ -1,0 +1,1983 @@
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyParamInBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPremiumOutParamBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueNewWsUser</name>
+		<wmc>91</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>92</rfc>
+		<lcom>4005</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>91</npm>
+		<lcom3>0.9888888888888889</lcom3>
+		<loc>454</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7472527472527473</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4945054945054945</amc>
+		<cc>
+			<method name="public String getTelephone1()">1</method>
+			<method name="public void setExtCol3(String arg0)">1</method>
+			<method name="public String getTelephone3()">1</method>
+			<method name="public void setExtCol5(String arg0)">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public void setExtCol1(String arg0)">1</method>
+			<method name="public String getPpassportNo()">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public String getPtotalPremium()">1</method>
+			<method name="public String getEmploymentStatus()">1</method>
+			<method name="public void setPpaymentMode(String arg0)">1</method>
+			<method name="public void setAddressLine4(String arg0)">1</method>
+			<method name="public String getExtCol5()">1</method>
+			<method name="public String getExtCol1()">1</method>
+			<method name="public String getSeqNo()">1</method>
+			<method name="public String getExtCol3()">1</method>
+			<method name="public void setPartnerType(String arg0)">1</method>
+			<method name="public void setPfullTermPremium(String arg0)">1</method>
+			<method name="public void setSex(String arg0)">1</method>
+			<method name="public String getFax()">1</method>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public void setFirstName(String arg0)">1</method>
+			<method name="public void setPtotalPremium(String arg0)">1</method>
+			<method name="public String getPfullTermPremium()">1</method>
+			<method name="public String getMiddleName()">1</method>
+			<method name="public String getPolicyNo()">1</method>
+			<method name="public String getAddressLine1()">1</method>
+			<method name="public void setEmploymentStatus(String arg0)">1</method>
+			<method name="public void setPdestination(String arg0)">1</method>
+			<method name="public String getAddressLine3()">1</method>
+			<method name="public void setSeqNo(String arg0)">1</method>
+			<method name="public void setMiddleName(String arg0)">1</method>
+			<method name="public String getAddressLine5()">1</method>
+			<method name="public String getAreaplan()">1</method>
+			<method name="public String getPassigneeName()">1</method>
+			<method name="public void setPanNo(String arg0)">1</method>
+			<method name="public String getTravelplan()">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public String getFirstName()">1</method>
+			<method name="public void setMaritalStatus(String arg0)">1</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+			<method name="public void setExtCol4(String arg0)">1</method>
+			<method name="public String getTelephone2()">1</method>
+			<method name="public void setExtCol2(String arg0)">1</method>
+			<method name="public void setPspCondition(String arg0)">1</method>
+			<method name="public String getLastName()">1</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void setPolicyNo(String arg0)">1</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getQuality()">1</method>
+			<method name="public String getFromDate()">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public void setPspDiscountAmt(String arg0)">1</method>
+			<method name="public String getSex()">1</method>
+			<method name="public String getPspDiscountAmt()">1</method>
+			<method name="public String getInstitutionName()">1</method>
+			<method name="public String getExtCol4()">1</method>
+			<method name="public void setAddressLine5(String arg0)">1</method>
+			<method name="public String getDateOfBirth()">1</method>
+			<method name="public void setQuality(String arg0)">1</method>
+			<method name="public void setAreaplan(String arg0)">1</method>
+			<method name="public void setLastName(String arg0)">1</method>
+			<method name="public void setDateOfBirth(String arg0)">1</method>
+			<method name="public void setPartId(String arg0)">1</method>
+			<method name="public String getExtCol2()">1</method>
+			<method name="public void setFax(String arg0)">1</method>
+			<method name="public void setTelephone1(String arg0)">1</method>
+			<method name="public String getPdestination()">1</method>
+			<method name="public void setTelephone2(String arg0)">1</method>
+			<method name="public void setPassigneeName(String arg0)">1</method>
+			<method name="public void setPpassportNo(String arg0)">1</method>
+			<method name="public String getAddressLine2()">1</method>
+			<method name="public String getPanNo()">1</method>
+			<method name="public void setTelephone3(String arg0)">1</method>
+			<method name="public String getAddressLine4()">1</method>
+			<method name="public String getPpaymentMode()">1</method>
+			<method name="public void setTravelplan(String arg0)">1</method>
+			<method name="public void setAddressLine3(String arg0)">1</method>
+			<method name="public void setAddressLine2(String arg0)">1</method>
+			<method name="public void setPfamilyFlag(String arg0)">1</method>
+			<method name="public String getPserviceTaxAmt()">1</method>
+			<method name="public void setInstitutionName(String arg0)">1</method>
+			<method name="public void setAddressLine1(String arg0)">1</method>
+			<method name="public String getPartnerType()">1</method>
+			<method name="public String getPfamilyFlag()">1</method>
+			<method name="public String getPspCondition()">1</method>
+			<method name="public String getPartId()">1</method>
+			<method name="public String getMaritalStatus()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPserviceTaxAmt(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyNewWsUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWeoTrvPolicyNewWsUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws.BjazTravelWS</name>
+		<wmc>8</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>8</npm>
+		<lcom3>2.0</lcom3>
+		<loc>8</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract void travelRequestId(javax.xml.ws.Holder, String, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+			<method name="public abstract void bjazWSIssueGroupPolicy(javax.xml.ws.Holder, String, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+			<method name="public abstract void getPlanDetails(javax.xml.ws.Holder, String, String, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+			<method name="public abstract void getWSPolicyReport(javax.xml.ws.Holder, String, String, String, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+			<method name="public abstract void getFloatBalance(javax.xml.ws.Holder, String, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+			<method name="public abstract void bjazWebservicePremium(javax.xml.ws.Holder, String, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+			<method name="public abstract void bjazWebserviceIssuePolicy(javax.xml.ws.Holder, String, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+			<method name="public abstract void bjazWebserviceTravelPlan(String, String, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder, javax.xml.ws.Holder)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyUser</name>
+		<wmc>49</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>50</rfc>
+		<lcom>1128</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>49</npm>
+		<lcom3>0.9791666666666666</lcom3>
+		<loc>244</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37244897959183676</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.489795918367347</amc>
+		<cc>
+			<method name="public void setPdepartureDate(String arg0)">1</method>
+			<method name="public String getPimdcode()">1</method>
+			<method name="public void setPentryDate(String arg0)">1</method>
+			<method name="public String getPaddressLine1()">1</method>
+			<method name="public String getPpassportNo()">1</method>
+			<method name="public String getPaddressLine3()">1</method>
+			<method name="public void setPfirstName(String arg0)">1</method>
+			<method name="public void setPcustomerTextName(String arg0)">1</method>
+			<method name="public void setPpolicyRef(String arg0)">1</method>
+			<method name="public String getPcustomerTextName()">1</method>
+			<method name="public String getPtelephone()">1</method>
+			<method name="public String getPsurname()">1</method>
+			<method name="public void setPfullTermPremium(String arg0)">1</method>
+			<method name="public void setPtelephone(String arg0)">1</method>
+			<method name="public void setPpartId(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getPfullTermPremium()">1</method>
+			<method name="public String getPdepartureDate()">1</method>
+			<method name="public void setPaddressLine2(String arg0)">1</method>
+			<method name="public void setPaddressLine1(String arg0)">1</method>
+			<method name="public void setPaddressLine3(String arg0)">1</method>
+			<method name="public String getParea()">1</method>
+			<method name="public String getPassigneeName()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoRecStrings20User getRecString20()">1</method>
+			<method name="public String getPentryDate()">1</method>
+			<method name="public void setParea(String arg0)">1</method>
+			<method name="public void setPsurname(String arg0)">1</method>
+			<method name="public void setPspCondition(String arg0)">1</method>
+			<method name="public String getPpolicyRef()">1</method>
+			<method name="public java.math.BigDecimal getPpartId()">1</method>
+			<method name="public String getPaddressLine2()">1</method>
+			<method name="public void setPpostcode(String arg0)">1</method>
+			<method name="public String getPdateOfBirth()">1</method>
+			<method name="public void setPimdcode(String arg0)">1</method>
+			<method name="public String getPpostcode()">1</method>
+			<method name="public void setPassigneeName(String arg0)">1</method>
+			<method name="public void setPpassportNo(String arg0)">1</method>
+			<method name="public String getPreturnDate()">1</method>
+			<method name="public void setPdateOfBirth(String arg0)">1</method>
+			<method name="public String getPplan()">1</method>
+			<method name="public void setRecString20(com.bajajallianz.bjaztravelws_wsdl.types.WeoRecStrings20User arg0)">1</method>
+			<method name="public String getPserviceTaxAmt()">1</method>
+			<method name="public String getPgrossPremium()">1</method>
+			<method name="public void setPgrossPremium(String arg0)">1</method>
+			<method name="public String getPfirstName()">1</method>
+			<method name="public String getPspCondition()">1</method>
+			<method name="public void setPreturnDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPplan(String arg0)">1</method>
+			<method name="public void setPserviceTaxAmt(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPlanDtlsObjUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getBjazTrvPlanDtlsObjUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyNewWsBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPremiumOutParamUser</name>
+		<wmc>23</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4927536231884058</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public void setPextraCol(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getPfullTermPremium()">1</method>
+			<method name="public java.math.BigDecimal getPdiscountAmt()">1</method>
+			<method name="public void setPserviceTax(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getPloadingAmt()">1</method>
+			<method name="public java.math.BigDecimal getPeduCessAmt()">1</method>
+			<method name="public void setPextraCol1(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getPspDiscountAmt()">1</method>
+			<method name="public void setPextraCol2(String arg0)">1</method>
+			<method name="public void setPloadingAmt(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setPeduCessAmt(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getPextraCol()">1</method>
+			<method name="public void setPbasePremium(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setPdiscountAmt(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setPspDiscountAmt(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setPfullTermPremium(java.math.BigDecimal arg0)">1</method>
+			<method name="public java.math.BigDecimal getPserviceTax()">1</method>
+			<method name="public java.math.BigDecimal getPtotalPremium()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getPextraCol1()">1</method>
+			<method name="public java.math.BigDecimal getPbasePremium()">1</method>
+			<method name="public String getPextraCol2()">1</method>
+			<method name="public void setPtotalPremium(java.math.BigDecimal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTygeErrorMessageUser</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getParIndex()">1</method>
+			<method name="public String getErrText()">1</method>
+			<method name="public void setParName(String arg0)">1</method>
+			<method name="public void setParIndex(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setErrText(String arg0)">1</method>
+			<method name="public java.math.BigDecimal getErrNumber()">1</method>
+			<method name="public String getParName()">1</method>
+			<method name="public java.math.BigDecimal getErrLevel()">1</method>
+			<method name="public void setErrLevel(java.math.BigDecimal arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setErrNumber(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getProperty()">1</method>
+			<method name="public void setProperty(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTygeErrorMessageBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazWsCpDtlsObjUser</name>
+		<wmc>81</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>82</rfc>
+		<lcom>3160</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>81</npm>
+		<lcom3>0.9875</lcom3>
+		<loc>404</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49794238683127573</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.493827160493827</amc>
+		<cc>
+			<method name="public void setExtCol3(String arg0)">1</method>
+			<method name="public String getFirstname()">1</method>
+			<method name="public String getStreetname()">1</method>
+			<method name="public void setRegno(String arg0)">1</method>
+			<method name="public void setExtCol5(String arg0)">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public String getPassportno()">1</method>
+			<method name="public void setExtCol7(String arg0)">1</method>
+			<method name="public void setExtCol1(String arg0)">1</method>
+			<method name="public void setExtCol9(String arg0)">1</method>
+			<method name="public void setTitle(String arg0)">1</method>
+			<method name="public String getMobileNo()">1</method>
+			<method name="public java.math.BigDecimal getRequestid()">1</method>
+			<method name="public String getBuilding()">1</method>
+			<method name="public String getExtCol9()">1</method>
+			<method name="public String getDob()">1</method>
+			<method name="public void setInstitutionname(String arg0)">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public String getExtCol5()">1</method>
+			<method name="public String getUserid()">1</method>
+			<method name="public String getExtCol7()">1</method>
+			<method name="public String getInstitutionname()">1</method>
+			<method name="public void setPartnerid(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getNationality()">1</method>
+			<method name="public String getExtCol1()">1</method>
+			<method name="public String getExtCol3()">1</method>
+			<method name="public void setPartnerType(String arg0)">1</method>
+			<method name="public void setCompanyname(String arg0)">1</method>
+			<method name="public void setSex(String arg0)">1</method>
+			<method name="public void setLocationcode(String arg0)">1</method>
+			<method name="public String getFax()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public String getTelephone()">1</method>
+			<method name="public String getMiddlename()">1</method>
+			<method name="public String getLocationcode()">1</method>
+			<method name="public java.math.BigDecimal getPincode()">1</method>
+			<method name="public void setStreetname(String arg0)">1</method>
+			<method name="public void setRequestid(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setBuilding(String arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setOccupation(String arg0)">1</method>
+			<method name="public String getExtCol10()">1</method>
+			<method name="public void setMobileNo(String arg0)">1</method>
+			<method name="public void setExtCol4(String arg0)">1</method>
+			<method name="public void setUserid(String arg0)">1</method>
+			<method name="public void setFirstname(String arg0)">1</method>
+			<method name="public void setExtCol2(String arg0)">1</method>
+			<method name="public void setPassportno(String arg0)">1</method>
+			<method name="public void setExtCol6(String arg0)">1</method>
+			<method name="public void setLastname(String arg0)">1</method>
+			<method name="public String getCompanyname()">1</method>
+			<method name="public void setMiddlename(String arg0)">1</method>
+			<method name="public void setExtCol8(String arg0)">1</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public void setTelephone(String arg0)">1</method>
+			<method name="public String getTitle()">1</method>
+			<method name="public String getExtCol8()">1</method>
+			<method name="public void setExtCol10(String arg0)">1</method>
+			<method name="public String getSex()">1</method>
+			<method name="public void setMaritalstatus(String arg0)">1</method>
+			<method name="public String getOccupation()">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getExtCol4()">1</method>
+			<method name="public String getAssigneeName()">1</method>
+			<method name="public String getExtCol6()">1</method>
+			<method name="public void setPincode(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getExtCol2()">1</method>
+			<method name="public void setAssigneeName(String arg0)">1</method>
+			<method name="public void setEmpstatus(String arg0)">1</method>
+			<method name="public void setFax(String arg0)">1</method>
+			<method name="public String getEmpstatus()">1</method>
+			<method name="public java.math.BigDecimal getPartnerid()">1</method>
+			<method name="public String getRegno()">1</method>
+			<method name="public String getMaritalstatus()">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getPartnerType()">1</method>
+			<method name="public void setNationality(String arg0)">1</method>
+			<method name="public void setDob(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getLastname()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyNewWsUser</name>
+		<wmc>19</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7368421052631579</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getPvpartnerId()">1</method>
+			<method name="public void setPvname(String arg0)">1</method>
+			<method name="public String getPvpassportNo()">1</method>
+			<method name="public String getPvrelation()">1</method>
+			<method name="public void setPvsex(String arg0)">1</method>
+			<method name="public void setSeqNo(String arg0)">1</method>
+			<method name="public void setPvpartnerId(String arg0)">1</method>
+			<method name="public void setPvdob(String arg0)">1</method>
+			<method name="public void setPvage(String arg0)">1</method>
+			<method name="public void setPvrelation(String arg0)">1</method>
+			<method name="public String getPvage()">1</method>
+			<method name="public String getPvsex()">1</method>
+			<method name="public String getPvdob()">1</method>
+			<method name="public void setPvpassportNo(String arg0)">1</method>
+			<method name="public String getSeqNo()">1</method>
+			<method name="public String getPvassignee()">1</method>
+			<method name="public String getPvname()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPvassignee(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueNewWsUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getBjazTrvIssueNewWsUser()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueNewWsBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyNewWsUser</name>
+		<wmc>51</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>52</rfc>
+		<lcom>1225</lcom>
+		<ca>1</ca>
+		<ce>2</ce>
+		<npm>51</npm>
+		<lcom3>0.98</lcom3>
+		<loc>254</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37254901960784315</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4901960784313726</amc>
+		<cc>
+			<method name="public void setPdepartureDate(String arg0)">1</method>
+			<method name="public String getPimdcode()">1</method>
+			<method name="public void setPentryDate(String arg0)">1</method>
+			<method name="public String getPaddressLine1()">1</method>
+			<method name="public String getPpassportNo()">1</method>
+			<method name="public String getPaddressLine3()">1</method>
+			<method name="public void setPfirstName(String arg0)">1</method>
+			<method name="public void setPcustomerTextName(String arg0)">1</method>
+			<method name="public String getSeqNo()">1</method>
+			<method name="public void setPpolicyRef(String arg0)">1</method>
+			<method name="public String getPcustomerTextName()">1</method>
+			<method name="public String getPtelephone()">1</method>
+			<method name="public String getPsurname()">1</method>
+			<method name="public void setPfullTermPremium(String arg0)">1</method>
+			<method name="public void setPtelephone(String arg0)">1</method>
+			<method name="public void setPpartId(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getPfullTermPremium()">1</method>
+			<method name="public void setPaddressLine2(String arg0)">1</method>
+			<method name="public String getPdepartureDate()">1</method>
+			<method name="public void setPaddressLine1(String arg0)">1</method>
+			<method name="public void setPaddressLine3(String arg0)">1</method>
+			<method name="public String getParea()">1</method>
+			<method name="public void setSeqNo(String arg0)">1</method>
+			<method name="public String getPassigneeName()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoRecStrings20User getRecString20()">1</method>
+			<method name="public String getPentryDate()">1</method>
+			<method name="public void setParea(String arg0)">1</method>
+			<method name="public void setPsurname(String arg0)">1</method>
+			<method name="public void setPspCondition(String arg0)">1</method>
+			<method name="public String getPpolicyRef()">1</method>
+			<method name="public java.math.BigDecimal getPpartId()">1</method>
+			<method name="public String getPaddressLine2()">1</method>
+			<method name="public void setPpostcode(String arg0)">1</method>
+			<method name="public String getPdateOfBirth()">1</method>
+			<method name="public void setPimdcode(String arg0)">1</method>
+			<method name="public String getPpostcode()">1</method>
+			<method name="public void setPassigneeName(String arg0)">1</method>
+			<method name="public void setPpassportNo(String arg0)">1</method>
+			<method name="public String getPreturnDate()">1</method>
+			<method name="public void setPdateOfBirth(String arg0)">1</method>
+			<method name="public String getPplan()">1</method>
+			<method name="public void setRecString20(com.bajajallianz.bjaztravelws_wsdl.types.WeoRecStrings20User arg0)">1</method>
+			<method name="public String getPserviceTaxAmt()">1</method>
+			<method name="public String getPgrossPremium()">1</method>
+			<method name="public void setPgrossPremium(String arg0)">1</method>
+			<method name="public String getPfirstName()">1</method>
+			<method name="public String getPspCondition()">1</method>
+			<method name="public void setPreturnDate(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPplan(String arg0)">1</method>
+			<method name="public void setPserviceTaxAmt(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyMemberUser</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setPdob(String arg0)">1</method>
+			<method name="public String getPgender()">1</method>
+			<method name="public void setPrelation(String arg0)">1</method>
+			<method name="public String getPassignee()">1</method>
+			<method name="public void setPassignee(String arg0)">1</method>
+			<method name="public String getPname()">1</method>
+			<method name="public void setPpassport(String arg0)">1</method>
+			<method name="public void setPgender(String arg0)">1</method>
+			<method name="public String getPrelation()">1</method>
+			<method name="public String getPpassport()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPname(String arg0)">1</method>
+			<method name="public String getPdob()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyMemberBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyNewWsBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvCoverBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.ObjectFactory</name>
+		<wmc>48</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>47</cbo>
+		<rfc>96</rfc>
+		<lcom>1128</lcom>
+		<ca>0</ca>
+		<ce>47</ce>
+		<npm>48</npm>
+		<lcom3>2.0</lcom3>
+		<loc>239</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9791666666666665</amc>
+		<cc>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyNewWsUser createWeoTrvPolicyNewWsUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyNewWsUserArray createWeoTrvFamilyNewWsUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvCoverBase createWeoTrvCoverBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPlanDtlsObjBase createBjazTrvPlanDtlsObjBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazWsPolicyReportObjUser createBjazWsPolicyReportObjUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyNewWsUserArray createWeoTrvPolicyNewWsUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyBase createWeoTrvPolicyBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyParamInBase createWeoTrvFamilyParamInBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTygeErrorMessageUserArray createWeoTygeErrorMessageUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPlanDtlsObjUserArray createBjazTrvPlanDtlsObjUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvCoverUser createWeoTrvCoverUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvIntermediaryBase createWeoTrvIntermediaryBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvCoverUserArray createWeoTrvCoverUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueUser createBjazTrvIssueUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPolicyDtlsObjUser createBjazTrvPolicyDtlsObjUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTravelPlanUserArray createWeoTravelPlanUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvIntermediaryUserArray createWeoTrvIntermediaryUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPremiumInParamBase createWeoTrvPremiumInParamBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueNewWsUser createBjazTrvIssueNewWsUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPremiumOutParamBase createWeoTrvPremiumOutParamBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueNewWsBase createBjazTrvIssueNewWsBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyMemberBase createWeoTrvFamilyMemberBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazWsCpDtlsObjUser createBjazWsCpDtlsObjUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyMemberUser createWeoTrvFamilyMemberUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoRecStrings20Base createWeoRecStrings20Base()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPremiumOutParamUser createWeoTrvPremiumOutParamUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoRecStrings20User createWeoRecStrings20User()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPlanDtlsObjUser createBjazTrvPlanDtlsObjUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyNewWsBase createWeoTrvPolicyNewWsBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTygeErrorMessageUser createWeoTygeErrorMessageUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueNewWsUserArray createBjazTrvIssueNewWsUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPremiumInParamUser createWeoTrvPremiumInParamUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPolicyUser createWeoTrvPolicyUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueBase createBjazTrvIssueBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazWsPolicyReportObjBase createBjazWsPolicyReportObjBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvIntermediaryUser createWeoTrvIntermediaryUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyParamInUser createWeoTrvFamilyParamInUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyMemberUserArray createWeoTrvFamilyMemberUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyNewWsUser createWeoTrvFamilyNewWsUser()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTravelPlanBase createWeoTravelPlanBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazWsCpDtlsObjBase createBjazWsCpDtlsObjBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTygeErrorMessageBase createWeoTygeErrorMessageBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyParamInUserArray createWeoTrvFamilyParamInUserArray()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPolicyDtlsObjBase createBjazTrvPolicyDtlsObjBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyNewWsBase createWeoTrvFamilyNewWsBase()">1</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.BjazWsPolicyReportObjUserArray createBjazWsPolicyReportObjUserArray()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.bajajallianz.bjaztravelws_wsdl.types.WeoTravelPlanUser createWeoTravelPlanUser()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazWsPolicyReportObjBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPolicyDtlsObjUser</name>
+		<wmc>51</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>52</rfc>
+		<lcom>1225</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>51</npm>
+		<lcom3>0.98</lcom3>
+		<loc>254</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49673202614379086</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4901960784313726</amc>
+		<cc>
+			<method name="public String getSystemip()">1</method>
+			<method name="public void setReturnpath(String arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public java.math.BigDecimal getRequestid()">1</method>
+			<method name="public String getPaymentMode()">1</method>
+			<method name="public String getProductCode()">1</method>
+			<method name="public String getDob()">1</method>
+			<method name="public String getUserid()">1</method>
+			<method name="public String getSpCondition()">1</method>
+			<method name="public void setPaymentMode(String arg0)">1</method>
+			<method name="public void setLoading(String arg0)">1</method>
+			<method name="public void setFromDate(String arg0)">1</method>
+			<method name="public void setDiscount(String arg0)">1</method>
+			<method name="public String getPolicyNo()">1</method>
+			<method name="public String getAreaplan()">1</method>
+			<method name="public String getTravelplan()">1</method>
+			<method name="public void setRequestid(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getToDate()">1</method>
+			<method name="public String getExtraCol5()">1</method>
+			<method name="public void setFinalPremium(String arg0)">1</method>
+			<method name="public String getLoading()">1</method>
+			<method name="public String getExtraCol1()">1</method>
+			<method name="public String getExtraCol3()">1</method>
+			<method name="public void setMasterpolicyno(String arg0)">1</method>
+			<method name="public void setUserid(String arg0)">1</method>
+			<method name="public String getFamilyFlag()">1</method>
+			<method name="public void setSpCondition(String arg0)">1</method>
+			<method name="public void setProductCode(String arg0)">1</method>
+			<method name="public void setToDate(String arg0)">1</method>
+			<method name="public void setPolicyNo(String arg0)">1</method>
+			<method name="public String getFromDate()">1</method>
+			<method name="public String getAssigneeName()">1</method>
+			<method name="public void setAreaplan(String arg0)">1</method>
+			<method name="public String getReturnpath()">1</method>
+			<method name="public void setAssigneeName(String arg0)">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+			<method name="public void setExtraCol5(String arg0)">1</method>
+			<method name="public void setExtraCol4(String arg0)">1</method>
+			<method name="public void setExtraCol3(String arg0)">1</method>
+			<method name="public void setExtraCol2(String arg0)">1</method>
+			<method name="public void setSystemip(String arg0)">1</method>
+			<method name="public void setFamilyFlag(String arg0)">1</method>
+			<method name="public void setExtraCol1(String arg0)">1</method>
+			<method name="public void setTravelplan(String arg0)">1</method>
+			<method name="public String getExtraCol2()">1</method>
+			<method name="public String getMasterpolicyno()">1</method>
+			<method name="public String getExtraCol4()">1</method>
+			<method name="public void setDob(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDiscount()">1</method>
+			<method name="public String getFinalPremium()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPlanDtlsObjBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPolicyDtlsObjBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvPlanDtlsObjUser</name>
+		<wmc>33</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7424242424242424</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public void setExtCol3(String arg0)">1</method>
+			<method name="public void setExtCol2(String arg0)">1</method>
+			<method name="public void setExtCol5(String arg0)">1</method>
+			<method name="public void setMinDaysFrom(String arg0)">1</method>
+			<method name="public void setExtCol6(String arg0)">1</method>
+			<method name="public void setExtCol7(String arg0)">1</method>
+			<method name="public void setExtCol1(String arg0)">1</method>
+			<method name="public String getPlanname()">1</method>
+			<method name="public void setExtCol9(String arg0)">1</method>
+			<method name="public void setExtCol8(String arg0)">1</method>
+			<method name="public void setMaxDaysTo(String arg0)">1</method>
+			<method name="public String getAreaname()">1</method>
+			<method name="public String getExtCol9()">1</method>
+			<method name="public void setExtCol10(String arg0)">1</method>
+			<method name="public String getExtCol8()">1</method>
+			<method name="public void setMaxAgeTo(String arg0)">1</method>
+			<method name="public String getExtCol5()">1</method>
+			<method name="public String getExtCol4()">1</method>
+			<method name="public String getMinAgeFrom()">1</method>
+			<method name="public String getExtCol7()">1</method>
+			<method name="public String getExtCol6()">1</method>
+			<method name="public String getExtCol1()">1</method>
+			<method name="public String getExtCol3()">1</method>
+			<method name="public String getExtCol2()">1</method>
+			<method name="public void setAreaname(String arg0)">1</method>
+			<method name="public String getMaxDaysTo()">1</method>
+			<method name="public void setMinAgeFrom(String arg0)">1</method>
+			<method name="public void setPlanname(String arg0)">1</method>
+			<method name="public String getMinDaysFrom()">1</method>
+			<method name="public String getExtCol10()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMaxAgeTo()">1</method>
+			<method name="public void setExtCol4(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazWsPolicyReportObjUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getBjazWsPolicyReportObjUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvCoverUser</name>
+		<wmc>7</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getPbenefits()">1</method>
+			<method name="public String getPdeductible()">1</method>
+			<method name="public void setPbenefits(String arg0)">1</method>
+			<method name="public void setPlimits(String arg0)">1</method>
+			<method name="public void setPdeductible(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getPlimits()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoRecStrings20User</name>
+		<wmc>41</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>42</rfc>
+		<lcom>780</lcom>
+		<ca>3</ca>
+		<ce>1</ce>
+		<npm>41</npm>
+		<lcom3>0.975</lcom3>
+		<loc>204</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7439024390243902</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4878048780487805</amc>
+		<cc>
+			<method name="public String getStringval1()">1</method>
+			<method name="public void setStringval7(String arg0)">1</method>
+			<method name="public String getStringval17()">1</method>
+			<method name="public String getStringval2()">1</method>
+			<method name="public void setStringval8(String arg0)">1</method>
+			<method name="public String getStringval16()">1</method>
+			<method name="public String getStringval3()">1</method>
+			<method name="public void setStringval9(String arg0)">1</method>
+			<method name="public String getStringval19()">1</method>
+			<method name="public void setStringval6(String arg0)">1</method>
+			<method name="public String getStringval4()">1</method>
+			<method name="public String getStringval18()">1</method>
+			<method name="public String getStringval5()">1</method>
+			<method name="public void setStringval3(String arg0)">1</method>
+			<method name="public String getStringval6()">1</method>
+			<method name="public void setStringval2(String arg0)">1</method>
+			<method name="public String getStringval7()">1</method>
+			<method name="public String getStringval8()">1</method>
+			<method name="public String getStringval9()">1</method>
+			<method name="public String getStringval11()">1</method>
+			<method name="public String getStringval10()">1</method>
+			<method name="public void setStringval16(String arg0)">1</method>
+			<method name="public void setStringval4(String arg0)">1</method>
+			<method name="public void setStringval15(String arg0)">1</method>
+			<method name="public String getStringval13()">1</method>
+			<method name="public String getStringval12()">1</method>
+			<method name="public void setStringval14(String arg0)">1</method>
+			<method name="public String getStringval15()">1</method>
+			<method name="public void setStringval5(String arg0)">1</method>
+			<method name="public String getStringval14()">1</method>
+			<method name="public void setStringval12(String arg0)">1</method>
+			<method name="public void setStringval13(String arg0)">1</method>
+			<method name="public void setStringval11(String arg0)">1</method>
+			<method name="public void setStringval10(String arg0)">1</method>
+			<method name="public String getStringval20()">1</method>
+			<method name="public void setStringval20(String arg0)">1</method>
+			<method name="public void setStringval17(String arg0)">1</method>
+			<method name="public void setStringval18(String arg0)">1</method>
+			<method name="public void setStringval19(String arg0)">1</method>
+			<method name="public void setStringval1(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazWsCpDtlsObjBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTygeErrorMessageUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getWeoTygeErrorMessageUser()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoRecStrings20Base</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazTrvIssueUser</name>
+		<wmc>147</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>148</rfc>
+		<lcom>10585</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>147</npm>
+		<lcom3>0.9931506849315068</lcom3>
+		<loc>734</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7482993197278912</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.496598639455782</amc>
+		<cc>
+			<method name="public String getTelephone3()">1</method>
+			<method name="public void setPcompref(String arg0)">1</method>
+			<method name="public String getPpassportNo()">1</method>
+			<method name="public String getPtotalPremium()">1</method>
+			<method name="public void setPtermEndDate(String arg0)">1</method>
+			<method name="public String getPtermStartDate()">1</method>
+			<method name="public void setPruralFlag(String arg0)">1</method>
+			<method name="public void setVatNumber(String arg0)">1</method>
+			<method name="public String getRegNumber()">1</method>
+			<method name="public void setPtoDate(String arg0)">1</method>
+			<method name="public void setPpremiumPayerFlag(String arg0)">1</method>
+			<method name="public String getAfterTitle()">1</method>
+			<method name="public String getPempno()">1</method>
+			<method name="public void setPpartnerId(String arg0)">1</method>
+			<method name="public String getPcoverNoteNo()">1</method>
+			<method name="public String getLanguage()">1</method>
+			<method name="public void setPfullTermPremium(String arg0)">1</method>
+			<method name="public String getFax()">1</method>
+			<method name="public void setPintermediaryCode(String arg0)">1</method>
+			<method name="public void setPtotalPremium(String arg0)">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public String getPfullTermPremium()">1</method>
+			<method name="public String getMiddleName()">1</method>
+			<method name="public String getPolicyNo()">1</method>
+			<method name="public String getTelephone()">1</method>
+			<method name="public String getPpremiumPayerFlag()">1</method>
+			<method name="public void setPdealerCode(String arg0)">1</method>
+			<method name="public void setEmploymentStatus(String arg0)">1</method>
+			<method name="public String getAddressLine3()">1</method>
+			<method name="public void setPdestination(String arg0)">1</method>
+			<method name="public void setMiddleName(String arg0)">1</method>
+			<method name="public String getPassigneeName()">1</method>
+			<method name="public String getPostcode()">1</method>
+			<method name="public String getPfromDate()">1</method>
+			<method name="public void setCheckBox(String arg0)">1</method>
+			<method name="public void setUserid(String arg0)">1</method>
+			<method name="public String getPintermediaryCode()">1</method>
+			<method name="public String getTelephone2()">1</method>
+			<method name="public void setPspCondition(String arg0)">1</method>
+			<method name="public String getPmasterpolicyno()">1</method>
+			<method name="public String getEmail()">1</method>
+			<method name="public String getQuality()">1</method>
+			<method name="public void setPareaplan(String arg0)">1</method>
+			<method name="public String getPdateOfBirth()">1</method>
+			<method name="public void setPspDiscount(String arg0)">1</method>
+			<method name="public void setPspDiscountAmt(String arg0)">1</method>
+			<method name="public String getPtermEndDate()">1</method>
+			<method name="public String getPspDiscountAmt()">1</method>
+			<method name="public String getInstitutionName()">1</method>
+			<method name="public String getDateOfBirth()">1</method>
+			<method name="public void setQuality(String arg0)">1</method>
+			<method name="public String getCheckBox()">1</method>
+			<method name="public String getPcompref()">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public String getPserviceCharge()">1</method>
+			<method name="public void setTelephone2(String arg0)">1</method>
+			<method name="public void setPassigneeName(String arg0)">1</method>
+			<method name="public void setPpassportNo(String arg0)">1</method>
+			<method name="public String getAddressLine2()">1</method>
+			<method name="public String getNationalId()">1</method>
+			<method name="public void setPpremiumPayerId(String arg0)">1</method>
+			<method name="public void setPmasterpolicyno(String arg0)">1</method>
+			<method name="public void setPdateOfBirth(String arg0)">1</method>
+			<method name="public String getPpaymentMode()">1</method>
+			<method name="public void setAddressLine2(String arg0)">1</method>
+			<method name="public String getPfamilyFlag()">1</method>
+			<method name="public String getMaritalStatus()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPtravelplan(String arg0)">1</method>
+			<method name="public void setPempno(String arg0)">1</method>
+			<method name="public String getPpartnerId()">1</method>
+			<method name="public void setEmail(String arg0)">1</method>
+			<method name="public String getPuserName()">1</method>
+			<method name="public String getPartnerRef()">1</method>
+			<method name="public void setSurname(String arg0)">1</method>
+			<method name="public String getEmploymentStatus()">1</method>
+			<method name="public void setPlocationCode(String arg0)">1</method>
+			<method name="public void setPpaymentMode(String arg0)">1</method>
+			<method name="public void setRegNumber(String arg0)">1</method>
+			<method name="public void setNotes(String arg0)">1</method>
+			<method name="public void setAddressLine4(String arg0)">1</method>
+			<method name="public String getPproduct()">1</method>
+			<method name="public String getPareaplan()">1</method>
+			<method name="public String getUserid()">1</method>
+			<method name="public void setPproduct(String arg0)">1</method>
+			<method name="public void setPartnerType(String arg0)">1</method>
+			<method name="public String getPdealerCode()">1</method>
+			<method name="public String getPtravelplan()">1</method>
+			<method name="public void setSex(String arg0)">1</method>
+			<method name="public void setFirstName(String arg0)">1</method>
+			<method name="public String getAddId()">1</method>
+			<method name="public String getPdiscount()">1</method>
+			<method name="public String getAddressLine1()">1</method>
+			<method name="public String getPspDiscount()">1</method>
+			<method name="public void setPcoverNoteNo(String arg0)">1</method>
+			<method name="public String getAddressLine5()">1</method>
+			<method name="public String getVatNumber()">1</method>
+			<method name="public String getPsubagentCode()">1</method>
+			<method name="public void setBeforeTitle(String arg0)">1</method>
+			<method name="public String getPloading()">1</method>
+			<method name="public void setNationalId(String arg0)">1</method>
+			<method name="public String getBeforeTitle()">1</method>
+			<method name="public String getFirstName()">1</method>
+			<method name="public String getPpremiumPayerId()">1</method>
+			<method name="public void setPostcode(String arg0)">1</method>
+			<method name="public void setMaritalStatus(String arg0)">1</method>
+			<method name="public void setPuserName(String arg0)">1</method>
+			<method name="public String getContact1()">1</method>
+			<method name="public void setPdiscount(String arg0)">1</method>
+			<method name="public String getSurname()">1</method>
+			<method name="public void setAfterTitle(String arg0)">1</method>
+			<method name="public void setPtermStartDate(String arg0)">1</method>
+			<method name="public void setPolicyNo(String arg0)">1</method>
+			<method name="public void setTelephone(String arg0)">1</method>
+			<method name="public void setPfromDate(String arg0)">1</method>
+			<method name="public String getSex()">1</method>
+			<method name="public void setAddressLine5(String arg0)">1</method>
+			<method name="public void setPartnerRef(String arg0)">1</method>
+			<method name="public void setDateOfBirth(String arg0)">1</method>
+			<method name="public void setPartId(String arg0)">1</method>
+			<method name="public String getNotes()">1</method>
+			<method name="public String getPcoOrgUnit()">1</method>
+			<method name="public void setContact1(String arg0)">1</method>
+			<method name="public void setPsubagentCode(String arg0)">1</method>
+			<method name="public void setFax(String arg0)">1</method>
+			<method name="public String getPdestination()">1</method>
+			<method name="public String getTaxId()">1</method>
+			<method name="public void setTelephone3(String arg0)">1</method>
+			<method name="public String getAddressLine4()">1</method>
+			<method name="public void setAddId(String arg0)">1</method>
+			<method name="public void setAddressLine3(String arg0)">1</method>
+			<method name="public String getPruralFlag()">1</method>
+			<method name="public String getPtoDate()">1</method>
+			<method name="public void setPloading(String arg0)">1</method>
+			<method name="public void setPfamilyFlag(String arg0)">1</method>
+			<method name="public String getPserviceTaxAmt()">1</method>
+			<method name="public void setAddressLine1(String arg0)">1</method>
+			<method name="public void setInstitutionName(String arg0)">1</method>
+			<method name="public String getPartnerType()">1</method>
+			<method name="public String getPlocationCode()">1</method>
+			<method name="public String getPspCondition()">1</method>
+			<method name="public void setPcoOrgUnit(String arg0)">1</method>
+			<method name="public void setPserviceCharge(String arg0)">1</method>
+			<method name="public String getPartId()">1</method>
+			<method name="public String getCountryCode()">1</method>
+			<method name="public void setPserviceTaxAmt(String arg0)">1</method>
+			<method name="public void setTaxId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyMemberUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWeoTrvFamilyMemberUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws.BjazTravelWS_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public com.bajajallianz.bjaztravelws.BjazTravelWS getBjazTravelWSPort()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient com.bajajallianz.bjaztravelws.BjazTravelWS getBjazTravelWSPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvIntermediaryUser</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setPAgentCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getPAgentCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyNewWsUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWeoTrvFamilyNewWsUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvIntermediaryUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getWeoTrvIntermediaryUser()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyParamInUser</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7352941176470589</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getPvpartnerId()">1</method>
+			<method name="public void setPvname(String arg0)">1</method>
+			<method name="public String getPvpassportNo()">1</method>
+			<method name="public String getPvrelation()">1</method>
+			<method name="public void setPvsex(String arg0)">1</method>
+			<method name="public void setPvpartnerId(String arg0)">1</method>
+			<method name="public void setPvdob(String arg0)">1</method>
+			<method name="public void setPvage(String arg0)">1</method>
+			<method name="public void setPvrelation(String arg0)">1</method>
+			<method name="public String getPvage()">1</method>
+			<method name="public String getPvsex()">1</method>
+			<method name="public String getPvdob()">1</method>
+			<method name="public void setPvpassportNo(String arg0)">1</method>
+			<method name="public String getPvassignee()">1</method>
+			<method name="public String getPvname()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPvassignee(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTravelPlanUser</name>
+		<wmc>5</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public java.math.BigDecimal getCountPplan()">1</method>
+			<method name="public String getPplan()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPplan(String arg0)">1</method>
+			<method name="public void setCountPplan(java.math.BigDecimal arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPremiumInParamUser</name>
+		<wmc>17</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36764705882352944</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getPtravelplan()">1</method>
+			<method name="public void setPtravelplan(String arg0)">1</method>
+			<method name="public void setPspDiscount(Integer arg0)">1</method>
+			<method name="public java.math.BigDecimal getPloading()">1</method>
+			<method name="public Integer getPdiscount()">1</method>
+			<method name="public Integer getPspDiscount()">1</method>
+			<method name="public void setPdateOfBirth(String arg0)">1</method>
+			<method name="public void setPareaplan(String arg0)">1</method>
+			<method name="public void setPdiscount(Integer arg0)">1</method>
+			<method name="public String getPdateOfBirth()">1</method>
+			<method name="public void setPfromDate(String arg0)">1</method>
+			<method name="public void setPloading(java.math.BigDecimal arg0)">1</method>
+			<method name="public String getPtoDate()">1</method>
+			<method name="public void setPtoDate(String arg0)">1</method>
+			<method name="public String getPfromDate()">1</method>
+			<method name="public String getPareaplan()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvIntermediaryBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvFamilyParamInUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWeoTrvFamilyParamInUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvPremiumInParamBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTrvCoverUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWeoTrvCoverUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTravelPlanUserArray</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWeoTravelPlanUser()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.WeoTravelPlanBase</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.bajajallianz.bjaztravelws_wsdl.types.BjazWsPolicyReportObjUser</name>
+		<wmc>43</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>44</rfc>
+		<lcom>861</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>43</npm>
+		<lcom3>0.9761904761904762</lcom3>
+		<loc>214</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7441860465116279</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.488372093023256</amc>
+		<cc>
+			<method name="public void setExtCol3(String arg0)">1</method>
+			<method name="public void setExtCol2(String arg0)">1</method>
+			<method name="public void setExtCol5(String arg0)">1</method>
+			<method name="public void setExtCol6(String arg0)">1</method>
+			<method name="public void setPIssueDate(String arg0)">1</method>
+			<method name="public void setExtCol7(String arg0)">1</method>
+			<method name="public void setPTermStartDate(String arg0)">1</method>
+			<method name="public void setExtCol1(String arg0)">1</method>
+			<method name="public void setExtCol9(String arg0)">1</method>
+			<method name="public String getPPartnerId()">1</method>
+			<method name="public void setExtCol8(String arg0)">1</method>
+			<method name="public void setPImdCode(String arg0)">1</method>
+			<method name="public String getPPolicyRef()">1</method>
+			<method name="public String getPImdName()">1</method>
+			<method name="public String getPGrossPremiumAmt()">1</method>
+			<method name="public void setPUserId(String arg0)">1</method>
+			<method name="public String getExtCol9()">1</method>
+			<method name="public String getPTermEndDate()">1</method>
+			<method name="public void setExtCol10(String arg0)">1</method>
+			<method name="public String getExtCol8()">1</method>
+			<method name="public String getPIssueDate()">1</method>
+			<method name="public String getExtCol5()">1</method>
+			<method name="public String getExtCol4()">1</method>
+			<method name="public String getExtCol7()">1</method>
+			<method name="public String getExtCol6()">1</method>
+			<method name="public String getPUserId()">1</method>
+			<method name="public String getExtCol1()">1</method>
+			<method name="public String getExtCol3()">1</method>
+			<method name="public void setPImdName(String arg0)">1</method>
+			<method name="public String getExtCol2()">1</method>
+			<method name="public String getPLocationCode()">1</method>
+			<method name="public String getPTermStartDate()">1</method>
+			<method name="public void setPLocationCode(String arg0)">1</method>
+			<method name="public String getPCustName()">1</method>
+			<method name="public String getPImdCode()">1</method>
+			<method name="public void setPCustName(String arg0)">1</method>
+			<method name="public void setPPolicyRef(String arg0)">1</method>
+			<method name="public void setPPartnerId(String arg0)">1</method>
+			<method name="public void setPGrossPremiumAmt(String arg0)">1</method>
+			<method name="public String getExtCol10()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setPTermEndDate(String arg0)">1</method>
+			<method name="public void setExtCol4(String arg0)">1</method>
+		</cc>
+	</class>

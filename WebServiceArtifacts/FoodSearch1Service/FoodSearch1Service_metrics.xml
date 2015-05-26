@@ -1,0 +1,319 @@
+	<class>
+		<name>foodsearch1.GetFoodResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public foodsearch1.Food getFood()">1</method>
+			<method name="public void setFood(foodsearch1.Food arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.Food</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public java.util.List getServings()">2</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.FoodSearchResult</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.Serving</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public foodsearch1.Nutrients getNutrients()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNutrients(foodsearch1.Nutrients arg0)">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.ObjectFactory</name>
+		<wmc>10</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>9</cbo>
+		<rfc>20</rfc>
+		<lcom>45</lcom>
+		<ca>0</ca>
+		<ce>9</ce>
+		<npm>10</npm>
+		<lcom3>2.0</lcom3>
+		<loc>49</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.9</amc>
+		<cc>
+			<method name="public foodsearch1.GetFood createGetFood()">1</method>
+			<method name="public foodsearch1.GetFoodResponse createGetFoodResponse()">1</method>
+			<method name="public foodsearch1.Nutrients createNutrients()">1</method>
+			<method name="public foodsearch1.FoodSearchResponse createFoodSearchResponse()">1</method>
+			<method name="public foodsearch1.Serving createServing()">1</method>
+			<method name="public foodsearch1.FoodSearchResult createFoodSearchResult()">1</method>
+			<method name="public foodsearch1.FoodSearchCategory createFoodSearchCategory()">1</method>
+			<method name="public foodsearch1.FoodSearch createFoodSearch()">1</method>
+			<method name="public foodsearch1.Food createFood()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.GetFood</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setDevkey(String arg0)">1</method>
+			<method name="public String getDevkey()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getId()">1</method>
+			<method name="public void setId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.FoodSearchResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCategories()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.Nutrients</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7380952380952381</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public Float getCalories()">1</method>
+			<method name="public void setFat(Float arg0)">1</method>
+			<method name="public Float getCalcium()">1</method>
+			<method name="public Float getFiber()">1</method>
+			<method name="public Float getSatfat()">1</method>
+			<method name="public void setCalories(Float arg0)">1</method>
+			<method name="public void setCarbohydrate(Float arg0)">1</method>
+			<method name="public void setCholesterol(Float arg0)">1</method>
+			<method name="public void setSatfat(Float arg0)">1</method>
+			<method name="public Float getCholesterol()">1</method>
+			<method name="public Float getProtein()">1</method>
+			<method name="public void setSugar(Float arg0)">1</method>
+			<method name="public void setCalcium(Float arg0)">1</method>
+			<method name="public Float getCarbohydrate()">1</method>
+			<method name="public void setFiber(Float arg0)">1</method>
+			<method name="public void setSodium(Float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setProtein(Float arg0)">1</method>
+			<method name="public Float getSugar()">1</method>
+			<method name="public Float getSodium()">1</method>
+			<method name="public Float getFat()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.FoodSearchCategory</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getChildren()">2</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>foodsearch1.FoodSearch</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getTerms()">1</method>
+			<method name="public void setTerms(String arg0)">1</method>
+			<method name="public void setDevkey(String arg0)">1</method>
+			<method name="public String getDevkey()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

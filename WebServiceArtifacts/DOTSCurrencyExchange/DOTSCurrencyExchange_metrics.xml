@@ -1,0 +1,584 @@
+	<class>
+		<name>com.serviceobjects.CurrencyConversionResponse</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setConvertedAmount(double arg0)">1</method>
+			<method name="public String getConvertToCurrency()">1</method>
+			<method name="public void setConvertFromCurrency(String arg0)">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setConvertToCurrency(String arg0)">1</method>
+			<method name="public String getAmount()">1</method>
+			<method name="public void setAmount(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public double getConvertedAmount()">1</method>
+			<method name="public void setError(String arg0)">1</method>
+			<method name="public String getConvertFromCurrency()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetCountryCurrency</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getCountry()">1</method>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseKey(String arg0)">1</method>
+			<method name="public String getLicenseKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetAllCountryCurrencies</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseKey(String arg0)">1</method>
+			<method name="public String getLicenseKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetAllCountryCurrenciesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetAllCountryCurrenciesResult(com.serviceobjects.ArrayOfCountryCurrencyResponse arg0)">1</method>
+			<method name="public com.serviceobjects.ArrayOfCountryCurrencyResponse getGetAllCountryCurrenciesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.ObjectFactory</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>16</cbo>
+		<rfc>42</rfc>
+		<lcom>243</lcom>
+		<ca>0</ca>
+		<ce>16</ce>
+		<npm>22</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>166</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.20454545454545456</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public com.serviceobjects.GetAllCountryCurrencies createGetAllCountryCurrencies()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfCountryCurrencyResponse(com.serviceobjects.ArrayOfCountryCurrencyResponse arg0)">1</method>
+			<method name="public com.serviceobjects.GetExchangeRateResponse createGetExchangeRateResponse()">1</method>
+			<method name="public com.serviceobjects.ConvertCurrencyResponse createConvertCurrencyResponse()">1</method>
+			<method name="public com.serviceobjects.ConvertCurrency createConvertCurrency()">1</method>
+			<method name="public com.serviceobjects.CurrencyNameResponse createCurrencyNameResponse()">1</method>
+			<method name="public com.serviceobjects.ExchangeRateResponse createExchangeRateResponse()">1</method>
+			<method name="public com.serviceobjects.GetAllCurrencies createGetAllCurrencies()">1</method>
+			<method name="public com.serviceobjects.GetAllCurrenciesResponse createGetAllCurrenciesResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfCurrencyNameResponse(com.serviceobjects.ArrayOfCurrencyNameResponse arg0)">1</method>
+			<method name="public com.serviceobjects.CurrencyConversionResponse createCurrencyConversionResponse()">1</method>
+			<method name="public com.serviceobjects.CountryCurrencyResponse createCountryCurrencyResponse()">1</method>
+			<method name="public com.serviceobjects.ArrayOfCountryCurrencyResponse createArrayOfCountryCurrencyResponse()">1</method>
+			<method name="public com.serviceobjects.GetExchangeRate createGetExchangeRate()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCurrencyConversionResponse(com.serviceobjects.CurrencyConversionResponse arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createExchangeRateResponse(com.serviceobjects.ExchangeRateResponse arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.serviceobjects.ArrayOfCurrencyNameResponse createArrayOfCurrencyNameResponse()">1</method>
+			<method name="public com.serviceobjects.GetAllCountryCurrenciesResponse createGetAllCountryCurrenciesResponse()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.serviceobjects.GetCountryCurrency createGetCountryCurrency()">1</method>
+			<method name="public com.serviceobjects.GetCountryCurrencyResponse createGetCountryCurrencyResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountryCurrencyResponse(com.serviceobjects.CountryCurrencyResponse arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.CountryCurrencyResponse</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getCurrencySymbol()">1</method>
+			<method name="public void setCurrencySymbol(String arg0)">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public String getCountryISO2()">1</method>
+			<method name="public String getCountryISO3()">1</method>
+			<method name="public String getCurrencyName()">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCountryISO2(String arg0)">1</method>
+			<method name="public void setCountryISO3(String arg0)">1</method>
+			<method name="public void setError(String arg0)">1</method>
+			<method name="public void setCurrencyName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.ExchangeRateResponse</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public double getExchangeRate()">1</method>
+			<method name="public String getConvertToCurrency()">1</method>
+			<method name="public void setConvertFromCurrency(String arg0)">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setConvertToCurrency(String arg0)">1</method>
+			<method name="public void setExchangeRate(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+			<method name="public String getConvertFromCurrency()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.ArrayOfCountryCurrencyResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCountryCurrencyResponse()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.ConvertCurrency</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getConvertToCurrency()">1</method>
+			<method name="public void setConvertFromCurrency(String arg0)">1</method>
+			<method name="public String getAmount()">1</method>
+			<method name="public void setConvertToCurrency(String arg0)">1</method>
+			<method name="public void setAmount(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseKey(String arg0)">1</method>
+			<method name="public String getConvertFromCurrency()">1</method>
+			<method name="public String getLicenseKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.CurrencyNameResponse</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getCurrencySymbol()">1</method>
+			<method name="public void setCurrencySymbol(String arg0)">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public String getCurrencyName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+			<method name="public void setCurrencyName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.ConvertCurrencyResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setConvertCurrencyResult(com.serviceobjects.CurrencyConversionResponse arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.serviceobjects.CurrencyConversionResponse getConvertCurrencyResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetAllCurrencies</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseKey(String arg0)">1</method>
+			<method name="public String getLicenseKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetAllCurrenciesResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetAllCurrenciesResult(com.serviceobjects.ArrayOfCurrencyNameResponse arg0)">1</method>
+			<method name="public com.serviceobjects.ArrayOfCurrencyNameResponse getGetAllCurrenciesResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.DOTSCurrencyExchange</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public com.serviceobjects.DOTSCurrencyExchangeSoap getDOTSCurrencyExchangeSoap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public transient com.serviceobjects.DOTSCurrencyExchangeSoap getDOTSCurrencyExchangeSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.DOTSCurrencyExchangeSoap</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>5</rfc>
+		<lcom>10</lcom>
+		<ca>1</ca>
+		<ce>5</ce>
+		<npm>5</npm>
+		<lcom3>2.0</lcom3>
+		<loc>5</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.serviceobjects.ExchangeRateResponse getExchangeRate(String, String, String)">1</method>
+			<method name="public abstract com.serviceobjects.CurrencyConversionResponse convertCurrency(String, String, String, String)">1</method>
+			<method name="public abstract com.serviceobjects.ArrayOfCurrencyNameResponse getAllCurrencies(String)">1</method>
+			<method name="public abstract com.serviceobjects.ArrayOfCountryCurrencyResponse getAllCountryCurrencies(String)">1</method>
+			<method name="public abstract com.serviceobjects.CountryCurrencyResponse getCountryCurrency(String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetCountryCurrencyResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.serviceobjects.CountryCurrencyResponse getGetCountryCurrencyResult()">1</method>
+			<method name="public void setGetCountryCurrencyResult(com.serviceobjects.CountryCurrencyResponse arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetExchangeRateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetExchangeRateResult(com.serviceobjects.ExchangeRateResponse arg0)">1</method>
+			<method name="public com.serviceobjects.ExchangeRateResponse getGetExchangeRateResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetExchangeRate</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getConvertToCurrency()">1</method>
+			<method name="public void setConvertFromCurrency(String arg0)">1</method>
+			<method name="public void setConvertToCurrency(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseKey(String arg0)">1</method>
+			<method name="public String getConvertFromCurrency()">1</method>
+			<method name="public String getLicenseKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.ArrayOfCurrencyNameResponse</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getCurrencyNameResponse()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

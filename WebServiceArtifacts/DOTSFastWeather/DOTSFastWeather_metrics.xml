@@ -1,0 +1,368 @@
+	<class>
+		<name>com.serviceobjects.GetWeatherByZip</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseKey(String arg0)">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public String getLicenseKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetWeatherByIP</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getIPAddress()">1</method>
+			<method name="public void setIPAddress(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseKey(String arg0)">1</method>
+			<method name="public String getLicenseKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.ObjectFactory</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>22</rfc>
+		<lcom>53</lcom>
+		<ca>0</ca>
+		<ce>8</ce>
+		<npm>10</npm>
+		<lcom3>0.9</lcom3>
+		<loc>62</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.55</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.545454545454546</amc>
+		<cc>
+			<method name="public com.serviceobjects.Err createErr()">1</method>
+			<method name="public com.serviceobjects.GetWeatherByIP createGetWeatherByIP()">1</method>
+			<method name="public com.serviceobjects.GetWeatherByZipResponse createGetWeatherByZipResponse()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createWeather(com.serviceobjects.Weather arg0)">1</method>
+			<method name="public com.serviceobjects.GetWeatherByCityStateResponse createGetWeatherByCityStateResponse()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.serviceobjects.GetWeatherByIPResponse createGetWeatherByIPResponse()">1</method>
+			<method name="public com.serviceobjects.GetWeatherByZip createGetWeatherByZip()">1</method>
+			<method name="public com.serviceobjects.Weather createWeather()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.serviceobjects.GetWeatherByCityState createGetWeatherByCityState()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.Err</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getNumber()">1</method>
+			<method name="public void setDesc(String arg0)">1</method>
+			<method name="public void setNumber(String arg0)">1</method>
+			<method name="public String getLocation()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDesc()">1</method>
+			<method name="public void setLocation(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetWeatherByZipResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.serviceobjects.Weather getGetWeatherByZipResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setGetWeatherByZipResult(com.serviceobjects.Weather arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.Weather</name>
+		<wmc>35</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>36</rfc>
+		<lcom>561</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>35</npm>
+		<lcom3>0.9705882352941176</lcom3>
+		<loc>174</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49523809523809526</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4857142857142858</amc>
+		<cc>
+			<method name="public void setLastUpdated(String arg0)">1</method>
+			<method name="public void setTemperatureF(String arg0)">1</method>
+			<method name="public void setMoonrise(String arg0)">1</method>
+			<method name="public void setSunrise(String arg0)">1</method>
+			<method name="public void setWindchill(String arg0)">1</method>
+			<method name="public void setVisibility(String arg0)">1</method>
+			<method name="public String getWindchill()">1</method>
+			<method name="public String getMoonrise()">1</method>
+			<method name="public void setMoonset(String arg0)">1</method>
+			<method name="public String getDewpoint()">1</method>
+			<method name="public void setHeatIndex(String arg0)">1</method>
+			<method name="public void setHumidity(String arg0)">1</method>
+			<method name="public String getTemperatureF()">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getSunrise()">1</method>
+			<method name="public void setWind(String arg0)">1</method>
+			<method name="public String getConditions()">1</method>
+			<method name="public com.serviceobjects.Err getError()">1</method>
+			<method name="public void setPressure(String arg0)">1</method>
+			<method name="public String getHeatIndex()">1</method>
+			<method name="public void setDewpoint(String arg0)">1</method>
+			<method name="public void setConditions(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public void setError(com.serviceobjects.Err arg0)">1</method>
+			<method name="public String getSunset()">1</method>
+			<method name="public String getWind()">1</method>
+			<method name="public String getHumidity()">1</method>
+			<method name="public void setSunset(String arg0)">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public String getPressure()">1</method>
+			<method name="public String getMoonset()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getLastUpdated()">1</method>
+			<method name="public String getVisibility()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.DOTSFastWeather</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient com.serviceobjects.DOTSFastWeatherSoap getDOTSFastWeatherSoap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.serviceobjects.DOTSFastWeatherSoap getDOTSFastWeatherSoap()">1</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetWeatherByCityState</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLicenseKey(String arg0)">1</method>
+			<method name="public String getLicenseKey()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetWeatherByCityStateResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.serviceobjects.Weather getGetWeatherByCityStateResult()">1</method>
+			<method name="public void setGetWeatherByCityStateResult(com.serviceobjects.Weather arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.DOTSFastWeatherSoap</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>3</rfc>
+		<lcom>3</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>2.0</lcom3>
+		<loc>3</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.serviceobjects.Weather getWeatherByCityState(String, String, String)">1</method>
+			<method name="public abstract com.serviceobjects.Weather getWeatherByIP(String, String)">1</method>
+			<method name="public abstract com.serviceobjects.Weather getWeatherByZip(String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.serviceobjects.GetWeatherByIPResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.serviceobjects.Weather getGetWeatherByIPResult()">1</method>
+			<method name="public void setGetWeatherByIPResult(com.serviceobjects.Weather arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

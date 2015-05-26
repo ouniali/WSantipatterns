@@ -1,0 +1,6 @@
+/**
+ * The Export Technologies CurrencyService is a simple method to get Bank Of England Exchange rates for use within any E-Commerce or other system.  They are live rates. <br/><br/>The Export Technologies CurrencyService currently supports the following major world currencies: <ul><li>AUD (Austrailian Dollars)<li> CAD (canadian Dollars)<li> CHF (Swiss Francs)<li> DKK (Danish Krones)<li> EUR (Euros)<li> HKD (Hong Kong Dollars)<li> JPY (Japanese Yen)<li> NOK (Norwegian Krone)<li> NZD (New Zealand Dollars)<li> SEK (Swedish Krona)<li> SGD (Singapore Dollars)<li> TWD (Taiwan Dollars)<li> USD (US Dollars)<li>  ZAR (South African Rand).</ul> <br/><br/> This is a free WebService.  It may undergo upgrades but will not affect any other the current workings and will always be backward compatible.  It is also on a hosted on a highly available server platform. <br/> <br/> <font color=green><b>We recommend this WebService for serious business use.</b></font><br/><br/> For any further information contact us on <font color=blue>Support@ExportTechnologies.com</font>
+ * 
+ */
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.exporttechnologies.com/webservices/currencyservice/", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+package com.exporttechnologies.webservices.currencyservice;

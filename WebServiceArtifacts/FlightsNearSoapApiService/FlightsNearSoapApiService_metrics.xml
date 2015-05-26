@@ -1,0 +1,1057 @@
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.PositionV2</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3695652173913043</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public String getLastObserved()">1</method>
+			<method name="public String getStationID()">1</method>
+			<method name="public double getLon()">1</method>
+			<method name="public Integer getVrateMps()">1</method>
+			<method name="public void setLastObserved(String arg0)">1</method>
+			<method name="public double getLat()">1</method>
+			<method name="public void setDate(String arg0)">1</method>
+			<method name="public void setAltitudeFt(Integer arg0)">1</method>
+			<method name="public String getPhase()">1</method>
+			<method name="public void setPhase(String arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public void setVrateMps(Integer arg0)">1</method>
+			<method name="public Integer getCourse()">1</method>
+			<method name="public void setCourse(Integer arg0)">1</method>
+			<method name="public Integer getSpeedMph()">1</method>
+			<method name="public void setLon(double arg0)">1</method>
+			<method name="public void setSpeedMph(Integer arg0)">1</method>
+			<method name="public Integer getAltitudeFt()">1</method>
+			<method name="public void setStationID(String arg0)">1</method>
+			<method name="public void setLat(double arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public String getDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setTurboProp(boolean arg0)">1</method>
+			<method name="public boolean isWidebody()">1</method>
+			<method name="public void setWidebody(boolean arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setRegional(boolean arg0)">1</method>
+			<method name="public void setIata(String arg0)">1</method>
+			<method name="public boolean isJet()">1</method>
+			<method name="public void setJet(boolean arg0)">1</method>
+			<method name="public boolean isTurboProp()">1</method>
+			<method name="public String getIata()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public boolean isRegional()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionV2$Positions</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPosition()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearRadiusResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setReturn(com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearRadius arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearRadius getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1</name>
+		<wmc>57</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>58</rfc>
+		<lcom>1540</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>57</npm>
+		<lcom3>0.9821428571428571</lcom3>
+		<loc>284</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24853801169590642</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.491228070175439</amc>
+		<cc>
+			<method name="public String getStreet2()">1</method>
+			<method name="public void setDateTo(String arg0)">1</method>
+			<method name="public void setFs(String arg0)">1</method>
+			<method name="public void setElevationFeet(Integer arg0)">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public String getFaa()">1</method>
+			<method name="public void setDelayIndexUrl(String arg0)">1</method>
+			<method name="public void setDistrict(String arg0)">1</method>
+			<method name="public String getWeatherZone()">1</method>
+			<method name="public String getDelayIndexUrl()">1</method>
+			<method name="public boolean isActive()">1</method>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getDateTo()">1</method>
+			<method name="public void setLongitude(double arg0)">1</method>
+			<method name="public void setRegionName(String arg0)">1</method>
+			<method name="public void setWeatherZone(String arg0)">1</method>
+			<method name="public void setIcao(String arg0)">1</method>
+			<method name="public String getRegionName()">1</method>
+			<method name="public String getIcao()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public String getFs()">1</method>
+			<method name="public String getDistrict()">1</method>
+			<method name="public double getUtcOffsetHours()">1</method>
+			<method name="public String getWeatherUrl()">1</method>
+			<method name="public String getTimeZoneRegionName()">1</method>
+			<method name="public void setWeatherUrl(String arg0)">1</method>
+			<method name="public void setFaa(String arg0)">1</method>
+			<method name="public double getLatitude()">1</method>
+			<method name="public void setUtcOffsetHours(double arg0)">1</method>
+			<method name="public void setStateCode(String arg0)">1</method>
+			<method name="public String getLocalTime()">1</method>
+			<method name="public void setLocalTime(String arg0)">1</method>
+			<method name="public String getStreet1()">1</method>
+			<method name="public String getDateFrom()">1</method>
+			<method name="public void setIata(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public void setTimeZoneRegionName(String arg0)">1</method>
+			<method name="public String getCountryName()">1</method>
+			<method name="public String getCityCode()">1</method>
+			<method name="public String getIata()">1</method>
+			<method name="public String getStateCode()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setDateFrom(String arg0)">1</method>
+			<method name="public void setLatitude(double arg0)">1</method>
+			<method name="public void setCityCode(String arg0)">1</method>
+			<method name="public void setStreet1(String arg0)">1</method>
+			<method name="public void setStreet2(String arg0)">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public Integer getElevationFeet()">1</method>
+			<method name="public int getClassification()">1</method>
+			<method name="public void setCountryName(String arg0)">1</method>
+			<method name="public void setClassification(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCountryCode()">1</method>
+			<method name="public double getLongitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionResponse</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>2</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionResponse$FlightPositions getFlightPositions()">1</method>
+			<method name="public void setFlightPositions(com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionResponse$FlightPositions arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearRadius</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestFlightsNearRadius getRequest()">1</method>
+			<method name="public void setRequest(com.conducivetech.cache.flighthistory.api_internal.v2.RequestFlightsNearRadius arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setInterpreted(String arg0)">1</method>
+			<method name="public String getRequested()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setRequested(String arg0)">1</method>
+			<method name="public String getInterpreted()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearService</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>2</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>2</npm>
+		<lcom3>2.0</lcom3>
+		<loc>2</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.9</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearRadius flightsNearRadius(String, String, double, double, int, Integer, String, String)">1</method>
+			<method name="public abstract com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearBox flightsNearBox(String, String, double, double, double, double, Integer, String, String)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionV2</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2923076923076923</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setTailNumber(String arg0)">1</method>
+			<method name="public Double getHeading()">1</method>
+			<method name="public void setFlightId(Long arg0)">1</method>
+			<method name="public void setHeading(Double arg0)">1</method>
+			<method name="public void setCallsign(String arg0)">1</method>
+			<method name="public String getTailNumber()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionV2$Positions getPositions()">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public Long getFlightId()">1</method>
+			<method name="public void setPositions(com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionV2$Positions arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCallsign()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ResponseImpl</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>1</noc>
+		<cbo>4</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError getError()">1</method>
+			<method name="public void setError(com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices getAppendix()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAppendix(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Equipments</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getEquipment()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49122807017543857</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public boolean isActive()">1</method>
+			<method name="public void setDateTo(String arg0)">1</method>
+			<method name="public void setFs(String arg0)">1</method>
+			<method name="public void setActive(boolean arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public String getDateTo()">1</method>
+			<method name="public String getPhoneNumber()">1</method>
+			<method name="public String getDateFrom()">1</method>
+			<method name="public void setIcao(String arg0)">1</method>
+			<method name="public void setIata(String arg0)">1</method>
+			<method name="public String getIcao()">1</method>
+			<method name="public void setCategory(String arg0)">1</method>
+			<method name="public void setPhoneNumber(String arg0)">1</method>
+			<method name="public String getFs()">1</method>
+			<method name="public String getIata()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public String getCategory()">1</method>
+			<method name="public void setDateFrom(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionResponse$FlightPositions</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getFlightPosition()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearBox</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setLeftLon(double arg0)">1</method>
+			<method name="public void setBottomLat(double arg0)">1</method>
+			<method name="public void setSourceType(String arg0)">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public double getBottomLat()">1</method>
+			<method name="public String getSourceType()">1</method>
+			<method name="public double getLeftLon()">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public double getRightLon()">1</method>
+			<method name="public Integer getMaxFlights()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public double getTopLat()">1</method>
+			<method name="public void setRightLon(double arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTopLat(double arg0)">1</method>
+			<method name="public void setMaxFlights(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ObjectFactory</name>
+		<wmc>42</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>27</cbo>
+		<rfc>69</rfc>
+		<lcom>829</lcom>
+		<ca>0</ca>
+		<ce>27</ce>
+		<npm>41</npm>
+		<lcom3>0.975609756097561</lcom3>
+		<loc>382</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.08689024390243902</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.714285714285714</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearRadius createFlightsNearRadius()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearRadiusResponse createFlightsNearRadiusResponse()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1 createAirlineV1()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger createRequestedInteger()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightsNearRadiusResponse(com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearRadiusResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.PositionV2 createPositionV2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRequest(Object arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionV2 createFlightPositionV2()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createEquipment(com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirline(com.conducivetech.cache.flighthistory.api_internal.v2.AirlineV1 arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearBox createResponseFlightsNearBox()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createResponseimpl(com.conducivetech.cache.flighthistory.api_internal.v2.ResponseImpl arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAppendix(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError createApiResponseError()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAPIException(com.conducivetech.cache.flighthistory.api_internal.v2.APIException arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.APIException createAPIException()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestFlightsNearRadius createRequestFlightsNearRadius()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Equipments createAppendicesEquipments()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightPosition(com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionV2 arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightsNearBox(com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearBox arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices createAppendices()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createApiResponseError(com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearRadius createResponseFlightsNearRadius()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightpositionsresponse(com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 createAirportV1()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionResponse$FlightPositions createFlightPositionResponseFlightPositions()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightPositionV2$Positions createFlightPositionV2Positions()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightsNearBoxResponse(com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearBoxResponse arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airports createAppendicesAirports()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createResponse(Object arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearBoxResponse createFlightsNearBoxResponse()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearBox createFlightsNearBox()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRequestbase(com.conducivetech.cache.flighthistory.api_internal.v2.RequestBase arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.EquipmentV1 createEquipmentV1()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString createRequestedString()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightsNearRadius(com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearRadius arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirport(com.conducivetech.cache.flighthistory.api_internal.v2.AirportV1 arg0)">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble createRequestedDouble()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestFlightsNearBox createRequestFlightsNearBox()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airlines createAppendicesAirlines()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearRadius</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29411764705882354</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getAppId()">1</method>
+			<method name="public void setSourceType(String arg0)">1</method>
+			<method name="public double getLon()">1</method>
+			<method name="public double getLat()">1</method>
+			<method name="public void setExtendedOptions(String arg0)">1</method>
+			<method name="public String getSourceType()">1</method>
+			<method name="public int getMiles()">1</method>
+			<method name="public String getExtendedOptions()">1</method>
+			<method name="public void setLon(double arg0)">1</method>
+			<method name="public Integer getMaxFlights()">1</method>
+			<method name="public void setAppId(String arg0)">1</method>
+			<method name="public String getAppKey()">1</method>
+			<method name="public void setLat(double arg0)">1</method>
+			<method name="public void setMiles(int arg0)">1</method>
+			<method name="public void setAppKey(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMaxFlights(Integer arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.Appendices</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Equipments getEquipments()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airlines getAirlines()">1</method>
+			<method name="public void setAirlines(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airlines arg0)">1</method>
+			<method name="public void setEquipments(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Equipments arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airports getAirports()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAirports(com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airports arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ApiResponseError</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public int getHttpStatusCode()">1</method>
+			<method name="public void setErrorId(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getErrorId()">1</method>
+			<method name="public void setHttpStatusCode(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airports</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAirport()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.APIException</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setErrorCode(String arg0)">1</method>
+			<method name="public String getErrorMessage()">1</method>
+			<method name="public String getErrorCode()">1</method>
+			<method name="public int getHttpStatusCode()">1</method>
+			<method name="public void setErrorId(String arg0)">1</method>
+			<method name="public void setErrorMessage(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getErrorId()">1</method>
+			<method name="public void setHttpStatusCode(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestFlightsNearBox</name>
+		<wmc>13</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>6</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36538461538461536</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setMaxFlights(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble getBottomLatitude()">1</method>
+			<method name="public void setBottomLatitude(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble getRightLongitude()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString getExtendedOptions()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble getTopLatitude()">1</method>
+			<method name="public void setExtendedOptions(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString arg0)">1</method>
+			<method name="public void setRightLongitude(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger getMaxFlights()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble getLeftLongitude()">1</method>
+			<method name="public void setTopLatitude(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble arg0)">1</method>
+			<method name="public void setLeftLongitude(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setInterpreted(Integer arg0)">1</method>
+			<method name="public String getRequested()">1</method>
+			<method name="public Integer getInterpreted()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setRequested(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setError(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestBase</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>2</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUrl()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.APIException_Exception</name>
+		<wmc>3</wmc>
+		<dit>3</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>5</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.0</lcom3>
+		<loc>22</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.9545454545454546</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>6.0</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.APIException getFaultInfo()">1</method>
+			<method name="public void _init_(String arg0, com.conducivetech.cache.flighthistory.api_internal.v2.APIException arg1, Throwable arg2)">0</method>
+			<method name="public void _init_(String arg0, com.conducivetech.cache.flighthistory.api_internal.v2.APIException arg1)">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearSoapApiService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearService getFlightsNearServicePort()">1</method>
+			<method name="public transient com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearService getFlightsNearServicePort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestFlightsNearRadius</name>
+		<wmc>11</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36363636363636365</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setMaxFlights(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger arg0)">1</method>
+			<method name="public void setLatitude(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble getLatitude()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString getExtendedOptions()">1</method>
+			<method name="public void setRadiusMiles(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble getLongitude()">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger getMaxFlights()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setLongitude(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestedInteger getRadiusMiles()">1</method>
+			<method name="public void setExtendedOptions(com.conducivetech.cache.flighthistory.api_internal.v2.RequestedString arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.FlightsNearBoxResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearBox getReturn()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setReturn(com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearBox arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.RequestedDouble</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getRequested()">1</method>
+			<method name="public String getError()">1</method>
+			<method name="public void setRequested(String arg0)">1</method>
+			<method name="public Double getInterpreted()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setInterpreted(Double arg0)">1</method>
+			<method name="public void setError(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.Appendices$Airlines</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAirline()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.conducivetech.cache.flighthistory.api_internal.v2.ResponseFlightsNearBox</name>
+		<wmc>3</wmc>
+		<dit>0</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>2</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRequest(com.conducivetech.cache.flighthistory.api_internal.v2.RequestFlightsNearBox arg0)">1</method>
+			<method name="public com.conducivetech.cache.flighthistory.api_internal.v2.RequestFlightsNearBox getRequest()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

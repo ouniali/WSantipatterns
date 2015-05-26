@@ -1,0 +1,4601 @@
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AllAirlinesRequest</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightRouteStruct</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setLatitude(float arg0)">1</method>
+			<method name="public float getLatitude()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void setLongitude(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getLongitude()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.TailOwnerRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ScheduledResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setScheduledResult(com.flightaware.flightxml.soap.flightxml2.ScheduledStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ScheduledStruct getScheduledResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.LatLongsToHeadingRequest</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setLat1(float arg0)">1</method>
+			<method name="public float getLat1()">1</method>
+			<method name="public float getLat2()">1</method>
+			<method name="public void setLon2(float arg0)">1</method>
+			<method name="public void setLat2(float arg0)">1</method>
+			<method name="public void setLon1(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getLon1()">1</method>
+			<method name="public float getLon2()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.CountAllEnrouteAirlineOperationsResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfCountAirlineOperationsStruct getCountAllEnrouteAirlineOperationsResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCountAllEnrouteAirlineOperationsResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfCountAirlineOperationsStruct arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SearchBirdseyePositionsResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackExStruct getSearchBirdseyePositionsResult()">1</method>
+			<method name="public void setSearchBirdseyePositionsResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackExStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.InboundFlightInfoResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightExStruct getInboundFlightInfoResult()">1</method>
+			<method name="public void setInboundFlightInfoResult(com.flightaware.flightxml.soap.flightxml2.FlightExStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineFlightScheduleStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DepartedResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDepartedResult(com.flightaware.flightxml.soap.flightxml2.DepartureStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DepartureStruct getDepartedResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SearchCountRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getQuery()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfString</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineInsightResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAirlineInsightResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineInsightStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineInsightStruct getAirlineInsightResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DecodeFlightRouteResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDecodeFlightRouteResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfFlightRouteStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfFlightRouteStruct getDecodeFlightRouteResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SetAlertResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public int getSetAlertResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setSetAlertResult(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightInfoExRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.GetAlertsResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetAlertsResult(com.flightaware.flightxml.soap.flightxml2.FlightAlertListing arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightAlertListing getGetAlertsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DecodeRouteResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDecodeRouteResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfFlightRouteStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfFlightRouteStruct getDecodeRouteResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.TafResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getTafResult()">1</method>
+			<method name="public void setTafResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MetarRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setZipcodeInfoResult(com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoStruct getZipcodeInfoResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.NTafRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FleetArrivedResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFleetArrivedResult(com.flightaware.flightxml.soap.flightxml2.ArrivalStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrivalStruct getFleetArrivedResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineInsightStruct</name>
+		<wmc>31</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3709677419354839</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public void setFlightsScheduled(int arg0)">1</method>
+			<method name="public void setLayover(String arg0)">1</method>
+			<method name="public String getCarrier()">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public String getFareMedian()">1</method>
+			<method name="public String getFareMin()">1</method>
+			<method name="public void setTotalMail(int arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public int getTotalPayload()">1</method>
+			<method name="public int getFlightsScheduled()">1</method>
+			<method name="public int getTotalPassengers()">1</method>
+			<method name="public String getOpcarrier()">1</method>
+			<method name="public void setPercent(float arg0)">1</method>
+			<method name="public String getFareMax()">1</method>
+			<method name="public void setTotalPassengers(int arg0)">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void setCarrier(String arg0)">1</method>
+			<method name="public void setFareMin(String arg0)">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+			<method name="public void setFlightsPerformed(int arg0)">1</method>
+			<method name="public void setOpcarrier(String arg0)">1</method>
+			<method name="public int getFlightsPerformed()">1</method>
+			<method name="public void setFareMax(String arg0)">1</method>
+			<method name="public int getTotalMail()">1</method>
+			<method name="public void setTotalPayload(int arg0)">1</method>
+			<method name="public int getTotalSeats()">1</method>
+			<method name="public float getPercent()">1</method>
+			<method name="public void setFareMedian(String arg0)">1</method>
+			<method name="public void setTotalSeats(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getLayover()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExStruct</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public String getRoute()">1</method>
+			<method name="public void setLastDeparturetime(int arg0)">1</method>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public void setRoute(String arg0)">1</method>
+			<method name="public void setFiledAltitudeMin(int arg0)">1</method>
+			<method name="public void setFiledAltitudeMax(int arg0)">1</method>
+			<method name="public int getLastDeparturetime()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getFiledAltitudeMax()">1</method>
+			<method name="public int getFiledAltitudeMin()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MetarResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getMetarResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMetarResult(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackStruct</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DepartureStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getDepartures()">2</method>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.RegisterAlertEndpointResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRegisterAlertEndpointResult(int arg0)">1</method>
+			<method name="public int getRegisterAlertEndpointResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.TrackStruct</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36764705882352944</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public String getAltitudeStatus()">1</method>
+			<method name="public void setLatitude(float arg0)">1</method>
+			<method name="public void setGroundspeed(int arg0)">1</method>
+			<method name="public void setAltitudeChange(String arg0)">1</method>
+			<method name="public String getAltitudeChange()">1</method>
+			<method name="public int getGroundspeed()">1</method>
+			<method name="public void setUpdateType(String arg0)">1</method>
+			<method name="public void setAltitudeStatus(String arg0)">1</method>
+			<method name="public float getLatitude()">1</method>
+			<method name="public void setAltitude(int arg0)">1</method>
+			<method name="public String getUpdateType()">1</method>
+			<method name="public void setTimestamp(int arg0)">1</method>
+			<method name="public int getTimestamp()">1</method>
+			<method name="public void setLongitude(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getLongitude()">1</method>
+			<method name="public int getAltitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.EnrouteStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getEnroute()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.InFlightAircraftStruct</name>
+		<wmc>51</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>52</rfc>
+		<lcom>1225</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>51</npm>
+		<lcom3>0.98</lcom3>
+		<loc>254</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.37254901960784315</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4901960784313726</amc>
+		<cc>
+			<method name="public String getAltitudeStatus()">1</method>
+			<method name="public void setSuffix(String arg0)">1</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public void setAltitudeChange(String arg0)">1</method>
+			<method name="public float getHighLatitude()">1</method>
+			<method name="public String getAltitudeChange()">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setUpdateType(String arg0)">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public void setAltitudeStatus(String arg0)">1</method>
+			<method name="public String getUpdateType()">1</method>
+			<method name="public void setTimestamp(int arg0)">1</method>
+			<method name="public void setLowLongitude(float arg0)">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void setLongitude(float arg0)">1</method>
+			<method name="public void setLowLatitude(float arg0)">1</method>
+			<method name="public void setHighLatitude(float arg0)">1</method>
+			<method name="public float getLongitude()">1</method>
+			<method name="public float getLowLongitude()">1</method>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public int getHeading()">1</method>
+			<method name="public void setWaypoints(String arg0)">1</method>
+			<method name="public void setHeading(int arg0)">1</method>
+			<method name="public void setAltitude(int arg0)">1</method>
+			<method name="public void setFirstPositionTime(int arg0)">1</method>
+			<method name="public int getAltitude()">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setPrefix(String arg0)">1</method>
+			<method name="public float getHighLongitude()">1</method>
+			<method name="public int getDepartureTime()">1</method>
+			<method name="public String getWaypoints()">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public int getGroundspeed()">1</method>
+			<method name="public String getSuffix()">1</method>
+			<method name="public String getTimeout()">1</method>
+			<method name="public void setArrivalTime(int arg0)">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+			<method name="public void setLatitude(float arg0)">1</method>
+			<method name="public void setGroundspeed(int arg0)">1</method>
+			<method name="public void setHighLongitude(float arg0)">1</method>
+			<method name="public void setDepartureTime(int arg0)">1</method>
+			<method name="public int getArrivalTime()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getPrefix()">1</method>
+			<method name="public void setTimeout(String arg0)">1</method>
+			<method name="public float getLatitude()">1</method>
+			<method name="public float getLowLatitude()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public int getFirstPositionTime()">1</method>
+			<method name="public int getTimestamp()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.RegisterAlertEndpointRequest</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getFormatType()">1</method>
+			<method name="public void setAddress(String arg0)">1</method>
+			<method name="public void setFormatType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAddress()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightXML2</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightXML2Soap getFlightXML2Soap()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient com.flightaware.flightxml.soap.flightxml2.FlightXML2Soap getFlightXML2Soap(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MapFlightExResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setMapFlightExResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMapFlightExResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightAlertListing</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public java.util.List getAlerts()">2</method>
+			<method name="public int getNumAlerts()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setNumAlerts(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightExStruct</name>
+		<wmc>41</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>42</rfc>
+		<lcom>780</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>41</npm>
+		<lcom3>0.975</lcom3>
+		<loc>204</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4959349593495935</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4878048780487805</amc>
+		<cc>
+			<method name="public String getFiledEte()">1</method>
+			<method name="public String getRoute()">1</method>
+			<method name="public void setFiledEte(String arg0)">1</method>
+			<method name="public String getFiledAirspeedMach()">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public String getDestinationName()">1</method>
+			<method name="public void setActualdeparturetime(int arg0)">1</method>
+			<method name="public int getFiledTime()">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setFiledDeparturetime(int arg0)">1</method>
+			<method name="public int getFiledDeparturetime()">1</method>
+			<method name="public void setEstimatedarrivaltime(int arg0)">1</method>
+			<method name="public void setRoute(String arg0)">1</method>
+			<method name="public String getOriginCity()">1</method>
+			<method name="public int getFiledAltitude()">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public int getFiledAirspeedKts()">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+			<method name="public void setFiledAirspeedKts(int arg0)">1</method>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public void setOriginCity(String arg0)">1</method>
+			<method name="public void setFiledTime(int arg0)">1</method>
+			<method name="public void setActualarrivaltime(int arg0)">1</method>
+			<method name="public void setDestinationName(String arg0)">1</method>
+			<method name="public String getOriginName()">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public String getDiverted()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public void setDiverted(String arg0)">1</method>
+			<method name="public void setFiledAirspeedMach(String arg0)">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public void setFiledAltitude(int arg0)">1</method>
+			<method name="public void setDestinationCity(String arg0)">1</method>
+			<method name="public int getEstimatedarrivaltime()">1</method>
+			<method name="public String getDestinationCity()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void setOriginName(String arg0)">1</method>
+			<method name="public int getActualdeparturetime()">1</method>
+			<method name="public int getActualarrivaltime()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.TafRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.InFlightStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAircraft()">2</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SearchBirdseyePositionsRequest</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3611111111111111</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public boolean isUniqueFlights()">1</method>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public void setUniqueFlights(boolean arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AllAirportsRequest</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightInfoExResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFlightInfoExResult(com.flightaware.flightxml.soap.flightxml2.FlightInfoExStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightInfoExStruct getFlightInfoExResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SetMaximumResultSizeRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setMaxSize(int arg0)">1</method>
+			<method name="public int getMaxSize()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfCountAirlineOperationsStruct</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightInfoRequest</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DeleteAlertResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setDeleteAlertResult(int arg0)">1</method>
+			<method name="public int getDeleteAlertResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.LatLongsToHeadingResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public int getLatLongsToHeadingResult()">1</method>
+			<method name="public void setLatLongsToHeadingResult(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.TailOwnerStruct</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public String getWebsite()">1</method>
+			<method name="public String getLocation()">1</method>
+			<method name="public String getLocation2()">1</method>
+			<method name="public void setLocation2(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWebsite(String arg0)">1</method>
+			<method name="public String getOwner()">1</method>
+			<method name="public void setOwner(String arg0)">1</method>
+			<method name="public void setLocation(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ScheduledFlightStruct</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setOriginCity(String arg0)">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setDestinationName(String arg0)">1</method>
+			<method name="public String getDestinationName()">1</method>
+			<method name="public String getOriginName()">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public void setFiledDeparturetime(int arg0)">1</method>
+			<method name="public int getFiledDeparturetime()">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public void setDestinationCity(String arg0)">1</method>
+			<method name="public int getEstimatedarrivaltime()">1</method>
+			<method name="public void setEstimatedarrivaltime(int arg0)">1</method>
+			<method name="public String getOriginCity()">1</method>
+			<method name="public String getDestinationCity()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void setOriginName(String arg0)">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.GetAlertsRequest</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.LatLongsToDistanceRequest</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setLat1(float arg0)">1</method>
+			<method name="public float getLat1()">1</method>
+			<method name="public float getLat2()">1</method>
+			<method name="public void setLon2(float arg0)">1</method>
+			<method name="public void setLat2(float arg0)">1</method>
+			<method name="public void setLon1(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getLon1()">1</method>
+			<method name="public float getLon2()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.GetHistoricalTrackRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrivedRequest</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public void setFilter(String arg0)">1</method>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public String getFilter()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MetarExResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfMetarStruct getMetarExResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setMetarExResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfMetarStruct arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.TafStruct</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getTimeString()">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public java.util.List getForecast()">2</method>
+			<method name="public void setTimeString(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsStruct</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.CountAirlineOperationsStruct</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setIcao(String arg0)">1</method>
+			<method name="public String getIcao()">1</method>
+			<method name="public void setEnroute(int arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getEnroute()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.BlockIdentCheckRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AircraftTypeRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirportInfoRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getAirportCode()">1</method>
+			<method name="public void setAirportCode(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineInfoResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirlineInfoResult(com.flightaware.flightxml.soap.flightxml2.AirlineInfoStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineInfoStruct getAirlineInfoResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineInsightStruct</name>
+		<wmc>6</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>11</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>6</npm>
+		<lcom3>0.8666666666666666</lcom3>
+		<loc>37</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.666666666666667</amc>
+		<cc>
+			<method name="public void setEndDate(int arg0)">1</method>
+			<method name="public int getEndDate()">1</method>
+			<method name="public void setStartDate(int arg0)">1</method>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getStartDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirportInfoStruct</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setLatitude(float arg0)">1</method>
+			<method name="public String getTimezone()">1</method>
+			<method name="public void setTimezone(String arg0)">1</method>
+			<method name="public float getLatitude()">1</method>
+			<method name="public String getLocation()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setLongitude(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getLongitude()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+			<method name="public void setLocation(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrivalStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getArrivals()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightAlertChannel</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setEArrival(boolean arg0)">1</method>
+			<method name="public void setMaskSummary(String arg0)">1</method>
+			<method name="public void setEDiverted(boolean arg0)">1</method>
+			<method name="public boolean isEArrival()">1</method>
+			<method name="public boolean isEDiverted()">1</method>
+			<method name="public boolean isEFiled()">1</method>
+			<method name="public int getChannelId()">1</method>
+			<method name="public boolean isECancelled()">1</method>
+			<method name="public void setChannelName(String arg0)">1</method>
+			<method name="public String getMaskSummary()">1</method>
+			<method name="public void setChannelId(int arg0)">1</method>
+			<method name="public void setEFiled(boolean arg0)">1</method>
+			<method name="public void setEDeparture(boolean arg0)">1</method>
+			<method name="public String getChannelName()">1</method>
+			<method name="public String getTargetAddress()">1</method>
+			<method name="public void setECancelled(boolean arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isEDeparture()">1</method>
+			<method name="public void setTargetAddress(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SearchBirdseyeInFlightRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightAlertEntry</name>
+		<wmc>28</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>30</rfc>
+		<lcom>352</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>28</npm>
+		<lcom3>0.9656084656084657</lcom3>
+		<loc>147</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36607142857142855</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.75</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setAlertCreated(int arg0)">1</method>
+			<method name="public void setEnabled(boolean arg0)">1</method>
+			<method name="public void setDateStart(int arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getUserIdent()">1</method>
+			<method name="public boolean isEnabled()">1</method>
+			<method name="public int getDateEnd()">1</method>
+			<method name="public int getAlertChanged()">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void setDateEnd(int arg0)">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+			<method name="public java.util.List getChannels()">2</method>
+			<method name="public void setAlertChanged(int arg0)">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public int getAlertId()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public int getDateStart()">1</method>
+			<method name="public void setUserIdent(String arg0)">1</method>
+			<method name="public int getAlertCreated()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void setAlertId(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightInfoStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getFlights()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineInfoStruct</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7333333333333333</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setCountry(String arg0)">1</method>
+			<method name="public String getPhone()">1</method>
+			<method name="public void setPhone(String arg0)">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void setCallsign(String arg0)">1</method>
+			<method name="public String getShortname()">1</method>
+			<method name="public void setLocation(String arg0)">1</method>
+			<method name="public String getUrl()">1</method>
+			<method name="public void setShortname(String arg0)">1</method>
+			<method name="public String getCountry()">1</method>
+			<method name="public String getLocation()">1</method>
+			<method name="public void setUrl(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCallsign()">1</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.InFlightInfoResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setInFlightInfoResult(com.flightaware.flightxml.soap.flightxml2.InFlightAircraftStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InFlightAircraftStruct getInFlightInfoResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FleetScheduledRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public String getFleet()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFleet(String arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SearchResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchResult(com.flightaware.flightxml.soap.flightxml2.InFlightStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InFlightStruct getSearchResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DeleteAlertRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAlertId(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getAlertId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.GetFlightIDResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getGetFlightIDResult()">1</method>
+			<method name="public void setGetFlightIDResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsRequest</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.GetLastTrackResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGetLastTrackResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackStruct getGetLastTrackResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ObjectFactory</name>
+		<wmc>278</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>138</cbo>
+		<rfc>419</rfc>
+		<lcom>38227</lcom>
+		<ca>0</ca>
+		<ce>138</ce>
+		<npm>277</npm>
+		<lcom3>0.9963898916967509</lcom3>
+		<loc>2904</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.010778380905383996</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.949640287769784</amc>
+		<cc>
+			<method name="public javax.xml.bind.JAXBElement createMetarExResults(com.flightaware.flightxml.soap.flightxml2.MetarExResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.BlockIdentCheckResults createBlockIdentCheckResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInboundFlightInfoRequest(com.flightaware.flightxml.soap.flightxml2.InboundFlightInfoRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MetarStruct createMetarStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTafRequest(com.flightaware.flightxml.soap.flightxml2.TafRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FleetScheduledRequest createFleetScheduledRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineFlightInfoStruct(com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TrackExStruct createTrackExStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZipcodeInfoRequest(com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FleetArrivedResults createFleetArrivedResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDecodeRouteRequest(com.flightaware.flightxml.soap.flightxml2.DecodeRouteRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrivalStruct(com.flightaware.flightxml.soap.flightxml2.ArrivalStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ScheduledFlightStruct createScheduledFlightStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTrackExStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackExStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrivalFlightStruct(com.flightaware.flightxml.soap.flightxml2.ArrivalFlightStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightInfoRequest(com.flightaware.flightxml.soap.flightxml2.FlightInfoRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TailOwnerRequest createTailOwnerRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExRequest createRoutesBetweenAirportsExRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createEnrouteRequest(com.flightaware.flightxml.soap.flightxml2.EnrouteRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createNTafResults(com.flightaware.flightxml.soap.flightxml2.NTafResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSetMaximumResultSizeRequest(com.flightaware.flightxml.soap.flightxml2.SetMaximumResultSizeRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetLastTrackRequest(com.flightaware.flightxml.soap.flightxml2.GetLastTrackRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.GetFlightIDResults createGetFlightIDResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.LatLongsToHeadingRequest createLatLongsToHeadingRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsResults createCountAirportOperationsResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineInsightResults createAirlineInsightResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoResults createAirlineFlightInfoResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ScheduledRequest createScheduledRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MapFlightExResults createMapFlightExResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrivalStruct createArrivalStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MetarResults createMetarResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightRouteStruct createFlightRouteStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfMetarStruct createArrayOfMetarStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDepartureFlightStruct(com.flightaware.flightxml.soap.flightxml2.DepartureFlightStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InFlightAircraftStruct createInFlightAircraftStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineFlightScheduleStruct createAirlineFlightScheduleStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TafRequest createTafRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfFlightRouteStruct createArrayOfFlightRouteStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMetarExRequest(com.flightaware.flightxml.soap.flightxml2.MetarExRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DecodeFlightRouteResults createDecodeFlightRouteResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.CountAirlineOperationsStruct createCountAirlineOperationsStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MapFlightExRequest createMapFlightExRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirportInfoRequest(com.flightaware.flightxml.soap.flightxml2.AirportInfoRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.NTafResults createNTafResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SetMaximumResultSizeRequest createSetMaximumResultSizeRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TafResults createTafResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InFlightInfoResults createInFlightInfoResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMapFlightExRequest(com.flightaware.flightxml.soap.flightxml2.MapFlightExRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrivedRequest createArrivedRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMapFlightRequest(com.flightaware.flightxml.soap.flightxml2.MapFlightRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAllAirlinesRequest(com.flightaware.flightxml.soap.flightxml2.AllAirlinesRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.CountAllEnrouteAirlineOperationsRequest createCountAllEnrouteAirlineOperationsRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ScheduledResults createScheduledResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTailOwnerRequest(com.flightaware.flightxml.soap.flightxml2.TailOwnerRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFlightIDResults(com.flightaware.flightxml.soap.flightxml2.GetFlightIDResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createNTafRequest(com.flightaware.flightxml.soap.flightxml2.NTafRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchResults(com.flightaware.flightxml.soap.flightxml2.SearchResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createScheduledRequest(com.flightaware.flightxml.soap.flightxml2.ScheduledRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AircraftTypeRequest createAircraftTypeRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createEnrouteFlightStruct(com.flightaware.flightxml.soap.flightxml2.EnrouteFlightStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTrackStruct(com.flightaware.flightxml.soap.flightxml2.TrackStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MetarExRequest createMetarExRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDeleteAlertResults(com.flightaware.flightxml.soap.flightxml2.DeleteAlertResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInFlightAircraftStruct(com.flightaware.flightxml.soap.flightxml2.InFlightAircraftStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDecodeFlightRouteRequest(com.flightaware.flightxml.soap.flightxml2.DecodeFlightRouteRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.GetAlertsResults createGetAlertsResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineInsightRequest(com.flightaware.flightxml.soap.flightxml2.AirlineInsightRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTrackExStruct(com.flightaware.flightxml.soap.flightxml2.TrackExStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLatLongsToDistanceRequest(com.flightaware.flightxml.soap.flightxml2.LatLongsToDistanceRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightStruct createFlightStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineFlightScheduleStruct createArrayOfAirlineFlightScheduleStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DeleteAlertRequest createDeleteAlertRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchCountResults(com.flightaware.flightxml.soap.flightxml2.SearchCountResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsRequest createRoutesBetweenAirportsRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.RegisterAlertEndpointResults createRegisterAlertEndpointResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetHistoricalTrackResults(com.flightaware.flightxml.soap.flightxml2.GetHistoricalTrackResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createEnrouteResults(com.flightaware.flightxml.soap.flightxml2.EnrouteResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createScheduledResults(com.flightaware.flightxml.soap.flightxml2.ScheduledResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.GetHistoricalTrackRequest createGetHistoricalTrackRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDecodeFlightRouteResults(com.flightaware.flightxml.soap.flightxml2.DecodeFlightRouteResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTailOwnerStruct(com.flightaware.flightxml.soap.flightxml2.TailOwnerStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.GetLastTrackRequest createGetLastTrackRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFleetArrivedResults(com.flightaware.flightxml.soap.flightxml2.FleetArrivedResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSetAlertResults(com.flightaware.flightxml.soap.flightxml2.SetAlertResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRegisterAlertEndpointResults(com.flightaware.flightxml.soap.flightxml2.RegisterAlertEndpointResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRoutesBetweenAirportsExStruct(com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoRequest createAirlineFlightInfoRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TailOwnerResults createTailOwnerResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.GetLastTrackResults createGetLastTrackResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SearchCountResults createSearchCountResults()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightInfoStruct(com.flightaware.flightxml.soap.flightxml2.FlightInfoStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAircraftTypeRequest(com.flightaware.flightxml.soap.flightxml2.AircraftTypeRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAllAirportsResults(com.flightaware.flightxml.soap.flightxml2.AllAirportsResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMetarRequest(com.flightaware.flightxml.soap.flightxml2.MetarRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AllAirportsRequest createAllAirportsRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineInfoResults(com.flightaware.flightxml.soap.flightxml2.AirlineInfoResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfRoutesBetweenAirportsExStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsExStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createScheduledFlightStruct(com.flightaware.flightxml.soap.flightxml2.ScheduledFlightStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightInfoExResults createFlightInfoExResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrivalFlightStruct createArrivalFlightStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetHistoricalTrackRequest(com.flightaware.flightxml.soap.flightxml2.GetHistoricalTrackRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfMetarStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfMetarStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightExStruct(com.flightaware.flightxml.soap.flightxml2.FlightExStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRoutesBetweenAirportsStruct(com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AllAirportsResults createAllAirportsResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.EnrouteRequest createEnrouteRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineFlightScheduleStruct(com.flightaware.flightxml.soap.flightxml2.AirlineFlightScheduleStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightAlertChannel(com.flightaware.flightxml.soap.flightxml2.FlightAlertChannel arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfString createArrayOfString()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZipcodeInfoStruct(com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SearchRequest createSearchRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightInfoExStruct createFlightInfoExStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLatLongsToHeadingResults(com.flightaware.flightxml.soap.flightxml2.LatLongsToHeadingResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DecodeFlightRouteRequest createDecodeFlightRouteRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfRoutesBetweenAirportsStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoStruct createZipcodeInfoStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLatLongsToDistanceResults(com.flightaware.flightxml.soap.flightxml2.LatLongsToDistanceResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineFlightInfoRequest(com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineFlightSchedulesResults createAirlineFlightSchedulesResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.NTafRequest createNTafRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TailOwnerStruct createTailOwnerStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SearchCountRequest createSearchCountRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DepartureStruct createDepartureStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfAirlineFlightScheduleStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineFlightScheduleStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ScheduledStruct createScheduledStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineInsightStruct(com.flightaware.flightxml.soap.flightxml2.AirlineInsightStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirportInfoStruct(com.flightaware.flightxml.soap.flightxml2.AirportInfoStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchBirdseyeInFlightRequest(com.flightaware.flightxml.soap.flightxml2.SearchBirdseyeInFlightRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DeleteAlertResults createDeleteAlertResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightAlertEntry createFlightAlertEntry()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineInsightStruct createArrayOfAirlineInsightStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirportInfoStruct createAirportInfoStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInFlightStruct(com.flightaware.flightxml.soap.flightxml2.InFlightStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFleetArrivedRequest(com.flightaware.flightxml.soap.flightxml2.FleetArrivedRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineInfoStruct createAirlineInfoStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFleetScheduledRequest(com.flightaware.flightxml.soap.flightxml2.FleetScheduledRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfTrackStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountAirportOperationsResults(com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBlockIdentCheckRequest(com.flightaware.flightxml.soap.flightxml2.BlockIdentCheckRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.GetAlertsRequest createGetAlertsRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TrackStruct createTrackStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoResults createZipcodeInfoResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SearchBirdseyeInFlightResults createSearchBirdseyeInFlightResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTailOwnerResults(com.flightaware.flightxml.soap.flightxml2.TailOwnerResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightInfoResults createFlightInfoResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.LatLongsToHeadingResults createLatLongsToHeadingResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SearchResults createSearchResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAllAirportsRequest(com.flightaware.flightxml.soap.flightxml2.AllAirportsRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AircraftTypeResults createAircraftTypeResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsStruct createCountAirportOperationsStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAircraftTypeResults(com.flightaware.flightxml.soap.flightxml2.AircraftTypeResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfFlightRouteStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfFlightRouteStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DecodeRouteRequest createDecodeRouteRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MetarExResults createMetarExResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSetAlertRequest(com.flightaware.flightxml.soap.flightxml2.SetAlertRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoRequest createZipcodeInfoRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createZipcodeInfoResults(com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirportInfoResults(com.flightaware.flightxml.soap.flightxml2.AirportInfoResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AllAirlinesResults createAllAirlinesResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SetMaximumResultSizeResults createSetMaximumResultSizeResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FleetArrivedRequest createFleetArrivedRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightAlertChannel createFlightAlertChannel()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrivedResults(com.flightaware.flightxml.soap.flightxml2.ArrivedResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackStruct createArrayOfTrackStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightInfoExRequest createFlightInfoExRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createLatLongsToHeadingRequest(com.flightaware.flightxml.soap.flightxml2.LatLongsToHeadingRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountAllEnrouteAirlineOperationsResults(com.flightaware.flightxml.soap.flightxml2.CountAllEnrouteAirlineOperationsResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineInfoRequest createAirlineInfoRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountAirportOperationsStruct(com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightInfoRequest createFlightInfoRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRoutesBetweenAirportsExRequest(com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAlertsRequest(com.flightaware.flightxml.soap.flightxml2.GetAlertsRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MapFlightRequest createMapFlightRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightInfoStruct createFlightInfoStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRegisterAlertEndpointRequest(com.flightaware.flightxml.soap.flightxml2.RegisterAlertEndpointRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineFlightSchedulesResults(com.flightaware.flightxml.soap.flightxml2.AirlineFlightSchedulesResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineFlightSchedulesRequest(com.flightaware.flightxml.soap.flightxml2.AirlineFlightSchedulesRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTafResults(com.flightaware.flightxml.soap.flightxml2.TafResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInFlightInfoResults(com.flightaware.flightxml.soap.flightxml2.InFlightInfoResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMetarStruct(com.flightaware.flightxml.soap.flightxml2.MetarStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfCountAirlineOperationsStruct createArrayOfCountAirlineOperationsStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.EnrouteFlightStruct createEnrouteFlightStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightInfoExRequest(com.flightaware.flightxml.soap.flightxml2.FlightInfoExRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.LatLongsToDistanceResults createLatLongsToDistanceResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineInfoRequest(com.flightaware.flightxml.soap.flightxml2.AirlineInfoRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExResults createRoutesBetweenAirportsExResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightExStruct createFlightExStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfCountAirlineOperationsStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfCountAirlineOperationsStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AllAirlinesRequest createAllAirlinesRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightInfoResults(com.flightaware.flightxml.soap.flightxml2.FlightInfoResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRoutesBetweenAirportsExResults(com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineInsightStruct createAirlineInsightStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDecodeRouteResults(com.flightaware.flightxml.soap.flightxml2.DecodeRouteResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InFlightInfoRequest createInFlightInfoRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchCountRequest(com.flightaware.flightxml.soap.flightxml2.SearchCountRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InFlightStruct createInFlightStruct()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createAircraftTypeStruct(com.flightaware.flightxml.soap.flightxml2.AircraftTypeStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDepartureStruct(com.flightaware.flightxml.soap.flightxml2.DepartureStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InboundFlightInfoRequest createInboundFlightInfoRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMapFlightExResults(com.flightaware.flightxml.soap.flightxml2.MapFlightExResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightAlertEntry(com.flightaware.flightxml.soap.flightxml2.FlightAlertEntry arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SearchBirdseyePositionsResults createSearchBirdseyePositionsResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SearchBirdseyeInFlightRequest createSearchBirdseyeInFlightRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRoutesBetweenAirportsRequest(com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchBirdseyeInFlightResults(com.flightaware.flightxml.soap.flightxml2.SearchBirdseyeInFlightResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineFlightSchedulesRequest createAirlineFlightSchedulesRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.LatLongsToDistanceRequest createLatLongsToDistanceRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetFlightIDRequest(com.flightaware.flightxml.soap.flightxml2.GetFlightIDRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsStruct createRoutesBetweenAirportsStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightRouteStruct(com.flightaware.flightxml.soap.flightxml2.FlightRouteStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineInsightRequest createAirlineInsightRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.EnrouteStruct createEnrouteStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDeleteAlertRequest(com.flightaware.flightxml.soap.flightxml2.DeleteAlertRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.GetHistoricalTrackResults createGetHistoricalTrackResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountAirportOperationsRequest(com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsStruct createArrayOfRoutesBetweenAirportsStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoStruct createAirlineFlightInfoStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountAirlineOperationsStruct(com.flightaware.flightxml.soap.flightxml2.CountAirlineOperationsStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightInfoExStruct(com.flightaware.flightxml.soap.flightxml2.FlightInfoExStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightAlertListing(com.flightaware.flightxml.soap.flightxml2.FlightAlertListing arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMetarResults(com.flightaware.flightxml.soap.flightxml2.MetarResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MapFlightResults createMapFlightResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetLastTrackResults(com.flightaware.flightxml.soap.flightxml2.GetLastTrackResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsResults createRoutesBetweenAirportsResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SetAlertRequest createSetAlertRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsRequest createCountAirportOperationsRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AircraftTypeStruct createAircraftTypeStruct()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineInfoStruct(com.flightaware.flightxml.soap.flightxml2.AirlineInfoStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDepartedResults(com.flightaware.flightxml.soap.flightxml2.DepartedResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.RegisterAlertEndpointRequest createRegisterAlertEndpointRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createGetAlertsResults(com.flightaware.flightxml.soap.flightxml2.GetAlertsResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.EnrouteResults createEnrouteResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightStruct(com.flightaware.flightxml.soap.flightxml2.FlightStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineFlightInfoResults(com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InboundFlightInfoResults createInboundFlightInfoResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createBlockIdentCheckResults(com.flightaware.flightxml.soap.flightxml2.BlockIdentCheckResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAllAirlinesResults(com.flightaware.flightxml.soap.flightxml2.AllAirlinesResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirportInfoRequest createAirportInfoRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrivedRequest(com.flightaware.flightxml.soap.flightxml2.ArrivedRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createCountAllEnrouteAirlineOperationsRequest(com.flightaware.flightxml.soap.flightxml2.CountAllEnrouteAirlineOperationsRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createDepartedRequest(com.flightaware.flightxml.soap.flightxml2.DepartedRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createEnrouteStruct(com.flightaware.flightxml.soap.flightxml2.EnrouteStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchRequest(com.flightaware.flightxml.soap.flightxml2.SearchRequest arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createMapFlightResults(com.flightaware.flightxml.soap.flightxml2.MapFlightResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FleetScheduledResults createFleetScheduledResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createAirlineInsightResults(com.flightaware.flightxml.soap.flightxml2.AirlineInsightResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrivedResults createArrivedResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchBirdseyePositionsResults(com.flightaware.flightxml.soap.flightxml2.SearchBirdseyePositionsResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirportInfoResults createAirportInfoResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineInfoResults createAirlineInfoResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createRoutesBetweenAirportsResults(com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSetMaximumResultSizeResults(com.flightaware.flightxml.soap.flightxml2.SetMaximumResultSizeResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DepartedResults createDepartedResults()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TafStruct createTafStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DepartedRequest createDepartedRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createScheduledStruct(com.flightaware.flightxml.soap.flightxml2.ScheduledStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfAirlineInsightStruct(com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineInsightStruct arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInboundFlightInfoResults(com.flightaware.flightxml.soap.flightxml2.InboundFlightInfoResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.MetarRequest createMetarRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFleetScheduledResults(com.flightaware.flightxml.soap.flightxml2.FleetScheduledResults arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createInFlightInfoRequest(com.flightaware.flightxml.soap.flightxml2.InFlightInfoRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.GetFlightIDRequest createGetFlightIDRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExStruct createRoutesBetweenAirportsExStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.BlockIdentCheckRequest createBlockIdentCheckRequest()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.CountAllEnrouteAirlineOperationsResults createCountAllEnrouteAirlineOperationsResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createFlightInfoExResults(com.flightaware.flightxml.soap.flightxml2.FlightInfoExResults arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DecodeRouteResults createDecodeRouteResults()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSearchBirdseyePositionsRequest(com.flightaware.flightxml.soap.flightxml2.SearchBirdseyePositionsRequest arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.DepartureFlightStruct createDepartureFlightStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackExStruct createArrayOfTrackExStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsExStruct createArrayOfRoutesBetweenAirportsExStruct()">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SearchBirdseyePositionsRequest createSearchBirdseyePositionsRequest()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createTafStruct(com.flightaware.flightxml.soap.flightxml2.TafStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightAlertListing createFlightAlertListing()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createArrayOfString(com.flightaware.flightxml.soap.flightxml2.ArrayOfString arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.SetAlertResults createSetAlertResults()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsStruct</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getRoute()">1</method>
+			<method name="public void setFiledAltitude(int arg0)">1</method>
+			<method name="public int getCount()">1</method>
+			<method name="public void setCount(int arg0)">1</method>
+			<method name="public void setRoute(String arg0)">1</method>
+			<method name="public int getFiledAltitude()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.GetHistoricalTrackResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackStruct getGetHistoricalTrackResult()">1</method>
+			<method name="public void setGetHistoricalTrackResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsStruct getCountAirportOperationsResult()">1</method>
+			<method name="public void setCountAirportOperationsResult(com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsExStruct getRoutesBetweenAirportsExResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setRoutesBetweenAirportsExResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsExStruct arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrivalFlightStruct</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setOriginCity(String arg0)">1</method>
+			<method name="public void setActualarrivaltime(int arg0)">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setDestinationName(String arg0)">1</method>
+			<method name="public String getDestinationName()">1</method>
+			<method name="public String getOriginName()">1</method>
+			<method name="public void setActualdeparturetime(int arg0)">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public void setDestinationCity(String arg0)">1</method>
+			<method name="public String getOriginCity()">1</method>
+			<method name="public String getDestinationCity()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void setOriginName(String arg0)">1</method>
+			<method name="public int getActualdeparturetime()">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public int getActualarrivaltime()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.NTafResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TafStruct getNTafResult()">1</method>
+			<method name="public void setNTafResult(com.flightaware.flightxml.soap.flightxml2.TafStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.LatLongsToDistanceResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setLatLongsToDistanceResult(int arg0)">1</method>
+			<method name="public int getLatLongsToDistanceResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MapFlightRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setMapHeight(int arg0)">1</method>
+			<method name="public int getMapHeight()">1</method>
+			<method name="public int getMapWidth()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public void setMapWidth(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SearchCountResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchCountResult(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getSearchCountResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DepartedRequest</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public void setFilter(String arg0)">1</method>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public String getFilter()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.EnrouteFlightStruct</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4927536231884058</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public void setOriginCity(String arg0)">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setDestinationName(String arg0)">1</method>
+			<method name="public String getDestinationName()">1</method>
+			<method name="public String getOriginName()">1</method>
+			<method name="public void setActualdeparturetime(int arg0)">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public void setFiledDeparturetime(int arg0)">1</method>
+			<method name="public int getFiledDeparturetime()">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public void setDestinationCity(String arg0)">1</method>
+			<method name="public int getEstimatedarrivaltime()">1</method>
+			<method name="public void setEstimatedarrivaltime(int arg0)">1</method>
+			<method name="public String getOriginCity()">1</method>
+			<method name="public String getDestinationCity()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void setOriginName(String arg0)">1</method>
+			<method name="public int getActualdeparturetime()">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineFlightSchedulesResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirlineFlightSchedulesResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineFlightScheduleStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfAirlineFlightScheduleStruct getAirlineFlightSchedulesResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.CountAllEnrouteAirlineOperationsRequest</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>2</rfc>
+		<lcom>0</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>4</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MapFlightResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setMapFlightResult(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMapFlightResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineFlightSchedulesRequest</name>
+		<wmc>17</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>120</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>17</npm>
+		<lcom3>0.9375</lcom3>
+		<loc>84</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49019607843137253</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4705882352941178</amc>
+		<cc>
+			<method name="public void setEndDate(int arg0)">1</method>
+			<method name="public String getAirline()">1</method>
+			<method name="public int getEndDate()">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public int getStartDate()">1</method>
+			<method name="public void setFlightno(String arg0)">1</method>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public void setStartDate(int arg0)">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public String getFlightno()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAirline(String arg0)">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsStruct</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7222222222222222</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public int getScheduledDepartures()">1</method>
+			<method name="public void setScheduledDepartures(int arg0)">1</method>
+			<method name="public int getScheduledArrivals()">1</method>
+			<method name="public void setEnroute(int arg0)">1</method>
+			<method name="public void setScheduledArrivals(int arg0)">1</method>
+			<method name="public void setDeparted(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getEnroute()">1</method>
+			<method name="public int getDeparted()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.EnrouteResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.EnrouteStruct getEnrouteResult()">1</method>
+			<method name="public void setEnrouteResult(com.flightaware.flightxml.soap.flightxml2.EnrouteStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setZipcode(String arg0)">1</method>
+			<method name="public String getZipcode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfFlightRouteStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DepartureFlightStruct</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4927536231884058</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public void setOriginCity(String arg0)">1</method>
+			<method name="public void setActualarrivaltime(int arg0)">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setDestinationName(String arg0)">1</method>
+			<method name="public String getDestinationName()">1</method>
+			<method name="public String getOriginName()">1</method>
+			<method name="public void setActualdeparturetime(int arg0)">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public void setDestinationCity(String arg0)">1</method>
+			<method name="public int getEstimatedarrivaltime()">1</method>
+			<method name="public void setEstimatedarrivaltime(int arg0)">1</method>
+			<method name="public String getOriginCity()">1</method>
+			<method name="public String getDestinationCity()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void setOriginName(String arg0)">1</method>
+			<method name="public int getActualdeparturetime()">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public int getActualarrivaltime()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MapFlightExRequest</name>
+		<wmc>16</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>18</rfc>
+		<lcom>108</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>16</npm>
+		<lcom3>0.9555555555555556</lcom3>
+		<loc>103</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.34375</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.875</amc>
+		<cc>
+			<method name="public void setAirportsExpandView(boolean arg0)">1</method>
+			<method name="public void setMapHeight(int arg0)">1</method>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public java.util.List getLayerOn()">2</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public int getMapHeight()">1</method>
+			<method name="public int getMapWidth()">1</method>
+			<method name="public void setShowDataBlocks(boolean arg0)">1</method>
+			<method name="public java.util.List getLatlonBox()">2</method>
+			<method name="public boolean isShowAirports()">1</method>
+			<method name="public boolean isAirportsExpandView()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public boolean isShowDataBlocks()">1</method>
+			<method name="public java.util.List getLayerOff()">2</method>
+			<method name="public void setMapWidth(int arg0)">1</method>
+			<method name="public void setShowAirports(boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExRequest</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setMaxDepartureAge(String arg0)">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public String getMaxFileAge()">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void setMaxFileAge(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getMaxDepartureAge()">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.EnrouteRequest</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public void setFilter(String arg0)">1</method>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public String getFilter()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FleetScheduledResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFleetScheduledResult(com.flightaware.flightxml.soap.flightxml2.ScheduledStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ScheduledStruct getFleetScheduledResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.TrackExStruct</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public String getAltitudeStatus()">1</method>
+			<method name="public void setLatitude(float arg0)">1</method>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public void setGroundspeed(int arg0)">1</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public void setAltitudeChange(String arg0)">1</method>
+			<method name="public String getAltitudeChange()">1</method>
+			<method name="public int getGroundspeed()">1</method>
+			<method name="public void setUpdateType(String arg0)">1</method>
+			<method name="public void setAltitudeStatus(String arg0)">1</method>
+			<method name="public float getLatitude()">1</method>
+			<method name="public void setAltitude(int arg0)">1</method>
+			<method name="public String getUpdateType()">1</method>
+			<method name="public void setTimestamp(int arg0)">1</method>
+			<method name="public int getTimestamp()">1</method>
+			<method name="public void setLongitude(float arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getLongitude()">1</method>
+			<method name="public int getAltitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.TailOwnerResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setTailOwnerResult(com.flightaware.flightxml.soap.flightxml2.TailOwnerStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.TailOwnerStruct getTailOwnerResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoStruct getAirlineFlightInfoResult()">1</method>
+			<method name="public void setAirlineFlightInfoResult(com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ScheduledRequest</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public void setFilter(String arg0)">1</method>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public String getFilter()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DecodeFlightRouteRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.GetFlightIDRequest</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public int getDepartureTime()">1</method>
+			<method name="public void setDepartureTime(int arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FleetArrivedRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public String getFleet()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFleet(String arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AircraftTypeStruct</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getDescription()">1</method>
+			<method name="public void setDescription(String arg0)">1</method>
+			<method name="public void setManufacturer(String arg0)">1</method>
+			<method name="public void setType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getType()">1</method>
+			<method name="public String getManufacturer()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MetarStruct</name>
+		<wmc>33</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>34</rfc>
+		<lcom>496</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>33</npm>
+		<lcom3>0.96875</lcom3>
+		<loc>164</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3712121212121212</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.484848484848485</amc>
+		<cc>
+			<method name="public float getVisibility()">1</method>
+			<method name="public String getWindFriendly()">1</method>
+			<method name="public void setRawData(String arg0)">1</method>
+			<method name="public void setWindFriendly(String arg0)">1</method>
+			<method name="public int getWindSpeed()">1</method>
+			<method name="public int getTempRelhum()">1</method>
+			<method name="public void setWindDirection(int arg0)">1</method>
+			<method name="public void setPressure(float arg0)">1</method>
+			<method name="public void setVisibility(float arg0)">1</method>
+			<method name="public int getTempAir()">1</method>
+			<method name="public void setTempDewpoint(int arg0)">1</method>
+			<method name="public int getCloudAltitude()">1</method>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public String getConditions()">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setCloudAltitude(int arg0)">1</method>
+			<method name="public void setCloudType(String arg0)">1</method>
+			<method name="public String getCloudType()">1</method>
+			<method name="public int getTime()">1</method>
+			<method name="public int getTempDewpoint()">1</method>
+			<method name="public String getRawData()">1</method>
+			<method name="public void setWindSpeed(int arg0)">1</method>
+			<method name="public String getCloudFriendly()">1</method>
+			<method name="public void setTempAir(int arg0)">1</method>
+			<method name="public float getPressure()">1</method>
+			<method name="public int getWindSpeedGust()">1</method>
+			<method name="public void setCloudFriendly(String arg0)">1</method>
+			<method name="public void setTime(int arg0)">1</method>
+			<method name="public void setConditions(String arg0)">1</method>
+			<method name="public void setWindSpeedGust(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getWindDirection()">1</method>
+			<method name="public void setTempRelhum(int arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightXML2Soap</name>
+		<wmc>47</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>95</cbo>
+		<rfc>47</rfc>
+		<lcom>1081</lcom>
+		<ca>1</ca>
+		<ce>94</ce>
+		<npm>47</npm>
+		<lcom3>2.0</lcom3>
+		<loc>47</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.041666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoResults zipcodeInfo(com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.AirlineFlightSchedulesResults airlineFlightSchedules(com.flightaware.flightxml.soap.flightxml2.AirlineFlightSchedulesRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsResults countAirportOperations(com.flightaware.flightxml.soap.flightxml2.CountAirportOperationsRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.FlightInfoExResults flightInfoEx(com.flightaware.flightxml.soap.flightxml2.FlightInfoExRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.TailOwnerResults tailOwner(com.flightaware.flightxml.soap.flightxml2.TailOwnerRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.DecodeFlightRouteResults decodeFlightRoute(com.flightaware.flightxml.soap.flightxml2.DecodeFlightRouteRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.SetMaximumResultSizeResults setMaximumResultSize(com.flightaware.flightxml.soap.flightxml2.SetMaximumResultSizeRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.AircraftTypeResults aircraftType(com.flightaware.flightxml.soap.flightxml2.AircraftTypeRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.ArrivedResults arrived(com.flightaware.flightxml.soap.flightxml2.ArrivedRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExResults routesBetweenAirportsEx(com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsExRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.FleetArrivedResults fleetArrived(com.flightaware.flightxml.soap.flightxml2.FleetArrivedRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.SearchCountResults searchCount(com.flightaware.flightxml.soap.flightxml2.SearchCountRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.FlightInfoResults flightInfo(com.flightaware.flightxml.soap.flightxml2.FlightInfoRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.GetFlightIDResults getFlightID(com.flightaware.flightxml.soap.flightxml2.GetFlightIDRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.RegisterAlertEndpointResults registerAlertEndpoint(com.flightaware.flightxml.soap.flightxml2.RegisterAlertEndpointRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.GetHistoricalTrackResults getHistoricalTrack(com.flightaware.flightxml.soap.flightxml2.GetHistoricalTrackRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.DepartedResults departed(com.flightaware.flightxml.soap.flightxml2.DepartedRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.EnrouteResults enroute(com.flightaware.flightxml.soap.flightxml2.EnrouteRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.CountAllEnrouteAirlineOperationsResults countAllEnrouteAirlineOperations(com.flightaware.flightxml.soap.flightxml2.CountAllEnrouteAirlineOperationsRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.MapFlightExResults mapFlightEx(com.flightaware.flightxml.soap.flightxml2.MapFlightExRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.MetarResults metar(com.flightaware.flightxml.soap.flightxml2.MetarRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.AirportInfoResults airportInfo(com.flightaware.flightxml.soap.flightxml2.AirportInfoRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.AirlineInsightResults airlineInsight(com.flightaware.flightxml.soap.flightxml2.AirlineInsightRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.AirlineInfoResults airlineInfo(com.flightaware.flightxml.soap.flightxml2.AirlineInfoRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.BlockIdentCheckResults blockIdentCheck(com.flightaware.flightxml.soap.flightxml2.BlockIdentCheckRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.FleetScheduledResults fleetScheduled(com.flightaware.flightxml.soap.flightxml2.FleetScheduledRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.GetLastTrackResults getLastTrack(com.flightaware.flightxml.soap.flightxml2.GetLastTrackRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.NTafResults nTaf(com.flightaware.flightxml.soap.flightxml2.NTafRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.GetAlertsResults getAlerts(com.flightaware.flightxml.soap.flightxml2.GetAlertsRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoResults airlineFlightInfo(com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.AllAirlinesResults allAirlines(com.flightaware.flightxml.soap.flightxml2.AllAirlinesRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.InFlightInfoResults inFlightInfo(com.flightaware.flightxml.soap.flightxml2.InFlightInfoRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsResults routesBetweenAirports(com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.ScheduledResults scheduled(com.flightaware.flightxml.soap.flightxml2.ScheduledRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.SearchBirdseyeInFlightResults searchBirdseyeInFlight(com.flightaware.flightxml.soap.flightxml2.SearchBirdseyeInFlightRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.DecodeRouteResults decodeRoute(com.flightaware.flightxml.soap.flightxml2.DecodeRouteRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.TafResults taf(com.flightaware.flightxml.soap.flightxml2.TafRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.AllAirportsResults allAirports(com.flightaware.flightxml.soap.flightxml2.AllAirportsRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.LatLongsToDistanceResults latLongsToDistance(com.flightaware.flightxml.soap.flightxml2.LatLongsToDistanceRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.LatLongsToHeadingResults latLongsToHeading(com.flightaware.flightxml.soap.flightxml2.LatLongsToHeadingRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.MetarExResults metarEx(com.flightaware.flightxml.soap.flightxml2.MetarExRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.SearchResults search(com.flightaware.flightxml.soap.flightxml2.SearchRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.SearchBirdseyePositionsResults searchBirdseyePositions(com.flightaware.flightxml.soap.flightxml2.SearchBirdseyePositionsRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.SetAlertResults setAlert(com.flightaware.flightxml.soap.flightxml2.SetAlertRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.DeleteAlertResults deleteAlert(com.flightaware.flightxml.soap.flightxml2.DeleteAlertRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.InboundFlightInfoResults inboundFlightInfo(com.flightaware.flightxml.soap.flightxml2.InboundFlightInfoRequest)">1</method>
+			<method name="public abstract com.flightaware.flightxml.soap.flightxml2.MapFlightResults mapFlight(com.flightaware.flightxml.soap.flightxml2.MapFlightRequest)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SetAlertRequest</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36904761904761907</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setChannels(String arg0)">1</method>
+			<method name="public void setEnabled(boolean arg0)">1</method>
+			<method name="public void setDateStart(int arg0)">1</method>
+			<method name="public String getChannels()">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public int getAlertId()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public boolean isEnabled()">1</method>
+			<method name="public int getDateEnd()">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public int getDateStart()">1</method>
+			<method name="public void setMaxWeekly(int arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public int getMaxWeekly()">1</method>
+			<method name="public void setAlertId(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDateEnd(int arg0)">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineInsightRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void setReportType(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public int getReportType()">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsExStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.BlockIdentCheckResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setBlockIdentCheckResult(int arg0)">1</method>
+			<method name="public int getBlockIdentCheckResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.DecodeRouteRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public String getRoute()">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setRoute(String arg0)">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineFlightScheduleStruct</name>
+		<wmc>23</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>24</rfc>
+		<lcom>231</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>23</npm>
+		<lcom3>0.9545454545454546</lcom3>
+		<loc>114</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4927536231884058</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4782608695652173</amc>
+		<cc>
+			<method name="public void setActualIdent(String arg0)">1</method>
+			<method name="public void setMealService(String arg0)">1</method>
+			<method name="public void setArrivaltime(int arg0)">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public void setSeatsCabinCoach(int arg0)">1</method>
+			<method name="public int getSeatsCabinCoach()">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public void setDeparturetime(int arg0)">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setSeatsCabinFirst(int arg0)">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getMealService()">1</method>
+			<method name="public int getSeatsCabinFirst()">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public void setSeatsCabinBusiness(int arg0)">1</method>
+			<method name="public int getArrivaltime()">1</method>
+			<method name="public int getSeatsCabinBusiness()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public String getActualIdent()">1</method>
+			<method name="public int getDeparturetime()">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setDestination(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AllAirlinesResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfString getAllAirlinesResult()">1</method>
+			<method name="public void setAllAirlinesResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfString arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfMetarStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getMetar()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineFlightInfoStruct</name>
+		<wmc>26</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>28</rfc>
+		<lcom>301</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>26</npm>
+		<lcom3>0.963076923076923</lcom3>
+		<loc>137</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.769230769230769</amc>
+		<cc>
+			<method name="public java.util.List getCodeshares()">2</method>
+			<method name="public String getTerminalOrig()">1</method>
+			<method name="public void setSeatsCabinCoach(int arg0)">1</method>
+			<method name="public void setGateOrig(String arg0)">1</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public int getSeatsCabinCoach()">1</method>
+			<method name="public void setTailnumber(String arg0)">1</method>
+			<method name="public String getMealService()">1</method>
+			<method name="public void setTerminalOrig(String arg0)">1</method>
+			<method name="public void setSeatsCabinBusiness(int arg0)">1</method>
+			<method name="public int getSeatsCabinBusiness()">1</method>
+			<method name="public String getTerminalDest()">1</method>
+			<method name="public String getTailnumber()">1</method>
+			<method name="public void setBagClaim(String arg0)">1</method>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public void setMealService(String arg0)">1</method>
+			<method name="public String getBagClaim()">1</method>
+			<method name="public void setGateDest(String arg0)">1</method>
+			<method name="public void setSeatsCabinFirst(int arg0)">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public String getGateDest()">1</method>
+			<method name="public int getSeatsCabinFirst()">1</method>
+			<method name="public String getGateOrig()">1</method>
+			<method name="public void setTerminalDest(String arg0)">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrivedResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setArrivedResult(com.flightaware.flightxml.soap.flightxml2.ArrivalStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrivalStruct getArrivedResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.MetarExRequest</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAirport(String arg0)">1</method>
+			<method name="public void setStartTime(int arg0)">1</method>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public String getAirport()">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public int getStartTime()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SearchBirdseyeInFlightResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSearchBirdseyeInFlightResult(com.flightaware.flightxml.soap.flightxml2.InFlightStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.InFlightStruct getSearchBirdseyeInFlightResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.GetLastTrackRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.InboundFlightInfoRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setFaFlightID(String arg0)">1</method>
+			<method name="public String getFaFlightID()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ZipcodeInfoStruct</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48484848484848486</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public void setLatitude(float arg0)">1</method>
+			<method name="public float getLatitude()">1</method>
+			<method name="public void setState(String arg0)">1</method>
+			<method name="public void setCity(String arg0)">1</method>
+			<method name="public String getCounty()">1</method>
+			<method name="public String getState()">1</method>
+			<method name="public String getCity()">1</method>
+			<method name="public void setLongitude(float arg0)">1</method>
+			<method name="public void setCounty(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public float getLongitude()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirlineInfoRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAirlineCode(String arg0)">1</method>
+			<method name="public String getAirlineCode()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SetMaximumResultSizeResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setSetMaximumResultSizeResult(int arg0)">1</method>
+			<method name="public int getSetMaximumResultSizeResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightInfoResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.FlightInfoStruct getFlightInfoResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setFlightInfoResult(com.flightaware.flightxml.soap.flightxml2.FlightInfoStruct arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AllAirportsResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAllAirportsResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfString arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfString getAllAirportsResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ScheduledStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getScheduled()">2</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.RoutesBetweenAirportsResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setRoutesBetweenAirportsResult(com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsStruct arg0)">1</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.ArrayOfRoutesBetweenAirportsStruct getRoutesBetweenAirportsResult()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.ArrayOfTrackExStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getData()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.InFlightInfoRequest</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getIdent()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setIdent(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AircraftTypeResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setAircraftTypeResult(com.flightaware.flightxml.soap.flightxml2.AircraftTypeStruct arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AircraftTypeStruct getAircraftTypeResult()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.AirportInfoResults</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public com.flightaware.flightxml.soap.flightxml2.AirportInfoStruct getAirportInfoResult()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAirportInfoResult(com.flightaware.flightxml.soap.flightxml2.AirportInfoStruct arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.SearchRequest</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.47619047619047616</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setHowMany(int arg0)">1</method>
+			<method name="public void setOffset(int arg0)">1</method>
+			<method name="public String getQuery()">1</method>
+			<method name="public int getOffset()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setQuery(String arg0)">1</method>
+			<method name="public int getHowMany()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightInfoExStruct</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public void setNextOffset(int arg0)">1</method>
+			<method name="public java.util.List getFlights()">2</method>
+			<method name="public void _init_()">0</method>
+			<method name="public int getNextOffset()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>com.flightaware.flightxml.soap.flightxml2.FlightStruct</name>
+		<wmc>39</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>40</rfc>
+		<lcom>703</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>39</npm>
+		<lcom3>0.9736842105263158</lcom3>
+		<loc>194</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49572649572649574</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4871794871794872</amc>
+		<cc>
+			<method name="public String getFiledEte()">1</method>
+			<method name="public String getRoute()">1</method>
+			<method name="public void setFiledEte(String arg0)">1</method>
+			<method name="public String getFiledAirspeedMach()">1</method>
+			<method name="public void setOrigin(String arg0)">1</method>
+			<method name="public String getDestinationName()">1</method>
+			<method name="public void setActualdeparturetime(int arg0)">1</method>
+			<method name="public int getFiledTime()">1</method>
+			<method name="public String getDestination()">1</method>
+			<method name="public void setFiledDeparturetime(int arg0)">1</method>
+			<method name="public int getFiledDeparturetime()">1</method>
+			<method name="public void setEstimatedarrivaltime(int arg0)">1</method>
+			<method name="public void setRoute(String arg0)">1</method>
+			<method name="public String getOriginCity()">1</method>
+			<method name="public int getFiledAltitude()">1</method>
+			<method name="public String getOrigin()">1</method>
+			<method name="public int getFiledAirspeedKts()">1</method>
+			<method name="public void setDestination(String arg0)">1</method>
+			<method name="public void setFiledAirspeedKts(int arg0)">1</method>
+			<method name="public void setOriginCity(String arg0)">1</method>
+			<method name="public void setFiledTime(int arg0)">1</method>
+			<method name="public void setActualarrivaltime(int arg0)">1</method>
+			<method name="public void setDestinationName(String arg0)">1</method>
+			<method name="public String getOriginName()">1</method>
+			<method name="public void setAircrafttype(String arg0)">1</method>
+			<method name="public String getDiverted()">1</method>
+			<method name="public void setIdent(String arg0)">1</method>
+			<method name="public void setDiverted(String arg0)">1</method>
+			<method name="public void setFiledAirspeedMach(String arg0)">1</method>
+			<method name="public String getAircrafttype()">1</method>
+			<method name="public void setFiledAltitude(int arg0)">1</method>
+			<method name="public void setDestinationCity(String arg0)">1</method>
+			<method name="public int getEstimatedarrivaltime()">1</method>
+			<method name="public String getDestinationCity()">1</method>
+			<method name="public String getIdent()">1</method>
+			<method name="public void setOriginName(String arg0)">1</method>
+			<method name="public int getActualdeparturetime()">1</method>
+			<method name="public int getActualarrivaltime()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>

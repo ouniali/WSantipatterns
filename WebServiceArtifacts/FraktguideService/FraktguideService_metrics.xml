@@ -1,0 +1,2007 @@
+	<class>
+		<name>no.bring.logistics.shippingguide._1.QuickpackSpecificEdiParametersType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.UpsSpecificEdiParametersType getUpsSpecificEdiParameters()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setUpsSpecificEdiParameters(no.bring.logistics.shippingguide._1.UpsSpecificEdiParametersType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.RequestPropertiesType</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49206349206349204</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public String getLanguage()">1</method>
+			<method name="public Boolean isEDI()">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public String getNumberOfAlternativeDeliveryDates()">1</method>
+			<method name="public Boolean isPostingAtPostoffice()">1</method>
+			<method name="public void setWithPackageDetails(Boolean arg0)">1</method>
+			<method name="public Boolean isWithExpectedDelivery()">1</method>
+			<method name="public void setNumberOfAlternativeDeliveryDates(String arg0)">1</method>
+			<method name="public void setSchemaVersion(String arg0)">1</method>
+			<method name="public void setWithPrice(Boolean arg0)">1</method>
+			<method name="public void setWithGuiInformation(Boolean arg0)">1</method>
+			<method name="public void setPostingAtPostoffice(Boolean arg0)">1</method>
+			<method name="public Boolean isWithGuiInformation()">1</method>
+			<method name="public void setTrace(Boolean arg0)">1</method>
+			<method name="public Boolean isTrace()">1</method>
+			<method name="public Boolean isWithPrice()">1</method>
+			<method name="public Boolean isWithPackageDetails()">1</method>
+			<method name="public String getSchemaVersion()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWithExpectedDelivery(Boolean arg0)">1</method>
+			<method name="public void setEDI(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflinePriceType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setWeight(String arg0)">1</method>
+			<method name="public void setPriceZone(String arg0)">1</method>
+			<method name="public String getWeight()">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getPriceZone()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.TimeSlotsType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getTimeSlot()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflinePriceZoneType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getToPostalCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setToPostalCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.FraktguideService</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient no.bring.logistics.shippingguide._1.Fraktguide getFraktguideSoap11(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.Fraktguide getFraktguideSoap11()">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ConsignmentOutputType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getProduct()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.DateAndTimeType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>5</ca>
+		<ce>1</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public String getYear()">1</method>
+			<method name="public void setYear(String arg0)">1</method>
+			<method name="public String getMinute()">1</method>
+			<method name="public String getMonth()">1</method>
+			<method name="public void setMonth(String arg0)">1</method>
+			<method name="public void setDay(String arg0)">1</method>
+			<method name="public String getHour()">1</method>
+			<method name="public void setMinute(String arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.TimeSlotsType getTimeSlots()">1</method>
+			<method name="public void setTimeSlots(no.bring.logistics.shippingguide._1.TimeSlotsType arg0)">1</method>
+			<method name="public String getDay()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setHour(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.UnitCodeLengthType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>29</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.4</amc>
+		<cc>
+			<method name="public String getUnitCode()">2</method>
+			<method name="public void setUnitCode(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.UnitCodeWeightType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>29</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.4</amc>
+		<cc>
+			<method name="public String getUnitCode()">2</method>
+			<method name="public void setUnitCode(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineProductType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>6</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>6</moa>
+		<mfa>0.0</mfa>
+		<cam>0.18333333333333332</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineExpectedDeliveryTimesType getExpectedDeliveryTimes()">1</method>
+			<method name="public void setExpectedDeliveryTimes(no.bring.logistics.shippingguide._1.OfflineExpectedDeliveryTimesType arg0)">1</method>
+			<method name="public void setPriceZoneForPostalCode(no.bring.logistics.shippingguide._1.OfflinePriceZoneForPostalCodeType arg0)">1</method>
+			<method name="public String getProductId()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflinePriceZoneForPostalCodeType getPriceZoneForPostalCode()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineExpectedDeliveryTimesPerDayType getExpectedDeliveryTimesPerDay()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineProductAttributesType getProductAttributes()">1</method>
+			<method name="public void setProductAttributes(no.bring.logistics.shippingguide._1.OfflineProductAttributesType arg0)">1</method>
+			<method name="public void setPrices(no.bring.logistics.shippingguide._1.OfflinePricesType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineAdditionalPricesType getAdditionalPrices()">1</method>
+			<method name="public void setExpectedDeliveryTimesPerDay(no.bring.logistics.shippingguide._1.OfflineExpectedDeliveryTimesPerDayType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflinePricesType getPrices()">1</method>
+			<method name="public void setProductId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAdditionalPrices(no.bring.logistics.shippingguide._1.OfflineAdditionalPricesType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineRequestPropertiesType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getLanguage()">1</method>
+			<method name="public Boolean isEDI()">1</method>
+			<method name="public void setLanguage(String arg0)">1</method>
+			<method name="public Boolean isPostingAtPostoffice()">1</method>
+			<method name="public Boolean isWithExpectedDelivery()">1</method>
+			<method name="public void setSchemaVersion(String arg0)">1</method>
+			<method name="public void setWithPrice(Boolean arg0)">1</method>
+			<method name="public void setPostingAtPostoffice(Boolean arg0)">1</method>
+			<method name="public void setTrace(Boolean arg0)">1</method>
+			<method name="public Boolean isTrace()">1</method>
+			<method name="public Boolean isWithPrice()">1</method>
+			<method name="public String getSchemaVersion()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setWithExpectedDelivery(Boolean arg0)">1</method>
+			<method name="public void setEDI(Boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.TraceType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getMessage()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.PickupResponseType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.2909090909090909</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.TraceType getTraceMessages()">1</method>
+			<method name="public String getProductCodeInProductionSystem()">1</method>
+			<method name="public void setProductCodeInProductionSystem(String arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DetailedPriceType getPrice()">1</method>
+			<method name="public void setEarliestPickup(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getEarliestPickup()">1</method>
+			<method name="public void setLatestPickup(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getLatestPickup()">1</method>
+			<method name="public void setPrice(no.bring.logistics.shippingguide._1.DetailedPriceType arg0)">1</method>
+			<method name="public void setTraceMessages(no.bring.logistics.shippingguide._1.TraceType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.UnitCodeCubicType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>29</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.4</amc>
+		<cc>
+			<method name="public String getUnitCode()">2</method>
+			<method name="public void setUnitCode(String arg0)">1</method>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflinePricesType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPrice()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflinePriceZoneForPostalCodeType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getPriceZone()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineProductAttributesType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getProductAttribute()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AdditionalServiceInputParametersType$AdditonalServiceParameter</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getName()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setName(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineDataInformationType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setFormattedGeneratedDate(String arg0)">1</method>
+			<method name="public void setChecksum(String arg0)">1</method>
+			<method name="public boolean isEDI()">1</method>
+			<method name="public void setFormattedValidFromDate(String arg0)">1</method>
+			<method name="public String getFormattedValidFromDate()">1</method>
+			<method name="public boolean isPostingAtPostoffice()">1</method>
+			<method name="public void setPostingAtPostoffice(boolean arg0)">1</method>
+			<method name="public String getChecksum()">1</method>
+			<method name="public void setFromPostalCode(String arg0)">1</method>
+			<method name="public String getFormattedGeneratedDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getFromPostalCode()">1</method>
+			<method name="public void setEDI(boolean arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.DangerousGoodsType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUnNumber()">1</method>
+			<method name="public void setUnNumber(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineShippingGuideResponseType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.TraceType getTraceMessages()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineDataInformationType getDataInformation()">1</method>
+			<method name="public void setDataInformation(no.bring.logistics.shippingguide._1.OfflineDataInformationType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineProductsType getProducts()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setProducts(no.bring.logistics.shippingguide._1.OfflineProductsType arg0)">1</method>
+			<method name="public void setTraceMessages(no.bring.logistics.shippingguide._1.TraceType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.GuiInformationType</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.49122807017543857</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setProductName(String arg0)">1</method>
+			<method name="public String getHelpText()">1</method>
+			<method name="public String getDescriptionText()">1</method>
+			<method name="public void setMainDisplayCategory(String arg0)">1</method>
+			<method name="public String getProductName()">1</method>
+			<method name="public void setHelpText(String arg0)">1</method>
+			<method name="public void setMaxWeightInKgs(java.math.BigDecimal arg0)">1</method>
+			<method name="public void setSortOrder(String arg0)">1</method>
+			<method name="public void setDescriptionText(String arg0)">1</method>
+			<method name="public String getTip()">1</method>
+			<method name="public void setDisplayName(String arg0)">1</method>
+			<method name="public String getDisplayName()">1</method>
+			<method name="public String getSortOrder()">1</method>
+			<method name="public String getMainDisplayCategory()">1</method>
+			<method name="public java.math.BigDecimal getMaxWeightInKgs()">1</method>
+			<method name="public void setTip(String arg0)">1</method>
+			<method name="public void setSubDisplayCategory(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getSubDisplayCategory()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AdditionalServicePricesType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAdditionalService()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.PriceType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24358974358974358</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.DetailedPriceType getPackagePriceWithoutAdditionalServices()">1</method>
+			<method name="public void setAdditionalServicePrices(no.bring.logistics.shippingguide._1.AdditionalServicePricesType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DetailedPriceType getPackagePriceWithAdditionalServices()">1</method>
+			<method name="public String getCurrencyIdentificationCode()">1</method>
+			<method name="public Boolean isNetPriceFailed()">1</method>
+			<method name="public void setPackagePriceWithoutAdditionalServices(no.bring.logistics.shippingguide._1.DetailedPriceType arg0)">1</method>
+			<method name="public void setCurrencyIdentificationCode(String arg0)">1</method>
+			<method name="public void setNetPriceFailed(Boolean arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.CargoPriceAttributesType getCargoPriceAttributes()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServicePricesType getAdditionalServicePrices()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCargoPriceAttributes(no.bring.logistics.shippingguide._1.CargoPriceAttributesType arg0)">1</method>
+			<method name="public void setPackagePriceWithAdditionalServices(no.bring.logistics.shippingguide._1.DetailedPriceType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.UserInformationType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public String getClientURL()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setClientURL(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.UpsSpecificEdiParametersType</name>
+		<wmc>31</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>32</rfc>
+		<lcom>435</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>31</npm>
+		<lcom3>0.9666666666666667</lcom3>
+		<loc>154</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7419354838709677</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4838709677419355</amc>
+		<cc>
+			<method name="public String getUpsDocumentationIndicator1()">1</method>
+			<method name="public void setUpsServiceIcon(String arg0)">1</method>
+			<method name="public void setUpsServiceIndicator(String arg0)">1</method>
+			<method name="public String getLeg1CustomerNumber()">1</method>
+			<method name="public String getUpsDocumentationIndicator2()">1</method>
+			<method name="public void setBringStreamIndicator(String arg0)">1</method>
+			<method name="public void setUpsRoutingCode(String arg0)">1</method>
+			<method name="public String getUpsServiceIndicator()">1</method>
+			<method name="public String getUpsServiceIcon()">1</method>
+			<method name="public void setLeg1TransportServiceProvider(String arg0)">1</method>
+			<method name="public String getUpsClassOfService()">1</method>
+			<method name="public void setUpsAccountNumber(String arg0)">1</method>
+			<method name="public String getUpsRoutingCodeVersion()">1</method>
+			<method name="public String getUpsRoutingCode()">1</method>
+			<method name="public String getUpsAccountNumber()">1</method>
+			<method name="public void setStateProvinceCounty(String arg0)">1</method>
+			<method name="public void setUpsClassOfService(String arg0)">1</method>
+			<method name="public String getUpsServiceTitle()">1</method>
+			<method name="public void setUpsSignatureRequiredString(String arg0)">1</method>
+			<method name="public String getUpsSignatureRequiredString()">1</method>
+			<method name="public String getStateProvinceCounty()">1</method>
+			<method name="public void setLeg1CustomerNumber(String arg0)">1</method>
+			<method name="public String getLeg1TransportServiceProvider()">1</method>
+			<method name="public String getBringStreamIndicator()">1</method>
+			<method name="public void setUpsBillingOption(String arg0)">1</method>
+			<method name="public String getUpsBillingOption()">1</method>
+			<method name="public void setUpsDocumentationIndicator1(String arg0)">1</method>
+			<method name="public void setUpsServiceTitle(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setUpsRoutingCodeVersion(String arg0)">1</method>
+			<method name="public void setUpsDocumentationIndicator2(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AdditionalPriceType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getAdditionalPriceId()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAdditionalPriceId(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AdditionalServiceInputType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4666666666666667</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setAdditionalServiceId(String arg0)">1</method>
+			<method name="public void setAdditionalServiceParameters(no.bring.logistics.shippingguide._1.AdditionalServiceInputParametersType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServiceInputParametersType getAdditionalServiceParameters()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAdditionalServiceId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.PackageOutputType</name>
+		<wmc>4</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>4</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>4</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>27</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.625</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>5.25</amc>
+		<cc>
+			<method name="public String getPackageId()">1</method>
+			<method name="public java.util.List getProduct()">2</method>
+			<method name="public void setPackageId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ExpectedDeliveryPerDayType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7307692307692307</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setMonday(String arg0)">1</method>
+			<method name="public String getTuesday()">1</method>
+			<method name="public String getToPostalCode()">1</method>
+			<method name="public String getWednesday()">1</method>
+			<method name="public String getMonday()">1</method>
+			<method name="public void setWednesday(String arg0)">1</method>
+			<method name="public void setToPostalCode(String arg0)">1</method>
+			<method name="public void setThursday(String arg0)">1</method>
+			<method name="public String getThursday()">1</method>
+			<method name="public void setTuesday(String arg0)">1</method>
+			<method name="public void setFriday(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getFriday()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.PickupRequestType</name>
+		<wmc>13</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>14</rfc>
+		<lcom>66</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>13</npm>
+		<lcom3>0.9166666666666666</lcom3>
+		<loc>64</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48717948717948717</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4615384615384617</amc>
+		<cc>
+			<method name="public void setCountryCode(String arg0)">1</method>
+			<method name="public void setPostalCode(String arg0)">1</method>
+			<method name="public String getProductId()">1</method>
+			<method name="public void setShippingDate(javax.xml.datatype.XMLGregorianCalendar arg0)">1</method>
+			<method name="public void setClientURL(String arg0)">1</method>
+			<method name="public String getPostalCode()">1</method>
+			<method name="public void setSchemaVersion(String arg0)">1</method>
+			<method name="public String getClientURL()">1</method>
+			<method name="public String getSchemaVersion()">1</method>
+			<method name="public javax.xml.datatype.XMLGregorianCalendar getShippingDate()">1</method>
+			<method name="public void setProductId(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCountryCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.PackagesInputType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPackage()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ProductOutputType</name>
+		<wmc>21</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>8</cbo>
+		<rfc>22</rfc>
+		<lcom>190</lcom>
+		<ca>1</ca>
+		<ce>7</ce>
+		<npm>21</npm>
+		<lcom3>0.95</lcom3>
+		<loc>104</loc>
+		<dam>1.0</dam>
+		<moa>8</moa>
+		<mfa>0.0</mfa>
+		<cam>0.164021164021164</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4761904761904763</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.CargoSpecificEdiParametersType getCargoSpecificEdiParameters()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PriceType getNetPrice()">1</method>
+			<method name="public void setProductCodeInProductionSystem(String arg0)">1</method>
+			<method name="public void setNetPrice(no.bring.logistics.shippingguide._1.PriceType arg0)">1</method>
+			<method name="public void setCourierSpecificEdiParameters(no.bring.logistics.shippingguide._1.CourierSpecificEdiParametersType arg0)">1</method>
+			<method name="public void setEnvironmentalInfo(no.bring.logistics.shippingguide._1.EnvironmentalInfoType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.GuiInformationType getGuiInformation()">1</method>
+			<method name="public void setPrice(no.bring.logistics.shippingguide._1.PriceType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.EnvironmentalInfoType getEnvironmentalInfo()">1</method>
+			<method name="public String getProductId()">1</method>
+			<method name="public void setQuickpackSpecificEdiParameters(no.bring.logistics.shippingguide._1.QuickpackSpecificEdiParametersType arg0)">1</method>
+			<method name="public void setExpectedDelivery(no.bring.logistics.shippingguide._1.ExpectedDeliveryType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.QuickpackSpecificEdiParametersType getQuickpackSpecificEdiParameters()">1</method>
+			<method name="public String getProductCodeInProductionSystem()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ExpectedDeliveryType getExpectedDelivery()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.CourierSpecificEdiParametersType getCourierSpecificEdiParameters()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PriceType getPrice()">1</method>
+			<method name="public void setProductId(String arg0)">1</method>
+			<method name="public void setGuiInformation(no.bring.logistics.shippingguide._1.GuiInformationType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCargoSpecificEdiParameters(no.bring.logistics.shippingguide._1.CargoSpecificEdiParametersType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineWorkingDaysType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getToPostalCode()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setToPostalCode(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.EnvironmentalInfoType</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public void setGramsOfCO2Emitted(String arg0)">1</method>
+			<method name="public String getGramsOfCO2Emitted()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AdditionalServicePriceType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setAdditionalServiceDescription(String arg0)">1</method>
+			<method name="public void setAdditionalServiceId(String arg0)">1</method>
+			<method name="public String getAdditionalServiceDescription()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DetailedPriceType getAdditionalServicePrice()">1</method>
+			<method name="public void setAdditionalServiceCodeFromProductionSystem(String arg0)">1</method>
+			<method name="public String getAdditionalServiceCodeFromProductionSystem()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAdditionalServicePrice(no.bring.logistics.shippingguide._1.DetailedPriceType arg0)">1</method>
+			<method name="public String getAdditionalServiceId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AlternativeDeliveryDateType</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>10</rfc>
+		<lcom>28</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>9</npm>
+		<lcom3>0.875</lcom3>
+		<loc>44</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.48148148148148145</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4444444444444446</amc>
+		<cc>
+			<method name="public void setUserMessage(String arg0)">1</method>
+			<method name="public String getFormattedExpectedDeliveryDate()">1</method>
+			<method name="public void setExpectedDeliveryDate(no.bring.logistics.shippingguide._1.DateAndTimeType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DateAndTimeType getExpectedDeliveryDate()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getUserMessage()">1</method>
+			<method name="public void setFormattedExpectedDeliveryDate(String arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DateAndTimeType getShippingDate()">1</method>
+			<method name="public void setShippingDate(no.bring.logistics.shippingguide._1.DateAndTimeType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineAdditionalPricesType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAdditionalPrice()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AdditionalServiceInputParametersType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getAdditonalServiceParameter()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineExpectedDeliveryTimesType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getWorkingDays()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineProductsType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getProduct()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AlternativeDeliveryDatesType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAlternativeDeliveryDate()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.DetailedPriceType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>4</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setAmountWithVAT(String arg0)">1</method>
+			<method name="public void setVAT(String arg0)">1</method>
+			<method name="public String getVAT()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setAmountWithoutVAT(String arg0)">1</method>
+			<method name="public String getAmountWithVAT()">1</method>
+			<method name="public String getAmountWithoutVAT()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ConsignmentInputType</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.29473684210526313</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setEarlyCollectionAtTerminal(String arg0)">1</method>
+			<method name="public void setToCity(String arg0)">1</method>
+			<method name="public String getToPostalCode()">1</method>
+			<method name="public void setToCountryCode(String arg0)">1</method>
+			<method name="public void setDangerousGoods(no.bring.logistics.shippingguide._1.DangerousGoodsType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DangerousGoodsType getDangerousGoods()">1</method>
+			<method name="public String getFromCountryCode()">1</method>
+			<method name="public void setToPostalCode(String arg0)">1</method>
+			<method name="public void setShippingDate(no.bring.logistics.shippingguide._1.DateAndTimeType arg0)">1</method>
+			<method name="public void setAdditionalServices(no.bring.logistics.shippingguide._1.AdditionalServicesInputType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServicesInputType getAdditionalServices()">1</method>
+			<method name="public void setFromPostalCode(String arg0)">1</method>
+			<method name="public void setFromCountryCode(String arg0)">1</method>
+			<method name="public String getEarlyCollectionAtTerminal()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getToCountryCode()">1</method>
+			<method name="public String getToCity()">1</method>
+			<method name="public String getFromPostalCode()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DateAndTimeType getShippingDate()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.CourierSpecificEdiParametersType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.4888888888888889</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public String getOperationsID()">1</method>
+			<method name="public void setOperationsID(String arg0)">1</method>
+			<method name="public void setNumberOfKilometers(java.math.BigInteger arg0)">1</method>
+			<method name="public java.math.BigInteger getNumberOfKilometers()">1</method>
+			<method name="public String getFromRegion()">1</method>
+			<method name="public String getToRegion()">1</method>
+			<method name="public void setFromZone(String arg0)">1</method>
+			<method name="public void setToRegion(String arg0)">1</method>
+			<method name="public void setDepartment(String arg0)">1</method>
+			<method name="public String getToZone()">1</method>
+			<method name="public void setFromRegion(String arg0)">1</method>
+			<method name="public String getFromZone()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setToZone(String arg0)">1</method>
+			<method name="public String getDepartment()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.CargoSpecificEdiParametersType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setDispatchAgentNumber(String arg0)">1</method>
+			<method name="public void setCargoProduct(String arg0)">1</method>
+			<method name="public String getDispatchAgentNumber()">1</method>
+			<method name="public void setCargoTransportType(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getCargoTransportType()">1</method>
+			<method name="public String getCargoProduct()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.CargoPriceAttributesType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7142857142857143</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public void setAgreementName(String arg0)">1</method>
+			<method name="public void setSubAgreementNumber(String arg0)">1</method>
+			<method name="public void setAgreementNumber(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getAgreementNumber()">1</method>
+			<method name="public String getAgreementName()">1</method>
+			<method name="public String getSubAgreementNumber()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.AdditionalServicesInputType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getAdditionalService()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.DayTimeType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public String getMinute()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getHour()">1</method>
+			<method name="public void setHour(String arg0)">1</method>
+			<method name="public void setMinute(String arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineShippingGuideRequestType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>6</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>4</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>4</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24242424242424243</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.ProductIdsType getProductIds()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UserInformationType getUserInformation()">1</method>
+			<method name="public void setProductIds(no.bring.logistics.shippingguide._1.ProductIdsType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineRequestPropertiesType getOfflineRequestProperties()">1</method>
+			<method name="public void setFromPostalCode(String arg0)">1</method>
+			<method name="public void setOfflineRequestProperties(no.bring.logistics.shippingguide._1.OfflineRequestPropertiesType arg0)">1</method>
+			<method name="public void setValidFromDate(no.bring.logistics.shippingguide._1.DateAndTimeType arg0)">1</method>
+			<method name="public void setUserInformation(no.bring.logistics.shippingguide._1.UserInformationType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public no.bring.logistics.shippingguide._1.DateAndTimeType getValidFromDate()">1</method>
+			<method name="public String getFromPostalCode()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineProductAttributeType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public void setProductAttributeId(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public String getProductAttributeId()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ObjectFactory</name>
+		<wmc>68</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>60</cbo>
+		<rfc>131</rfc>
+		<lcom>2266</lcom>
+		<ca>0</ca>
+		<ce>60</ce>
+		<npm>67</npm>
+		<lcom3>0.9850746268656716</lcom3>
+		<loc>402</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.15565031982942432</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>4.823529411764706</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.PickupResponseType createPickupResponseType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineProductAttributeType createOfflineProductAttributeType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineProductsType createOfflineProductsType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ExpectedDeliveryPerDayType createExpectedDeliveryPerDayType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineProductAttributesType createOfflineProductAttributesType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOfflineShippingGuideRequest(no.bring.logistics.shippingguide._1.OfflineShippingGuideRequestType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ShippingGuideRequestType createShippingGuideRequestType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineDataInformationType createOfflineDataInformationType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.GuiInformationType createGuiInformationType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServicePricesType createAdditionalServicePricesType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineWorkingDaysType createOfflineWorkingDaysType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.EnvironmentalInfoType createEnvironmentalInfoType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.CargoPriceAttributesType createCargoPriceAttributesType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PackagesOutputType createPackagesOutputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PackageOutputType createPackageOutputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DetailedPriceType createDetailedPriceType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.TimeSlotsType createTimeSlotsType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PackageInputType createPackageInputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflinePriceType createOfflinePriceType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createOfflineShippingGuideResponse(no.bring.logistics.shippingguide._1.OfflineShippingGuideResponseType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServicesInputType createAdditionalServicesInputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServiceInputParametersType$AdditonalServiceParameter createAdditionalServiceInputParametersTypeAdditonalServiceParameter()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflinePricesType createOfflinePricesType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalPriceType createAdditionalPriceType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.TraceType createTraceType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineAdditionalPricesType createOfflineAdditionalPricesType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineExpectedDeliveryTimesPerDayType createOfflineExpectedDeliveryTimesPerDayType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AlternativeDeliveryDatesType createAlternativeDeliveryDatesType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PickupRequestType createPickupRequestType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineExpectedDeliveryTimesType createOfflineExpectedDeliveryTimesType()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public no.bring.logistics.shippingguide._1.ProductOutputType createProductOutputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AlternativeDeliveryDateType createAlternativeDeliveryDateType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPickupRequest(no.bring.logistics.shippingguide._1.PickupRequestType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UnitCodeWeightType createUnitCodeWeightType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.CargoSpecificEdiParametersType createCargoSpecificEdiParametersType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineProductType createOfflineProductType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingGuideResponse(no.bring.logistics.shippingguide._1.ShippingGuideResponseType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UserInformationType createUserInformationType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServicePriceType createAdditionalServicePriceType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UpsSpecificEdiParametersType createUpsSpecificEdiParametersType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.RequestPropertiesType createRequestPropertiesType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServiceInputType createAdditionalServiceInputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.QuickpackSpecificEdiParametersType createQuickpackSpecificEdiParametersType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflinePriceZoneType createOfflinePriceZoneType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DateAndTimeType createDateAndTimeType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ProductIdsType createProductIdsType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ProductIdType createProductIdType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AdditionalServiceInputParametersType createAdditionalServiceInputParametersType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PackagesInputType createPackagesInputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ConsignmentInputType createConsignmentInputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UnitCodeCubicType createUnitCodeCubicType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineShippingGuideResponseType createOfflineShippingGuideResponseType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineShippingGuideRequestType createOfflineShippingGuideRequestType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DangerousGoodsType createDangerousGoodsType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PriceType createPriceType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ConsignmentOutputType createConsignmentOutputType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DayTimeType createDayTimeType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UnitCodeLengthType createUnitCodeLengthType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createPickupResponse(no.bring.logistics.shippingguide._1.PickupResponseType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflinePriceZoneForPostalCodeType createOfflinePriceZoneForPostalCodeType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ShippingGuideResponseType createShippingGuideResponseType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.TimeSlotType createTimeSlotType()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createShippingGuideRequest(no.bring.logistics.shippingguide._1.ShippingGuideRequestType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public no.bring.logistics.shippingguide._1.ExpectedDeliveryType createExpectedDeliveryType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.CourierSpecificEdiParametersType createCourierSpecificEdiParametersType()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.OfflineRequestPropertiesType createOfflineRequestPropertiesType()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.TimeSlotType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>2</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.DayTimeType getStartTime()">1</method>
+			<method name="public void setStartTime(no.bring.logistics.shippingguide._1.DayTimeType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DayTimeType getEndTime()">1</method>
+			<method name="public void setEndTime(no.bring.logistics.shippingguide._1.DayTimeType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ExpectedDeliveryType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>2</ca>
+		<ce>2</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setUserMessage(String arg0)">1</method>
+			<method name="public void setWorkingDays(String arg0)">1</method>
+			<method name="public void setExpectedDeliveryDate(no.bring.logistics.shippingguide._1.DateAndTimeType arg0)">1</method>
+			<method name="public void setAlternativeDeliveryDates(no.bring.logistics.shippingguide._1.AlternativeDeliveryDatesType arg0)">1</method>
+			<method name="public String getFormattedEarliestPickupDate()">1</method>
+			<method name="public String getUserMessage()">1</method>
+			<method name="public void setFormattedExpectedDeliveryDate(String arg0)">1</method>
+			<method name="public String getFormattedExpectedDeliveryDate()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.AlternativeDeliveryDatesType getAlternativeDeliveryDates()">1</method>
+			<method name="public void setFormattedEarliestPickupDate(String arg0)">1</method>
+			<method name="public String getWorkingDays()">1</method>
+			<method name="public void setEarliestPickupDate(no.bring.logistics.shippingguide._1.DateAndTimeType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DateAndTimeType getExpectedDeliveryDate()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.DateAndTimeType getEarliestPickupDate()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.PackagesOutputType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getPackage()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ProductIdsType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public java.util.List getProductId()">2</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.Fraktguide</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>3</rfc>
+		<lcom>3</lcom>
+		<ca>1</ca>
+		<ce>6</ce>
+		<npm>3</npm>
+		<lcom3>2.0</lcom3>
+		<loc>3</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract no.bring.logistics.shippingguide._1.ShippingGuideResponseType shippingGuide(no.bring.logistics.shippingguide._1.ShippingGuideRequestType)">1</method>
+			<method name="public abstract no.bring.logistics.shippingguide._1.OfflineShippingGuideResponseType offlineShippingGuide(no.bring.logistics.shippingguide._1.OfflineShippingGuideRequestType)">1</method>
+			<method name="public abstract no.bring.logistics.shippingguide._1.PickupResponseType pickup(no.bring.logistics.shippingguide._1.PickupRequestType)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ShippingGuideRequestType</name>
+		<wmc>11</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>7</cbo>
+		<rfc>12</rfc>
+		<lcom>45</lcom>
+		<ca>2</ca>
+		<ce>5</ce>
+		<npm>11</npm>
+		<lcom3>0.9</lcom3>
+		<loc>54</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24242424242424243</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4545454545454546</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.ProductIdsType getProductIds()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UserInformationType getUserInformation()">1</method>
+			<method name="public void setRequestProperties(no.bring.logistics.shippingguide._1.RequestPropertiesType arg0)">1</method>
+			<method name="public void setProductIds(no.bring.logistics.shippingguide._1.ProductIdsType arg0)">1</method>
+			<method name="public void setPackages(no.bring.logistics.shippingguide._1.PackagesInputType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.RequestPropertiesType getRequestProperties()">1</method>
+			<method name="public void setUserInformation(no.bring.logistics.shippingguide._1.UserInformationType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PackagesInputType getPackages()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public no.bring.logistics.shippingguide._1.ConsignmentInputType getConsignment()">1</method>
+			<method name="public void setConsignment(no.bring.logistics.shippingguide._1.ConsignmentInputType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ShippingGuideResponseType</name>
+		<wmc>7</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>5</cbo>
+		<rfc>8</rfc>
+		<lcom>15</lcom>
+		<ca>2</ca>
+		<ce>3</ce>
+		<npm>7</npm>
+		<lcom3>0.8333333333333334</lcom3>
+		<loc>34</loc>
+		<dam>1.0</dam>
+		<moa>3</moa>
+		<mfa>0.0</mfa>
+		<cam>0.35714285714285715</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4285714285714284</amc>
+		<cc>
+			<method name="public no.bring.logistics.shippingguide._1.TraceType getTraceMessages()">1</method>
+			<method name="public void setPackages(no.bring.logistics.shippingguide._1.PackagesOutputType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.PackagesOutputType getPackages()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.ConsignmentOutputType getConsignment()">1</method>
+			<method name="public void setConsignment(no.bring.logistics.shippingguide._1.ConsignmentOutputType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setTraceMessages(no.bring.logistics.shippingguide._1.TraceType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.PackageInputType</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>4</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>3</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>5</moa>
+		<mfa>0.0</mfa>
+		<cam>0.24444444444444444</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public void setGrossWeight(no.bring.logistics.shippingguide._1.UnitCodeWeightType arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UnitCodeCubicType getVolume()">1</method>
+			<method name="public void setPackageId(String arg0)">1</method>
+			<method name="public void setHeight(no.bring.logistics.shippingguide._1.UnitCodeLengthType arg0)">1</method>
+			<method name="public void setWidth(no.bring.logistics.shippingguide._1.UnitCodeLengthType arg0)">1</method>
+			<method name="public void setVolumeSpecial(Boolean arg0)">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UnitCodeLengthType getWidth()">1</method>
+			<method name="public Boolean isVolumeSpecial()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UnitCodeLengthType getHeight()">1</method>
+			<method name="public String getPackageId()">1</method>
+			<method name="public no.bring.logistics.shippingguide._1.UnitCodeWeightType getGrossWeight()">1</method>
+			<method name="public void setLength(no.bring.logistics.shippingguide._1.UnitCodeLengthType arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public no.bring.logistics.shippingguide._1.UnitCodeLengthType getLength()">1</method>
+			<method name="public void setVolume(no.bring.logistics.shippingguide._1.UnitCodeCubicType arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.OfflineExpectedDeliveryTimesPerDayType</name>
+		<wmc>2</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>2</ca>
+		<ce>0</ce>
+		<npm>2</npm>
+		<lcom3>1.0</lcom3>
+		<loc>17</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>7.0</amc>
+		<cc>
+			<method name="public void _init_()">0</method>
+			<method name="public java.util.List getExpectedDeliveryPerDay()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>no.bring.logistics.shippingguide._1.ProductIdType</name>
+		<wmc>5</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>6</rfc>
+		<lcom>6</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>5</npm>
+		<lcom3>0.75</lcom3>
+		<loc>24</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.7</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.4</amc>
+		<cc>
+			<method name="public void setValue(String arg0)">1</method>
+			<method name="public String getValue()">1</method>
+			<method name="public String getCustomerNumber()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public void setCustomerNumber(String arg0)">1</method>
+		</cc>
+	</class>

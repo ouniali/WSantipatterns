@@ -1,0 +1,218 @@
+	<class>
+		<name>defaultnamespace.Latex_Service</name>
+		<wmc>10</wmc>
+		<dit>2</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>18</rfc>
+		<lcom>23</lcom>
+		<ca>0</ca>
+		<ce>1</ce>
+		<npm>8</npm>
+		<lcom3>0.6296296296296297</lcom3>
+		<loc>96</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.8846153846153846</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.3</amc>
+		<cc>
+			<method name="public transient void _init_(javax.xml.ws.WebServiceFeature[] arg0)">0</method>
+			<method name="public void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1)">0</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.ws.WebServiceFeature[] arg1)">0</method>
+			<method name="public transient defaultnamespace.Latex getLatexHttpPort(javax.xml.ws.WebServiceFeature[] arg0)">1</method>
+			<method name="public transient void _init_(java.net.URL arg0, javax.xml.namespace.QName arg1, javax.xml.ws.WebServiceFeature[] arg2)">0</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public void _init_(java.net.URL arg0)">0</method>
+			<method name="public defaultnamespace.Latex getLatexHttpPort()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="private static java.net.URL __getWsdlLocation()">2</method>
+		</cc>
+	</class>
+	<class>
+		<name>defaultnamespace.ObjectFactory</name>
+		<wmc>9</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>15</rfc>
+		<lcom>28</lcom>
+		<ca>0</ca>
+		<ce>3</ce>
+		<npm>8</npm>
+		<lcom3>0.875</lcom3>
+		<loc>86</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.5</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>8.11111111111111</amc>
+		<cc>
+			<method name="public defaultnamespace.CompileResponse createCompileResponse()">1</method>
+			<method name="public defaultnamespace.Compile createCompile()">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSOAPlatexResultError(String arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement createSOAPlatexResultUrl(String arg0)">1</method>
+			<method name="public defaultnamespace.SOAPlatexResult createSOAPlatexResult()">1</method>
+			<method name="static void _clinit_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createSOAPlatexResultFileExt(String arg0)">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public javax.xml.bind.JAXBElement createSOAPlatexResultData(byte[] arg0)">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>defaultnamespace.package-info</name>
+		<wmc>0</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>0</cbo>
+		<rfc>0</rfc>
+		<lcom>0</lcom>
+		<ca>0</ca>
+		<ce>0</ce>
+		<npm>0</npm>
+		<lcom3>2.0</lcom3>
+		<loc>0</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+		</cc>
+	</class>
+	<class>
+		<name>defaultnamespace.Compile</name>
+		<wmc>15</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>1</cbo>
+		<rfc>16</rfc>
+		<lcom>91</lcom>
+		<ca>1</ca>
+		<ce>0</ce>
+		<npm>15</npm>
+		<lcom3>0.9285714285714286</lcom3>
+		<loc>74</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.36666666666666664</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.466666666666667</amc>
+		<cc>
+			<method name="public int getDpi()">1</method>
+			<method name="public void setOchem(boolean arg0)">1</method>
+			<method name="public void setDeviceInfo(String arg0)">1</method>
+			<method name="public boolean isEmbeddedData()">1</method>
+			<method name="public String getDeviceInfo()">1</method>
+			<method name="public void setUtf8(boolean arg0)">1</method>
+			<method name="public void setEmbeddedData(boolean arg0)">1</method>
+			<method name="public void setDevice(String arg0)">1</method>
+			<method name="public void setSource(String arg0)">1</method>
+			<method name="public boolean isUtf8()">1</method>
+			<method name="public String getDevice()">1</method>
+			<method name="public void setDpi(int arg0)">1</method>
+			<method name="public String getSource()">1</method>
+			<method name="public boolean isOchem()">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>defaultnamespace.CompileResponse</name>
+		<wmc>3</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>4</rfc>
+		<lcom>1</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>3</npm>
+		<lcom3>0.5</lcom3>
+		<loc>14</loc>
+		<dam>1.0</dam>
+		<moa>1</moa>
+		<mfa>0.0</mfa>
+		<cam>0.6666666666666666</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.3333333333333335</amc>
+		<cc>
+			<method name="public defaultnamespace.SOAPlatexResult getOut()">1</method>
+			<method name="public void setOut(defaultnamespace.SOAPlatexResult arg0)">1</method>
+			<method name="public void _init_()">0</method>
+		</cc>
+	</class>
+	<class>
+		<name>defaultnamespace.SOAPlatexResult</name>
+		<wmc>19</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>3</cbo>
+		<rfc>20</rfc>
+		<lcom>153</lcom>
+		<ca>3</ca>
+		<ce>0</ce>
+		<npm>19</npm>
+		<lcom3>0.9444444444444444</lcom3>
+		<loc>94</loc>
+		<dam>1.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>0.3684210526315789</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>3.473684210526316</amc>
+		<cc>
+			<method name="public void setSuccess(Boolean arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getUrl()">1</method>
+			<method name="public void setError(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setUrl(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public void setEmbeddedData(Boolean arg0)">1</method>
+			<method name="public void setData(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public Boolean isSuccess()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getData()">1</method>
+			<method name="public void setWidth(Integer arg0)">1</method>
+			<method name="public void setFileExt(javax.xml.bind.JAXBElement arg0)">1</method>
+			<method name="public javax.xml.bind.JAXBElement getError()">1</method>
+			<method name="public void setHeight(Integer arg0)">1</method>
+			<method name="public void setSize(Integer arg0)">1</method>
+			<method name="public Integer getSize()">1</method>
+			<method name="public Boolean isEmbeddedData()">1</method>
+			<method name="public javax.xml.bind.JAXBElement getFileExt()">1</method>
+			<method name="public void _init_()">0</method>
+			<method name="public Integer getHeight()">1</method>
+			<method name="public Integer getWidth()">1</method>
+		</cc>
+	</class>
+	<class>
+		<name>defaultnamespace.Latex</name>
+		<wmc>1</wmc>
+		<dit>1</dit>
+		<noc>0</noc>
+		<cbo>2</cbo>
+		<rfc>1</rfc>
+		<lcom>0</lcom>
+		<ca>1</ca>
+		<ce>1</ce>
+		<npm>1</npm>
+		<lcom3>2.0</lcom3>
+		<loc>1</loc>
+		<dam>0.0</dam>
+		<moa>0</moa>
+		<mfa>0.0</mfa>
+		<cam>1.0</cam>
+		<ic>0</ic>
+		<cbm>0</cbm>
+		<amc>0.0</amc>
+		<cc>
+			<method name="public abstract defaultnamespace.SOAPlatexResult compile(String, String, String, int, boolean, boolean, boolean)">1</method>
+		</cc>
+	</class>
